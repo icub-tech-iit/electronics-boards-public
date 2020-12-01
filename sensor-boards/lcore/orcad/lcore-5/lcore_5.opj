@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\lcore_5.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"
+         "d:\icubhardware\electronics\private\p2011_19_lcore\schematics\lcore_5\lcore_5.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 151"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1665 50 569")
+        (Scroll "133 400")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path
+         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2011_19_LCORE\SCHEMATICS\LCORE_5\LCORE_5.DSN")
+      (Schematic "LCORE")
+      (Page "LCORE")))
+  (MPSSessionName "mmaggiali"))

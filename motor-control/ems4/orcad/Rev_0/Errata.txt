@@ -1,0 +1,16 @@
+EMS4 PCB release 0 errata/corrige:
+
+1) The interrupt signals from devices U12 e U13 (accelerometer and gyroscope) 
+   were not correctly labeled so they are not properly routed:
+   - The interrupts from U12 do not reach the microcontroller
+   - The interrupts from U13 are not termitated with a pullup-resistor
+   This error should be corrected as follows:
+   - Schematic page 7: The pins INT1 and INT2 of U12 must be connected to the
+     signals ~EXIRQ8 and ~EXIRQ9
+   - Schematic page 7: The pins INT and DRDY of U13 must be connected to the
+     signals ~EXIRQ11 and ~EXIRQ12
+   - Schematic page 2: The inter-sheet reference ~EXTIRQ0 and ~EXTIRQ1
+     must be renamed ~EXTIRQ11 and ~EXTIRQ12
+   - Schematic page 2: The pullup resistors R139 an R140 must be connected to
+     the signals ~EXIRQ8 and ~EXIRQ9
+

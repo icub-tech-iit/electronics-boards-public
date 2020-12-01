@@ -1,0 +1,132 @@
+
+Schematic unused pins from : Packager  3-Aug-2018  10:28
+
+------------------------------------------------------------------------
+            Part/Reference             |          Unused pins
+                                       |  (G) - Gate, (P) - Partial Gate
+------------------------------------------------------------------------
+ Part ACS711KEXLT-15AB-T               |
+  U15                                  | (P)  6
+  U16                                  | (P)  6
+ Part AT24CM01                         |
+ Part CAP-E-RAD-47UF-80V-20TOL         |
+ Part CAP-E-RAD-100UF-63V-20TOL        |
+ Part CAP-E-RAD-220UF-25V-20TOL        |
+ Part CAP-E-RAD-220UF-63V-20TOL        |
+ Part CAP-E-RAD-470UF-25V-20TOL        |
+ Part CAP-TANT-7343-47UF-35V-10TOL     |
+ Part CAP-0402-C0G-27PF-50V-5TOL       |
+ Part CAP-0402-C0G-47PF-50V-5TOL       |
+ Part CAP-0402-C0G-100PF-50V-5TOL      |
+ Part CAP-0402-C0G-220PF-50V-5TOL      |
+ Part CAP-0402-X5R-1UF-16V-10TOL       |
+ Part CAP-0402-X7R-1NF-50V-10TOL       |
+ Part CAP-0402-X7R-10NF-50V-10TOL      |
+ Part CAP-0402-X7R-22NF-50V-10TOL      |
+ Part CAP-0402-X7R-47NF-25V-10TOL      |
+ Part CAP-0402-X7R-100NF-16V-10TOL     |
+ Part CAP-0402-X7R-330PF-50V-10TOL     |
+ Part CAP-0402-X7R-680PF-50V-10TOL     |
+ Part CAP-0402-Y5V-100NF-25V-10TOL     |
+ Part CAP-0603-X7R-100NF-50V-10TOL     |
+ Part CAP-0603-X7R-470NF-16V-10TOL     |
+ Part CAP-0805-X7R-1UF-25V-10TOL       |
+ Part CAP-0805-X7R-100NF-100V-10TOL    |
+ Part CAP-1210-X5R-100UF-6V3-10TOL     |
+ Part CAP-1210-X7R-1UF-100V-10TOL      |
+ Part CM-FILTER-7X4-330uH-0A3-80VDC    |
+ Part FBEAD-0402-120RX100MHZ-0A5       |
+ Part FBEADAR-0804-600RX100MHZ-0A1     |
+ Part IND-5X5-33UH-820MA-10TOL         |
+ Part IND-11X10-15UH-13A8-20TOL        |
+ Part IRFR4510TRPBF                    |
+ Part LED-D300-BLUE-3V2-470MCD         |
+ Part LED-0603-BLUE-4V-100MCD          |
+ Part LED-0603-GREEN-2V-40MCD          |
+ Part LED-0603-ORANGE-2V-40mcd         |
+ Part LED-0603-RED-2V-40MCD            |
+ Part LM5050-1                         |
+ Part LM5088MH                         |
+ Part LM5575MH                         |
+  U13                                  | (P)  4
+  U14                                  | (P)  4
+ Part MAX3051                          |
+ Part MBRB20H100CT                     |
+ Part MBRS3100T3G                      |
+ Part MICROFIT-2X1-MALE90-P300         |
+ Part MICROFIT-2X2-MALE90-P300         |
+ Part MICROFIT-3X2-MALE90-P300         |
+ Part MINIFIT-2X2-MALESTR-P300         |
+ Part MMSZ4702T1G                      |
+ Part MOLEX-PICOSPOX-5X1-MALE90-P150   |
+ Part OXLEY-SMOX-TEST-MALE-0606-SMD    |
+ Part PICOBLADE-2X1-MALE90-P125        |
+  J21                                  | (P)  2 3 4
+  J22                                  | (P)  3 4
+  J23                                  | (P)  3 4
+  J24                                  | (P)  3 4
+  J25                                  | (P)  3 4
+ Part PICOBLADE-4X1-MALESTR-P125       |
+  J2                                   | (P)  5 6
+ Part PICOBLADE-4X1-MALE90-P125        |
+  J3                                   | (P)  5 6
+ Part PICOBLADE-5X1-MALESTR-P125       |
+ Part PICOBLADE-6X1-MALE90-P125        |
+  J4                                   | (P)  7 8
+  J6                                   | (P)  2
+ Part PICOBLADE-7X1-MALE90-P125        |
+  J20                                  | (P)  8 9
+ Part PINSTRIP-5X2-MALESTR-P127        |
+  J1                                   | (P)  6 7 8
+ Part RES-0402-0R-1TOL                 |
+ Part RES-0402-1K-1TOL                 |
+ Part RES-0402-1K3-1TOL                |
+ Part RES-0402-1K5-1TOL                |
+ Part RES-0402-2K-1TOL                 |
+ Part RES-0402-2K2-1TOL                |
+ Part RES-0402-3K3-1TOL                |
+ Part RES-0402-3K01-1TOL               |
+ Part RES-0402-4K7-1TOL                |
+ Part RES-0402-6K8-1TOL                |
+ Part RES-0402-8K2-0TOL1               |
+ Part RES-0402-10K-1TOL                |
+ Part RES-0402-10R-1TOL                |
+ Part RES-0402-12K-1TOL                |
+ Part RES-0402-15K-1TOL                |
+ Part RES-0402-18K-1TOL                |
+ Part RES-0402-22K-1TOL                |
+ Part RES-0402-47K-1TOL                |
+ Part RES-0402-68K-1TOL                |
+ Part RES-0402-75K-1TOL                |
+ Part RES-0402-100R-1TOL               |
+ Part RES-0402-120R-1TOL               |
+ Part RES-0402-150K-1TOL               |
+ Part RES-0402-220K-1TOL               |
+ Part RES-0402-220R-1TOL               |
+ Part RES-0402-330R-1TOL               |
+ Part RES-0402-470K-1TOL               |
+ Part RES-0402-470R-1TOL               |
+ Part RES-0603-10R-1TOL                |
+ Part RES-0603-100R-1TOL               |
+ Part RES-0603-120R-1TOL               |
+ Part RES-0805-1K-1TOL                 |
+ Part RES-0805-2K-1TOL                 |
+ Part RES-1224KELVIN-0R01-1TOL         |
+ Part RES-1224KELVIN-0R002-1TOL        |
+ Part RN4871-V-RM118                   |
+  U9                                   | (P)  5 6 15 9 4 11 3 1
+ Part SMAJ58CA                         |
+ Part SQM120N10-3M8                    |
+ Part SS19L                            |
+ Part STM32L476VET6                    |
+  U8                                   | (P)  70 78 54 37 89 90 77 79
+                                       |  81 83 84 82 85 98 46 1 2 3 4 5
+                                       |  73
+ Part TERMINAL-TEST-S1751-1206         |
+ Part TPS2493                          |
+  U12                                  | (P)  10
+ Part TXS0104ERGYR                     |
+  U11                                  | (P)  6 9
+ Part ZXMN2B14FH                       |
+ Part 5GSH9358222                      |
+ Part 8Z-16.000MAAJ-T                  |

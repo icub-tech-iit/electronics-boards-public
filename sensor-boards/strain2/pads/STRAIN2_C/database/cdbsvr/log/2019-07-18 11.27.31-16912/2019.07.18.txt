@@ -1,0 +1,150 @@
+[2019.07.18 11:27:31] [0000m.00s.046ms] [0] WELCOME
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] iCDB Server ver.2.204, w6NMT3m1DsvvLxNhuorv0Q, build:11695155 created 2018-10-03 12:34:59, sources stamp:w6NMT3m1DsvvLxNhuorv0Q
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Base flow version [VX.2.4]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Install Id [1845722], Flow Id [PADS VX.2.4], Full Flow Name [PADS VX.2.4], Exact Access Date [2018/08/01]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] UPDATE Install Info, Install Id [1939034], UPDATE Name [PADS VX.2.4 - Update 3]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Machine [IITICUBWS056]  IP [10.240.11.15,127.0.0.1]  User [MBorgagni]  PID [16912]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Operating system [Microsoft Business Edition, 64-bit (build 9200)]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Current working dir [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] PATH [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.4\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.4\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;%CDSROOT%\tools\pcb\bin;%CDSROOT%\tools\bin;%CDSROOT%\tools\libutil\bin;%CDSROOT%\tools\fet\bin;%CDSROOT%\tools\specctra\bin;%CDSROOT%\tools\pspice;%CDSROOT%\tools\capture;%CDSROOT%\openaccess\bin\win32\opt;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\CAMCAD]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.4\SDD_HOME] on file system [NTFS]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] SDD_PLATFORM [win32]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] WDIR [D:\repo\Pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\standard;]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Local iCDB working dir [D:\repo\Pads\iCubWDIR\iCDB] on file system [NTFS]
+[2019.07.18 11:27:31] [0000m.00s.046ms] [2] S: Loading config files
+[2019.07.18 11:27:31] [0000m.00s.046ms] [1] Config file [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database\cdbsvr\Server.cfg] not found
+[2019.07.18 11:27:31] [0000m.00s.046ms] [3] S: Config loaded
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Project path [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database] on file system [NTFS]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Project file (.prj) path [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\STRAIN2_C.prj] on file system [NTFS]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Single-user mode (auto)
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Event polling mode autodetection
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Started up automatically by iCDB Client: IITICUBWS056:MBorgagni:15264
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Auto close mode
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Database ID [565f-3fc8-7955-086c-a8ca-d2df-8cad-2d50-4da1-0251-8a3b-0a6b]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: BEGIN dumping
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: Local -> global path prefix list
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: Global -> local path prefix list
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] PathTranslator: END dumping
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: START
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Server startup lock file created
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Listening for client connections on port [10001]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Server network ID [IITICUBWS056:10.240.11.15,IITICUBWS056,IITICUBWS056.iit.local:10001]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Server GUID [4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Project GUID [565f-3fc8-7955-086c-a8ca-d2df-8cad-2d50-4da1-0251-8a3b-0a6b]
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Wrote data to server address file
+[2019.07.18 11:27:31] [0000m.00s.062ms] [0] S: Server startup lock file removed
+[2019.07.18 11:27:31] [0000m.00s.062ms] [1] ProjectBackupManager: Setting project file (.prj) path: [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\STRAIN2_C.prj]
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\iCDB\win32\bin]
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\bin]
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] S: Local disc access time: 30 us
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] S: File server access time: 28 us
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] Single file [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database\icdb.dat] size [91704 (89.6 kB)]
+[2019.07.18 11:27:31] [0000m.00s.517ms] [1] Single file [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database\icdb.dat] opened in read-write mode
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.18 11:27:31] [0000m.00s.517ms] [0] Database GUARD OK: [91704]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] Database GUARD OK: [91704]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] Database GUARD OK: [91704]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] Database GUARD OK: [91704]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] Single file [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database\icdb.dat] closed with size [91704 (89.6 kB)]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] iCDB Server PI: ERROR [Server Exception: Category[Server] Error[NewerDatabaseVersion] Description[Database is newer than application version, the project will not be opened.] Message[]]
+[2019.07.18 11:27:32] [0000m.01s.449ms] [0] S: ERROR: Database is newer than application version, the project will not be opened.
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] S: Starting threads
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] BT: Listening for broadcast messages on port [10000]
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - required data not set
+[2019.07.18 11:27:32] [0000m.01s.458ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2019.07.18 11:27:32] [0000m.01s.458ms] [2] ET: START
+[2019.07.18 11:27:32] [0000m.01s.458ms] [2] AT: START
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] IT: ERROR: Creating new session with client [IITICUBWS056:51468] using command [Server # ClientCommandID[1] # SubClientID[0] @ Hello # ServerGUID[4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b] # ProjectGUID[565f-3fc8-7955-086c-a8ca-d2df-8cad-2d50-4da1-0251-8a3b-0a6b] # ProjectPath[D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database] # PrjFilePath[D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\STRAIN2_C.prj] # ClientNetAddress[IITICUBWS056] # ClientUserName[MBorgagni] # ClientProcessID[15264] # ClientVersion[w6NMT3m1DsvvLxNhuorv0Q] # EventPolling[0] # ServerConfigName[] # Create[0] # ClientType[0] # ClsvrPluginID[0] # ClsvrPluginPID[0]]: Server Exception: Category[Server] Error[NewerDatabaseVersion] Description[Database is newer than application version, the project will not be opened.] Message[]
+[2019.07.18 11:27:32] [0000m.01s.458ms] [4] SMCL: Distributing notify to registered [General] iCDB Server Manager clients [NotifyServerStatus @ Version[1] # Id[Sender GUID[4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b] Command number[5]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[10001] # Status [Idle]]
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] IT: ERROR: Failed creating new session [0] with client [IITICUBWS056:51468]
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] IT: ERROR: Client [IITICUBWS056:51468] session initialization FAILED
+[2019.07.18 11:27:32] [0000m.01s.458ms] [0] MWT: WindowProc: WM_NCCREATE
+[2019.07.18 11:27:32] [0000m.01s.574ms] [0] S: Closing server
+[2019.07.18 11:27:32] [0000m.01s.574ms] [4] SMCL: Distributing notify to registered [General] iCDB Server Manager clients [NotifyServerStatus @ Version[1] # Id[Sender GUID[4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b] Command number[7]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[10001] # Status [Closing]]
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] IT: FREE
+[2019.07.18 11:27:32] [0000m.01s.574ms] [4] IT: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.574ms] [4] IT: Empty client connection popped from the waiting queue
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] IT: STOP
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: Suspend request
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] ET: SUSPENDED
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: Suspend request finished
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] SCL: Removing all clients
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: Discarding pending commands
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: Resume request
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: Resume request finished
+[2019.07.18 11:27:32] [0000m.01s.574ms] [0] ProjectBackupManager: WARNING: Could not shutdown Project Backup engine - not started yet
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] ET: RESUMED
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] ET: FREE
+[2019.07.18 11:27:32] [0000m.01s.574ms] [4] ET: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] ET: STOP
+[2019.07.18 11:27:32] [0000m.01s.574ms] [2] SCL: Stopping all send threads
+[2019.07.18 11:27:32] [0000m.01s.574ms] [3] CMT: FREE
+[2019.07.18 11:27:32] [0000m.01s.574ms] [4] CMT: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.690ms] [2] CMT: STOP
+[2019.07.18 11:27:32] [0000m.01s.690ms] [3] DMT: FREE
+[2019.07.18 11:27:32] [0000m.01s.690ms] [4] DMT: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.690ms] [2] DMT: STOP
+[2019.07.18 11:27:32] [0000m.01s.690ms] [3] DFAMT: FREE
+[2019.07.18 11:27:32] [0000m.01s.690ms] [4] DFAMT: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.706ms] [2] DFAMT: Filer project path [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database] access monitoring ended
+[2019.07.18 11:27:32] [0000m.01s.706ms] [2] DFAMT: STOP
+[2019.07.18 11:27:32] [0000m.01s.706ms] [4] DFAMT: FINISHED
+[2019.07.18 11:27:32] [0000m.01s.706ms] [3] DiagSystemMemoryMonitorThread: FREE
+[2019.07.18 11:27:32] [0000m.01s.706ms] [4] DiagSystemMemoryMonitorThread: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] DiagSystemMemoryMonitorThread: System memory usage monitoring ended
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] DiagSystemMemoryMonitorThread: STOP
+[2019.07.18 11:27:32] [0000m.01s.721ms] [4] DiagSystemMemoryMonitorThread: FINISHED
+[2019.07.18 11:27:32] [0000m.01s.721ms] [4] DMT: FINISHED
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] SCL: Removing all clients
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] SDL: Removing all connected iCDB Server Monitor
+[2019.07.18 11:27:32] [0000m.01s.721ms] [3] ST: FREE
+[2019.07.18 11:27:32] [0000m.01s.721ms] [4] ST: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] ST: STOP
+[2019.07.18 11:27:32] [0000m.01s.721ms] [3] MET: FREE
+[2019.07.18 11:27:32] [0000m.01s.721ms] [4] MET: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.721ms] [2] MET: STOP
+[2019.07.18 11:27:32] [0000m.01s.721ms] [3] MCE: FREE
+[2019.07.18 11:27:32] [0000m.01s.721ms] [3] AT: FREE
+[2019.07.18 11:27:32] [0000m.01s.721ms] [4] AT: Waiting for finish
+[2019.07.18 11:27:32] [0000m.01s.791ms] [2] AT: Removing server address file [D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database\cdbsvr\sAddress.adr]
+[2019.07.18 11:27:32] [0000m.01s.791ms] [2] AT: STOP
+[2019.07.18 11:27:32] [0000m.01s.791ms] [3] BT: FREE
+[2019.07.18 11:27:32] [0000m.01s.791ms] [4] BT: Waiting for finish
+[2019.07.18 11:27:33] [0000m.01s.891ms] [4] BT: Sending broadcast on port [10000]: NotifyProjectGlobalStatus @ Version[1] # Id[Sender GUID[4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b] Command number[8]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[0] # ProjectId [GUID[565f-3fc8-7955-086c-a8ca-d2df-8cad-2d50-4da1-0251-8a3b-0a6b] Address[Host[IITICUBWS056] Port[10001]] IsLauncher[FALSE] Launcher[GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Address[Host[] Port[0]]] Path[D:\repo\P2016_19_STRAIN2\PADS_PROJECTS\STRAIN2_C\database] ReadOnly[FALSE] Server GUID[4104-6e69-7c29-6e73-38b3-03d8-8b30-3d50-87f0-0251-8a3b-0a6b]] # Status [Shutdown]
+[2019.07.18 11:27:33] [0000m.01s.891ms] [2] BT: STOP
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] MWT: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [4] MWT: Waiting for finish
+[2019.07.18 11:27:33] [0000m.01s.891ms] [0] MWT: Destroy the shutdown block reason.
+[2019.07.18 11:27:33] [0000m.01s.891ms] [0] MWT: STOP
+[2019.07.18 11:27:33] [0000m.01s.891ms] [0] S: STOP
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] S: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] S: FREE: Server implementation
+[2019.07.18 11:27:33] [0000m.01s.891ms] [2] S: Unloading ENetGen plugin from file [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\bin\..\lib\ENetGen70.dll]
+[2019.07.18 11:27:33] [0000m.01s.891ms] [2] S: Unloading PIM plugin from file [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\bin\..\lib\PIM.dll]
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] CLSVRM: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SDSM: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SDL: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SCL: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [6] SSM: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SMCL: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SS: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SM: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SingleMessageSender: Send thread: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [4] SingleMessageSender: Send thread: Waiting for finish
+[2019.07.18 11:27:33] [0000m.01s.891ms] [2] SingleMessageSender: Send thread: STOP
+[2019.07.18 11:27:33] [0000m.01s.891ms] [4] SingleMessageSender: Send thread: FINISHED
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] SCQ: FREE
+[2019.07.18 11:27:33] [0000m.01s.891ms] [3] MCQ: FREE

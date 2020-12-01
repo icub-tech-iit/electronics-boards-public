@@ -1,0 +1,182 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout VX.2.3"    2018/08/24.14:19:18    1
+"d:\icubhardware\trunk\electronics\private\p2013_07_bba\rev_b\pcb\bba_1.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+1.98
+0     26.7                          0.0                           0     
+0     27.7                          1.0                           0     
+0     27.7                          2.5                           0     
+0     35.7                          2.5                           -180.0    
+0     35.7                          1.0                           0     
+0     36.7                          0.0                           0     
+0     51.5                          0.0                           0     
+0     52.5                          1.0                           0     
+0     52.5                          20.0                          0     
+0     51.5                          21.0                          0     
+0     18.0                          21.0                          0     
+0     17.0                          20.0                          0     
+0     17.0                          16.5                          0     
+0     12.5                          16.5                          -180.0    
+0     12.5                          21.4                          0     
+0     11.5                          22.4                          0     
+0     -11.5                         22.4                          0     
+0     -12.5                         21.4                          0     
+0     -12.5                         16.5                          0     
+0     -17.0                         16.5                          -180.0    
+0     -17.0                         20.0                          0     
+0     -18.0                         21.0                          0     
+0     -51.5                         21.0                          0     
+0     -52.5                         20.0                          0     
+0     -52.5                         1.0                           0     
+0     -51.5                         0.0                           0     
+0     -36.7                         0.0                           0     
+0     -35.7                         1.0                           0     
+0     -35.7                         2.5                           0     
+0     -27.7                         2.5                           -180.0    
+0     -27.7                         1.0                           0     
+0     -26.7                         0.0                           0     
+0     26.7                          0.0                           0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+4.100000 -20.250000 8.500000 NPTH BOARD
+4.100000 20.250000 8.500000 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACE_KEEPOUT
+TOP    0.500000      0.0
+0     52.5                          20.0                          0     
+0     51.5                          21.0                          0     
+0     18.0                          21.0                          0     
+0     17.0                          20.0                          0     
+0     17.0                          13.7                          0     
+0     38.0                          13.7                          0     
+0     38.0                          12.0                          0     
+0     52.5                          12.0                          0     
+0     52.5                          20.0                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.500000      0.0
+0     -17.0                         13.7                          0     
+0     -17.0                         20.0                          0     
+0     -18.0                         21.0                          0     
+0     -51.5                         21.0                          0     
+0     -52.5                         20.0                          0     
+0     -52.5                         12.0                          0     
+0     -38.0                         12.0                          0     
+0     -38.0                         13.7                          0     
+0     -17.0                         13.7                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    2.000000      0.0
+0     -12.5                         21.3                          0     
+0     -12.5                         13.7                          0     
+0     12.5                          13.7                          0     
+0     12.5                          21.3                          0     
+0     -12.5                         21.3                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -51.5                         0.0                           0     
+0     -36.7                         0.0                           0     
+0     -35.7                         1.0                           0     
+0     -35.7                         2.5                           0     
+0     -27.7                         2.5                           -180.0    
+0     -27.7                         1.0                           0     
+0     -26.7                         0.0                           0     
+0     26.7                          0.0                           0     
+0     27.7                          1.0                           0     
+0     27.7                          2.5                           0     
+0     35.7                          2.5                           -180.0    
+0     35.7                          1.0                           0     
+0     36.7                          0.0                           0     
+0     51.5                          0.0                           0     
+0     52.5                          1.0                           0     
+0     52.5                          13.5                          0     
+0     40.5                          13.5                          0     
+0     40.5                          21.0                          0     
+0     18.0                          21.0                          0     
+0     17.0                          20.0                          0     
+0     17.0                          16.5                          0     
+0     12.5                          16.5                          -180.0    
+0     12.5                          20.3                          0     
+0     11.5                          21.3                          0     
+0     -11.5                         21.3                          0     
+0     -12.5                         20.3                          0     
+0     -12.5                         16.5                          0     
+0     -17.0                         16.5                          -180.0    
+0     -17.0                         20.0                          0     
+0     -18.0                         21.0                          0     
+0     -40.5                         21.0                          0     
+0     -40.5                         13.5                          0     
+0     -52.5                         13.5                          0     
+0     -52.5                         1.0                           0     
+0     -51.5                         0.0                           0     
+.END_PLACE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     -17.4                         8.5                           0     
+0     -23.1                         8.5                           180.0     
+0     -17.4                         8.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     -22.3                         8.5                           0     
+0     -18.2                         8.5                           180.0     
+0     -22.3                         8.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     18.2                          8.5                           0     
+0     22.3                          8.5                           180.0     
+0     18.2                          8.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     23.1                          8.5                           0     
+0     17.4                          8.5                           180.0     
+0     23.1                          8.5                           180.0     
+.END_ROUTE_KEEPOUT
+.PLACEMENT
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP4                                          
+-15.75                        9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP1                                          
+-33.75                        9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP3                                          
+-24.75                        9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP2                                          
+-29.25                        9.7                           0.0       TOP       FIXED     
+MKDS4X1_381                                  MKDS14-381                                   J1                                           
+-5.71                         18.5                          180.0     BOTTOM    FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP5                                          
+-11.25                        9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP6                                          
+-6.75                         9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP7                                          
+-2.25                         9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP14                                         
+33.75                         9.7                           0.0       TOP       PLACED    
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP13                                         
+29.25                         9.7                           0.0       TOP       PLACED    
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP11                                         
+15.75                         9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP10                                         
+11.25                         9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP9                                          
+6.75                          9.7                           0.0       TOP       FIXED     
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 TP8                                          
+2.25                          9.7                           0.0       TOP       FIXED     
+FID-40                                       FID-40                                       FID_1                                        
+-49.3                         3.0                           0.0       BOTTOM    PLACED    
+FID-40                                       FID-40                                       FID_2                                        
+-41.4                         19.2                          0.0       BOTTOM    PLACED    
+FID-40                                       FID-40                                       FID_3                                        
+45.6                          18.8                          0.0       BOTTOM    PLACED    
+53261-0271                                   MPT12-254                                    J3                                           
+47.2                          12.6                          270.0     BOTTOM    FIXED     
+53261-0471                                   53261-0471                                   J2                                           
+-50.2                         12.0                          90.0      BOTTOM    FIXED     
+PEM_SMTRA_M25_6_5ET                          PEM_SMTRA_M25_6_5ET                          F1                                           
+-43.0                         5.8                           0.0       BOTTOM    PLACED    
+PEM_SMTRA_M25_6_5ET                          PEM_SMTRA_M25_6_5ET                          F2                                           
+43.0                          5.8                           0.0       BOTTOM    PLACED    
+.END_PLACEMENT

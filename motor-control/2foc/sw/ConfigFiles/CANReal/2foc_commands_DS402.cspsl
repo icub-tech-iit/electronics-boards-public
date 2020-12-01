@@ -1,0 +1,22 @@
+[--] ----------------------------------------------
+[--] CANreal Send List
+[--] ----------------------------------------------
+           0	 	 	 	              0	 	         0	000000000	 	  0	00	00	00	00	00	00	00	00	
+           1	 	 	 	              0	Toggling ref	  67108617	003FFFF09	L	  3	8F	00	01	00	00	00	00	00	
+           2	 	 	 	              0	TorqueReference	  67108610	003FFFF02	L	  4	00	03	00	00	00	00	00	00	
+           3	 	 	 	              0	SpeedReference	  67108612	003FFFF04	L	  2	F0	01	00	00	00	00	00	00	
+           4	 	 	 	              0	TorqueSensorParameters	  67108611	003FFFF03	L	  3	0A	00	01	00	00	00	00	00	
+           5	 	 	 	              0	OpenLoop	  67108609	003FFFF01	L	  1	01	00	00	00	00	00	00	00	
+           6	 	 	 	              0	TorqueLoop	  67108609	003FFFF01	L	  1	02	00	00	00	00	00	00	00	
+           7	 	 	 	              0	SpeedLoop	  67108609	003FFFF01	L	  1	04	00	00	00	00	00	00	00	
+           8	 	 	 	              0	TorqueSensorLoop	  67108609	003FFFF01	L	  1	10	00	00	00	00	00	00	00	
+           9	 	 	 	              0	DS402 Switch On	  67108622	003FFFF0E	L	  0	00	00	00	00	00	00	00	00	
+          10	 	 	 	              0	DS402 EnableOperation	  67108623	003FFFF0F	L	  0	00	00	00	00	00	00	00	00	
+          11	 	 	 	              0	DS402 Operation Disable	  67108624	003FFFF10	L	  0	00	00	00	00	00	00	00	00	
+          12	 	 	 	              0	DS402 Shutdown	  67108625	003FFFF11	L	  0	00	00	00	00	00	00	00	00	
+          13	 	 	 	              0	Set Current PID Params	  67108615	003FFFF07	L	  6	00	28	00	08	00	00	00	00	
+          14	 	 	 	              0	Set Speed PID Params	  67108614	003FFFF06	L	  6	00	30	00	01	00	00	00	00	
+          15	 	 	 	              0	Periodic data contents	  67108626	003FFFF12	L	  4	06	19	25	25	00	00	00	00	
+          16	 	 	 	              0	Get Firmware version	 335544084	013FFFF14	L	  0	00	00	00	00	00	00	00	00	
+          17	 	 	 	              0	Get Hardware version	 335544085	013FFFF15	L	  0	00	00	00	00	00	00	00	00	
+          18	 	 	 	              0	Get MCU silicon version	 335544086	013FFFF16	L	  0	00	00	00	00	00	00	00	00	

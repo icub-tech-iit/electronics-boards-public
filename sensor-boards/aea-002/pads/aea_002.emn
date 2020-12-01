@@ -1,0 +1,40 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.1"    2011/06/29.12:49:02    1
+"z:\repository\groups\electronic_lab\projects\p2010_0018_aea002\master\aea_002.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+0.8
+0     3.7                           -7.0                          0     
+0     3.7                           7.0                           0     
+0     2.7                           8.0                           0     
+0     -2.7                          8.0                           0     
+0     -3.7                          7.0                           0     
+0     -3.7                          -7.0                          0     
+0     -2.7                          -8.0                          0     
+0     2.7                           -8.0                          0     
+0     3.7                           -7.0                          0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+1.600000 2.000000 -6.300000 NPTH BOARD
+1.600000 -2.000000 6.300000 NPTH BOARD
+1.600000 2.000000 6.300000 NPTH BOARD
+1.600000 -2.000000 -6.300000 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACEMENT
+SOLDERLAND5                                  SOLDERLAND5                                  J1                                           
+0.7943073333                  0.3345313333                  180.0     TOP       PLACED    
+AS504X                                       AS504X                                       U1                                           
+0.0                           0.0                           270.0000005556BOTTOM    PLACED    
+0402                                         0402                                         R1                                           
+2.2622726667                  3.6665366667                  90.0      TOP       PLACED    
+0603                                         0603                                         C2                                           
+-2.604366                     -2.99434                      0.0       TOP       PLACED    
+0402                                         0402                                         R2                                           
+3.0914573333                  3.6665366667                  90.0      TOP       PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB1                                          
+0.94397                       -3.5476006667                 180.0     TOP       PLACED    
+0402                                         0402                                         C1                                           
+3.0653173333                  -1.786126                     90.0      TOP       PLACED    
+0402                                         0402                                         R3                                           
+2.309804                      -3.680102                     270.0     TOP       PLACED    
+.END_PLACEMENT

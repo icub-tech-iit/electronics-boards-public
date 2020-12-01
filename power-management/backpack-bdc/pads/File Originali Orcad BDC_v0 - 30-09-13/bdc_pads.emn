@@ -1,0 +1,634 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout 9.5"    2013/11/06.16:29:42    1
+"d:\electronics\p2013_09_bdc\pcb\file originali orcad bdc_v0 - 30-09-13\bdc_pads.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+1.61036
+0     40.6                          65.34641                      0     
+0     40.0                          65.18564                      -30.0     
+0     39.4                          65.34641                      -30.0     
+0     12.28719                      81.0                          0     
+0     1.0                           81.0                          0     
+0     0.0                           80.0                          0     
+0     0.0                           42.0                          0     
+0     1.0                           41.0                          0     
+0     8.8                           41.0                          0     
+0     10.0                          39.8                          -90.0     
+0     10.0                          1.0                           0     
+0     11.0                          0.0                           0     
+0     37.0                          0.0                           0     
+0     38.0                          1.0                           0     
+0     38.0                          2.0                           0     
+0     40.0                          4.0                           -90.0     
+0     42.0                          2.0                           -90.0     
+0     42.0                          1.0                           0     
+0     43.0                          0.0                           0     
+0     69.0                          0.0                           0     
+0     70.0                          1.0                           0     
+0     70.0                          76.5                          0     
+0     69.0                          77.5                          0     
+0     61.65064                      77.5                          0     
+0     40.6                          65.34641                      0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+0.381000 10.769600 4.267200 PTH    BOARD    VIA    UNOWNED
+0.381000 21.742400 5.080000 PTH    BOARD    VIA    UNOWNED
+0.381000 27.838400 2.032000 PTH    BOARD    VIA    UNOWNED
+0.381000 27.279600 3.962400 PTH    BOARD    VIA    UNOWNED
+0.381000 24.180800 2.844800 PTH    BOARD    VIA    UNOWNED
+0.381000 29.260800 2.844800 PTH    BOARD    VIA    UNOWNED
+0.381000 30.886400 2.235200 PTH    BOARD    VIA    UNOWNED
+0.381000 32.308800 3.048000 PTH    BOARD    VIA    UNOWNED
+0.381000 33.528000 2.438400 PTH    BOARD    VIA    UNOWNED
+0.381000 32.004000 4.876800 PTH    BOARD    VIA    UNOWNED
+0.381000 32.715200 4.064000 PTH    BOARD    VIA    UNOWNED
+0.381000 45.313600 2.235200 PTH    BOARD    VIA    UNOWNED
+0.381000 44.500800 3.048000 PTH    BOARD    VIA    UNOWNED
+0.381000 45.110400 4.064000 PTH    BOARD    VIA    UNOWNED
+0.381000 10.769600 5.486400 PTH    BOARD    VIA    UNOWNED
+0.381000 19.710400 7.721600 PTH    BOARD    VIA    UNOWNED
+0.381000 19.100800 6.908800 PTH    BOARD    VIA    UNOWNED
+0.381000 20.929600 6.096000 PTH    BOARD    VIA    UNOWNED
+0.381000 28.448000 5.689600 PTH    BOARD    VIA    UNOWNED
+0.381000 28.448000 7.315200 PTH    BOARD    VIA    UNOWNED
+0.381000 28.244800 8.331200 PTH    BOARD    VIA    UNOWNED
+0.381000 26.822400 5.842000 PTH    BOARD    VIA    UNOWNED
+0.381000 36.982400 5.486400 PTH    BOARD    VIA    UNOWNED
+0.381000 38.709600 9.499600 PTH    BOARD    VIA    UNOWNED
+0.812800 43.078400 6.502400 PTH    BOARD    VIA    UNOWNED
+0.381000 42.672000 8.534400 PTH    BOARD    VIA    UNOWNED
+0.381000 42.672000 9.550400 PTH    BOARD    VIA    UNOWNED
+0.812800 50.749200 9.144000 PTH    BOARD    VIA    UNOWNED
+0.812800 50.495200 6.502400 PTH    BOARD    VIA    UNOWNED
+0.381000 11.176000 13.817600 PTH    BOARD    VIA    UNOWNED
+0.381000 11.176000 15.087600 PTH    BOARD    VIA    UNOWNED
+0.381000 11.785600 12.395200 PTH    BOARD    VIA    UNOWNED
+0.381000 14.833600 15.036800 PTH    BOARD    VIA    UNOWNED
+0.381000 15.443200 13.411200 PTH    BOARD    VIA    UNOWNED
+0.381000 16.662400 15.443200 PTH    BOARD    VIA    UNOWNED
+0.381000 18.288000 15.443200 PTH    BOARD    VIA    UNOWNED
+0.381000 23.164800 12.801600 PTH    BOARD    VIA    UNOWNED
+0.381000 18.491200 14.427200 PTH    BOARD    VIA    UNOWNED
+0.381000 20.320000 11.785600 PTH    BOARD    VIA    UNOWNED
+0.381000 21.132800 12.395200 PTH    BOARD    VIA    UNOWNED
+0.381000 27.432000 15.443200 PTH    BOARD    VIA    UNOWNED
+0.381000 27.432000 14.274800 PTH    BOARD    VIA    UNOWNED
+0.381000 29.870400 14.020800 PTH    BOARD    VIA    UNOWNED
+0.381000 29.057600 11.379200 PTH    BOARD    VIA    UNOWNED
+0.381000 31.292800 14.833600 PTH    BOARD    VIA    UNOWNED
+0.381000 38.709600 10.566400 PTH    BOARD    VIA    UNOWNED
+0.381000 35.966400 15.036800 PTH    BOARD    VIA    UNOWNED
+0.381000 40.640000 13.817600 PTH    BOARD    VIA    UNOWNED
+0.381000 42.672000 10.566400 PTH    BOARD    VIA    UNOWNED
+0.381000 41.656000 10.566400 PTH    BOARD    VIA    UNOWNED
+0.381000 40.640000 10.566400 PTH    BOARD    VIA    UNOWNED
+0.381000 39.674800 10.566400 PTH    BOARD    VIA    UNOWNED
+0.812800 44.907200 13.208000 PTH    BOARD    VIA    UNOWNED
+0.381000 15.240000 20.320000 PTH    BOARD    VIA    UNOWNED
+0.381000 17.475200 16.256000 PTH    BOARD    VIA    UNOWNED
+0.381000 18.288000 19.507200 PTH    BOARD    VIA    UNOWNED
+0.381000 15.240000 18.491200 PTH    BOARD    VIA    UNOWNED
+0.381000 15.849600 16.052800 PTH    BOARD    VIA    UNOWNED
+0.381000 13.817600 19.862800 PTH    BOARD    VIA    UNOWNED
+0.381000 22.758400 20.523200 PTH    BOARD    VIA    UNOWNED
+0.381000 21.132800 19.913600 PTH    BOARD    VIA    UNOWNED
+0.381000 22.352000 16.865600 PTH    BOARD    VIA    UNOWNED
+0.812800 25.400000 18.288000 PTH    BOARD    VIA    UNOWNED
+0.381000 23.571200 16.865600 PTH    BOARD    VIA    UNOWNED
+0.381000 31.292800 16.052800 PTH    BOARD    VIA    UNOWNED
+0.381000 36.779200 19.304000 PTH    BOARD    VIA    UNOWNED
+0.381000 41.249600 19.710400 PTH    BOARD    VIA    UNOWNED
+1.193800 52.425600 16.916400 PTH    BOARD    VIA    UNOWNED
+0.381000 55.880000 17.678400 PTH    BOARD    VIA    UNOWNED
+1.193800 62.687200 18.643600 PTH    BOARD    VIA    UNOWNED
+0.381000 64.770000 20.523200 PTH    BOARD    VIA    UNOWNED
+0.381000 66.802000 17.068800 PTH    BOARD    VIA    UNOWNED
+0.381000 14.224000 22.352000 PTH    BOARD    VIA    UNOWNED
+0.381000 15.646400 21.539200 PTH    BOARD    VIA    UNOWNED
+0.381000 16.459200 20.726400 PTH    BOARD    VIA    UNOWNED
+0.381000 14.833600 25.603200 PTH    BOARD    VIA    UNOWNED
+0.381000 21.539200 21.132800 PTH    BOARD    VIA    UNOWNED
+0.381000 23.977600 20.929600 PTH    BOARD    VIA    UNOWNED
+0.812800 28.651200 20.726400 PTH    BOARD    VIA    UNOWNED
+0.381000 52.832000 24.688800 PTH    BOARD    VIA    UNOWNED
+0.381000 51.409600 24.993600 PTH    BOARD    VIA    UNOWNED
+0.381000 54.051200 25.196800 PTH    BOARD    VIA    UNOWNED
+0.381000 55.270400 24.384000 PTH    BOARD    VIA    UNOWNED
+0.381000 57.404000 25.095200 PTH    BOARD    VIA    UNOWNED
+0.381000 54.457600 22.148800 PTH    BOARD    VIA    UNOWNED
+0.381000 63.398400 23.164800 PTH    BOARD    VIA    UNOWNED
+0.381000 62.585600 22.352000 PTH    BOARD    VIA    UNOWNED
+0.381000 59.740800 24.942800 PTH    BOARD    VIA    UNOWNED
+0.381000 60.960000 24.942800 PTH    BOARD    VIA    UNOWNED
+0.381000 11.988800 27.228800 PTH    BOARD    VIA    UNOWNED
+0.381000 12.801600 28.041600 PTH    BOARD    VIA    UNOWNED
+0.381000 11.988800 30.073600 PTH    BOARD    VIA    UNOWNED
+0.381000 11.988800 28.905200 PTH    BOARD    VIA    UNOWNED
+0.381000 13.411200 26.416000 PTH    BOARD    VIA    UNOWNED
+1.193800 32.918400 27.127200 PTH    BOARD    VIA    UNOWNED
+1.193800 32.715200 30.276800 PTH    BOARD    VIA    UNOWNED
+0.812800 36.169600 27.432000 PTH    BOARD    VIA    UNOWNED
+0.381000 42.468800 29.057600 PTH    BOARD    VIA    UNOWNED
+0.381000 39.217600 30.480000 PTH    BOARD    VIA    UNOWNED
+1.193800 57.099200 30.683200 PTH    BOARD    VIA    UNOWNED
+0.381000 55.575200 26.568400 PTH    BOARD    VIA    UNOWNED
+0.381000 62.382400 26.212800 PTH    BOARD    VIA    UNOWNED
+0.381000 62.941200 27.990800 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 30.505066 PTH    J4    PIN    UNOWNED
+0.381000 65.430400 27.025600 PTH    BOARD    VIA    UNOWNED
+0.381000 68.072000 28.448000 PTH    BOARD    VIA    UNOWNED
+0.381000 13.004800 30.886400 PTH    BOARD    VIA    UNOWNED
+0.381000 12.395200 31.902400 PTH    BOARD    VIA    UNOWNED
+0.381000 16.459200 34.122340 PTH    BOARD    VIA    UNOWNED
+0.381000 15.240000 34.340800 PTH    BOARD    VIA    UNOWNED
+0.381000 23.977600 33.934400 PTH    BOARD    VIA    UNOWNED
+1.193800 28.854400 35.153600 PTH    BOARD    VIA    UNOWNED
+0.381000 37.795200 33.121600 PTH    BOARD    VIA    UNOWNED
+0.381000 38.862000 32.969200 PTH    BOARD    VIA    UNOWNED
+0.381000 44.500800 33.528000 PTH    BOARD    VIA    UNOWNED
+0.381000 47.142400 33.934400 PTH    BOARD    VIA    UNOWNED
+0.381000 62.890400 33.680400 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 34.315066 PTH    J4    PIN    UNOWNED
+0.381000 10.972800 37.795200 PTH    BOARD    VIA    UNOWNED
+0.381000 11.785600 39.014400 PTH    BOARD    VIA    UNOWNED
+0.381000 15.443200 37.388800 PTH    BOARD    VIA    UNOWNED
+0.381000 23.164800 37.998400 PTH    BOARD    VIA    UNOWNED
+1.193800 18.643600 37.795200 PTH    BOARD    VIA    UNOWNED
+0.381000 22.148800 39.014400 PTH    BOARD    VIA    UNOWNED
+0.381000 28.448000 39.014400 PTH    BOARD    VIA    UNOWNED
+0.381000 26.212800 37.592000 PTH    BOARD    VIA    UNOWNED
+0.381000 26.822400 39.014400 PTH    BOARD    VIA    UNOWNED
+1.193800 35.356800 37.388800 PTH    BOARD    VIA    UNOWNED
+1.193800 48.971200 36.982400 PTH    BOARD    VIA    UNOWNED
+0.381000 57.607200 38.455600 PTH    BOARD    VIA    UNOWNED
+0.381000 55.473600 38.455600 PTH    BOARD    VIA    UNOWNED
+0.381000 56.083200 37.185600 PTH    BOARD    VIA    UNOWNED
+0.381000 62.992000 39.624000 PTH    BOARD    VIA    UNOWNED
+0.381000 62.992000 40.640000 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 38.125066 PTH    J4    PIN    UNOWNED
+0.381000 6.908800 45.923200 PTH    BOARD    VIA    UNOWNED
+0.381000 8.686800 43.840400 PTH    BOARD    VIA    UNOWNED
+0.381000 14.833600 41.249600 PTH    BOARD    VIA    UNOWNED
+1.193800 18.694400 41.452800 PTH    BOARD    VIA    UNOWNED
+1.193800 18.694400 43.688000 PTH    BOARD    VIA    UNOWNED
+0.381000 27.025600 41.859200 PTH    BOARD    VIA    UNOWNED
+1.193800 24.841200 43.027600 PTH    BOARD    VIA    UNOWNED
+1.193800 34.899600 43.586400 PTH    BOARD    VIA    UNOWNED
+0.381000 41.249600 41.452800 PTH    BOARD    VIA    UNOWNED
+0.381000 41.249600 43.688000 PTH    BOARD    VIA    UNOWNED
+0.381000 50.393600 44.500800 PTH    BOARD    VIA    UNOWNED
+0.381000 48.971200 41.605200 PTH    BOARD    VIA    UNOWNED
+1.193800 56.896000 44.704000 PTH    BOARD    VIA    UNOWNED
+0.381000 63.804800 41.452800 PTH    BOARD    VIA    UNOWNED
+0.381000 63.851360 43.235040 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 41.935066 PTH    J4    PIN    UNOWNED
+0.381000 2.844800 49.580800 PTH    BOARD    VIA    UNOWNED
+0.381000 1.828800 49.377600 PTH    BOARD    VIA    UNOWNED
+0.381000 2.641600 46.329600 PTH    BOARD    VIA    UNOWNED
+0.381000 9.144000 48.361600 PTH    BOARD    VIA    UNOWNED
+0.381000 21.132800 47.142400 PTH    BOARD    VIA    UNOWNED
+0.381000 19.913600 47.142400 PTH    BOARD    VIA    UNOWNED
+0.381000 30.276800 50.800000 PTH    BOARD    VIA    UNOWNED
+0.381000 36.982400 47.345600 PTH    BOARD    VIA    UNOWNED
+0.381000 34.137600 50.800000 PTH    BOARD    VIA    UNOWNED
+0.381000 37.592000 46.126400 PTH    BOARD    VIA    UNOWNED
+0.381000 48.768000 46.126400 PTH    BOARD    VIA    UNOWNED
+0.381000 57.505600 49.377600 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 50.114882 PTH    J5    PIN    UNOWNED
+1.092180 66.399918 46.304882 PTH    J5    PIN    UNOWNED
+0.381000 64.160400 49.377600 PTH    BOARD    VIA    UNOWNED
+0.381000 1.422400 51.409600 PTH    BOARD    VIA    UNOWNED
+0.381000 2.641600 52.425600 PTH    BOARD    VIA    UNOWNED
+1.193800 9.753600 52.832000 PTH    BOARD    VIA    UNOWNED
+1.193800 12.039600 52.832000 PTH    BOARD    VIA    UNOWNED
+1.193800 17.373600 51.054000 PTH    BOARD    VIA    UNOWNED
+1.193800 14.274800 52.832000 PTH    BOARD    VIA    UNOWNED
+0.381000 20.218400 52.628800 PTH    BOARD    VIA    UNOWNED
+1.193800 26.314400 51.765200 PTH    BOARD    VIA    UNOWNED
+0.381000 27.025600 54.051200 PTH    BOARD    VIA    UNOWNED
+0.381000 31.343600 51.612800 PTH    BOARD    VIA    UNOWNED
+0.381000 33.528000 53.644800 PTH    BOARD    VIA    UNOWNED
+0.381000 31.902400 53.898800 PTH    BOARD    VIA    UNOWNED
+0.381000 36.372800 52.425600 PTH    BOARD    VIA    UNOWNED
+0.381000 34.747200 53.441600 PTH    BOARD    VIA    UNOWNED
+1.193800 39.116000 51.104800 PTH    BOARD    VIA    UNOWNED
+0.381000 41.249600 54.051200 PTH    BOARD    VIA    UNOWNED
+0.381000 43.840400 54.102000 PTH    BOARD    VIA    UNOWNED
+0.381000 47.548800 51.460400 PTH    BOARD    VIA    UNOWNED
+0.381000 45.313600 53.949600 PTH    BOARD    VIA    UNOWNED
+1.193800 52.832000 51.104800 PTH    BOARD    VIA    UNOWNED
+0.381000 50.800000 52.019200 PTH    BOARD    VIA    UNOWNED
+0.381000 58.420000 51.816000 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 53.924882 PTH    J5    PIN    UNOWNED
+0.381000 64.211200 51.409600 PTH    BOARD    VIA    UNOWNED
+1.092180 3.599942 60.064984 PTH    J2    PIN    UNOWNED
+1.092180 66.399918 57.734882 PTH    J5    PIN    UNOWNED
+1.092180 3.599942 63.874984 PTH    J2    PIN    UNOWNED
+0.381000 16.256000 64.617600 PTH    BOARD    VIA    UNOWNED
+0.812800 27.076400 65.024000 PTH    BOARD    VIA    UNOWNED
+0.381000 52.628800 65.227200 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 65.914952 PTH    J3    PIN    UNOWNED
+1.092180 66.399918 62.104952 PTH    J3    PIN    UNOWNED
+1.092180 3.599942 67.684984 PTH    J2    PIN    UNOWNED
+4.190980 22.500000 68.000000 PTH    MEC1    PIN    UNOWNED
+0.381000 28.651200 70.104000 PTH    BOARD    VIA    UNOWNED
+0.381000 49.987200 68.681600 PTH    BOARD    VIA    UNOWNED
+0.381000 52.019200 66.852800 PTH    BOARD    VIA    UNOWNED
+4.190980 57.500000 68.000000 PTH    MEC2    PIN    UNOWNED
+1.092180 66.399918 69.724952 PTH    J3    PIN    UNOWNED
+1.092180 3.599942 71.494984 PTH    J2    PIN    UNOWNED
+0.381000 4.267200 75.082400 PTH    BOARD    VIA    UNOWNED
+0.381000 10.769600 74.574400 PTH    BOARD    VIA    UNOWNED
+0.381000 16.662400 74.371200 PTH    BOARD    VIA    UNOWNED
+0.381000 16.256000 75.996800 PTH    BOARD    VIA    UNOWNED
+0.381000 62.382400 74.980800 PTH    BOARD    VIA    UNOWNED
+0.381000 62.382400 73.355200 PTH    BOARD    VIA    UNOWNED
+0.381000 60.960000 71.729600 PTH    BOARD    VIA    UNOWNED
+1.092180 66.399918 73.534952 PTH    J3    PIN    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+0402                                         CAP                                          C1                                           
+20.32                         5.08                          0.0                           180.0     BOTTOM    PLACED    
+0402                                         CAP                                          C2                                           
+26.2128                       4.4704                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C3                                           
+26.416                        14.6304                       0.0                           90.0      BOTTOM    PLACED    
+0805                                         CAP                                          C4                                           
+18.8976                       12.39521                      0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C5                                           
+21.1328                       13.8176                       0.0                           90.0      BOTTOM    PLACED    
+0402                                         CAP                                          C6                                           
+20.32                         13.8176                       0.0                           90.0      BOTTOM    PLACED    
+0402                                         CAP                                          C7                                           
+24.5872                       14.6304                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C8                                           
+16.6624                       32.7152                       0.0                           0.0       BOTTOM    PLACED    
+0402                                         CAP                                          C9                                           
+16.6624                       29.6672                       0.0                           0.0       BOTTOM    PLACED    
+0402                                         CAP                                          C10                                          
+16.6624                       26.6192                       0.0                           0.0       BOTTOM    PLACED    
+0805                                         CAP                                          C12                                          
+13.6144                       63.8048                       0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP                                          C13                                          
+13.4112                       69.08801                      0.0                           270.0     TOP       PLACED    
+0805                                         CAP                                          C15                                          
+58.52159                      58.11521                      0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C16                                          
+32.3088                       56.2864                       0.0                           270.0     BOTTOM    PLACED    
+1210                                         CAP                                          C17                                          
+30.2768                       47.1424                       0.0                           270.0     BOTTOM    PLACED    
+1210                                         CAP                                          C18                                          
+26.6192                       47.1424                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C19                                          
+29.8704                       14.8336                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         CAP                                          C20                                          
+29.464                        52.4256                       0.0                           0.0       BOTTOM    PLACED    
+0402                                         CAP                                          C21                                          
+20.7264                       54.0512                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C22                                          
+19.7104                       54.0512                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP_1                                        C23                                          
+39.0144                       15.24                         0.0                           0.0       BOTTOM    PLACED    
+1210                                         CAP_1                                        C24                                          
+46.736                        6.5024                        0.0                           180.0     BOTTOM    PLACED    
+1210                                         CAP_1                                        C25                                          
+46.736                        10.16                         0.0                           180.0     BOTTOM    PLACED    
+1210                                         CAP_1                                        C26                                          
+46.736                        9.144                         0.0                           0.0       TOP       PLACED    
+0603                                         CAP_1                                        C27                                          
+35.7632                       4.2672                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP_1                                        C28                                          
+32.512                        7.7216                        0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP_1                                        C29                                          
+33.528                        15.6464                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         CAP_1                                        C30                                          
+41.0464                       8.9408                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         CAP                                          C31                                          
+57.7088                       42.0624                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C32                                          
+39.4208                       46.736                        0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP                                          C33                                          
+40.0304                       44.5008                       0.0                           90.0      BOTTOM    PLACED    
+7343                                         CAPPOL                                       C35                                          
+60.1472                       38.4048                       0.0                           270.0     TOP       PLACED    
+0805                                         CAP                                          C36                                          
+55.4736                       40.4368                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C37                                          
+52.2224                       40.4368                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C38                                          
+62.992                        42.0624                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C39                                          
+37.9984                       56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C40                                          
+61.3664                       39.624                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         CAP                                          C41                                          
+42.8752                       56.2864                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         CAP                                          C42                                          
+44.5008                       56.2864                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         CAP                                          C43                                          
+47.752                        56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C44                                          
+48.9712                       54.0512                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP                                          C45                                          
+48.9712                       43.2816                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C46                                          
+62.5856                       51.0032                       0.0                           0.0       BOTTOM    PLACED    
+0402                                         CAP                                          C47                                          
+57.3024                       27.0256                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C48                                          
+40.8432                       27.8384                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP                                          C49                                          
+41.2496                       22.352                        0.0                           90.0      BOTTOM    PLACED    
+7343                                         CAPPOL                                       C51                                          
+60.1472                       23.9776                       0.0                           270.0     TOP       PLACED    
+0805                                         CAP                                          C52                                          
+52.832                        22.7584                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C53                                          
+50.8                          23.1648                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C54                                          
+63.3984                       26.416                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         CAP                                          C55                                          
+40.0304                       33.9344                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         CAP                                          C56                                          
+61.5696                       23.7744                       0.0                           180.0     BOTTOM    PLACED    
+1210                                         CAP                                          C57                                          
+51.4223                       33.3121                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         CAP                                          C58                                          
+40.8432                       30.8864                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP                                          C59                                          
+50.1904                       30.48                         0.0                           0.0       BOTTOM    PLACED    
+0603                                         CAP                                          C60                                          
+50.1904                       28.8544                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         CAP                                          C61                                          
+49.1744                       24.9936                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         CAP                                          C62                                          
+66.4464                       22.1488                       0.0                           180.0     BOTTOM    PLACED    
+0402                                         CAP                                          C63                                          
+16.256                        38.8112                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         CAP                                          CT1                                          
+23.7744                       61.976                        0.0                           0.0       BOTTOM    PLACED    
+DO214AC                                      TRANSIL                                      D1                                           
+10.16                         71.12                         0.0                           270.0     TOP       PLACED    
+SOD123                                       ZENER_GENERIC                                D2                                           
+60.64884                      51.816                        0.0                           180.0     TOP       PLACED    
+SMC                                          SCHOTTKY_GENERIC                             D3                                           
+59.1312                       61.976                        0.0                           270.0     TOP       PLACED    
+SOD123_D4                                    SCHOTTKY_GENERIC                             D4                                           
+41.0464                       17.272                        0.0                           0.0       BOTTOM    PLACED    
+LED0603                                      LED                                          DL1                                          
+60.3504                       74.5744                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL2                                          
+60.3504                       72.9488                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL3                                          
+12.192                        21.5392                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL4                                          
+14.6304                       74.3712                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL5                                          
+60.1472                       45.5168                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL6                                          
+60.3504                       33.1216                       0.0                           0.0       TOP       PLACED    
+LED0603                                      LED                                          DL7                                          
+5.8928                        43.4848                       0.0                           270.0     TOP       PLACED    
+WE-SL1                                       FI_0                                         FL1                                          
+10.42755                      42.79562                      0.0                           90.0      BOTTOM    PLACED    
+PSTRIP10X2_M_SMD                             PSTRIP10X2_M                                 J1                                           
+12.8016                       11.3792                       0.0                           270.0     TOP       PLACED    
+JP0402                                       JUMPER-SM_0                                  JP1                                          
+10.7696                       49.5808                       0.0                           0.0       BOTTOM    PLACED    
+4P8X4P8                                      L                                            L1                                           
+40.0304                       14.224                        0.0                           270.0     TOP       PLACED    
+XAL1010-153ME                                L                                            L2                                           
+42.0624                       39.0144                       0.0                           0.0       TOP       PLACED    
+XAL1010-153ME                                L                                            L3                                           
+42.0624                       25.1968                       0.0                           0.0       TOP       PLACED    
+PEM_SMTSO-M25-3ET                            SMTSO-M25-3ET                                MEC1                                         
+22.5                          68.0                          0.0                           0.0       TOP       PLACED    
+PEM_SMTSO-M25-3ET                            SMTSO-M25-3ET                                MEC2                                         
+57.5                          68.0                          0.0                           0.0       TOP       PLACED    
+TO263                                        IRLU3110                                     Q1                                           
+47.1424                       47.752                        0.0                           0.0       TOP       PLACED    
+TO263                                        IRLU3110                                     Q2                                           
+35.1536                       47.752                        0.0                           0.0       TOP       PLACED    
+TO263                                        IRLU3110                                     Q3                                           
+23.1648                       47.752                        0.0                           0.0       TOP       PLACED    
+TO263                                        IRLU3110                                     Q4                                           
+11.176                        47.752                        0.0                           0.0       TOP       PLACED    
+TO252AA                                      IRLU3110                                     Q5                                           
+32.9184                       26.416                        0.0                           180.0     TOP       PLACED    
+TO252AA                                      IRLU3110                                     Q6                                           
+32.9184                       14.0208                       0.0                           180.0     TOP       PLACED    
+0402                                         RES_1                                        R1                                           
+12.5984                       15.0368                       0.0                           0.0       TOP       PLACED    
+0402                                         RES_1                                        R2                                           
+12.192                        4.6736                        0.0                           0.0       TOP       PLACED    
+0402                                         RES_1                                        R3                                           
+12.192                        3.8608                        0.0                           0.0       TOP       PLACED    
+0402                                         RES_1                                        R4                                           
+12.5984                       13.8176                       0.0                           180.0     TOP       PLACED    
+0402                                         RES_1                                        R5                                           
+16.6624                       31.9024                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R6                                           
+16.6624                       30.8864                       0.0                           180.0     BOTTOM    PLACED    
+0402                                         RES_1                                        R7                                           
+16.6624                       28.8544                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R8                                           
+16.6624                       27.8384                       0.0                           180.0     BOTTOM    PLACED    
+0402                                         RES_1                                        R9                                           
+52.2224                       68.2752                       0.0                           270.0     TOP       PLACED    
+0402                                         RES_1                                        R10                                          
+51.0032                       68.2752                       0.0                           270.0     TOP       PLACED    
+0402                                         RES_1                                        R11                                          
+12.192                        19.9136                       0.0                           0.0       TOP       PLACED    
+0402                                         RES_1                                        R12                                          
+16.6624                       25.8064                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R13                                          
+16.6624                       24.7904                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R14                                          
+49.5808                       47.9552                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R15                                          
+35.7632                       49.5808                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R16                                          
+21.9456                       48.9712                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R17                                          
+20.5232                       48.9712                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R18                                          
+29.0576                       62.1792                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R19                                          
+18.0848                       57.5056                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R20                                          
+17.8816                       59.944                        0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R21                                          
+30.6832                       56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R22                                          
+29.0576                       59.5376                       0.0                           270.0     BOTTOM    PLACED    
+0805                                         RES_1                                        R23                                          
+23.7744                       49.1744                       0.0                           270.0     BOTTOM    PLACED    
+0402                                         RES_1                                        R24                                          
+29.8704                       16.4592                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R25                                          
+29.464                        54.0512                       0.0                           180.0     BOTTOM    PLACED    
+0402                                         RES_1                                        R26                                          
+29.8704                       15.6464                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R27                                          
+29.0576                       56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R28                                          
+31.0896                       58.928                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         RES_1                                        R29                                          
+41.0464                       7.112                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         RES_1                                        R30                                          
+33.528                        4.2672                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         RES_1                                        R31                                          
+14.6304                       75.9968                       0.0                           0.0       TOP       PLACED    
+0603                                         RES_1                                        R32                                          
+34.544                        4.2672                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         RES_1                                        R33                                          
+41.0464                       7.9248                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R34                                          
+32.7152                       6.7056                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         RES_1                                        R35                                          
+32.512                        5.6896                        0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R36                                          
+39.4208                       48.3616                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R37                                          
+38.608                        44.5008                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R38                                          
+41.2496                       56.2864                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         RES_1                                        R39                                          
+39.624                        56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R40                                          
+58.7248                       39.624                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R41                                          
+46.1264                       56.2864                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         RES_1                                        R42                                          
+49.3776                       56.2864                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R43                                          
+48.9712                       52.4256                       0.0                           0.0       BOTTOM    PLACED    
+0805                                         RES_1                                        R44                                          
+60.14721                      48.3616                       0.0                           180.0     TOP       PLACED    
+0603                                         RES_1                                        R45                                          
+62.5856                       54.2544                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R46                                          
+62.5856                       52.6288                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R47                                          
+48.9712                       50.8                          0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R48                                          
+62.5856                       49.3776                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R49                                          
+40.8432                       29.464                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R50                                          
+42.4688                       33.9344                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         RES_1                                        R51                                          
+39.4208                       22.352                        0.0                           90.0      BOTTOM    PLACED    
+0603                                         RES_1                                        R52                                          
+41.2496                       33.9344                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R53                                          
+58.7248                       23.7744                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R54                                          
+45.72                         34.1376                       0.0                           90.0      BOTTOM    PLACED    
+0603                                         RES_1                                        R55                                          
+52.4256                       29.464                        0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R56                                          
+52.4256                       26.6192                       0.0                           90.0      BOTTOM    PLACED    
+0805                                         RES_1                                        R57                                          
+60.3504                       31.2928                       0.0                           180.0     TOP       PLACED    
+0603                                         RES_1                                        R58                                          
+66.4464                       25.4                          0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R59                                          
+66.4464                       23.5712                       0.0                           0.0       BOTTOM    PLACED    
+0603                                         RES_1                                        R60                                          
+50.8                          26.6192                       0.0                           270.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R61                                          
+66.4464                       20.5232                       0.0                           0.0       BOTTOM    PLACED    
+0402                                         RES_1                                        R62                                          
+7.5184                        43.4848                       0.0                           270.0     TOP       PLACED    
+0603                                         RES_1                                        R63                                          
+8.3312                        49.5808                       0.0                           180.0     BOTTOM    PLACED    
+0603                                         RES_1                                        R64                                          
+7.5184                        44.2976                       0.0                           90.0      BOTTOM    PLACED    
+1224-KELVIN                                  1224-KELVIN                                  RS1                                          
+12.5984                       59.3344                       0.0                           270.0     BOTTOM    PLACED    
+1224-KELVIN                                  1224-KELVIN                                  RS2                                          
+44.9072                       39.8272                       0.0                           180.0     BOTTOM    PLACED    
+1224-KELVIN                                  1224-KELVIN                                  RS3                                          
+45.9232                       18.4912                       0.0                           180.0     BOTTOM    PLACED    
+TP-SMOX060B1LP                               TP-SMD_2                                     TP1                                          
+34.1376                       66.04                         0.0                           0.0       TOP       PLACED    
+TP-1206                                      TP-SMD                                       TP2                                          
+29.1592                       67.1576                       0.0                           270.0     TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMD_2                                     TP3                                          
+49.784                        4.8768                        0.0                           0.0       TOP       PLACED    
+TP-SMOX060B1LP_TP4                           TP-SMD_2                                     TP4                                          
+56.0832                       47.9552                       0.0                           0.0       TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMD_2                                     TP5                                          
+60.1472                       17.272                        0.0                           0.0       TOP       PLACED    
+VFQFPN36                                     STM32F103_13                                 U1                                           
+23.9776                       9.03477                       0.0                           180.0     BOTTOM    PLACED    
+HTSSOP14                                     TPS2493_5                                    U2                                           
+26.6192                       59.944                        0.0                           270.0     BOTTOM    PLACED    
+HTSSOP16_U3                                  LM5575MH_1                                   U3                                           
+38.8112                       7.112                         0.0                           0.0       BOTTOM    PLACED    
+TO263                                        MBRB20H100CT                                 U4                                           
+20.32001                      15.3924                       0.0                           0.0       TOP       PLACED    
+ACS711-EX                                    ACS711                                       U5                                           
+60.3504                       43.4848                       0.0                           270.0     BOTTOM    PLACED    
+HTSSOP16_U3                                  LM5088                                       U6                                           
+42.0624                       52.4256                       0.0                           180.0     BOTTOM    PLACED    
+ACS711-EX                                    ACS711                                       U7                                           
+60.3504                       28.2448                       0.0                           270.0     BOTTOM    PLACED    
+HTSSOP16_U3                                  LM5088                                       U8                                           
+42.90017                      30.93804                      0.0                           180.0     BOTTOM    PLACED    
+TO263                                        MBRB20H100CT                                 U9                                           
+53.6448                       11.7856                       0.0                           270.0     TOP       PLACED    
+SOT23-8                                      MAX3051_0                                    U10                                          
+14.4272                       37.3888                       0.0                           0.0       BOTTOM    PLACED    
+S2                                           S2                                           Y1                                           
+22.9616                       14.8336                       0.0                           270.0     BOTTOM    PLACED    
+FIDUCIAL_PASTE                               NO_PART[1]                                   275                                          
+12.0904                       1.6256                        0.0                           0.0       TOP       PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   276                                          
+5.1816                        77.978                        0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   277                                          
+53.1368                       56.0324                       0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   278                                          
+34.798                        46.482                        0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   279                                          
+58.8772                       35.0012                       0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE                               NO_PART[1]                                   280                                          
+67.7672                       1.4732                        0.0                           0.0       TOP       PLACED    
+FIDUCIAL_PASTE                               NO_PART[1]                                   281                                          
+47.3456                       66.6496                       0.0                           0.0       TOP       PLACED    
+FIDUCIAL_PASTE                               NO_PART[1]                                   282                                          
+19.9136                       74.5744                       0.0                           0.0       TOP       PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   283                                          
+34.036                        18.4404                       0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   284                                          
+13.0556                       1.6764                        0.0                           0.0       BOTTOM    PLACED    
+FIDUCIAL_PASTE_276                           NO_PART[1]                                   285                                          
+64.516                        5.1308                        0.0                           0.0       BOTTOM    PLACED    
+MKDS14-381                                   MKDS14-381                                   J2                                           
+3.59994                       69.59498                      0.0                           270.0     TOP       PLACED    
+MKDS14-381                                   MKDS14-381                                   J3                                           
+66.39992                      64.00495                      0.0                           90.0      TOP       PLACED    
+MKDS14-381                                   MKDS14-381                                   J4                                           
+66.39992                      32.40507                      0.0                           90.0      TOP       PLACED    
+MKDS14-381                                   MKDS14-381                                   J5                                           
+66.39992                      48.20488                      0.0                           90.0      TOP       PLACED    
+53261-0671                                   53261-0671                                   P1                                           
+12.1                          29.975                        0.0                           270.0     TOP       PLACED    
+53261-0671                                   53261-0671                                   P2                                           
+2.1                           49.475                        0.0                           270.0     TOP       PLACED    
+53261-0671                                   53261-0671                                   P3                                           
+2.1                           49.475                        0.0                           90.0      BOTTOM    PLACED    
+53261-0271                                   53261-0271                                   P5                                           
+6.475                         78.2                          0.0                           180.0     TOP       PLACED    
+53261-0271                                   53261-0271                                   P4                                           
+67.9                          23.475                        0.0                           90.0      TOP       PLACED    
+CAP-POL-CASEG                                CAP-POL-CASEG                                C11                                          
+21.1328                       38.608                        0.0                           270.0     TOP       PLACED    
+CAP-POL-CASEG                                CAP-POL-CASEG                                C14                                          
+31.6992                       38.608                        0.0                           270.0     TOP       PLACED    
+CAP-POL-CASEG                                CAP-POL-CASEG                                C34                                          
+52.4256                       38.608                        0.0                           270.0     TOP       PLACED    
+CAP-POL-CASEG                                CAP-POL-CASEG                                C50                                          
+52.4256                       24.7904                       0.0                           270.0     TOP       PLACED    
+.END_PLACEMENT

@@ -1,0 +1,29 @@
+(ExpressProject "4581_A"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\4581_a.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CA
+      (FullPartName "CA.Normal")
+      (LibraryName "O:\CA.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\4581_a.dsn")
+      (Path "Design Resources" ".\4581_a.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\4581_a.dsn" "SCHEMATIC1" "AdC-2FOC_pwr"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 518"))
+      (Tab 0))))

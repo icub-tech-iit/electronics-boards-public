@@ -1,0 +1,66 @@
+Date and Time : 09/12/13 16:25:30
+
+--------------------------------------------------
+Checking Schematic: BMON
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: BMON
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: BMON 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "IP+" found on Package ACS711 , U1 Pin Number 2: BMON, PAGE2 - SCHEMATIC (243.84, 43.18). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "IP-" found on Package ACS711 , U1 Pin Number 4: BMON, PAGE2 - SCHEMATIC (243.84, 43.18). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U1 Pin Number 9: BMON, PAGE2 - SCHEMATIC (243.84, 43.18). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U1 Pin Number 7: BMON, PAGE2 - SCHEMATIC (243.84, 43.18). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U1 Pin Number 8: BMON, PAGE2 - SCHEMATIC (243.84, 43.18). Please renumber one of these.
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U4,VSS  VSS  GND
+                    BMON, PAGE2 - SCHEMATIC  (218.44, 185.42) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,IN  IN  VOUT
+                    BMON, PAGE2 - SCHEMATIC  (114.30, 116.84) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? Y1,VDC  VDC  3V3
+                    BMON, PAGE2 - SCHEMATIC  (78.74, 185.42) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VCC  VCC  3V3
+                    BMON, PAGE2 - SCHEMATIC  (254.00, 35.56) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,OUT  OUT  3V3
+                    BMON, PAGE2 - SCHEMATIC  (149.86, 116.84) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U4,VDD  VDD  3V3
+                    BMON, PAGE2 - SCHEMATIC  (175.26, 185.42) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

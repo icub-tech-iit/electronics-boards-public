@@ -1,0 +1,102 @@
+[2011.08.02 08:27:14] [0000m.00s.062ms] [0] WELCOME
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] iCDB Server ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426267 created 2010-10-27 08:24:21, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] Base flow version [7.9.1]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] GBS Install Id [17460], Flow Id [PADS 9.3], Full Flow Name [PADS 9.3], Exact Access Date [Dec 1 2010]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] Machine [iit-robotics01]  User [claudio.lorini]  PID [632]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 3 (build 2600)]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] Current working dir [Z:\Progetti\P2010_02_NEI2\sch]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] PATH [C:\MentorGraphics\9.3PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\lib;C:\Program Files\OrCAD\OrCAD_16.0\tools\bin;C:\Program Files\Intel\DMIX;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/bin;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/lib;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\lib;C:\Program Files\proeWildfire 4.0\bin;C:\Program Files\OrCAD\tools\pcb\bin;C:\Program Files\OrCAD\tools\specctra\bin;C:\Program Files\OrCAD\tools\fet\bin;C:\Program Files\OrCAD\tools\PSpice;C:\Program Files\OrCAD\tools\PSpice\Library;C:\Program Files\OrCAD\tools\Capture;C:\Program Files\OrCAD\tools\bin;C:\Program Files\OrCAD\OpenAccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] SDD_HOME [C:\MentorGraphics\9.3PADS\SDD_HOME] on file system [NTFS]
+[2011.08.02 08:27:14] [0000m.00s.125ms] [1] SDD_PLATFORM [win32]
+[2011.08.02 08:27:14] [0000m.00s.140ms] [1] Local iCDB working dir [C:\Documents and Settings\claudio.lorini\My Documents\PADS Projects\iCDB] on file system [NTFS]
+[2011.08.02 08:27:14] [0000m.00s.140ms] [2] S: Loading config files
+[2011.08.02 08:27:14] [0000m.00s.140ms] [1] Config: WARNING: Line [97]: Default value ignored. Default key [SystemMemoryMonitor.StableMargin_Percentage] already defined at line [90]
+[2011.08.02 08:27:14] [0000m.00s.156ms] [1] Config: WARNING: Line [97]: Default value ignored. Default key [SystemMemoryMonitor.StableMargin_Percentage] already defined at line [90]
+[2011.08.02 08:27:14] [0000m.00s.156ms] [1] Config file [Z:\Progetti\P2010_02_NEI2\sch\database\cdbsvr\Server.cfg] not found
+[2011.08.02 08:27:14] [0000m.00s.171ms] [3] S: Config loaded
+[2011.08.02 08:27:15] [0000m.00s.281ms] [0] S: Project path [Z:\Progetti\P2010_02_NEI2\sch\database] on file system [NTFS]
+[2011.08.02 08:27:15] [0000m.00s.281ms] [0] S: Project global path [\\Iitrbcslap034\iit\Progetti\P2010_02_NEI2\sch\database] on file system [UNKNOWN]
+[2011.08.02 08:27:15] [0000m.00s.281ms] [0] S: Single-user mode (auto)
+[2011.08.02 08:27:15] [0000m.00s.281ms] [0] S: Event polling mode autodetection
+[2011.08.02 08:27:15] [0000m.00s.296ms] [0] S: Started up automatically by iCDB Client: iit-robotics01:claudio.lorini:2132
+[2011.08.02 08:27:15] [0000m.00s.296ms] [0] S: Auto close mode
+[2011.08.02 08:27:15] [0000m.00s.296ms] [0] S: Database ID [c794-cbe8-b4cf-359c-6742-1dda-7421-dd40-409d-fc59-93a3-9fef]
+[2011.08.02 08:27:15] [0000m.00s.296ms] [0] S: START
+[2011.08.02 08:27:15] [0000m.00s.296ms] [0] S: Server startup lock file created
+[2011.08.02 08:27:15] [0000m.00s.312ms] [0] S: Listening for client connections on port [10000]
+[2011.08.02 08:27:15] [0000m.00s.328ms] [0] S: Server network ID [iit-robotics01:10.255.36.25,192.168.56.1,iit-robotics01,iit-robotics01.humanoids.iit.it:10000]
+[2011.08.02 08:27:15] [0000m.00s.328ms] [0] S: Server GUID [4201-3a12-d390-9e0d-3c89-73e7-c897-3e40-ce7d-fc59-93a3-9fef]
+[2011.08.02 08:27:15] [0000m.00s.375ms] [0] S: Project GUID [c794-cbe8-b4cf-359c-6742-1dda-7421-dd40-409d-fc59-93a3-9fef]
+[2011.08.02 08:27:15] [0000m.00s.406ms] [0] S: Wrote data to server address file
+[2011.08.02 08:27:15] [0000m.00s.406ms] [0] S: Server startup lock file removed
+[2011.08.02 08:27:15] [0000m.00s.578ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2011.08.02 08:27:15] [0000m.00s.578ms] [0] S: Local disc access time: 265 us
+[2011.08.02 08:27:15] [0000m.00s.578ms] [0] S: File server access time: 1484 us
+[2011.08.02 08:27:15] [0000m.00s.578ms] [0] S: Server will not release in-memory storage after read (memory usage overhead) - for better performance
+[2011.08.02 08:27:15] [0000m.00s.593ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2011.08.02 08:27:15] [0000m.00s.609ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2011.08.02 08:27:15] [0000m.00s.609ms] [0] SingleFile: [6f64-d52d-cc84-a2dc] SFI version check [1008] [1008]
+[2011.08.02 08:27:15] [0000m.00s.640ms] [0] iCDB Server PI: Server & plugin session [43]
+[2011.08.02 08:27:15] [0000m.00s.640ms] [0] iCDB Server PI: Opening database [Z:\Progetti\P2010_02_NEI2\sch\database]
+[2011.08.02 08:27:15] [0000m.00s.640ms] [0] iCDB Server PI: Database [Z:\Progetti\P2010_02_NEI2\sch\database] opened
+[2011.08.02 08:27:15] [0000m.00s.703ms] [0] iCDB Database: Checking existence of constraint definitions
+[2011.08.02 08:27:15] [0000m.00s.703ms] [0] iCDB Database: Checking constraint definitions version
+[2011.08.02 08:27:15] [0000m.00s.828ms] [0] iCDB Database: Backuping database content before upgrade
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] iCDB Storage Server: Backup database: ProjectPath[Z:\Progetti\P2010_02_NEI2\sch\database]
+[2011.08.02 08:27:15] [0000m.00s.843ms] [0] iCDB Storage Server Backup Thread: Backup database: BackupPath[Z:\Progetti\P2010_02_NEI2\sch\database\cdbback\2011-08-02 08.27.15-632.zip]
+[2011.08.02 08:27:15] [0000m.00s.859ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[Z:\Progetti\P2010_02_NEI2\sch\database\cdbback]
+[2011.08.02 08:27:15] [0000m.00s.859ms] [0] iCDB Database: Database content backuped to [Z:\Progetti\P2010_02_NEI2\sch\database\cdbback\2011-08-02 08.27.15-632.zip] of size [24 434 bytes]  in [599ms 31us]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.8.2]
+[2011.08.02 08:27:15] [0000m.00s.937ms] [0] iCDB Database: Upgrading snapshot [1:DxD] from version [2051]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Applying a fix no 75 stage [fsAtlasLoaded] to atlas [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcmps\dxdatl]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcmps\dxdatl]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Applying a fix no 90 stage [fsAtlasLoaded] to atlas [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbblks\1000000010000050.blk\blkatl]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbblks\1000000010000050.blk\blkatl]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] iCDB Database: Snapshot [1:DxD] upgraded to version [2553] in [786ms 13us]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:DxD]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] iCDB Database: Constraint definitions for snapshot [1:DxD] upgraded in [99ms]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] iCDB Database: Saving upgraded snapshot [1:DxD]
+[2011.08.02 08:27:15] [0000m.00s.968ms] [0] iCDB Database: Upgraded snapshot [1:DxD] saved in [155ms 8us]
+[2011.08.02 08:27:15] [0000m.00s.968ms] [1] Diagnostic: Warning: {[BlockViewDxD] [1] [1-1-68] [1] } --> Could not get sheet size
+[2011.08.02 08:27:15] [0000m.00s.984ms] [1] Diagnostic: Check failed on Block: NEI2
+[2011.08.02 08:27:15] [0000m.00s.984ms] [1] Diagnostic: Snapshot [1:DxD] integrity check FAILED
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbblks\1000000010000050.blk\blkatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcmpcache\dxdatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcmps\dxdatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.031ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cnfgatl.v] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.031ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [Z:\Progetti\P2010_02_NEI2\sch\database\s1\uids] - auto-saving it
+[2011.08.02 08:27:15] [0000m.01s.031ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.8;user.cns=cba3-3ebd-15ca-792b-aab2-41ee-ab24-1e40-8fdd-fc59-93a3-9fef]
+[2011.08.02 08:27:15] [0000m.01s.046ms] [0] iCDB Server PI: Initializing plugins
+[2011.08.02 08:27:15] [0000m.01s.093ms] [0] iCDB Server PI: Plugins initialized
+[2011.08.02 08:27:15] [0000m.01s.093ms] [0] S: iCDB database loaded
+[2011.08.02 08:27:15] [0000m.01s.109ms] [0] S: Starting threads
+[2011.08.02 08:27:15] [0000m.01s.109ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2011.08.02 08:27:15] [0000m.01s.109ms] [0] IT: Session [44] for host [iit-robotics01] user [claudio.lorini] with process ID [2132] created
+[2011.08.02 08:27:15] [0000m.01s.109ms] [0] BT: Listening for broadcast messages on port [10000]
+[2011.08.02 08:27:15] [0000m.01s.109ms] [1] SC[44]: Registered sub-client [DxD] with ID [1] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:15] [0000m.01s.156ms] [1] SC[44]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:15] [0000m.01s.156ms] [1] SC[44]: Registered sub-client [xprob] with ID [3] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:16] [0000m.01s.218ms] [1] CMT: There are [1] clients now
+[2011.08.02 08:27:17] [0000m.02s.953ms] [1] SC[44]: Registered sub-client [SelectionHolder] with ID [4] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.500ms] [1] SC[44]: Registered sub-client [HdlProject] with ID [5] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.547ms] [1] SC[44]: Registered sub-client [Navigator] with ID [6] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.562ms] [1] SC[44]: Registered sub-client [OutputWindow] with ID [7] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.578ms] [1] SC[44]: Registered sub-client [PlaceDevice] with ID [8] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.890ms] [1] SC[44]: Registered sub-client [SAE] with ID [9] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.953ms] [1] SC[44]: Registered sub-client [DxConstraints] with ID [10] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.03s.968ms] [1] SC[44]: Registered sub-client [ICE] with ID [11] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.04s.015ms] [1] SC[44]: Registered sub-client [SheetConnectorsCacheDxD:3348] with ID [12] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.04s.015ms] [1] SC[44]: Registered sub-client [NetsNamesCollectorDxD:23051] with ID [13] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:18] [0000m.04s.031ms] [1] SC[44]: Registered sub-client [DxDbSearch] with ID [14] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:41] [0000m.26s.454ms] [1] SC[44]: Registered sub-client [BlockCacheDxD:987] with ID [15] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:41] [0000m.26s.454ms] [1] SC[44]: Registered sub-client [ObjectHolder6773] with ID [16] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:41] [0000m.26s.454ms] [1] SC[44]: Registered sub-client [GlobalNetAliasUpdater15986] with ID [17] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:41] [0000m.26s.454ms] [1] SC[44]: Registered sub-client [IcdbNetProcessorSubClientDxD:462] with ID [18] for session ID [44] host [iit-robotics01] user [claudio.lorini] process ID [2132]
+[2011.08.02 08:27:45] [0000m.30s.798ms] [0] DFAMT: File server access time: 1585 us
+[2011.08.02 08:28:24] [0001m.09s.424ms] [0] IT: Session [45] for host [iit-robotics01] user [claudio.lorini] with process ID [2392] created
+[2011.08.02 08:28:24] [0001m.09s.440ms] [1] SC[45]: Registered sub-client [Archiver] with ID [1] for session ID [45] host [iit-robotics01] user [claudio.lorini] process ID [2392]
+[2011.08.02 08:28:24] [0001m.09s.471ms] [1] CMT: There are [2] clients now

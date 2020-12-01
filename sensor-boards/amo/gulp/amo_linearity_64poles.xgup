@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GulpConf filename="" version="V10">
+  <XY enabled="0" ptsize="1" bufsize="200"/>
+  <advanced show="1"/>
+  <rolling enabled="0" samplerate="1"/>
+  <ifaces>
+    <interface name="ESD" config="Esd USB-CAN driver:Device 0, Baudrate 1000, ID len 0, 0x0 -&gt; 0x7ff"/>
+  </ifaces>
+  <trigger edge="rising" raw="0" val="0" xpos="0" enabled="0"/>
+  <scale x="2280942" ymin="-50000" xmax="150000"/>
+  <numeric enabled="1"/>
+  <grid width0="78" width1="82" width2="49" width3="50" width4="60" width5="47" width6="51" width7="62" width8="57" width9="153" width10="46" width11="51" width12="72" width13="60" width14="46"/>
+  <vars>
+    <var color="Green" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="5" varmask="0xffffffff" vartype="U32BE" varoffs="0" varscale="0.008382" vartrig="1" varname="Magnetic position" varxy="NONE" source="ESD" visible="1"/>
+    <var color="Cyan" filpos="0" fillen="2" filmask="0xffff" filval="0x120" varpos="8" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="3.98805" vartrig="1" varname="Optical position" varxy="NONE" source="ESD" visible="1"/>
+  </vars>
+  <sendpanel slideval="1&#xA;"/>
+  <ledpanel>
+    <LED color="Red" caption="Invalid check sum internal RAM" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="7" varsource="ESD"/>
+    <LED color="Red" caption="Configuration error on startup: No EEPROM" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="6" varsource="ESD"/>
+    <LED color="Red" caption="Multiturn communication error" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="5" varsource="ESD"/>
+    <LED color="Red" caption="Multiturn data consistency error: counted multiturn - external MT data" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="4" varsource="ESD"/>
+    <LED color="Red" caption="Period counter consistency error: counted period - calculated Nonius position" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="3" varsource="ESD"/>
+    <LED color="Red" caption="Excessive signal frequency for ABZ-converter" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="2" varsource="ESD"/>
+    <LED color="Red" caption="Excessive signal frequency for internal 12 Bit converter" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="1" varsource="ESD"/>
+    <LED color="Red" caption="Command execution in progress" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="11" bitpos="0" varsource="ESD"/>
+    <LED color="Orange" caption="Startup iC-MU" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="9" bitpos="4" varsource="ESD"/>
+    <LED color="Orange" caption="Signal error: clipping (nonius track)" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="9" bitpos="3" varsource="ESD"/>
+    <LED color="Orange" caption="Signal error: poor level (nonius track)" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="9" bitpos="2" varsource="ESD"/>
+    <LED color="Orange" caption="Signal error: clipping (master track)" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="9" bitpos="1" varsource="ESD"/>
+    <LED color="Orange" caption="Signal error: poor level (master track)" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="9" bitpos="0" varsource="ESD"/>
+  </ledpanel>
+  <commandpanel cmdtab_w0="43" cmdtab_w1="70" cmdtab_w2="65" parmtab_w0="43" parmtab_w1="63" parmtab_w2="46" parmtab_w3="57" parmtab_w4="60" parmtab_w5="72" parmtab_w6="69" parmtab_w7="37"/>
+</GulpConf>

@@ -1,0 +1,37 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\ems4_2_14_01_2013_modificato.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\ems4_2_14_01_2013_modificato.dsn")
+      (Path "Design Resources" ".\ems4_2_14_01_2013_modificato.dsn" "SCHEMATIC")
+      (Select "Design Resources" ".\ems4_2_14_01_2013_modificato.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 422"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1480 100 560")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_01_EMS4\EMS4\SCHEMATICS\REV_2_5\EMS4_2_14_01_2013_MODIFICATO.DSN")
+      (Schematic "SCHEMATIC")
+      (Page "PAGE1")))
+  (MPSSessionName "mmaggiali"))

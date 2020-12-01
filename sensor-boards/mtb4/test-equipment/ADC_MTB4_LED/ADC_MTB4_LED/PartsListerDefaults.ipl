@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="3">
+  <Entry name="description" value="Default PL config"/>
+  <Entry name="outputFormat" value="EXCEL"/>
+  <Entry name="outputFileExt" value="xlsx"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" |"/>
+  <Entry name="delimiterbefore" value="YES"/>
+  <Entry name="delimiterafter" value="YES"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="12660   $(NAME)  - Piastra di test          "/>
+    <Line text="Revision: A"/>
+    <Line text="Generated on $(DATE)"/>
+    <Line text="Istituto Italiano di Tecnologia"/>
+    <Line text="via Morego 30"/>
+    <Line text="16163 Genova (ITALY)"/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="4"/>
+    <Column type="QUANTITY" label="QTY" width="4"/>
+    <Column type="PROPERTY" property="Ref Designator" label="Ref Designator" width="15" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="IITCODE" label="IITCODE" width="8" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="Description" label="Description" width="60" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="NON MONTARE" label="NonMontare " width="5" justification="LEFT" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="Part Number" label="Part Number" width="30" justification="LEFT" key="PRIMARY" display="Unique"/>
+  </Columns>
+</PartListerConfiguration>

@@ -1,0 +1,345 @@
+[2018.03.29 13:35:03] [0000m.01s.118ms] [0] WELCOME
+[2018.03.29 13:35:03] [0000m.01s.121ms] [1] iCDB Diagnostic ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.03.29 13:35:03] [0000m.01s.121ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.03.29 13:35:03] [0000m.01s.121ms] [1] Base flow version [VX.2.3]
+[2018.03.29 13:35:03] [0000m.01s.121ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.03.29 13:35:03] [0000m.01s.122ms] [1] Machine [IITICUBWS029]  IP [10.255.35.55,127.0.0.1]  User [MBorgagni]  PID [7416]
+[2018.03.29 13:35:03] [0000m.01s.122ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2018.03.29 13:35:03] [0000m.01s.122ms] [1] Current working dir [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED]
+[2018.03.29 13:35:03] [0000m.01s.122ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Program Files (x86)\Skype\Phone\;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2018.03.29 13:35:03] [0000m.01s.123ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.03.29 13:35:03] [0000m.01s.123ms] [1] SDD_PLATFORM [win32]
+[2018.03.29 13:35:03] [0000m.01s.123ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.03.29 13:35:03] [0000m.01s.123ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: Checking snapshot [1:DxD] integrity
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: DxDCheck: LineDxD
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: DxDCheck: RectDxD
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: DxDCheck: TextDxD
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.192ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: Block: ADC_MTB4_LED
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesConstraint
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPin
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesFromTo
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPhysicalNet
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPinPair
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesElectricalNet
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesDiffPair
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesComponent
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPartPin
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPartPinPair
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesPart
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesDesign
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesLayerClearRule
+[2018.03.29 13:35:03] [0000m.01s.193ms] [2] Diagnostic: CesConfigCheck: CesSchemeClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesViaAssign
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesLayerRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesSchemeNetClassRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesScheme
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesLayer
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesNetClass
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesConstraintClass
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesViaSpan
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesGenClear
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesPartTech
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesConstVar
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesC2CClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesPkgTypeClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesP2PClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesParRuleSection
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesParRuleDef
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesNoiseRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesGenObj
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesGenCompObj
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesGenObjType
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesVia
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesZAxisLayerRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: CesConfigCheck: CesZAxisClearRule
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.194ms] [2] Diagnostic: Snapshot [1:DxD] integrity check PASSED in [2ms 268us]
+[2018.03.29 13:35:03] [0000m.01s.243ms] [2] Diagnostic: Checking snapshot [2:__ise_DxD] integrity
+[2018.03.29 13:35:03] [0000m.01s.243ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.243ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.243ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.243ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.244ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.244ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.244ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.244ms] [2] Diagnostic: Snapshot [2:__ise_DxD] integrity check PASSED in [836us]
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: Checking snapshot [3:ADC_MTB4_LED_layout_temp] integrity
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: DxDCheck: LineDxD
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: DxDCheck: RectDxD
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: DxDCheck: TextDxD
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: Block: ADC_MTB4_LED
+[2018.03.29 13:35:03] [0000m.01s.278ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: CesConfigCheck: CesConstraint
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: CesConfigCheck: CesPin
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: CesConfigCheck: CesFromTo
+[2018.03.29 13:35:03] [0000m.01s.279ms] [2] Diagnostic: CesConfigCheck: CesPhysicalNet
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPinPair
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesElectricalNet
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesDiffPair
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesComponent
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPartPin
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPartPinPair
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPart
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesDesign
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesLayerClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesSchemeClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesViaAssign
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesLayerRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesSchemeNetClassRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesScheme
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesLayer
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesNetClass
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesConstraintClass
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesViaSpan
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesGenClear
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPartTech
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesConstVar
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesC2CClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesPkgTypeClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesP2PClearRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesParRuleSection
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesParRuleDef
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesNoiseRule
+[2018.03.29 13:35:03] [0000m.01s.280ms] [2] Diagnostic: CesConfigCheck: CesGenObj
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: CesConfigCheck: CesGenCompObj
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: CesConfigCheck: CesGenObjType
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: CesConfigCheck: CesVia
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: CesConfigCheck: CesZAxisLayerRule
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: CesConfigCheck: CesZAxisClearRule
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.281ms] [2] Diagnostic: Snapshot [3:ADC_MTB4_LED_layout_temp] integrity check PASSED in [3ms 115us]
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: Checking snapshot [4:ADC_MTB4_LED] integrity
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: DxDCheck: LineDxD
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: DxDCheck: RectDxD
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: DxDCheck: TextDxD
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: Block: ADC_MTB4_LED
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2018.03.29 13:35:03] [0000m.01s.298ms] [2] Diagnostic: CesConfigCheck: CesConstraint
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPin
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesFromTo
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPhysicalNet
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPinPair
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesElectricalNet
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesDiffPair
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesComponent
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPartPin
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPartPinPair
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPart
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesDesign
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesLayerClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesSchemeClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesViaAssign
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesLayerRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesSchemeNetClassRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesScheme
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesLayer
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesNetClass
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesConstraintClass
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesViaSpan
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesGenClear
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPartTech
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesConstVar
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesC2CClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesPkgTypeClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesP2PClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesParRuleSection
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesParRuleDef
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesNoiseRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesGenObj
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesGenCompObj
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesGenObjType
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesVia
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesZAxisLayerRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: CesConfigCheck: CesZAxisClearRule
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.299ms] [2] Diagnostic: Snapshot [4:ADC_MTB4_LED] integrity check PASSED in [1ms 491us]
+[2018.03.29 13:35:03] [0000m.01s.315ms] [2] Diagnostic: Checking snapshot [6:ADC_MTB4_LED_LDDTemp] integrity
+[2018.03.29 13:35:03] [0000m.01s.315ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.315ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.315ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2018.03.29 13:35:03] [0000m.01s.315ms] [2] Diagnostic: DxDCheck: LineDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: DxDCheck: RectDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: DxDCheck: TextDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: Block: ADC_MTB4_LED
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesConstraint
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPin
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesFromTo
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPhysicalNet
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPinPair
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesElectricalNet
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesDiffPair
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesComponent
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPartPin
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPartPinPair
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPart
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesDesign
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesLayerClearRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesSchemeClearRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesViaAssign
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesLayerRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesSchemeNetClassRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesScheme
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesLayer
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesNetClass
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesClearRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesConstraintClass
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesViaSpan
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesGenClear
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPartTech
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesConstVar
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesC2CClearRule
+[2018.03.29 13:35:03] [0000m.01s.316ms] [2] Diagnostic: CesConfigCheck: CesPkgTypeClearRule
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesP2PClearRule
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesParRuleSection
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesParRuleDef
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesNoiseRule
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesGenObj
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesGenCompObj
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesGenObjType
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesVia
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesZAxisLayerRule
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: CesConfigCheck: CesZAxisClearRule
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.317ms] [2] Diagnostic: Snapshot [6:ADC_MTB4_LED_LDDTemp] integrity check PASSED in [1ms 360us]
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: Checking snapshot [7:ADC_MTB4_LED_RefSync] integrity
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: DxDCheck: LineDxD
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2018.03.29 13:35:03] [0000m.01s.330ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: DxDCheck: RectDxD
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: DxDCheck: TextDxD
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: Block: ADC_MTB4_LED
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesConstraint
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPin
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesFromTo
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPhysicalNet
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPinPair
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesElectricalNet
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesDiffPair
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesComponent
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPartPin
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPartPinPair
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPart
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesDesign
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesLayerClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesSchemeClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesViaAssign
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesLayerRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesSchemeNetClassRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesScheme
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesLayer
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesNetClass
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesConstraintClass
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesViaSpan
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesGenClear
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPartTech
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesConstVar
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesC2CClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesPkgTypeClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesP2PClearRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesParRuleSection
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesParRuleDef
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesNoiseRule
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesGenObj
+[2018.03.29 13:35:03] [0000m.01s.331ms] [2] Diagnostic: CesConfigCheck: CesGenCompObj
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: CesConfigCheck: CesGenObjType
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: CesConfigCheck: CesVia
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: CesConfigCheck: CesZAxisLayerRule
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: CesConfigCheck: CesZAxisClearRule
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2018.03.29 13:35:03] [0000m.01s.332ms] [2] Diagnostic: Snapshot [7:ADC_MTB4_LED_RefSync] integrity check PASSED in [1ms 294us]
+[2018.03.29 13:35:03] [0000m.01s.333ms] [0] Diagnostic: FINISH
+[2018.03.29 13:35:03] [0000m.01s.333ms] [0] .

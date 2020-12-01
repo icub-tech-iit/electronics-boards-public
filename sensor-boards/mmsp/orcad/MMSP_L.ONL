@@ -1,0 +1,2040 @@
+(PCB MMSP_L
+ (description
+  (timeStamp "2012 10 09 09 51 00")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "MMSP_L MultiModalSkinforPalm -  Left")
+  (date "Monday, October 08, 2012")
+  (document "MMSP_L  - SCHEMATIC")
+  (revision "0")
+  (organization "IIT - Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 -Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB FOOTPRINT}"))
+ (structure )
+ (placement
+  (component RES0402_0
+   (place R5
+    (property 
+     (DESCRIPTION "<TO COMPLETE>")
+     (timestamp 00F72325)
+     (IITCODE 1699)
+     (RANGE "<TO COMPLETE>")
+     (TOLLERANCE "<TO COMPLETE>")
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" RES0402_0)
+     (CATEGORY "<TO COMPLETE>")
+     (Value 2k2)
+     (NONMONTARE NM)
+     (POWER 0.063W)
+     (TOLERANCE 5%))))
+  (component RES0402_1
+   (place R1
+    (property 
+     (DESCRIPTION "<TO COMPLETE>")
+     (timestamp 00F6CCF4)
+     (IITCODE 1699)
+     (RANGE "<TO COMPLETE>")
+     (TOLLERANCE "<TO COMPLETE>")
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" RES0402_1)
+     (CATEGORY "<TO COMPLETE>")
+     (Value 2k2)
+     (POWER 0.063W)
+     (TOLERANCE 5%)))
+   (place R2
+    (property 
+     (DESCRIPTION "<TO COMPLETE>")
+     (timestamp 00F6CD57)
+     (IITCODE 1699)
+     (RANGE "<TO COMPLETE>")
+     (TOLLERANCE "<TO COMPLETE>")
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" RES0402_1)
+     (CATEGORY "<TO COMPLETE>")
+     (Value 2k2)
+     (POWER 0.063W)
+     (TOLERANCE 5%)))
+   (place R3
+    (property 
+     (DESCRIPTION "<TO COMPLETE>")
+     (timestamp 00F6B374)
+     (IITCODE 1109)
+     (RANGE "<TO COMPLETE>")
+     (TOLLERANCE "<TO COMPLETE>")
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" RES0402_1)
+     (CATEGORY "<TO COMPLETE>")
+     (Value 10k)
+     (POWER 0.063W)
+     (TOLERANCE 1%)))
+   (place R4
+    (property 
+     (DESCRIPTION "<TO COMPLETE>")
+     (timestamp 00F721B2)
+     (IITCODE 1699)
+     (RANGE "<TO COMPLETE>")
+     (TOLLERANCE "<TO COMPLETE>")
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" RES0402_1)
+     (CATEGORY "<TO COMPLETE>")
+     (Value 2k2)
+     (NONMONTARE NM)
+     (TOLERANCE 5%)
+     (POWER 0.063W))))
+  (component AD7147_0
+   (place U2
+    (property 
+     (timestamp 00F6E368)
+     (IITCODE 857)
+     ("PCB FOOTPRINT" LFCSP24)
+     ("Source Package" AD7147_0)
+     (Value "AD7147ACPZ-1")))
+   (place U3
+    (property 
+     (SUPPLY_VOLTAGE 2,6/3,3V)
+     (timestamp 00F5057B)
+     (IITCODE 857)
+     (ROHS yes)
+     ("PCB FOOTPRINT" LFCSP24)
+     ("Source Package" AD7147_0)
+     (DOCUMENTATION "\\\\Geo\\repository\\groups\\tech_dept\\Datasheet\\Sensors\\Analog Devices\\ANALOG DEVICES - Capacitance-to-Digital Converter AD7147 serie.pdf")
+     (Value "AD7147ACPZ-1")))
+   (place U4
+    (property 
+     (timestamp 00F6E494)
+     (IITCODE 857)
+     ("PCB FOOTPRINT" LFCSP24)
+     ("Source Package" AD7147_0)
+     (Value "AD7147ACPZ-1")))
+   (place U5
+    (property 
+     (SUPPLY_VOLTAGE 2,6/3,3V)
+     (timestamp 00F6E5C2)
+     (IITCODE 857)
+     (ROHS yes)
+     ("PCB FOOTPRINT" LFCSP24)
+     ("Source Package" AD7147_0)
+     (DOCUMENTATION "\\\\Geo\\repository\\groups\\tech_dept\\Datasheet\\Sensors\\Analog Devices\\ANALOG DEVICES - Capacitance-to-Digital Converter AD7147 serie.pdf")
+     (Value "AD7147ACPZ-1"))))
+  (component HOLE3_0.2
+   (place H1
+    (property 
+     (timestamp 00F71AAA)
+     (IITCODE 4269)
+     ("PCB FOOTPRINT" HOLE3)
+     ("Source Package" HOLE3_0.2)
+     (Value H3)
+     (NONMONTARE NM)))
+   (place H2
+    (property 
+     (timestamp 00F71AB8)
+     (IITCODE 4269)
+     ("PCB FOOTPRINT" HOLE3)
+     ("Source Package" HOLE3_0.2)
+     (Value H3)
+     (NONMONTARE NM)))
+   (place H3
+    (property 
+     (timestamp 00F71AC6)
+     (IITCODE 4269)
+     ("PCB FOOTPRINT" HOLE3)
+     ("Source Package" HOLE3_0.2)
+     (Value H3)
+     (NONMONTARE NM))))
+  (component CAP0603
+   (place C18
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00F6B25C)
+     (IITCODE 1041)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP0603)
+     (RHOS yes)
+     (Value 470nF)
+     (TOLERANCE 10%))))
+  (component FXMA2102_1
+   (place U1
+    (property 
+     (timestamp 00F6C9D8)
+     (IITCODE 4699)
+     ("PCB FOOTPRINT" MicroPak)
+     ("Source Package" FXMA2102_1)
+     (Value FXMA2102))))
+  (component BLM15
+   (place FL1
+    (property 
+     (timestamp 00F6B106)
+     (IITCODE 1118)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" BLM15)
+     (Value BLM15AG601SN1D)
+     (IMPEDANCE "600R @100MHz")
+     (ROHS_COMPLIANT yes)
+     (TOLERANCE ±25%)))
+   (place FL2
+    (property 
+     (timestamp 00F6B11E)
+     (IITCODE 1118)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" BLM15)
+     (Value BLM15AG601SN1D)
+     (ROHS_COMPLIANT yes)
+     (IMPEDANCE "600R @100MHz")
+     (TOLERANCE ±25%))))
+  (component PAD_2
+   (place P40
+    (property 
+     (timestamp 00F6BCFE)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P41
+    (property 
+     (timestamp 00F6BD0C)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P10
+    (property 
+     (timestamp 00F6C04A)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P42
+    (property 
+     (timestamp 00F6BD1A)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P43
+    (property 
+     (timestamp 00F6B867)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P11
+    (property 
+     (timestamp 00F5061E)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P12
+    (property 
+     (timestamp 00F6C066)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P44
+    (property 
+     (timestamp 00F6B875)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P45
+    (property 
+     (timestamp 00F6B883)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P13
+    (property 
+     (timestamp 00F50636)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P14
+    (property 
+     (timestamp 00F6C074)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P46
+    (property 
+     (timestamp 00F6BD28)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P15
+    (property 
+     (timestamp 00F5064E)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P16
+    (property 
+     (timestamp 00F6C082)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P17
+    (property 
+     (timestamp 00F50666)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P18
+    (property 
+     (timestamp 00F6C090)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P19
+    (property 
+     (timestamp 00F5067E)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P20
+    (property 
+     (timestamp 00F6C09E)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P21
+    (property 
+     (timestamp 00F50696)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P22
+    (property 
+     (timestamp 00F6C0AC)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P25
+    (property 
+     (timestamp 00F6BC9C)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P26
+    (property 
+     (timestamp 00F6B7F7)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P27
+    (property 
+     (timestamp 00F6B805)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P28
+    (property 
+     (timestamp 00F6BCAA)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P29
+    (property 
+     (timestamp 00F6B813)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P1
+    (property 
+     (timestamp 00F505A0)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P2
+    (property 
+     (timestamp 00F6C020)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P3
+    (property 
+     (timestamp 00F505C0)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P4
+    (property 
+     (timestamp 00F6C02E)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P5
+    (property 
+     (timestamp 00F505D8)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P6
+    (property 
+     (timestamp 00F6C03C)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P7
+    (property 
+     (timestamp 00F505EE)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P8
+    (property 
+     (timestamp 00F6C058)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P9
+    (property 
+     (timestamp 00F50606)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P30
+    (property 
+     (timestamp 00F6BCB8)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P31
+    (property 
+     (timestamp 00F6BCD4)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P32
+    (property 
+     (timestamp 00F6B821)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P33
+    (property 
+     (timestamp 00F6B82F)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P34
+    (property 
+     (timestamp 00F6BCC6)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P35
+    (property 
+     (timestamp 00F6BCE2)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P36
+    (property 
+     (timestamp 00F6BCF0)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P37
+    (property 
+     (timestamp 00F6B83D)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P38
+    (property 
+     (timestamp 00F6B84B)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P39
+    (property 
+     (timestamp 00F6B859)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADCIRC)
+     ("Source Package" PAD_2)
+     (Value PAD)
+     (NONMONTARE NM))))
+  (component LIS331DLH_0
+   (place U6
+    (property 
+     ("4TH PART FIELD" "LGA16-3X3P0.5")
+     (timestamp 00F6AB3D)
+     (IITCODE 1025)
+     ("PCB FOOTPRINT" "LGA3X3-16")
+     ("Source Package" LIS331DLH_0)
+     (Value LIS331DLH))))
+  (component PAD_3
+   (place P47
+    (property 
+     (timestamp 00F71117)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADT)
+     ("Source Package" PAD_3)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P48
+    (property 
+     (timestamp 00F710FD)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADT)
+     ("Source Package" PAD_3)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P23
+    (property 
+     (timestamp 00F710B9)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADT)
+     ("Source Package" PAD_3)
+     (Value PAD)
+     (NONMONTARE NM)))
+   (place P24
+    (property 
+     (timestamp 00F6C0C2)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" PADT)
+     ("Source Package" PAD_3)
+     (Value PAD)
+     (NONMONTARE NM))))
+  (component CAP0402_0
+   (place C20
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00FAF610)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C1
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6BF72)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C2
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6B0A0)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C3
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6B3AF)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C4
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X5R)
+     (timestamp 00F6B4E2)
+     (IITCODE 2910)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 1uF)
+     (TOLERANCE 20%)))
+   (place C5
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6BF8E)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C6
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X5R)
+     (timestamp 00F6BFB2)
+     (IITCODE 2910)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 1uF)
+     (TOLERANCE 20%)))
+   (place C7
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6B749)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C8
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6BBEE)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C9
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6AEA9)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C10
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6AF1F)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C11
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6B761)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C12
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X5R)
+     (timestamp 00F6B789)
+     (IITCODE 2910)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 1uF)
+     (TOLERANCE 20%)))
+   (place C13
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6BC0A)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C14
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X5R)
+     (timestamp 00F6BC2E)
+     (IITCODE 2910)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 1uF)
+     (TOLERANCE 20%)))
+   (place C15
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6AF98)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C16
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F6B00B)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (TOLERANCE 10%)))
+   (place C17
+    (property 
+     (VOLTAGE 50V)
+     (DIELECTRIC X7R)
+     (timestamp 00F6B30D)
+     (IITCODE 1075)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 10nF)
+     (TOLERANCE 10%)))
+   (place C19
+    (property 
+     (VOLTAGE 25V)
+     (DIELECTRIC Y5V)
+     (timestamp 00F708CA)
+     (IITCODE 1681)
+     ("PCB FOOTPRINT" 0402)
+     ("Source Package" CAP0402_0)
+     (RHOS yes)
+     (Value 100nF)
+     (NONMONTARE NM)
+     (TOLERANCE 10%))))
+  (component "MOLEX53261-0471_0"
+   (place J1
+    (property 
+     (CURRENT 1A)
+     (timestamp 00F6F2BE)
+     (IITCODE 4697)
+     ("PCB FOOTPRINT" SOLDERLAND_4)
+     ("Source Package" "MOLEX53261-0471_0")
+     (RHOS yes)
+     (Value solderland)
+     (NONMONTARE NM))))
+  (component L3G4200D_0
+   (place U7
+    (property 
+     ("4TH PART FIELD" "LGA16-4X4P0.65")
+     (timestamp 00F6AB71)
+     (IITCODE 1030)
+     ("PCB FOOTPRINT" "LGA4X4-16")
+     ("Source Package" L3G4200D_0)
+     (Value L3G4200D))))
+  (component "TP-ATE-LS_0"
+   (place TP1
+    (property 
+     (timestamp 00F6C822)
+     (IITCODE 4697)
+     ("Source Package" "TP-ATE-LS_0")
+     (Value "TP-ATE-LC")
+     (NONMONTARE NM)))
+   (place TP2
+    (property 
+     (timestamp 00F6C810)
+     (IITCODE 4697)
+     ("Source Package" "TP-ATE-LS_0")
+     (Value "TP-ATE-LC")
+     (NONMONTARE NM)))
+   (place TP3
+    (property 
+     (timestamp 00F6C7EC)
+     (IITCODE 4697)
+     ("Source Package" "TP-ATE-LS_0")
+     (Value "TP-ATE-LC")
+     (NONMONTARE NM)))
+   (place TP4
+    (property 
+     (timestamp 00F6C7FE)
+     (IITCODE 4697)
+     ("Source Package" "TP-ATE-LS_0")
+     (Value "TP-ATE-LC")
+     (NONMONTARE NM)))))
+ (library
+  (image HOLE3_0.2
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (IITCODE NM)
+    ("PCB Footprint" HOLE3.2)
+    (NonMontare NM))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image PAD_2
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP_L.DSN)
+    (NonMontare NM)
+    (IITCODE 4697))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16170318)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image BLM15
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" 0402))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165471)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image PAD_3
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP_L.DSN)
+    (NonMontare NM)
+    ("PCB Footprint" PADT)
+    (IITCODE 4697))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16170288)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image CAP0402_0
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (IITCODE <IITCODE>)
+    ("PCB Footprint" 0402))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image FXMA2102_1
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (IITCODE "To Complete"))
+   (pin 999 1
+    (property 
+     (pinname VCCA)
+     (pintype 7)
+     (Name VCCA)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname A1)
+     (pintype 1)
+     (Name A1)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N16174771)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname A0)
+     (pintype 1)
+     (Name A0)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N16196038)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname B0)
+     (pintype 1)
+     (Name B0)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" I2C1_SDA)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname B1)
+     (pintype 1)
+     (Name B1)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" I2C1_SCL)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname VCCB)
+     (pintype 7)
+     (Name VCCB)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname OE)
+     (pintype 0)
+     (Name OE)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" VCC)
+     (Order 7)
+     ("Is No Connect" False))))
+  (image AD7147_0
+   (property 
+    (sourcelib "C:\\DOCUMENTS AND SETTINGS\\ANDREA\\DESKTOP\\MAGGIASVN\\ELECTRONICS BOARD\\P2011_09_RBCS_MMSP\\SCHEMATIC\\MMSP.DSN")
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" LFCSP24))
+   (pin 999 19
+    (property 
+     (pinname CIN0)
+     (pintype 0)
+     (Name CIN0)
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16170962)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname CIN1)
+     (pintype 0)
+     (Name CIN1)
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171192)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname CIN10)
+     (pintype 0)
+     (Name CIN10)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171230)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname CIN11)
+     (pintype 0)
+     (Name CIN11)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171188)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname CIN12)
+     (pintype 0)
+     (Name CIN12)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 21
+    (property 
+     (pinname CIN2)
+     (pintype 0)
+     (Name CIN2)
+     (Number 21)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171222)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 22
+    (property 
+     (pinname CIN3)
+     (pintype 0)
+     (Name CIN3)
+     (Number 22)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171234)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 23
+    (property 
+     (pinname CIN4)
+     (pintype 0)
+     (Name CIN4)
+     (Number 23)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171210)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 24
+    (property 
+     (pinname CIN5)
+     (pintype 0)
+     (Name CIN5)
+     (Number 24)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171226)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname CIN6)
+     (pintype 0)
+     (Name CIN6)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171242)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname CIN7)
+     (pintype 0)
+     (Name CIN7)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171218)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname CIN8)
+     (pintype 0)
+     (Name CIN8)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171238)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname ADD0)
+     (pintype 0)
+     (Name ADD0)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" VCC)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname CIN9)
+     (pintype 0)
+     (Name CIN9)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16171214)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname SCLK)
+     (pintype 0)
+     (Name SCLK)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" I2C1_SCL)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     (Name VCC)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname ACSHIELD)
+     (pintype 2)
+     (Name ACSHIELD)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" ACSHIELD1)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname \\\\I\\N\\T\\)
+     (pintype 3)
+     (Name \\\\I\\N\\T\\)
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type "Open Collector")
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname SDA)
+     (pintype 1)
+     (Name SDA)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" I2C1_SDA)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname GPIO)
+     (pintype 1)
+     (Name GPIO)
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 19)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 20)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname BIAS)
+     (pintype 4)
+     (Name BIAS)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16170878)
+     (Order 21)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname VDRIVE)
+     (pintype 7)
+     (Name VDRIVE)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 22)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname "\\\\C\\S\\ ADD1")
+     (pintype 4)
+     (Name "\\\\C\\S\\ ADD1")
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 23)
+     ("Is No Connect" False))))
+  (image RES0402_1
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (Category "<TO COMPLETE>")
+    (Description "<TO COMPLETE>")
+    (IITCODE <IITCODE>)
+    ("PCB Footprint" 0402)
+    (TOLLERANCE "<TO COMPLETE>")
+    (RANGE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" I2C1_SDA)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image LIS331DLH_0
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    ("4TH PART FIELD" "LGA16-3X3P0.5")
+    (IITCODE 1025))
+   (pin 999 1
+    (property 
+     (pinname VDDIO)
+     (pintype 4)
+     (Name VDDIO)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname VDD)
+     (pintype 4)
+     (Name VDD)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165471)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165471)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname NC)
+     (pintype 4)
+     (Name NC)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16189652)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname NC)
+     (pintype 4)
+     (Name NC)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" True)))
+   (pin 999 4
+    (property 
+     (pinname SCL/SPC)
+     (pintype 0)
+     (Name SCL/SPC)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" I2C1_SCL)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname SDA/SDI)
+     (pintype 1)
+     (Name SDA/SDI)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" I2C1_SDA)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname SA0/SDO)
+     (pintype 1)
+     (Name SA0/SDO)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" GND)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname I2C/SPI)
+     (pintype 0)
+     (Name I2C/SPI)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" VCC)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname INT1)
+     (pintype 0)
+     (Name INT1)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname INT2)
+     (pintype 0)
+     (Name INT2)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 15)
+     ("Is No Connect" False))))
+  (image RES0402_0
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (Category "<TO COMPLETE>")
+    (Description "<TO COMPLETE>")
+    (IITCODE <IITCODE>)
+    ("PCB Footprint" 0402)
+    (TOLLERANCE "<TO COMPLETE>")
+    (RANGE "<TO COMPLETE>")
+    (NonMontare NM))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16174771)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image L3G4200D_0
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    ("4TH PART FIELD" "LGA16-4X4P0.65")
+    (IITCODE 1030))
+   (pin 999 1
+    (property 
+     (pinname VDDIO)
+     (pintype 4)
+     (Name VDDIO)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname VDD)
+     (pintype 4)
+     (Name VDD)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165527)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname PLLFILT)
+     (pintype 4)
+     (Name PLLFILT)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165551)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165527)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname SCL/SPC)
+     (pintype 0)
+     (Name SCL/SPC)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" I2C1_SCL)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname SDA/SDI/SDO)
+     (pintype 1)
+     (Name SDA/SDI/SDO)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" I2C1_SDA)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname SA0/SDO)
+     (pintype 1)
+     (Name SA0/SDO)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" GND)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname I2C/SPI)
+     (pintype 0)
+     (Name I2C/SPI)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" VCC)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname INT)
+     (pintype 2)
+     (Name INT)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname DRDY)
+     (pintype 2)
+     (Name DRDY)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname RES)
+     (pintype 4)
+     (Name RES)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 15)
+     ("Is No Connect" False))))
+  (image "TP-ATE-LS_0"
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP_L.DSN)
+    (NonMontare NM)
+    (IITCODE NM)
+    ("PCB Footprint" "TP-ATE-LC"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ACSHIELD1)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image "MOLEX53261-0471_0"
+   (property 
+    (sourcelib F:\\EDL\\P2011_09_MMSP\\SCHEMATIC\\MMSP.DSN)
+    (IITCODE 4697)
+    (NonMontare NM))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)
+     ("Pin Length" Short)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16174771)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16196038)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image CAP0603
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    ("PCB Footprint" 0603)
+    (IITCODE <IITCODE>))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16165451)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net ACSHIELD1
+   (pins
+     TP1-1 U2-8))
+  (net ACSHIELD2
+   (pins
+     U3-8 TP2-1))
+  (net ACSHIELD3
+   (pins
+     TP3-1 U4-8))
+  (net ACSHIELD4
+   (pins
+     TP4-1 U5-8))
+  (net GND
+    (property 
+     (nettype S)
+     (POWER TRUE))
+   (pins
+     U3-14 U3-10 U3-16 U6-12 U6-13 U6-16 U6-7 U6-10 U6-5
+     U7-12 U7-13 U7-8 U7-9 U7-4 U7-10 U7-11 C9-2 C10-1
+     C15-2 C16-2 C2-2 C18-2 C17-2 C3-1 C4-2 C12-2 C7-2
+     C11-1 C14-2 C13-1 C8-2 C6-2 C5-1 C1-2 U1-4 U2-10
+     U4-10 U4-16 U5-14 U5-10 J1-1
+    (property 
+     ("PIN LENGTH" Short))
+     C19-1 C20-2))
+  (net I2C1_SCL
+   (pins
+     U3-15 U6-4 U7-2 U1-6 R2-2 U2-15 U4-15 U5-15))
+  (net I2C1_SDA
+   (pins
+     U3-13 U6-6 U7-3 U1-7 R1-2 U2-13 U4-13 U5-13))
+  (net N16057768
+   (pins
+     U3-19 P1-1))
+  (net N16058072
+   (pins
+     U3-6 P23-1))
+  (net N16058074
+   (pins
+     U3-20 P3-1))
+  (net N16058076
+   (pins
+     U3-23 P9-1))
+  (net N16058078
+   (pins
+     U3-4 P19-1))
+  (net N16058080
+   (pins
+     U3-2 P15-1))
+  (net N16058082
+   (pins
+     U3-21 P5-1))
+  (net N16058086
+   (pins
+     U3-24 P11-1))
+  (net N16058088
+   (pins
+     U3-5 P21-1))
+  (net N16058090
+   (pins
+     U3-22 P7-1))
+  (net N16058092
+   (pins
+     U3-3 P17-1))
+  (net N16058094
+   (pins
+     U3-1 P13-1))
+  (net N16165451
+   (pins
+     C18-1 R3-2))
+  (net N16165471
+   (pins
+     U6-14 U6-15 C10-2 FL1-1))
+  (net N16165527
+    (property 
+     (POWER TRUE))
+   (pins
+     U7-16 U7-15 C16-1 FL2-1))
+  (net N16165551
+   (pins
+     U7-14 C17-1 R3-1))
+  (net N16167867
+   (pins
+     U3-9 C3-2))
+  (net N16168813
+   (pins
+     C11-2 U4-9))
+  (net N16168941
+   (pins
+     P26-1 U4-19))
+  (net N16169113
+   (pins
+     U4-6 P48-1))
+  (net N16169117
+   (pins
+     P27-1 U4-20))
+  (net N16169121
+   (pins
+     P33-1 U4-23))
+  (net N16169125
+   (pins
+     P44-1 U4-4))
+  (net N16169129
+   (pins
+     P39-1 U4-2))
+  (net N16169133
+   (pins
+     P29-1 U4-21))
+  (net N16169137
+   (pins
+     P37-1 U4-24))
+  (net N16169141
+   (pins
+     P45-1 U4-5))
+  (net N16169145
+   (pins
+     P32-1 U4-22))
+  (net N16169149
+   (pins
+     P43-1 U4-3))
+  (net N16169153
+   (pins
+     P38-1 U4-1))
+  (net N16169978
+   (pins
+     C13-2 U5-9))
+  (net N16170062
+   (pins
+     P25-1 U5-19))
+  (net N16170288
+   (pins
+     U5-6 P47-1))
+  (net N16170292
+   (pins
+     P28-1 U5-20))
+  (net N16170310
+   (pins
+     P34-1 U5-23))
+  (net N16170314
+   (pins
+     P42-1 U5-4))
+  (net N16170318
+   (pins
+     P40-1 U5-2))
+  (net N16170322
+   (pins
+     P30-1 U5-21))
+  (net N16170326
+   (pins
+     P35-1 U5-24))
+  (net N16170330
+   (pins
+     P46-1 U5-5))
+  (net N16170334
+   (pins
+     P31-1 U5-22))
+  (net N16170338
+   (pins
+     P41-1 U5-3))
+  (net N16170342
+   (pins
+     P36-1 U5-1))
+  (net N16170878
+   (pins
+     C5-2 U2-9))
+  (net N16170962
+   (pins
+     P2-1 U2-19))
+  (net N16171188
+   (pins
+     P24-1 U2-6))
+  (net N16171192
+   (pins
+     P4-1 U2-20))
+  (net N16171210
+   (pins
+     P10-1 U2-23))
+  (net N16171214
+   (pins
+     P20-1 U2-4))
+  (net N16171218
+   (pins
+     P16-1 U2-2))
+  (net N16171222
+   (pins
+     P6-1 U2-21))
+  (net N16171226
+   (pins
+     P12-1 U2-24))
+  (net N16171230
+   (pins
+     P22-1 U2-5))
+  (net N16171234
+   (pins
+     P8-1 U2-22))
+  (net N16171238
+   (pins
+     P18-1 U2-3))
+  (net N16171242
+   (pins
+     P14-1 U2-1))
+  (net N16174771
+   (pins
+     U1-3 J1-2 R5-2))
+  (net N16189652
+   (pins
+     U6-2 C19-2))
+  (net N16196038
+   (pins
+     U1-2 J1-3 R4-2))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     U3-11 U3-12 U6-1 U6-8 U7-1 U7-5 C9-1 C15-1 C2-1
+     FL1-2 FL2-2 C4-1 C12-1 C7-1 C14-1 C8-1 C6-1 C1-1
+     U1-1 U1-8 U1-5 R1-1 R2-1 U2-14 U2-11 U2-12 U2-16
+     U4-14 U4-11 U4-12 U5-11 U5-12 U5-16 J1-4 R4-1 R5-1
+     C20-1)))
+)

@@ -1,0 +1,35 @@
+                              Forward Annotation Pending Changes Report                             
+
+This file contains connectivity differences between PADS Designer project:
+	 "F:\repo\P2013_07_BBA\REV_B\Padsproject\BBA_1\BBA_1.prj" 
+and PADS Layout PCB:
+	 "F:\repo\P2013_07_BBA\REV_B\Padsproject\BBA_1\BBA_1.pcb" 
+
+(If you click Forward Annotation indicator in Project Integration dialog, these changes will be sent
+ from PADS Designer project to PADS Layout PCB.)
+
+
+============================================ Components ============================================
+***** No item is about to be added *****
+***** Removed (3) *****
+   Ref-Des:                FID_1 |   Part:                FID-40 |   Decal:            <default>
+   Ref-Des:                FID_2 |   Part:                FID-40 |   Decal:            <default>
+   Ref-Des:                FID_3 |   Part:                FID-40 |   Decal:            <default>
+
+***** Modified (18) *****
+
+All parts and decals will be replaced from library.
+
+
+=============================================== Nets ===============================================
+***** Added (1) *****
+   Name:               $2N209 |   Pins:                                                TP13.1 TP14.1 
+
+***** Removed (1) *****
+   Name:            N16939832 |   Pins:                                                TP13.1 TP14.1 
+
+
+====================================================================================================
+
+
+Report was generated at: Tuesday, September 25, 2018 09:46:44

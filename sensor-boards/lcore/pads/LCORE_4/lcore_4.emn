@@ -1,0 +1,94 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.5"    2014/02/18.08:57:21    1
+"d:\electronics\p2011_19_lcore\pcb\lcore_4.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+0.8
+0     -12.439                       -18.14167                     0     
+0     -7.08733                      -20.822                       15.6      
+0     -5.92867                      -20.55033                     66.7      
+0     -4.44067                      -20.009                       -67.6     
+0     2.67733                       -20.32233                     20.0      
+0     4.08567                       -20.939                       -62.2     
+0     5.234                         -21.36667                     75.6      
+0     9.19117                       -19.99367                     10.9      
+0     9.95867                       -17.27233                     90.0      
+0     4.898                         -8.482                        0     
+0     2.52733                       -7.58267                      76.6      
+0     -3.78067                      -7.04667                      -46.6     
+0     -6.313                        -7.52367                      -70.2     
+0     -12.737                       -15.16867                     0     
+0     -12.439                       -18.14167                     95.3      
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+2.000000 5.176330 -19.318670 NPTH BOARD
+2.000000 -8.452330 -18.126330 NPTH BOARD
+1.600000 -11.471530 -16.383040 NPTH BOARD
+1.600000 8.452370 -18.126160 NPTH BOARD
+.END_DRILLED_HOLES
+.ROUTE_KEEPOUT
+BOTTOM
+0     10.25237                      -18.12616                     0     
+0     6.65237                       -18.12616                     180   
+0     10.25237                      -18.12616                     180   
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+BOTTOM
+0     -9.67153                      -16.38304                     0     
+0     -13.27153                     -16.38304                     180   
+0     -9.67153                      -16.38304                     180   
+.END_ROUTE_KEEPOUT
+.PLACEMENT
+AEDR-850X                                    AEDR-850X                                    U2                                           
+0.0                           -11.968                       180.0     TOP       PLACED    
+SN74LVC2T45                                  SN74LVC2T45                                  U1                                           
+-1.15                         -11.25                        270.0     BOTTOM    PLACED    
+0402                                         0402                                         C4                                           
+1.4                           -14.2                         90.0      BOTTOM    PLACED    
+0402                                         0402                                         C5                                           
+3.15                          -11.3                         90.0      TOP       PLACED    
+0402                                         0402                                         C6                                           
+0.95                          -16.55                        90.0      TOP       PLACED    
+0402                                         0402                                         C7                                           
+-2.1                          -11.7                         270.0     BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    P1                                           
+-0.99438                      -18.97396                     3.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    P3                                           
+0.66309                       -18.98843                     358.0     BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    P7                                           
+-4.27407                      -18.51303                     13.0      BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    P8                                           
+2.31552                       -18.85838                     353.0     BOTTOM    PLACED    
+TPSMD-1206                                   TPSMD-1206                                   TP1                                          
+-8.05                         -12.85                        238.0     TOP       PLACED    
+0402                                         0402                                         C8                                           
+-2.15                         -14.2                         90.0      BOTTOM    PLACED    
+LP5900SD33                                   LP5900SD28                                   U3                                           
+2.55                          -11.8                         180.0     BOTTOM    PLACED    
+0402                                         0402                                         C10                                          
+-5.65                         -11.7                         270.0     BOTTOM    PLACED    
+0402                                         0402                                         C11                                          
+-5.65                         -14.2                         90.0      BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    P2                                           
+-2.64429                      -18.81509                     8.0       BOTTOM    PLACED    
+SN74LVC2T45                                  SN74LVC2T45                                  U5                                           
+-4.6                          -11.25                        270.0     BOTTOM    PLACED    
+0402                                         0402                                         C13                                          
+3.0                           -10.65                        180.0     BOTTOM    PLACED    
+0402                                         0402                                         R7                                           
+2.1                           -9.5                          180.0     BOTTOM    PLACED    
+0603                                         0603                                         R5                                           
+-0.95                         -16.5                         0.0       TOP       PLACED    
+0402                                         0402                                         R6                                           
+-2.1                          -9.6                          270.0     BOTTOM    PLACED    
+0402                                         0402                                         R1                                           
+-3.8                          -14.0                         270.0     TOP       PLACED    
+0402                                         0402                                         R2                                           
+-3.8                          -12.15                        270.0     TOP       PLACED    
+0402                                         0402                                         R3                                           
+3.15                          -13.1                         270.0     TOP       PLACED    
+0402                                         0402                                         R4                                           
+3.15                          -14.9                         270.0     TOP       PLACED    
+0402                                         0402                                         FL1                                          
+2.55                          -15.75                        90.0      BOTTOM    PLACED    
+.END_PLACEMENT

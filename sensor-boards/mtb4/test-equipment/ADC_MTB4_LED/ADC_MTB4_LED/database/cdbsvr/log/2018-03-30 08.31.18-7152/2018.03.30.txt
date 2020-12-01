@@ -1,0 +1,126 @@
+[2018.03.30 08:31:18] [0000m.00s.031ms] [0] WELCOME
+[2018.03.30 08:31:18] [0000m.00s.046ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.03.30 08:31:18] [0000m.00s.046ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.03.30 08:31:18] [0000m.00s.046ms] [1] Base flow version [VX.2.3]
+[2018.03.30 08:31:18] [0000m.00s.046ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] Machine [IITICUBWS029]  IP [10.255.35.55,127.0.0.1]  User [MBorgagni]  PID [7152]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] Current working dir [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Program Files (x86)\Skype\Phone\;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] SDD_PLATFORM [win32]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.03.30 08:31:18] [0000m.00s.062ms] [2] S: Loading config files
+[2018.03.30 08:31:18] [0000m.00s.077ms] [1] Config file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbsvr\Server.cfg] not found
+[2018.03.30 08:31:18] [0000m.00s.077ms] [3] S: Config loaded
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Project path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] on file system [NTFS]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [1] S: WARNING: No project file (.prj) path specified
+[2018.03.30 08:31:18] [0000m.00s.109ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Single-user mode (auto)
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Event polling mode autodetection
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Started up automatically by iCDB Client: IITICUBWS029:MBorgagni:548
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Auto close mode
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: Database ID [b09e-eba8-5f25-24ea-8d5e-cbad-d5ec-ba50-4fb1-1281-9a8b-0a8b]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: BEGIN dumping
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: Local -> global path prefix list
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [C:\windows\system32\spool\drivers] -> [\\IITICUBWS029\print$]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [F:\repo\Orcad Library] -> [\\IITICUBWS029\Orcad Library2]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [F:\repo\Capital] -> [\\IITICUBWS029\Capital]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS029\Orcad Library2\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [X:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: Global -> local path prefix list
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [X:\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2\] -> [O:\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2] -> [F:\repo\Orcad Library]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\IITICUBWS029\Capital] -> [F:\repo\Capital]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: [\\IITICUBWS029\print$] -> [C:\windows\system32\spool\drivers]
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] PathTranslator: END dumping
+[2018.03.30 08:31:18] [0000m.00s.109ms] [0] S: START
+[2018.03.30 08:31:18] [0000m.00s.124ms] [0] S: Server startup lock file created
+[2018.03.30 08:31:18] [0000m.00s.124ms] [0] S: Listening for client connections on port [10001]
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] S: Server network ID [IITICUBWS029:10.255.35.55,IITICUBWS029,IITICUBWS029.iit.local:10001]
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] S: Server GUID [b4cc-af34-10a9-a35b-6b9d-dbab-b9dd-ba50-0722-1281-9a8b-0a8b]
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] S: Project GUID [b09e-eba8-5f25-24ea-8d5e-cbad-d5ec-ba50-4fb1-1281-9a8b-0a8b]
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] S: Wrote data to server address file
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] S: Server startup lock file removed
+[2018.03.30 08:31:18] [0000m.00s.140ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2018.03.30 08:31:19] [0000m.00s.842ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.03.30 08:31:19] [0000m.00s.842ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.03.30 08:31:19] [0000m.00s.842ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.03.30 08:31:19] [0000m.00s.842ms] [0] S: Local disc access time: 41 us
+[2018.03.30 08:31:19] [0000m.00s.842ms] [0] S: File server access time: 32 us
+[2018.03.30 08:31:19] [0000m.00s.857ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] size [190744 (186.3 kB)]
+[2018.03.30 08:31:19] [0000m.00s.857ms] [1] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] opened in read-write mode
+[2018.03.30 08:31:19] [0000m.00s.857ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.30 08:31:19] [0000m.00s.857ms] [0] Database GUARD OK: [190744]
+[2018.03.30 08:31:20] [0000m.01s.512ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.30 08:31:20] [0000m.01s.512ms] [0] Database GUARD OK: [190744]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] Database GUARD OK: [190744]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] Database GUARD OK: [190744]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] Database GUARD OK: [190744]
+[2018.03.30 08:31:20] [0000m.01s.528ms] [0] SingleFile: [7dae-c9d7-cf9d-e8c6] SFI version check [1009] [1009]
+[2018.03.30 08:31:20] [0000m.01s.559ms] [0] SingleFile: [7dae-c9d7-cf9d-e8c6] Database SFI header has been read in [19ms 893us]
+[2018.03.30 08:31:20] [0000m.01s.559ms] [0] iCDB Server PI: Server & plugin session [150]
+[2018.03.30 08:31:20] [0000m.01s.559ms] [0] iCDB Server PI: Opening database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database]
+[2018.03.30 08:31:20] [0000m.01s.559ms] [0] iCDB Server PI: Database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] opened
+[2018.03.30 08:31:20] [0000m.01s.622ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.03.30 08:31:20] [0000m.01s.622ms] [0] iCDB Database: Checking constraint definitions version
+[2018.03.30 08:31:20] [0000m.01s.653ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.57] up to date
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] iCDB Server PI: Initializing plugins
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] iCDB Server PI: Plugins initialized
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] S: iCDB database loaded
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] S: Starting threads
+[2018.03.30 08:31:20] [0000m.01s.653ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] IT: Session [151] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [548] created
+[2018.03.30 08:31:20] [0000m.01s.653ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.03.30 08:31:20] [0000m.01s.653ms] [1] SC[151]: Registered sub-client [iCDBConnector] with ID [1] for session ID [151] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:20] [0000m.01s.668ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS029] user [MBorgagni] with process ID [5512] created
+[2018.03.30 08:31:20] [0000m.01s.668ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.03.30 08:31:20] [0000m.01s.700ms] [1] SC[151]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [151] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:20] [0000m.01s.762ms] [1] CMT: There are [1] clients now: 151
+[2018.03.30 08:31:20] [0000m.01s.762ms] [1] CMT: Removed client [151]
+[2018.03.30 08:31:20] [0000m.01s.762ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.03.30 08:31:20] [0000m.02s.183ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.03.30 08:31:20] [0000m.02s.246ms] [0] IT: Session [152] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [548] created
+[2018.03.30 08:31:20] [0000m.02s.246ms] [1] SC[152]: Registered sub-client [PADSLayout] with ID [1] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:20] [0000m.02s.261ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[548] # SessionID[152] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj], global path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj]
+[2018.03.30 08:31:21] [0000m.02s.620ms] [1] SC[152]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:24] [0000m.05s.646ms] [1] SC[152]: Registered sub-client [StartServerClient380] with ID [3] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:24] [0000m.05s.646ms] [1] SC[152]: UnRegistered sub-client [StartServerClient380] with ID [3] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:25] [0000m.07s.237ms] [1] SC[152]: Registered sub-client [StartServerClient380] with ID [4] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:25] [0000m.07s.237ms] [1] SC[152]: UnRegistered sub-client [StartServerClient380] with ID [4] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:31:50] [0000m.31s.288ms] [0] DFAMT: File server access time: 201 us
+[2018.03.30 08:43:42] [0012m.23s.684ms] [1] SC[152]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:43:42] [0012m.23s.684ms] [1] SC[152]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [152] host [IITICUBWS029] user [MBorgagni] process ID [548]
+[2018.03.30 08:43:42] [0012m.23s.716ms] [1] CMT: Removed client [152]
+[2018.03.30 08:43:42] [0012m.23s.716ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.03.30 08:43:42] [0012m.23s.747ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.03.30 08:43:44] [0012m.25s.353ms] [0] CMT: Starting server auto-close
+[2018.03.30 08:43:44] [0012m.25s.400ms] [0] S: Closing server
+[2018.03.30 08:43:44] [0012m.25s.509ms] [0] iCDB Server PI: Closing plugins
+[2018.03.30 08:43:44] [0012m.25s.509ms] [0] iCDB Server PI: Plugins closed
+[2018.03.30 08:43:44] [0012m.25s.509ms] [0] iCDB Server PI: Unloading database
+[2018.03.30 08:43:44] [0012m.25s.509ms] [0] iCDB Server PI: Saving storage
+[2018.03.30 08:43:44] [0012m.25s.509ms] [0] iCDB Server PI: Closing database
+[2018.03.30 08:43:44] [0012m.25s.525ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[4%] data[67%]
+[2018.03.30 08:43:44] [0012m.25s.525ms] [1] iCDB Server PI: Stats: Database file size [190744 (186.3 kB)]
+[2018.03.30 08:43:44] [0012m.25s.572ms] [0] iCDB Server PI: Database closed
+[2018.03.30 08:43:44] [0012m.25s.572ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1391] ticks
+[2018.03.30 08:43:44] [0012m.25s.572ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [432] microseconds
+[2018.03.30 08:43:44] [0012m.25s.572ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [6]
+[2018.03.30 08:43:44] [0012m.25s.572ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [13868] commands per second
+[2018.03.30 08:43:44] [0012m.25s.572ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] closed with size [190744 (186.3 kB)]
+[2018.03.30 08:43:44] [0012m.25s.587ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.03.30 08:43:44] [0012m.25s.790ms] [0] MWT: Destroy the shutdown block reason.
+[2018.03.30 08:43:44] [0012m.25s.790ms] [0] MWT: STOP
+[2018.03.30 08:43:44] [0012m.25s.790ms] [0] S: STOP

@@ -1,0 +1,67 @@
+Date and Time : 12/03/12 11:26:55
+
+--------------------------------------------------
+Checking Schematic: UDA
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin U1,HID0/MS 
+                    UDA, 2.SCHEMATIC  (173.99, 97.79) 
+WARNING(ORCAP-1831): Unconnected pin U1,HID1/MC 
+                    UDA, 2.SCHEMATIC  (173.99, 100.33) 
+WARNING(ORCAP-1831): Unconnected pin U1,HID2/MD 
+                    UDA, 2.SCHEMATIC  (173.99, 102.87) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: UDA
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: UDA 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,ZGND  ZGND  GND
+                    UDA, 2.SCHEMATIC  (191.77, 146.05) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,AGNDL  AGNDL  GND
+                    UDA, 2.SCHEMATIC  (201.93, 146.05) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,AGNDR  AGNDR  GND
+                    UDA, 2.SCHEMATIC  (199.39, 146.05) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,DGND  DGND  GND
+                    UDA, 2.SCHEMATIC  (196.85, 146.05) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,PGND  PGND  GND
+                    UDA, 2.SCHEMATIC  (194.31, 146.05) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VBUS  VBUS  5V
+                    UDA, 2.SCHEMATIC  (173.99, 128.27) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

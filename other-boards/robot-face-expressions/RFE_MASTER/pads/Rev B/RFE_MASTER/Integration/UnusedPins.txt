@@ -1,0 +1,53 @@
+
+Schematic unused pins from : Packager  18-Jan-2019  12:13
+
+------------------------------------------------------------------------
+            Part/Reference             |          Unused pins
+                                       |  (G) - Gate, (P) - Partial Gate
+------------------------------------------------------------------------
+ Part BNO055                           |
+  U5                                   | (P)  1 24 23 22 21 7 8 12 13
+ Part CAP-0402-C0G-12PF-50V-5TOL       |
+ Part CAP-0402-C0G-27PF-50V-5TOL       |
+ Part CAP-0402-C0G-100PF-50V-5TOL      |
+ Part CAP-0402-X5R-1UF-16V-10TOL       |
+ Part CAP-0402-X7R-6N8-50V-5TOL        |
+ Part CAP-0402-X7R-10NF-50V-10TOL      |
+ Part CAP-0402-X7R-100NF-16V-10TOL     |
+ Part CAP-0603-X7R-1UF-16V-10TOL       |
+ Part CAP-0603-X7R-100NF-100V-10TOL    |
+ Part CAP-0603-X7R-120NF-50V-10TOL     |
+ Part CAP-0805-X5R-10UF-16V-10TOL      |
+ Part CM-CHOKE-0805-180R-0A3-50VDC     |
+ Part DVIULC6-4SC6                     |
+ Part FBEAD-0402-120RX100MHZ-0A5       |
+ Part LED-0603-BLUE-4V-100MCD          |
+ Part LTM4622AEV                       |
+  U3                                   | (P)  C3
+ Part MBRS360T3G                       |
+ Part MOLEX-UUSB-B-5-FEM90             |
+  J9                                   | (P)  4
+ Part MPU9250                          |
+  U6                                   | (P)  7 2 3 4 5 6 14 15 16 17
+                                       |  19 21
+ Part OXLEY-SMOX-TEST-MALE-0606-SMD    |
+ Part PICOLOCK-4X1-MALE90-P150         |
+ Part PICOLOCK-5X1-MALE90-P150         |
+ Part PINSTRIP-5X2-MALESTR-P127        |
+  J8                                   | (P)  6 7 8
+ Part RES-0402-0R-1TOL                 |
+ Part RES-0402-4K12-1TOL               |
+ Part RES-0402-10K-1TOL                |
+ Part RES-0402-10R-1TOL                |
+ Part RES-0402-100R-1TOL               |
+ Part RES-0402-324K-1TOL               |
+ Part RES-0402-330R-1TOL               |
+ Part RES-0603-120R-1TOL               |
+ Part SS19L                            |
+ Part STM32L452CEU6                    |
+  U2                                   | (P)  1
+ Part ST2012SB32768C0HPWBB             |
+ Part TCAN334DCNT                      |
+ Part TERMINAL-TEST-S2761-0603         |
+ Part TLV70733PDQNR                    |
+ Part 8Z-16.000MAAJ-T                  |

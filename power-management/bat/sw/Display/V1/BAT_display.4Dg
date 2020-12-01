@@ -1,0 +1,82 @@
+#platform "GOLDELOX"
+
+// Program Skeleton 1.0 generated 23/03/2016 14:21:52
+
+
+#inherit "ledDigitsDisplayGoldelox.inc"
+
+#inherit "4DGL_16bitColours.fnc"
+
+#inherit "VisualConst.inc"
+
+#inherit "BAT_displayConst.inc"
+
+func main()
+     var voltage, button;
+
+
+//  Uncomment the following if uSD images, fonts or strings used.
+
+    print("Starting\n") ;
+    while(!media_Init())
+        putstr("Drive not mounted...");
+        pause(200);
+        gfx_Cls();
+        pause(200);
+    wend
+
+
+
+     // Customdigits1 1.1 generated 23/03/2016 16:31:19
+    media_SetAdd(iCustomdigits1H, iCustomdigits1L) ;      // point to the Customdigits1 image
+    media_Image(68, 80) ;                                 // show all digits at 0, only do this once
+
+    // Customdigits2 1.1 generated 23/03/2016 16:31:19
+    media_SetAdd(iCustomdigits2H, iCustomdigits2L) ;      // point to the Customdigits2 image
+    media_Image(72, 100) ;                                 // show all digits at 0, only do this once
+
+
+
+    voltage := 0 ;
+    button := 0;
+
+    repeat
+
+    pause(200);
+    voltage++;
+    if(voltage > 100)    voltage:=0;
+
+    button++;
+    if(button > 1)     button:=0;
+
+    // CPU 1.0 generated 23/03/2016 16:31:19
+    media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
+    media_VideoFrame(16, 112, button) ;      // where numx is 0 (Off) or 1 (On)
+
+    // Motors 1.0 generated 23/03/2016 16:31:19
+    media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
+    media_VideoFrame(64, 112, button) ;      // where numx is 0 (Off) or 1 (On)
+
+    // Charge 1.0 generated 23/03/2016 16:31:19
+    media_SetAdd(iChargeH, iChargeL) ;      // point to the Charge image
+    media_VideoFrame(0, 0, voltage) ;          // where numx is 0 to 100 (for a displayed 0 to 100)
+
+    // Customdigits1 1.1 generated 23/03/2016 16:31:19
+    //media_SetAdd(iCustomdigits1H, iCustomdigits1L) ;      // point to the Customdigits1 image
+    //media_Image(68, 80) ;                                 // show all digits at 0, only do this once
+    ledDigitsDisplay(voltage, iiCustomdigits1H, iiCustomdigits1L, 68, 80, 3, 1, 9, 0) ;
+
+    // Customdigits2 1.1 generated 23/03/2016 16:31:19
+    //media_SetAdd(iCustomdigits2H, iCustomdigits2L) ;      // point to the Customdigits2 image
+    //media_Image(72, 100) ;                                 // show all digits at 0, only do this once
+    ledDigitsDisplay(voltage, iiCustomdigits2H, iiCustomdigits2L, 72, 100, 4, 1, 9, 0) ;
+
+
+
+
+
+
+
+    forever
+endfunc
+

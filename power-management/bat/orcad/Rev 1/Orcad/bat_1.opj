@@ -1,0 +1,100 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\bat_1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (NMH
+      (FullPartName "NMH.Normal")
+      (LibraryName "O:\FAST.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\bat_1.dsn")
+      (Path "Design Resources" ".\bat_1.dsn" "BAT")
+      (Select "Design Resources" ".\bat_1.dsn" "BAT" "PAGE2 - MCU"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 0 200 0 353"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 60 1693 60 577")
+        (Scroll "36 419")
+        (Zoom "114")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE2 - MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 90 1723 90 607")
+        (Scroll "-323 0")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE3 - I/O"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 120 1753 120 637")
+        (Scroll "-290 0")
+        (Zoom "61")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE4 - CAN, I2C, UART, BT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 150 1783 150 667")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE5 - POWER HSM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 180 1813 180 697")
+        (Scroll "15 216")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE6 - POWER DCDC 5V 3V3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 210 1843 210 727")
+        (Scroll "-323 0")
+        (Zoom "57")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE7 - POWER DCDC 12V"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -36 240 1873 240 757")
+        (Scroll "520 196")
+        (Zoom "228")
+        (Occurrence "/"))
+      (Path "F:\REPO\P2015_06_BAT\SCHEMATICS\REV 1\ORCAD\BAT_1.DSN")
+      (Schematic "BAT")
+      (Page "PAGE8 - POWER ORING DIODE")))
+  (MPSSessionName "MBorgagni"))

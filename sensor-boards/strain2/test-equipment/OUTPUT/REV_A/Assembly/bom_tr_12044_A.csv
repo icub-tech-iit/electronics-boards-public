@@ -1,0 +1,45 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;504;;1,00;TP16;TP-1206;CO;S1751-46;;;;;Test point, SMD, 1206;Harwin;S1751-46;FARNELL ITALIA S.R.L.;1022338;
+2;504;;1,00;TP17;TP-1206;CO;S1751-46;;;;;Test point, SMD, 1206;Harwin;S1751-46;FARNELL ITALIA S.R.L.;1022338;
+3;804;;1,00;J1;BNC12X12_90;CO;R13-053-00-002611000;;50R;;;PCB connector, BNC, female, 90°, w to b, lock, nokey,  THD;TE Connectivity;R13-053-00-002611000;RS COMPONENTS S.P.A.;546-4049;
+4;1295;;1,00;J2;PSTRIP10X2_M_SMD;CO;FTSH-105-01-L-DV;1.75A;;;;PCB connector, Pin strip, 10 contacts, 2 rows, male, p.1.27mm, Straight, b to b, nolock, nokey, SMD;Samtec;FTSH-105-01-L-DV;FARNELL ITALIA S.R.L.;1667759;
+5;3138.A;;1,00;TP1;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+6;3138.A;;1,00;TP2;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+7;3138.A;;1,00;TP3;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+8;3138.A;;1,00;TP4;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+9;3138.A;;1,00;TP5;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+10;3138.A;;1,00;TP6;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+11;3138.A;;1,00;TP7;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+12;3138.A;;1,00;TP8;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+13;3138.A;;1,00;TP9;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+14;3138.A;;1,00;TP10;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+15;3138.A;;1,00;TP11;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+16;3138.A;;1,00;TP12;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+17;3138.A;;1,00;TP13;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+18;3138.A;;1,00;TP14;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+19;3138.A;;1,00;TP15;PROBEASSY-3138;CO;;;;;;Subassembly -  Spring probe spear head + sleeve, for p.1.27mm;IIT;3138;IIT  FACILITY EDL;3138;
+20;11145;;1,00;J3;504050-0491;CO;504050-0491;3A;;;;PCB connector, Pico-Lock, 4 contacts, 1 row, male, p.1.5mm, 90°, w to b, lock, key, SMD;Molex;504050-0491;FARNELL ITALIA S.R.L.;2392592;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+21;462;;1,00;R2;0603;R;15K;0.1W;1%;100ppm;;Resistor Thick film 15K,  0.1W, 1%, SMD, 0603;Phycomp;RC0603FR-0715KL;DIGI-KEY CORPORATION;311-15.0KHRTR-ND;Welwyn;ASC0603EW-15KFT5;FARNELL ITALIA S.R.L.;2078916;
+22;556;;1,00;R1;0603;R;2K7;0.1W;1%;100ppm;;Resistor Thick film, 2K7, 0.1W, 1%, SMD, 0603;Phycomp;RC0603FR-072K7L;DIGI-KEY CORPORATION;311-2.70KHRTR-ND;Phycomp;RC0603FR-072K7L;FARNELL ITALIA S.R.L.;9238530;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Pieces_quoted;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+23;12040;;1,00;SW1;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+24;12040;;1,00;SW2;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+25;12040;;1,00;SW3;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+26;12040;;1,00;SW4;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+27;12040;;1,00;SW5;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+28;12040;;1,00;SW6;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+29;12040;;1,00;SW7;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;;;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+30;4265;X;1,00;H1;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+31;4265;X;1,00;H2;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+32;4265;X;1,00;H3;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+33;4265;X;1,00;H4;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+34;4265;X;1,00;H5;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+35;4265;X;1,00;H6;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+36;4265;X;1,00;H7;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+37;4265;X;1,00;H8;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+38;4265;X;1,00;H9;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+39;4265;X;1,00;H10;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+40;4265;X;1,00;H11;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;
+41;4265;X;1,00;H12;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;

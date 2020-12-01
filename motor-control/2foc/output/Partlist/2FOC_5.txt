@@ -1,0 +1,106 @@
+3233 2FOC_5, Brushelss motor controller        
+2FOC_5	Revision: D
+
+Istituto Italiano di Tecnologia
+via Morego, 30
+16163 - Genova
+
+Bill Of Materials        January 12,2011
+
+Itm 	Qty 	Ref                            	Value                     	IIT_Code   	Device                    	Package         	
+-----------------------------------------------------------------------------------------------------------------------------
+1   	3   	F8,F9,F10                      	                          	        NM 	                          	FIDBOT          	
+2   	3   	F5,F6,F7                       	                          	        NM 	                          	FIDTOP          	
+3   	40  	UC1,UC2,UC3,UC4,UC5,UC6,UC7,   	                          	        NM 	                          	FISS05          	
+    	    	UC8,UC9,UC10,UC11,UC12,UC13,   	                          	           	                          	                	
+    	    	UC14,UC15,UC16,UC17,UC18,UC19, 	                          	           	                          	                	
+    	    	UC20,UC21,UC22,UC23,UC24,UC25, 	                          	           	                          	                	
+    	    	UC26,UC27,UC28,UC29,UC30,UC31, 	                          	           	                          	                	
+    	    	UC32,UC33,UC34,UC35,UC36,UC37, 	                          	           	                          	                	
+    	    	UC38,UC39,UC40                 	                          	           	                          	                	
+4   	1   	HX2                            	                          	        NM 	                          	FISS32AA        	
+5   	1   	HX1                            	                          	        NM 	                          	FISS32ABA       	
+6   	4   	H1,H2,H3,H4                    	                          	        NM 	                          	FORO25          	
+7   	5   	F1,F2,F3,F4,F11                	                          	        NM 	                          	JUMP-SM         	
+8   	2   	R15,R37                        	0.015                     	       577 	                          	WSK             	
+9   	2   	R40,R43                        	0R00                      	      1080 	                          	0402            	
+10  	2   	R18,R22                        	0R00                      	      1080 	RES0402                   	0402            	
+11  	6   	R38,R39,R44,R48,R107,R108      	0R00                      	        NM 	                          	0402            	
+12  	1   	XT1                            	10.0MHZ                   	      1278 	                          	OSC_2X25        	
+13  	8   	R30,R54,R78,R81,R94,R105,R109, 	100K                      	      1275 	                          	0402            	
+    	    	R110                           	                          	           	                          	                	
+14  	2   	R51,R53                        	100K                      	       468 	                          	0603            	
+15  	2   	R7,R47                         	100K                      	        NM 	                          	0402            	
+16  	24  	C7,C8,C15,C16,C20,C24,C25,C30, 	100NF                     	      1035 	                          	0402            	
+    	    	C31,C32,C33,C39,C40,C42,C44,   	                          	           	                          	                	
+    	    	C45,C48,C49,C50,C61,C62,C73,   	                          	           	                          	                	
+    	    	C74,C83                        	                          	           	                          	                	
+17  	6   	C4,C5,C6,C12,C13,C14           	100NF                     	       478 	                          	0603            	
+18  	12  	C53,C54,C55,C56,C59,C60,C66,   	100PF                     	      1036 	                          	0402            	
+    	    	C67,C68,C69,C70,C71            	                          	           	                          	                	
+19  	4   	C57,C58,C64,C65                	100PF                     	        NM 	                          	0402            	
+20  	16  	R9,R10,R11,R12,R69,R70,R75,    	100R                      	      1085 	                          	0402            	
+    	    	R76,R82,R83,R84,R85,R86,R87,   	                          	           	                          	                	
+    	    	R88,R89                        	                          	           	                          	                	
+21  	1   	R92                            	100k                      	      1275 	                          	0402            	
+22  	16  	R49,R50,R98,R99,U21,U22,U23,   	10K                       	      1109 	                          	0402            	
+    	    	U24,U25,U26,U27,U28,U29,U30,   	                          	           	                          	                	
+    	    	U31,U32                        	                          	           	                          	                	
+23  	1   	C22                            	10NF                      	      1075 	                          	0402            	
+24  	2   	C77,C78                        	10PF                      	      1271 	                          	0402            	
+25  	24  	R1,R2,R3,R4,R5,R6,R23,R24,R25, 	10R                       	       436 	                          	0603            	
+    	    	R26,R27,R28,R57,R59,R61,R62,   	                          	           	                          	                	
+    	    	R77,R101,R111,R112,R113,R114,  	                          	           	                          	                	
+    	    	R115,R116                      	                          	           	                          	                	
+26  	4   	C36,C37,C86,C87                	10UF                      	       479 	                          	0603            	
+27  	1   	C21                            	10uF                      	       253 	                          	0805            	
+28  	2   	R63,R64                        	120R                      	        NM 	                          	0402            	
+29  	5   	R32,R34,R36,R66,R103           	15K                       	      1582 	                          	0402            	
+30  	4   	R16,R19,R41,U33                	18K                       	      1111 	                          	0402            	
+31  	2   	R20,R42                        	1K                        	      1100 	                          	0402            	
+32  	1   	R46                            	1K2                       	      1623 	                          	0402            	
+33  	4   	C79,C80,C81,C82                	1NF                       	      1237 	                          	0402            	
+34  	6   	C1,C2,C3,C9,C10,C11            	1uF                       	      2910 	                          	0402            	
+35  	5   	C18,C19,C47,C84,C85            	2.2UF                     	      1620 	                          	1210            	
+36  	1   	L3                             	22UH                      	      1621 	                          	VLF4012A        	
+37  	4   	R17,R21,U34,U35                	33K                       	      1113 	                          	0402            	
+38  	1   	L1                             	33UH                      	      1122 	                          	L-WETPC         	
+39  	2   	C41,C46                        	4.7uF                     	      3087 	                          	0402            	
+40  	2   	R72,R74                        	470R                      	      1099 	                          	0402            	
+41  	1   	R67                            	47K                       	      1274 	                          	0402            	
+42  	4   	C26,C27,C28,C29                	47NF                      	      1572 	                          	0402            	
+43  	7   	C23,C35,C52,C63,C72,C75,C76    	47UF                      	      1489 	                          	0805            	
+44  	2   	C38,C43                        	47UF                      	       484 	                          	0805            	
+45  	14  	R13,R14,R45,R52,R55,R68,R79,   	4K7                       	      1107 	                          	0402            	
+    	    	R80,R90,R91,R93,R95,R96,R97    	                          	           	                          	                	
+46  	2   	P3,P4                          	53261-0690                	      1124 	                          	MOLEX53261-6    	
+47  	4   	P1,P2,P5,P6                    	53261-0771                	       631 	                          	MOLEX53261-7    	
+48  	2   	R71,R73                        	680R                      	      1272 	                          	0402            	
+49  	4   	R29,R31,R33,R35                	6K8                       	      1580 	                          	0402            	
+50  	3   	U10,U11,U12                    	ACS714LLCTR-05B-T         	      1647 	                          	ACS714          	
+51  	1   	U9                             	ACS714LLCTR-05B-T         	      1647 	ACS714                    	ACS714          	
+52  	7   	FB2,FB3,FB4,FB5,FB6,FB7,FL3    	BLM15AG601SN1D            	      1118 	                          	0402            	
+53  	6   	R58,R60,R100,R102,R104,R106    	BLM18TG601TN1D            	      1538 	                          	0603            	
+54  	15  	J4,J5,J6,J7,J8,J9,J10,J11,J12, 	CON1                      	        NM 	TP-LC                     	TP-LC           	
+    	    	J13,J14,J15,J16,U37,U38        	                          	           	                          	                	
+55  	2   	U13,U14                        	DSPIC33FJ128MC802         	       585 	DSPIC33FJ128MC802         	QFN28           	
+56  	12  	Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,    	IRLU3110ZPBF              	      1619 	                          	IRLU3110        	
+    	    	Q10,Q11,Q12                    	                          	           	                          	                	
+57  	1   	U17                            	LM5010                    	      1622 	                          	LLP10           	
+58  	6   	U1,U2,U3,U6,U7,U8              	LM5101ASD                 	      1583 	                          	LLP10           	
+59  	1   	U18                            	LMC7101                   	       579 	                          	SOT23-5         	
+60  	2   	U19,U20                        	LMV7219M5                 	       710 	                          	SOT23-5         	
+61  	2   	U15,U36                        	LP5900SD-3.3              	       554 	LP5900DS33                	LP5900SD33      	
+62  	1   	U16                            	LT1616ES6                 	       237 	                          	SOT23-6         	
+63  	2   	U4,U5                          	MAX3051                   	       241 	                          	SOT23-8         	
+64  	1   	M1                             	MKDS1/2-3.81              	       274 	                          	MKDS12-381      	
+65  	2   	M2,M3                          	MKDS1/3-3.81              	       275 	                          	MKDS13-381      	
+66  	1   	5                              	NODE2                     	        NM 	CC2                       	CC2             	
+67  	2   	DL7,DL9                        	SML-511DWT86R HB ORA      	      1653 	                          	LED0603         	
+68  	2   	DL6,DL8                        	SML-512MWT86R HB GRN      	      1654 	                          	LED0603         	
+69  	3   	D3,D4,D5                       	SS19L                     	       565 	SCHOTTKY                  	SOD-123         	
+70  	3   	TP5,TP6,TP7                    	TEST-POINT                	        NM 	TPSMD_1206                	TPSMD-1206      	
+71  	2   	FL1,FL2                        	WE-SL1-330UH              	       545 	                          	WE-SL1          	
+    	--- 	                               	                          	           	                          	                	
+    	349 	                               	                          	           	                          	                	
+

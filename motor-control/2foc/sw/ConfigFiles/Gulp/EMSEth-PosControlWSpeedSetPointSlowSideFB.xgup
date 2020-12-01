@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GulpConf filename="EMS-2FOC Position control closed loop, trajectory generation with speed set-point output and slow side encoder feedback" version="V10">
+  <XY enabled="0" ptsize="1" bufsize="200"/>
+  <advanced show="1"/>
+  <rolling enabled="0" samplerate="100"/>
+  <ifaces>
+    <interface name="I 0" config="Ethernet PCAP + ETHERCAT timestamp:Device \Device\NPF_{0153797A-5D49-416E-B4D1-2201D83E8F35} ,                                                                                      ,73"/>
+  </ifaces>
+  <trigger edge="rising" raw="0" val="0" xpos="0" enabled="0"/>
+  <scale x="3824753" ymin="-40000" xmax="950000"/>
+  <numeric enabled="1"/>
+  <grid width0="39" width1="100" width2="50" width3="50" width4="61" width5="85" width6="52" width7="63" width8="58" width9="40" width10="44" width11="51" width12="72" width13="60" width14="46"/>
+  <vars>
+    <var color="Red" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="21" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="CAN" varxy="" source="I 0" visible="1"/>
+    <var color="Blue" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="23" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="CAN" varxy="" source="I 0" visible="1"/>
+    <var color="Purple" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="25" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="1" vartrig="" varname="2FOC Position " varxy="" source="I 0" visible=""/>
+    <var color="Violet" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="67" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="0.1" vartrig="" varname="EMS position " varxy="" source="I 0" visible="1"/>
+    <var color="Orange" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="43" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="0.1" vartrig="" varname="EMS traj gen out" varxy="" source="I 0" visible="1"/>
+    <var color="Black" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="47" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="100" vartrig="" varname="EMS PID out" varxy="" source="I 0" visible=""/>
+    <var color="Black" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="59" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="100" vartrig="" varname="EMS pos up lim" varxy="" source="I 0" visible=""/>
+    <var color="Black" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="63" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="100" vartrig="" varname="EMS pos lw lim" varxy="" source="I 0" visible=""/>
+  </vars>
+  <sendpanel slideval="9&#xA;">
+    <command cmdname="1 - Set EMS trajectory type:" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 03 00 02 " cmdsend="0"/>
+    <command cmdname="4 - Set EMS trajectory setpoint" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 01 00 00 80 01 00 00 00 08 " cmdsend="0"/>
+    <command cmdname="5 - EMS trajectory enable" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 04 00 01 " cmdsend="0"/>
+    <command cmdname="3 - EMS trajectory toggling" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 05 00 01 " cmdsend="0"/>
+    <command cmdname="0 - 2FOC Periodic Data contents" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 12 ff ff 83 17 19 16 15 " cmdsend="0"/>
+    <command cmdname="2 - Set EMS position PID parameters:" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 00 00 00 00 02 00 08 00 00 00 00 00 00 00 00 15 " cmdsend="0"/>
+    <command cmdname="5 - EMS trajectory DISable" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 04 00 00 " cmdsend="0"/>
+  </sendpanel>
+  <ledpanel>
+    <LED color="Green" caption="OL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="0" varsource="I 0"/>
+    <LED color="Green" caption="TL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="1" varsource="I 0"/>
+    <LED color="Green" caption="SL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="2" varsource="I 0"/>
+    <LED color="Violet" caption="Fasat" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="4" varsource="I 0"/>
+    <LED color="Red" caption="I2T" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="7" varsource="I 0"/>
+    <LED color="Red" caption="OC" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="6" varsource="I 0"/>
+    <LED color="Red" caption="UV" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="5" varsource="I 0"/>
+    <LED color="Red" caption="OV" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="4" varsource="I 0"/>
+    <LED color="Red" caption="ExtF" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="Up Lim" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="Dn Lim" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="1" varsource="I 0"/>
+    <LED color="Red" caption="+5V" filpos="6" fillen="1" filmask="0xff" filval="0x20" varpos="15" bitpos="0" varsource="I 0"/>
+    <LED color="Cyan" caption="SZ" filpos="6" fillen="1" filmask="0xff" filval="0x20" varpos="37" bitpos="0" varsource="I 0"/>
+    <LED color="Violet" caption="Pos Valid" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="5" varsource="I 0"/>
+    <LED color="Orange" caption="Trj Ena" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="6" varsource="I 0"/>
+    <LED color="Orange" caption="Trj End" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="7" varsource="I 0"/>
+    <LED color="Orange" caption="Trj Togg" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="16" bitpos="0" varsource="I 0"/>
+    <LED color="Orange" caption="In Pos" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="16" bitpos="1" varsource="I 0"/>
+  </ledpanel>
+  <commandpanel cmdtab_w0="122" cmdtab_w1="532" cmdtab_w2="65" parmtab_w0="102" parmtab_w1="66" parmtab_w2="44" parmtab_w3="58" parmtab_w4="61" parmtab_w5="73" parmtab_w6="69" parmtab_w7="69">
+    <parameter name="I2T Th" cmdnum="21" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="32000" enabled="false"/>
+    <parameter name="I2T Time" cmdnum="21" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="2FOC SwitchOn" cmdnum="1" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="2FOC EnableOp" cmdnum="2" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="2FOC DisableOp" cmdnum="3" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="2FOC Shutdown" cmdnum="4" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="2FOC Current P" cmdnum="5" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="9000" enabled="false"/>
+    <parameter name="2FOC Current I" cmdnum="5" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="2500" enabled="false"/>
+    <parameter name="2FOC Current D" cmdnum="5" offset="25" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="2FOC Speed P" cmdnum="6" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="1200" enabled="true"/>
+    <parameter name="2FOC Speed I" cmdnum="6" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="4000" enabled="false"/>
+    <parameter name="2FOC Speed D" cmdnum="6" offset="25" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="2FOC SpeedLoop" cmdnum="9" offset="21" pkttype="U8" valmask="0xff" rangemax="4" rangemin="4" shift="0" defaultval="4" enabled="true"/>
+    <parameter name="2FOC Gulp 1" cmdnum="13" offset="21" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="0" enabled="true"/>
+    <parameter name="2FOC Gulp 2" cmdnum="13" offset="22" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="EMS Pos. Source" cmdnum="19" offset="17" pkttype="U8" valmask="0xff" rangemax="1" rangemin="1" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="EMS Control en" cmdnum="14" offset="17" pkttype="U8" valmask="0xff" rangemax="1" rangemin="0" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="EMS Traj. type" cmdnum="15" offset="18" pkttype="U8" valmask="0xff" rangemax="1" rangemin="1" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="EMS Traj. toggle" cmdnum="16" offset="17" pkttype="U8" valmask="0xff" rangemax="1" rangemin="0" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="EMS PID Limit" cmdnum="17" offset="29" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="32000" enabled="false"/>
+    <parameter name="EMS Position P" cmdnum="17" offset="17" pkttype="U32LE" valmask="0xffffffff" rangemax="100000000" rangemin="0" shift="0" defaultval="40000" enabled="false"/>
+    <parameter name="EMS Position I" cmdnum="17" offset="21" pkttype="U32LE" valmask="0xffffffff" rangemax="100000000" rangemin="0" shift="0" defaultval="85" enabled="false"/>
+    <parameter name="EMS Position D" cmdnum="17" offset="25" pkttype="U32LE" valmask="0xffffffff" rangemax="100000000" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="EMS Target Pos " cmdnum="18" offset="21" pkttype="U32LE" valmask="0xffffffff" rangemax="9000000" rangemin="-9000000" shift="0" defaultval="9000000" enabled="false"/>
+    <parameter name="EMS Speed to" cmdnum="18" offset="17" pkttype="U32LE" valmask="0xffffffff" rangemax="100000000" rangemin="0" shift="0" defaultval="200000" enabled="false"/>
+    <parameter name="EMS pos thr" cmdnum="20" offset="17" pkttype="U32LE" valmask="0xffffffff" rangemax="100000000" rangemin="0" shift="0" defaultval="300" enabled="true"/>
+    <parameter name="EMS limit enable" cmdnum="22" offset="25" pkttype="U8" valmask="0x1" rangemax="1" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="EMS lower limit" cmdnum="22" offset="21" pkttype="S32LE" valmask="0xffffffff" rangemax="50000000" rangemin="-50000000" shift="0" defaultval="-1" enabled="false"/>
+    <parameter name="EMS upper limit" cmdnum="22" offset="17" pkttype="S32LE" valmask="0xffffffff" rangemax="50000000" rangemin="-50000000" shift="0" defaultval="1000000" enabled="false"/>
+    <parameter name="EMS Zero Position" cmdnum="23" offset="8" pkttype="U8" valmask="0xff" rangemax="0" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <cmdstring name="SwitchOn" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0e ff ff 83 " interf="I 0"/>
+    <cmdstring name="EnableOp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0f ff ff 83 " interf="I 0"/>
+    <cmdstring name="DisableOp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 10 ff ff 83 " interf="I 0"/>
+    <cmdstring name="Shutdown" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 11 ff ff 83 " interf="I 0"/>
+    <cmdstring name="CurrentPID" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 08 07 ff ff 83 00 18 00 02 00 00 00 7f " interf="I 0"/>
+    <cmdstring name="SpeedPID" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 08 06 ff ff 83 00 40 00 02 00 00 00 7f " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="TorqueReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 02 ff ff 83 00 02 00 00 " interf="I 0"/>
+    <cmdstring name="SpeedReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 02 04 ff ff 83 00 02 " interf="I 0"/>
+    <cmdstring name="TogglingReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 03 09 ff ff 83 00 01 01 " interf="I 0"/>
+    <cmdstring name="Gulp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 12 ff ff 83 00 01 16 15 " interf="I 0"/>
+    <cmdstring name="EMSTrajectoryEn" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 04 00 00 " interf="I 0"/>
+    <cmdstring name="EMSTrajectoryType" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 03 00 01 01 01 " interf="I 0"/>
+    <cmdstring name="EMSTrajectoryToggle" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 05 00 01 " interf="I 0"/>
+    <cmdstring name="EMSPosPIDParams" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 00 00 00 00 02 00 08 00 00 00 00 00 00 00 00 15 " interf="I 0"/>
+    <cmdstring name="EMSPositionSetPoint" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 01 00 00 80 01 00 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="EMSSetPositionSource" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 07 00 01 " interf="I 0"/>
+    <cmdstring name="EMSPositionSetThreshold" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 0a 00 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="I2T" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 18 ff ff 83 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="Limits" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 12 00 00 00 00 00 00 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="EMS PositionZero" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 01 13 00 " interf="I 0"/>
+  </commandpanel>
+</GulpConf>

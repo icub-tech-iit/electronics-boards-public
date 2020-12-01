@@ -1,0 +1,13 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Capacitance;Voltage;Tolerance;Dielectric;ESR;Rated RMS current;Temp;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;1035;;5,00;C5 C7 C9 C3 C1;0402;C;100nF;16V;10%;X7R;;;;Multilayer Ceramic Capacitor, 100nF, 16V, 10%, X7R, SMD, 0402;Yageo;C0402KRX7R7BB104;FARNELL ITALIA S.R.L.;9402047;Yageo;C0402KRX7R7BB104;RS COMPONENTS S.P.A.;616-9701;Kemet;C0402C104K4RAC-TU;FARNELL ITALIA S.R.L.;1650809;Kemet;C0402C104K4RAC-TU;MOUSER ELECTRONICS;80-C0402C104K4R;
+2;1293;;5,00;C2 C4 C6 C8 C10;0603;C;1uF;16V;10%;X7R;;;;Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603;Yageo;CC0603KRX7R7BB105;FARNELL ITALIA S.R.L.;1458900;Yageo;CC0603KRX7R7BB105;MOUSER ELECTRONICS;603-CC603KRX7R7BB105;Yageo;CC0603KRX7R7BB105;FARNELL ITALIA S.R.L.;1458900RL;Murata;GRM188R71C105KA12D;RS COMPONENTS S.P.A.;723-5613;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+3;11145;;2,00;J1 J2;504050-0491;CO;504050-0491;3A;;;;;;PCB connector, Pico-Lock, 4 contacts, 1 row, male, p.1.5mm, 90°, w to b, lock, key, SMD;Molex;504050-0491;FARNELL ITALIA S.R.L.;2392592;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Intensity;Led_color;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+4;11298;;20,00;DL19 DL16 DL14 DL12 DL9 DL10 DL6 DL4 DL2 DL20 DL18 DL11 DL8 DL5 DL3 DL1 DL17 DL15 DL13 DL7;LTST-C19HE;DL;LTST-C19HE1WT;450mcd;RGB;;;;;Led diode, RGB, 3.3V, R 180 mcd, G 450 mcd, B 180 mcd, SMD, 1.6mm, square, white diffused lens;LiteON;LTST-C19HE1WT;MOUSER ELECTRONICS;859-LTST-C19HE1WT;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Ranges;Tolerance;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+5;12091.0;;1,00;PCB;;PCB;RFE_R_EYEBROW;;;;AM;;;RFE_R_EYEBROW, IIT - Printed Circuit Board, Robot Face Expression Right Eyebrow board;IIT;12091;Microsystech Srl;12091 0;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+6;456;;5,00;R5 R2 R4 R1 R3;0603;R;3K3;0.1W;1%;100ppm;;;;Resistor Thick film, 3K3, 0.1W, 1%, SMD, 0603;Phycomp;RC0603FR-073K3L;DIGI-KEY CORPORATION;311-3.30KHRTR-ND;Phycomp;RC0603FR-073K3L;FARNELL ITALIA S.R.L.;9238549;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Ranges;Tolerance;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+7;11295;;5,00;U4 U2 U1 U3 U5;HTSSOP20;RE;TLC59711;3/5.5V;;;;;;TLC59711 12-Channel, ES-PWM RGB LED Driver with 3.3V Linear Regulator and Watchdog Timer;Texas Instruments;TLC59711PWP;FARNELL ITALIA S.R.L.;2492347;

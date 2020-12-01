@@ -1,0 +1,65 @@
+V3
+XYDISABLED
+ADVANCED
+1
+1
+I 0
+Esd USB-CAN driver:Device 0, Baudrate 1000, ID len 0, 0x0 -> 0x7ff
+N
+674664 4000 -100
+10000
+0
+2
+C 0
+Interface 0
+0x 05 02 07 00 
+1
+C 1
+Interface 0
+0x 05 02 07 01 
+0
+Red 0 2 0xffff 0x35c 4 0xffff U16LE 0 1  P1
+NONE
+I 0
+Red 0 2 0xffff 0x35c 6 0xffff U16LE 0 1  P2
+NONE
+I 0
+Red 0 2 0xffff 0x35c 8 0xffff U16LE 0 1  P3
+NONE
+I 0
+Blue 0 2 0xffff 0x35c 10 0xffff U16LE 0 1  I1
+NONE
+I 0
+Blue 0 2 0xffff 0x35d 4 0xffff U16LE 0 1  I2
+NONE
+I 0
+Blue 0 2 0xffff 0x35d 6 0xffff U16LE 0 1  I3
+NONE
+I 0
+Violet 0 2 0xffff 0x35d 8 0xffff U16LE 0 1  M1
+NONE
+I 0
+Violet 0 2 0xffff 0x35d 10 0xffff U16LE 0 1  M2
+NONE
+I 0
+Violet 0 2 0xffff 0x35e 4 0xffff U16LE 0 1  M3
+NONE
+I 0
+Orange 0 2 0xffff 0x35e 6 0xffff U16LE 0 1  A1
+NONE
+I 0
+Orange 0 2 0xffff 0x35e 8 0xffff U16LE 0 1  A2
+NONE
+I 0
+Orange 0 2 0xffff 0x35e 10 0xffff U16LE 0 1  A3
+NONE
+I 0
+Black 0 2 0xffff 0x35f 4 0xffff U16LE 0 1  L1
+NONE
+I 0
+Black 0 2 0xffff 0x35f 6 0xffff U16LE 0 1  L2
+NONE
+I 0
+Black 0 2 0xffff 0x35f 8 0xffff U16LE 0 1  L3
+NONE
+I 0

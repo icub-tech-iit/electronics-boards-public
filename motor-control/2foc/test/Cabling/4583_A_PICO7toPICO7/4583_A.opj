@@ -1,0 +1,48 @@
+(ExpressProject "4583_A"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "o:\iit_temp.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\4583_a.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (MOLEX51021-0700
+      (FullPartName "MOLEX51021-0700.Normal")
+      (LibraryName "O:\IIT_TEMP.OLB")
+      (DeviceIndex "0"))
+    (CA
+      (FullPartName "CA.Normal")
+      (LibraryName "O:\CA.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\4583_a.dsn")
+      (Path "Design Resources" ".\4583_a.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\4583_a.dsn" "SCHEMATIC1"
+         "AdC-2FOC_ricerca_guasti"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 514"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1492 44 534")
+        (Scroll "0 120")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\EDL_SVN\P2009_05_2FOC\TESTEQUIPMENT\CABLING\4583_A_PICO7TOPICO7\4583_A.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "AdC-2FOC_ricerca_guasti"))))

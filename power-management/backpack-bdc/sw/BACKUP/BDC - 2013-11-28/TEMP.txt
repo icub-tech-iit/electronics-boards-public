@@ -1,0 +1,16 @@
+/*if ((GPIOC->IDR & PB1) == 0 ) {
+			GPIOB->ODR   |= LED_BT;			// LED spento
+			GPIOC->ODR   |= CPU_Green;	// LED acceso
+			GPIOC->ODR   &= ~CPU_Red;	// LED acceso
+		}*/
+		/*if ((GPIOC->IDR & PB2) == 0 ) {
+			GPIOB->ODR   &= ~LED_BT;		// LED acceso
+			GPIOC->ODR   &= ~CPU_Green;
+			GPIOC->ODR   |= CPU_Red;
+		}*/
+		/*if ((GPIOB->IDR & SWT) == 0 ) {
+			GPIOB->ODR   |= CAN_LED;			// LED spento
+		}
+		else{
+			GPIOB->ODR   &= ~CAN_LED;			// LED acceso
+		}*/

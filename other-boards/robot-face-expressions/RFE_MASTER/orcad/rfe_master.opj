@@ -1,0 +1,49 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\rfe_master.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\rfe_master.dsn")
+      (Path "Design Resources" ".\rfe_master.dsn" "RFE_MASTER")
+      (Select "Design Resources" ".\rfe_master.dsn" "RFE_MASTER"
+         "PAGE 3 - POWER SUPPLY"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 353"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1434 52 706")
+        (Scroll "-183 -10")
+        (Zoom "79")
+        (Occurrence "/"))
+      (Path
+         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2016_15_RFE_ROBOTFACEEXPRESSION\RFE_MASTER\SCHEMATIC\RFE_MASTER.DSN")
+      (Schematic "RFE_MASTER")
+      (Page "PAGE 2 - CORE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1460 78 732")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2016_15_RFE_ROBOTFACEEXPRESSION\RFE_MASTER\SCHEMATIC\RFE_MASTER.DSN")
+      (Schematic "RFE_MASTER")
+      (Page "PAGE 3 - POWER SUPPLY")))
+  (PartMRUSelector)
+  (MPSSessionName "AMura"))

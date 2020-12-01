@@ -1,0 +1,51 @@
+
+Per la prossima revisione fare alimentazione di potenza separata dalla logica
+
+ -FATTO-  L'induttanza L1 va montata doppia (//)
+ -FATTO-  C18 e C19 100uF 63V hanno la figura CAD sbagliata
+ -FATTO-  R45 cambia valore da 10K0 diventa 4.70K
+ -FATTO-  R47 cambia valore da 22K0 diventa NM
+ -FATTO-  R67 cambia valore da 15K0 diventa 47K0
+ -FATTO-  R66 cambia valore da 10K0 diventa 15K0
+ -FATTO-  CANRX è su un pin NON rimappabile (RA4)!! nella revisione invertire CANTX con LEDRG 
+ -FATTO-  R8 (DCDC 3.3V) 100K 
+ -FATTO-  Il segnale di FAULT di overload sul DSPIC e` attivo BASSO, va girato il comparatore.
+ - NO -   I mos vanno in on quasi a tensione logica quindi si può scendere molto con la 12 e i dcdc godono
+          DA VEDERE: il passare a 12V diminuisce la carica iniettabile al gate! forse non è il caso
+ - NO -   togliere i filtri EMI sulla AVDD sostituendoli con due 0R0, eventualmente mettere un lineare
+ -FATTO-  il partitore della lettura di corrente è cambiato (6.8K serie 100K//15K ? verificare)
+          aggiungere condensatore di filtro sulla lettura di corrente
+ -FATTO-  sostituire l'induttanza del DCDC 48/12 con codice Farnell 1301683
+ - NO -   sostituire il comparatore protezione corrente con l'LT1716
+ -FATTO-  cambiare l'induttanza del dcdc 12/5 e 5/3.3 in 1515551
+ - NO -   rivedere l'alimentazione dell'oscillatore è al pelissimo!
+ -FATTO-  Mettere il quarzo della 6SG
+ - NO -   scendere la tensione di alimentazione del driver se possibile
+ -FATTO-  10R//10R sul driver
+ -FATTO-  sostituire le capacità elettrolitiche con dei non polarizzati
+ -FATTO-  Cambiare il codice a listaparti dei MOSFET
+ - NO -   Portare a connettore anche i pin di programmazione
+ -FATTO-  Sul connettore encoder portare tutti segnali 5Vtollerant sia per A,B,Z che per SPI
+ -FATTO-  rivedere le connessioni di gnd del dcdc per i 12V
+ -FATTO-  Per la successiva release dercare di spezzare il connettore da 12
+ -FATTO-  portare il can a 6 posizioni con shield collegabile a massa
+ -FATTO-  Verificare che il dissipatore sia appendibile o colegabile a terra
+ -FATTO-  portare a serigrafia i refdes dei connettori
+ -FATTO-  indicare il pin 1 di tutti i connettori
+ -FATTO-  vedere se possibile aggiungere lo shield al connettore encoder.
+ -FATTO-  inserire connessioni di terra sui connettori e dissipatore
+ -FATTO-  Rivedere i ritorni di corrente dei driver secondo quanto specificato nel DS del EPC1001 o FAN3121 o L6741
+          ulteriori note per la revisione del driver e dell'alimentazione 12V nell'articolo "Design and application 
+          guide for high speed MOSFET gate drive circiuts"
+ -FATTO-  Mettere le indicazioni *giuste* delle fasi a serigrafia morsettiere
+
+Cercare qualcosa per sostituire il  tantalio sul DCDC del 12V
+Ribassare al massimo l'altezza del dissipatore e farlo in due parti
+
+ - - - - - - - - - - - - -
+ R E V I S I O N E   D U E  
+ - - - - - - - - - - - - -
+
+  sono errati i pullup a 5V sul segnale HU1 e 2 (è HW1 e 2 che sono 5V tollerant)
+  portare il gnd sui connettori in uscita con una R 0R0
+  gocciare la terminazione CAN

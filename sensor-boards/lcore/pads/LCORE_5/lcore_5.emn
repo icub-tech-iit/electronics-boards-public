@@ -1,0 +1,64 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.5"    2014/09/12.10:48:03    1
+"d:\icubhardware\electronics\private\p2011_19_lcore\pcb\lcore_5\lcore_5.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+1.00006
+0     -6.4                          16.0                          0     
+0     -6.4                          -1.5                          0     
+0     -4.4                          -3.5                          90.0      
+0     4.4                           -3.5                          0     
+0     6.4                           -1.5                          90.0      
+0     6.4                           16.0                          0     
+0     5.9                           16.5                          0     
+0     -5.9                          16.5                          0     
+0     -6.4                          16.0                          0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+2.000000 -3.500000 8.500000 NPTH BOARD
+2.000000 3.500000 8.500000 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACEMENT
+0402                                         0402                                         R7                                           
+-0.46558                      6.41501                       180.0     TOP       PLACED    
+0402                                         0402                                         C5                                           
+-4.11327                      -2.72737                      180.0     TOP       PLACED    
+0402                                         0402                                         C6                                           
+-4.11327                      -2.00589                      180.0     TOP       PLACED    
+AEDR-850X                                    AEDR-850X                                    U3                                           
+0.0                           0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R3                                           
+4.23428                       -2.54415                      0.0       TOP       PLACED    
+0402                                         0402                                         R4                                           
+4.21339                       -1.57285                      180.0     TOP       PLACED    
+0402                                         0402                                         C10                                          
+5.755                         1.03976                       270.0     TOP       PLACED    
+0402                                         0402                                         C11                                          
+4.11221                       4.10521                       0.0       TOP       PLACED    
+0402                                         0402                                         R2                                           
+2.65744                       0.89382                       270.0     TOP       PLACED    
+0402                                         0402                                         R1                                           
+2.65566                       -1.08274                      270.0     TOP       PLACED    
+0402                                         0402                                         C4                                           
+2.33773                       3.65672                       270.0     TOP       PLACED    
+0402                                         0402                                         FL1                                          
+0.73942                       8.6613                        270.0     TOP       PLACED    
+0402                                         0402                                         R6                                           
+-0.0199                       8.66365                       90.0      TOP       PLACED    
+0603                                         0603                                         R5                                           
+0.33481                       2.40499                       0.0       TOP       PLACED    
+53261-0571                                   53261-0571                                   P1                                           
+-0.625                        14.5                          180.0     TOP       PLACED    
+SN74LVC2T45                                  SN74LVC2T45                                  U5                                           
+3.52191                       -0.45323                      90.0      TOP       PLACED    
+LP5900SD33                                   LP5900SD33                                   U2                                           
+-1.00378                      5.05869                       270.0     TOP       PLACED    
+0402                                         0402                                         C13                                          
+-2.32906                      4.30168                       270.0     TOP       PLACED    
+0402                                         0402                                         C7                                           
+-3.80482                      3.97374                       180.0     TOP       PLACED    
+SN74LVC2T45                                  SN74LVC2T45                                  U1                                           
+-4.4935                       -1.06022                      90.0      TOP       PLACED    
+0402                                         0402                                         C8                                           
+-5.47734                      2.82593                       90.0      TOP       PLACED    
+.END_PLACEMENT

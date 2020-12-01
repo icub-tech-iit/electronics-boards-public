@@ -1,0 +1,49 @@
+Date and Time : 04/11/17 12:40:06
+
+--------------------------------------------------
+Checking Schematic: STRAIN2_TEST
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    3V3
+
+Reporting Net Names
+    NRESET
+    STRAIN6
+    N17011765
+    GND
+    TRACESWO
+    N17006675
+    STRAIN4
+    STRAIN5
+    3V3
+    N17002666
+    SWCLK
+    CANL
+    N17005248
+    STRAIN1
+    STRAIN2
+    5V
+    STRAIN3
+    SWDIO
+    CANH
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch

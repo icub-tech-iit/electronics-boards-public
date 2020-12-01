@@ -1,0 +1,16 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;504;;3,00;TP16 TP17 TP18;TP-1206;CO;S1751-46;;;;;Test point, SMD, 1206;Harwin;S1751-46;FARNELL ITALIA S.R.L.;1022338;
+2;804;;1,00;J1;BNC12X12_90;CO;R13-053-00-002611000;;50R;;;PCB connector, BNC, female, 90°, w to b, lock, nokey,  THD;TE Connectivity;R13-053-00-002611000;RS COMPONENTS S.P.A.;546-4049;
+3;1295;;1,00;J2;PSTRIP10X2_M_SMD;CO;FTSH-105-01-L-DV;1.75A;;;;PCB connector, Pin strip, 10 contacts, 2 rows, male, p.1.27mm, Straight, b to b, nolock, nokey, SMD;Samtec;FTSH-105-01-L-DV;FARNELL ITALIA S.R.L.;1667759;
+4;11145;;1,00;J3;504050-0491;CO;504050-0491;3A;;;;PCB connector, Pico-Lock, 4 contacts, 1 row, male, p.1.5mm, 90°, w to b, lock, key, SMD;Molex;504050-0491;FARNELL ITALIA S.R.L.;2392592;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Intensity;Tolerance;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+5;1652;;1,00;DL1;LED0603;DL;RED;40mcd;;;;Led diode, red, 2V, 20mA, 40mcd, SMD, 0603;Rohm;SML-511UWT86R;FARNELL ITALIA S.R.L.;1685073;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+6;462;;1,00;R2;0603;R;15K;0.1W;1%;100ppm;;Resistor Thick film 15K,  0.1W, 1%, SMD, 0603;Phycomp;RC0603FR-0715KL;DIGI-KEY CORPORATION;311-15.0KHRTR-ND;Welwyn;ASC0603EW-15KFT5;FARNELL ITALIA S.R.L.;2078916;
+7;556;;1,00;R1;0603;R;2K7;0.1W;1%;100ppm;;Resistor Thick film, 2K7, 0.1W, 1%, SMD, 0603;Phycomp;RC0603FR-072K7L;DIGI-KEY CORPORATION;311-2.70KHRTR-ND;Phycomp;RC0603FR-072K7L;FARNELL ITALIA S.R.L.;9238530;
+8;1578;;1,00;R4;0603;R;470R;0.063W;1%;100ppm;;Resistor Thick film, 470R, 0.063W, 1%, SMD, 0603;Multicomp;MC 0.063W 0603 1% 470R;FARNELL ITALIA S.R.L.;9331239;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Pieces_quoted;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+9;12040;;6,00;SW2 SW3 SW4 SW5 SW6 SW7;OS102011MS2QN1;SW;OS102011MS2QN1;12V;;;;Slide switch SPDT, vertical, 8.6x4.3mm, THD;C&K;OS102011MS2QN1;FARNELL ITALIA S.R.L.;1201430;
+10;12041;;1,00;SW1;OS103011MS8QP1;SW;OS103011MS8QP1;12V;;;;Slide switch SP3T, vertical, 12.2x4.3mm, THD;C&K;OS103011MS8QP1;FARNELL ITALIA S.R.L.;2319954;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;;;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+11;4265;X;15,00;H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15;NMH2;FAST;M2 Not metallized hole;;;;;PCB hole, not metallized, for M2 thread;

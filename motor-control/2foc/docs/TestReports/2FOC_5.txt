@@ -1,0 +1,26 @@
+*FATTO*    connessione dei drivers tab e bypass a PGND 
+*FATTO*    rendere speculari le posizione dei mos
+*FATTO*    spostare avanti le morsettiere
+*FATTO*    verificare figura driver CAN
+*FATTO*    spostare verso l'esterno i fori per lo snap.
+*FATTO*    spostare i sensori di corrente e morseti motoreverso il centro
+*FATTO*    girare le connessioni degli encoder e il lato dei connettori!
+*FATTO*    spostare di 1mm verso i mos i 4 fori sull'aletta
+*FATTO*    ingombri e buchi vite fissaggio aletta
+
+cambiare i LED!
+cambiare il c.bypass dei drivers con 0402 16V 1uF farnell 1816782  (IITCODE 2910)
+mettere le BLM al posto delle 0R0 per le uscite di tensione
+cambiare i pillup su programmazione
+
+*FATTO*    aggiungere i fori per lo snap allo schema 
+*FATTO*    aggiungere vie su $3N40!!
+*FATTO*    verificare la separazione tra PGND e GND
+*FATTO*    Riferire lo switching del 12V a PGND e togliere il tantalio
+*FATTO*    rivedere le dimensioni dello spessore dell'aletta di dissipazione
+*FATTO*    salvare la figura del MOS in libreria
+*FATTO*    mettere + vie dopo il nodo PGND-GND
+
+
+cambiare le res di pullup a 5v sui connettori encoder messi su pin non 5V tollerant!
+mettere la resistenza di terminazione del can con goccia di stagno in modo da potere mettere/togliere

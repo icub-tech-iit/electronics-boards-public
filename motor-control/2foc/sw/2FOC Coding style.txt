@@ -1,0 +1,30 @@
+Uniformare il coding style del main a tutti i files:
+if()
+{
+  // statement comment
+  statement;
+}
+else 
+{
+  statement;
+}
+
+void funct()
+// desc
+{
+  statement;
+}
+
+rimuovere/modificare i commenti sbagliati, non aggiornati, non comprensibili, inutili  
+rimuovere il codice commentato per prove e storico.
+rimuovere i commenti /* */
+rimuovere i tab per la formattazione
+rimuovere if(0), #if 0 
+rimuovere i //TODO: implementati
+rivedere l'utilizzo di linee vuote nel codice
+
+implementazione di:
+
+SiliconRevionTest()
+EMUROMTestCRC() se non c'è mettere una CRC nella EEPROM e fare una verifica CRC durante la lettura dei parametri 
+fare tornare la configurazione via CAN (tipo encoder, risoluzione, tipo di controllo...

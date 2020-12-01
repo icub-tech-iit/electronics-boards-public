@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GulpConf filename="" version="V10">
+  <XY enabled="0" ptsize="1" bufsize="200"/>
+  <advanced show="1"/>
+  <rolling enabled="0" samplerate="1"/>
+  <ifaces>
+    <interface name="ESD" config="Esd USB-CAN driver:Device 0, Baudrate 1000, ID len 0, 0x0 -&gt; 0x7ff"/>
+  </ifaces>
+  <trigger edge="rising" raw="0" val="0" xpos="0" enabled="0"/>
+  <scale x="2280942" ymin="-50000" xmax="150000"/>
+  <numeric enabled="1"/>
+  <grid width0="78" width1="82" width2="49" width3="50" width4="60" width5="47" width6="51" width7="62" width8="57" width9="153" width10="46" width11="51" width12="72" width13="60" width14="46"/>
+  <vars>
+    <var color="Green" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="5" varmask="0xffffffff" vartype="U32BE" varoffs="0" varscale="0.00838191" vartrig="1" varname="Position" varxy="NONE" source="ESD" visible="1"/>
+    <var color="Blue" filpos="0" fillen="2" filmask="0xffff" filval="0x612" varpos="4" varmask="0xff" vartype="U8" varoffs="0" varscale="500" vartrig="1" varname="First Byte" varxy="NONE" source="ESD" visible="1"/>
+    <var color="Orange" filpos="0" fillen="2" filmask="0xffff" filval="0x120" varpos="4" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="1" varname="First Byte" varxy="NONE" source="ESD" visible="1"/>
+    <var color="Red" filpos="0" fillen="2" filmask="0xffff" filval="0x120" varpos="6" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="1" varname="Second Byte" varxy="NONE" source="ESD" visible="1"/>
+    <var color="Cyan" filpos="0" fillen="2" filmask="0xffff" filval="0x120" varpos="8" varmask="0xffffffff" vartype="S32LE" varoffs="0" varscale="3.98805" vartrig="1" varname="Third Byte" varxy="NONE" source="ESD" visible="1"/>
+  </vars>
+  <sendpanel slideval="1&#xA;"/>
+  <ledpanel/>
+  <commandpanel cmdtab_w0="43" cmdtab_w1="70" cmdtab_w2="65" parmtab_w0="43" parmtab_w1="63" parmtab_w2="46" parmtab_w3="57" parmtab_w4="60" parmtab_w5="72" parmtab_w6="69" parmtab_w7="37"/>
+</GulpConf>

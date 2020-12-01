@@ -1,0 +1,22 @@
+History
+
+- R37, R51 -> 0 ohm per rendere i fronti di salita e discesa più veloci possibile
+- R40, R53 -> 10kohm per filtrare meglio 
+- R25 -> 0ohm per ridurre l'impedenza della net
+- R44, R57 -> 2kohm per ridurre la potenza (con 1.2kohm si scaldavano troppo)
+- Cambiati C45 e C61 da 2.2uF a 47nF per il dither che non funzionava
+- cambiato il C57 da 33uF a 1uF perchè il tempo di softstart era troppo lento e una mc4 non si accendeva correttamente
+- R55 -> 220k
+- C59 -> 100p
+- C44 -> 4.7pF
+- R54 -> 15kohm per avere frequenza di switching 400kHz (con 10kohm era 555kHz) e ridurre il calore generato
+
+
+2014-11-26
+- Heatsinks added in schematic
+
+
+2015-05-29
+- Q1, Q2, Q3, Q4 -> cambiati transistor SQM120N10-3M8 (IITCODE 10127), più robusti
+- R22 -> 75kohm per aumentare il limite di potenza a 150W
+

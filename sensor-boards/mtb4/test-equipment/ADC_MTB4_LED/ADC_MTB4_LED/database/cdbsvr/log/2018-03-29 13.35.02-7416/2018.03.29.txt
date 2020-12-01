@@ -1,0 +1,228 @@
+[2018.03.29 13:35:02] [0000m.00s.056ms] [0] WELCOME
+[2018.03.29 13:35:02] [0000m.00s.078ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.03.29 13:35:02] [0000m.00s.079ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.03.29 13:35:02] [0000m.00s.079ms] [1] Base flow version [VX.2.3]
+[2018.03.29 13:35:02] [0000m.00s.079ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] Machine [IITICUBWS029]  IP [10.255.35.55,127.0.0.1]  User [MBorgagni]  PID [7416]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] Current working dir [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Program Files (x86)\Skype\Phone\;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] SDD_PLATFORM [win32]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.03.29 13:35:02] [0000m.00s.088ms] [2] S: Loading config files
+[2018.03.29 13:35:02] [0000m.00s.092ms] [1] Config file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbsvr\Server.cfg] not found
+[2018.03.29 13:35:02] [0000m.00s.094ms] [3] S: Config loaded
+[2018.03.29 13:35:02] [0000m.00s.157ms] [0] S: Project path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] on file system [NTFS]
+[2018.03.29 13:35:02] [0000m.00s.157ms] [1] S: WARNING: No project file (.prj) path specified
+[2018.03.29 13:35:02] [0000m.00s.158ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] S: Single-user mode (auto)
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] S: Event polling mode autodetection
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] S: Started up automatically by iCDB Client: IITICUBWS029:MBorgagni:5648
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] S: Auto close mode
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] S: Database ID [3f23-c181-640b-4232-56fc-cbaa-6fcc-ba50-8dd0-1281-9a8b-0a8b]
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] PathTranslator: BEGIN dumping
+[2018.03.29 13:35:02] [0000m.00s.158ms] [0] PathTranslator: Local -> global path prefix list
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [C:\windows\system32\spool\drivers] -> [\\IITICUBWS029\print$]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [F:\repo\Orcad Library] -> [\\IITICUBWS029\Orcad Library2]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [F:\repo\Capital] -> [\\IITICUBWS029\Capital]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS029\Orcad Library2\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [X:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: Global -> local path prefix list
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [X:\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2\] -> [O:\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2] -> [F:\repo\Orcad Library]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\IITICUBWS029\Capital] -> [F:\repo\Capital]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: [\\IITICUBWS029\print$] -> [C:\windows\system32\spool\drivers]
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] PathTranslator: END dumping
+[2018.03.29 13:35:02] [0000m.00s.159ms] [0] S: START
+[2018.03.29 13:35:02] [0000m.00s.160ms] [0] S: Server startup lock file created
+[2018.03.29 13:35:02] [0000m.00s.160ms] [0] S: Listening for client connections on port [10002]
+[2018.03.29 13:35:02] [0000m.00s.161ms] [0] S: Server network ID [IITICUBWS029:10.255.35.55,IITICUBWS029,IITICUBWS029.iit.local:10002]
+[2018.03.29 13:35:02] [0000m.00s.162ms] [0] S: Server GUID [b5bf-7f96-c557-1c30-66fc-cbab-6fcc-ba50-0282-1281-9a8b-0a8b]
+[2018.03.29 13:35:02] [0000m.00s.162ms] [0] S: Project GUID [3f23-c181-640b-4232-56fc-cbaa-6fcc-ba50-8dd0-1281-9a8b-0a8b]
+[2018.03.29 13:35:02] [0000m.00s.164ms] [0] S: Wrote data to server address file
+[2018.03.29 13:35:02] [0000m.00s.164ms] [0] S: Server startup lock file removed
+[2018.03.29 13:35:02] [0000m.00s.165ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2018.03.29 13:35:02] [0000m.00s.222ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.03.29 13:35:02] [0000m.00s.222ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.03.29 13:35:02] [0000m.00s.222ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.03.29 13:35:02] [0000m.00s.222ms] [0] S: Local disc access time: 44 us
+[2018.03.29 13:35:02] [0000m.00s.222ms] [0] S: File server access time: 45 us
+[2018.03.29 13:35:02] [0000m.00s.233ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] size [135768 (132.6 kB)]
+[2018.03.29 13:35:02] [0000m.00s.233ms] [1] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] opened in read-write mode
+[2018.03.29 13:35:02] [0000m.00s.234ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 13:35:02] [0000m.00s.234ms] [0] Database GUARD OK: [135768]
+[2018.03.29 13:35:03] [0000m.00s.917ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 13:35:03] [0000m.00s.918ms] [0] Database GUARD OK: [135768]
+[2018.03.29 13:35:03] [0000m.00s.918ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 13:35:03] [0000m.00s.918ms] [0] Database GUARD OK: [135768]
+[2018.03.29 13:35:03] [0000m.00s.919ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 13:35:03] [0000m.00s.919ms] [0] Database GUARD OK: [135768]
+[2018.03.29 13:35:03] [0000m.00s.920ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 13:35:03] [0000m.00s.920ms] [0] Database GUARD OK: [135768]
+[2018.03.29 13:35:03] [0000m.00s.920ms] [0] SingleFile: [0301-afad-5e53-171e] SFI version check [1009] [1009]
+[2018.03.29 13:35:03] [0000m.00s.938ms] [0] SingleFile: [0301-afad-5e53-171e] Database SFI header has been read in [17ms 975us]
+[2018.03.29 13:35:03] [0000m.00s.954ms] [0] iCDB Server PI: Server & plugin session [142]
+[2018.03.29 13:35:03] [0000m.00s.954ms] [0] iCDB Server PI: Opening database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database]
+[2018.03.29 13:35:03] [0000m.00s.954ms] [0] iCDB Server PI: Database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] opened
+[2018.03.29 13:35:03] [0000m.00s.978ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.03.29 13:35:03] [0000m.00s.978ms] [0] iCDB Database: Checking constraint definitions version
+[2018.03.29 13:35:03] [0000m.01s.010ms] [0] iCDB Database: Creating database content backup before upgrade
+[2018.03.29 13:35:03] [0000m.01s.010ms] [1] iCDB Storage Server: Database backup: ProjectPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database]
+[2018.03.29 13:35:03] [0000m.01s.047ms] [0] iCDB Storage Server Backup Thread: Database backup: BackupPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 13.35.03-7416.zip]
+[2018.03.29 13:35:03] [0000m.01s.114ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 13.35.03-7416.zip]
+[2018.03.29 13:35:03] [0000m.01s.117ms] [0] iCDB Database: Database content backed up to [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 13.35.03-7416.zip] of size [73 146 bytes (71.4 kB)]  in [106ms 414us]
+[2018.03.29 13:35:03] [0000m.01s.124ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.10.56]
+[2018.03.29 13:35:03] [0000m.01s.177ms] [0] iCDB Database: Upgrading snapshot [1:DxD] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.179ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.179ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.181ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.181ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.181ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.181ms] [0] iCDB Database: Snapshot [1:DxD] upgraded to version [3400] in [4ms 486us]
+[2018.03.29 13:35:03] [0000m.01s.182ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:DxD]
+[2018.03.29 13:35:03] [0000m.01s.189ms] [0] iCDB Database: Constraint definitions for snapshot [1:DxD] upgraded in [6ms 825us]
+[2018.03.29 13:35:03] [0000m.01s.189ms] [0] iCDB Database: Saving upgraded snapshot [1:DxD]
+[2018.03.29 13:35:03] [0000m.01s.192ms] [0] iCDB Database: Upgraded snapshot [1:DxD] saved in [3ms 419us]
+[2018.03.29 13:35:03] [0000m.01s.195ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.235ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.235ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.236ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.237ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\uids] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.237ms] [0] iCDB Database: Upgrading snapshot [2:__ise_DxD] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.240ms] [1] CORE: Upgrade snapshot __ise_DxD completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.240ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.241ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.241ms] [0] iCDB Database: Snapshot [2:__ise_DxD] upgraded to version [3400] in [3ms 512us]
+[2018.03.29 13:35:03] [0000m.01s.242ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [2:__ise_DxD]
+[2018.03.29 13:35:03] [0000m.01s.242ms] [0] iCDB Database: Constraint definitions for snapshot [2:__ise_DxD] upgraded in [266us]
+[2018.03.29 13:35:03] [0000m.01s.242ms] [0] iCDB Database: Saving upgraded snapshot [2:__ise_DxD]
+[2018.03.29 13:35:03] [0000m.01s.243ms] [0] iCDB Database: Upgraded snapshot [2:__ise_DxD] saved in [536us]
+[2018.03.29 13:35:03] [0000m.01s.245ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.246ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcmpcache\dxdatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.246ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\params] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.247ms] [0] iCDB Database: Upgrading snapshot [3:ADC_MTB4_LED_layout_temp] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.252ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.252ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.255ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_layout_temp completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.255ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.255ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.256ms] [0] iCDB Database: Snapshot [3:ADC_MTB4_LED_layout_temp] upgraded to version [3400] in [8ms 688us]
+[2018.03.29 13:35:03] [0000m.01s.256ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [3:ADC_MTB4_LED_layout_temp]
+[2018.03.29 13:35:03] [0000m.01s.271ms] [0] iCDB Database: Constraint definitions for snapshot [3:ADC_MTB4_LED_layout_temp] upgraded in [14ms 669us]
+[2018.03.29 13:35:03] [0000m.01s.271ms] [0] iCDB Database: Saving upgraded snapshot [3:ADC_MTB4_LED_layout_temp]
+[2018.03.29 13:35:03] [0000m.01s.278ms] [0] iCDB Database: Upgraded snapshot [3:ADC_MTB4_LED_layout_temp] saved in [6ms 564us]
+[2018.03.29 13:35:03] [0000m.01s.282ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.282ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.282ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.282ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.283ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\uids] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.283ms] [0] iCDB Database: Upgrading snapshot [4:ADC_MTB4_LED] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.285ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.285ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.287ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.287ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.287ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.287ms] [0] iCDB Database: Snapshot [4:ADC_MTB4_LED] upgraded to version [3400] in [3ms 673us]
+[2018.03.29 13:35:03] [0000m.01s.287ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [4:ADC_MTB4_LED]
+[2018.03.29 13:35:03] [0000m.01s.294ms] [0] iCDB Database: Constraint definitions for snapshot [4:ADC_MTB4_LED] upgraded in [7ms 105us]
+[2018.03.29 13:35:03] [0000m.01s.294ms] [0] iCDB Database: Saving upgraded snapshot [4:ADC_MTB4_LED]
+[2018.03.29 13:35:03] [0000m.01s.298ms] [0] iCDB Database: Upgraded snapshot [4:ADC_MTB4_LED] saved in [3ms 232us]
+[2018.03.29 13:35:03] [0000m.01s.300ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.300ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.300ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.300ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.300ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\uids] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.301ms] [0] iCDB Database: Upgrading snapshot [6:ADC_MTB4_LED_LDDTemp] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.303ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.303ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.305ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_LDDTemp completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.305ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.305ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.305ms] [0] iCDB Database: Snapshot [6:ADC_MTB4_LED_LDDTemp] upgraded to version [3400] in [4ms 603us]
+[2018.03.29 13:35:03] [0000m.01s.305ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [6:ADC_MTB4_LED_LDDTemp]
+[2018.03.29 13:35:03] [0000m.01s.313ms] [0] iCDB Database: Constraint definitions for snapshot [6:ADC_MTB4_LED_LDDTemp] upgraded in [6ms 995us]
+[2018.03.29 13:35:03] [0000m.01s.313ms] [0] iCDB Database: Saving upgraded snapshot [6:ADC_MTB4_LED_LDDTemp]
+[2018.03.29 13:35:03] [0000m.01s.315ms] [0] iCDB Database: Upgraded snapshot [6:ADC_MTB4_LED_LDDTemp] saved in [2ms 714us]
+[2018.03.29 13:35:03] [0000m.01s.317ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.318ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.318ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.318ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.318ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\uids] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.318ms] [0] iCDB Database: Upgrading snapshot [7:ADC_MTB4_LED_RefSync] from version [3300]
+[2018.03.29 13:35:03] [0000m.01s.320ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.320ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 13:35:03] [0000m.01s.321ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_RefSync completed successfully.
+[2018.03.29 13:35:03] [0000m.01s.321ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.321ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl]
+[2018.03.29 13:35:03] [0000m.01s.321ms] [0] iCDB Database: Snapshot [7:ADC_MTB4_LED_RefSync] upgraded to version [3400] in [2ms 973us]
+[2018.03.29 13:35:03] [0000m.01s.321ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [7:ADC_MTB4_LED_RefSync]
+[2018.03.29 13:35:03] [0000m.01s.327ms] [0] iCDB Database: Constraint definitions for snapshot [7:ADC_MTB4_LED_RefSync] upgraded in [6ms 63us]
+[2018.03.29 13:35:03] [0000m.01s.328ms] [0] iCDB Database: Saving upgraded snapshot [7:ADC_MTB4_LED_RefSync]
+[2018.03.29 13:35:03] [0000m.01s.330ms] [0] iCDB Database: Upgraded snapshot [7:ADC_MTB4_LED_RefSync] saved in [2ms 723us]
+[2018.03.29 13:35:03] [0000m.01s.332ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.332ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.332ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.333ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.333ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\uids] - auto-saving it
+[2018.03.29 13:35:03] [0000m.01s.333ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.57]
+[2018.03.29 13:35:04] [0000m.01s.544ms] [0] iCDB Server PI: Initializing plugins
+[2018.03.29 13:35:04] [0000m.01s.545ms] [0] iCDB Server PI: Plugins initialized
+[2018.03.29 13:35:04] [0000m.01s.545ms] [0] S: iCDB database loaded
+[2018.03.29 13:35:04] [0000m.01s.548ms] [0] S: Starting threads
+[2018.03.29 13:35:04] [0000m.01s.549ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.03.29 13:35:04] [0000m.01s.550ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.03.29 13:35:04] [0000m.01s.551ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2018.03.29 13:35:04] [0000m.01s.553ms] [0] IT: Session [143] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [5648] created
+[2018.03.29 13:35:04] [0000m.01s.555ms] [1] SC[143]: Registered sub-client [iCDBConnector] with ID [1] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:04] [0000m.01s.565ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS029] user [MBorgagni] with process ID [5168] created
+[2018.03.29 13:35:04] [0000m.01s.565ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.03.29 13:35:04] [0000m.01s.576ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.03.29 13:35:04] [0000m.01s.591ms] [1] SC[143]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:04] [0000m.01s.650ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 13:35:04] [0000m.01s.650ms] [1] CMT: Removed client [143]
+[2018.03.29 13:35:04] [0000m.01s.650ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.03.29 13:35:04] [0000m.02s.062ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.03.29 13:35:04] [0000m.02s.123ms] [0] IT: Session [144] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [5648] created
+[2018.03.29 13:35:04] [0000m.02s.125ms] [1] SC[144]: Registered sub-client [PADSLayout] with ID [1] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:04] [0000m.02s.159ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[5648] # SessionID[144] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj], global path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj]
+[2018.03.29 13:35:04] [0000m.02s.341ms] [0] PrjBackupMgr: Migrating iCDB upgrade backups from directory [ADC_MTB4_LED\database\cdbback] to Project Backup format.
+[2018.03.29 13:35:04] [0000m.02s.341ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2018-03-29 13.35.03-7416-u.zip] - will not be migrated.
+[2018.03.29 13:35:05] [0000m.02s.482ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2018-03-29 13.35.04 - upgrade.zip] with GUID [afe4-59c3-3587-863b-86fc-cbad-6fcc-ba50-07b1-1281-9a8b-0a8b]
+[2018.03.29 13:35:05] [0000m.02s.483ms] [1] PrjBackupMgr: Migrated iCDB content backup file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 13.35.03-7416-u.zip] removed
+[2018.03.29 13:35:05] [0000m.02s.483ms] [1] SC[144]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:08] [0000m.05s.460ms] [1] SC[144]: Registered sub-client [StartServerClient374] with ID [3] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:08] [0000m.05s.460ms] [1] SC[144]: UnRegistered sub-client [StartServerClient374] with ID [3] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:08] [0000m.05s.463ms] [1] SC[144]: Registered sub-client [StartServerClient374] with ID [4] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:08] [0000m.05s.463ms] [1] SC[144]: UnRegistered sub-client [StartServerClient374] with ID [4] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:35:23] [0000m.20s.550ms] [0] DFAMT: File server access time: 174 us
+[2018.03.29 13:36:04] [0001m.02s.107ms] [1] SC[144]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:36:04] [0001m.02s.111ms] [1] SC[144]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [5648]
+[2018.03.29 13:36:04] [0001m.02s.127ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.03.29 13:36:04] [0001m.02s.150ms] [1] CMT: Removed client [144]
+[2018.03.29 13:36:04] [0001m.02s.150ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.03.29 13:36:06] [0001m.03s.450ms] [0] CMT: Starting server auto-close
+[2018.03.29 13:36:06] [0001m.03s.532ms] [0] S: Closing server
+[2018.03.29 13:36:06] [0001m.03s.561ms] [0] iCDB Server PI: Closing plugins
+[2018.03.29 13:36:06] [0001m.03s.561ms] [0] iCDB Server PI: Plugins closed
+[2018.03.29 13:36:06] [0001m.03s.561ms] [0] iCDB Server PI: Unloading database
+[2018.03.29 13:36:06] [0001m.03s.561ms] [0] iCDB Server PI: Saving storage
+[2018.03.29 13:36:06] [0001m.03s.562ms] [0] iCDB Server PI: Closing database
+[2018.03.29 13:36:06] [0001m.03s.612ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[12%] data[72%]
+[2018.03.29 13:36:06] [0001m.03s.612ms] [1] iCDB Server PI: Stats: Database file size [187800 (183.4 kB)]
+[2018.03.29 13:36:06] [0001m.03s.670ms] [0] iCDB Server PI: Database closed
+[2018.03.29 13:36:06] [0001m.03s.670ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1204] ticks
+[2018.03.29 13:36:06] [0001m.03s.670ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [374] microseconds
+[2018.03.29 13:36:06] [0001m.03s.671ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [5]
+[2018.03.29 13:36:06] [0001m.03s.671ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [13352] commands per second
+[2018.03.29 13:36:06] [0001m.03s.683ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] closed with size [187800 (183.4 kB)]
+[2018.03.29 13:36:06] [0001m.03s.777ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.03.29 13:36:06] [0001m.03s.850ms] [0] MWT: Destroy the shutdown block reason.
+[2018.03.29 13:36:06] [0001m.03s.852ms] [0] MWT: STOP
+[2018.03.29 13:36:06] [0001m.03s.852ms] [0] S: STOP

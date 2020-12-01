@@ -1,0 +1,766 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout 9.2"    2012/02/23.12:35:31    1
+"d:\padsprojects\cam\ems4_0\ems4_0.emn"    THOU
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+55.4
+0     -1141.73                      -826.77                       0     
+0     1141.73                       -826.77                       0     
+0     1141.73                       826.77                        0     
+0     -1141.73                      826.77                        0     
+0     -1141.73                      -826.77                       0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+.END_DRILLED_HOLES
+.PLACEMENT
+CC3B                                         CC3B                                         1                                            
+205.0                         170.0                         0.0                           0.0       TOP       PLACED    
+CC3B                                         CC3B                                         2                                            
+350.0                         65.0                          0.0                           270.0     TOP       PLACED    
+CC3B                                         CC3B                                         3                                            
+210.0                         325.0                         0.0                           90.0      BOTTOM    PLACED    
+CC3B                                         CC3B                                         4                                            
+240.0                         65.0                          0.0                           270.0     BOTTOM    PLACED    
+0805                                         0805                                         C12                                          
+-280.0                        460.0                         0.0                           270.0     BOTTOM    PLACED    
+1206                                         1206                                         C15                                          
+-900.0                        -555.0                        0.0                           0.0       TOP       PLACED    
+1206                                         1206                                         C16                                          
+900.0                         -555.0                        0.0                           180.0     TOP       PLACED    
+0805                                         0805                                         C19                                          
+-705.0                        405.0                         0.0                           0.0       TOP       PLACED    
+0805                                         0805                                         C26                                          
+-625.0                        405.0                         0.0                           0.0       TOP       PLACED    
+0805                                         0805                                         C24                                          
+-175.0                        30.0                          0.0                           270.0     TOP       PLACED    
+0805                                         0805                                         C31                                          
+-130.0                        190.0                         0.0                           180.0     TOP       PLACED    
+0805                                         0805                                         C6                                           
+-75.0                         -325.0                        0.0                           0.0       BOTTOM    PLACED    
+0603                                         0603                                         C61                                          
+485.0                         15.0                          0.0                           180.0     TOP       PLACED    
+1210                                         1210                                         C54                                          
+255.0                         -45.0                         0.0                           90.0      TOP       PLACED    
+1210                                         1210                                         C55                                          
+390.0                         -45.0                         0.0                           90.0      TOP       PLACED    
+1210                                         1210                                         C56                                          
+310.0                         170.0                         0.0                           0.0       TOP       PLACED    
+1210                                         1210                                         C64                                          
+215.0                         -175.0                        0.0                           90.0      BOTTOM    PLACED    
+1210                                         1210                                         C65                                          
+350.0                         -175.0                        0.0                           90.0      BOTTOM    PLACED    
+1210                                         1210                                         C66                                          
+200.0                         210.0                         0.0                           270.0     BOTTOM    PLACED    
+DO214AC                                      DO214AC                                      D1                                           
+685.0                         445.0                         0.0                           270.0     TOP       PLACED    
+DO214AC                                      DO214AC                                      D2                                           
+850.0                         140.0                         0.0                           0.0       BOTTOM    PLACED    
+DO214ACNP                                    DO214ACNP                                    D4                                           
+300.0                         -340.0                        0.0                           90.0      BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ1                                          
+-975.0                        -450.0                        0.0                           180.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ2                                          
+965.0                         -295.0                        0.0                           0.0       TOP       PLACED    
+SOT23-6                                      SOT23-6                                      DZ3                                          
+-1010.0                       325.0                         0.0                           0.0       BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ4                                          
+-725.0                        -435.0                        0.0                           180.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ5                                          
+100.0                         455.0                         0.0                           180.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ6                                          
+240.0                         -495.0                        0.0                           270.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ7                                          
+590.0                         470.0                         0.0                           180.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      DZ8                                          
+940.0                         -475.0                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         0603                                         JP2                                          
+175.0                         775.0                         0.0                           270.0     TOP       PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P10                                          
+610.0                         625.0                         0.0                           180.0     BOTTOM    PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P11                                          
+610.0                         -625.0                        0.0                           0.0       BOTTOM    PLACED    
+MOLEX53261-10                                MOLEX53261-10                                P13                                          
+940.0                         200.0                         0.0                           90.0      TOP       PLACED    
+MOLEX53261-5                                 MOLEX53261-5                                 P3                                           
+600.0                         -625.0                        0.0                           0.0       TOP       PLACED    
+MOLEX53261-6                                 MOLEX53261-6                                 P5                                           
+585.0                         625.0                         0.0                           180.0     TOP       PLACED    
+MOLEX53261-6                                 MOLEX53261-6                                 P4                                           
+-585.0                        625.0                         0.0                           180.0     TOP       PLACED    
+TSSOPH16A                                    TSSOPH16A                                    U10                                          
+615.0                         165.0                         0.0                           0.0       TOP       PLACED    
+TSSOPH16A                                    TSSOPH16A                                    U11                                          
+640.0                         120.0                         0.0                           0.0       BOTTOM    PLACED    
+TSSOP8                                       TSSOP8                                       U2                                           
+-1015.0                       -210.0                        0.0                           0.0       BOTTOM    PLACED    
+LFBGA9X9-100                                 LFBGA9X9-100                                 U3                                           
+-500.0                        105.0                         0.0                           180.0     TOP       PLACED    
+SOT23-8                                      SOT23-8                                      U4                                           
+-225.0                        600.0                         0.0                           270.0     TOP       PLACED    
+SOT23-8                                      SOT23-8                                      U5                                           
+225.0                         600.0                         0.0                           90.0      TOP       PLACED    
+TPSMD-1206                                   TPSMD-1206                                   TP7                                          
+460.0                         -495.0                        0.0                           0.0       BOTTOM    PLACED    
+TPSMD-1206                                   TPSMD-1206                                   TP6                                          
+25.0                          -110.0                        0.0                           0.0       TOP       PLACED    
+L-WESLM                                      L-WESLM                                      L3                                           
+-75.0                         575.0                         0.0                           90.0      TOP       PLACED    
+L-WESLM                                      L-WESLM                                      L4                                           
+75.0                          575.0                         0.0                           90.0      TOP       PLACED    
+L-WETPC                                      L-WETPC                                      L5                                           
+310.0                         355.0                         0.0                           0.0       TOP       PLACED    
+L-WETPC                                      L-WETPC                                      L6                                           
+375.0                         230.0                         0.0                           180.0     BOTTOM    PLACED    
+PIN1S                                        PIN1S                                        TP1                                          
+-765.0                        435.0                         0.0                           0.0       BOTTOM    PLACED    
+PIN1S                                        PIN1S                                        TP2                                          
+-710.0                        435.0                         0.0                           0.0       BOTTOM    PLACED    
+PIN1S                                        PIN1S                                        TP3                                          
+-655.0                        435.0                         0.0                           0.0       BOTTOM    PLACED    
+PIN1S                                        PIN1S                                        TP4                                          
+270.0                         775.0                         0.0                           270.0     TOP       PLACED    
+PIN1S                                        PIN1S                                        TP5                                          
+-205.0                        360.0                         0.0                           90.0      TOP       PLACED    
+0603                                         0603                                         C71                                          
+765.0                         -105.0                        0.0                           180.0     BOTTOM    PLACED    
+0603                                         0603                                         C80                                          
+-1095.0                       540.0                         0.0                           0.0       BOTTOM    PLACED    
+0603                                         0603                                         JP1                                          
+-80.0                         775.0                         0.0                           270.0     TOP       PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR1                                          
+-745.0                        535.0                         0.0                           270.0     BOTTOM    PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR2                                          
+-585.0                        -460.0                        0.0                           0.0       BOTTOM    PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR3                                          
+-120.0                        535.0                         0.0                           270.0     BOTTOM    PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR4                                          
+25.0                          -475.0                        0.0                           0.0       BOTTOM    PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR5                                          
+380.0                         530.0                         0.0                           270.0     BOTTOM    PLACED    
+ARRAY-TC124                                  ARRAY-TC124                                  RR6                                          
+745.0                         -520.0                        0.0                           90.0      BOTTOM    PLACED    
+DO214AC                                      DO214AC                                      D3                                           
+600.0                         -325.0                        0.0                           180.0     BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB13                                         
+-675.0                        535.0                         0.0                           90.0      BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB14                                         
+-585.0                        -555.0                        0.0                           180.0     BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB17                                         
+-25.0                         555.0                         0.0                           0.0       BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB20                                         
+25.0                          -555.0                        0.0                           180.0     BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB24                                         
+455.0                         530.0                         0.0                           90.0      BOTTOM    PLACED    
+EMIFIL-BLA2AA                                EMIFIL-BLA2AA                                FB25                                         
+675.0                         -520.0                        0.0                           270.0     BOTTOM    PLACED    
+MOLEX53261-5                                 MOLEX53261-5                                 P2                                           
+-600.0                        -625.0                        0.0                           0.0       TOP       PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P6                                           
+-610.0                        625.0                         0.0                           180.0     BOTTOM    PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P7                                           
+-610.0                        -625.0                        0.0                           0.0       BOTTOM    PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P8                                           
+0.0                           625.0                         0.0                           180.0     BOTTOM    PLACED    
+MOLEX53261-7                                 MOLEX53261-7                                 P9                                           
+0.0                           -625.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R71                                          
+-895.0                        580.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C14                                          
+-505.0                        390.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         C17                                          
+-815.0                        -190.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C18                                          
+750.0                         -155.0                        0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         C2                                           
+-410.0                        415.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C20                                          
+-705.0                        240.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C21                                          
+-540.0                        -115.0                        0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C22                                          
+-705.0                        75.0                          0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C23                                          
+-485.0                        330.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C25                                          
+-200.0                        -25.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C27                                          
+-205.0                        85.0                          0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C28                                          
+-565.0                        330.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C30                                          
+-525.0                        330.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C32                                          
+-205.0                        160.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C33                                          
+-205.0                        195.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C34                                          
+-205.0                        125.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C35                                          
+-50.0                         400.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C37                                          
+-100.0                        400.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C38                                          
+-320.0                        600.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C39                                          
+100.0                         400.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C40                                          
+75.0                          725.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         C41                                          
+50.0                          400.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C42                                          
+320.0                         600.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C43                                          
+-1095.0                       345.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         C44                                          
+-820.0                        -435.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C45                                          
+200.0                         455.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C46                                          
+340.0                         -540.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C47                                          
+680.0                         470.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C48                                          
+1040.0                        -475.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C50                                          
+35.0                          115.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C51                                          
+30.0                          -210.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C52                                          
+60.0                          -50.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C53                                          
+555.0                         360.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C57                                          
+620.0                         -75.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C58                                          
+825.0                         -75.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C59                                          
+165.0                         290.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C60                                          
+760.0                         205.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C62                                          
+640.0                         -25.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C63                                          
+760.0                         240.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C67                                          
+645.0                         -120.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         C68                                          
+505.0                         0.0                           0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C7                                           
+-890.0                        280.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C72                                          
+625.0                         -70.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C73                                          
+-95.0                         380.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C74                                          
+-370.0                        360.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         C75                                          
+-895.0                        535.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C76                                          
+-915.0                        475.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C77                                          
+-970.0                        515.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C78                                          
+-1010.0                       515.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         C8                                           
+-765.0                        -290.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         C9                                           
+-135.0                        -230.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         FB1                                          
+-265.0                        530.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         FB11                                         
+-800.0                        605.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         FB12                                         
+-410.0                        -630.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         FB15                                         
+-470.0                        565.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         FB16                                         
+-735.0                        -565.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB18                                         
+-210.0                        625.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB19                                         
+210.0                         -600.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         FB2                                          
+-305.0                        530.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         FB21                                         
+120.0                         565.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         FB22                                         
+-120.0                        -565.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB23                                         
+410.0                         630.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB26                                         
+800.0                         -605.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         FB27                                         
+735.0                         565.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         FB28                                         
+485.0                         -565.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB29                                         
+-875.0                        475.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         FB3                                          
+-200.0                        -65.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         FB30                                         
+-990.0                        460.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         FB4                                          
+-280.0                        105.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         FB5                                          
+-395.0                        620.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         FB6                                          
+-395.0                        580.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         FB7                                          
+-635.0                        565.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         FB8                                          
+730.0                         550.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         FB9                                          
+685.0                         550.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R1                                           
+-185.0                        450.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R100                                         
+705.0                         -75.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R102                                         
+520.0                         -65.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R103                                         
+785.0                         -75.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R104                                         
+660.0                         -75.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R105                                         
+745.0                         -75.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R106                                         
+315.0                         -45.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R107                                         
+565.0                         -120.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R108                                         
+895.0                         -475.0                        0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R109                                         
+605.0                         -120.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R110                                         
+-890.0                        220.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R111                                         
+525.0                         -60.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R112                                         
+525.0                         -120.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R113                                         
+945.0                         -115.0                        0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R114                                         
+850.0                         35.0                          0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R115                                         
+850.0                         175.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R116                                         
+1015.0                        220.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R117                                         
+1015.0                        270.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R118                                         
+865.0                         -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R119                                         
+905.0                         -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R120                                         
+850.0                         80.0                          0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R121                                         
+850.0                         125.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R122                                         
+850.0                         220.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R123                                         
+850.0                         260.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R124                                         
+1015.0                        110.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R125                                         
+1015.0                        170.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R126                                         
+1015.0                        320.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R127                                         
+850.0                         365.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R128                                         
+-185.0                        325.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R129                                         
+850.0                         320.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R130                                         
+-130.0                        380.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R131                                         
+-325.0                        360.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R132                                         
+870.0                         440.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R133                                         
+-405.0                        360.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R134                                         
+-1070.0                       460.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R14                                          
+-930.0                        -225.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R15                                          
+-930.0                        -275.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R16                                          
+-930.0                        -325.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R17                                          
+-930.0                        -375.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R18                                          
+-820.0                        230.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R19                                          
+-805.0                        280.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R101                                         
+895.0                         -415.0                        0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R2                                           
+-185.0                        380.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R20                                          
+-890.0                        -490.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R21                                          
+-1070.0                       -490.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R22                                          
+-1070.0                       -410.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R23                                          
+-890.0                        -410.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R24                                          
+-900.0                        -640.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R25                                          
+-405.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R26                                          
+-200.0                        -105.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R27                                          
+-200.0                        -145.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R28                                          
+-365.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R29                                          
+1005.0                        -260.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R3                                           
+-470.0                        480.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R30                                          
+930.0                         -260.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R31                                          
+930.0                         -335.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R32                                          
+1005.0                        -335.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R33                                          
+-445.0                        330.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R34                                          
+-800.0                        150.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R35                                          
+-800.0                        190.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R37                                          
+-805.0                        70.0                          0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R38                                          
+910.0                         -640.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R39                                          
+-800.0                        30.0                          0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R4                                           
+-410.0                        450.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R40                                          
+-620.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R41                                          
+-660.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R42                                          
+-580.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R43                                          
+-485.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R44                                          
+-445.0                        -115.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R45                                          
+-205.0                        255.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R46                                          
+-205.0                        295.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R47                                          
+-760.0                        -620.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R48                                          
+435.0                         -620.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R49                                          
+-955.0                        -550.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R5                                           
+-945.0                        -80.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R50                                          
+-1040.0                       -495.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R51                                          
+-1040.0                       -570.0                        0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R52                                          
+1050.0                        -295.0                        0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R53                                          
+1080.0                        -530.0                        0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R54                                          
+1040.0                        -570.0                        0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R55                                          
+-620.0                        310.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R56                                          
+-900.0                        640.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R57                                          
+-395.0                        535.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R58                                          
+-225.0                        510.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R59                                          
+-170.0                        690.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R6                                           
+-1025.0                       -20.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R60                                          
+-180.0                        775.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R61                                          
+-805.0                        580.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R62                                          
+-805.0                        620.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R63                                          
+900.0                         640.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R64                                          
+270.0                         705.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R65                                          
+230.0                         705.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R66                                          
+170.0                         510.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R67                                          
+75.0                          775.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R68                                          
+805.0                         580.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R69                                          
+805.0                         620.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         R7                                           
+-1065.0                       -20.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R70                                          
+-840.0                        605.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R72                                          
+-340.0                        -630.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R73                                          
+-340.0                        -590.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R74                                          
+-420.0                        605.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R75                                          
+-365.0                        625.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R76                                          
+-820.0                        -585.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R77                                          
+-820.0                        -625.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R78                                          
+-285.0                        625.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R79                                          
+-250.0                        585.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R8                                           
+-495.0                        405.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R80                                          
+270.0                         -595.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R81                                          
+310.0                         -595.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R82                                          
+210.0                         585.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R83                                          
+210.0                         625.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R84                                          
+-185.0                        -569.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R85                                          
+-210.0                        -625.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R86                                          
+340.0                         590.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R87                                          
+340.0                         630.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R88                                          
+840.0                         -605.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R89                                          
+820.0                         -530.0                        0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         R90                                          
+820.0                         585.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R91                                          
+820.0                         625.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R92                                          
+420.0                         -605.0                        0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R93                                          
+365.0                         -625.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R94                                          
+-890.0                        -95.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R95                                          
+-890.0                        -55.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R96                                          
+-890.0                        -15.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R97                                          
+-890.0                        25.0                          0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R98                                          
+560.0                         -25.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R99                                          
+165.0                         365.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         C49                                          
+-460.0                        -555.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C1                                           
+-220.0                        380.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         C10                                          
+-140.0                        235.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         C11                                          
+-890.0                        -135.0                        0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C13                                          
+-350.0                        380.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C29                                          
+-800.0                        110.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         C36                                          
+-75.0                         725.0                         0.0                           180.0     TOP       PLACED    
+0402                                         0402                                         C69                                          
+235.0                         -45.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C70                                          
+515.0                         240.0                         0.0                           90.0      BOTTOM    PLACED    
+0402                                         0402                                         FB10                                         
+505.0                         565.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C4                                           
+-545.0                        565.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         C5                                           
+-410.0                        530.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C79                                          
+-1050.0                       515.0                         0.0                           270.0     BOTTOM    PLACED    
+0402                                         0402                                         R135                                         
+-890.0                        155.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R136                                         
+-890.0                        340.0                         0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R137                                         
+-445.0                        -620.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R138                                         
+755.0                         -620.0                        0.0                           0.0       TOP       PLACED    
+0603-LED                                     0603-LED                                     DL1                                          
+-1040.0                       -225.0                        0.0                           270.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL2                                          
+-1040.0                       -275.0                        0.0                           270.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL3                                          
+-1040.0                       -325.0                        0.0                           270.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL4                                          
+-1040.0                       -375.0                        0.0                           270.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL5                                          
+-900.0                        -750.0                        0.0                           0.0       TOP       PLACED    
+0603-LED                                     0603-LED                                     DL6                                          
+900.0                         -750.0                        0.0                           0.0       TOP       PLACED    
+0603-LED                                     0603-LED                                     DL7                                          
+-900.0                        750.0                         0.0                           180.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL8                                          
+900.0                         750.0                         0.0                           180.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL9                                          
+995.0                         -415.0                        0.0                           270.0     TOP       PLACED    
+0603-LED                                     0603-LED                                     DL10                                         
+995.0                         -475.0                        0.0                           270.0     TOP       PLACED    
+L-WELAN                                      L-WELAN                                      L1                                           
+-600.0                        -375.0                        0.0                           180.0     TOP       PLACED    
+L-WELAN                                      L-WELAN                                      L2                                           
+600.0                         -375.0                        0.0                           180.0     TOP       PLACED    
+SOX-C1E                                      SOX-C1E                                      XT1                                          
+-555.0                        485.0                         0.0                           180.0     BOTTOM    PLACED    
+SQFP14X14-100                                SQFP14X14-100                                U1                                           
+-500.0                        25.0                          0.0                           180.0     BOTTOM    PLACED    
+QFN4X3-20                                    QFN4X3-20                                    U7                                           
+25.0                          240.0                         0.0                           90.0      BOTTOM    PLACED    
+QFN4X3-20                                    QFN4X3-20                                    U6                                           
+-345.0                        -455.0                        0.0                           270.0     BOTTOM    PLACED    
+QFN4X3-20                                    QFN4X3-20                                    U8                                           
+25.0                          -80.0                         0.0                           270.0     BOTTOM    PLACED    
+QFN4X3-16                                    QFN4X3-16                                    U9                                           
+25.0                          80.0                          0.0                           270.0     TOP       PLACED    
+FID-TOP                                      FID-TOP                                      FD1                                          
+-1100.0                       -595.0                        0.0                           0.0       TOP       PLACED    
+FID-TOP                                      FID-TOP                                      FD2                                          
+1105.0                        -595.0                        0.0                           0.0       TOP       PLACED    
+FID-TOP                                      FID-TOP                                      FD3                                          
+1105.0                        595.0                         0.0                           0.0       TOP       PLACED    
+FID-BOT                                      FID-BOT                                      FD4                                          
+-1100.0                       -595.0                        0.0                           0.0       BOTTOM    PLACED    
+FID-BOT                                      FID-BOT                                      FD5                                          
+1105.0                        -595.0                        0.0                           0.0       BOTTOM    PLACED    
+FID-BOT                                      FID-BOT                                      FD6                                          
+1105.0                        595.0                         0.0                           0.0       BOTTOM    PLACED    
+MOLEX501591-3011                             MOLEX501591-3011                             P1                                           
+-1015.0                       125.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R139                                         
+-225.0                        470.0                         0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         R140                                         
+-149.0                        346.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R141                                         
+-845.0                        -300.0                        0.0                           0.0       BOTTOM    PLACED    
+0402                                         0402                                         R142                                         
+-1025.0                       50.0                          0.0                           90.0      BOTTOM    PLACED    
+FISS28P                                      FISS28P                                      MH1                                          
+-1040.0                       715.0                         0.0                           0.0       TOP       PLACED    
+FISS28P                                      FISS28P                                      MH2                                          
+1040.0                        715.0                         0.0                           0.0       TOP       PLACED    
+FISS28P                                      FISS28P                                      MH3                                          
+1040.0                        -715.0                        0.0                           0.0       TOP       PLACED    
+FISS28P                                      FISS28P                                      MH4                                          
+-1040.0                       -715.0                        0.0                           0.0       TOP       PLACED    
+0402                                         0402                                         C83                                          
+-760.0                        450.0                         0.0                           270.0     TOP       PLACED    
+0402                                         0402                                         R143                                         
+-410.0                        490.0                         0.0                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         R147                                         
+-850.0                        355.0                         0.0                           90.0      TOP       PLACED    
+0402                                         0402                                         R148                                         
+-890.0                        355.0                         0.0                           90.0      TOP       PLACED    
+0805                                         0805                                         C81                                          
+25.0                          -325.0                        0.0                           180.0     BOTTOM    PLACED    
+0805                                         0805                                         C82                                          
+-795.0                        -65.0                         0.0                           0.0       TOP       PLACED    
+MOLEX436500313                               MOLEX436500313                               P12                                          
+0.0                           -230.0                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC1                                          
+-474.06                       906.19                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC2                                          
+-426.81                       906.19                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC3                                          
+-474.06                       827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC4                                          
+-426.81                       827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC5                                          
+431.46                        906.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC6                                          
+478.7                         906.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC7                                          
+431.46                        827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC8                                          
+478.7                         827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC9                                          
+1222.74                       517.24                        0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC10                                         
+1144.0                        517.24                        0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC11                                         
+1144.0                        470.0                         0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC12                                         
+1222.74                       470.0                         0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC13                                         
+1144.0                        -472.76                       0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC14                                         
+1144.0                        -520.0                        0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC15                                         
+1222.74                       -472.76                       0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC16                                         
+1223.0                        -519.76                       0.0                           90.0      TOP       PLACED    
+FISS05                                       FISS05                                       UC17                                         
+478.7                         -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC18                                         
+431.46                        -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC19                                         
+431.46                        -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC20                                         
+478.7                         -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC21                                         
+-426.81                       -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC22                                         
+-474.06                       -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC23                                         
+-474.06                       -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC24                                         
+-426.81                       -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC25                                         
+1885.94                       -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC26                                         
+1933.19                       -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC27                                         
+1885.94                       -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC28                                         
+1933.19                       -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC29                                         
+2791.46                       -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC30                                         
+2838.7                        -826.09                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC31                                         
+2791.46                       -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC32                                         
+2838.7                        -904.83                       0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC33                                         
+1885.94                       827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC34                                         
+1933.19                       827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC35                                         
+1933.19                       906.19                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC36                                         
+1885.94                       906.19                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC37                                         
+2791.46                       906.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC38                                         
+2838.7                        906.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC39                                         
+2838.7                        827.45                        0.0                           0.0       TOP       PLACED    
+FISS05                                       FISS05                                       UC40                                         
+2791.46                       827.45                        0.0                           0.0       TOP       PLACED    
+PIN1S                                        PIN1S                                        TP8                                          
+-582.0                        -373.0                        0.0                           0.0       BOTTOM    PLACED    
+PIN1S                                        PIN1S                                        TP9                                          
+-46.0                         427.0                         0.0                           0.0       BOTTOM    PLACED    
+.END_PLACEMENT

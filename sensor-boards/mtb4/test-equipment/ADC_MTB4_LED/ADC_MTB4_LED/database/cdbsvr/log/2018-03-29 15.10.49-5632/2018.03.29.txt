@@ -1,0 +1,384 @@
+[2018.03.29 15:10:49] [0000m.00s.046ms] [0] WELCOME
+[2018.03.29 15:10:49] [0000m.00s.046ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.03.29 15:10:49] [0000m.00s.046ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.03.29 15:10:49] [0000m.00s.046ms] [1] Base flow version [VX.2.3]
+[2018.03.29 15:10:49] [0000m.00s.046ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] Machine [IITICUBWS029]  IP [10.255.35.55,127.0.0.1]  User [MBorgagni]  PID [5632]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] Current working dir [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Program Files (x86)\Skype\Phone\;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] SDD_PLATFORM [win32]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.03.29 15:10:50] [0000m.00s.062ms] [2] S: Loading config files
+[2018.03.29 15:10:50] [0000m.00s.062ms] [1] Config file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbsvr\Server.cfg] not found
+[2018.03.29 15:10:50] [0000m.00s.062ms] [3] S: Config loaded
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Project path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] on file system [NTFS]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Project file (.prj) path [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj] on file system [NTFS]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Single-user mode (auto)
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Event polling mode autodetection
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Started up automatically by iCDB Client: IITICUBWS029:MBorgagni:2228
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Auto close mode
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Database ID [b09e-eba8-5f25-24ea-8d5e-cbad-d5ec-ba50-4fb1-1281-9a8b-0a8b]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: BEGIN dumping
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: Local -> global path prefix list
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [C:\windows\system32\spool\drivers] -> [\\IITICUBWS029\print$]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [F:\repo\Orcad Library] -> [\\IITICUBWS029\Orcad Library2]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [F:\repo\Capital] -> [\\IITICUBWS029\Capital]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS029\Orcad Library2\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [X:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: Global -> local path prefix list
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [X:\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2\] -> [O:\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2] -> [F:\repo\Orcad Library]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\IITICUBWS029\Capital] -> [F:\repo\Capital]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: [\\IITICUBWS029\print$] -> [C:\windows\system32\spool\drivers]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] PathTranslator: END dumping
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: START
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Server startup lock file created
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Listening for client connections on port [10002]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Server network ID [IITICUBWS029:10.255.35.55,IITICUBWS029,IITICUBWS029.iit.local:10002]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Server GUID [5eff-0e2a-ff57-6c06-ad5e-cbaf-d5ec-ba50-4861-1281-9a8b-0a8b]
+[2018.03.29 15:10:50] [0000m.00s.093ms] [0] S: Project GUID [b09e-eba8-5f25-24ea-8d5e-cbad-d5ec-ba50-4fb1-1281-9a8b-0a8b]
+[2018.03.29 15:10:50] [0000m.00s.109ms] [0] S: Wrote data to server address file
+[2018.03.29 15:10:50] [0000m.00s.109ms] [0] S: Server startup lock file removed
+[2018.03.29 15:10:50] [0000m.00s.109ms] [1] ProjectBackupManager: Setting project file (.prj) path: [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ADC_MTB4_LED.prj]
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.03.29 15:10:51] [0000m.01s.076ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.03.29 15:10:51] [0000m.01s.076ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] S: Local disc access time: 40 us
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] S: File server access time: 43 us
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] size [135768 (132.6 kB)]
+[2018.03.29 15:10:51] [0000m.01s.076ms] [1] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] opened in read-write mode
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.076ms] [0] Database GUARD OK: [135768]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] Database GUARD OK: [135768]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] Database GUARD OK: [135768]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] Database GUARD OK: [135768]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] Database GUARD OK: [135768]
+[2018.03.29 15:10:51] [0000m.01s.793ms] [0] SingleFile: [7dae-c9d7-cf9d-e8c6] SFI version check [1009] [1009]
+[2018.03.29 15:10:51] [0000m.01s.809ms] [0] SingleFile: [7dae-c9d7-cf9d-e8c6] Database SFI header has been read in [20ms 68us]
+[2018.03.29 15:10:51] [0000m.01s.825ms] [0] iCDB Server PI: Server & plugin session [142]
+[2018.03.29 15:10:51] [0000m.01s.825ms] [0] iCDB Server PI: Opening database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database]
+[2018.03.29 15:10:51] [0000m.01s.825ms] [0] iCDB Server PI: Database [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] opened
+[2018.03.29 15:10:51] [0000m.01s.903ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.03.29 15:10:51] [0000m.01s.903ms] [0] iCDB Database: Checking constraint definitions version
+[2018.03.29 15:10:51] [0000m.01s.934ms] [0] iCDB Database: Creating database content backup before upgrade
+[2018.03.29 15:10:51] [0000m.01s.934ms] [1] iCDB Storage Server: Database backup: ProjectPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database]
+[2018.03.29 15:10:51] [0000m.01s.934ms] [0] iCDB Storage Server Backup Thread: Database backup: BackupPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 15.10.51-5632.zip]
+[2018.03.29 15:10:51] [0000m.01s.996ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 15.10.51-5632.zip]
+[2018.03.29 15:10:51] [0000m.01s.996ms] [0] iCDB Database: Database content backed up to [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 15.10.51-5632.zip] of size [73 245 bytes (71.5 kB)]  in [58ms 267us]
+[2018.03.29 15:10:51] [0000m.01s.996ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.10.56]
+[2018.03.29 15:10:51] [0000m.02s.027ms] [0] iCDB Database: Upgrading snapshot [1:DxD] from version [3300]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2018.03.29 15:10:51] [0000m.02s.043ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [0] iCDB Database: Snapshot [1:DxD] upgraded to version [3400] in [8ms 475us]
+[2018.03.29 15:10:51] [0000m.02s.043ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:DxD]
+[2018.03.29 15:10:52] [0000m.02s.059ms] [0] iCDB Database: Constraint definitions for snapshot [1:DxD] upgraded in [11ms 505us]
+[2018.03.29 15:10:52] [0000m.02s.059ms] [0] iCDB Database: Saving upgraded snapshot [1:DxD]
+[2018.03.29 15:10:52] [0000m.02s.059ms] [0] iCDB Database: Upgraded snapshot [1:DxD] saved in [5ms 283us]
+[2018.03.29 15:10:52] [0000m.02s.059ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s1\uids] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Upgrading snapshot [2:__ise_DxD] from version [3300]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] CORE: Upgrade snapshot __ise_DxD completed successfully.
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Snapshot [2:__ise_DxD] upgraded to version [3400] in [4ms 239us]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [2:__ise_DxD]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Constraint definitions for snapshot [2:__ise_DxD] upgraded in [311us]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Saving upgraded snapshot [2:__ise_DxD]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [0] iCDB Database: Upgraded snapshot [2:__ise_DxD] saved in [589us]
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.105ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\cdbcmpcache\dxdatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s2\params] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.121ms] [0] iCDB Database: Upgrading snapshot [3:ADC_MTB4_LED_layout_temp] from version [3300]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_layout_temp completed successfully.
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [0] iCDB Database: Snapshot [3:ADC_MTB4_LED_layout_temp] upgraded to version [3400] in [12ms 959us]
+[2018.03.29 15:10:52] [0000m.02s.121ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [3:ADC_MTB4_LED_layout_temp]
+[2018.03.29 15:10:52] [0000m.02s.137ms] [0] iCDB Database: Constraint definitions for snapshot [3:ADC_MTB4_LED_layout_temp] upgraded in [12ms 565us]
+[2018.03.29 15:10:52] [0000m.02s.137ms] [0] iCDB Database: Saving upgraded snapshot [3:ADC_MTB4_LED_layout_temp]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [0] iCDB Database: Upgraded snapshot [3:ADC_MTB4_LED_layout_temp] saved in [5ms 776us]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s3\uids] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.152ms] [0] iCDB Database: Upgrading snapshot [4:ADC_MTB4_LED] from version [3300]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED completed successfully.
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [0] iCDB Database: Snapshot [4:ADC_MTB4_LED] upgraded to version [3400] in [5ms 570us]
+[2018.03.29 15:10:52] [0000m.02s.152ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [4:ADC_MTB4_LED]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [0] iCDB Database: Constraint definitions for snapshot [4:ADC_MTB4_LED] upgraded in [6ms 564us]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [0] iCDB Database: Saving upgraded snapshot [4:ADC_MTB4_LED]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [0] iCDB Database: Upgraded snapshot [4:ADC_MTB4_LED] saved in [2ms 696us]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s4\uids] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.168ms] [0] iCDB Database: Upgrading snapshot [6:ADC_MTB4_LED_LDDTemp] from version [3300]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.168ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_LDDTemp completed successfully.
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Snapshot [6:ADC_MTB4_LED_LDDTemp] upgraded to version [3400] in [4ms 289us]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [6:ADC_MTB4_LED_LDDTemp]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Constraint definitions for snapshot [6:ADC_MTB4_LED_LDDTemp] upgraded in [6ms 527us]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Saving upgraded snapshot [6:ADC_MTB4_LED_LDDTemp]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Upgraded snapshot [6:ADC_MTB4_LED_LDDTemp] saved in [2ms 718us]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s6\uids] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.183ms] [0] iCDB Database: Upgrading snapshot [7:ADC_MTB4_LED_RefSync] from version [3300]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Upgrade atlas from version 512 [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Upgrade atlas from version 512 to 513 completed successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Upgrade snapshot ADC_MTB4_LED_RefSync completed successfully.
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Applying a fix no 150 stage [fsSnapshotLoaded] to atlas [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.183ms] [1] CORE: Atlas fixed stage [fsSnapshotLoaded] successfully [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Snapshot [7:ADC_MTB4_LED_RefSync] upgraded to version [3400] in [2ms 906us]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [7:ADC_MTB4_LED_RefSync]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Constraint definitions for snapshot [7:ADC_MTB4_LED_RefSync] upgraded in [6ms 19us]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Saving upgraded snapshot [7:ADC_MTB4_LED_RefSync]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Upgraded snapshot [7:ADC_MTB4_LED_RefSync] saved in [2ms 732us]
+[2018.03.29 15:10:52] [0000m.02s.199ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbblks\8000000010000050.blk\blkatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.199ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcatlg\catlgatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.199ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcnfgs\8000000010000050.blk\ces_obj_state] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.199ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\cdbcnfgs\8000000010000050.blk\cesatl.v] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.199ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\s7\uids] - auto-saving it
+[2018.03.29 15:10:52] [0000m.02s.199ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.57]
+[2018.03.29 15:10:52] [0000m.02s.402ms] [0] iCDB Server PI: Initializing plugins
+[2018.03.29 15:10:52] [0000m.02s.402ms] [0] iCDB Server PI: Plugins initialized
+[2018.03.29 15:10:52] [0000m.02s.402ms] [0] S: iCDB database loaded
+[2018.03.29 15:10:52] [0000m.02s.434ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2018-03-29 15.10.52 - upgrade.zip] with GUID [f6f0-8f62-fb45-9a58-cd5e-cba1-e5ec-ba50-4861-1281-9a8b-0a8b]
+[2018.03.29 15:10:52] [0000m.02s.434ms] [1] PrjBackupMgr: Migrated iCDB content backup file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\cdbback\2018-03-29 15.10.51-5632.zip] removed
+[2018.03.29 15:10:52] [0000m.02s.434ms] [0] S: Starting threads
+[2018.03.29 15:10:52] [0000m.02s.434ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.03.29 15:10:52] [0000m.02s.434ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.03.29 15:10:52] [0000m.02s.434ms] [0] IT: Session [143] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [2228] created
+[2018.03.29 15:10:52] [0000m.02s.434ms] [1] SC[143]: Registered sub-client [DxD] with ID [1] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.442ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS029] user [MBorgagni] with process ID [5168] created
+[2018.03.29 15:10:52] [0000m.02s.442ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.03.29 15:10:52] [0000m.02s.473ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.03.29 15:10:52] [0000m.02s.489ms] [1] SC[143]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.504ms] [1] SC[143]: Registered sub-client [xprob] with ID [3] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.551ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:10:52] [0000m.02s.692ms] [1] SC[143]: Registered sub-client [StartServerClient1190] with ID [4] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.692ms] [1] SC[143]: UnRegistered sub-client [StartServerClient1190] with ID [4] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.723ms] [1] SC[143]: Registered sub-client [SymbolEditor] with ID [5] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.723ms] [1] SC[143]: Registered sub-client [SelectionHolder] with ID [6] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.754ms] [1] SC[143]: Registered sub-client [BlockCacheDxD:325478536] with ID [7] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.770ms] [1] SC[143]: Registered sub-client [ObjectHolder_574715056] with ID [8] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: Registered sub-client [GlobalNetAliasUpdater_574714328] with ID [9] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: Registered sub-client [IcdbNetProcessorSubClientDxD:574552520] with ID [10] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [GlobalNetAliasUpdater_574714328] with ID [9] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [ObjectHolder_574715056] with ID [8] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:574552520] with ID [10] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: Registered sub-client [ObjectHolder_574714328] with ID [11] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: Registered sub-client [GlobalNetAliasUpdater_574714848] with ID [12] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: Registered sub-client [IcdbNetProcessorSubClientDxD:574550112] with ID [13] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [GlobalNetAliasUpdater_574714848] with ID [12] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [ObjectHolder_574714328] with ID [11] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:574550112] with ID [13] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:52] [0000m.02s.785ms] [1] SC[143]: UnRegistered sub-client [BlockCacheDxD:325478536] with ID [7] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:53] [0000m.03s.066ms] [1] SC[143]: Registered sub-client [SystemDesignDll] with ID [14] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:53] [0000m.03s.097ms] [1] SC[143]: UnRegistered sub-client [SystemDesignDll] with ID [14] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:53] [0000m.03s.097ms] [1] SC[143]: Registered sub-client [SystemDesignDll] with ID [15] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.169ms] [1] SC[143]: Registered sub-client [DesignSearcher2] with ID [16] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.169ms] [1] SC[143]: Registered sub-client [HdlProject] with ID [17] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.200ms] [1] SC[143]: Registered sub-client [Navigator] with ID [18] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.216ms] [1] SC[143]: Registered sub-client [OutputWindow] with ID [19] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.216ms] [1] SC[143]: Registered sub-client [PlaceDevice] with ID [20] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.372ms] [1] SC[143]: Registered sub-client [LocalSymbolsDataProvider] with ID [21] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.372ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_0] with ID [22] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:57] [0000m.07s.387ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_1] with ID [23] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.323ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_2] with ID [24] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.323ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_3] with ID [25] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.963ms] [1] SC[143]: Registered sub-client [SharedBlockDataProvider] with ID [26] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.963ms] [1] SC[143]: UnRegistered sub-client [SharedBlockDataProvider] with ID [26] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.963ms] [1] SC[143]: Registered sub-client [SharedBlockDataProvider] with ID [27] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:58] [0000m.08s.963ms] [1] SC[143]: UnRegistered sub-client [SharedBlockDataProvider] with ID [27] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:59] [0000m.09s.306ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_4] with ID [28] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:10:59] [0000m.09s.306ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_5] with ID [29] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:00] [0000m.10s.320ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_6] with ID [30] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:00] [0000m.10s.320ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_7] with ID [31] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:01] [0000m.11s.381ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_8] with ID [32] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:01] [0000m.11s.396ms] [1] SC[143]: Registered sub-client [FFSearch_Controller_9] with ID [33] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.536ms] [1] SC[143]: Registered sub-client [FFSSelListener] with ID [34] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.630ms] [1] SC[143]: Registered sub-client [SAE] with ID [35] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.630ms] [1] SC[143]: Registered sub-client [CCZAddin] with ID [36] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.630ms] [1] SC[143]: Registered sub-client [DxThumbnails] with ID [37] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.630ms] [1] SC[143]: Registered sub-client [MyParts] with ID [38] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.661ms] [1] SC[143]: Registered sub-client [PinsList] with ID [39] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.692ms] [1] SC[143]: Registered sub-client [DxSim] with ID [40] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.801ms] [1] SC[143]: Registered sub-client [toolboxes] with ID [41] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.817ms] [1] SC[143]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:579292008] with ID [42] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.12s.817ms] [1] SC[143]: Registered sub-client [Core::DesignListener-136] with ID [43] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.13s.035ms] [1] SC[143]: Registered sub-client [SheetConnectorsCacheDxD:1522329062] with ID [44] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:02] [0000m.13s.035ms] [1] SC[143]: Registered sub-client [NetsNamesCollectorDxD:1522329062] with ID [45] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.051ms] [1] SC[143]: Registered sub-client [PartReplaceUtils] with ID [46] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.051ms] [1] SC[143]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [47] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.238ms] [1] SC[143]: Registered sub-client [ObjectHolder_584136328] with ID [48] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.254ms] [1] SC[143]: Registered sub-client [BlockCacheDxD:583424576] with ID [49] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.254ms] [1] SC[143]: Registered sub-client [GlobalNetAliasUpdater_584136432] with ID [50] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:03] [0000m.13s.254ms] [1] SC[143]: Registered sub-client [IcdbNetProcessorSubClientDxD:573576088] with ID [51] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:04] [0000m.14s.299ms] [1] SC[143]: Registered sub-client [DxDbSearch] with ID [52] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 15:11:26] [0000m.36s.297ms] [0] DFAMT: File server access time: 180 us
+[2018.03.29 15:12:03] [0001m.13s.396ms] [0] IT: Session [144] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9364] created
+[2018.03.29 15:12:03] [0001m.13s.396ms] [1] SC[144]: Registered sub-client [iCDBConnector] with ID [1] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:03] [0001m.13s.412ms] [1] SC[144]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [144] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:03] [0001m.13s.490ms] [1] CMT: There are [2] clients now: 143, 144
+[2018.03.29 15:12:03] [0001m.13s.490ms] [1] CMT: Removed client [144]
+[2018.03.29 15:12:03] [0001m.13s.490ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:12:03] [0001m.13s.974ms] [0] IT: Session [145] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9364] created
+[2018.03.29 15:12:03] [0001m.13s.990ms] [1] SC[145]: Registered sub-client [PADSLayout] with ID [1] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:03] [0001m.14s.006ms] [1] SC[145]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:03] [0001m.14s.037ms] [1] CMT: There are [2] clients now: 143, 145
+[2018.03.29 15:12:05] [0001m.15s.082ms] [1] SC[145]: Registered sub-client [StartServerClient2498] with ID [3] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:05] [0001m.15s.082ms] [1] SC[145]: UnRegistered sub-client [StartServerClient2498] with ID [3] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:05] [0001m.15s.098ms] [1] SC[145]: Registered sub-client [StartServerClient2498] with ID [4] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:05] [0001m.15s.098ms] [1] SC[145]: UnRegistered sub-client [StartServerClient2498] with ID [4] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:11] [0001m.21s.325ms] [1] SC[145]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:11] [0001m.21s.325ms] [1] SC[145]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [145] host [IITICUBWS029] user [MBorgagni] process ID [9364]
+[2018.03.29 15:12:11] [0001m.21s.356ms] [1] CMT: Removed client [145]
+[2018.03.29 15:12:11] [0001m.21s.356ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:12:41] [0001m.51s.213ms] [0] IT: Session [146] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9852] created
+[2018.03.29 15:12:41] [0001m.51s.213ms] [1] SC[146]: Registered sub-client [iCDBConnector] with ID [1] for session ID [146] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:41] [0001m.51s.229ms] [1] SC[146]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [146] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:41] [0001m.51s.291ms] [1] CMT: There are [2] clients now: 143, 146
+[2018.03.29 15:12:41] [0001m.51s.291ms] [1] CMT: Removed client [146]
+[2018.03.29 15:12:41] [0001m.51s.291ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:12:41] [0001m.51s.806ms] [0] IT: Session [147] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9852] created
+[2018.03.29 15:12:41] [0001m.51s.806ms] [1] SC[147]: Registered sub-client [PADSLayout] with ID [1] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:41] [0001m.51s.822ms] [1] SC[147]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:41] [0001m.51s.837ms] [1] CMT: There are [2] clients now: 143, 147
+[2018.03.29 15:12:42] [0001m.52s.822ms] [1] SC[147]: Registered sub-client [StartServerClient2680] with ID [3] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:42] [0001m.52s.822ms] [1] SC[147]: UnRegistered sub-client [StartServerClient2680] with ID [3] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:42] [0001m.52s.822ms] [1] SC[147]: Registered sub-client [StartServerClient2680] with ID [4] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:12:42] [0001m.52s.822ms] [1] SC[147]: UnRegistered sub-client [StartServerClient2680] with ID [4] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:09] [0007m.19s.893ms] [1] SC[147]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:09] [0007m.19s.924ms] [1] SC[147]: Registered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:43] [0007m.53s.361ms] [1] SC[147]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:43] [0007m.53s.392ms] [1] SC[147]: Registered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:50] [0008m.00s.072ms] [1] SC[147]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:50] [0008m.00s.072ms] [1] SC[147]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [147] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:50] [0008m.00s.182ms] [1] CMT: Removed client [147]
+[2018.03.29 15:18:50] [0008m.00s.182ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:18:50] [0008m.00s.462ms] [0] IT: Session [148] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9852] created
+[2018.03.29 15:18:50] [0008m.00s.462ms] [1] SC[148]: Registered sub-client [PADSLayout] with ID [1] for session ID [148] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:50] [0008m.00s.478ms] [1] SC[148]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [148] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:50] [0008m.00s.509ms] [1] CMT: There are [2] clients now: 143, 148
+[2018.03.29 15:18:50] [0008m.00s.509ms] [1] CMT: Removed client [148]
+[2018.03.29 15:18:50] [0008m.00s.509ms] [1] CMT: There are [1] clients now: 143
+[2018.03.29 15:18:51] [0008m.01s.055ms] [0] IT: Session [149] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [9852] created
+[2018.03.29 15:18:51] [0008m.01s.055ms] [1] SC[149]: Registered sub-client [PADSLayout] with ID [1] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:51] [0008m.01s.071ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:18:51] [0008m.01s.164ms] [1] CMT: There are [2] clients now: 143, 149
+[2018.03.29 15:19:22] [0008m.33s.002ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:19:22] [0008m.33s.033ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [3] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:23:12] [0012m.22s.438ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [3] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:23:12] [0012m.22s.454ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [4] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:23:52] [0013m.02s.335ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2018-03-29 15.23.52 - auto.zip] with GUID [e573-1b5c-8612-908b-8e8e-cbad-e8ec-ba50-0fe1-1281-9a8b-0a8b]
+[2018.03.29 15:23:52] [0013m.02s.335ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[5141-4445-1a3c-8658-55a1-7f9a-5a17-f950-c061-4241-9a8b-0a8b] CreationTime[Monday, October 30, 2017 12:25:57] Type[Autosave] Creator[iCDB Server (2017-10-30 11.07.37-2868)] ApplicationName[iCDB Server (2017-10-30 11.07.37-2868)] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Autosave] FullFlowName[PADS VX.2.2; PADS VX.2.2 - Update 2] FlowId[PADSVX.2.2] GBSInstallId[1589080; 1629767] GBSBuildId[7333466] IcdbVersion[3300] ReferenceLogFilePath[] BackupFilePath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2017-10-30 13.25.57 - auto.zip] BackupFileSize[156387] Persistent[FALSE]
+[2018.03.29 15:23:52] [0013m.02s.335ms] [0] PrjBackupMgr: Project Backup file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2017-10-30 13.25.57 - auto.zip] with GUID [5141-4445-1a3c-8658-55a1-7f9a-5a17-f950-c061-4241-9a8b-0a8b] removed
+[2018.03.29 15:23:52] [0013m.02s.335ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[e573-1b5c-8612-908b-8e8e-cbad-e8ec-ba50-0fe1-1281-9a8b-0a8b] CreationTime[Thursday, March 29, 2018 13:23:52] Type[Autosave] Creator[iCDB Server (2018-03-29 15.10.49-5632)] ApplicationName[iCDB Server (2018-03-29 15.10.49-5632)] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Autosave] FullFlowName[PADS VX.2.3] FlowId[PADSVX.2.3] GBSInstallId[1714759] GBSBuildId[8941532] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\ProjectBackup\backups\2018-03-29 15.23.52 - auto.zip] BackupFileSize[233816] Persistent[FALSE]
+[2018.03.29 15:23:58] [0013m.08s.437ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [4] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:23:58] [0013m.08s.437ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:24:04] [0013m.14s.197ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:24:04] [0013m.14s.212ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:35:06] [0024m.16s.919ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:35:06] [0024m.16s.935ms] [1] SC[149]: Registered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 15:55:39] [0044m.49s.087ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[9852] # SessionID[149] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.03.29 15:55:39] [0044m.49s.134ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[9852] # SessionID[149] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.03.29 16:12:26] [0061m.36s.116ms] [1] SC[143]: UnRegistered sub-client [SystemDesignDll] with ID [15] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.241ms] [1] SC[143]: UnRegistered sub-client [DesignSearcher2] with ID [16] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [GlobalNetAliasUpdater_584136432] with ID [50] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [BlockCacheDxD:583424576] with ID [49] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [ObjectHolder_584136328] with ID [48] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:573576088] with ID [51] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [Navigator] with ID [18] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.366ms] [1] SC[143]: UnRegistered sub-client [FFSSelListener] with ID [34] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.413ms] [1] SC[143]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [21] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.413ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_1] with ID [23] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.413ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_0] with ID [22] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.428ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_3] with ID [25] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.428ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_2] with ID [24] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.444ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_5] with ID [29] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.444ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_4] with ID [28] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.444ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_7] with ID [31] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.460ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_6] with ID [30] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.460ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_9] with ID [33] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.460ms] [1] SC[143]: UnRegistered sub-client [FFSearch_Controller_8] with ID [32] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.662ms] [1] SC[143]: UnRegistered sub-client [MyParts] with ID [38] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:26] [0061m.36s.662ms] [1] SC[143]: UnRegistered sub-client [toolboxes] with ID [41] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:27] [0061m.37s.255ms] [1] SC[143]: UnRegistered sub-client [SelectionHolder] with ID [6] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:27] [0061m.37s.255ms] [1] SC[143]: UnRegistered sub-client [PartReplaceUtils] with ID [46] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:27] [0061m.37s.255ms] [1] SC[143]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [47] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:27] [0061m.37s.255ms] [1] SC[143]: UnRegistered sub-client [Core::DesignListener-136] with ID [43] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.503ms] [1] SC[143]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:579292008] with ID [42] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.503ms] [1] SC[143]: UnRegistered sub-client [SheetConnectorsCacheDxD:1522329062] with ID [44] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.503ms] [1] SC[143]: UnRegistered sub-client [NetsNamesCollectorDxD:1522329062] with ID [45] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.503ms] [1] SC[143]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.503ms] [1] SC[143]: UnRegistered sub-client [DxD] with ID [1] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.519ms] [1] SC[143]: UnRegistered sub-client [xprob] with ID [3] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.519ms] [1] SC[143]: UnRegistered sub-client [SymbolEditor] with ID [5] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.534ms] [1] SC[143]: UnRegistered sub-client [OutputWindow] with ID [19] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.800ms] [1] SC[143]: UnRegistered sub-client [DxDbSearch] with ID [52] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.815ms] [1] SC[143]: UnRegistered sub-client [SAE] with ID [35] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.815ms] [1] SC[143]: UnRegistered sub-client [CCZAddin] with ID [36] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.815ms] [1] SC[143]: UnRegistered sub-client [DxThumbnails] with ID [37] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:28] [0061m.38s.831ms] [1] SC[143]: UnRegistered sub-client [DxSim] with ID [40] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:30] [0061m.40s.141ms] [1] SC[143]: UnRegistered sub-client [PinsList] with ID [39] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:30] [0061m.40s.172ms] [1] SC[143]: UnRegistered sub-client [PlaceDevice] with ID [20] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:30] [0061m.40s.204ms] [1] SC[143]: UnRegistered sub-client [HdlProject] with ID [17] for session ID [143] host [IITICUBWS029] user [MBorgagni] process ID [2228]
+[2018.03.29 16:12:30] [0061m.40s.282ms] [1] CMT: Removed client [143]
+[2018.03.29 16:12:30] [0061m.40s.282ms] [1] CMT: There are [1] clients now: 149
+[2018.03.29 16:17:25] [0066m.35s.582ms] [1] SC[149]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 16:17:25] [0066m.35s.582ms] [1] SC[149]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [149] host [IITICUBWS029] user [MBorgagni] process ID [9852]
+[2018.03.29 16:17:25] [0066m.35s.598ms] [1] CMT: Removed client [149]
+[2018.03.29 16:17:25] [0066m.35s.598ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.03.29 16:17:25] [0066m.35s.738ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.03.29 16:17:27] [0066m.37s.129ms] [0] CMT: Starting server auto-close
+[2018.03.29 16:17:27] [0066m.37s.222ms] [0] S: Closing server
+[2018.03.29 16:17:27] [0066m.37s.394ms] [0] iCDB Server PI: Closing plugins
+[2018.03.29 16:17:27] [0066m.37s.394ms] [0] iCDB Server PI: Plugins closed
+[2018.03.29 16:17:27] [0066m.37s.394ms] [0] iCDB Server PI: Unloading database
+[2018.03.29 16:17:27] [0066m.37s.394ms] [0] iCDB Server PI: Saving storage
+[2018.03.29 16:17:27] [0066m.37s.394ms] [0] iCDB Server PI: Closing database
+[2018.03.29 16:17:27] [0066m.37s.409ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[9%] data[69%]
+[2018.03.29 16:17:27] [0066m.37s.409ms] [1] iCDB Server PI: Stats: Database file size [190744 (186.3 kB)]
+[2018.03.29 16:17:27] [0066m.37s.472ms] [0] iCDB Server PI: Database closed
+[2018.03.29 16:17:27] [0066m.37s.472ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [132916] ticks
+[2018.03.29 16:17:27] [0066m.37s.472ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [41339] microseconds
+[2018.03.29 16:17:27] [0066m.37s.472ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [108]
+[2018.03.29 16:17:27] [0066m.37s.472ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [2612] commands per second
+[2018.03.29 16:17:27] [0066m.37s.472ms] [0] Single file [F:\repo\P2016_20_MTB4\TestEquipment\ADC_MTB4_LED\ADC_MTB4_LED\database\icdb.dat] closed with size [190744 (186.3 kB)]
+[2018.03.29 16:17:27] [0066m.37s.550ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.03.29 16:17:27] [0066m.37s.612ms] [0] MWT: Destroy the shutdown block reason.
+[2018.03.29 16:17:27] [0066m.37s.612ms] [0] MWT: STOP
+[2018.03.29 16:17:27] [0066m.37s.612ms] [0] S: STOP

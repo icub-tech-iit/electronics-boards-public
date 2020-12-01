@@ -1,0 +1,17 @@
+_I2cStart: CODE, 554 0 10
+_lightupLed: CODE, 297 0 85
+_I2cWait: CODE, 570 0 5
+_ConfigureOscillator: CODE, 575 0 3
+_main: CODE, 192 0 105
+_displayCharge: CODE, 53 0 139
+_I2cInitMaster: CODE, 500 0 15
+_InitApp: CODE, 382 0 35
+_I2cWriteMaster: CODE, 515 0 14
+__initialization: CODE, 445 0 21
+_I2cStop: CODE, 543 0 11
+_I2cWaitForIdle: CODE, 529 0 14
+_isr: CODE, 4 0 47
+_readButton: CODE, 578 0 1
+_read_adc: CODE, 417 0 28
+_blink: CODE, 469 0 16
+Total: 549

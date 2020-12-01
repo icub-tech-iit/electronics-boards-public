@@ -1,0 +1,162 @@
+﻿Version     0.0
+Platform    uOLED-128-G2-L
+PlatRes     128x128
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 Yes
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Led
+    Name                         CPU
+    Alias                        CPU
+    Active                       No
+    Caption                      CPU
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      Rounded
+    Left                         16
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          112
+    Width                        50
+    OnChanged                    ''
+end
+Led
+    Name                         Motors
+    Alias                        Motors
+    Active                       No
+    Caption                      Motors
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      Rounded
+    Left                         64
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          112
+    Width                        61
+    OnChanged                    ''
+end
+Meter
+    Name                         Charge
+    Alias                        Charge
+    Angle                        40
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Caption                      '% charge'
+    Color                        BLACK
+    Font.Color                   SILVER
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    7
+    Font.Style                   []
+    Height                       70
+    LabelOffsetX                 10
+    LabelOffsetY                 5
+    Labels                       5
+    Left                         0
+    Maxvalue                     100
+    Minvalue                     0
+    NeedleColor                  SILVER
+    NeedleWidth                  1
+    Scale.Color1                 RED
+    Scale.Color2                 YELLOW
+    Scale.Color3                 LIME
+    Scale.Enlarge                10
+    Scale.Heightmax              8
+    Scale.Heightmin              5
+    Scale.Percent1               20
+    Scale.Percent2               30
+    Scale.Ticks                  61
+    Scale.Visible                Yes
+    Spacing                      3
+    Top                          0
+    Width                        128
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits1
+    Alias                        Customdigits1
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  Yes
+    Left                         68
+    Top                          80
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Customdigits2
+    Alias                        Customdigits2
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  Yes
+    Left                         72
+    Top                          100
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end

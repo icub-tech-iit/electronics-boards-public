@@ -1,0 +1,328 @@
+***********  COMMAND 29Aug2013.152831.847 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/tmp/wfInit-genesis186a2.iiticubws003.908548,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 29Aug2013.152831.864 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 29Aug2013.152831.867 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 29Aug2013.152831.869 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 29Aug2013.152831.872 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 29Aug2013.152831.874 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+create_entity,job=,is_fw=no,type=job,name=bcb,db=D:\electronics\P2013_03_BCB\Gerber,fw_type=form (-1)
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/e91/all/lyr_types
+saving job - bcb
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/misc
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/stackups
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/input
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/output
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/fonts
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/wheels
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/matrix
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/whltemps
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/user
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/ext
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/misc/attrlist
+saving matrix - matrix
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/misc/info
+***********  COMMAND 29Aug2013.152831.912 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+eda_params_pads,unhatched_mode=discard,default_cam_layers=yes,prefer_closed_shapes=yes,comp_outline_layer=0,non_shape_pins=use_drill (-1)
+***********  COMMAND 29Aug2013.152831.912 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+eda_translate,path=D:\electronics\P2013_03_BCB\PCB\BCB_PCB\BCB_tmp.tmp,job=bcb,step=pcb,source=pads_powerpcb,step_autodetection=no,overwrite=merge (-1)
+***********  COMMAND 29Aug2013.152832.278 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+open_job,job=bcb (-1)
+***********  COMMAND 29Aug2013.152832.283 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+entity_exist,type=step,name=*,parent_job=bcb,parent_step=,op=count (-1)
+***********  COMMAND 29Aug2013.152832.286 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+entity_exist,type=step,name=*,parent_job=bcb,parent_step=,op=first (-1)
+***********  COMMAND 29Aug2013.152832.291 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152832.291 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+save_job,job=bcb,override=no (-1)
+saving job - bcb
+saving matrix - matrix
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/matrix/matrix
+saving step - pcb
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/stephdr
+write step profile - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/profile
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/profile
+saving netlist - cadnet
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/netlists
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/netlists/cadnet
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/attrlist
+saving eda - eda
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/eda
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/eda/data.Z
+saving layer - _sst001026.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sst001026.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sst001026.pho-/features
+saving relation - relation
+compressing features file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sst001026.pho-/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sst001026.pho-/attrlist
+saving layer - _smd001023.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd001023.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd001023.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd001023.pho-/attrlist
+saving layer - _sm001021.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm001021.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm001021.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm001021.pho-/attrlist
+saving layer - _art001.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art001.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art001.pho-/features
+saving relation - relation
+compressing features file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art001.pho-/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art001.pho-/attrlist
+saving layer - _art002.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art002.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art002.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art002.pho-/attrlist
+saving layer - _art003.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art003.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art003.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art003.pho-/attrlist
+saving layer - _art004.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art004.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art004.pho-/features
+saving relation - relation
+compressing features file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art004.pho-/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_art004.pho-/attrlist
+saving layer - _sm004028.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm004028.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm004028.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_sm004028.pho-/attrlist
+saving layer - _smd004022.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd004022.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd004022.pho-/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_smd004022.pho-/attrlist
+saving layer - _ssb004029.pho-
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_ssb004029.pho-
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_ssb004029.pho-/features
+saving relation - relation
+compressing features file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_ssb004029.pho-/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/_ssb004029.pho-/attrlist
+saving layer - drill
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/drill
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/drill/features
+saving relation - relation
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/drill/attrlist
+saving layer - rout
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/rout
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/rout/features
+saving relation - relation
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_top
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_top/components.Z
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_bot
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_bot/components.Z
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/steps/pcb/layers/comp_+_bot/attrlist
+saving symbol - special
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special
+saving layer - special
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special/attrlist
+saving symbol - special+1
+create directory - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special+1
+saving layer - special+1
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/symbols/special+1/attrlist
+write file - D:\electronics\P2013_03_BCB\Gerber/bcb/misc/info
+***********  COMMAND 29Aug2013.152833.493 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152833.493 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+get_job_path,job=bcb (-1)
+***********  COMMAND 29Aug2013.152833.496 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152833.496 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+export_job,job=bcb,mode=tar_gzip,submode=full,path=D:\electronics\P2013_03_BCB\Gerber (-1)
+***********  COMMAND 29Aug2013.152833.832 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152833.832 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_page_open,set=yes,job1=bcb,step1=pcb,type1=cad,job2=bcb,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 29Aug2013.152833.997 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 29Aug2013.152833.997 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 29Aug2013.152834.003 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152834.003 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_recalc,job=bcb,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 29Aug2013.152834.011 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152834.011 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_recalc,job=bcb,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 29Aug2013.152834.068 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152834.068 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_compare,job1=bcb,step1=pcb,type1=cad,job2=bcb,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 29Aug2013.152834.091 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.152834.091 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+cam_compare,job=bcb,step=pcb,action=open,path=,show_modal=no (-1)
+***********  COMMAND 29Aug2013.152834.441 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+units,type=inch (0)
+***********  COMMAND 29Aug2013.152834.441 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+set_group,group=0 (-1)
+***********  COMMAND 29Aug2013.152834.441 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_comp_outline_mode,mode=Body (0)
+***********  COMMAND 29Aug2013.152834.570 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+multi_layer_disp,mode=many,show_board=no (0)
+***********  COMMAND 29Aug2013.152834.651 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_home (0)
+***********  COMMAND 29Aug2013.152839.346 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_art001.pho-,display=yes,number=1 (0)
+***********  COMMAND 29Aug2013.152839.376 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=_art001.pho- (0)
+***********  COMMAND 29Aug2013.152841.914 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sst001026.pho-,display=yes,number=2 (0)
+***********  COMMAND 29Aug2013.152843.795 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sst001026.pho-,display=no,number=2 (0)
+***********  COMMAND 29Aug2013.152844.699 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_smd001023.pho-,display=yes,number=2 (0)
+***********  COMMAND 29Aug2013.152846.283 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_smd001023.pho-,display=no,number=2 (0)
+***********  COMMAND 29Aug2013.152848.099 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sm001021.pho-,display=yes,number=2 (0)
+***********  COMMAND 29Aug2013.152905.310 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_area,x1=-0.4947168307,y1=1.239642815,x2=-1.5503452756,y2=1.605454626 (0)
+***********  COMMAND 29Aug2013.152920.452 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+pan_center,x=-1.488596752,y=1.5514147638 (0)
+***********  COMMAND 29Aug2013.152921.268 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_area,x1=-0.3994272638,y1=1.2755905512,x2=0.0515390748,y2=1.9327128937 (0)
+***********  COMMAND 29Aug2013.152923.325 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_area,x1=0.3865426181,y1=2.5511811024,x2=-1.2111666339,y2=2.2032927165 (0)
+***********  COMMAND 29Aug2013.152924.485 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_area,x1=0.1932713583,y1=1.8682891732,x2=0.6957766732,y2=1.5719398622 (0)
+***********  COMMAND 29Aug2013.155407.698 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_area,x1=0.1541648622,y1=1.8489356299,x2=0.1470081693,y2=1.9266374016 (0)
+***********  COMMAND 29Aug2013.155414.074 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_art002.pho-,display=yes,number=3 (0)
+***********  COMMAND 29Aug2013.155414.634 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_art003.pho-,display=yes,number=4 (0)
+***********  COMMAND 29Aug2013.155415.138 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_art004.pho-,display=yes,number=5 (0)
+***********  COMMAND 29Aug2013.155415.626 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sm004028.pho-,display=yes,number=6 (0)
+***********  COMMAND 29Aug2013.155416.602 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_smd004022.pho-,display=yes,number=7 (0)
+***********  COMMAND 29Aug2013.155417.218 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_ssb004029.pho-,display=yes,number=8 (0)
+***********  COMMAND 29Aug2013.155417.634 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=drill,display=yes,number=9 (0)
+***********  COMMAND 29Aug2013.155420.961 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sm004028.pho-,display=no,number=6 (0)
+***********  COMMAND 29Aug2013.155421.585 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_sm004028.pho-,display=yes,number=6 (0)
+***********  COMMAND 29Aug2013.155421.905 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_ssb004029.pho-,display=no,number=8 (0)
+***********  COMMAND 29Aug2013.155422.105 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_ssb004029.pho-,display=yes,number=8 (0)
+***********  COMMAND 29Aug2013.155422.297 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=_ssb004029.pho-,display=no,number=8 (0)
+***********  COMMAND 29Aug2013.162431.183 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 29Aug2013.162431.186 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+dpw_do,op=continue (-1)
+***********  COMMAND 29Aug2013.162431.195 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.162431.198 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+cam_compare,job=bcb,step=pcb,action=close (0)
+***********  COMMAND 29Aug2013.162431.202 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=bcb,name=pcb,is_step=yes (-1)
+***********  COMMAND 29Aug2013.162431.202 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_job,job=bcb (0)
+***********  COMMAND 29Aug2013.162431.239 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=_art002.pho- (0)
+***********  COMMAND 29Aug2013.162431.240 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=_art003.pho- (0)
+***********  COMMAND 29Aug2013.162431.261 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_form,job=bcb (-1)
+***********  COMMAND 29Aug2013.162431.262 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_flow,job=bcb (-1)
+***********  COMMAND 29Aug2013.162431.262 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+job_path_exists,job_name=bcb (-1)
+***********  COMMAND 29Aug2013.162431.264 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+delete_entity,job=,type=job,name=bcb (-1)
+***********  COMMAND 29Aug2013.162431.955 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_form,job=bcb (-1)
+***********  COMMAND 29Aug2013.162431.955 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_flow,job=bcb (-1)
+***********  COMMAND 29Aug2013.162431.957 get 908548 pads_user 9.2.0 Update 1(19) Windows 7
+close_toolkit,save_log=yes (-1)

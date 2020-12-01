@@ -1,0 +1,136 @@
+[2018.04.12 15:47:07] [0000m.00s.049ms] [0] WELCOME
+[2018.04.12 15:47:07] [0000m.00s.050ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.04.12 15:47:07] [0000m.00s.050ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.04.12 15:47:07] [0000m.00s.050ms] [1] Base flow version [VX.2.3]
+[2018.04.12 15:47:07] [0000m.00s.050ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] Machine [IITICUBWS042]  IP [10.255.35.54,127.0.0.1]  User [AMura]  PID [19628]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] Operating system [Microsoft Business Edition, 64-bit (build 9200)]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] Current working dir [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\jre\bin\client;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Drivers\TSS\bin\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Users\amura\AppData\Local\Microsoft\WindowsApps;C:\Users\amura\AppData\Local\GitHubDesktop\bin]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] SDD_PLATFORM [win32]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.04.12 15:47:07] [0000m.00s.058ms] [2] S: Loading config files
+[2018.04.12 15:47:07] [0000m.00s.061ms] [1] Config file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\cdbsvr\Server.cfg] not found
+[2018.04.12 15:47:07] [0000m.00s.063ms] [3] S: Config loaded
+[2018.04.12 15:47:07] [0000m.00s.073ms] [0] S: Project path [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] on file system [NTFS]
+[2018.04.12 15:47:07] [0000m.00s.073ms] [1] S: WARNING: No project file (.prj) path specified
+[2018.04.12 15:47:07] [0000m.00s.074ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] S: Single-user mode (auto)
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] S: Event polling mode autodetection
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] S: Started up automatically by iCDB Client: IITICUBWS042:AMura:1236
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] S: Auto close mode
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] S: Database ID [151e-79bb-9126-4dcf-9536-fcae-536f-ca50-4a72-3201-9a8b-0a8b]
+[2018.04.12 15:47:07] [0000m.00s.074ms] [0] PathTranslator: BEGIN dumping
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: Local -> global path prefix list
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Pads\Libraries] -> [\\IITICUBWS042\Libraries]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Orcad Library] -> [\\IITICUBWS042\Orcad Library]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Capital] -> [\\IITICUBWS042\Capital]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [M:\] -> [\\IITICUBWS042\Capital\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS042\Orcad Library\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [Y:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [Z:\] -> [\\storage05.icub.iit.local\repository\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: Global -> local path prefix list
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\] -> [Z:\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [Y:\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library\] -> [O:\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library] -> [D:\iCubHardware\electronics\private\Orcad Library]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\IITICUBWS042\Libraries] -> [D:\iCubHardware\electronics\private\Pads\Libraries]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\IITICUBWS042\Capital\] -> [M:\]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: [\\IITICUBWS042\Capital] -> [D:\iCubHardware\electronics\private\Capital]
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] PathTranslator: END dumping
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] S: START
+[2018.04.12 15:47:07] [0000m.00s.075ms] [0] S: Server startup lock file created
+[2018.04.12 15:47:07] [0000m.00s.076ms] [0] S: Listening for client connections on port [10001]
+[2018.04.12 15:47:07] [0000m.00s.077ms] [0] S: Server network ID [IITICUBWS042:10.255.35.54,IITICUBWS042,IITICUBWS042.iit.local:10001]
+[2018.04.12 15:47:07] [0000m.00s.077ms] [0] S: Server GUID [8b82-8fef-e358-b121-b536-fca0-636f-ca50-8f55-3201-9a8b-0a8b]
+[2018.04.12 15:47:07] [0000m.00s.077ms] [0] S: Project GUID [151e-79bb-9126-4dcf-9536-fcae-536f-ca50-4a72-3201-9a8b-0a8b]
+[2018.04.12 15:47:07] [0000m.00s.078ms] [0] S: Wrote data to server address file
+[2018.04.12 15:47:07] [0000m.00s.079ms] [0] S: Server startup lock file removed
+[2018.04.12 15:47:07] [0000m.00s.079ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2018.04.12 15:47:07] [0000m.00s.113ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.04.12 15:47:07] [0000m.00s.113ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.04.12 15:47:07] [0000m.00s.113ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.04.12 15:47:07] [0000m.00s.113ms] [0] S: Local disc access time: 32 us
+[2018.04.12 15:47:07] [0000m.00s.113ms] [0] S: File server access time: 36 us
+[2018.04.12 15:47:07] [0000m.00s.115ms] [0] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] size [3858704 (3.7 MB)]
+[2018.04.12 15:47:07] [0000m.00s.115ms] [1] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] opened in read-write mode
+[2018.04.12 15:47:07] [0000m.00s.115ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.12 15:47:07] [0000m.00s.115ms] [0] Database GUARD OK: [3858704]
+[2018.04.12 15:47:08] [0000m.01s.156ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.12 15:47:08] [0000m.01s.156ms] [0] Database GUARD OK: [3858704]
+[2018.04.12 15:47:08] [0000m.01s.167ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.12 15:47:08] [0000m.01s.167ms] [0] Database GUARD OK: [3858704]
+[2018.04.12 15:47:08] [0000m.01s.167ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.12 15:47:08] [0000m.01s.167ms] [0] Database GUARD OK: [3858704]
+[2018.04.12 15:47:08] [0000m.01s.168ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.12 15:47:08] [0000m.01s.168ms] [0] Database GUARD OK: [3858704]
+[2018.04.12 15:47:08] [0000m.01s.168ms] [0] SingleFile: [e4c6-a86b-8f01-22bb] SFI version check [1009] [1009]
+[2018.04.12 15:47:08] [0000m.01s.255ms] [0] SingleFile: [e4c6-a86b-8f01-22bb] Database SFI header has been read in [86ms 372us]
+[2018.04.12 15:47:08] [0000m.01s.259ms] [0] iCDB Server PI: Server & plugin session [729]
+[2018.04.12 15:47:08] [0000m.01s.259ms] [0] iCDB Server PI: Opening database [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database]
+[2018.04.12 15:47:08] [0000m.01s.259ms] [0] iCDB Server PI: Database [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] opened
+[2018.04.12 15:47:08] [0000m.01s.276ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.04.12 15:47:08] [0000m.01s.276ms] [0] iCDB Database: Checking constraint definitions version
+[2018.04.12 15:47:08] [0000m.01s.302ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.57] up to date
+[2018.04.12 15:47:08] [0000m.01s.346ms] [0] iCDB Server PI: Initializing plugins
+[2018.04.12 15:47:08] [0000m.01s.347ms] [0] iCDB Server PI: Plugins initialized
+[2018.04.12 15:47:08] [0000m.01s.348ms] [0] S: iCDB database loaded
+[2018.04.12 15:47:08] [0000m.01s.351ms] [0] S: Starting threads
+[2018.04.12 15:47:08] [0000m.01s.352ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.04.12 15:47:08] [0000m.01s.352ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2018.04.12 15:47:08] [0000m.01s.355ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.04.12 15:47:08] [0000m.01s.367ms] [0] IT: Session [730] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [1236] created
+[2018.04.12 15:47:08] [0000m.01s.373ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.04.12 15:47:08] [0000m.01s.373ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS042] user [AMura] with process ID [13304] created
+[2018.04.12 15:47:08] [0000m.01s.373ms] [1] SC[730]: Registered sub-client [iCDBConnector] with ID [1] for session ID [730] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:08] [0000m.01s.389ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.04.12 15:47:08] [0000m.01s.407ms] [1] SC[730]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [730] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:08] [0000m.01s.455ms] [1] CMT: There are [1] clients now: 730
+[2018.04.12 15:47:08] [0000m.01s.455ms] [1] CMT: Removed client [730]
+[2018.04.12 15:47:08] [0000m.01s.455ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.04.12 15:47:08] [0000m.01s.871ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.04.12 15:47:09] [0000m.01s.928ms] [0] IT: Session [731] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [1236] created
+[2018.04.12 15:47:09] [0000m.01s.930ms] [1] SC[731]: Registered sub-client [PADSLayout] with ID [1] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:09] [0000m.01s.955ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[1236] # SessionID[731] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj], global path [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj]
+[2018.04.12 15:47:09] [0000m.01s.993ms] [1] SC[731]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:12] [0000m.05s.347ms] [1] SC[731]: Registered sub-client [StartServerClient1d40] with ID [3] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:12] [0000m.05s.348ms] [1] SC[731]: UnRegistered sub-client [StartServerClient1d40] with ID [3] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:13] [0000m.06s.866ms] [1] SC[731]: Registered sub-client [StartServerClient1d40] with ID [4] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:13] [0000m.06s.867ms] [1] SC[731]: UnRegistered sub-client [StartServerClient1d40] with ID [4] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 15:47:28] [0000m.21s.733ms] [0] DFAMT: File server access time: 166 us
+[2018.04.12 15:47:52] [0000m.45s.891ms] [0] IT: Session [732] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [17724] created
+[2018.04.12 15:47:52] [0000m.45s.894ms] [1] SC[732]: Registered sub-client [AMura (BE CES)] with ID [1] for session ID [732] host [IITICUBWS042] user [AMura] process ID [17724]
+[2018.04.12 15:47:53] [0000m.45s.923ms] [1] CMT: There are [2] clients now: 731, 732
+[2018.04.12 16:04:36] [0017m.29s.379ms] [1] SC[732]: UnRegistered sub-client [AMura (BE CES)] with ID [1] for session ID [732] host [IITICUBWS042] user [AMura] process ID [17724]
+[2018.04.12 16:04:36] [0017m.29s.468ms] [1] CMT: Removed client [732]
+[2018.04.12 16:04:36] [0017m.29s.468ms] [1] CMT: There are [1] clients now: 731
+[2018.04.12 16:04:38] [0017m.31s.877ms] [1] SC[731]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 16:04:38] [0017m.31s.883ms] [1] SC[731]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [731] host [IITICUBWS042] user [AMura] process ID [1236]
+[2018.04.12 16:04:39] [0017m.31s.979ms] [1] CMT: Removed client [731]
+[2018.04.12 16:04:39] [0017m.31s.979ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.04.12 16:04:39] [0017m.32s.053ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.04.12 16:04:41] [0017m.33s.949ms] [0] CMT: Starting server auto-close
+[2018.04.12 16:04:41] [0017m.33s.966ms] [0] S: Closing server
+[2018.04.12 16:04:41] [0017m.34s.060ms] [0] iCDB Server PI: Closing plugins
+[2018.04.12 16:04:41] [0017m.34s.060ms] [0] iCDB Server PI: Plugins closed
+[2018.04.12 16:04:41] [0017m.34s.060ms] [0] iCDB Server PI: Unloading database
+[2018.04.12 16:04:41] [0017m.34s.060ms] [0] iCDB Server PI: Saving storage
+[2018.04.12 16:04:41] [0017m.34s.061ms] [0] iCDB Server PI: Closing database
+[2018.04.12 16:04:41] [0017m.34s.061ms] [1] Hole: zero line at 3858604 of size 64 bytes.
+[2018.04.12 16:04:41] [0017m.34s.107ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[5%] data[93%]
+[2018.04.12 16:04:41] [0017m.34s.107ms] [1] iCDB Server PI: Stats: Database file size [3858704 (3.7 MB)]
+[2018.04.12 16:04:41] [0017m.34s.107ms] [1] Hole: zero line at 3858604 of size 64 bytes.
+[2018.04.12 16:04:42] [0017m.35s.439ms] [0] iCDB Server PI: Database closed
+[2018.04.12 16:04:42] [0017m.35s.439ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [2013] ticks
+[2018.04.12 16:04:42] [0017m.35s.439ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [622] microseconds
+[2018.04.12 16:04:42] [0017m.35s.439ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [14]
+[2018.04.12 16:04:42] [0017m.35s.439ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [22494] commands per second
+[2018.04.12 16:04:42] [0017m.35s.451ms] [0] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] closed with size [3858704 (3.7 MB)]
+[2018.04.12 16:04:42] [0017m.35s.529ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.04.12 16:04:42] [0017m.35s.645ms] [0] MWT: Destroy the shutdown block reason.
+[2018.04.12 16:04:42] [0017m.35s.646ms] [0] MWT: STOP
+[2018.04.12 16:04:42] [0017m.35s.646ms] [0] S: STOP

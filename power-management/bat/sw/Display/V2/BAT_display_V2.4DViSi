@@ -1,0 +1,410 @@
+﻿Version     0.0
+Platform    uOLED-128-G2-L
+PlatRes     128x128
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 Yes
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Led
+    Name                         CPU
+    Alias                        CPU
+    Active                       No
+    Caption                      CPU
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      Rounded
+    Left                         0
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          80
+    Width                        50
+    OnChanged                    ''
+end
+Led
+    Name                         Motors
+    Alias                        Motors
+    Active                       No
+    Caption                      Motors
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      Rounded
+    Left                         67
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          80
+    Width                        61
+    OnChanged                    ''
+end
+Meter
+    Name                         Battery_current
+    Alias                        Battery_current
+    Angle                        40
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Caption                      A
+    Color                        BLACK
+    Font.Color                   SILVER
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    7
+    Font.Style                   []
+    Height                       46
+    LabelOffsetX                 10
+    LabelOffsetY                 5
+    Labels                       5
+    Left                         67
+    Maxvalue                     25
+    Minvalue                     0
+    NeedleColor                  SILVER
+    NeedleWidth                  1
+    Scale.Color1                 LIME
+    Scale.Color2                 YELLOW
+    Scale.Color3                 RED
+    Scale.Enlarge                10
+    Scale.Heightmax              8
+    Scale.Heightmin              5
+    Scale.Percent1               20
+    Scale.Percent2               50
+    Scale.Ticks                  61
+    Scale.Visible                Yes
+    Spacing                      3
+    Top                          0
+    Width                        61
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         CPU_voltage
+    Alias                        CPU_voltage
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  Yes
+    Left                         8
+    Top                          100
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         CPU_current
+    Alias                        CPU_current
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  Yes
+    Left                         8
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Meter
+    Name                         Battery_voltage
+    Alias                        Battery_voltage
+    Angle                        40
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Caption                      V
+    Color                        BLACK
+    Font.Color                   SILVER
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    7
+    Font.Style                   []
+    Height                       46
+    LabelOffsetX                 10
+    LabelOffsetY                 5
+    Labels                       4
+    Left                         0
+    Maxvalue                     35
+    Minvalue                     15
+    NeedleColor                  SILVER
+    NeedleWidth                  1
+    Scale.Color1                 GREEN
+    Scale.Color2                 YELLOW
+    Scale.Color3                 RED
+    Scale.Enlarge                5
+    Scale.Heightmax              8
+    Scale.Heightmin              5
+    Scale.Percent1               60
+    Scale.Percent2               25
+    Scale.Ticks                  61
+    Scale.Visible                Yes
+    Spacing                      3
+    Top                          0
+    Width                        61
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Gauge
+    Name                         Gauge1
+    Alias                        Gauge1
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Color                        BLACK
+    Height                       14
+    Left                         43
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette1.High                RED
+    Palette1.Low                 0x000038
+    Palette2.High                clYellow
+    Palette2.Low                 0x002526
+    Palette3.High                LIME
+    Palette3.Low                 0x003100
+    Percent1                     20
+    Percent2                     30
+    Spacing                      0
+    Step                         10
+    Style                        BottomLeft
+    TickHeight                   1
+    Top                          56
+    Width                        50
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Battery_percent
+    Alias                        Battery_percent
+    Bitmap                       (None)
+    Digits                       2
+    LeadingZero                  Yes
+    Left                         96
+    Top                          56
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Motors_voltage
+    Alias                        Motors_voltage
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  Yes
+    Left                         84
+    Top                          100
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Motors_current
+    Alias                        Motors_current
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  Yes
+    Left                         84
+    Top                          115
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext1
+    Alias                        Statictext1
+    AutoSize                     No
+    Caption                      V
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       15
+    Left                         41
+    Top                          100
+    Transparent                  Yes
+    Width                        13
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    AutoSize                     No
+    Caption                      V
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       15
+    Left                         113
+    Top                          100
+    Transparent                  Yes
+    Width                        15
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    AutoSize                     No
+    Caption                      A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       15
+    Left                         41
+    Top                          114
+    Transparent                  Yes
+    Width                        16
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext4
+    Alias                        Statictext4
+    AutoSize                     No
+    Caption                      A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       15
+    Left                         113
+    Top                          114
+    Transparent                  Yes
+    Width                        15
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    AutoSize                     Yes
+    Caption                      Charge
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       13
+    Left                         4
+    Top                          56
+    Transparent                  Yes
+    Width                        35
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    AutoSize                     Yes
+    Caption                      %
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         115
+    Top                          56
+    Transparent                  Yes
+    Width                        13
+    WordWrap                     Yes
+end

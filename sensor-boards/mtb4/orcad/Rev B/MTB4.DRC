@@ -1,0 +1,198 @@
+Date and Time : 03/21/17 14:16:03
+
+--------------------------------------------------
+Checking Schematic: MTB4
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PB11  Bidirectional Connected to Power
+                    MTB4, PAGE 2 - MCU  (243.84, 104.14) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,VDD  Power Connected to Bidirectional
+                    MTB4, PAGE 4 - IMU, TEMP SENSOR  (172.72, 228.60) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PB8  Bidirectional Connected to Output
+                    MTB4, PAGE 2 - MCU  (243.84, 96.52) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,RXD  Output Connected to Bidirectional
+                    MTB4, PAGE 3 - CAN  (129.54, 78.74) 
+WARNING(ORCAP-1829): Possible pin type conflict Y1,OUTPUT  Output Connected to Bidirectional
+                    MTB4, PAGE 2 - MCU  (83.82, 106.68) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PH0/OSC_IN  Bidirectional Connected to Output
+                    MTB4, PAGE 2 - MCU  (167.64, 124.46) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    USART2_TX
+    CAN1_STB
+    USART1_TX
+    SDA0
+    BNO055_SELCOM
+    SDA1
+    USART2_RX
+    I2C1_SDA
+    SDA2
+    USART1_RX
+    BNO055_BOOT
+    I2C2_SDA
+    SDA3
+    SCK0
+    CAN1_SHDN
+    CAN1_TX
+    CAN1_RX
+    POWER_TSENSOR1
+    BNO055_INT
+    BNO055_RESET
+    PG_3V3
+    ANALOG_0
+    I2C1_SCL
+    I2C2_SCL
+
+Reporting Globals
+    VIN
+    GND
+    AGND
+    VDDA
+    3V3
+
+Reporting Net Names
+    POWER_TSENSOR1
+    GND
+    N16993551
+    N16993555
+    BNO055_RESET
+    I2C1_SDA
+    3V3
+    BNO055_INT
+    I2C2_SCL
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? I2C2_SCL 
+                    MTB4, PAGE 4 - IMU, TEMP SENSOR  (309.88, 93.98) 
+             Alternate Name:  USART2_RX
+    -------------------------------------------------------------------------------
+
+    I2C1_SCL
+    N16307930
+    BNO055_BOOT
+    I2C2_SDA
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? USART2_TX 
+                    MTB4, PAGE 2 - MCU  (358.14, 73.66) 
+             Alternate Name:  USART2_TX
+    -------------------------------------------------------------------------------
+
+    N16308338
+    N16853018
+    N16853023
+    CAN1_TX
+    SDA0
+    N16975100
+    SDA2
+    CAN1_RX
+    N16975042
+    USART1_TX
+    N16975048
+    CAN1_STB
+    SDA1
+    N16975044
+    USART1_RX
+    CAN1_SHDN
+    VIN
+    SCK0
+    CANL
+    N16975159
+    CANH
+    SDA3
+    ANALOG_0
+    N16975102
+    N16853053
+    N16975052
+    PG_3V3
+    LED_RED
+    N16988522
+    EN_OSC
+    BOOT0
+    NRST
+    LED_BLUE
+    JTDO/TRACESWO
+    JTMS/SWDIO
+    N16973084
+    AGND
+    OSC
+    JTCK/SWCLK
+    N16988540
+    N16973063
+    VDDA
+    N16920308
+    BNO055_SELCOM
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: MTB4
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: MTB4 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "DNC" found on Package SI7051-A20-IM , U5 Pin Number 4: MTB4, PAGE 4 - IMU, TEMP SENSOR (180.34, 226.06). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package MPM3810GQB-P , U6 Pin Number 3: MTB4, PAGE 5 - POWER (198.12, 124.46). Please renumber one of these.
+#3 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package JUMPER-SM , JP1: MTB4, PAGE 3 - CAN (231.14, 81.28). All pins should be numbered.
+#4 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package JUMPER-SM , JP1: MTB4, PAGE 3 - CAN (231.14, 81.28). All pins should be numbered.
+
+Checking Device with Zero pins  
+#5 WARNING(ORCAP-36050): No pins are present in H1. Ignoring this component in netlist.
+#6 WARNING(ORCAP-36050): No pins are present in H2. Ignoring this component in netlist.
+#7 WARNING(ORCAP-36050): No pins are present in H3. Ignoring this component in netlist.
+#8 WARNING(ORCAP-36050): No pins are present in H4. Ignoring this component in netlist.
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#9 ERROR(ORCAP-36071): Illegal character "Dot(.)" found in "PCB Footprint" property for component instance U6: MTB4, PAGE 5 - POWER (198.12, 124.46) .
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Y1,VDC  VDC  3V3
+                    MTB4, PAGE 2 - MCU  (60.96, 106.68) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VCC  VCC  3V3
+                    MTB4, PAGE 3 - CAN  (152.40, 76.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U6,OUT  OUT  3V3
+                    MTB4, PAGE 5 - POWER  (228.60, 127.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U6,OUT  OUT  3V3
+                    MTB4, PAGE 5 - POWER  (228.60, 129.54) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U6,AGND  AGND  GND
+                    MTB4, PAGE 5 - POWER  (190.50, 142.24) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U6,PGND  PGND  GND
+                    MTB4, PAGE 5 - POWER  (190.50, 149.86) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U6,PGND  PGND  GND
+                    MTB4, PAGE 5 - POWER  (190.50, 147.32) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

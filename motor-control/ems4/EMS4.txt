@@ -1,0 +1,11 @@
+Project EMS4
+
+  Board EMS4:
+    Microcontroller based module for managing several communication channels in motor-control application.
+    Features:
+    - Microcontroller STM32F407VGT6: Arm-M4, 168MHz, 1MB FLASH, 192KB SRAM, 100 pin TQFP
+    - Ethernet: 10/100BASE+T, dual port physical switch/hub
+    - CAN bus 2.0B: 2 channel
+    - SPI bus: 6 channel
+    - Accelerometer LIS331DLH, Gyroscope L3G4200D
+    - Power supply: 9VDC-56VDC

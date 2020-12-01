@@ -1,0 +1,131 @@
+{Environment
+	{FilesPath  C:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\DOCUMENTI\LAVORI_ORCAD\CLIENTI_MARCO\BDC_V0}
+}
+{Layers
+	{Layer  1
+		{File        BDC.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  red}
+		{DrawColor   red}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        BDC.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  yellow}
+		{DrawColor   yellow}
+		{Type        Bottom}
+	}
+	{Layer  3
+		{File        BDC.IN1}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  tan}
+		{DrawColor   tan}
+		{Type        Inner}
+	}
+	{Layer  4
+		{File        BDC.IN2}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  green}
+		{DrawColor   green}
+		{Type        Inner}
+	}
+	{Layer  5
+		{File        BDC.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  orange}
+		{DrawColor   orange}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        BDC.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  blue}
+		{DrawColor   blue}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        BDC.SPT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  cyan}
+		{DrawColor   cyan}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        BDC.SPB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  purple}
+		{DrawColor   purple}
+		{Type        Other}
+	}
+	{Layer  9
+		{File        BDC.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  pink}
+		{DrawColor   pink}
+		{Type        Other}
+	}
+	{Layer  10
+		{File        BDC.SSB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  brown}
+		{DrawColor   brown}
+		{Type        Other}
+	}
+	{Layer  11
+		{File        BDC.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  violet}
+		{DrawColor   violet}
+		{Type        Other}
+	}
+	{Layer  12
+		{File        BDC.DRL}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  maroon}
+		{DrawColor   maroon}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

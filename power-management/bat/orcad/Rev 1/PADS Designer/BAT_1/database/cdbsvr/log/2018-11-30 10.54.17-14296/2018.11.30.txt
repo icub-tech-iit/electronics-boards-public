@@ -1,0 +1,305 @@
+[2018.11.30 10:54:17] [0000m.00s.050ms] [0] WELCOME
+[2018.11.30 10:54:17] [0000m.00s.051ms] [1] iCDB Server ver.2.203, KZm7IDO/7xyauX5azDFNaA, build:10034764 created 2018-04-04 16:32:36, sources stamp:KZm7IDO/7xyauX5azDFNaA
+[2018.11.30 10:54:17] [0000m.00s.051ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.11.30 10:54:17] [0000m.00s.051ms] [1] Base flow version [VX.2.3]
+[2018.11.30 10:54:17] [0000m.00s.051ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.11.30 10:54:17] [0000m.00s.051ms] [1] UPDATE Install Info, Install Id [1783263], UPDATE Name [PADS VX.2.3 - Update 4]
+[2018.11.30 10:54:17] [0000m.00s.060ms] [1] Machine [IITICUBWS042]  IP [0:0:0:0:0:0:0:1,10.240.10.10,127.0.0.1,::1]  User [AMura]  PID [14296]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] Operating system [Microsoft Business Edition, 64-bit (build 9200)]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] Current working dir [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\jre\bin\client;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Drivers\TSS\bin\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microchip\xc8\v1.45\bin;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Users\amura\AppData\Local\Microsoft\WindowsApps;C:\Users\amura\AppData\Local\GitHubDesktop\bin]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] SDD_PLATFORM [win32]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.11.30 10:54:17] [0000m.00s.062ms] [2] S: Loading config files
+[2018.11.30 10:54:17] [0000m.00s.067ms] [1] Config file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database\cdbsvr\Server.cfg] not found
+[2018.11.30 10:54:17] [0000m.00s.069ms] [3] S: Config loaded
+[2018.11.30 10:54:17] [0000m.00s.077ms] [0] S: Project path [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database] on file system [NTFS]
+[2018.11.30 10:54:17] [0000m.00s.077ms] [0] S: Project file (.prj) path [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\BAT_1.prj] on file system [NTFS]
+[2018.11.30 10:54:17] [0000m.00s.078ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.11.30 10:54:17] [0000m.00s.078ms] [0] S: Single-user mode (auto)
+[2018.11.30 10:54:17] [0000m.00s.078ms] [0] S: Event polling mode autodetection
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] S: Started up automatically by iCDB Client: IITICUBWS042:AMura:2972
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] S: Auto close mode
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] S: Database ID [0d01-72bc-b461-afa1-7b47-a9bc-b47a-9b50-c8f6-7241-9a8b-0a8b]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: BEGIN dumping
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: Local -> global path prefix list
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Pads\Libraries] -> [\\IITICUBWS042\Libraries]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [F:\iCubHardware\electronics\private\Orcad Library] -> [\\IITICUBWS042\Orcad Library]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [F:\iCubHardware\electronics\private\Capital] -> [\\IITICUBWS042\Capital]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [M:\] -> [\\IITICUBWS042\Capital\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS042\Orcad Library\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [Y:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [Z:\] -> [\\storage05.icub.iit.local\repository\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: Global -> local path prefix list
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\] -> [Z:\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [Y:\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library\] -> [O:\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library] -> [F:\iCubHardware\electronics\private\Orcad Library]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\IITICUBWS042\Libraries] -> [D:\iCubHardware\electronics\private\Pads\Libraries]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\IITICUBWS042\Capital\] -> [M:\]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: [\\IITICUBWS042\Capital] -> [F:\iCubHardware\electronics\private\Capital]
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] PathTranslator: END dumping
+[2018.11.30 10:54:17] [0000m.00s.079ms] [0] S: START
+[2018.11.30 10:54:17] [0000m.00s.080ms] [0] S: Server startup lock file created
+[2018.11.30 10:54:17] [0000m.00s.081ms] [1] S: Listening for client connections on port [10000:10100][0.0.0.0,0:0:0:0:0:0:0:0,]
+[2018.11.30 10:54:17] [0000m.00s.081ms] [0] S: Listening for client connections on port [10001]
+[2018.11.30 10:54:17] [0000m.00s.083ms] [0] S: Server network ID [IITICUBWS042:10.240.10.10,::1,IITICUBWS042,IITICUBWS042.iit.local:10001]
+[2018.11.30 10:54:17] [0000m.00s.083ms] [0] S: Server GUID [1a9e-92cd-465f-0880-9c80-10ce-c801-0c50-9ab0-1b08-8082-201f]
+[2018.11.30 10:54:17] [0000m.00s.083ms] [0] S: Project GUID [0d01-72bc-b461-afa1-7b47-a9bc-b47a-9b50-c8f6-7241-9a8b-0a8b]
+[2018.11.30 10:54:17] [0000m.00s.085ms] [0] S: Wrote data to server address file
+[2018.11.30 10:54:17] [0000m.00s.085ms] [0] S: Server startup lock file removed
+[2018.11.30 10:54:17] [0000m.00s.085ms] [1] ProjectBackupManager: Setting project file (.prj) path: [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\BAT_1.prj]
+[2018.11.30 10:54:18] [0000m.00s.679ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.11.30 10:54:18] [0000m.00s.679ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.11.30 10:54:18] [0000m.00s.679ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.11.30 10:54:18] [0000m.00s.679ms] [0] S: Local disc access time: 34 us
+[2018.11.30 10:54:18] [0000m.00s.679ms] [0] S: File server access time: 48 us
+[2018.11.30 10:54:18] [0000m.00s.685ms] [0] Single file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database\icdb.dat] size [5276208 (5.0 MB)]
+[2018.11.30 10:54:18] [0000m.00s.685ms] [1] Single file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database\icdb.dat] opened in read-write mode
+[2018.11.30 10:54:18] [0000m.00s.686ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.11.30 10:54:18] [0000m.00s.686ms] [0] Database GUARD OK: [5276208]
+[2018.11.30 10:54:19] [0000m.01s.965ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.11.30 10:54:19] [0000m.01s.965ms] [0] Database GUARD OK: [5276208]
+[2018.11.30 10:54:19] [0000m.01s.976ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.11.30 10:54:19] [0000m.01s.976ms] [0] Database GUARD OK: [5276208]
+[2018.11.30 10:54:19] [0000m.01s.976ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.11.30 10:54:19] [0000m.01s.976ms] [0] Database GUARD OK: [5276208]
+[2018.11.30 10:54:19] [0000m.01s.978ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.11.30 10:54:19] [0000m.01s.978ms] [0] Database GUARD OK: [5276208]
+[2018.11.30 10:54:19] [0000m.01s.978ms] [0] SingleFile: [315f-8eaa-0467-459d] SFI version check [1009] [1009]
+[2018.11.30 10:54:19] [0000m.02s.115ms] [0] SingleFile: [315f-8eaa-0467-459d] Database SFI header has been read in [137ms 683us]
+[2018.11.30 10:54:19] [0000m.02s.120ms] [0] iCDB Server PI: Server & plugin session [1674]
+[2018.11.30 10:54:19] [0000m.02s.120ms] [0] iCDB Server PI: Opening database [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database]
+[2018.11.30 10:54:19] [0000m.02s.120ms] [0] iCDB Server PI: Database [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database] opened
+[2018.11.30 10:54:19] [0000m.02s.173ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.11.30 10:54:19] [0000m.02s.173ms] [0] iCDB Database: Checking constraint definitions version
+[2018.11.30 10:54:19] [0000m.02s.201ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.57] up to date
+[2018.11.30 10:54:19] [0000m.02s.206ms] [0] iCDB Server PI: Initializing plugins
+[2018.11.30 10:54:19] [0000m.02s.206ms] [0] iCDB Server PI: Plugins initialized
+[2018.11.30 10:54:19] [0000m.02s.206ms] [0] S: iCDB database loaded
+[2018.11.30 10:54:19] [0000m.02s.207ms] [0] S: Starting threads
+[2018.11.30 10:54:19] [0000m.02s.208ms] [0] MT: Listening for multicast messages [ff15::1] on port [10001]
+[2018.11.30 10:54:19] [0000m.02s.208ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.11.30 10:54:19] [0000m.02s.208ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.11.30 10:54:19] [0000m.02s.213ms] [0] IT: Session [1675] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [2972] created
+[2018.11.30 10:54:19] [0000m.02s.215ms] [1] SC[1675]: Registered sub-client [DxD] with ID [1] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:19] [0000m.02s.216ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.11.30 10:54:19] [0000m.02s.216ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS042] user [AMura] with process ID [3004] created
+[2018.11.30 10:54:19] [0000m.02s.219ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.11.30 10:54:19] [0000m.02s.287ms] [1] SC[1675]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:19] [0000m.02s.291ms] [1] SC[1675]: Registered sub-client [xprob] with ID [3] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:19] [0000m.02s.309ms] [1] CMT: There are [1] clients now: 1675
+[2018.11.30 10:54:20] [0000m.02s.487ms] [1] SC[1675]: Registered sub-client [StartServerClient51dc] with ID [4] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:20] [0000m.02s.488ms] [1] SC[1675]: UnRegistered sub-client [StartServerClient51dc] with ID [4] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:21] [0000m.04s.064ms] [1] SC[1675]: Registered sub-client [SymbolEditor] with ID [5] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:21] [0000m.04s.072ms] [1] SC[1675]: Registered sub-client [SelectionHolder] with ID [6] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:21] [0000m.04s.234ms] [1] SC[1675]: Registered sub-client [SystemDesignDll] with ID [7] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:21] [0000m.04s.264ms] [1] SC[1675]: UnRegistered sub-client [SystemDesignDll] with ID [7] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:21] [0000m.04s.267ms] [1] SC[1675]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:25] [0000m.08s.086ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [9] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:25] [0000m.08s.103ms] [1] SC[1675]: Registered sub-client [HdlProject] with ID [10] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:25] [0000m.08s.116ms] [1] SC[1675]: Registered sub-client [Navigator] with ID [11] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:25] [0000m.08s.132ms] [1] SC[1675]: Registered sub-client [OutputWindow] with ID [12] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:25] [0000m.08s.136ms] [1] SC[1675]: Registered sub-client [PlaceDevice] with ID [13] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.08s.405ms] [1] SC[1675]: Registered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.08s.414ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_0] with ID [15] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.08s.420ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_1] with ID [16] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.09s.150ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [17] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.09s.150ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [17] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.09s.154ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [18] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:26] [0000m.09s.154ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [18] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:27] [0000m.09s.603ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_2] with ID [19] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:27] [0000m.09s.607ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_3] with ID [20] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:28] [0000m.10s.797ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_4] with ID [21] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:28] [0000m.10s.802ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_5] with ID [22] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:29] [0000m.11s.967ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_6] with ID [23] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:29] [0000m.11s.971ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_7] with ID [24] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:30] [0000m.13s.224ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_8] with ID [25] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:30] [0000m.13s.228ms] [1] SC[1675]: Registered sub-client [FFSearch_Controller_9] with ID [26] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.527ms] [1] SC[1675]: Registered sub-client [FFSSelListener] with ID [27] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.609ms] [1] SC[1675]: Registered sub-client [SAE] with ID [28] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.615ms] [1] SC[1675]: Registered sub-client [CCZAddin] with ID [29] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.618ms] [1] SC[1675]: Registered sub-client [DxThumbnails] with ID [30] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.623ms] [1] SC[1675]: Registered sub-client [MyParts] with ID [31] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.650ms] [1] SC[1675]: Registered sub-client [PinsList] with ID [32] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.719ms] [1] SC[1675]: Registered sub-client [DxSim] with ID [33] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.852ms] [1] SC[1675]: Registered sub-client [toolboxes] with ID [34] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.871ms] [1] SC[1675]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:599542200] with ID [35] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.14s.877ms] [1] SC[1675]: Registered sub-client [Core::DesignListener-355] with ID [36] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.15s.045ms] [1] SC[1675]: Registered sub-client [SheetConnectorsCacheDxD:1543571672] with ID [37] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.15s.103ms] [1] SC[1675]: Registered sub-client [NetsNamesCollectorDxD:1543571672] with ID [38] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.15s.130ms] [1] SC[1675]: Registered sub-client [PartReplaceUtils] with ID [39] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:32] [0000m.15s.134ms] [1] SC[1675]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:33] [0000m.15s.378ms] [1] SC[1675]: Registered sub-client [ObjectHolder_648205472] with ID [41] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:33] [0000m.15s.381ms] [1] SC[1675]: Registered sub-client [BlockCacheDxD:599279640] with ID [42] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:33] [0000m.15s.385ms] [1] SC[1675]: Registered sub-client [GlobalNetAliasUpdater_648218472] with ID [43] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:33] [0000m.15s.388ms] [1] SC[1675]: Registered sub-client [IcdbNetProcessorSubClientDxD:649607688] with ID [44] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:34] [0000m.16s.678ms] [1] SC[1675]: Registered sub-client [DxDbSearch] with ID [45] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 10:54:39] [0000m.22s.023ms] [0] DFAMT: File server access time: 50 us
+[2018.11.30 10:55:54] [0001m.36s.520ms] [0] IT: Session [1676] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [8908] created
+[2018.11.30 10:55:54] [0001m.36s.521ms] [1] SC[1676]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1676] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:54] [0001m.36s.557ms] [1] SC[1676]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1676] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:54] [0001m.36s.602ms] [1] CMT: There are [2] clients now: 1675, 1676
+[2018.11.30 10:55:54] [0001m.36s.602ms] [1] CMT: Removed client [1676]
+[2018.11.30 10:55:54] [0001m.36s.602ms] [1] CMT: There are [1] clients now: 1675
+[2018.11.30 10:55:54] [0001m.37s.054ms] [0] IT: Session [1677] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [8908] created
+[2018.11.30 10:55:54] [0001m.37s.056ms] [1] SC[1677]: Registered sub-client [PADSLayout] with ID [1] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:54] [0001m.37s.089ms] [1] SC[1677]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:54] [0001m.37s.105ms] [1] CMT: There are [2] clients now: 1675, 1677
+[2018.11.30 10:55:55] [0001m.38s.290ms] [1] SC[1677]: Registered sub-client [StartServerClient2fd4] with ID [3] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:55] [0001m.38s.291ms] [1] SC[1677]: UnRegistered sub-client [StartServerClient2fd4] with ID [3] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:55] [0001m.38s.295ms] [1] SC[1677]: Registered sub-client [StartServerClient2fd4] with ID [4] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 10:55:55] [0001m.38s.295ms] [1] SC[1677]: UnRegistered sub-client [StartServerClient2fd4] with ID [4] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 11:15:53] [0021m.36s.190ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[8908] # SessionID[1677] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.11.30 11:15:54] [0021m.36s.618ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[8908] # SessionID[1677] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.11.30 11:20:12] [0025m.54s.714ms] [1] SC[1675]: UnRegistered sub-client [GlobalNetAliasUpdater_648218472] with ID [43] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:12] [0025m.54s.714ms] [1] SC[1675]: UnRegistered sub-client [BlockCacheDxD:599279640] with ID [42] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:12] [0025m.54s.714ms] [1] SC[1675]: UnRegistered sub-client [ObjectHolder_648205472] with ID [41] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:12] [0025m.54s.714ms] [1] SC[1675]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:649607688] with ID [44] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:20] [0026m.02s.723ms] [1] SC[1675]: Registered sub-client [ObjectHolder_648212232] with ID [46] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:20] [0026m.02s.727ms] [1] SC[1675]: Registered sub-client [BlockCacheDxD:599285736] with ID [47] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:20] [0026m.02s.731ms] [1] SC[1675]: Registered sub-client [GlobalNetAliasUpdater_648224192] with ID [48] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:20:20] [0026m.02s.734ms] [1] SC[1675]: Registered sub-client [IcdbNetProcessorSubClientDxD:649599120] with ID [49] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:08] [0026m.50s.402ms] [1] SC[1675]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:08] [0026m.50s.405ms] [1] SC[1675]: Registered sub-client [SystemDesignDll] with ID [50] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:08] [0026m.50s.736ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [9] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:08] [0026m.50s.868ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [51] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:09] [0026m.51s.489ms] [1] SC[1675]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:09] [0026m.51s.493ms] [1] SC[1675]: Registered sub-client [LocalSymbolsDataProvider] with ID [52] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:10] [0026m.52s.763ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [53] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:10] [0026m.52s.763ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [53] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:10] [0026m.52s.767ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [54] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:10] [0026m.52s.767ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [54] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:34] [0027m.17s.157ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [51] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:34] [0027m.17s.162ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [55] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:21:35] [0027m.17s.864ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.21.34 - symUpd.zip] with GUID [0e63-1a6d-d1ce-5fcc-e2f0-10c3-3f01-0c50-5da0-1b08-8082-201f]
+[2018.11.30 11:21:35] [0027m.17s.865ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[373b-3ea4-e064-2d91-f3ce-26b4-4ce2-6b50-e746-92d2-3eef-6dac] CreationTime[Thursday, August 02, 2018 11:34:23] Type[Autosave] Creator[iCDB Server (2018-08-02 13.31.47-6384)] ApplicationName[iCDB Server (2018-08-02 13.31.47-6384)] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Autosave] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 3] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1778135] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-02 13.34.23 - auto.zip] BackupFileSize[8650451] Persistent[FALSE]
+[2018.11.30 11:21:35] [0027m.17s.866ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-02 13.34.23 - auto.zip] with GUID [373b-3ea4-e064-2d91-f3ce-26b4-4ce2-6b50-e746-92d2-3eef-6dac] removed
+[2018.11.30 11:21:35] [0027m.17s.867ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[d8d1-5330-0083-e7e1-f742-36b4-8423-6b50-e746-92d2-3eef-6dac] CreationTime[Thursday, August 02, 2018 15:34:23] Type[Autosave] Creator[iCDB Server (2018-08-02 13.31.47-6384)] ApplicationName[iCDB Server (2018-08-02 13.31.47-6384)] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Autosave] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 3] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1778135] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-02 17.34.23 - auto.zip] BackupFileSize[8615168] Persistent[FALSE]
+[2018.11.30 11:21:35] [0027m.17s.867ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-02 17.34.23 - auto.zip] with GUID [d8d1-5330-0083-e7e1-f742-36b4-8423-6b50-e746-92d2-3eef-6dac] removed
+[2018.11.30 11:21:35] [0027m.17s.868ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[3561-35a8-e4d5-cc42-a4e7-96bf-4e79-6b50-e346-92d2-3eef-6dac] CreationTime[Tuesday, August 07, 2018 11:11:06] Type[SymbolUpdate] Creator[iCDB Server (2018-08-07 11.27.55-7712)] ApplicationName[PADS Designer] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 3] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1778135] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-07 13.11.06 - symUpd.zip] BackupFileSize[8823767] Persistent[FALSE]
+[2018.11.30 11:21:35] [0027m.17s.869ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-07 13.11.06 - symUpd.zip] with GUID [3561-35a8-e4d5-cc42-a4e7-96bf-4e79-6b50-e346-92d2-3eef-6dac] removed
+[2018.11.30 11:21:35] [0027m.17s.870ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[ef4b-baa5-68d6-8496-3361-99b8-3619-9b50-8343-7241-9a8b-0a8b] CreationTime[Wednesday, September 12, 2018 13:35:47] Type[SymbolUpdate] Creator[iCDB Server (2018-09-12 14.42.59-26176)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3] FlowId[PADSVX.2.3] GBSInstallId[1714759] GBSBuildId[8941532] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-09-12 15.35.47 - symUpd.zip] BackupFileSize[18358050] Persistent[FALSE]
+[2018.11.30 11:21:35] [0027m.17s.871ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-09-12 15.35.47 - symUpd.zip] with GUID [ef4b-baa5-68d6-8496-3361-99b8-3619-9b50-8343-7241-9a8b-0a8b] removed
+[2018.11.30 11:21:35] [0027m.17s.871ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[0e63-1a6d-d1ce-5fcc-e2f0-10c3-3f01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:21:34] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.21.34 - symUpd.zip] BackupFileSize[8772658] Persistent[FALSE]
+[2018.11.30 11:22:12] [0027m.54s.541ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [55] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:22:12] [0027m.54s.546ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [56] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:22:12] [0027m.54s.718ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.22.11 - symUpd.zip] with GUID [be68-47c4-b8cf-138d-35f0-10c8-5f01-0c50-5da0-1b08-8082-201f]
+[2018.11.30 11:22:12] [0027m.54s.718ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[0e63-1a6d-d1ce-5fcc-e2f0-10c3-3f01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:21:34] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.21.34 - symUpd.zip] BackupFileSize[8772658] Persistent[FALSE]
+[2018.11.30 11:22:12] [0027m.54s.720ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.21.34 - symUpd.zip] with GUID [0e63-1a6d-d1ce-5fcc-e2f0-10c3-3f01-0c50-5da0-1b08-8082-201f] removed
+[2018.11.30 11:22:12] [0027m.54s.720ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[be68-47c4-b8cf-138d-35f0-10c8-5f01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:22:11] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.22.11 - symUpd.zip] BackupFileSize[8775764] Persistent[FALSE]
+[2018.11.30 11:24:38] [0030m.21s.054ms] [1] SC[1675]: UnRegistered sub-client [SystemDesignDll] with ID [50] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:38] [0030m.21s.058ms] [1] SC[1675]: Registered sub-client [SystemDesignDll] with ID [57] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:39] [0030m.21s.368ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [56] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:39] [0030m.21s.496ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [58] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:39] [0030m.22s.132ms] [1] SC[1675]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [52] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:39] [0030m.22s.136ms] [1] SC[1675]: Registered sub-client [LocalSymbolsDataProvider] with ID [59] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:41] [0030m.23s.502ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [60] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:41] [0030m.23s.503ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [60] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:41] [0030m.23s.507ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [61] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:41] [0030m.23s.507ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [61] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:54] [0030m.36s.435ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.24.53 - symUpd.zip] with GUID [43a6-8a87-6162-d60b-4ff0-10c9-ff01-0c50-5da0-1b08-8082-201f]
+[2018.11.30 11:24:54] [0030m.36s.436ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[be68-47c4-b8cf-138d-35f0-10c8-5f01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:22:11] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.22.11 - symUpd.zip] BackupFileSize[8775764] Persistent[FALSE]
+[2018.11.30 11:24:54] [0030m.36s.437ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.22.11 - symUpd.zip] with GUID [be68-47c4-b8cf-138d-35f0-10c8-5f01-0c50-5da0-1b08-8082-201f] removed
+[2018.11.30 11:24:54] [0030m.36s.438ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[43a6-8a87-6162-d60b-4ff0-10c9-ff01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:24:53] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.24.53 - symUpd.zip] BackupFileSize[8779913] Persistent[FALSE]
+[2018.11.30 11:24:57] [0030m.39s.546ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [58] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:24:57] [0030m.39s.553ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [62] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:46:21] [0052m.03s.381ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [62] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:46:21] [0052m.03s.386ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [63] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:46:21] [0052m.03s.970ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.46.20 - symUpd.zip] with GUID [bef7-222d-4f42-34b6-cf41-10c1-0511-0c50-5da0-1b08-8082-201f]
+[2018.11.30 11:46:21] [0052m.03s.971ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[43a6-8a87-6162-d60b-4ff0-10c9-ff01-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:24:53] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.24.53 - symUpd.zip] BackupFileSize[8779913] Persistent[FALSE]
+[2018.11.30 11:46:21] [0052m.03s.972ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.24.53 - symUpd.zip] with GUID [43a6-8a87-6162-d60b-4ff0-10c9-ff01-0c50-5da0-1b08-8082-201f] removed
+[2018.11.30 11:46:21] [0052m.03s.973ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[bef7-222d-4f42-34b6-cf41-10c1-0511-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:46:20] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.46.20 - symUpd.zip] BackupFileSize[8777533] Persistent[FALSE]
+[2018.11.30 11:47:03] [0052m.45s.530ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [63] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:47:03] [0052m.45s.535ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [64] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 11:47:03] [0052m.46s.275ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.47.03 - symUpd.zip] with GUID [8080-962c-0cae-2c37-6251-10cb-2511-0c50-5da0-1b08-8082-201f]
+[2018.11.30 11:47:03] [0052m.46s.275ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[bef7-222d-4f42-34b6-cf41-10c1-0511-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:46:20] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.46.20 - symUpd.zip] BackupFileSize[8777533] Persistent[FALSE]
+[2018.11.30 11:47:03] [0052m.46s.277ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.46.20 - symUpd.zip] with GUID [bef7-222d-4f42-34b6-cf41-10c1-0511-0c50-5da0-1b08-8082-201f] removed
+[2018.11.30 11:47:03] [0052m.46s.277ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[8080-962c-0cae-2c37-6251-10cb-2511-0c50-5da0-1b08-8082-201f] CreationTime[Friday, November 30, 2018 10:47:03] Type[SymbolUpdate] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[PADS Designer] UserName[AMura] MachineName[IITICUBWS042] Description[Before Symbol Update] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.47.03 - symUpd.zip] BackupFileSize[8781844] Persistent[FALSE]
+[2018.11.30 11:59:25] [0065m.07s.431ms] [1] PrjBackupMgr: Successfully created Project Backup [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.59.24 - auto.zip] with GUID [481a-3280-a666-ef3c-c081-10c1-1811-0c50-9e2d-0b08-8082-201f]
+[2018.11.30 11:59:25] [0065m.07s.432ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[1e88-db6b-74f4-0988-f557-96b4-6579-6b50-ebd6-92d2-3eef-6dac] CreationTime[Tuesday, August 07, 2018 10:33:03] Type[Autosave] Creator[iCDB Server (2018-08-07 11.27.55-7712)] ApplicationName[iCDB Server (2018-08-07 11.27.55-7712)] UserName[MBorgagni] MachineName[IITICUBWS029] Description[Autosave] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 3] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1778135] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-07 12.33.03 - auto.zip] BackupFileSize[8822004] Persistent[FALSE]
+[2018.11.30 11:59:25] [0065m.07s.433ms] [0] PrjBackupMgr: Project Backup file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-08-07 12.33.03 - auto.zip] with GUID [1e88-db6b-74f4-0988-f557-96b4-6579-6b50-ebd6-92d2-3eef-6dac] removed
+[2018.11.30 11:59:25] [0065m.07s.434ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[481a-3280-a666-ef3c-c081-10c1-1811-0c50-9e2d-0b08-8082-201f] CreationTime[Friday, November 30, 2018 10:59:24] Type[Autosave] Creator[iCDB Server (2018-11-30 10.54.17-14296)] ApplicationName[iCDB Server (2018-11-30 10.54.17-14296)] UserName[AMura] MachineName[IITICUBWS042] Description[Autosave] FullFlowName[PADS VX.2.3; PADS VX.2.3 - Update 4] FlowId[PADSVX.2.3] GBSInstallId[1714759; 1783263] GBSBuildId[10034764] IcdbVersion[3400] ReferenceLogFilePath[] BackupFilePath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\ProjectBackup\backups\2018-11-30 11.59.24 - auto.zip] BackupFileSize[8780786] Persistent[FALSE]
+[2018.11.30 12:34:10] [0099m.52s.615ms] [1] SC[1675]: UnRegistered sub-client [SystemDesignDll] with ID [57] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:10] [0099m.52s.619ms] [1] SC[1675]: Registered sub-client [SystemDesignDll] with ID [65] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:10] [0099m.52s.839ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [64] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:10] [0099m.52s.867ms] [1] SC[1675]: Registered sub-client [DesignSearcher2] with ID [66] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:11] [0099m.53s.439ms] [1] SC[1675]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [59] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:11] [0099m.53s.443ms] [1] SC[1675]: Registered sub-client [LocalSymbolsDataProvider] with ID [67] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:11] [0099m.54s.310ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [68] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:11] [0099m.54s.311ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [68] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:12] [0099m.54s.315ms] [1] SC[1675]: Registered sub-client [SharedBlockDataProvider] with ID [69] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:34:12] [0099m.54s.315ms] [1] SC[1675]: UnRegistered sub-client [SharedBlockDataProvider] with ID [69] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:35:54] [0101m.36s.738ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[8908] # SessionID[1677] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.11.30 12:35:54] [0101m.37s.161ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[8908] # SessionID[1677] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.11.30 12:57:46] [0123m.28s.632ms] [1] SC[1675]: UnRegistered sub-client [GlobalNetAliasUpdater_648224192] with ID [48] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:46] [0123m.28s.633ms] [1] SC[1675]: UnRegistered sub-client [BlockCacheDxD:599285736] with ID [47] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:46] [0123m.28s.635ms] [1] SC[1675]: UnRegistered sub-client [ObjectHolder_648212232] with ID [46] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:46] [0123m.28s.635ms] [1] SC[1675]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:649599120] with ID [49] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.315ms] [1] SC[1675]: UnRegistered sub-client [SystemDesignDll] with ID [65] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.579ms] [1] SC[1675]: UnRegistered sub-client [DesignSearcher2] with ID [66] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.741ms] [1] SC[1675]: UnRegistered sub-client [Navigator] with ID [11] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.742ms] [1] SC[1675]: UnRegistered sub-client [FFSSelListener] with ID [27] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.869ms] [1] SC[1675]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [67] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.903ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_1] with ID [16] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.910ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_0] with ID [15] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.943ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_3] with ID [20] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.949ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_2] with ID [19] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.973ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_5] with ID [22] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.34s.979ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_4] with ID [21] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.35s.006ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_7] with ID [24] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.35s.012ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_6] with ID [23] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.35s.038ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_9] with ID [26] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:52] [0123m.35s.045ms] [1] SC[1675]: UnRegistered sub-client [FFSearch_Controller_8] with ID [25] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:53] [0123m.35s.583ms] [1] SC[1675]: UnRegistered sub-client [MyParts] with ID [31] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:53] [0123m.35s.585ms] [1] SC[1675]: UnRegistered sub-client [toolboxes] with ID [34] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:54] [0123m.36s.958ms] [1] SC[1675]: UnRegistered sub-client [SelectionHolder] with ID [6] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:54] [0123m.36s.958ms] [1] SC[1675]: UnRegistered sub-client [PartReplaceUtils] with ID [39] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:54] [0123m.36s.958ms] [1] SC[1675]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:54] [0123m.36s.959ms] [1] SC[1675]: UnRegistered sub-client [Core::DesignListener-355] with ID [36] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.969ms] [1] SC[1675]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:599542200] with ID [35] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.969ms] [1] SC[1675]: UnRegistered sub-client [SheetConnectorsCacheDxD:1543571672] with ID [37] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.970ms] [1] SC[1675]: UnRegistered sub-client [NetsNamesCollectorDxD:1543571672] with ID [38] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.971ms] [1] SC[1675]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.971ms] [1] SC[1675]: UnRegistered sub-client [DxD] with ID [1] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.978ms] [1] SC[1675]: UnRegistered sub-client [xprob] with ID [3] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.978ms] [1] SC[1675]: UnRegistered sub-client [SymbolEditor] with ID [5] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:55] [0123m.37s.984ms] [1] SC[1675]: UnRegistered sub-client [OutputWindow] with ID [12] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.506ms] [1] SC[1675]: UnRegistered sub-client [DxDbSearch] with ID [45] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.512ms] [1] SC[1675]: UnRegistered sub-client [SAE] with ID [28] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.517ms] [1] SC[1675]: UnRegistered sub-client [CCZAddin] with ID [29] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.518ms] [1] SC[1675]: UnRegistered sub-client [DxThumbnails] with ID [30] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.535ms] [1] SC[1675]: UnRegistered sub-client [DxSim] with ID [33] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:56] [0123m.38s.999ms] [1] SC[1677]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 12:57:56] [0123m.39s.002ms] [1] SC[1677]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1677] host [IITICUBWS042] user [AMura] process ID [8908]
+[2018.11.30 12:57:56] [0123m.39s.012ms] [1] CMT: Removed client [1677]
+[2018.11.30 12:57:56] [0123m.39s.012ms] [1] CMT: There are [1] clients now: 1675
+[2018.11.30 12:57:57] [0123m.39s.892ms] [1] SC[1675]: UnRegistered sub-client [PinsList] with ID [32] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:57] [0123m.39s.962ms] [1] SC[1675]: UnRegistered sub-client [PlaceDevice] with ID [13] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:57] [0123m.40s.046ms] [1] SC[1675]: UnRegistered sub-client [HdlProject] with ID [10] for session ID [1675] host [IITICUBWS042] user [AMura] process ID [2972]
+[2018.11.30 12:57:57] [0123m.40s.126ms] [1] CMT: Removed client [1675]
+[2018.11.30 12:57:57] [0123m.40s.126ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.11.30 12:57:58] [0123m.40s.372ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.11.30 12:57:59] [0123m.41s.331ms] [0] CMT: Starting server auto-close
+[2018.11.30 12:57:59] [0123m.41s.336ms] [0] S: Closing server
+[2018.11.30 12:57:59] [0123m.41s.450ms] [0] iCDB Server PI: Closing plugins
+[2018.11.30 12:57:59] [0123m.41s.450ms] [0] iCDB Server PI: Plugins closed
+[2018.11.30 12:57:59] [0123m.41s.450ms] [0] iCDB Server PI: Unloading database
+[2018.11.30 12:57:59] [0123m.41s.450ms] [0] iCDB Server PI: Saving storage
+[2018.11.30 12:57:59] [0123m.41s.450ms] [0] iCDB Server PI: Closing database
+[2018.11.30 12:57:59] [0123m.41s.454ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[6%] data[89%]
+[2018.11.30 12:57:59] [0123m.41s.454ms] [1] iCDB Server PI: Stats: Database file size [5511232 (5.3 MB)]
+[2018.11.30 12:57:59] [0123m.41s.460ms] [0] iCDB Server PI: Database closed
+[2018.11.30 12:57:59] [0123m.41s.460ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [6052399] ticks
+[2018.11.30 12:57:59] [0123m.41s.460ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1871271] microseconds
+[2018.11.30 12:57:59] [0123m.41s.460ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3612]
+[2018.11.30 12:57:59] [0123m.41s.460ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [1930] commands per second
+[2018.11.30 12:57:59] [0123m.41s.461ms] [0] Single file [F:\iCubHardware\electronics\private\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\database\icdb.dat] closed with size [5511232 (5.3 MB)]
+[2018.11.30 12:57:59] [0123m.41s.527ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.11.30 12:57:59] [0123m.41s.784ms] [0] MWT: Destroy the shutdown block reason.
+[2018.11.30 12:57:59] [0123m.41s.787ms] [0] MWT: STOP
+[2018.11.30 12:57:59] [0123m.41s.788ms] [0] S: STOP

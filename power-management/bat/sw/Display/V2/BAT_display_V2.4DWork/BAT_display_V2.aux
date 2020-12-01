@@ -1,0 +1,191 @@
+==============================================================
+==============================================================
+4DGL Compiler 2.8.0.3 -- Copyright 2004-2015 4D Labs
+** D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4dg
+compiled Fri Mar 25 11:53:02 2016
+
+==============================================================
+==============================================================
+
+
+No Ref for file
+[LINKING]
+function 5, main, address 38
+(main entry point)
+stack usage 16 + 4
+function 'main' requires no arguments
+function 'main' has no return value
+
+[LINKING]
+function 1, ledDigitsDisplay, address 830
+stack usage 8 + 4
+function 'ledDigitsDisplay' requires 9 argument
+function 'ledDigitsDisplay' has no return value
+
+[RESERVED WORDS]
+#inherit
+#LISTCODE
+#MODE
+#STACK
+#OPTIMIZE_ON
+#OPTIMIZE_OFF
+byte
+word
+dword
+float
+private
+#IF
+#IFNOT
+#ELSE
+#ENDIF
+#CONST
+#constant
+#USE
+USING
+func
+endfunc
+var
+#STOP
+#DATA
+#ASM
+#END
+#platform
+EXISTS
+#ERROR
+#MESSAGE
+#NOTICE
+sizeof
+argcount
+if
+else
+endif
+while
+wend
+repeat
+until
+forever
+return
+break
+continue
+for
+next
+switch
+case
+default
+endswitch
+print
+goto
+gosub
+endsub
+mcall
+lookup8
+lookup16
+
+[MACRO]
+
+[CONSTANTS]
+__MAXMEM                          000000FF        255  (usage 1)
+__MAXPROG                         00002400       9216  (usage 1)
+BAUD_115200                       00000019         25  (usage 3)
+GOLDELOX                          00000001          1  (usage 3)
+iBattery_currentH                 00000000          0  (usage 3)
+iBattery_currentL                 00001E00       7680  (usage 3)
+iBattery_percentH                 00000006          6  (usage 3)
+iBattery_percentL                 00007000      28672  (usage 3)
+iBattery_voltageH                 00000002          2  (usage 3)
+iBattery_voltageL                 00007800      30720  (usage 3)
+iCPU_currentH                     00000002          2  (usage 3)
+iCPU_currentL                     00006800      26624  (usage 3)
+iCPU_voltageH                     00000002          2  (usage 3)
+iCPU_voltageL                     00005800      22528  (usage 3)
+iCPUH                             00000000          0  (usage 3)
+iCPUL                             00000000          0  (usage 3)
+iGauge1H                          00000004          4  (usage 3)
+iGauge1L                          00004600      17920  (usage 3)
+iiBattery_percentH                00000006          6  (usage 3)
+iiBattery_percentL                00007200      29184  (usage 3)
+iiCPU_currentH                    00000002          2  (usage 3)
+iiCPU_currentL                    00006C00      27648  (usage 3)
+iiCPU_voltageH                    00000002          2  (usage 3)
+iiCPU_voltageL                    00005C00      23552  (usage 3)
+iiMotors_currentH                 00000006          6  (usage 3)
+iiMotors_currentL                 00009200      37376  (usage 3)
+iiMotors_voltageH                 00000006          6  (usage 3)
+iiMotors_voltageL                 00008200      33280  (usage 3)
+iMotors_currentH                  00000006          6  (usage 3)
+iMotors_currentL                  00008E00      36352  (usage 3)
+iMotors_voltageH                  00000006          6  (usage 3)
+iMotors_voltageL                  00007E00      32256  (usage 3)
+iMotorsH                          00000000          0  (usage 3)
+iMotorsL                          00000E00       3584  (usage 3)
+iStatictext1H                     00000006          6  (usage 3)
+iStatictext1L                     00009E00      40448  (usage 3)
+iStatictext2H                     00000006          6  (usage 3)
+iStatictext2L                     0000A000      40960  (usage 3)
+iStatictext3H                     00000006          6  (usage 3)
+iStatictext3L                     0000A200      41472  (usage 3)
+iStatictext4H                     00000006          6  (usage 3)
+iStatictext4L                     0000A400      41984  (usage 3)
+iStatictext5H                     00000006          6  (usage 3)
+iStatictext5L                     0000AA00      43520  (usage 3)
+iStatictext7H                     00000006          6  (usage 3)
+iStatictext7L                     0000A600      42496  (usage 3)
+
+[PmmC FUNCTIONS]
+com_Count                         FFFFFFA7         -89  args=0 r=1  (usage 3)
+com_Init                          FFFFFFA9         -87  args=3 r=0  (usage 3)
+gfx_Cls                           FFFFFFD7         -41  args=0 r=0  (usage 3)
+media_Image                       FFFFFFB3         -77  args=2 r=0  (usage 33)
+media_Init                        FFFFFFB1         -79  args=0 r=1  (usage 3)
+media_SetAdd                      FFFFFFB9         -71  args=2 r=0  (usage 57)
+media_VideoFrame                  FFFFFFBA         -70  args=3 r=0  (usage 24)
+pause                             FFFFFFFA          -6  args=1 r=0  (usage 3)
+putstr                            FFFFFFF7          -9  args=1 r=1  (usage 3)
+serin                             FFFFFFFF          -1  args=0 r=1  (usage 9)
+serout                            FFFFFFFD          -3  args=1 r=0  (usage 9)
+setbaud                           FFFFFFFC          -4  args=1 r=0  (usage 3)
+
+[USER FUNCTIONS]
+ledDigitsDisplay                  0000033E  args=9 r=0  (usage 15)
+
+[GLOBAL VARIABLES]
+combuf                                 1  word[10]   (usage 3)
+command                               12  word       (usage 12)
+display                               11  word       (usage 6)
+value                                 13  word       (usage 12)
+
+[PRIVATE VARIABLES]
+
+[DATA]
+0007: 53 74 61 72 74 69 6E 67 0A 00 44 72 69 76 65 20     Starting..Drive 
+0017: 6E 6F 74 20 6D 6F 75 6E 74 65 64 2E 2E 2E 00        not mounted....
+
+[__MAXPROG]
+9216
+[__MAXMEM]
+255
+
+[PROGRAM]
+main
+[CODESIZE]
+1011
+[MEMSIZE]
+13
+[ARGCOUNT]
+0
+[RETURNS]
+NO
+[STACKSIZE]
+0 (AUTO)
+[STACK_ESTIMATE]
+44   (nb:- worst case estimate)
+[MODE]
+0
+
+[PROJECT]
+D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4dg
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\GOLDELOX.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\ledDigitsDisplayGoldelox.inc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
+D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4DWork\BAT_display_V2Const.inc

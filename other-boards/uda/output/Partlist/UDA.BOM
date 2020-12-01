@@ -1,0 +1,34 @@
+"BOARD 5436 UDA, Usb Digital to Audio Interface  Revised: Thursday, December 13, 2012"						
+          Revision: A						
+						
+Istituto Italiano di Tecnologia						
+"Via Morego, 30"						
+16163 - Genova						
+						
+						
+						
+"Bill Of Materials       December 13,2012      14:45:49"	Page1					
+						
+Item	Quantity	Reference	Value	IITCODE	Rev	NonMontare
+______________________________________________						
+						
+1	2	"C1,C2"	12pF	3465		
+2	7	"C3,C4,C8,C9,C11,C12,C16"	1uF	1293		
+3	2	"C5,C7"	100nF	5109		
+4	3	"C6,C10,C15"	10uF	1076		
+5	2	"C13,C14"	22nF	665		
+6	1	J1	47346-0001	5063		
+7	1	J2	53261-0471	288		
+8	1	Q1	ZXMN2B14FH	4148		
+9	1	R1	1M	1407		
+10	2	"R2,R3"	1K5	454		
+11	1	R4	100K	468		
+12	1	R5	10K	1574		
+13	1	R6	NM	435		
+14	1	R7	47K	1409		
+15	4	"R8,R9,R10,R11"	22R	439		
+16	4	"TP1,TP2,TP3,TP4"	-	5232		NM
+17	1	U1	PCM2704	5438		
+18	1	U2	MCP6271	5439		
+19	1	U3	SSM2305RMZ	5440		
+20	1	XT1	12MHz	5441		

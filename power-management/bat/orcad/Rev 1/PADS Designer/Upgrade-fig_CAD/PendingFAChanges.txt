@@ -1,0 +1,41 @@
+                              Forward Annotation Pending Changes Report                             
+
+This file contains connectivity differences between PADS Designer project:
+	 "F:\repo\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\BAT_1.prj" 
+and PADS Layout PCB:
+	 "F:\repo\P2015_06_BAT\Schematics\Rev 1\PADS Designer\BAT_1\BAT_1.pcb" 
+
+(If you click Forward Annotation indicator in Project Integration dialog, these changes will be sent
+ from PADS Designer project to PADS Layout PCB.)
+
+
+============================================ Components ============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+***** Modified (4) *****
+   FL13
+       |> Pin "1" New Attributes:
+              |> Name: "Order" | Value: "1"
+       |> Pin "3" New Attributes:
+              |> Name: "Order" | Value: "0"
+       |> Pin "5" New Attributes:
+              |> Name: "Order" | Value: "2"
+   U19
+       |> Pin "2" New Attributes:
+              |> Name: "Pin Length" | Value: "Line"
+   U20
+       |> Pin "2" New Attributes:
+              |> Name: "Pin Length" | Value: "Line"
+   Y1
+       |> New Attributes:
+              |> Name: "FREQUENCY" | Value: "16MHz"
+
+
+=============================================== Nets ===============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+
+====================================================================================================
+
+
+Report was generated at: Thursday, July 05, 2018 16:15:19

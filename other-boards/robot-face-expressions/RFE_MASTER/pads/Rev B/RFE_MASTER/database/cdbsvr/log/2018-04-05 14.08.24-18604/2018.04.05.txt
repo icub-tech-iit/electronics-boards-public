@@ -1,0 +1,234 @@
+[2018.04.05 14:08:24] [0000m.00s.049ms] [0] WELCOME
+[2018.04.05 14:08:24] [0000m.00s.050ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.04.05 14:08:24] [0000m.00s.050ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.04.05 14:08:24] [0000m.00s.050ms] [1] Base flow version [VX.2.3]
+[2018.04.05 14:08:24] [0000m.00s.050ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.04.05 14:08:24] [0000m.00s.058ms] [1] Machine [IITICUBWS042]  IP [10.255.35.54,127.0.0.1]  User [AMura]  PID [18604]
+[2018.04.05 14:08:24] [0000m.00s.058ms] [1] Operating system [Microsoft Business Edition, 64-bit (build 9200)]
+[2018.04.05 14:08:24] [0000m.00s.058ms] [1] Current working dir [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER]
+[2018.04.05 14:08:24] [0000m.00s.058ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\jre\bin\client;C:\TwinCAT\Common64;C:\TwinCAT\Common32;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Data Protection\Drivers\TSS\bin\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Users\amura\AppData\Local\Microsoft\WindowsApps;C:\Users\amura\AppData\Local\GitHubDesktop\bin]
+[2018.04.05 14:08:24] [0000m.00s.059ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.04.05 14:08:24] [0000m.00s.059ms] [1] SDD_PLATFORM [win32]
+[2018.04.05 14:08:24] [0000m.00s.059ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.04.05 14:08:24] [0000m.00s.059ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.04.05 14:08:24] [0000m.00s.059ms] [2] S: Loading config files
+[2018.04.05 14:08:24] [0000m.00s.062ms] [1] Config file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\cdbsvr\Server.cfg] not found
+[2018.04.05 14:08:24] [0000m.00s.063ms] [3] S: Config loaded
+[2018.04.05 14:08:24] [0000m.00s.071ms] [0] S: Project path [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] on file system [NTFS]
+[2018.04.05 14:08:24] [0000m.00s.071ms] [0] S: Project file (.prj) path [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj] on file system [NTFS]
+[2018.04.05 14:08:24] [0000m.00s.071ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.04.05 14:08:24] [0000m.00s.071ms] [0] S: Single-user mode (auto)
+[2018.04.05 14:08:24] [0000m.00s.071ms] [0] S: Event polling mode autodetection
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] S: Started up automatically by iCDB Client: IITICUBWS042:AMura:14628
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] S: Auto close mode
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] S: Database ID [1498-1e98-f361-7e3b-f1fc-5ca4-2fc5-ca50-4055-3201-9a8b-0a8b]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: BEGIN dumping
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: Local -> global path prefix list
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Pads\Libraries] -> [\\IITICUBWS042\Libraries]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Orcad Library] -> [\\IITICUBWS042\Orcad Library]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [D:\iCubHardware\electronics\private\Capital] -> [\\IITICUBWS042\Capital]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [M:\] -> [\\IITICUBWS042\Capital\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS042\Orcad Library\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [Y:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [Z:\] -> [\\storage05.icub.iit.local\repository\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: Global -> local path prefix list
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\] -> [Z:\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [Y:\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library\] -> [O:\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\IITICUBWS042\Orcad Library] -> [D:\iCubHardware\electronics\private\Orcad Library]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\IITICUBWS042\Libraries] -> [D:\iCubHardware\electronics\private\Pads\Libraries]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\IITICUBWS042\Capital\] -> [M:\]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: [\\IITICUBWS042\Capital] -> [D:\iCubHardware\electronics\private\Capital]
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] PathTranslator: END dumping
+[2018.04.05 14:08:24] [0000m.00s.072ms] [0] S: START
+[2018.04.05 14:08:24] [0000m.00s.073ms] [0] S: Server startup lock file created
+[2018.04.05 14:08:24] [0000m.00s.073ms] [0] S: Listening for client connections on port [10001]
+[2018.04.05 14:08:24] [0000m.00s.074ms] [0] S: Server network ID [IITICUBWS042:10.255.35.54,IITICUBWS042,IITICUBWS042.iit.local:10001]
+[2018.04.05 14:08:24] [0000m.00s.074ms] [0] S: Server GUID [f23b-c98d-e665-23b1-8b11-6cad-b116-ca50-8ac5-3201-9a8b-0a8b]
+[2018.04.05 14:08:24] [0000m.00s.074ms] [0] S: Project GUID [1498-1e98-f361-7e3b-f1fc-5ca4-2fc5-ca50-4055-3201-9a8b-0a8b]
+[2018.04.05 14:08:24] [0000m.00s.076ms] [0] S: Wrote data to server address file
+[2018.04.05 14:08:24] [0000m.00s.076ms] [0] S: Server startup lock file removed
+[2018.04.05 14:08:24] [0000m.00s.076ms] [1] ProjectBackupManager: Setting project file (.prj) path: [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj]
+[2018.04.05 14:08:25] [0000m.00s.804ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.04.05 14:08:25] [0000m.00s.804ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.04.05 14:08:25] [0000m.00s.804ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.04.05 14:08:25] [0000m.00s.804ms] [0] S: Local disc access time: 34 us
+[2018.04.05 14:08:25] [0000m.00s.804ms] [0] S: File server access time: 42 us
+[2018.04.05 14:08:25] [0000m.00s.806ms] [0] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] size [3858704 (3.7 MB)]
+[2018.04.05 14:08:25] [0000m.00s.806ms] [1] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] opened in read-write mode
+[2018.04.05 14:08:25] [0000m.00s.806ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.05 14:08:25] [0000m.00s.806ms] [0] Database GUARD OK: [3858704]
+[2018.04.05 14:08:26] [0000m.01s.952ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.05 14:08:26] [0000m.01s.952ms] [0] Database GUARD OK: [3858704]
+[2018.04.05 14:08:26] [0000m.01s.963ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.05 14:08:26] [0000m.01s.963ms] [0] Database GUARD OK: [3858704]
+[2018.04.05 14:08:26] [0000m.01s.963ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.05 14:08:26] [0000m.01s.963ms] [0] Database GUARD OK: [3858704]
+[2018.04.05 14:08:26] [0000m.01s.964ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.05 14:08:26] [0000m.01s.964ms] [0] Database GUARD OK: [3858704]
+[2018.04.05 14:08:26] [0000m.01s.964ms] [0] SingleFile: [46da-ac4e-adb2-4327] SFI version check [1009] [1009]
+[2018.04.05 14:08:26] [0000m.02s.052ms] [0] SingleFile: [46da-ac4e-adb2-4327] Database SFI header has been read in [87ms 780us]
+[2018.04.05 14:08:26] [0000m.02s.056ms] [0] iCDB Server PI: Server & plugin session [588]
+[2018.04.05 14:08:26] [0000m.02s.056ms] [0] iCDB Server PI: Opening database [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database]
+[2018.04.05 14:08:26] [0000m.02s.056ms] [0] iCDB Server PI: Database [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] opened
+[2018.04.05 14:08:26] [0000m.02s.104ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.04.05 14:08:26] [0000m.02s.104ms] [0] iCDB Database: Checking constraint definitions version
+[2018.04.05 14:08:26] [0000m.02s.131ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.57] up to date
+[2018.04.05 14:08:26] [0000m.02s.133ms] [0] iCDB Server PI: Initializing plugins
+[2018.04.05 14:08:26] [0000m.02s.134ms] [0] iCDB Server PI: Plugins initialized
+[2018.04.05 14:08:26] [0000m.02s.134ms] [0] S: iCDB database loaded
+[2018.04.05 14:08:26] [0000m.02s.135ms] [0] S: Starting threads
+[2018.04.05 14:08:26] [0000m.02s.135ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.04.05 14:08:26] [0000m.02s.139ms] [0] IT: Session [589] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [14628] created
+[2018.04.05 14:08:26] [0000m.02s.141ms] [1] CMT: There are [1] clients now: 589
+[2018.04.05 14:08:26] [0000m.02s.142ms] [1] SCL: WARNING: Could not find client [589] stat data
+[2018.04.05 14:08:26] [0000m.02s.142ms] [1] SC[589]: Registered sub-client [DxD] with ID [1] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:26] [0000m.02s.180ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.04.05 14:08:26] [0000m.02s.198ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS042] user [AMura] with process ID [13208] created
+[2018.04.05 14:08:26] [0000m.02s.198ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.04.05 14:08:26] [0000m.02s.198ms] [1] SC[589]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:26] [0000m.02s.214ms] [1] SC[589]: Registered sub-client [xprob] with ID [3] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:26] [0000m.02s.411ms] [1] SC[589]: Registered sub-client [StartServerClient26d4] with ID [4] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:26] [0000m.02s.411ms] [1] SC[589]: UnRegistered sub-client [StartServerClient26d4] with ID [4] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:28] [0000m.04s.010ms] [1] SC[589]: Registered sub-client [SymbolEditor] with ID [5] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:28] [0000m.04s.015ms] [1] SC[589]: Registered sub-client [SelectionHolder] with ID [6] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:28] [0000m.04s.129ms] [1] SC[589]: Registered sub-client [SystemDesignDll] with ID [7] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:28] [0000m.04s.155ms] [1] SC[589]: UnRegistered sub-client [SystemDesignDll] with ID [7] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:28] [0000m.04s.158ms] [1] SC[589]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.07s.819ms] [1] SC[589]: Registered sub-client [DesignSearcher2] with ID [9] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.07s.823ms] [1] SC[589]: Registered sub-client [HdlProject] with ID [10] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.07s.859ms] [1] SC[589]: Registered sub-client [Navigator] with ID [11] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.07s.884ms] [1] SC[589]: Registered sub-client [OutputWindow] with ID [12] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.07s.886ms] [1] SC[589]: Registered sub-client [PlaceDevice] with ID [13] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.08s.121ms] [1] SC[589]: Registered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.08s.129ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_0] with ID [15] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:32] [0000m.08s.134ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_1] with ID [16] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.235ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_2] with ID [17] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.240ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_3] with ID [18] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.241ms] [1] SC[589]: Registered sub-client [SharedBlockDataProvider] with ID [19] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.241ms] [1] SC[589]: UnRegistered sub-client [SharedBlockDataProvider] with ID [19] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.245ms] [1] SC[589]: Registered sub-client [SharedBlockDataProvider] with ID [20] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:33] [0000m.09s.245ms] [1] SC[589]: UnRegistered sub-client [SharedBlockDataProvider] with ID [20] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:34] [0000m.10s.380ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_4] with ID [21] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:34] [0000m.10s.383ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_5] with ID [22] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:35] [0000m.11s.488ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_6] with ID [23] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:35] [0000m.11s.492ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_7] with ID [24] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:37] [0000m.12s.726ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_8] with ID [25] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:37] [0000m.12s.729ms] [1] SC[589]: Registered sub-client [FFSearch_Controller_9] with ID [26] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.017ms] [1] SC[589]: Registered sub-client [FFSSelListener] with ID [27] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.091ms] [1] SC[589]: Registered sub-client [SAE] with ID [28] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.095ms] [1] SC[589]: Registered sub-client [CCZAddin] with ID [29] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.099ms] [1] SC[589]: Registered sub-client [DxThumbnails] with ID [30] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.104ms] [1] SC[589]: Registered sub-client [MyParts] with ID [31] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.129ms] [1] SC[589]: Registered sub-client [PinsList] with ID [32] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.183ms] [1] SC[589]: Registered sub-client [DxSim] with ID [33] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.308ms] [1] SC[589]: Registered sub-client [toolboxes] with ID [34] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.324ms] [1] SC[589]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:688390488] with ID [35] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.329ms] [1] SC[589]: Registered sub-client [Core::DesignListener-241] with ID [36] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:38] [0000m.14s.540ms] [1] SC[589]: Registered sub-client [SheetConnectorsCacheDxD:1522930118] with ID [37] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.563ms] [1] SC[589]: Registered sub-client [NetsNamesCollectorDxD:1522930119] with ID [38] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.589ms] [1] SC[589]: Registered sub-client [PartReplaceUtils] with ID [39] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.592ms] [1] SC[589]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.764ms] [1] SC[589]: Registered sub-client [ObjectHolder_622218592] with ID [41] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.767ms] [1] SC[589]: Registered sub-client [BlockCacheDxD:686221728] with ID [42] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.770ms] [1] SC[589]: Registered sub-client [GlobalNetAliasUpdater_688069776] with ID [43] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:39] [0000m.14s.773ms] [1] SC[589]: Registered sub-client [IcdbNetProcessorSubClientDxD:631589728] with ID [44] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:40] [0000m.15s.879ms] [1] SC[589]: Registered sub-client [DxDbSearch] with ID [45] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:47] [0000m.22s.620ms] [1] SC[589]: UnRegistered sub-client [GlobalNetAliasUpdater_688069776] with ID [43] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:47] [0000m.22s.620ms] [1] SC[589]: UnRegistered sub-client [BlockCacheDxD:686221728] with ID [42] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:47] [0000m.22s.621ms] [1] SC[589]: UnRegistered sub-client [ObjectHolder_622218592] with ID [41] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:47] [0000m.22s.621ms] [1] SC[589]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:631589728] with ID [44] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:47] [0000m.23s.182ms] [0] DFAMT: File server access time: 50 us
+[2018.04.05 14:08:49] [0000m.24s.685ms] [1] SC[589]: Registered sub-client [ObjectHolder_622219216] with ID [46] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:49] [0000m.24s.688ms] [1] SC[589]: Registered sub-client [BlockCacheDxD:697571232] with ID [47] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:49] [0000m.24s.691ms] [1] SC[589]: Registered sub-client [GlobalNetAliasUpdater_622218800] with ID [48] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:08:49] [0000m.24s.693ms] [1] SC[589]: Registered sub-client [IcdbNetProcessorSubClientDxD:692840432] with ID [49] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 14:14:00] [0005m.35s.981ms] [0] IT: Session [590] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [14776] created
+[2018.04.05 14:14:00] [0005m.35s.989ms] [1] SC[590]: Registered sub-client [iCDBConnector] with ID [1] for session ID [590] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:00] [0005m.36s.016ms] [1] SC[590]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [590] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:00] [0005m.36s.019ms] [1] CMT: There are [2] clients now: 589, 590
+[2018.04.05 14:14:00] [0005m.36s.020ms] [1] CMT: Removed client [590]
+[2018.04.05 14:14:00] [0005m.36s.020ms] [1] CMT: There are [1] clients now: 589
+[2018.04.05 14:14:00] [0005m.36s.549ms] [0] IT: Session [591] for host [IITICUBWS042] user [AMura] client type[0] clsvrPluginID[0] with process ID [14776] created
+[2018.04.05 14:14:00] [0005m.36s.550ms] [1] SC[591]: Registered sub-client [PADSLayout] with ID [1] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:01] [0005m.36s.574ms] [1] SC[591]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:01] [0005m.36s.625ms] [1] CMT: There are [2] clients now: 589, 591
+[2018.04.05 14:14:02] [0005m.38s.079ms] [1] SC[591]: Registered sub-client [StartServerClient4dd0] with ID [3] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:02] [0005m.38s.079ms] [1] SC[591]: UnRegistered sub-client [StartServerClient4dd0] with ID [3] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:02] [0005m.38s.084ms] [1] SC[591]: Registered sub-client [StartServerClient4dd0] with ID [4] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:14:02] [0005m.38s.084ms] [1] SC[591]: UnRegistered sub-client [StartServerClient4dd0] with ID [4] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 14:34:00] [0025m.36s.405ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[14776] # SessionID[591] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.04.05 14:34:01] [0025m.36s.705ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[14776] # SessionID[591] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.04.05 15:05:40] [0057m.16s.089ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[14776] # SessionID[591] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.04.05 15:05:40] [0057m.16s.349ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS042] # ClientUserName[AMura] # ClientProcessID[14776] # SessionID[591] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.04.05 15:33:07] [0084m.43s.305ms] [1] SC[591]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 15:33:07] [0084m.43s.308ms] [1] SC[591]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [591] host [IITICUBWS042] user [AMura] process ID [14776]
+[2018.04.05 15:33:07] [0084m.43s.407ms] [1] CMT: Removed client [591]
+[2018.04.05 15:33:07] [0084m.43s.407ms] [1] CMT: There are [1] clients now: 589
+[2018.04.05 15:33:09] [0084m.45s.373ms] [1] SC[589]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.624ms] [1] SC[589]: UnRegistered sub-client [DesignSearcher2] with ID [9] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.761ms] [1] SC[589]: UnRegistered sub-client [GlobalNetAliasUpdater_622218800] with ID [48] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.761ms] [1] SC[589]: UnRegistered sub-client [BlockCacheDxD:697571232] with ID [47] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.761ms] [1] SC[589]: UnRegistered sub-client [ObjectHolder_622219216] with ID [46] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.761ms] [1] SC[589]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:692840432] with ID [49] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.783ms] [1] SC[589]: UnRegistered sub-client [Navigator] with ID [11] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.783ms] [1] SC[589]: UnRegistered sub-client [FFSSelListener] with ID [27] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.896ms] [1] SC[589]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.911ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_1] with ID [16] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.913ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_0] with ID [15] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.929ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_3] with ID [18] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.932ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_2] with ID [17] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.946ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_5] with ID [22] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.949ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_4] with ID [21] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.963ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_7] with ID [24] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.966ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_6] with ID [23] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.980ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_9] with ID [26] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.45s.983ms] [1] SC[589]: UnRegistered sub-client [FFSearch_Controller_8] with ID [25] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.46s.324ms] [1] SC[589]: UnRegistered sub-client [MyParts] with ID [31] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:10] [0084m.46s.325ms] [1] SC[589]: UnRegistered sub-client [toolboxes] with ID [34] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:11] [0084m.47s.424ms] [1] SC[589]: UnRegistered sub-client [SelectionHolder] with ID [6] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:11] [0084m.47s.424ms] [1] SC[589]: UnRegistered sub-client [PartReplaceUtils] with ID [39] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:11] [0084m.47s.424ms] [1] SC[589]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:11] [0084m.47s.425ms] [1] SC[589]: UnRegistered sub-client [Core::DesignListener-241] with ID [36] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.507ms] [1] SC[589]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:688390488] with ID [35] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.507ms] [1] SC[589]: UnRegistered sub-client [SheetConnectorsCacheDxD:1522930118] with ID [37] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.508ms] [1] SC[589]: UnRegistered sub-client [NetsNamesCollectorDxD:1522930119] with ID [38] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.509ms] [1] SC[589]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.509ms] [1] SC[589]: UnRegistered sub-client [DxD] with ID [1] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.515ms] [1] SC[589]: UnRegistered sub-client [xprob] with ID [3] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.516ms] [1] SC[589]: UnRegistered sub-client [SymbolEditor] with ID [5] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:12] [0084m.48s.522ms] [1] SC[589]: UnRegistered sub-client [OutputWindow] with ID [12] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:13] [0084m.48s.810ms] [1] SC[589]: UnRegistered sub-client [DxDbSearch] with ID [45] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:13] [0084m.48s.815ms] [1] SC[589]: UnRegistered sub-client [SAE] with ID [28] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:13] [0084m.48s.819ms] [1] SC[589]: UnRegistered sub-client [CCZAddin] with ID [29] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:13] [0084m.48s.819ms] [1] SC[589]: UnRegistered sub-client [DxThumbnails] with ID [30] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:13] [0084m.48s.828ms] [1] SC[589]: UnRegistered sub-client [DxSim] with ID [33] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:14] [0084m.49s.828ms] [1] SC[589]: UnRegistered sub-client [PinsList] with ID [32] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:14] [0084m.49s.872ms] [1] SC[589]: UnRegistered sub-client [PlaceDevice] with ID [13] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:14] [0084m.49s.912ms] [1] SC[589]: UnRegistered sub-client [HdlProject] with ID [10] for session ID [589] host [IITICUBWS042] user [AMura] process ID [14628]
+[2018.04.05 15:33:14] [0084m.49s.955ms] [1] CMT: Removed client [589]
+[2018.04.05 15:33:14] [0084m.49s.955ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.04.05 15:33:14] [0084m.49s.989ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.04.05 15:33:16] [0084m.51s.583ms] [0] CMT: Starting server auto-close
+[2018.04.05 15:33:16] [0084m.51s.620ms] [0] S: Closing server
+[2018.04.05 15:33:16] [0084m.51s.698ms] [0] iCDB Server PI: Closing plugins
+[2018.04.05 15:33:16] [0084m.51s.698ms] [0] iCDB Server PI: Plugins closed
+[2018.04.05 15:33:16] [0084m.51s.698ms] [0] iCDB Server PI: Unloading database
+[2018.04.05 15:33:16] [0084m.51s.698ms] [0] iCDB Server PI: Saving storage
+[2018.04.05 15:33:16] [0084m.51s.698ms] [0] iCDB Server PI: Closing database
+[2018.04.05 15:33:16] [0084m.51s.698ms] [1] Hole: zero line at 3858604 of size 40 bytes.
+[2018.04.05 15:33:16] [0084m.51s.727ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[7%] data[93%]
+[2018.04.05 15:33:16] [0084m.51s.727ms] [1] iCDB Server PI: Stats: Database file size [3858704 (3.7 MB)]
+[2018.04.05 15:33:16] [0084m.51s.727ms] [1] Hole: zero line at 3858604 of size 40 bytes.
+[2018.04.05 15:33:16] [0084m.51s.770ms] [0] iCDB Server PI: Database closed
+[2018.04.05 15:33:16] [0084m.51s.770ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [682] ticks
+[2018.04.05 15:33:16] [0084m.51s.770ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [210] microseconds
+[2018.04.05 15:33:16] [0084m.51s.770ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [11]
+[2018.04.05 15:33:16] [0084m.51s.770ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [52167] commands per second
+[2018.04.05 15:33:16] [0084m.51s.778ms] [0] Single file [D:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] closed with size [3858704 (3.7 MB)]
+[2018.04.05 15:33:16] [0084m.51s.850ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.04.05 15:33:16] [0084m.52s.045ms] [0] MWT: Destroy the shutdown block reason.
+[2018.04.05 15:33:16] [0084m.52s.048ms] [0] MWT: STOP
+[2018.04.05 15:33:16] [0084m.52s.049ms] [0] S: STOP

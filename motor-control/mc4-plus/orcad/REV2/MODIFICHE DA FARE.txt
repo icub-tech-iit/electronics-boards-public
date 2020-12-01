@@ -1,0 +1,17 @@
+Spostare la posizione dei led della rete.
+Cambiare i test point da bassi e tozzi ad alti e magri.
+Spostare il testpoint di GND dal centro verso uno dei due lati.
+Si potrebbe aggiungere un pin per spegnere il transceiver CAN...
+Spostare AN3 e AN4 su altri canali AD
+invertire SCK con NSEL nel connettore P10 eP11, non coerente con
+Cambiare la NET 5V con 5V+
+cambiare nome di SPI1 con SPI3 
+Aggiungere su MOT12_FAULT e MOT34_FAULT una resistenza da 1k ed un condensatore da 100nF 
+Aggiungere un pullup su I2C3_SDA e SCK. Non fondamentale ma aiuta.
+Lasciare tutte le vie scoperte dal resist.
+Controllare se i condensatori al tantallio stanno sulle piazzole attualmente usate per i ceramici stacked.
+
+
+
+
+

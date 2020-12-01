@@ -1,0 +1,57 @@
+SECTION DesignInfo
+LIST IndependentLibraries
+VALUE "DIR [W] . ()"
+ENDLIST
+KEY FrontEndSnapshot "DxD"
+KEY CentralLibrary ""
+KEY PinComponents ".\pintype.pin"
+KEY BorderSymbols ".\borders.ini"
+KEY DxD_Version "7.9"
+KEY HdlUtilsConfigFile "hdlutils.ini"
+KEY Bus_Contents ""
+KEY PropertyDefinitions "%SDD_HOME%\standard\netlist.prp"
+KEY LayoutID "PADS90"
+KEY CnsFileName ""
+KEY PcbCfgFileName ""
+ENDSECTION
+SECTION FlowSettings
+KEY FlowType "NETLIST"
+ENDSECTION
+SECTION iCDB
+LIST Designs
+VALUE "NEI2"
+ENDLIST
+KEY iCDBDir ".\database"
+KEY DedicatedServerName ""
+ENDSECTION
+SECTION NEI2
+KEY RootBlock "NEI2"
+KEY ConfigType "PCB"
+KEY ModelManagerDir "ICXPro\Local_Cache\Model_Manager"
+KEY ModelManagerProjPath "ICXPro"
+KEY SimControlDir "ICXPro\Simulation_Templates"
+KEY SchematicDesignStatus "0"
+KEY SchematicDesignBackAnno "0"
+KEY PCBForwardAnno "-1"
+KEY CADBackAnno "0"
+KEY UpdateJobPrefsDB "Sync"
+KEY SchematicConflict "FE"
+KEY LayoutTemplate "4 Layer Template"
+KEY AllowAlpha "0"
+KEY FwdAnnoExtractFlag "0"
+KEY UnusedPartsFlag "0"
+KEY FwdAnnoRebuildFlag "0"
+KEY DisableBackAnnoChanges "0"
+KEY FwdAnnoSchematicrefDesChanges "0"
+KEY FwdAnnoReplaceFlag "0"
+KEY FwdAnnoCleanBuildFlag "0"
+KEY SearchPathScheme "(Default)"
+ENDSECTION
+SECTION Template_Design
+KEY ConfigType "PCB"
+KEY SearchPathScheme "(Default)"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY CADBackAnno "0"
+KEY SchematicConflict "FE"
+ENDSECTION

@@ -1,0 +1,42 @@
+Note collaudo/validazione MAIS
+
+- Lo /SD del LT1616 non ha PU, cc pin4 con pin5        - FATTO
+- La figura schematica dell'ADG659 e`completamente errata (e`riferita al package qfp) - FATTO
+- led verde, giallo blu montati al rovescio
+- Tolte tutte le cose attaccate a AN6 ed AN7: array capacitivo C15, R13, R14 R10 erano 10K0 diventano 100R 
+- Tolti D1 e C14                                       - FATTO
+- il led blu non si riesce ad accendere a 3,3          - FATTO
+- la rete R19 e` in interferenza con la mais_fc deve essere spostata.
+- tolto D1 per programmazione                          - FATTO
+
+elenco delle modifiche a lista parti:
+C15 diventato NM
+D1  diventato NM
+C14 diventato NM
+R9  diventata NM
+R10 diventata NM
+R13 diventata 100R
+R14 diventata 100R
+U4  diventa NM
+
+Modifiche anciora da fare:
+trasformare il led BlU D6 in giallo                    - FATTO
+il led giallo diventa 0R0 o tolto per riconoscimento HW scheda (RF4) - FATTO
+
+nel caso che Il pannello mais_fc vada rifatto, si deve fare NON con scoring, e portare il rame a distanza almeno 0.2 dal bordo 
+
+---------------------------------------------------------
+Scheda MAIS revisione 1
+
+Rivedere al lista parti U4 non è montato, R10, R13, R14 non sono montate
+I diodi led sono tutti girati (e' sbagliata la fig. PCB)
+ 
+Per la prossima release cambiare i rapporti di partizione sugli ingressi:
+portare a 1K/2K che con ingresso 5V si ha un fondo scala 3.3V sui convertitori
+programmare il bootloader e quindi aggiungere i condensatori di filtro sui canali del dito anulare 
+cambiare il corcuito dei segnali per la programmazione (mettere una Rserie al segnale analogico abbastanza alta)
+cambiare il valore dei filtri di ingresso da 1.5KHz a 150Hz quindi:
+  le reti che erano 1K diventano 10K 
+  le reti che erano 1.5K diventano 27K  
+cambiare il codice del led blu in rosso e cambiare i led su tutte le schede
+inserire a lista parti R25 120R e montarla su tutte le schede

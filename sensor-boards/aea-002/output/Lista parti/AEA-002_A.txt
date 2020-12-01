@@ -1,0 +1,25 @@
+
+3791 AEA-002, IIT - Electronic board, 12-bit digital absolute encoder with spi interface, power supply 5V/3.3V   Revised: Thursday, June 16, 2011
+AEA-002_A.txt         Revision: A
+
+Istituto Italiano di Tecnologia
+via Morego, 30
+16163 - Genova
+
+Bill Of Materials           June 16,2011      12:03:44	Page1
+
+Item	Quantity	Reference	Value	IITCODE	Rev
+______________________________________________
+
+1	1	C1	100nF	1035	
+2	1	C2	10uF	479	
+3	2	C3,C4	100pF	1036	
+4	1	FB1	BLA2ABD601SN4	1119	
+5	4	H1,H2,H3,H4	H1.6	NM	
+6	1	J1	SOLDERLAND	NM	
+7	1	PCB1	AEA-002	3792	
+8	2	R1,R2	0R	1080	
+9	1	R3	0R	NM	
+10	1	U1	AS5045	3795	
+
+

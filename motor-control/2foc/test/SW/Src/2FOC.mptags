@@ -1,0 +1,542 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADCBuffer	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	70;"	v	line:70
+ADCCalFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	24;"	m	line:24	struct:uSysError::<anonymous>
+ADCConfigPWMandDMAMode	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	103;"	f	line:103
+ADCConfigureRegistersForSyncRead	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	181;"	f	line:181
+ADCGetVDCLink	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	50;"	f	line:50
+ADCGetVDCLink	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	26;"	p	line:26	signature:()
+ADCInterruptAndDMADisable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	39;"	f	line:39	signature:(void)
+ADCInterruptAndDMADisable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	34;"	p	line:34	signature:()
+ADCInterruptAndDMAEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	20;"	f	line:20	signature:(void)
+ADCInterruptAndDMAEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	33;"	p	line:33	signature:()
+ADCRead	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	326;"	f	line:326	signature:(unsigned int *vdc, int *i1, int *i2)
+ADCRead	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	35;"	p	line:35	signature:(unsigned int *vdc, int *i1, int *i2)
+ADCReadFast	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	225;"	f	line:225	signature:(int *i1, int *i2)
+ADCReadFast	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	36;"	p	line:36	signature:(int *i1, int *i2)
+ADCTo10bit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	56;"	f	line:56	signature:(SFRAC16 adc)
+ADCTo10bit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	29;"	p	line:29	signature:(SFRAC16 vadc)
+ADCVDCLinkTo100mV	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	71;"	f	line:71	signature:(SFRAC16 vadc)
+ADCVDCLinkTo100mV	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	28;"	p	line:28	signature:(SFRAC16 tmp)
+ADCVal1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	228;"	l	line:228
+ADCVal1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	334;"	l	line:334
+ADCVal2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	229;"	l	line:229
+ADCVal2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	335;"	l	line:335
+ADCVdc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	333;"	l	line:333
+ADC_CAL_N_SAMPLES::200	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	14;"	d	line:14
+ADC_CAL_TIMEOUT::1000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	17;"	d	line:17
+ADC_NUM_MEAN::20	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	476;"	d	line:476	file:
+ADC_VDCLINK_ALLEGRO_MIN_THRESHOLD::120	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	18;"	d	line:18	file:
+AS5045CSumError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	49;"	m	line:49	struct:uSysError::<anonymous>
+AS5045CalcError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	50;"	m	line:50	struct:uSysError::<anonymous>
+ActuateMuxLed	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	17;"	f	line:17
+B	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	53;"	m	line:53
+BITRATE::1000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	12;"	d	line:12
+BLINKRATE_FAST::30	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	115;"	d	line:115
+BLINKRATE_NORMAL::150	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	116;"	d	line:116
+BLINKRATE_OFF::0xffff	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	120;"	d	line:120
+BLINKRATE_SLOW::400	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	117;"	d	line:117
+BLINKRATE_STILL::0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	119;"	d	line:119
+BLINKRATE_ULTRAFAST::10	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	114;"	d	line:114
+BLINKRATE_ULTRASLOW::800	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	118;"	d	line:118
+BRP_VAL::((FCAN/(2*NTQ*BITRATE))-1)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	14;"	d	line:14
+BUTPOLLOOPCNT::(unsignedint)(BUTPOLLOOPTIME/L	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	78;"	d	line:78
+BWRP_WRPROTECT_OFF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	52;"	v	line:52
+BYTE	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	6;"	t	line:6
+BlinkLed	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	44;"	f	line:44
+CANFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	26;"	m	line:26	struct:uSysError::<anonymous>
+CAN_BUF_EMPTY::0x06	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	26;"	d	line:26
+CAN_BUF_FULL::0x05	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	25;"	d	line:25
+CAN_BufferOverRun	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	72;"	m	line:72
+CAN_BusOff	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	73;"	m	line:73
+CAN_CMD_BOARD_FAULT::0x83	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	10;"	d	line:10
+CAN_CMD_BOARD_STATUS::0x82	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	8;"	d	line:8
+CAN_CMD_FAULT_INFO::0x17	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	39;"	d	line:39
+CAN_CMD_FW_VERSION::0x14	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	33;"	d	line:33
+CAN_CMD_GPIO_DIR::0x31	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	44;"	d	line:44
+CAN_CMD_GPIO_PORT::0x30	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	43;"	d	line:43
+CAN_CMD_HW_VERSION::0x15	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	35;"	d	line:35
+CAN_CMD_LED::0x32	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	45;"	d	line:45
+CAN_CMD_OVERCURRENT::0x33	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	46;"	d	line:46
+CAN_CMD_PERIODIC::0x81	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	6;"	d	line:6
+CAN_CMD_PERIODIC_COMMAND_CONTENTS::0x12	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	30;"	d	line:30
+CAN_CMD_READ_I::0x35	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	48;"	d	line:48
+CAN_CMD_READ_VDC::0x34	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	47;"	d	line:47
+CAN_CMD_SILICON_VERSION::0x16	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	37;"	d	line:37
+CAN_CMD_TEST_PWM_CURRENT::0x38	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	51;"	d	line:51
+CAN_CMD_TEST_PWM_CURRENT_WIRED::0x40	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	53;"	d	line:53
+CAN_CMD_TEST_PWM_CYCLE::0x37	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	50;"	d	line:50
+CAN_CMD_TEST_PWM_PDN::0x36	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	49;"	d	line:49
+CAN_CMD_TEST_PWM_PROTECTION::0x39	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	52;"	d	line:52
+CAN_DLCError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	77;"	m	line:77
+CAN_DS402_INVALID_STATUS_CHANGE::0x05	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	66;"	d	line:66
+CAN_ERROR_COMMAND_IN_INVALID_STATE::0x07	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	70;"	d	line:70
+CAN_ERROR_INCORRECT_NUMBER_OF_PARAMETERS::0x01	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	58;"	d	line:58
+CAN_ERROR_PARAMETER_OUT_OF_RANGE::0x06	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	68;"	d	line:68
+CAN_ERROR_READ_ONLY_DATA::0x04	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	64;"	d	line:64
+CAN_ERROR_UNKNOWN_COMMAND::0x02	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	60;"	d	line:60
+CAN_ERROR_WRITE_ONLY_DATA::0x03	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	62;"	d	line:62
+CAN_FILTERMASK2REG_EID0::(x)(x&0xFFFF)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	57;"	d	line:57
+CAN_FILTERMASK2REG_EID1::(x)(((x&0x1FFC)<<3)|(x&0x3))	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	58;"	d	line:58
+CAN_FILTERMASK2REG_SID::(x)((x&0x07FF)<<5)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	43;"	d	line:43
+CAN_FILTERSTD::(sid)(sid&0xFFF7)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	51;"	d	line:51
+CAN_FILTERXTD::(sid)(sid|0x0008)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	48;"	d	line:48
+CAN_FRAME_EXT::0x03	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	23;"	d	line:23
+CAN_FRAME_STD::0x04	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	24;"	d	line:24
+CAN_ID::0xd	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	42;"	d	line:42	file:
+CAN_MSG_DATA::0x01	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	21;"	d	line:21
+CAN_MSG_RTR::0x02	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	22;"	d	line:22
+CAN_OUTPUT_DATARATE::(float)2.0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	83;"	d	line:83
+CAN_PROTO_CMDBOARDADD_MASK::0x0F000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	43;"	d	line:43
+CAN_PROTO_CMDBOARDADD_SHIFT::24	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	45;"	d	line:45
+CAN_PROTO_CMDGET_SET::(0x10000000)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	31;"	d	line:31
+CAN_PROTO_CMDNUM_MASK::(0xff)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	32;"	d	line:32
+CAN_PROTO_CMDUNUSED_MASK::0x00FFFF00	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	39;"	d	line:39
+CAN_PROTO_CMDVALUE_UNUSED::0x00FFFF00	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	35;"	d	line:35
+CAN_PROTO_CMD_ERROR::0xff	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	67;"	d	line:67
+CAN_PROTO_CMD_RESPONSE::0xfe	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	65;"	d	line:65
+CAN_PROTO_ERROR_COMMAND_NOT_INPLEMENTED::0x05	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	82;"	d	line:82
+CAN_PROTO_ERROR_INCORRECT_NUMBER_OF_PARAMETERS::0x01	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	74;"	d	line:74
+CAN_PROTO_ERROR_PARAM_OUT_OF_RANGE::0x04	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	80;"	d	line:80
+CAN_PROTO_ERROR_READ_WRITE_ONLY_DATA::0x06	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	84;"	d	line:84
+CAN_PROTO_ERROR_UNKNOWN_COMMAND::0x02	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	76;"	d	line:76
+CAN_PROTO_ERROR_WRITE_READ_ONLY_DATA::0x03	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	78;"	d	line:78
+CAN_PROTO_ID_CMD::(rxid)(rxid&CAN_PROTO_CMDNUM_M	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	95;"	d	line:95
+CAN_PROTO_ID_ISEXTENDED::(rxid)(!!(rxid&ECAN_ID_29))	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	93;"	d	line:93
+CAN_PROTO_ID_ISGET::(rxid)(!!(rxid&CAN_PROTO_CMDGE	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	94;"	d	line:94
+CAN_PROTO_ID_MAKE_RX	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	50;"	p	line:50	file:
+CAN_PROTO_ID_MAKE_RX::(bid)(ECAN_ID_29|CAN_PROTO_CMD	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	90;"	d	line:90
+CAN_PROTO_ID_MAKE_TX::(bid,cmd)(ECAN_ID_29|CAN_PROTO	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	89;"	d	line:89
+CAN_PROTO_ID_RX_MASK	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	50;"	l	line:50
+CAN_PROTO_ID_RX_MASK::(CAN_PROTO_CMDVALUE_UNUSED|CAN	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	91;"	d	line:91
+CAN_PROTO_TX_CMDVALUE_UNUSED::0x00FFFF00	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	60;"	d	line:60
+CAN_RTRFlagActive	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	71;"	m	line:71
+CAN_RXPasv	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	75;"	m	line:75
+CAN_SETMIDE::(sid)(sid|0x0008)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	45;"	d	line:45
+CAN_STATUS_MSG_PERIOD::1000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	85;"	d	line:85
+CAN_TXPasv	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	74;"	m	line:74
+CAN_Warn	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	76;"	m	line:76
+CalcRefVec	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	46;"	p	line:46	signature:( void )
+CalcSVGen	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	47;"	p	line:47	signature:( void )
+CanErrors	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	43;"	v	line:43
+CanProtoInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	41;"	f	line:41	signature:(unsigned char bid)
+CanProtoInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	100;"	p	line:100	signature:(unsigned char bid)
+CanProtoParserInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	20;"	f	line:20	signature:(unsigned char bid)
+CanProtoParserInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	87;"	p	line:87	signature:(unsigned char bid)
+CanProtoParserParse	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	25;"	f	line:25	signature:(unsigned long rxid, unsigned char rxlen, tCanData *rxpayload)
+CanProtoParserParse	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	86;"	p	line:86	signature:(unsigned long rxid, unsigned char rxlen, tCanData *rxpayload)
+CanProtoSendResponse	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	30;"	f	line:30	signature:(unsigned char bid, unsigned char len, tCanData *respdata)
+CanProtoSendResponse	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	97;"	p	line:97	signature:(unsigned char bid, unsigned char len, tCanData *errordata)
+CanProtoTransmitterInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	14;"	f	line:14	signature:(unsigned char bid)
+CanProtoTransmitterInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	14;"	p	line:14	signature:(unsigned char bid)
+CanProtoTxAck	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	21;"	f	line:21	signature:(unsigned char bid)
+CanProtoTxAck	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	98;"	p	line:98	signature:(unsigned char bid)
+CanProtoTxErrorCode	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	11;"	f	line:11	signature:(unsigned char bid, unsigned char len, tCanData *errordata)
+CanProtoTxErrorCode	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	99;"	p	line:99	signature:(unsigned char bid, unsigned char len, tCanData *errordata)
+CorrectPhase	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	48;"	p	line:48	signature:( void )
+CurrentRampDOWNComplete	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	66;"	m	line:66
+CurrentRampDOWNInProgress	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	63;"	m	line:63
+CurrentRampUPComplete	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	65;"	m	line:65
+CurrentRampUPInProgress	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	62;"	m	line:62
+Current_position	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	95;"	v	line:95
+DDEADTIME::(unsignedint)(DEADTIMESEC*DFCY	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	67;"	d	line:67
+DEADTIMESEC::0.00000015	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	70;"	d	line:70
+DELTA_STARTUP_RAMP::(unsignedint)(MINSPEEDINRPM*PO	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	76;"	d	line:76
+DESIREDMIPS::40000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	94;"	d	line:94
+DFCY::(FOSC/2)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	64;"	d	line:64
+DLC	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	25;"	m	line:25	file:
+DOWN::0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	16;"	d	line:16
+DPLL::(unsignedint)(2.0*DESIREDMIPS/	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	62;"	d	line:62
+DQKA::Q15(1.0)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	46;"	d	line:46
+DQKB::Q15(-1.0)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	48;"	d	line:48
+DQKB::Q15(-1.0)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	50;"	d	line:50
+DQKC::Q15(1.0)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	53;"	d	line:53
+DS402_Controlword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	80;"	v	line:80
+DS402_Statusword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	84;"	v	line:84
+DTCY::(1.0/DFCY)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	65;"	d	line:65
+DW	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	55;"	m	line:55
+ECAN1RXMSGBUF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	54;"	t	line:54	file:
+ECAN1TXMSGBUF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	55;"	t	line:55	file:
+ECAN1_MSG_BUF_LENGTH::8	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	18;"	d	line:18
+ECANClkInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	63;"	f	line:63	signature:(void)
+ECANDma1Init	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	212;"	f	line:212	signature:(void)
+ECANDma2Init	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	232;"	f	line:232	signature:(void)
+ECANInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	436;"	f	line:436	signature:(void (*RxCb)(unsigned long id, unsigned char len, tCanData *payload))
+ECANInit	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	82;"	p	line:82	signature:(void (*RxCb)(unsigned long id, unsigned char len, tCanData *payload))
+ECANPrepareTxBuffer	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	499;"	f	line:499	signature:(tCANMessage *CANTxMessage, unsigned long id, unsigned char len, tCanData *payload)
+ECANRxCb	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	60;"	v	line:60
+ECANRxFilterAdd	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	252;"	f	line:252	signature:(unsigned long id, unsigned long mask)
+ECANRxFilterAdd	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	84;"	p	line:84	signature:(unsigned long id, unsigned long mask)
+ECANSend	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	530;"	f	line:530	signature:(unsigned long id, unsigned char len, tCanData *payload)
+ECANSend	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	83;"	p	line:83	signature:(unsigned long id, unsigned char len,tCanData *payload)
+ECANStart	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	367;"	f	line:367
+ECANStart	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	85;"	p	line:85	signature:()
+ECANWriteRxAcptFilter	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	152;"	f	line:152	signature:( int n, long identifier, unsigned int exide, unsigned int bufPnt, unsigned int maskSel )
+ECANWriteRxAcptMask	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	94;"	f	line:94	signature:( int m, long identifier, unsigned int mide, unsigned int exide )
+ECAN_ID_29::0x80000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	30;"	d	line:30
+EID0to5	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	30;"	m	line:30	file:
+EID6to17	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	22;"	m	line:22	file:
+ELEMENTS_IN_PREIODIC_DATA_LIST::0x28	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	97;"	d	line:97
+EMUROMCRCFault	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	41;"	m	line:41	struct:uSysError::<anonymous>
+EMUROMFault	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	39;"	m	line:39	struct:uSysError::<anonymous>
+ENABLE_OVER_CURRENT_PROTECTION	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	56;"	d	line:56
+EepromLoad	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	48;"	p	line:48	signature:()
+EepromSave	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	47;"	p	line:47	signature:()
+EnDeadTComp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	47;"	m	line:47
+EnVoltRipComp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	45;"	m	line:45
+EnableI2T	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	39;"	m	line:39
+EnableOperation	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	23;"	m	line:23	struct:uControlword::<anonymous>
+EnableOverSpeed	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	43;"	m	line:43
+EnableOverVoltage	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	41;"	m	line:41
+EnableVoltage	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	19;"	m	line:19	struct:uControlword::<anonymous>
+EncoderFault	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	44;"	m	line:44	struct:uSysError::<anonymous>
+ExternaFaultIsAsserted::(0)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	85;"	d	line:85
+ExternaFaultIsAsserted::(PORTA&(1<<3))	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	83;"	d	line:83
+ExternalFaultAsserted	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	36;"	m	line:36	struct:uSysError::<anonymous>
+ExternalFaultEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	188;"	f	line:188
+ExternalFaultEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	43;"	p	line:43	signature:()
+FCAN::40000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	11;"	d	line:11
+FILHIT	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	37;"	m	line:37	file:
+FIRMWARE_REVISION_STRING::"2.0"	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	19;"	d	line:19
+FNOSC_FRC	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	62;"	v	line:62
+FOSC::(PLLIN*DPLL)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	63;"	d	line:63
+FPWRT_PWR128	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	74;"	v	line:74
+FWDTEN_OFF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	68;"	v	line:68
+False::0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	10;"	d	line:10
+Fault	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	60;"	m	line:60	struct:uStatusword::<anonymous>
+FaultConditionsHandler	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.c	18;"	f	line:18	signature:(void)
+FaultConditionsHandler	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	73;"	p	line:73	signature:(void)
+FaultExternalTriggered	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.c	52;"	f	line:52
+FaultExternalTriggered	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	75;"	p	line:75	signature:()
+FaultReset	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	27;"	m	line:27	struct:uControlword::<anonymous>
+FaultReset	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.c	9;"	f	line:9	signature:(void)
+FaultReset	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	74;"	p	line:74	signature:(void)
+FirmwarePWMFatalError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	54;"	m	line:54	struct:uSysError::<anonymous>
+FirmwarePWMTimingErrorCount	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	66;"	m	line:66	struct:uSysError::<anonymous>
+FirmwareSPITimingError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	47;"	m	line:47	struct:uSysError::<anonymous>
+Flags	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	34;"	m	line:34	union:uControlword
+Flags	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	97;"	m	line:97	union:uStatusword
+GSS_OFF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	58;"	v	line:58
+Green	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	18;"	m	line:18
+GreenBlinkRate	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	21;"	m	line:21
+GreenCounter	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	47;"	l	line:47	file:
+Gulp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	47;"	v	line:47
+HARDWARE_REVISION_4	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	24;"	d	line:24
+HARDWARE_REVISION_STRING::"3.0"	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	30;"	d	line:30
+HARDWARE_REVISION_STRING::"4.0"	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	28;"	d	line:28
+HARDWARE_REVISION_STRING::"???"	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	32;"	d	line:32
+HESInvalidSequence	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	22;"	m	line:22	struct:uSysError::<anonymous>
+HESInvalidValue	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	20;"	m	line:20	struct:uSysError::<anonymous>
+Halt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	29;"	m	line:29	struct:uControlword::<anonymous>
+I2TFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	34;"	m	line:34	struct:uSysError::<anonymous>
+IDE	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	17;"	m	line:17	file:
+IRP_PERCALC::(unsignedint)(SPEEDLOOPTIME/LO	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	70;"	d	line:70
+InitialRotorAlignmentComplete	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	60;"	m	line:60
+InitialRotorAlignmentInProgress	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	58;"	m	line:58
+InternalLimitActive	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	92;"	m	line:92	struct:uStatusword::<anonymous>
+InterruptPriorityConfig	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	253;"	f	line:253	signature:( void )
+InterruptPriorityConfig	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	45;"	p	line:45	signature:( void )
+JTAGEN_OFF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	77;"	v	line:77
+LED_GREEN_OFF::LED_status&=0xFE	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	110;"	d	line:110
+LED_GREEN_ON::LED_status|=0x01	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	108;"	d	line:108
+LED_YELLOW_OFF::LED_status&=0xFD	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	111;"	d	line:111
+LED_YELLOW_ON::LED_status|=0x02	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	109;"	d	line:109
+LED_status	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	40;"	v	line:40
+LOCKTIME::(unsignedint)(LOCKTIMEINSEC*(1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	73;"	d	line:73
+LOOPINTCY::(LOOPTIMEINSEC/DTCY)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	72;"	d	line:72
+LOOPTIMEINSEC::(1.0/PWMFREQUENCY)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	68;"	d	line:68
+LoopRunning	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	31;"	m	line:31
+MAX_RX_INT::5	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	8;"	d	line:8
+MIN::(a,b)((a>b)?b:a)	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	4;"	d	line:4
+ManufacturerSpecific	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	33;"	m	line:33	struct:uControlword::<anonymous>
+ManufacturerSpecific	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	80;"	m	line:80	struct:uStatusword::<anonymous>
+ManufacturerSpecific_	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	96;"	m	line:96	struct:uStatusword::<anonymous>
+MaxIisInitialized	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	53;"	m	line:53
+MaxOmegaisInitialized	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	54;"	m	line:54
+MaxTorqueisInitialized	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	55;"	m	line:55
+MeasAndCompIaIb	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	50;"	p	line:50	signature:()
+MeasAndCompIaIcCalculateIb	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	49;"	p	line:49	signature:()
+MeasCurr_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	34;"	d	line:34
+NTQ::20	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	13;"	d	line:13
+NULL::0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	8;"	d	line:8	file:
+OFF::0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	13;"	d	line:13
+ON::1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	12;"	d	line:12
+OVERVOLTAGE_THRESHOLD::600	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	62;"	d	line:62
+Offseta	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	41;"	m	line:41
+Offsetbc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	44;"	m	line:44
+OpenLoop	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	20;"	m	line:20
+OperationEnabled	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	55;"	m	line:55	struct:uStatusword::<anonymous>
+OperationModeSpecific	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	25;"	m	line:25	struct:uControlword::<anonymous>
+OperationModeSpecific	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	94;"	m	line:94	struct:uStatusword::<anonymous>
+OverCurrentFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	32;"	m	line:32	struct:uSysError::<anonymous>
+OverCurrentFaultEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	199;"	f	line:199
+OverCurrentFaultEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	44;"	p	line:44	signature:()
+OverVoltageFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	28;"	m	line:28	struct:uSysError::<anonymous>
+PIDisInitialized	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	52;"	m	line:52
+PIN_RA3_IS_DEBUG	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	38;"	d	line:38
+PLLIN::10000000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	93;"	d	line:93
+PWMChargeBoot	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	377;"	f	line:377	signature:(tPWMMOS m)
+PWMCycle	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	285;"	f	line:285	signature:(int e, int l)
+PWMCycle	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	16;"	p	line:16	signature:(int e, int l)
+PWMDisable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	81;"	f	line:81
+PWMDisable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	13;"	p	line:13	signature:(void)
+PWMEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	95;"	f	line:95
+PWMEnable	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	14;"	p	line:14	signature:(void)
+PWMEnableMos	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	206;"	f	line:206	signature:(tPWMMOS m, int e)
+PWMFREQUENCY::20000	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	69;"	d	line:69
+PWMGetState	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	279;"	f	line:279	signature:(int *e, int *l)
+PWMGetState	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	17;"	p	line:17	signature:(int *e, int *l)
+PWMMOS_XH	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	23;"	e	line:23
+PWMMOS_XL	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	22;"	e	line:22
+PWMMOS_YH	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	25;"	e	line:25
+PWMMOS_YL	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	24;"	e	line:24
+PWMMOS_ZH	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	27;"	e	line:27
+PWMMOS_ZL	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	26;"	e	line:26
+PWMManualMode	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	169;"	f	line:169
+PWMSAFETIME::50	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	77;"	d	line:77
+PWMTestCurrent	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	543;"	f	line:543	signature:(int wired,int *resI1, int *resI2, int th, int tl)
+PWMTestCurrent	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	18;"	p	line:18	signature:(int wired, int *resI1, int *resI2, int th, int tl)
+PWMTestCurrentMosPair	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	478;"	f	line:478	signature:(int mosl, int mosh, int *i1_, int *i2_)
+PWMTestPDN	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	239;"	f	line:239
+PWMTestPDN	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	15;"	p	line:15	signature:(void)
+PWMTestPinPDN	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	123;"	f	line:123	signature:(int pin)
+PWMTestProtection	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	435;"	f	line:435
+PWMTestProtection	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	19;"	p	line:19	signature:()
+PWMWait	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	365;"	f	line:365
+PWM_BOOT_TIME::3	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	475;"	d	line:475	file:
+PWM_TEST_IH_THRESH::2399	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	21;"	d	line:21	file:
+PWM_TEST_IH_THRESH_WIRE::15732	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	27;"	d	line:27	file:
+PWM_TEST_IL_THRESH::1875	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	20;"	d	line:20	file:
+PWM_TEST_IL_THRESH_WIRE::10488	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	28;"	d	line:28	file:
+PWM_TEST_VDCH_THRESH::375	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	32;"	d	line:32	file:
+PWM_TEST_VDCH_THRESH_WIRE::215	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	36;"	d	line:36	file:
+PWM_TEST_VDCL_THRESH::345	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	31;"	d	line:31	file:
+PWM_TEST_VDCL_THRESH_WIRE::185	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	35;"	d	line:35	file:
+PWM_is_disabled	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	33;"	m	line:33
+ParkParm	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	24;"	v	line:24
+PeriodicData	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	106;"	v	line:106
+PeriodicMessageContents	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	49;"	v	line:49
+PositionControl	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	26;"	m	line:26
+Previous_position	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	97;"	v	line:97
+QuickStop	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	21;"	m	line:21	struct:uControlword::<anonymous>
+QuickStop	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	70;"	m	line:70	struct:uStatusword::<anonymous>
+RB0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	26;"	m	line:26	file:
+RB1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	28;"	m	line:28	file:
+RTR	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	29;"	m	line:29	file:
+ReadyToSwitchOn	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	46;"	m	line:46	struct:uStatusword::<anonymous>
+Red	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	17;"	m	line:17
+RedBlinkRate	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	20;"	m	line:20
+RedCounter	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	47;"	l	line:47	file:
+Remote	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	86;"	m	line:86	struct:uStatusword::<anonymous>
+Reserved	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	31;"	m	line:31	struct:uControlword::<anonymous>
+SFRAC16	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	4;"	t	line:4
+SID	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	19;"	m	line:19	file:
+SPEEDLOOPTIME::(float)(1.0/W_COMPLEX_CALCULAT	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	71;"	d	line:71
+SPI_SS::PORTBbits.RB1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	105;"	d	line:105
+SPI_SS::PORTBbits.RB8	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	103;"	d	line:103
+SRR	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	18;"	m	line:18	file:
+SVGen_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	34;"	d	line:34
+SWRP_WRPROTECT_OFF	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	55;"	v	line:55
+SetupHWParameters	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	208;"	f	line:208	signature:(void)
+SetupHWParameters	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	46;"	p	line:46	signature:(void)
+SetupPWM	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	47;"	f	line:47	signature:(void)
+SetupPWM	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	12;"	p	line:12	signature:(void)
+SetupPorts	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	323;"	f	line:323	signature:( void )
+SetupPorts	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	25;"	p	line:25	signature:( void )
+Slot	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	21;"	l	line:21	file:
+SpeedControl	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	24;"	m	line:24
+SwitchOn	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	17;"	m	line:17	struct:uControlword::<anonymous>
+SwitchOnDisabled	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	75;"	m	line:75	struct:uStatusword::<anonymous>
+SwitchedOn	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	50;"	m	line:50	struct:uStatusword::<anonymous>
+SysError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	27;"	v	line:27
+SysStatus	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	37;"	v	line:37
+TEST_OVERCURR_NUM::20	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	11;"	d	line:11	file:
+TOT	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	227;"	l	line:227
+TOT	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	332;"	l	line:332
+TWOFOC_FW_VERSION	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	44;"	v	line:44
+TWOFOC_HW_VERSION	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	45;"	v	line:45
+TargetReached	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	90;"	m	line:90	struct:uStatusword::<anonymous>
+TestPort	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	206;"	f	line:206	signature:(int command_get, int *command_ok, unsigned char *txlen, tCanData *txpayload, unsigned char rxlen, tCanData *rxpayload)
+TestReadOvercurr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	14;"	f	line:14
+TestTris	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	30;"	f	line:30	signature:(int command_get, int *command_ok, unsigned char *txlen, tCanData *txpayload, unsigned char rxlen, tCanData *rxpayload)
+Timer1Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	132;"	f	line:132
+Timer1Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	39;"	p	line:39	signature:()
+Timer2Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	40;"	p	line:40	signature:()
+Timer3Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	41;"	p	line:41	signature:()
+Timer4Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	143;"	f	line:143
+Timer4Config	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	42;"	p	line:42	signature:()
+TorqueControl	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	22;"	m	line:22
+TorqueSensorLoop	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	28;"	m	line:28
+True::1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	9;"	d	line:9
+TurnOffLed::{;}	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	98;"	d	line:98
+TurnOffLed::{TRISAbits.TRISA4=1;}	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	93;"	d	line:93
+TurnOnLedGreen::{;}	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	96;"	d	line:96
+TurnOnLedGreen::{TRISAbits.TRISA4=0;PORTAbits.	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	91;"	d	line:91
+TurnOnLedRed::{;}	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	97;"	d	line:97
+TurnOnLedRed::{TRISAbits.TRISA4=0;PORTAbits.	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	92;"	d	line:92
+UNDERVOLTAGE_THRESHOLD::100	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	60;"	d	line:60
+UP::1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	15;"	d	line:15
+UnderVoltageFailure	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	30;"	m	line:30	struct:uSysError::<anonymous>
+UserParms_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserParms.h	16;"	d	line:16
+VoltageEnabled	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	62;"	m	line:62	struct:uStatusword::<anonymous>
+W	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	36;"	m	line:36	union:uControlword
+W	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	99;"	m	line:99	union:uStatusword
+W	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	69;"	m	line:69	union:uSysError
+W	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	54;"	m	line:54
+Warning	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	78;"	m	line:78	struct:uStatusword::<anonymous>
+Zero	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	100;"	v	line:100
+_AddressError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	74;"	f	line:74	signature:(void)
+_AltAddressError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	110;"	f	line:110	signature:(void)
+_AltMathError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	124;"	f	line:124	signature:(void)
+_AltOscillatorFail	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	103;"	f	line:103	signature:(void)
+_AltStackError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	117;"	f	line:117	signature:(void)
+_C1Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	469;"	f	line:469	signature:(void)
+_DMA0Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	86;"	f	line:86	signature:(void)
+_DMA1Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	463;"	f	line:463	signature:(void)
+_DMA2Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	667;"	f	line:667	signature:(void)
+_FLTA1Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.c	34;"	f	line:34	signature:(void)
+_MathError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	88;"	f	line:88	signature:(void)
+_OscillatorFail	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	67;"	f	line:67	signature:(void)
+_StackError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	81;"	f	line:81	signature:(void)
+_T1Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	116;"	f	line:116	signature:(void)
+_T4Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	19;"	f	line:19	signature:(void)
+_T4Interrupt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	15;"	p	line:15	signature:(void)
+__ADC_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.h	8;"	d	line:8
+__CANPROTOTRANSMITTER_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.h	2;"	d	line:2
+__CAN_PROTO_PROTO_H_	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.h	2;"	d	line:2
+__DS402_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	6;"	d	line:6
+__FAULTS_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	6;"	d	line:6
+__GLOBALS_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	9;"	d	line:9
+__PARSER_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.h	3;"	d	line:3
+__PWM_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	8;"	d	line:8
+__STATUS_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	6;"	d	line:6
+__System_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	6;"	d	line:6
+__TYPES_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	2;"	d	line:2
+__ecan_H	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	2;"	d	line:2
+_trapISR::__attribute__((interrupt,no_au	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\traps.c	60;"	d	line:60	file:
+b	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	70;"	m	line:70	union:uSysError
+b	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	69;"	m	line:69
+b	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	65;"	m	line:65
+bool	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\UserTypes.h	7;"	t	line:7
+bufPntRegAddr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	169;"	l	line:169
+buffer	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	674;"	l	line:674
+candata	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	25;"	l	line:25	file:
+canprotoparser_bid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	18;"	v	line:18	file:
+canprototransmitter_bid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	10;"	v	line:10	file:
+command_get	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	31;"	l	line:31
+command_ok	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	29;"	l	line:29
+count	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	675;"	l	line:675
+data	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	33;"	m	line:33	file:
+data	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	680;"	l	line:680
+devrev	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	341;"	l	line:341
+e	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	41;"	m	line:41	struct:tPwmState	file:
+e	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	55;"	l	line:55
+ecan1MsgBufRx	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	58;"	v	line:58
+ecan1MsgBufTx	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	57;"	v	line:57
+ecanprio	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	535;"	l	line:535	file:
+eid15_0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	113;"	l	line:113
+eid15_0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	168;"	l	line:168
+eid17_16	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	113;"	l	line:113
+eid17_16	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	168;"	l	line:168
+fltEnRegAddr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	169;"	l	line:169
+gulp_update_request	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	55;"	v	line:55
+hval	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	129;"	l	line:129
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	332;"	l	line:332
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	126;"	l	line:126
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	367;"	l	line:367
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	379;"	l	line:379
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	437;"	l	line:437
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	481;"	l	line:481
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	549;"	l	line:549
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	258;"	l	line:258
+i	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	16;"	l	line:16
+i1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	480;"	l	line:480
+i1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	547;"	l	line:547
+i1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	33;"	l	line:33
+i2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	480;"	l	line:480
+i2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	547;"	l	line:547
+i2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	33;"	l	line:33
+iPWMPeriod	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	38;"	m	line:38
+id	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	677;"	l	line:677
+id_idx	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	256;"	l	line:256	file:
+initECAN	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	39;"	p	line:39	file:
+io1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	546;"	l	line:546
+io2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	546;"	l	line:546
+j	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	481;"	l	line:481
+j	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	549;"	l	line:549
+l	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	42;"	m	line:42	struct:tPwmState	file:
+l	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	55;"	l	line:55
+len	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	24;"	l	line:24
+len	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	679;"	l	line:679
+main	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\2FOC.c	170;"	f	line:170	signature:( void )
+mask	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	128;"	l	line:128
+maskRegAddr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	114;"	l	line:114
+maskSelRegAddr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	169;"	l	line:169
+mask_n	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	257;"	l	line:257
+masks	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	254;"	l	line:254	file:
+masks_idx	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	255;"	l	line:255	file:
+mide	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	259;"	l	line:259
+msg	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	676;"	l	line:676
+oscConfig	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	156;"	f	line:156	signature:(void)
+oscConfig	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	24;"	p	line:24	signature:(void)
+pwmstate	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	45;"	v	line:45
+qKa	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	40;"	m	line:40
+qKb	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	43;"	m	line:43
+qKc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	46;"	m	line:46
+qVr1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	40;"	m	line:40
+qVr2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	41;"	m	line:41
+qVr3	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	42;"	m	line:42
+res	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	39;"	l	line:39
+res	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\test.c	17;"	l	line:17
+sid10_0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	113;"	l	line:113
+sid10_0	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	168;"	l	line:168
+sidRegAddr	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	169;"	l	line:169
+state_cnt	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	22;"	l	line:22	file:
+sz1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	364;"	l	line:364
+sz1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	62;"	l	line:62
+sz2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	364;"	l	line:364
+sz2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	62;"	l	line:62
+tCANMessage	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	40;"	t	line:40	file:
+tCanData	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	67;"	t	line:67
+tCanErrors	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	78;"	t	line:78
+tControlword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	37;"	t	line:37
+tGulp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	56;"	t	line:56
+tLED_status	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.h	22;"	t	line:22
+tMeasCurrParm	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\MeasCurr.h	47;"	t	line:47
+tPWMMOS	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.h	28;"	t	line:28
+tPwmState	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	40;"	s	line:40	file:
+tPwmState	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	43;"	t	line:43	file:
+tSVGenParm	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\svgen.h	44;"	t	line:44
+tStatusword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	100;"	t	line:100
+tSysError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	71;"	t	line:71
+tSysStatus	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Status.h	71;"	t	line:71
+timertick	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\System.c	146;"	l	line:146
+tmp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	336;"	l	line:336
+tmp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	58;"	l	line:58
+tmp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	80;"	l	line:80
+tmp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	125;"	l	line:125
+tmp	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.c	678;"	l	line:678
+tmp1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	482;"	l	line:482
+tmp1	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	548;"	l	line:548
+tmp2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ADC.c	79;"	l	line:79
+tmp2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	482;"	l	line:482
+tmp2	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	548;"	l	line:548
+txid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	13;"	l	line:13
+txid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	23;"	l	line:23
+txid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto.c	32;"	l	line:32
+txid	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_transmitter.c	23;"	l	line:23
+txlen	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	35;"	l	line:35
+txpayload	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	37;"	l	line:37
+uControlword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	12;"	u	line:12
+uStatusword	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\DS402.h	39;"	u	line:39
+uSysError	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Faults.h	15;"	u	line:15
+vdc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\Globals.h	43;"	v	line:43
+vdc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\PWM.c	545;"	l	line:545
+vdc	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\can_proto_parser.c	32;"	l	line:32
+w	D:\edl\P2009_05_2FOC\TestEquipment\SW\Src\ecan.h	64;"	m	line:64

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="3">
+  <Entry name="description" value="Default PL config"/>
+  <Entry name="outputFormat" value="EXCEL"/>
+  <Entry name="outputFileExt" value="xls"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" |"/>
+  <Entry name="delimiterbefore" value="YES"/>
+  <Entry name="delimiterafter" value="YES"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="IITCODE 12024 rev A"/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="4"/>
+    <Column type="QUANTITY" label="QTY" width="4"/>
+    <Column type="PROPERTY" property="Part Number" label="Part Number" width="16" justification="LEFT" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="IITCODE" label="IITcode" width="16" justification="LEFT" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="Description" label="Description" width="42" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="Value" label="Value" width="5" justification="LEFT" sort="ASCENDING" priority="-2" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="Ref Designator" label="Ref Designator" width="15" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="NonMontare" label="NM" width="15" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+  </Columns>
+</PartListerConfiguration>

@@ -1,0 +1,103 @@
+Date and Time : 10/17/13 14:10:20
+
+--------------------------------------------------
+Checking Schematic: BCB
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U5,UART_RTS  Output Connected to Bidirectional
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 172.72) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,UART_TX  Output Connected to Bidirectional
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 170.18) 
+WARNING(ORCAP-1829): Possible pin type conflict Y1,OUTPUT  Output Connected to Bidirectional
+                    BCB, PAGE2 - STM32F103C8T6  (375.92, 17.78) 
+WARNING(ORCAP-1829): Possible pin type conflict U4,RXD  Output Connected to Bidirectional
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (143.51, 83.82) 
+WARNING(ORCAP-1831): Unconnected pin U5,PCM_CLOCK 
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 154.94) 
+WARNING(ORCAP-1831): Unconnected pin U5,PCM_SYNC 
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 157.48) 
+WARNING(ORCAP-1831): Unconnected pin U5,PCM_IN 
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 160.02) 
+WARNING(ORCAP-1831): Unconnected pin U5,AIO0 
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (185.42, 152.40) 
+WARNING(ORCAP-1831): Unconnected pin U5,AIO1 
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (185.42, 154.94) 
+WARNING(ORCAP-1831): Unconnected pin U1,BOOT0 
+                    BCB, PAGE2 - STM32F103C8T6  (271.78, 157.48) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: BCB
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: BCB 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "S" found on Package RJ45_6339191-1 , P3 Pin Number 14: BCB, PAGE2 - STM32F103C8T6 (15.24, 233.68). Please renumber one of these.
+#2 ERROR(ORCAP-36022): Pin number missing from Pin "EP" of Package LM5575MH_1 , U2: BCB, PAGE3 - POWER SUPPLY (154.94, 93.98). All pins should be numbered.
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,Vin  Vin  V5
+                    BCB, PAGE3 - POWER SUPPLY  (147.32, 187.96) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSSA  VSSA  GND
+                    BCB, PAGE2 - STM32F103C8T6  (198.12, 195.58) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_1  VSS_1  GND
+                    BCB, PAGE2 - STM32F103C8T6  (208.28, 195.58) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_2  VSS_2  GND
+                    BCB, PAGE2 - STM32F103C8T6  (218.44, 195.58) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_3  VSS_3  GND
+                    BCB, PAGE2 - STM32F103C8T6  (228.60, 195.58) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_4  VSS_4  GND
+                    BCB, PAGE2 - STM32F103C8T6  (238.76, 195.58) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,Vout  Vout  3V3
+                    BCB, PAGE3 - POWER SUPPLY  (167.64, 187.96) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? Y1,VDC  VDC  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (353.06, 17.78) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VBAT  VBAT  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (193.04, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (203.20, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_1  VDD_1  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (213.36, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_2  VDD_2  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (223.52, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_3  VDD_3  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (233.68, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_4  VDD_4  3V3
+                    BCB, PAGE2 - STM32F103C8T6  (243.84, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U4,VCC  VCC  3V3
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (143.51, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U5,VDD  VDD  3V3
+                    BCB, PAGE4 - CAN AND BLUETOOTH  (127.00, 147.32) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

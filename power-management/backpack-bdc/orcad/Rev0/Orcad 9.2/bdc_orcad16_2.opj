@@ -1,0 +1,82 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\bdc_orcad16_2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "D:\ELECTRONICS\P2013_09_BDC\SCHEMATICS\ORCAD 9.2\BDC_ORCAD16_2.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File
+       "D:\ELECTRONICS\P2013_09_BDC\SCHEMATICS\ORCAD 9.2\BDC_ORCAD16_2.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{IITCODE}\t{Rev}\t{NONMontare}")
+    (BOM_Header "Item\tQuantity\tReference\tValue\tIITCODE\tRev\tNonMontare")
+    (BOM_Include_File
+       "D:\ELECTRONICS\P2013_09_BDC\SCHEMATICS\ORCAD 9.2\BDC_ORCAD16_2.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\bdc_orcad16_2.drc"
+      (Type "Report"))
+    (File ".\bdc_orcad16_2.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\electronics\P2013_09_BDC\Schematics\Rev0\Orcad 9.2\bdc_orcad16_2.dsn")
+      (Path "Design Resources"
+         "D:\electronics\P2013_09_BDC\Schematics\Rev0\Orcad 9.2\bdc_orcad16_2.dsn"
+         "BDC")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\electronics\P2013_09_BDC\Schematics\Rev0\Orcad 9.2\bdc_orcad16_2.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 367"))
+      (Tab 0)))
+  (MPSSessionName "AMura"))

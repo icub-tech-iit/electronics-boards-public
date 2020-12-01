@@ -1,0 +1,98 @@
+Date and Time : 01/30/17 11:36:03
+
+--------------------------------------------------
+Checking Schematic: STRAIN2_TEST
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    GND
+    3V3
+
+Reporting Net Names
+    STRAIN4
+    STRAIN5
+    STRAIN3
+    STRAIN6
+    5V
+    3V3
+    TRACESWO
+    N17005248
+    SWDIO
+    N17002666
+    NRESET
+    CANL
+    SWCLK
+    STRAIN2
+    GND
+    N17006675
+    CANH
+    STRAIN1
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: STRAIN2_TEST
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: STRAIN2_TEST 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+#1 WARNING(ORCAP-36050): No pins are present in H7. Ignoring this component in netlist.
+#2 WARNING(ORCAP-36050): No pins are present in H8. Ignoring this component in netlist.
+#3 WARNING(ORCAP-36050): No pins are present in H9. Ignoring this component in netlist.
+#4 WARNING(ORCAP-36050): No pins are present in H10. Ignoring this component in netlist.
+#5 WARNING(ORCAP-36050): No pins are present in H11. Ignoring this component in netlist.
+#6 WARNING(ORCAP-36050): No pins are present in H12. Ignoring this component in netlist.
+#7 WARNING(ORCAP-36050): No pins are present in H13. Ignoring this component in netlist.
+#8 WARNING(ORCAP-36050): No pins are present in H1. Ignoring this component in netlist.
+#9 WARNING(ORCAP-36050): No pins are present in H2. Ignoring this component in netlist.
+#10 WARNING(ORCAP-36050): No pins are present in H3. Ignoring this component in netlist.
+#11 WARNING(ORCAP-36050): No pins are present in H4. Ignoring this component in netlist.
+#12 WARNING(ORCAP-36050): No pins are present in H5. Ignoring this component in netlist.
+#13 WARNING(ORCAP-36050): No pins are present in H6. Ignoring this component in netlist.
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

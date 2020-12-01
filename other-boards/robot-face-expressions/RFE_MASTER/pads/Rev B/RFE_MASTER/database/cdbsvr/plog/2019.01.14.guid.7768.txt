@@ -1,0 +1,30 @@
+[2019.01.14 14:12:58] [0000m.11s.855ms] [0] WELCOME
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] iCDB Database ver.2.204, w6NMT3m1DsvvLxNhuorv0Q, build:11695155 created 2018-10-03 12:34:59, sources stamp:w6NMT3m1DsvvLxNhuorv0Q
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Base flow version [VX.2.4]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Install Id [1845722], Flow Id [PADS VX.2.4], Full Flow Name [PADS VX.2.4], Exact Access Date [2018/08/01]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] UPDATE Install Info, Install Id [1894346], UPDATE Name [PADS VX.2.4 - Update 2]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Machine [IITICUBWS029]  IP [10.240.11.11,127.0.0.1]  User [MBorgagni]  PID [7768]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Current working dir [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\Rev B\RFE_MASTER]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] PATH [C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.4\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.4\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.4\SDD_HOME] on file system [NTFS]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] SDD_PLATFORM [win32]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] WDIR [F:\repo\Pads\iCubWDIR;C:MentorGraphics\PADSVX2.4\SSD_HOME\standard;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\standard;]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [1] Local iCDB working dir [F:\repo\Pads\iCubWDIR\iCDB] on file system [NTFS]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] WARNING: Database [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\Rev B\RFE_MASTER\database\icdb.dat] was manually copied
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] File change time:        [2019-01-14 12.09.54]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] File modification time:  [2019-01-14 12.10.19]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Last change time:        [2019-01-11 09.09.42]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Last database open information:
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Time:             [2019-01-11 09.04.23]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Location:         [F:\iCubHardware\electronics\private\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\Rev 1\RFE_MASTER\database\icdb.dat]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Machine:          [IITICUBWS042]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] User:             [AMura]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] PID:              [18084]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Application:      [iCDB Server]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Operating system: [Microsoft Business Edition, 64-bit (build 9200)]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] WARNING: Regenerating database GUID
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Previous database GUID [1291-ae28-25ee-6ccc-4384-83c9-3848-3c50-ffb5-f1d0-8a3b-0a6b]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [3] Current database GUID  [a7b4-942b-e362-5eb0-ada8-c3cf-da8c-3c50-82e2-d141-8a3b-0a6b]
+[2019.01.14 14:12:58] [0000m.11s.855ms] [0] .

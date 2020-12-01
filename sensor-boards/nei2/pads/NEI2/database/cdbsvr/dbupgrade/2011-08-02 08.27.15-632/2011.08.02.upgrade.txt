@@ -1,0 +1,24 @@
+[2011.08.02 08:27:15] [0000m.00s.812ms] [0] WELCOME
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] iCDB Server ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426267 created 2010-10-27 08:24:21, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Base flow version [7.9.1]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] GBS Install Id [17460], Flow Id [PADS 9.3], Full Flow Name [PADS 9.3], Exact Access Date [Dec 1 2010]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Machine [iit-robotics01]  User [claudio.lorini]  PID [632]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 3 (build 2600)]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Current working dir [Z:\Progetti\P2010_02_NEI2\sch]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] PATH [C:\MentorGraphics\9.3PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\lib;C:\Program Files\OrCAD\OrCAD_16.0\tools\bin;C:\Program Files\Intel\DMIX;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/bin;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/lib;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\lib;C:\Program Files\proeWildfire 4.0\bin;C:\Program Files\OrCAD\tools\pcb\bin;C:\Program Files\OrCAD\tools\specctra\bin;C:\Program Files\OrCAD\tools\fet\bin;C:\Program Files\OrCAD\tools\PSpice;C:\Program Files\OrCAD\tools\PSpice\Library;C:\Program Files\OrCAD\tools\Capture;C:\Program Files\OrCAD\tools\bin;C:\Program Files\OrCAD\OpenAccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] SDD_HOME [C:\MentorGraphics\9.3PADS\SDD_HOME] on file system [NTFS]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] SDD_PLATFORM [win32]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [1] Local iCDB working dir [C:\Documents and Settings\claudio.lorini\My Documents\PADS Projects\iCDB] on file system [NTFS]
+[2011.08.02 08:27:15] [0000m.00s.828ms] [0] Backuping database content before upgrade
+[2011.08.02 08:27:15] [0000m.00s.859ms] [0] Database content backuped to [Z:\Progetti\P2010_02_NEI2\sch\database\cdbback\2011-08-02 08.27.15-632.zip] of size [24 434 bytes] in [599ms 31us]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [0] Upgrading constraint definitions from version [ce_ee.cns=7.8.2]
+[2011.08.02 08:27:15] [0000m.00s.937ms] [0] Upgrading snapshot [1:DxD] from version [2051]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] Snapshot [1:DxD] upgraded to version [2553] in [786ms 13us]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] Upgrading constraint definitions for snapshot [1:DxD]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] Constraint definitions for snapshot [1:DxD] upgraded in [99ms]
+[2011.08.02 08:27:15] [0000m.00s.953ms] [0] Saving upgraded snapshot [1:DxD]
+[2011.08.02 08:27:15] [0000m.00s.968ms] [0] Upgraded snapshot [1:DxD] saved in [155ms 8us]
+[2011.08.02 08:27:15] [0000m.01s.031ms] [0] Constraint definitions upgraded to version [ce_ee.cns=7.10.8;user.cns=cba3-3ebd-15ca-792b-aab2-41ee-ab24-1e40-8fdd-fc59-93a3-9fef]
+[2011.08.02 08:27:15] [0000m.01s.031ms] [0] DONE

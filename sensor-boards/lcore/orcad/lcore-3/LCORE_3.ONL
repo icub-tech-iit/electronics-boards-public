@@ -1,0 +1,796 @@
+(PCB LCORE_3
+ (description
+  (timeStamp "2014 03 18 15 07 10")
+  (program "CAPTURE.EXE" (Version "16.6.0.d001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "LCORE")
+  (date "Tuesday, March 18, 2014")
+  (document "LCORE - Low Cost Reflective Encoder")
+  (revision "3")
+  (organization "Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 - Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "53261-0571"
+   (place P1
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0571")
+     (timestamp 00F565F2)
+     (code_description "PCB connector, Picoblade, 5 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 630)
+     ("Source Package" "53261-0571")
+     (Value "53261-0571")
+     (Geometry.Height 3.4mm))))
+  (component AEDR8400_5
+   (place U3
+    (property 
+     ("PCB Footprint" "AEDR-850x")
+     (timestamp 00F51786)
+     (IITCODE 3965)
+     ("Source Package" AEDR8400_5)
+     (Value "AEDR-850x"))))
+  (component BLM15
+   (place FL1
+    (property 
+     ("PCB Footprint" 0402)
+     (timestamp 00F569F2)
+     (Rohs_compliant yes)
+     (IITCODE 1118)
+     (Impedance "600R @100MHz")
+     ("Source Package" BLM15)
+     (Tolerance ±25%)
+     (Value BLM15AG601SN1D))))
+  (component SN74LVC2T45
+   (place U1
+    (property 
+     ("PCB Footprint" SN74LVC2T45)
+     (timestamp 00F51661)
+     (IITCODE 1328)
+     ("Source Package" SN74LVC2T45)
+     (Value SN74LVC2T45)))
+   (place U5
+    (property 
+     ("PCB Footprint" SN74LVC2T45)
+     (timestamp 00F523B5)
+     (IITCODE 1328)
+     ("Source Package" SN74LVC2T45)
+     (Value SN74LVC2T45))))
+  (component CAP0805
+   (place C4
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F4ED93)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C5
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F503F8)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C6
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F4EFEC)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C7
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F50A7F)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C8
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F50AC5)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C10
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F52315)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF)))
+   (place C11
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "C0805C106K4PAC10uF, Kemet - Multilayer Capacitor, 10uF, 16V, 10%, X5R, SMD, 0805")
+     (timestamp 00F52335)
+     (IITCODE 1324)
+     (RANGE 16V)
+     (TOLLERANCE 0,1)
+     ("Source Package" CAP0805)
+     (CATEGORY C)
+     (Value 1uF))))
+  (component RES0402
+   (place R1
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F5455D)
+     (IITCODE NM)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 10K)
+     (Power 0.063W)))
+   (place R2
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F54583)
+     (IITCODE 1109)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 10K)
+     (Power 0.063W)))
+   (place R3
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F54537)
+     (IITCODE NM)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 10K)
+     (Power 0.063W)))
+   (place R4
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F543E7)
+     (IITCODE 1109)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 10K)
+     (Power 0.063W)))
+   (place R6
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F54819)
+     (IITCODE NM)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 0R)
+     (Power 0.063W)))
+   (place R7
+    (property 
+     ("PCB Footprint" 0402)
+     (DESCRIPTION "RC0402FR-07120RL, Yageo - Resistor Thick film, 120R, 0.063W, 1%, SMD, 0402")
+     (timestamp 00F54863)
+     (IITCODE 1080)
+     (RANGE 0.063W)
+     (TOLLERANCE 0,01)
+     ("Source Package" RES0402)
+     (CATEGORY R)
+     (Tolerance 1%)
+     (Value 0R)
+     (Power 0.063W))))
+  (component RES
+   (place R5
+    (property 
+     (Stability 100ppm)
+     ("PCB Footprint" 0603)
+     (timestamp 00F52069)
+     (IITCODE 3966)
+     ("Source Package" RES)
+     (Tolerance 1%)
+     (Value 180R)
+     (Power 0.1W))))
+  (component LP5900SD28
+   (place U2
+    (property 
+     ("PCB Footprint" LP5900SD33)
+     (timestamp 00F505A3)
+     (IITCODE 554)
+     ("Source Package" LP5900SD28)
+     (Value LP5900SD33))))
+  (component CAP
+   (place C13
+    (property 
+     (Voltage 4V)
+     (Temp 4.7uF)
+     ("PCB Footprint" 0402)
+     (timestamp 00F52DFD)
+     (IITCODE 3087)
+     (Dielectric X5R)
+     ("Source Package" CAP)
+     (Tolerance 20%)
+     (RHOS yes)
+     (Value 4.7uF)))))
+ (library
+  (image BLM15
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" 0402))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16052216)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image SN74LVC2T45
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE 1328)
+    ("PCB Footprint" SN74LVC2T45))
+   (pin 999 2
+    (property 
+     (pinname A1)
+     (pintype 0)
+     (Name A1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" B)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname VCCA)
+     (pintype 7)
+     (Name VCCA)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" +5V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname B1)
+     (pintype 2)
+     (Name B1)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" CHB)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname A2)
+     (pintype 0)
+     (Name A2)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" A)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname B2)
+     (pintype 2)
+     (Name B2)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" CHA)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname DIR)
+     (pintype 0)
+     (Name DIR)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" +5V)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname VCCB)
+     (pintype 7)
+     (Name VCCB)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" OLVL)
+     (Order 7)
+     ("Is No Connect" False))))
+  (image LP5900SD28
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" LP5900SD28))
+   (pin 999 5
+    (property 
+     (pinname "nc-1")
+     (pintype 4)
+     (Name "nc-1")
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 0)
+     ("Is No Connect" True)))
+   (pin 999 6
+    (property 
+     (pinname Vin)
+     (pintype 7)
+     (Name Vin)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" +5V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname Vout)
+     (pintype 7)
+     (Name Vout)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" +3.3V)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname Ven)
+     (pintype 0)
+     (Name Ven)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" +5V)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "nc-2")
+     (pintype 4)
+     (Name "nc-2")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname PPad)
+     (pintype 7)
+     (Name PPad)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False))))
+  (image RES0402
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (Category "<TO COMPLETE>")
+    (Description "<TO COMPLETE>")
+    (IITCODE <IITCODE>)
+    ("PCB Footprint" 0402)
+    (TOLLERANCE "<TO COMPLETE>")
+    (RANGE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SEL2X)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image AEDR8400_5
+   (property 
+    (sourcelib Z:\\IIT\\PROGETTI\\P2010_0019_RBCS_ROIE\\SCHEMI\\LCORE_2\\LCORE_2.DSN)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "AEDR-850x"))
+   (pin 999 1
+    (property 
+     (pinname SEL4X)
+     (pintype 0)
+     (Name SEL4X)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" SEL4X)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname VLED)
+     (pintype 7)
+     (Name VLED)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16064707)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname A)
+     (pintype 2)
+     (Name A)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" A)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname B)
+     (pintype 2)
+     (Name B)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" B)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     (Name VCC)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16052216)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname TP)
+     (pintype 4)
+     (Name TP)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname I)
+     (pintype 2)
+     (Name I)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" Z)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname SEL2X)
+     (pintype 0)
+     (Name SEL2X)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" SEL2X)
+     (Order 8)
+     ("Is No Connect" False))))
+  (image RES
+   (property 
+    (sourcelib O:\\R.OLB))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16064707)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16052216)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CAP0805
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    ("PCB Footprint" 0805)
+    (IITCODE <IITCODE>))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "53261-0571"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" CHA)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" CHB)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" CHZ)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" False))))
+  (image CAP
+   (property 
+    (sourcelib O:\\C.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3.3V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net +3.3V
+    (property 
+     (nettype S))
+   (pins
+     U2-1 C13-1 R7-2))
+  (net +5V
+    (property 
+     (nettype S))
+   (pins
+     C4-1 U2-6 U2-4 C7-1 U1-1 U1-5 U5-1 U5-5 C10-1
+     R4-2 R1-2 R6-2 P1-1 FL1-1))
+  (net A
+   (pins
+     U1-3 U3-3))
+  (net B
+   (pins
+     U1-2 U3-4))
+  (net CHA
+   (pins
+     U1-6 P1-2))
+  (net CHB
+   (pins
+     U1-7 P1-3))
+  (net CHZ
+   (pins
+     U5-7 P1-4))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     C4-2 C6-2 C5-2 U2-3 U2-7 C7-2 C8-2 U1-4 U5-3
+     U5-4 C11-2 C10-2 C13-2 U3-8 R3-1 R2-1 P1-5))
+  (net N16052216
+   (pins
+     C6-1 C5-1 R5-1 U3-2 FL1-2))
+  (net N16064707
+   (pins
+     R5-2 U3-7))
+  (net OLVL
+   (pins
+     C8-1 U1-8 U5-8 C11-1 R6-1 R7-1))
+  (net SEL2X
+   (pins
+     U3-6 R1-1 R2-2))
+  (net SEL4X
+   (pins
+     U3-1 R4-1 R3-2))
+  (net Z
+   (pins
+     U5-2 U3-5)))
+)

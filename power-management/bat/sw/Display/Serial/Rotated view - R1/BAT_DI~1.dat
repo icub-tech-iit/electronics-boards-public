@@ -1,0 +1,12 @@
+"CPU" 0000 0000 43 50
+"Motors" 0E00 0000 00 50
+"Battery_voltage" 1E00 0000 00 00
+"Gauge1" 3C00 0001 00 35
+"Battery_percent" AA00 0006 54 40
+"iBattery_percent" AE00 0006 54 40
+"Statictext7" BA00 0006 58 32
+"Statictext5" BE00 0006 70 40
+"Battery_amps" C000 0006 43 00
+"R1" 6800 0009 00 28
+"R1_right" 9A00 0009 00 28
+"R1_left" CC00 0009 00 28

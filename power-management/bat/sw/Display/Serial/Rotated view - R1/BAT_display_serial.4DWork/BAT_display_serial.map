@@ -1,0 +1,53 @@
+linked : 11    main 0000DB
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   18:0000db    19:0000e1    20:0000e7    27:0000ed    28:0000f3    30:0000f9    31:0000ff    32:000105 
+   42:00010b 
+
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  229:000111   231:00011b   232:000124   233:00012d   234:000136   237:00013f   239:000145   241:00014b 
+  242:000154   244:000160   246:000160   248:000168   249:000183   250:00018f   255:0001a1   256:0001aa 
+  257:0001b3   259:0001b9   260:0001c2   261:0001cb   263:0001d1   267:0001de   268:0001f0   269:000202 
+  270:000214   271:000221   272:00022e   273:00023b   274:000248   275:000255   276:000262   280:00026f 
+  281:000299   282:0002a2   283:0002b1   284:0002c3   285:0002cc   286:0002db   288:0002ed   289:0002f5 
+  290:0002fb   291:000304   292:00030c   293:000312   295:00031b   304:000321   305:00032d   309:000333 
+  310:00033b   312:00033f   313:000353   314:000359   316:000365   317:00036b 
+
+linked : 10    graphic_update_data 000375
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  154:000375   155:000380   158:000392   159:00039d   162:0003ad   163:0003b8   166:0003c2   167:0003cd 
+  170:0003d7   171:0003e2   174:0003ee   175:0003f9   176:000403   179:00041c   180:000426   183:000432 
+  184:00043d   187:000449   188:000451   189:00045a   190:000462   192:00046c   193:00047e   194:0004d2 
+  195:0004da   196:0004e5   197:0004ed   199:000534   200:000546   201:000554   202:000566   204:000574 
+  209:00057f   210:000587   211:000590   212:000598   214:0005a2   215:0005aa   216:0005f7   217:0005ff 
+  218:00060a   219:000612   221:000670 
+
+linked : 9     graphic_setup 00067C
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   87:00067c    88:000687    91:000699    92:0006a4    96:0006b4    97:0006bf   100:0006c9   101:0006d4 
+  104:0006e0   105:0006eb   106:0006f5   109:00070e   110:000719   113:000723   114:00072d   117:000739 
+  118:000744   122:000750   123:000758   124:000761   125:000769   126:000773   129:00077e   130:000786 
+  131:00078f   132:000797   133:0007a1   136:0007ac   137:0007b4   138:0007bd   139:0007c5   140:0007cf 
+  143:0007da   144:0007e2   145:0007eb   146:0007f3   147:0007fd 
+
+linked : 8     graphic_message_uart_error 000809
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   75:000809    76:000811    77:00081a    78:000824    79:00082d 
+
+linked : 7     graphic_intro 000839
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   58:000839    60:00083f    61:000847    62:000850    63:000858    65:000862    66:0008a9    67:0008f0 
+   69:0008f9 
+
+linked : 6     graphic_icub 000900
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   49:000900    50:00090b    51:000915    52:00091f 
+
+skipped: 5     PrintDisk ----
+skipped: 4     ledDigitsDisplayL ----
+skipped: 3     ledDigitsDisplayR ----
+skipped: 2     ledDigitsDisplayD ----
+linked : 1     ledDigitsDisplay 00092A
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+    4:00092c     5:000939     6:000941     7:00094b     8:000951     9:000969    10:000971    11:000981 
+   13:000988    15:000995    16:0009a7    17:0009af    19:0009b8    22:0009be    23:0009c8 
+

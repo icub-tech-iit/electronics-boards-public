@@ -1,0 +1,225 @@
+[2018.04.17 14:17:08] [0000m.00s.062ms] [0] WELCOME
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] iCDB Server ver.2.203, Oa8RiNXAUbUBnsL7gWvJdw, build:8941532 created 2017-11-20 10:20:55, sources stamp:Oa8RiNXAUbUBnsL7gWvJdw
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Copyright 2018 Mentor Graphics Corporation.  All Rights Reserved.
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Base flow version [VX.2.3]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Install Id [1714759], Flow Id [PADS VX.2.3], Full Flow Name [PADS VX.2.3], Exact Access Date [2018/02/01]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Machine [IITICUBWS029]  IP [10.255.35.55,127.0.0.1]  User [MBorgagni]  PID [5192]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Current working dir [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] PATH [C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.3\MGC_HOME.ixn\lib;C:\PROGRA~1\PTC\MKSTOO~1\bin64;C:\PROGRA~1\PTC\MKSTOO~1\bin;C:\PROGRA~1\PTC\MKSTOO~1\bin\X11;C:\PROGRA~1\PTC\MKSTOO~1\mksnt;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Hewlett-Packard\HP Performance Advisor;C:\Program Files\Point Grey Research\FlyCapture2\bin64;C:\Program Files (x86)\Skype\Phone\;C:\Cadence\SPB_16.6\tools\bin;C:\Cadence\SPB_16.6\tools\libutil\bin;C:\Cadence\SPB_16.6\tools\fet\bin;C:\Cadence\SPB_16.6\tools\pcb\bin;C:\Cadence\SPB_16.6\tools\specctra\bin;C:\Cadence\SPB_16.6\tools\pspice;C:\Cadence\SPB_16.6\tools\capture;C:\Cadence\SPB_16.6\openaccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.3\SDD_HOME] on file system [NTFS]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] SDD_PLATFORM [win32]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] WDIR [C:\PADS Projects;F:\repo\Pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.3\SDD_HOME\standard;]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Corporate iCDB working dir [F:\repo\Pads\iCubWDIR\iCDB] on file system [NTFS]
+[2018.04.17 14:17:08] [0000m.00s.062ms] [2] S: Loading config files
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Corporate config file [F:\repo\Pads\iCubWDIR\iCDB\Plugins\Plugins.cfg] not found
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Corporate config file [F:\repo\Pads\iCubWDIR\iCDB\Server\Server.cfg] not found
+[2018.04.17 14:17:08] [0000m.00s.062ms] [1] Config file [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\cdbsvr\Server.cfg] not found
+[2018.04.17 14:17:08] [0000m.00s.077ms] [3] S: Config loaded
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Project path [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] on file system [NTFS]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Project file (.prj) path [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj] on file system [NTFS]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Single-user mode (auto)
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Event polling mode autodetection
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Started up automatically by iCDB Client: IITICUBWS029:MBorgagni:8840
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Auto close mode
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Database ID [7273-f106-2550-6a48-3c5e-5da8-c5e5-da50-4fc2-1281-9a8b-0a8b]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: BEGIN dumping
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: Local -> global path prefix list
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [C:\windows\system32\spool\drivers] -> [\\IITICUBWS029\print$]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [F:\repo\Orcad Library] -> [\\IITICUBWS029\Orcad Library2]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [F:\repo\Capital] -> [\\IITICUBWS029\Capital]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [O:\] -> [\\IITICUBWS029\Orcad Library2\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [P:\] -> [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [X:\] -> [\\storage05.icub.iit.local\homedirs\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: Global -> local path prefix list
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\storage05.icub.iit.local\repository\mechatronics\electronics\PADS\] -> [P:\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\storage05.icub.iit.local\homedirs\] -> [X:\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2\] -> [O:\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\IITICUBWS029\Orcad Library2] -> [F:\repo\Orcad Library]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\IITICUBWS029\Capital] -> [F:\repo\Capital]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: [\\IITICUBWS029\print$] -> [C:\windows\system32\spool\drivers]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] PathTranslator: END dumping
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: START
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Server startup lock file created
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Listening for client connections on port [10002]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Server network ID [IITICUBWS029:10.255.35.55,IITICUBWS029,IITICUBWS029.iit.local:10002]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Server GUID [bd4f-ade6-b77e-a12f-4c5e-5da9-c5e5-da50-c762-1281-9a8b-0a8b]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Project GUID [7273-f106-2550-6a48-3c5e-5da8-c5e5-da50-4fc2-1281-9a8b-0a8b]
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Wrote data to server address file
+[2018.04.17 14:17:08] [0000m.00s.124ms] [0] S: Server startup lock file removed
+[2018.04.17 14:17:08] [0000m.00s.124ms] [1] ProjectBackupManager: Setting project file (.prj) path: [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\RFE_MASTER.prj]
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2018.04.17 14:17:09] [0000m.01s.132ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\iCDB\win32\bin]
+[2018.04.17 14:17:09] [0000m.01s.132ms] [1] ServerToolkit: INFO: Plugin found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.3\SDD_HOME\common\win32\bin]
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] S: Local disc access time: 39 us
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] S: File server access time: 32 us
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] Single file [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] size [3939992 (3.8 MB)]
+[2018.04.17 14:17:09] [0000m.01s.132ms] [1] Single file [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] opened in read-write mode
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.17 14:17:09] [0000m.01s.132ms] [0] Database GUARD OK: [3939992]
+[2018.04.17 14:17:10] [0000m.01s.851ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.17 14:17:10] [0000m.01s.851ms] [0] Database GUARD OK: [3939992]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] Database GUARD OK: [3939992]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] Database GUARD OK: [3939992]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] Database GUARD OK: [3939992]
+[2018.04.17 14:17:10] [0000m.01s.898ms] [0] SingleFile: [ed94-6130-85c1-4f24] SFI version check [1009] [1009]
+[2018.04.17 14:17:10] [0000m.01s.992ms] [0] SingleFile: [ed94-6130-85c1-4f24] Database SFI header has been read in [105ms 707us]
+[2018.04.17 14:17:10] [0000m.02s.007ms] [0] iCDB Server PI: Server & plugin session [744]
+[2018.04.17 14:17:10] [0000m.02s.007ms] [0] iCDB Server PI: Opening database [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database]
+[2018.04.17 14:17:10] [0000m.02s.007ms] [0] iCDB Server PI: Database [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] opened
+[2018.04.17 14:17:10] [0000m.02s.054ms] [0] iCDB Database: Checking existence of constraint definitions
+[2018.04.17 14:17:10] [0000m.02s.054ms] [0] iCDB Database: Checking constraint definitions version
+[2018.04.17 14:17:10] [0000m.02s.085ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.57] up to date
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] iCDB Server PI: Initializing plugins
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] iCDB Server PI: Plugins initialized
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] S: iCDB database loaded
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] S: Starting threads
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] BT: Listening for broadcast messages on port [10000]
+[2018.04.17 14:17:10] [0000m.02s.132ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2018.04.17 14:17:10] [0000m.02s.132ms] [0] IT: Session [745] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [8840] created
+[2018.04.17 14:17:10] [0000m.02s.132ms] [1] SC[745]: Registered sub-client [DxD] with ID [1] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.148ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS029] user [MBorgagni] with process ID [5440] created
+[2018.04.17 14:17:10] [0000m.02s.148ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2018.04.17 14:17:10] [0000m.02s.148ms] [0] MWT: WindowProc: WM_NCCREATE
+[2018.04.17 14:17:10] [0000m.02s.194ms] [1] SC[745]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.194ms] [1] SC[745]: Registered sub-client [xprob] with ID [3] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.241ms] [1] CMT: There are [1] clients now: 745
+[2018.04.17 14:17:10] [0000m.02s.444ms] [1] SC[745]: Registered sub-client [StartServerClient2290] with ID [4] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.444ms] [1] SC[745]: UnRegistered sub-client [StartServerClient2290] with ID [4] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.475ms] [1] SC[745]: Registered sub-client [SymbolEditor] with ID [5] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:10] [0000m.02s.475ms] [1] SC[745]: Registered sub-client [SelectionHolder] with ID [6] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:11] [0000m.02s.898ms] [1] SC[745]: Registered sub-client [SystemDesignDll] with ID [7] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:11] [0000m.02s.914ms] [1] SC[745]: UnRegistered sub-client [SystemDesignDll] with ID [7] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:11] [0000m.02s.930ms] [1] SC[745]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:15] [0000m.07s.195ms] [1] SC[745]: Registered sub-client [DesignSearcher2] with ID [9] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:15] [0000m.07s.195ms] [1] SC[745]: Registered sub-client [HdlProject] with ID [10] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:15] [0000m.07s.226ms] [1] SC[745]: Registered sub-client [Navigator] with ID [11] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:15] [0000m.07s.241ms] [1] SC[745]: Registered sub-client [OutputWindow] with ID [12] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:15] [0000m.07s.241ms] [1] SC[745]: Registered sub-client [PlaceDevice] with ID [13] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:16] [0000m.08s.135ms] [1] SC[745]: Registered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:16] [0000m.08s.166ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_0] with ID [15] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:16] [0000m.08s.166ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_1] with ID [16] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:17] [0000m.09s.054ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_2] with ID [17] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:17] [0000m.09s.054ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_3] with ID [18] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.686ms] [1] SC[745]: Registered sub-client [SharedBlockDataProvider] with ID [19] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.686ms] [1] SC[745]: UnRegistered sub-client [SharedBlockDataProvider] with ID [19] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.686ms] [1] SC[745]: Registered sub-client [SharedBlockDataProvider] with ID [20] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.686ms] [1] SC[745]: UnRegistered sub-client [SharedBlockDataProvider] with ID [20] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.967ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_4] with ID [21] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:18] [0000m.09s.967ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_5] with ID [22] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:19] [0000m.10s.919ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_6] with ID [23] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:19] [0000m.10s.919ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_7] with ID [24] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:20] [0000m.11s.865ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_8] with ID [25] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:20] [0000m.11s.865ms] [1] SC[745]: Registered sub-client [FFSearch_Controller_9] with ID [26] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.789ms] [1] SC[745]: Registered sub-client [FFSSelListener] with ID [27] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.867ms] [1] SC[745]: Registered sub-client [SAE] with ID [28] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.867ms] [1] SC[745]: Registered sub-client [CCZAddin] with ID [29] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.867ms] [1] SC[745]: Registered sub-client [DxThumbnails] with ID [30] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.867ms] [1] SC[745]: Registered sub-client [MyParts] with ID [31] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.898ms] [1] SC[745]: Registered sub-client [PinsList] with ID [32] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.12s.929ms] [1] SC[745]: Registered sub-client [DxSim] with ID [33] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.054ms] [1] SC[745]: Registered sub-client [toolboxes] with ID [34] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.070ms] [1] SC[745]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:601950256] with ID [35] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.070ms] [1] SC[745]: Registered sub-client [Core::DesignListener-214] with ID [36] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.273ms] [1] SC[745]: Registered sub-client [SheetConnectorsCacheDxD:1523967441] with ID [37] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.288ms] [1] SC[745]: Registered sub-client [NetsNamesCollectorDxD:1523967441] with ID [38] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.319ms] [1] SC[745]: Registered sub-client [PartReplaceUtils] with ID [39] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.319ms] [1] SC[745]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.538ms] [1] SC[745]: Registered sub-client [ObjectHolder_605358816] with ID [41] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.538ms] [1] SC[745]: Registered sub-client [BlockCacheDxD:541818528] with ID [42] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.538ms] [1] SC[745]: Registered sub-client [GlobalNetAliasUpdater_605360376] with ID [43] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:21] [0000m.13s.538ms] [1] SC[745]: Registered sub-client [IcdbNetProcessorSubClientDxD:598530696] with ID [44] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:23] [0000m.14s.697ms] [1] SC[745]: Registered sub-client [DxDbSearch] with ID [45] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:17:43] [0000m.34s.945ms] [0] DFAMT: File server access time: 145 us
+[2018.04.17 14:19:25] [0002m.16s.788ms] [0] IT: Session [746] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [8232] created
+[2018.04.17 14:19:25] [0002m.16s.788ms] [1] SC[746]: Registered sub-client [iCDBConnector] with ID [1] for session ID [746] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:25] [0002m.16s.820ms] [1] SC[746]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [746] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:25] [0002m.16s.866ms] [1] CMT: There are [2] clients now: 745, 746
+[2018.04.17 14:19:25] [0002m.16s.866ms] [1] CMT: Removed client [746]
+[2018.04.17 14:19:25] [0002m.16s.866ms] [1] CMT: There are [1] clients now: 745
+[2018.04.17 14:19:25] [0002m.17s.381ms] [0] IT: Session [747] for host [IITICUBWS029] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [8232] created
+[2018.04.17 14:19:25] [0002m.17s.381ms] [1] SC[747]: Registered sub-client [PADSLayout] with ID [1] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:25] [0002m.17s.397ms] [1] SC[747]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:25] [0002m.17s.412ms] [1] CMT: There are [2] clients now: 745, 747
+[2018.04.17 14:19:27] [0002m.18s.632ms] [1] SC[747]: Registered sub-client [StartServerClient21e8] with ID [3] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:27] [0002m.18s.632ms] [1] SC[747]: UnRegistered sub-client [StartServerClient21e8] with ID [3] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:27] [0002m.18s.632ms] [1] SC[747]: Registered sub-client [StartServerClient21e8] with ID [4] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:19:27] [0002m.18s.632ms] [1] SC[747]: UnRegistered sub-client [StartServerClient21e8] with ID [4] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:39:25] [0022m.16s.586ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[8232] # SessionID[747] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2018.04.17 14:39:25] [0022m.16s.917ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS029] # ClientUserName[MBorgagni] # ClientProcessID[8232] # SessionID[747] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2018.04.17 14:51:13] [0034m.05s.246ms] [1] SC[747]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:51:13] [0034m.05s.248ms] [1] SC[747]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [747] host [IITICUBWS029] user [MBorgagni] process ID [8232]
+[2018.04.17 14:51:13] [0034m.05s.320ms] [1] CMT: Removed client [747]
+[2018.04.17 14:51:13] [0034m.05s.320ms] [1] CMT: There are [1] clients now: 745
+[2018.04.17 14:51:43] [0034m.34s.842ms] [1] SC[745]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.098ms] [1] SC[745]: UnRegistered sub-client [DesignSearcher2] with ID [9] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.304ms] [1] SC[745]: UnRegistered sub-client [GlobalNetAliasUpdater_605360376] with ID [43] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.304ms] [1] SC[745]: UnRegistered sub-client [BlockCacheDxD:541818528] with ID [42] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.304ms] [1] SC[745]: UnRegistered sub-client [ObjectHolder_605358816] with ID [41] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.305ms] [1] SC[745]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:598530696] with ID [44] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.311ms] [1] SC[745]: UnRegistered sub-client [Navigator] with ID [11] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.311ms] [1] SC[745]: UnRegistered sub-client [FFSSelListener] with ID [27] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.447ms] [1] SC[745]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [14] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.461ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_1] with ID [16] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.463ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_0] with ID [15] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.474ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_3] with ID [18] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.476ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_2] with ID [17] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.487ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_5] with ID [22] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.489ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_4] with ID [21] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.501ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_7] with ID [24] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.503ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_6] with ID [23] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.514ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_9] with ID [26] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:43] [0034m.35s.515ms] [1] SC[745]: UnRegistered sub-client [FFSearch_Controller_8] with ID [25] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.35s.707ms] [1] SC[745]: UnRegistered sub-client [MyParts] with ID [31] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.35s.708ms] [1] SC[745]: UnRegistered sub-client [toolboxes] with ID [34] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.36s.232ms] [1] SC[745]: UnRegistered sub-client [SelectionHolder] with ID [6] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.36s.232ms] [1] SC[745]: UnRegistered sub-client [PartReplaceUtils] with ID [39] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.36s.232ms] [1] SC[745]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [40] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:44] [0034m.36s.233ms] [1] SC[745]: UnRegistered sub-client [Core::DesignListener-214] with ID [36] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.834ms] [1] SC[745]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:601950256] with ID [35] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.834ms] [1] SC[745]: UnRegistered sub-client [SheetConnectorsCacheDxD:1523967441] with ID [37] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.834ms] [1] SC[745]: UnRegistered sub-client [NetsNamesCollectorDxD:1523967441] with ID [38] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.835ms] [1] SC[745]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.836ms] [1] SC[745]: UnRegistered sub-client [DxD] with ID [1] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.840ms] [1] SC[745]: UnRegistered sub-client [xprob] with ID [3] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.841ms] [1] SC[745]: UnRegistered sub-client [SymbolEditor] with ID [5] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.36s.845ms] [1] SC[745]: UnRegistered sub-client [OutputWindow] with ID [12] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.37s.106ms] [1] SC[745]: UnRegistered sub-client [DxDbSearch] with ID [45] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.37s.109ms] [1] SC[745]: UnRegistered sub-client [SAE] with ID [28] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.37s.115ms] [1] SC[745]: UnRegistered sub-client [CCZAddin] with ID [29] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.37s.115ms] [1] SC[745]: UnRegistered sub-client [DxThumbnails] with ID [30] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:45] [0034m.37s.126ms] [1] SC[745]: UnRegistered sub-client [DxSim] with ID [33] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:46] [0034m.37s.711ms] [1] SC[745]: UnRegistered sub-client [PinsList] with ID [32] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:46] [0034m.37s.740ms] [1] SC[745]: UnRegistered sub-client [PlaceDevice] with ID [13] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:46] [0034m.37s.760ms] [1] SC[745]: UnRegistered sub-client [HdlProject] with ID [10] for session ID [745] host [IITICUBWS029] user [MBorgagni] process ID [8840]
+[2018.04.17 14:51:46] [0034m.37s.828ms] [1] CMT: Removed client [745]
+[2018.04.17 14:51:46] [0034m.37s.828ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2018.04.17 14:51:46] [0034m.37s.937ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2018.04.17 14:51:48] [0034m.39s.628ms] [0] CMT: Starting server auto-close
+[2018.04.17 14:51:48] [0034m.39s.717ms] [0] S: Closing server
+[2018.04.17 14:51:48] [0034m.39s.742ms] [0] iCDB Server PI: Closing plugins
+[2018.04.17 14:51:48] [0034m.39s.742ms] [0] iCDB Server PI: Plugins closed
+[2018.04.17 14:51:48] [0034m.39s.742ms] [0] iCDB Server PI: Unloading database
+[2018.04.17 14:51:48] [0034m.39s.742ms] [0] iCDB Server PI: Saving storage
+[2018.04.17 14:51:48] [0034m.39s.742ms] [0] iCDB Server PI: Closing database
+[2018.04.17 14:51:48] [0034m.39s.742ms] [1] Hole: zero line at 3939884 of size 8 bytes.
+[2018.04.17 14:51:48] [0034m.39s.787ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[10%] data[93%]
+[2018.04.17 14:51:48] [0034m.39s.787ms] [1] iCDB Server PI: Stats: Database file size [3939992 (3.8 MB)]
+[2018.04.17 14:51:48] [0034m.39s.787ms] [1] Hole: zero line at 3939884 of size 8 bytes.
+[2018.04.17 14:51:48] [0034m.39s.826ms] [0] iCDB Server PI: Database closed
+[2018.04.17 14:51:48] [0034m.39s.826ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [4818] ticks
+[2018.04.17 14:51:48] [0034m.39s.826ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1498] microseconds
+[2018.04.17 14:51:48] [0034m.39s.826ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [14]
+[2018.04.17 14:51:48] [0034m.39s.826ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [9342] commands per second
+[2018.04.17 14:51:48] [0034m.39s.831ms] [0] Single file [F:\repo\P2016_15_RFE_RobotFaceExpression\RFE_MASTER\SCHEMATIC\PADS\RFE_MASTER\database\icdb.dat] closed with size [3939992 (3.8 MB)]
+[2018.04.17 14:51:48] [0034m.39s.898ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2018.04.17 14:51:48] [0034m.40s.072ms] [0] MWT: Destroy the shutdown block reason.
+[2018.04.17 14:51:48] [0034m.40s.073ms] [0] MWT: STOP
+[2018.04.17 14:51:48] [0034m.40s.073ms] [0] S: STOP

@@ -1,0 +1,367 @@
+***********  COMMAND 18Feb2014.091430.586 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/tmp/wfInit-genesis186a2.iiticubws003.330168,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 18Feb2014.091430.604 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 18Feb2014.091430.608 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 18Feb2014.091430.611 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 18Feb2014.091430.614 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 18Feb2014.091430.616 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+create_entity,job=,is_fw=no,type=job,name=lcore_4,db=D:\electronics\P2011_19_LCORE\PCB\LCORE_4,fw_type=form (-1)
+read file - C:/MentorGraphics/9.5PADS/SDD_HOME/dfm/e91/all/lyr_types
+saving job - lcore_4
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/misc
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/stackups
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/input
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/output
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/fonts
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/wheels
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/matrix
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/whltemps
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/user
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/ext
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/misc/attrlist
+saving matrix - matrix
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/misc/info
+***********  COMMAND 18Feb2014.091430.662 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+eda_params_pads,unhatched_mode=discard,default_cam_layers=yes,prefer_closed_shapes=yes,comp_outline_layer=1,non_shape_pins=use_drill (-1)
+***********  COMMAND 18Feb2014.091430.663 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+eda_translate,path=D:\electronics\P2011_19_LCORE\PCB\LCORE_4\LCORE_4_PCB\LCORE_4_tmp.tmp,job=lcore_4,step=pcb,source=pads_powerpcb,step_autodetection=no,overwrite=merge (-1)
+*********** ERROR INTERNAL 18Feb2014.091430.774 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+((ng % 2) == 0) at D:\vSureSRC\s92\mat\mat_cop.c 10103
+*********** ERROR INTERNAL 18Feb2014.091430.780 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+((ng % 2) == 0) at D:\vSureSRC\s92\mat\mat_cop.c 10103
+***********  COMMAND 18Feb2014.091430.855 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+open_job,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.091430.859 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+entity_exist,type=step,name=*,parent_job=lcore_4,parent_step=,op=count (-1)
+***********  COMMAND 18Feb2014.091430.863 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+entity_exist,type=step,name=*,parent_job=lcore_4,parent_step=,op=first (-1)
+***********  COMMAND 18Feb2014.091430.869 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091430.869 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+save_job,job=lcore_4,override=no (-1)
+saving job - lcore_4
+saving matrix - matrix
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/matrix/matrix
+saving step - pcb
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/stephdr
+write step profile - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/profile
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/profile
+saving netlist - cadnet
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/netlists
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/netlists/cadnet
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/attrlist
+saving eda - eda
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/eda
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/eda/data.Z
+saving layer - silkscreen-top
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-top
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-top/attrlist
+saving layer - soldermask-top
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/soldermask-top
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/soldermask-top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/soldermask-top/attrlist
+saving layer - top-copper
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/top-copper
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/top-copper/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/top-copper/attrlist
+saving layer - bottom-copper
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/bottom-copper
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/bottom-copper/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/bottom-copper/attrlist
+saving layer - solder-mask-bottom
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/solder-mask-bottom
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/solder-mask-bottom/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/solder-mask-bottom/attrlist
+saving layer - silkscreen-bottom
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-bottom
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-bottom/features
+saving relation - relation
+compressing features file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-bottom/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/silkscreen-bottom/attrlist
+saving layer - drilling-chart.doc
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drilling-chart.doc
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drilling-chart.doc/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drilling-chart.doc/attrlist
+saving layer - drill
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drill
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drill/features
+saving relation - relation
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/drill/attrlist
+saving layer - rout
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/rout
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/rout/features
+saving relation - relation
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_top
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_top/components.Z
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_bot
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_bot/components.Z
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/steps/pcb/layers/comp_+_bot/attrlist
+saving symbol - drill_symbol1
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol2
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2
+saving layer - drill_symbol2
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2/attrlist
+saving symbol - drill_symbol3
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3
+saving layer - drill_symbol3
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3/attrlist
+saving symbol - drill_symbol4
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4
+saving layer - drill_symbol4
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4/attrlist
+saving symbol - drill_symbol1+1
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol1+1/attrlist
+saving symbol - drill_symbol2+1
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2+1
+saving layer - drill_symbol2+1
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol2+1/attrlist
+saving symbol - drill_symbol3+1
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3+1
+saving layer - drill_symbol3+1
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol3+1/attrlist
+saving symbol - drill_symbol4+1
+create directory - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4+1
+saving layer - drill_symbol4+1
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/symbols/drill_symbol4+1/attrlist
+write file - D:\electronics\P2011_19_LCORE\PCB\LCORE_4/lcore_4/misc/info
+***********  COMMAND 18Feb2014.091431.341 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.341 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+get_job_path,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.091431.345 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.345 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+export_job,job=lcore_4,mode=tar_gzip,submode=full,path=D:\electronics\P2011_19_LCORE\PCB\LCORE_4 (-1)
+***********  COMMAND 18Feb2014.091431.733 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.734 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_page_open,set=yes,job1=lcore_4,step1=pcb,type1=cad,job2=lcore_4,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 18Feb2014.091431.910 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 18Feb2014.091431.910 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 18Feb2014.091431.917 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.917 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_recalc,job=lcore_4,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 18Feb2014.091431.925 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.925 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_recalc,job=lcore_4,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 18Feb2014.091431.982 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091431.982 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+netlist_compare,job1=lcore_4,step1=pcb,type1=cad,job2=lcore_4,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 18Feb2014.091432.007 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.091432.008 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+cam_compare,job=lcore_4,step=pcb,action=open,path=,show_modal=no (-1)
+***********  COMMAND 18Feb2014.091432.408 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+units,type=inch (0)
+***********  COMMAND 18Feb2014.091432.409 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+set_group,group=0 (-1)
+***********  COMMAND 18Feb2014.091432.409 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_comp_outline_mode,mode=Body (0)
+***********  COMMAND 18Feb2014.091432.545 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+multi_layer_disp,mode=many,show_board=no (0)
+***********  COMMAND 18Feb2014.091432.618 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+zoom_home (0)
+***********  COMMAND 18Feb2014.091441.149 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091441.151 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=silkscreen-top (0)
+***********  COMMAND 18Feb2014.091442.373 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091442.757 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=comp_+_top,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091442.762 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=comp_+_top (0)
+***********  COMMAND 18Feb2014.091447.213 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=comp_+_top,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091447.764 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091447.767 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=silkscreen-top (0)
+***********  COMMAND 18Feb2014.091448.540 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091449.340 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091449.343 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=soldermask-top (0)
+***********  COMMAND 18Feb2014.091450.388 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091451.300 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091451.302 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=soldermask-top (0)
+***********  COMMAND 18Feb2014.091453.076 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091453.516 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=top-copper,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091453.525 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=top-copper (0)
+***********  COMMAND 18Feb2014.091456.692 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=yes,number=2 (0)
+***********  COMMAND 18Feb2014.091502.036 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=yes,number=3 (0)
+***********  COMMAND 18Feb2014.091514.531 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=top-copper,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091514.538 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=soldermask-top (0)
+***********  COMMAND 18Feb2014.091515.019 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=soldermask-top,display=no,number=2 (0)
+***********  COMMAND 18Feb2014.091515.025 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=silkscreen-top (0)
+***********  COMMAND 18Feb2014.091515.347 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-top,display=no,number=3 (0)
+***********  COMMAND 18Feb2014.091515.843 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=top-copper,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091515.852 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=top-copper (0)
+***********  COMMAND 18Feb2014.091516.347 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=top-copper,display=no,number=1 (0)
+***********  COMMAND 18Feb2014.091516.843 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=bottom-copper,display=yes,number=1 (0)
+***********  COMMAND 18Feb2014.091516.852 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=bottom-copper (0)
+***********  COMMAND 18Feb2014.091518.211 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=solder-mask-bottom,display=yes,number=2 (0)
+***********  COMMAND 18Feb2014.091519.370 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=solder-mask-bottom,display=no,number=2 (0)
+***********  COMMAND 18Feb2014.091520.418 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=solder-mask-bottom,display=yes,number=2 (0)
+***********  COMMAND 18Feb2014.091523.634 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=solder-mask-bottom,display=no,number=2 (0)
+***********  COMMAND 18Feb2014.091524.946 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=solder-mask-bottom,display=yes,number=2 (0)
+***********  COMMAND 18Feb2014.091546.673 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+display_layer,name=silkscreen-bottom,display=yes,number=3 (0)
+***********  COMMAND 18Feb2014.093444.026 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 18Feb2014.093444.026 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+dpw_do,op=continue (-1)
+***********  COMMAND 18Feb2014.093444.031 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.093444.032 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+cam_compare,job=lcore_4,step=pcb,action=close (0)
+***********  COMMAND 18Feb2014.093444.035 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+editor_group,job=lcore_4,name=pcb,is_step=yes (-1)
+***********  COMMAND 18Feb2014.093444.035 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_job,job=lcore_4 (0)
+***********  COMMAND 18Feb2014.093444.037 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=solder-mask-bottom (0)
+***********  COMMAND 18Feb2014.093444.038 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+work_layer,name=silkscreen-bottom (0)
+***********  COMMAND 18Feb2014.093444.040 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_form,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.040 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_flow,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.041 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+job_path_exists,job_name=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.042 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+delete_entity,job=,type=job,name=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.081 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_form,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.081 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_flow,job=lcore_4 (-1)
+***********  COMMAND 18Feb2014.093444.083 get 330168 pads_user 9.2.0 Update 1(19) Windows 7
+close_toolkit,save_log=yes (-1)

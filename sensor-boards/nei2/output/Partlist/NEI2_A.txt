@@ -1,0 +1,24 @@
+4604 NEI2_A, IIT - Electronic board, 14-bit digital abs/inc encoder for linear and off axis magnets, spi/incremental interface, 5V  Revised: Wednesday, January 12, 2011
+NEI2_A.txt          Revision: A
+
+Istituto Italiano di Tecnologia
+via Morego, 30
+16163 - Genova
+
+Bill Of Materials          April 14,2011      10:53:05	Page1
+
+
+Item	Quantity	Reference	Value	IITCODE	Rev	NonMontare
+______________________________________________
+
+1	6	R1,R2,R3,R4,R5,R6	0R0	1080		
+2	1	C1	1UF	1324		
+3	2	C5,C6	1nF	1237		
+4	2	C2,C3	4.7UF	3087		
+5	1	C4	10UF	479		
+6	1	U1	AS5311	4605		
+7	2	F1,F2		NM		NM
+8	10	P1,P2,P3,P4,P5,P6,P7,P8,P9,P10		NM		NM
+9	2	H3,H4		NM		NM
+10	3	TP1,TP2,TP3		NM		NM
+11	2	H1,H2		NM		NM

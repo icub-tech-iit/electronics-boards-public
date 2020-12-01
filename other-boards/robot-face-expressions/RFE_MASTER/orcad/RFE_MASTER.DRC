@@ -1,0 +1,85 @@
+Date and Time : 01/04/17 16:52:19
+
+--------------------------------------------------
+Checking Schematic:  BFE_MASTER
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict 5V  Power Connected to Open Collector
+                    BFE_MASTER, PAGE 3 - POWER SUPPLY  (279.40, 154.94) 
+ERROR(ORCAP-1628): Possible pin type conflict U2,VOUT2  Open Collector Connected to Power
+                    BFE_MASTER, PAGE 3 - POWER SUPPLY  (144.78, 165.10) 
+ERROR(ORCAP-1628): Possible pin type conflict U3,IN  Power Connected to Open Collector
+                    BFE_MASTER, PAGE 3 - POWER SUPPLY  (309.88, 157.48) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+    GND  -  PAGE 3 - POWER SUPPLY (354.33, 66.04)
+    GND  -  PAGE 3 - POWER SUPPLY (356.87, 66.04)
+    GND  -  PAGE 3 - POWER SUPPLY (356.87, 63.50)
+    GND  -  PAGE 3 - POWER SUPPLY (356.87, 63.50)
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    EN_5V
+    PGOOD_5V
+    USB_DM
+    USB_DP
+    BOOT1
+
+Reporting Globals
+    VIN
+    GND
+    VDDA
+    VSSA
+    VUSB
+    3V3
+    5V
+
+Reporting Net Names
+    EN_5V
+    JTDO/TRACESWO
+    JTCK/SWCLK
+    JTMS/SWDIO
+    GPIO
+    OSC_OUT
+    OSC_IN
+    N16847049
+    N16844560
+    USB_DM
+    LED_BLUE
+    SPI2_SCK
+    VDDA
+    USB_DP
+    SPI1_SCK
+    BOOT1
+    GND
+    SPI1_MOSI
+    NRST
+    N17052746
+    PWM_SERVO
+    SPI2_MOSI
+    5V
+    VSSA
+    N16814827
+    N18293770
+    VIN
+    PGOOD_5V
+    N16814825
+    VUSB
+    3V3
+    N18293768
+    N18293931
+    N18364814
+    N18293826
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch

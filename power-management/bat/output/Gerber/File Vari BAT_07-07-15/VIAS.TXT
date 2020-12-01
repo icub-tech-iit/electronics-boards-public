@@ -1,0 +1,757 @@
+************************************************************************************************
+*                                                                                              *
+* VIA REPORT                                                                                   *
+*                                                                                              *
+* C:\DOCUMENTS AND SETTINGS\ADMINISTRATOR\DOCUMENTI\LAVORI_ORCAD\CLIENTI_MARCO\BAT_V0\BAT.MAX  *
+* Tue Jul 07 12:49:16 2015                                                                     *
+*                                                                                              *
+************************************************************************************************
+
+NETNAME  XCOORD       YCOORD       PADSTACK               BOARDSIDE    
+-----------------------------------------------------------------------
+3V3                                                                                                                     
+          1144.00 m    2040.00 m   VIA1                           THRU                                                  
+          1456.00 m    1136.00 m   VIA1                           THRU                                                  
+          2496.00 m    1112.00 m   VIA1                           THRU                                                  
+          3088.00 m    304.00 m    VIA1                           THRU                                                  
+          1432.00 m    496.00 m    VIA1                           THRU                                                  
+          2576.00 m    1552.00 m   VIA1                           THRU                                                  
+          2856.00 m    1608.00 m   VIA1                           THRU                                                  
+          992.00 m     2208.00 m   VIA1                           THRU                                                  
+          1976.00 m    1208.00 m   VIA1                           THRU                                                  
+          456.00 m     808.00 m    VIA1                           THRU                                                  
+          936.00 m     344.00 m    VIA1                           THRU                                                  
+          2160.00 m    1160.00 m   VIA1                           THRU                                                  
+          4448.00 m    1736.00 m   VIA1                           THRU                                                  
+          952.00 m     2256.00 m   VIA1                           THRU                                                  
+          1440.00 m    2888.00 m   VIA1                           THRU                                                  
+          952.00 m     2640.00 m   VIA1                           THRU                                                  
+          4320.00 m    616.00 m    VIA1                           THRU                                                  
+          4000.00 m    508.00 m    VIA1                           THRU                                                  
+          952.00 m     2496.00 m   VIA1                           THRU                                                  
+          560.00 m     2640.00 m   VIA1                           THRU                                                  
+          1104.00 m    496.00 m    VIA1                           THRU                                                  
+BATTERY_VOLTAGE                                                                                                         
+          1520.00 m    624.00 m    VIA1                           THRU                                                  
+          2496.00 m    416.00 m    VIA1                           THRU                                                  
+          1360.00 m    936.00 m    VIA1                           THRU                                                  
+BOOT0                                                                                                                   
+         No vias      --           --                     --      --                                                    
+BOOT1                                                                                                                   
+         No vias      --           --                     --      --                                                    
+BT_CTS                                                                                                                  
+          416.00 m     2192.00 m   VIA1                           THRU                                                  
+          672.00 m     2408.00 m   VIA1                           THRU                                                  
+BT_HW_WAKE                                                                                                              
+          608.00 m     2056.00 m   VIA1                           THRU                                                  
+          744.00 m     2448.00 m   VIA1                           THRU                                                  
+BT_MLDP                                                                                                                 
+         No vias      --           --                     --      --                                                    
+BT_PIO1                                                                                                                 
+         No vias      --           --                     --      --                                                    
+BT_PIO2                                                                                                                 
+         No vias      --           --                     --      --                                                    
+BT_PIO3                                                                                                                 
+         No vias      --           --                     --      --                                                    
+BT_RTS                                                                                                                  
+          712.00 m     2416.00 m   VIA1                           THRU                                                  
+          384.00 m     2216.00 m   VIA1                           THRU                                                  
+BT_RX                                                                                                                   
+         No vias      --           --                     --      --                                                    
+BT_SW_WAKE                                                                                                              
+         No vias      --           --                     --      --                                                    
+BT_TX                                                                                                                   
+         No vias      --           --                     --      --                                                    
+CAN1_LED                                                                                                                
+          1184.00 m    688.00 m    VIA1                           THRU                                                  
+          1328.00 m    1344.00 m   VIA1                           THRU                                                  
+          1408.00 m    1344.00 m   VIA1                           THRU                                                  
+          1432.00 m    1536.00 m   VIA1                           THRU                                                  
+CAN1_RX                                                                                                                 
+          504.00 m     1064.00 m   VIA1                           THRU                                                  
+CAN1_SHDN                                                                                                               
+          768.00 m     1512.00 m   VIA1                           THRU                                                  
+CAN1_TX                                                                                                                 
+          408.00 m     1032.00 m   VIA1                           THRU                                                  
+CANH                                                                                                                    
+         No vias      --           --                     --      --                                                    
+CANL                                                                                                                    
+         No vias      --           --                     --      --                                                    
+CPU                                                                                                                     
+         No vias      --           --                     --      --                                                    
+CPU_GREEN                                                                                                               
+          2064.00 m    1488.00 m   VIA1                           THRU                                                  
+          2064.00 m    1592.00 m   VIA1                           THRU                                                  
+CPU_RED                                                                                                                 
+         No vias      --           --                     --      --                                                    
+DGND                                                                                                                    
+          1024.00 m    1920.00 m   VIA1                           THRU                                                  
+          664.00 m     1616.00 m   VIA1                           THRU                                                  
+          1744.00 m    1464.00 m   VIA1                           THRU                                                  
+          1808.00 m    1728.00 m   VIA1                           THRU                                                  
+          1456.00 m    1024.00 m   VIA1                           THRU                                                  
+          1296.00 m    1120.00 m   VIA1                           THRU                                                  
+          1200.00 m    744.00 m    VIA1                           THRU                                                  
+          952.00 m     1192.00 m   VIA1                           THRU                                                  
+          848.00 m     1352.00 m   VIA1                           THRU                                                  
+          1616.00 m    1224.00 m   VIA1                           THRU                                                  
+          1520.00 m    1016.00 m   VIA1                           THRU                                                  
+EXTPS_VOLTAGE                                                                                                           
+          2224.00 m    464.00 m    VIA1                           THRU                                                  
+          2368.00 m    1000.00 m   VIA1                           THRU                                                  
+          2232.00 m    1120.00 m   VIA1                           THRU                                                  
+          1536.00 m    1240.00 m   VIA1                           THRU                                                  
+FAULT_GPIO                                                                                                              
+          1264.00 m    1376.00 m   VIA1                           THRU                                                  
+          1184.00 m    632.00 m    VIA1                           THRU                                                  
+FAULT_ICUB                                                                                                              
+          1240.00 m    1896.00 m   VIA1                           THRU                                                  
+          1072.00 m    2224.00 m   VIA1                           THRU                                                  
+FAULT_REM                                                                                                               
+          1200.00 m    1896.00 m   VIA1                           THRU                                                  
+          1040.00 m    2184.00 m   VIA1                           THRU                                                  
+GND                                                                                                                     
+          1344.00 m    2680.00 m   VIA1                   ~FV181  THRU                                                  
+          1280.00 m    2698.00 m   VIA1                   ~FV5    THRU                                                  
+          1208.00 m    2720.00 m   VIA1                   ~FV3    THRU                                                  
+          4527.63 m    1199.63 m   VIA2                   ~FV112  THRU                                                  
+          4344.00 m    960.00 m    VIA2                   ~FV119  THRU                                                  
+          4004.00 m    546.00 m    VIA1                   ~FV18   THRU                                                  
+          1608.00 m    1032.00 m   VIA1                           THRU                                                  
+          1496.00 m    976.00 m    VIA1                   ~FV156  THRU                                                  
+          2152.00 m    1728.00 m   VIA1                   ~FV155  THRU                                                  
+          1936.00 m    1608.00 m   VIA2                   ~FV123  THRU                                                  
+          984.00 m     456.00 m    VIA1                   ~FV138  THRU                                                  
+          864.00 m     384.00 m    VIA1                   ~FV7    THRU                                                  
+          1072.00 m    568.00 m    VIA1                   ~FV137  THRU                                                  
+          1182.00 m    580.00 m    VIA1                   ~FV136  THRU                                                  
+          1776.00 m    1760.00 m   VIA1                   ~FV6    THRU                                                  
+          1200.00 m    2656.00 m   VIA1                   ~FV2    THRU                                                  
+          1272.00 m    2904.00 m   VIA1                   ~FV162  THRU                                                  
+          1208.00 m    2784.00 m   VIA1                   ~FV4    THRU                                                  
+          1928.00 m    1064.00 m   VIA1                   ~FV145  THRU                                                  
+          1926.00 m    1282.00 m   VIA2                   ~FV146  THRU                                                  
+          1824.00 m    1408.00 m   VIA1                   ~FV154  THRU                                                  
+          1287.75 m    463.75 m    VIA1                   ~FV135  THRU                                                  
+          1352.00 m    584.00 m    VIA1                   ~FV134  THRU                                                  
+          1408.00 m    2136.00 m   VIA1                   ~FV169  THRU                                                  
+          1752.00 m    1232.00 m   VIA1                           THRU                                                  
+          4096.00 m    1448.00 m   VIA2                   ~FV113  THRU                                                  
+          4012.00 m    1362.00 m   VIA2                   ~FV114  THRU                                                  
+          3928.00 m    1248.00 m   VIA2                   ~FV115  THRU                                                  
+          3848.00 m    1248.00 m   VIA2                   ~FV117  THRU                                                  
+          3584.00 m    736.00 m    VIA1                   ~FV178  THRU                                                  
+          3512.00 m    552.00 m    VIA1                   ~FV14   THRU                                                  
+          3512.00 m    520.00 m    VIA1                   ~FV15   THRU                                                  
+          4056.00 m    936.00 m    VIA1                   ~FV12   THRU                                                  
+          3360.57 m    560.57 m    VIA1                   ~FV160  THRU                                                  
+          3360.00 m    496.00 m    VIA1                   ~FV16   THRU                                                  
+          4032.00 m    1088.00 m   VIA2                   ~FV118  THRU                                                  
+          2384.00 m    456.00 m    VIA1                   ~FV159  THRU                                                  
+          3096.00 m    1608.00 m   VIA1                   ~FV24   THRU                                                  
+          2892.93 m    1755.07 m   VIA2                   ~FV120  THRU                                                  
+          2498.00 m    1772.00 m   VIA2                   ~FV122  THRU                                                  
+          2320.00 m    1528.00 m   VIA1                   ~FV149  THRU                                                  
+          2344.00 m    456.00 m    VIA1                   ~FV158  THRU                                                  
+          2142.00 m    2210.00 m   VIA2                   ~FV170  THRU                                                  
+          1970.00 m    2754.00 m   VIA2                   ~FV152  THRU                                                  
+          4565.95 m    2634.05 m   VIA2                   ~FV107  THRU                                                  
+          4192.00 m    2376.00 m   VIA2                   ~FV106  THRU                                                  
+          4000.00 m    2576.00 m   VIA2                   ~FV105  THRU                                                  
+          488.00 m     1560.00 m   VIA2                   ~FV129  THRU                                                  
+          456.00 m     1910.00 m   VIA2                   ~FV143  THRU                                                  
+          648.00 m     960.00 m    VIA1                   ~FV140  THRU                                                  
+          424.00 m     960.00 m    VIA1                   ~FV139  THRU                                                  
+          536.00 m     576.00 m    VIA1                   ~FV10   THRU                                                  
+          536.00 m     416.00 m    VIA1                   ~FV9    THRU                                                  
+          856.00 m     712.00 m    VIA1                   ~FV142  THRU                                                  
+          592.00 m     736.00 m    VIA1                   ~FV141  THRU                                                  
+          544.00 m     272.00 m    VIA1                   ~FV8    THRU                                                  
+          592.00 m     2868.00 m   VIA2                   ~FV126  THRU                                                  
+          4232.00 m    1576.00 m   VIA2                   ~FV111  THRU                                                  
+          4504.00 m    2104.00 m   VIA2                   ~FV110  THRU                                                  
+          4296.00 m    2224.00 m   VIA2                   ~FV109  THRU                                                  
+          1336.00 m    2136.00 m   VIA1                   ~FV166  THRU                                                  
+          3888.00 m    1872.00 m   VIA1                   ~FV20   THRU                                                  
+          3616.00 m    2016.00 m   VIA2                   ~FV172  THRU                                                  
+          3096.00 m    1648.00 m   VIA1                   ~FV23   THRU                                                  
+          2924.00 m    1598.00 m   VIA2                   ~FV121  THRU                                                  
+          3208.00 m    1680.00 m   VIA1                   ~FV22   THRU                                                  
+          3106.00 m    1830.00 m   VIA1                   ~FV174  THRU                                                  
+          3512.00 m    1640.00 m   VIA1                   ~FV173  THRU                                                  
+          584.00 m     2312.00 m   VIA1                           THRU                                                  
+          2134.00 m    1608.00 m   VIA2                   ~FV147  THRU                                                  
+          738.00 m     2496.00 m   VIA1                   ~FV125  THRU                                                  
+          2456.00 m    1400.00 m   VIA1                   ~FV182  THRU                                                  
+          2236.00 m    1488.00 m   VIA1                   ~FV148  THRU                                                  
+          2628.00 m    1312.00 m   VIA2                   ~FV179  THRU                                                  
+          2624.00 m    1216.00 m   VIA1                           THRU                                                  
+          2410.00 m    1098.00 m   VIA1                   ~FV180  THRU                                                  
+          4138.00 m    2878.00 m   VIA2                   ~FV108  THRU                                                  
+          1448.00 m    2696.00 m   VIA2                   ~FV171  THRU                                                  
+          2160.00 m    2760.00 m   VIA2                   ~FV153  THRU                                                  
+          2288.00 m    2680.00 m   VIA2                   ~FV151  THRU                                                  
+          2450.00 m    2680.00 m   VIA2                   ~FV150  THRU                                                  
+          930.00 m     2296.00 m   VIA1                   ~FV1    THRU                                                  
+          1384.00 m    2136.00 m   VIA1                   ~FV168  THRU                                                  
+          1360.00 m    2136.00 m   VIA1                   ~FV167  THRU                                                  
+          1008.00 m    2128.00 m   VIA1                   ~FV164  THRU                                                  
+          424.00 m     1616.00 m   VIA2                   ~FV131  THRU                                                  
+          488.00 m     1616.00 m   VIA2                   ~FV132  THRU                                                  
+          562.00 m     1560.00 m   VIA2                   ~FV128  THRU                                                  
+          424.00 m     1560.00 m   VIA2                   ~FV130  THRU                                                  
+          1632.00 m    1344.00 m   VIA1                   ~FV157  THRU                                                  
+          3768.00 m    1248.00 m   VIA2                   ~FV116  THRU                                                  
+          3784.00 m    530.00 m    VIA2                   ~FV175  THRU                                                  
+          1408.00 m    752.00 m    VIA1                   ~FV133  THRU                                                  
+          3878.00 m    942.00 m    VIA2                   ~FV176  THRU                                                  
+          3392.00 m    1048.00 m   VIA2                   ~FV177  THRU                                                  
+          1632.00 m    976.00 m    VIA1                   ~FV161  THRU                                                  
+          3316.00 m    1782.00 m   VIA1                   ~FV21   THRU                                                  
+          410.00 m     1958.00 m   VIA2                   ~FV144  THRU                                                  
+          944.00 m     2208.00 m   VIA1                   ~FV165  THRU                                                  
+          400.00 m     2520.00 m   VIA2                   ~FV124  THRU                                                  
+          784.00 m     2920.00 m   VIA2                   ~FV127  THRU                                                  
+          1544.00 m    2896.00 m   VIA1                   ~FV163  THRU                                                  
+          1384.00 m    1608.00 m   VIA1                           THRU                                                  
+          3768.00 m    2736.00 m   VIA1                           THRU                                                  
+          2880.00 m    2696.00 m   VIA1                           THRU                                                  
+          1352.00 m    1536.00 m   VIA1                           THRU                                                  
+          1392.00 m    1280.00 m   VIA1                           THRU                                                  
+          3128.00 m    216.00 m    VIA1                           THRU                                                  
+GPIO1                                                                                                                   
+          888.00 m     2336.00 m   VIA1                           THRU                                                  
+          848.00 m     2704.00 m   VIA1                           THRU                                                  
+          912.00 m     2856.00 m   VIA1                           THRU                                                  
+          1232.00 m    1576.00 m   VIA1                           THRU                                                  
+GPIO2                                                                                                                   
+          928.00 m     2336.00 m   VIA1                           THRU                                                  
+          1256.00 m    1600.00 m   VIA1                           THRU                                                  
+HSM_CURRENT                                                                                                             
+          1720.00 m    1432.00 m   VIA1                           THRU                                                  
+          1808.00 m    1304.00 m   VIA1                           THRU                                                  
+HSM_EN                                                                                                                  
+          3712.00 m    1584.00 m   VIA1                           THRU                                                  
+          3888.00 m    1592.00 m   VIA1                           THRU                                                  
+          3968.00 m    1672.00 m   VIA1                           THRU                                                  
+          4080.00 m    1832.00 m   VIA1                           THRU                                                  
+HSM_NFLT                                                                                                                
+          3880.00 m    1832.00 m   VIA1                           THRU                                                  
+          3808.00 m    1832.00 m   VIA1                           THRU                                                  
+HSM_NPG                                                                                                                 
+         No vias      --           --                     --      --                                                    
+I2C1_SCL                                                                                                                
+         No vias      --           --                     --      --                                                    
+I2C1_SDA                                                                                                                
+         No vias      --           --                     --      --                                                    
+I2C1_WP                                                                                                                 
+          616.00 m     1840.00 m   VIA1                           THRU                                                  
+          888.00 m     1728.00 m   VIA1                           THRU                                                  
+          880.00 m     1872.00 m   VIA1                           THRU                                                  
+          1096.00 m    1880.00 m   VIA1                           THRU                                                  
+I2C2_SCL                                                                                                                
+          1504.00 m    1656.00 m   VIA1                           THRU                                                  
+          1656.00 m    2040.00 m   VIA1                           THRU                                                  
+          1688.00 m    2376.00 m   VIA1                           THRU                                                  
+          1392.00 m    2640.00 m   VIA1                           THRU                                                  
+I2C2_SDA                                                                                                                
+          1464.00 m    1664.00 m   VIA1                           THRU                                                  
+          1576.00 m    1976.00 m   VIA1                           THRU                                                  
+          1656.00 m    2328.00 m   VIA1                           THRU                                                  
+          1320.00 m    2648.00 m   VIA1                           THRU                                                  
+I2C2_SMBAL                                                                                                              
+          1520.00 m    1848.00 m   VIA1                           THRU                                                  
+          1112.00 m    2224.00 m   VIA1                           THRU                                                  
+JACK                                                                                                                    
+          1248.00 m    1344.00 m   VIA1                           THRU                                                  
+          1136.00 m    632.00 m    VIA1                           THRU                                                  
+LED0_BATTERY                                                                                                            
+         No vias      --           --                     --      --                                                    
+LED1_BATTERY                                                                                                            
+         No vias      --           --                     --      --                                                    
+LED2_BATTERY                                                                                                            
+         No vias      --           --                     --      --                                                    
+LED3_BATTERY                                                                                                            
+         No vias      --           --                     --      --                                                    
+LED4_BATTERY                                                                                                            
+         No vias      --           --                     --      --                                                    
+LED_BT                                                                                                                  
+          1456.00 m    1504.00 m   VIA1                           THRU                                                  
+MOTORS                                                                                                                  
+         No vias      --           --                     --      --                                                    
+MOTORS_GREEN                                                                                                            
+         No vias      --           --                     --      --                                                    
+MOTORS_RED                                                                                                              
+         No vias      --           --                     --      --                                                    
+N16984422                                                                                                               
+          720.00 m     512.00 m    VIA1                           THRU                                                  
+N16984428                                                                                                               
+          672.00 m     544.00 m    VIA1                           THRU                                                  
+          376.00 m     432.00 m    VIA1                           THRU                                                  
+N16984931                                                                                                               
+         No vias      --           --                     --      --                                                    
+N16984972                                                                                                               
+         No vias      --           --                     --      --                                                    
+N16995603                                                                                                               
+         No vias      --           --                     --      --                                                    
+N16995618                                                                                                               
+         No vias      --           --                     --      --                                                    
+N16995620                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17003640                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17003672                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17003705                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009717                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009718                                                                                                               
+          3928.00 m    1616.00 m   VIA1                           THRU                                                  
+          3664.00 m    1592.00 m   VIA1                           THRU                                                  
+          3840.00 m    1752.00 m   VIA1                           THRU                                                  
+N17009720                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009729                                                                                                               
+          4112.00 m    1616.00 m   VIA1                           THRU                                                  
+          4016.00 m    1872.00 m   VIA1                           THRU                                                  
+N17009763                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009765                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009766                                                                                                               
+          3768.00 m    1896.00 m   VIA1                           THRU                                                  
+          3808.00 m    1728.00 m   VIA1                           THRU                                                  
+N17009771                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009789                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009796                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009800                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009805                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009832                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009836                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17009851                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17011370                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17011449                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17011543                                                                                                               
+          2504.00 m    1208.00 m   VIA1                           THRU                                                  
+N17012134                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17012152                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17012233                                                                                                               
+          1856.00 m    1336.00 m   VIA1                           THRU                                                  
+          3016.00 m    1448.00 m   VIA1                           THRU                                                  
+N17054666                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054674                                                                                                               
+          1656.00 m    1800.00 m   VIA1                           THRU                                                  
+          1816.00 m    1800.00 m   VIA1                           THRU                                                  
+N17054680                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054688                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054700                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054732                                                                                                               
+          4056.00 m    2696.00 m   VIA1                           THRU                                                  
+          3712.00 m    1544.00 m   VIA1                           THRU                                                  
+          1848.00 m    1744.00 m   VIA1                           THRU                                                  
+N17054750                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054752                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054778                                                                                                               
+          1568.00 m    2120.00 m   VIA1                           THRU                                                  
+          1520.00 m    1984.00 m   VIA1                           THRU                                                  
+          1624.00 m    2638.00 m   VIA2                   ~FV52   THRU                                                  
+          1624.00 m    2562.00 m   VIA2                   ~FV53   THRU                                                  
+          1602.00 m    2280.00 m   VIA2                   ~FV51   THRU                                                  
+N17054832                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054858                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054860                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054866                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17054887                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17055026                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17055187                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17055271                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056406                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056424                                                                                                               
+          3744.00 m    2152.00 m   VIA1                           THRU                                                  
+          2952.00 m    1952.00 m   VIA1                           THRU                                                  
+N17056472                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056482                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056488                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056496                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056508                                                                                                               
+          3584.00 m    1616.00 m   VIA1                           THRU                                                  
+          3248.00 m    1616.00 m   VIA1                           THRU                                                  
+N17056540                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056560                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056562                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056576                                                                                                               
+          3724.00 m    2452.00 m   VIA2                   ~FV62   THRU                                                  
+          3760.00 m    2376.00 m   VIA2                   ~FV66   THRU                                                  
+          3728.00 m    2512.00 m   VIA2                   ~FV63   THRU                                                  
+          2871.00 m    2159.00 m   VIA2                   ~FV61   THRU                                                  
+          2584.00 m    2168.00 m   VIA2                   ~FV60   THRU                                                  
+          2584.00 m    2104.00 m   VIA2                   ~FV59   THRU                                                  
+          3760.00 m    2312.00 m   VIA2                   ~FV67   THRU                                                  
+          3728.00 m    2576.00 m   VIA2                   ~FV64   THRU                                                  
+          3728.00 m    2640.00 m   VIA2                   ~FV65   THRU                                                  
+N17056610                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056646                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056648                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056654                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17056677                                                                                                               
+         No vias      --           --                     --      --                                                    
+N170113250                                                                                                              
+         No vias      --           --                     --      --                                                    
+N170120310                                                                                                              
+         No vias      --           --                     --      --                                                    
+N17192798                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17192809                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17192854                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17192858                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17194422                                                                                                               
+          4416.00 m    2920.00 m   VIA1                           THRU                                                  
+          3248.00 m    2800.00 m   VIA1                           THRU                                                  
+N17211468                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211568                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211576                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211584                                                                                                               
+          4216.00 m    1032.00 m   VIA1                           THRU                                                  
+          3704.17 m    879.83 m    VIA1                           THRU                                                  
+N17211604                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211616                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211767                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211793                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211805                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211809                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17211813                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212795                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212799                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212811                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212815                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212827                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212831                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212849                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212855                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212859                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212903                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17212907                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17213111                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17217412                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17217432                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218233                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218273                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218308                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218343                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218384                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17218535                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17221858                                                                                                               
+          856.00 m     312.00 m    VIA1                           THRU                                                  
+N17221945                                                                                                               
+          792.00 m     544.00 m    VIA1                           THRU                                                  
+          864.00 m     456.00 m    VIA1                           THRU                                                  
+N17222479                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17245438                                                                                                               
+          992.00 m     2568.00 m   VIA1                           THRU                                                  
+          1120.00 m    2528.00 m   VIA1                           THRU                                                  
+          1240.00 m    2656.00 m   VIA1                           THRU                                                  
+N17245546                                                                                                               
+          1056.00 m    2752.00 m   VIA1                           THRU                                                  
+N17245550                                                                                                               
+          1088.00 m    2656.00 m   VIA1                           THRU                                                  
+N17245552                                                                                                               
+          1088.00 m    2592.00 m   VIA1                           THRU                                                  
+N17245729                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17245813                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17276000                                                                                                               
+          1088.00 m    2720.00 m   VIA1                           THRU                                                  
+N17277064                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17277076                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17277088                                                                                                               
+          1304.00 m    2728.00 m   VIA1                           THRU                                                  
+          960.00 m     2856.00 m   VIA1                           THRU                                                  
+N17277185                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17360226                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17360230                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17410031                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17410183                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17410749                                                                                                               
+         No vias      --           --                     --      --                                                    
+N17411004                                                                                                               
+         No vias      --           --                     --      --                                                    
+N170550622                                                                                                              
+         No vias      --           --                     --      --                                                    
+OSC                                                                                                                     
+         No vias      --           --                     --      --                                                    
+PC12                                                                                                                    
+         No vias      --           --                     --      --                                                    
+PC13                                                                                                                    
+         No vias      --           --                     --      --                                                    
+PC14                                                                                                                    
+         No vias      --           --                     --      --                                                    
+PC15                                                                                                                    
+         No vias      --           --                     --      --                                                    
+RST_DSPL                                                                                                                
+          896.00 m     616.00 m    VIA1                           THRU                                                  
+          1208.00 m    1336.00 m   VIA1                           THRU                                                  
+RX_DSPL                                                                                                                 
+          752.00 m     616.00 m    VIA1                           THRU                                                  
+          1144.00 m    1352.00 m   VIA1                           THRU                                                  
+SPI1_MISO                                                                                                               
+          992.00 m     2320.00 m   VIA1                           THRU                                                  
+          1232.00 m    1528.00 m   VIA1                           THRU                                                  
+SPI1_MOSI                                                                                                               
+          1256.00 m    1552.00 m   VIA1                           THRU                                                  
+          992.00 m     2280.00 m   VIA1                           THRU                                                  
+SPI1_NSEL                                                                                                               
+          1232.00 m    1480.00 m   VIA1                           THRU                                                  
+          1048.00 m    2296.00 m   VIA1                           THRU                                                  
+SPI1_SCLK                                                                                                               
+          1088.00 m    2312.00 m   VIA1                           THRU                                                  
+          1256.00 m    1504.00 m   VIA1                           THRU                                                  
+TCK                                                                                                                     
+          1064.00 m    1456.00 m   VIA1                           THRU                                                  
+          768.00 m     1192.00 m   VIA1                           THRU                                                  
+TDI                                                                                                                     
+          1032.00 m    1480.00 m   VIA1                           THRU                                                  
+          720.00 m     1120.00 m   VIA1                           THRU                                                  
+          904.00 m     1080.00 m   VIA1                           THRU                                                  
+TDO                                                                                                                     
+          848.00 m     1496.00 m   VIA1                           THRU                                                  
+          672.00 m     1072.00 m   VIA1                           THRU                                                  
+          854.00 m     1078.00 m   VIA1                           THRU                                                  
+TMS                                                                                                                     
+          752.00 m     1152.00 m   VIA1                           THRU                                                  
+          1112.00 m    1360.00 m   VIA1                           THRU                                                  
+TRACECLK                                                                                                                
+         No vias      --           --                     --      --                                                    
+TRACED0                                                                                                                 
+         No vias      --           --                     --      --                                                    
+TRACED1                                                                                                                 
+         No vias      --           --                     --      --                                                    
+TRACED2                                                                                                                 
+         No vias      --           --                     --      --                                                    
+TRACED3                                                                                                                 
+         No vias      --           --                     --      --                                                    
+TX_DSPL                                                                                                                 
+          824.00 m     608.00 m    VIA1                           THRU                                                  
+          1176.00 m    1344.00 m   VIA1                           THRU                                                  
+V5                                                                                                                      
+          2624.00 m    1136.00 m   VIA1                           THRU                                                  
+          1024.00 m    440.00 m    VIA1                           THRU                                                  
+          680.00 m     744.00 m    VIA1                           THRU                                                  
+          888.00 m     2568.00 m   VIA1                           THRU                                                  
+          4216.00 m    1072.00 m   VIA1                           THRU                                                  
+          4480.00 m    1888.00 m   VIA1                           THRU                                                  
+V5_EN                                                                                                                   
+          1032.00 m    1584.00 m   VIA1                           THRU                                                  
+V12BOARD                                                                                                                
+          2992.00 m    1040.00 m   VIA1                           THRU                                                  
+          1296.00 m    672.00 m    VIA1                           THRU                                                  
+          3800.00 m    2880.00 m   VIA2                           THRU                                                  
+          4264.00 m    656.00 m    VIA2                           THRU                                                  
+          2224.00 m    2648.00 m   VIA1                           THRU                                                  
+          2784.00 m    1144.00 m   VIA1                           THRU                                                  
+V12BOARD_CURRENT                                                                                                        
+          1496.00 m    1296.00 m   VIA1                           THRU                                                  
+          1688.00 m    1120.00 m   VIA1                           THRU                                                  
+V12BOARD_EN                                                                                                             
+          1640.00 m    1864.00 m   VIA1                           THRU                                                  
+          1832.00 m    1880.00 m   VIA1                           THRU                                                  
+V12BOARD_VOLTAGE                                                                                                        
+         No vias      --           --                     --      --                                                    
+V12MOTOR                                                                                                                
+          1544.00 m    664.00 m    VIA1                           THRU                                                  
+          3040.00 m    1024.00 m   VIA1                           THRU                                                  
+          2816.00 m    2656.00 m   VIA1                           THRU                                                  
+          3016.00 m    1760.00 m   VIA1                           THRU                                                  
+          2592.00 m    2664.00 m   VIA2                           THRU                                                  
+          880.00 m     2912.00 m   VIA2                           THRU                                                  
+          2936.00 m    1096.00 m   VIA1                           THRU                                                  
+          4448.00 m    2784.00 m   VIA2                           THRU                                                  
+V12MOTOR_CURRENT                                                                                                        
+          1688.00 m    1400.00 m   VIA1                           THRU                                                  
+V12MOTOR_EN                                                                                                             
+          3152.00 m    1568.00 m   VIA1                           THRU                                                  
+V12MOTOR_VOLTAGE                                                                                                        
+          1440.00 m    928.00 m    VIA1                           THRU                                                  
+          1488.00 m    712.00 m    VIA1                           THRU                                                  
+V48MOTOR                                                                                                                
+          3600.00 m    2156.00 m   VIA2                   ~FV92   THRU                                                  
+          464.00 m     2968.00 m   VIA2                   ~FV96   THRU                                                  
+          4298.00 m    2650.00 m   VIA2                   ~FV88   THRU                                                  
+          1568.00 m    2368.00 m   VIA2                   ~FV93   THRU                                                  
+          344.00 m     2096.00 m   VIA2                   ~FV97   THRU                                                  
+          4136.00 m    2056.00 m   VIA2                   ~FV87   THRU                                                  
+          2952.00 m    1864.00 m   VIA2                   ~FV91   THRU                                                  
+          2144.00 m    2120.00 m   VIA2                   ~FV89   THRU                                                  
+          3788.00 m    1796.00 m   VIA1                   ~FV19   THRU                                                  
+          3080.00 m    1776.00 m   VIA2                   ~FV104  THRU                                                  
+          4312.00 m    1256.00 m   VIA2                   ~FV84   THRU                                                  
+          480.00 m     1136.00 m   VIA2                   ~FV99   THRU                                                  
+          4216.00 m    1160.00 m   VIA2                   ~FV86   THRU                                                  
+          3456.00 m    800.00 m    VIA2                   ~FV80   THRU                                                  
+          3456.00 m    880.00 m    VIA2                   ~FV81   THRU                                                  
+          3568.00 m    844.00 m    VIA2                   ~FV79   THRU                                                  
+          432.00 m     1184.00 m   VIA2                   ~FV100  THRU                                                  
+          4264.00 m    1208.00 m   VIA2                   ~FV85   THRU                                                  
+          384.00 m     1232.00 m   VIA2                   ~FV101  THRU                                                  
+          4140.00 m    1234.00 m   VIA2                   ~FV82   THRU                                                  
+          384.00 m     1296.00 m   VIA2                   ~FV102  THRU                                                  
+          4224.00 m    1318.00 m   VIA2                   ~FV83   THRU                                                  
+          384.00 m     1384.00 m   VIA2                   ~FV103  THRU                                                  
+          2584.00 m    1864.00 m   VIA2                   ~FV90   THRU                                                  
+          296.00 m     2144.00 m   VIA2                   ~FV98   THRU                                                  
+          1640.00 m    2760.00 m   VIA2                   ~FV95   THRU                                                  
+          1704.00 m    2760.00 m   VIA2                   ~FV94   THRU                                                  
+V48MOTOR_FLT                                                                                                            
+         No vias      --           --                     --      --                                                    
+V48MOTOR_PG                                                                                                             
+         No vias      --           --                     --      --                                                    
+VBATTERY                                                                                                                
+          2920.00 m    920.00 m    VIA2                   ~FV33   THRU                                                  
+          2872.00 m    864.00 m    VIA2                   ~FV32   THRU                                                  
+          2872.00 m    536.00 m    VIA2                   ~FV28   THRU                                                  
+          2766.00 m    472.00 m    VIA2                   ~FV26   THRU                                                  
+          2828.00 m    492.00 m    VIA2                   ~FV27   THRU                                                  
+          2690.00 m    470.00 m    VIA2                   ~FV25   THRU                                                  
+          2872.00 m    640.00 m    VIA2                   ~FV29   THRU                                                  
+          2872.00 m    704.00 m    VIA2                   ~FV30   THRU                                                  
+          2872.00 m    768.00 m    VIA2                   ~FV31   THRU                                                  
+VCC                                                                                                                     
+          1638.00 m    1306.00 m   VIA1                           THRU                                                  
+          1488.00 m    1496.00 m   VIA1                           THRU                                                  
+          1168.00 m    1888.00 m   VIA1                           THRU                                                  
+          928.00 m     1864.00 m   VIA1                           THRU                                                  
+          504.00 m     1864.00 m   VIA1                           THRU                                                  
+          1552.00 m    976.00 m    VIA1                           THRU                                                  
+          1720.00 m    1256.00 m   VIA1                           THRU                                                  
+          992.00 m     1080.00 m   VIA1                           THRU                                                  
+          704.00 m     856.00 m    VIA1                           THRU                                                  
+          1136.00 m    1120.00 m   VIA1                           THRU                                                  
+          1232.00 m    1272.00 m   VIA1                           THRU                                                  
+          1352.00 m    1288.00 m   VIA1                           THRU                                                  
+          1296.00 m    960.00 m    VIA1                           THRU                                                  
+VEXTPS                                                                                                                  
+          1806.00 m    702.00 m    VIA2                   ~FV34   THRU                                                  
+          1872.00 m    704.00 m    VIA2                   ~FV35   THRU                                                  
+          1872.00 m    568.00 m    VIA2                   ~FV36   THRU                                                  
+          2064.00 m    456.00 m    VIA2                   ~FV39   THRU                                                  
+          1984.00 m    456.00 m    VIA2                   ~FV38   THRU                                                  
+          1928.00 m    512.00 m    VIA2                   ~FV37   THRU                                                  
+VIN                                                                                                                     
+          1502.00 m    1558.00 m   VIA1                   ~FV75   THRU                                                  
+          1568.00 m    936.00 m    VIA1                   ~FV50   THRU                                                  
+          3616.00 m    608.00 m    VIA1                   ~FV78   THRU                                                  
+          4074.00 m    1672.00 m   VIA1                   ~FV72   THRU                                                  
+          3096.00 m    1192.00 m   VIA2                   ~FV68   THRU                                                  
+          3368.00 m    1264.00 m   VIA2                   ~FV69   THRU                                                  
+          3216.00 m    640.00 m    VIA1                           THRU                                                  
+          3320.00 m    496.00 m    VIA1                   ~FV17   THRU                                                  
+          3400.00 m    496.00 m    VIA1                   ~FV13   THRU                                                  
+          1600.00 m    1872.00 m   VIA1                   ~FV76   THRU                                                  
+          3086.00 m    2144.00 m   VIA2                   ~FV58   THRU                                                  
+          3368.00 m    1612.00 m   VIA2                   ~FV71   THRU                                                  
+          3704.00 m    808.00 m    VIA1                   ~FV11   THRU                                                  
+          3640.00 m    1160.00 m   VIA2                           THRU                                                  
+          3477.00 m    1163.00 m   VIA2                   ~FV70   THRU                                                  
+          1744.00 m    2168.00 m   VIA2                   ~FV54   THRU                                                  
+          1816.00 m    2168.00 m   VIA2                   ~FV55   THRU                                                  
+          3146.00 m    2144.00 m   VIA2                   ~FV57   THRU                                                  
+          3208.00 m    2144.00 m   VIA2                   ~FV56   THRU                                                  
+          2368.00 m    848.00 m    VIA2                   ~FV41   THRU                                                  
+          2368.00 m    912.00 m    VIA2                   ~FV40   THRU                                                  
+          2368.00 m    784.00 m    VIA2                   ~FV42   THRU                                                  
+          2368.00 m    720.00 m    VIA2                   ~FV43   THRU                                                  
+          2368.00 m    656.00 m    VIA2                   ~FV44   THRU                                                  
+          3616.00 m    640.00 m    VIA1                   ~FV77   THRU                                                  
+          2368.00 m    592.00 m    VIA2                   ~FV45   THRU                                                  
+          2368.00 m    528.00 m    VIA2                   ~FV46   THRU                                                  
+          2296.00 m    528.00 m    VIA2                   ~FV48   THRU                                                  
+          2440.00 m    528.00 m    VIA2                   ~FV47   THRU                                                  
+          1564.00 m    890.00 m    VIA1                   ~FV49   THRU                                                  
+          4040.00 m    2240.00 m   VIA2                   ~FV74   THRU                                                  
+          3996.00 m    2298.00 m   VIA2                   ~FV73   THRU                                                  
+          3856.00 m    1072.00 m   VIA1                           THRU                                                  
+VINPUT_VOLTAGE                                                                                                          
+         No vias      --           --                     --      --                                                    
+~RESET                                                                                                                  
+          1248.00 m    1304.00 m   VIA1                           THRU                                                  
+          952.00 m     1080.00 m   VIA1                           THRU                                                  

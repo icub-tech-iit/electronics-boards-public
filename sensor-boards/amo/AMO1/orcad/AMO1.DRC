@@ -1,0 +1,117 @@
+Date and Time : 09/19/14 12:11:30
+
+--------------------------------------------------
+Checking Schematic: AMO1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Compatibility with SDT
+ERROR(ORCAP-1614): Page name greater than 8 characters. PAGE2 - SCHEMATIC 
+                    AMO1, PAGE2 - SCHEMATIC  (0.00, 0.00) 
+ERROR(ORCAP-1614): Page name greater than 8 characters. PAGE1 - REV. HISTORY 
+                    AMO1, PAGE1 - REV. HISTORY  (0.00, 0.00) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294752 
+                    AMO1, PAGE1 - REV. HISTORY  (78.74, 48.26) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294758 
+                    AMO1, PAGE1 - REV. HISTORY  (63.50, 20.32) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294764 
+                    AMO1, PAGE1 - REV. HISTORY  (33.02, 20.32) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294788 
+                    AMO1, PAGE1 - REV. HISTORY  (20.32, 25.40) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294794 
+                    AMO1, PAGE1 - REV. HISTORY  (20.32, 35.56) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294806 
+                    AMO1, PAGE1 - REV. HISTORY  (22.86, 45.72) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16294812 
+                    AMO1, PAGE1 - REV. HISTORY  (20.32, 55.88) 
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VPA
+    +5V
+    GND
+
+Reporting Net Names
+    N16928534
+    N16928572
+    SPI_MOSI
+    N16928569
+    GND
+    N16928576
+    SPI_MISO
+    N16928571
+    +5V
+    N16928564
+    SPI_CSB
+    SPI_CK
+    VPA
+    N16928532
+    N16928574
+
+Checking Misleading Tap connection
+
+Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: AMO1
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: AMO1 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U2,VSS  VSS  GND
+                    AMO1, PAGE2 - SCHEMATIC  (317.50, 137.16) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,VND  VND  GND
+                    AMO1, PAGE2 - SCHEMATIC  (218.44, 157.48) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,VNA  VNA  GND
+                    AMO1, PAGE2 - SCHEMATIC  (254.00, 157.48) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U3,VPD  VPD  +5V
+                    AMO1, PAGE2 - SCHEMATIC  (218.44, 154.94) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U2,VCC  VCC  +5V
+                    AMO1, PAGE2 - SCHEMATIC  (347.98, 139.70) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

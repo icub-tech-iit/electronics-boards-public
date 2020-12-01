@@ -1,0 +1,1335 @@
+(PCB UDA
+ (description
+  (timeStamp "2012 12 03 10 51 00")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "UDA, USB DIGITAL TO AUDIO AMPLIFIER")
+  (date "Monday, December 03, 2012")
+  (document "D:\\EDL\\P2012_11_UDA\\SCHEMATICS\\UDA.DSN")
+  (revision "0")
+  (organization "Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 - Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB FOOTPRINT}"))
+ (structure )
+ (placement
+  (component CAP.1
+   (place C1
+    (property 
+     (VOLTAGE 50V)
+     (DIELECTRIC C0G)
+     (timestamp 00FF7EB2)
+     (IITCODE 3465)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 12pF, 50V, 5%, C0G, SMD, 0603")
+     (Value 12pF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C2
+    (property 
+     (VOLTAGE 50V)
+     (DIELECTRIC C0G)
+     (timestamp 00FF7ECA)
+     (IITCODE 3465)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 12pF, 50V, 5%, C0G, SMD, 0603")
+     (Value 12pF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C3
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF93DF)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C4
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF9454)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C5
+    (property 
+     (VOLTAGE 100V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF6DD7)
+     (IITCODE 5109)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 100nF, 100V, 10%, X7R, SMD, 0603")
+     (Value 100nF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C6
+    (property 
+     (VOLTAGE 6.3V)
+     (DIELECTRIC X5R)
+     (timestamp 00FF6BD7)
+     (IITCODE 1076)
+     ("PCB FOOTPRINT" 0805)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 10uF, 6.3V, 10%, X5R, SMD, 0805")
+     (Value 10uF)
+     (GEOMETRY.HEIGHT 1.25mm)))
+   (place C7
+    (property 
+     (VOLTAGE 100V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF6BB2)
+     (IITCODE 5109)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 100nF, 100V, 10%, X7R, SMD, 0603")
+     (Value 100nF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C8
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF94AE)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C9
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF9506)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C10
+    (property 
+     (VOLTAGE 6.3V)
+     (DIELECTRIC X5R)
+     (timestamp 00FFB579)
+     (IITCODE 1076)
+     ("PCB FOOTPRINT" 0805)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 10uF, 6.3V, 10%, X5R, SMD, 0805")
+     (Value 10uF)
+     (GEOMETRY.HEIGHT 1.25mm)))
+   (place C11
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF857A)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C12
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF859B)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm)))
+   (place C13
+    (property 
+     (VOLTAGE 50V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF74E6)
+     (IITCODE 665)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 22nF, 50V, 5%, X7R, SMD, 0603")
+     (Value 22nF)
+     (GEOMETRY.HEIGHT 0.9mm)))
+   (place C14
+    (property 
+     (VOLTAGE 50V)
+     (DIELECTRIC X7R)
+     (timestamp 00FF7472)
+     (IITCODE 665)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 22nF, 50V, 5%, X7R, SMD, 0603")
+     (Value 22nF)
+     (GEOMETRY.HEIGHT 0.9mm)))
+   (place C15
+    (property 
+     (VOLTAGE 6.3V)
+     (DIELECTRIC X5R)
+     (timestamp 00FF757D)
+     (IITCODE 1076)
+     ("PCB FOOTPRINT" 0805)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 10uF, 6.3V, 10%, X5R, SMD, 0805")
+     (Value 10uF)
+     (GEOMETRY.HEIGHT 1.25mm)))
+   (place C16
+    (property 
+     (VOLTAGE 16V)
+     (DIELECTRIC X7R)
+     (timestamp 00FFAAC5)
+     (IITCODE 1293)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" CAP.1)
+     (CODE_DESCRIPTION "Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X7R, SMD, 0603")
+     (Value 1uF)
+     (GEOMETRY.HEIGHT 0.8mm))))
+  (component "QUARZO 4 pin 1-3"
+   (place XT1
+    (property 
+     ("4TH PART FIELD" XTAL20X16)
+     (timestamp 00FF7E91)
+     (IITCODE "TO COMPLETE")
+     ("PCB FOOTPRINT" OSC_7X5)
+     ("Source Package" "QUARZO 4 pin 1-3")
+     ("2ND PART FIELD" 12pF)
+     (Value 12MHz)
+     ("1ST PART FIELD" 30/30ppm))))
+  (component ZXMN2B14FH
+   (place Q1
+    (property 
+     (timestamp 00FF6F00)
+     (IITCODE 4148)
+     ("PCB FOOTPRINT" SOT23)
+     ("Source Package" ZXMN2B14FH)
+     (CODE_DESCRIPTION "N-Channel Mosfet, Vds=20V, Id=4.3A, Rds=55mR, SMD, SOT23")
+     (Value ZXMN2B14FH)
+     (POWER 1W)
+     (GEOMETRY.HEIGHT 1.12mm))))
+  (component "TP-ATE-LC"
+   (place TP1
+    (property 
+     (timestamp 00FFA8B5)
+     (IITCODE 5232)
+     ("PCB FOOTPRINT" "TP-ATE-LC")
+     ("Source Package" "TP-ATE-LC")
+     (CODE_DESCRIPTION "PCB test point, component side, for automatic test equipment")
+     (Value "-")
+     (NONMONTARE NM)
+     (GEOMETRY.HEIGHT 0.01mm)))
+   (place TP2
+    (property 
+     (timestamp 00FFA881)
+     (IITCODE 5232)
+     ("PCB FOOTPRINT" "TP-ATE-LC")
+     ("Source Package" "TP-ATE-LC")
+     (CODE_DESCRIPTION "PCB test point, component side, for automatic test equipment")
+     (Value "-")
+     (NONMONTARE NM)
+     (GEOMETRY.HEIGHT 0.01mm)))
+   (place TP3
+    (property 
+     (timestamp 00FFA88B)
+     (IITCODE 5232)
+     ("PCB FOOTPRINT" "TP-ATE-LC")
+     ("Source Package" "TP-ATE-LC")
+     (CODE_DESCRIPTION "PCB test point, component side, for automatic test equipment")
+     (Value "-")
+     (NONMONTARE NM)
+     (GEOMETRY.HEIGHT 0.01mm)))
+   (place TP4
+    (property 
+     (timestamp 00FFA8F5)
+     (IITCODE 5232)
+     ("PCB FOOTPRINT" "TP-ATE-LC")
+     ("Source Package" "TP-ATE-LC")
+     (CODE_DESCRIPTION "PCB test point, component side, for automatic test equipment")
+     (Value "-")
+     (NONMONTARE NM)
+     (GEOMETRY.HEIGHT 0.01mm))))
+  (component SSM2301RMZ
+   (place U3
+    (property 
+     (timestamp 00FF6A59)
+     (IITCODE "TO COMPLETE")
+     ("PCB FOOTPRINT" MSOP8)
+     ("Source Package" SSM2301RMZ)
+     (CODE_DESCRIPTION "Audio Amplifier 1-Channel (Mono), Filterless High Efficiency Class-D, 2.5/5V supply voltage, SMD, MSOP8")
+     (Value SSM2305RMZ)
+     (GEOMETRY.HEIGHT 1.10mm))))
+  (component PCM2704_1
+   (place U1
+    (property 
+     (ICA_PARTNUM $$2154267$$PCM2704DBR)
+     (timestamp 00F8E93C)
+     (IITCODE "TO COMPLETE")
+     ("PCB FOOTPRINT" SSOP28)
+     ("Source Package" PCM2704_1)
+     (ICA_MFR_NAME "TEXAS INSTRUMENTS INC")
+     (Value PCM2704))))
+  (component RES.1
+   (place R1
+    (property 
+     (timestamp 00FF7EEF)
+     (STABILITY 100ppm)
+     (IITCODE 1407)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick Film, 1M, 0.063W, 1%, SMD, 0603")
+     (Value 1M)
+     (GEOMETRY.HEIGHT 0.45mm)
+     (TOLERANCE 1%)
+     (POWER 0.063W)))
+   (place R2
+    (property 
+     (timestamp 00FF8763)
+     (STABILITY 100ppm)
+     (IITCODE 454)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick film, 1K5, 0.1W, 1%, SMD, 0603")
+     (Value 1K5)
+     (GEOMETRY.HEIGHT 0.45mm)
+     (TOLERANCE 1%)
+     (POWER 0.1W)))
+   (place R3
+    (property 
+     (timestamp 00FF87F3)
+     (STABILITY 100ppm)
+     (IITCODE 454)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick film, 1K5, 0.1W, 1%, SMD, 0603")
+     (Value 1K5)
+     (GEOMETRY.HEIGHT 0.45mm)
+     (TOLERANCE 1%)
+     (POWER 0.1W)))
+   (place R4
+    (property 
+     (timestamp 00FF710B)
+     (STABILITY 100ppm)
+     (IITCODE 468)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick film, 100K, 0.1W, 1%, SMD, 0603")
+     (Value 100K)
+     (POWER 0.1W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R5
+    (property 
+     (timestamp 00FF7065)
+     (STABILITY 100ppm)
+     (IITCODE 1574)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick film, 10K, 0.063W, 1%, SMD, 0603")
+     (Value 10K)
+     (POWER 0.063W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R6
+    (property 
+     (timestamp 00FF9792)
+     (STABILITY 100ppm)
+     (IITCODE 435)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick film, 0R, 0.1W, 5%, SMD, 0603")
+     (Value NM)
+     (POWER 0.1W)
+     (TOLERANCE 5%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R7
+    (property 
+     (timestamp 00FF7130)
+     (STABILITY 100ppm)
+     (IITCODE 1409)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (CODE_DESCRIPTION "Resistor Thick Film, 47K, 0.063W, 1%, SMD, 0603")
+     (Value 47K)
+     (POWER 0.063W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R8
+    (property 
+     (timestamp 00FF74C6)
+     (STABILITY 100ppm)
+     (IITCODE 439)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (Value 22R)
+     (GEOMETRY.HEIGHT 0.45mm)
+     (TOLERANCE 1%)
+     (POWER 0.1W)))
+   (place R9
+    (property 
+     (timestamp 00FF736D)
+     (STABILITY 100ppm)
+     (IITCODE 439)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (Value 22R)
+     (POWER 0.1W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R10
+    (property 
+     (timestamp 00FF6700)
+     (STABILITY 100ppm)
+     (IITCODE 439)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (Value 22R)
+     (POWER 0.1W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm)))
+   (place R11
+    (property 
+     (timestamp 00FF671A)
+     (STABILITY 100ppm)
+     (IITCODE 439)
+     ("PCB FOOTPRINT" 0603)
+     ("Source Package" RES.1)
+     (Value 22R)
+     (POWER 0.1W)
+     (TOLERANCE 1%)
+     (GEOMETRY.HEIGHT 0.45mm))))
+  (component "53261-0471"
+   (place J2
+    (property 
+     (CURRENT 1A)
+     (timestamp 00FFC9FE)
+     (IITCODE 288)
+     ("PCB FOOTPRINT" "53261-0471")
+     ("Source Package" "53261-0471")
+     (CODE_DESCRIPTION "PCB connector, Picoblade, 4 contacts, 1 row, male, p.1.25mm, 90°, w to b, lock, key, SMD")
+     (Value "53261-0471")
+     (GEOMETRY.HEIGHT 3.4mm))))
+  (component "47346-0001"
+   (place J1
+    (property 
+     (CURRENT 1.8A)
+     (timestamp 00FF9633)
+     (IITCODE 5063)
+     ("PCB FOOTPRINT" USBMICRO)
+     ("Source Package" "47346-0001")
+     (CODE_DESCRIPTION "PCB connector, microUSB type B, 5 contact, socket, 90°, w to b, lock, key, SMD")
+     (Value "47346-0001")
+     (GEOMETRY.HEIGHT 2.45mm))))
+  (component MSP6271_0
+   (place U2
+    (property 
+     (timestamp 00FFC33C)
+     ("PCB FOOTPRINT" MSOP8)
+     ("Source Package" MSP6271_0)
+     (Value MSP6271)))))
+ (library
+  (image PCM2704_1
+   (property 
+    (sourcelib D:\\EDL\\P2012_11_UDA\\SCHEMATICS\\UDA.DSN))
+   (pin 999 1
+    (property 
+     (pinname XTO)
+     (pintype 4)
+     (Name XTO)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744192)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname CK)
+     (pintype 2)
+     (Name CK)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname DT)
+     (pintype 1)
+     (Name DT)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N163126362)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname PSEL)
+     (pintype 0)
+     (Name PSEL)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16742400)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname DOUT)
+     (pintype 2)
+     (Name DOUT)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 28
+    (property 
+     (pinname XTI)
+     (pintype 4)
+     (Name XTI)
+     (Number 28)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744187)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname VCCL)
+     (pintype 7)
+     (Name VCCL)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16743165)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname VCCR)
+     (pintype 7)
+     (Name VCCR)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16743170)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname VCCP)
+     (pintype 7)
+     (Name VCCP)
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16742374)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname VOUTL)
+     (pintype 2)
+     (Name VOUTL)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N16740922)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname VOUTR)
+     (pintype 2)
+     (Name VOUTR)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N16741080)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname DGND)
+     (pintype 7)
+     (Name DGND)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname ZGND)
+     (pintype 7)
+     (Name ZGND)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 19
+    (property 
+     (pinname PGND)
+     (pintype 7)
+     (Name PGND)
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname "D-")
+     (pintype 1)
+     (Name "D-")
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N16745698)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname D+)
+     (pintype 1)
+     (Name D+)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N16745716)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname VBUS)
+     (pintype 7)
+     (Name VBUS)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" 5V)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname VDD)
+     (pintype 7)
+     (Name VDD)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16742400)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname VCOM)
+     (pintype 7)
+     (Name VCOM)
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N16741807)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 25
+    (property 
+     (pinname TEST1)
+     (pintype 4)
+     (Name TEST1)
+     (Number 25)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16742400)
+     (Order 19)
+     ("Is No Connect" False)))
+   (pin 999 26
+    (property 
+     (pinname TEST0)
+     (pintype 4)
+     (Name TEST0)
+     (Number 26)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16742400)
+     (Order 20)
+     ("Is No Connect" False)))
+   (pin 999 21
+    (property 
+     (pinname HOST)
+     (pintype 0)
+     (Name HOST)
+     (Number 21)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16742400)
+     (Order 21)
+     ("Is No Connect" False)))
+   (pin 999 22
+    (property 
+     (pinname HID0/MS)
+     (pintype 0)
+     (Name HID0/MS)
+     (Number 22)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 22)
+     ("Is No Connect" False)))
+   (pin 999 23
+    (property 
+     (pinname HID1/MC)
+     (pintype 0)
+     (Name HID1/MC)
+     (Number 23)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 23)
+     ("Is No Connect" False)))
+   (pin 999 24
+    (property 
+     (pinname HID2/MD)
+     (pintype 0)
+     (Name HID2/MD)
+     (Number 24)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 24)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname AGNDL)
+     (pintype 7)
+     (Name AGNDL)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 25)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname AGNDR)
+     (pintype 7)
+     (Name AGNDR)
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 26)
+     ("Is No Connect" False)))
+   (pin 999 27
+    (property 
+     (pinname S\\S\\P\\N\\D\\)
+     (pintype 2)
+     (Name S\\S\\P\\N\\D\\)
+     (Number 27)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N16745591)
+     (Order 27)
+     ("Is No Connect" False))))
+  (image MSP6271_0
+   (property 
+    (sourcelib D:\\EDL\\P2012_11_UDA\\SCHEMATICS\\UDA.DSN))
+   (pin 999 2
+    (property 
+     (pinname "IN-")
+     (pintype 4)
+     (Name "IN-")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16740890)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname IN+)
+     (pintype 4)
+     (Name IN+)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16741807)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname Vss)
+     (pintype 4)
+     (Name Vss)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname OUT)
+     (pintype 4)
+     (Name OUT)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16739902)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname Vdd)
+     (pintype 4)
+     (Name Vdd)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image RES.1
+   (property 
+    (sourcelib O:\\R.OLB))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744192)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744187)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image SSM2301RMZ
+   (property 
+    (sourcelib O:\\AO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 5
+    (property 
+     (pinname OUT+)
+     (pintype 4)
+     (Name OUT+)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" OUT+)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname "OUT-")
+     (pintype 4)
+     (Name "OUT-")
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "OUT-")
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname S\\D\\)
+     (pintype 0)
+     (Name S\\D\\)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N16740106)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname GAIN)
+     (pintype 4)
+     (Name GAIN)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname IN+)
+     (pintype 4)
+     (Name IN+)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16739910)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname "IN-")
+     (pintype 4)
+     (Name "IN-")
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16755580)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname VDD)
+     (pintype 4)
+     (Name VDD)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 7)
+     ("Is No Connect" False))))
+  (image "TP-ATE-LC"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (NonMontare NM)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image CAP.1
+   (property 
+    (sourcelib O:\\C.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744187)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "47346-0001"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "D-")
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" D+)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16750680)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" 5V)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 10)
+     ("Is No Connect" False))))
+  (image "53261-0471"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" OUT+)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "OUT-")
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image "QUARZO 4 pin 1-3"
+   (property 
+    (sourcelib "O:\\EXTERNALS\\SMD\\PASSIVE-SM.OLB")
+    ("4TH PART FIELD" <Package>))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744187)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 1)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16744192)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 3)
+     ("Is No Connect" True))))
+  (image ZXMN2B14FH
+   (property 
+    (sourcelib O:\\TR.OLB)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname G)
+     (pintype 4)
+     (Name G)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16745591)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname S)
+     (pintype 4)
+     (Name S)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname D)
+     (pintype 4)
+     (Name D)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16740106)
+     (Order 2)
+     ("Is No Connect" False)))))
+ (network
+  (net 5V
+    (property 
+     (nettype S))
+   (pins
+     U1-10 U3-6 C7-1 C6-1 C5-1 R5-1 J1-1 TP1-1 C10-1
+     U2-7))
+  (net D+
+   (pins
+     R10-2 R3-1 J1-3))
+  (net "D-"
+   (pins
+     R11-2 J1-2))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     U1-6 U1-11 U1-19 U1-12 U1-17 U3-7 C7-2 C6-2 C5-2
+     Q1-2 R9-1 R8-1 C15-2 C1-2 C2-2 C3-2 C4-2 C8-2
+     C9-2 J1-5 J1-6 J1-7 J1-8 J1-9 J1-10 J1-11 R6-2
+     TP4-1 C16-1 C10-2 U2-4 J2-1 J2-4 J2-5 J2-6))
+  (net N163126362
+   (pins
+     U1-3 R2-2))
+  (net N16739902
+   (pins
+     R4-2 C11-1 U2-6))
+  (net N16739910
+   (pins
+     U3-3 C11-2))
+  (net N16740106
+   (pins
+     U3-1 Q1-3 R5-2))
+  (net N16740890
+   (pins
+     R4-1 R7-2 U2-2))
+  (net N16740922
+   (pins
+     U1-14 C13-1))
+  (net N16741040
+   (pins
+     R7-1 C12-2))
+  (net N16741080
+   (pins
+     U1-15 C14-1 C12-1))
+  (net N16741807
+   (pins
+     U1-18 C15-1 U2-3))
+  (net N16742374
+   (pins
+     U1-20 C9-1))
+  (net N16742400
+   (pins
+     U1-4 U1-7 U1-25 U1-26 U1-21 R2-1 R3-2 C3-1))
+  (net N16742856
+   (pins
+     R8-2 C13-2))
+  (net N16743165
+   (pins
+     U1-13 C4-1))
+  (net N16743170
+   (pins
+     U1-16 C8-1))
+  (net N16744187
+   (pins
+     U1-28 XT1-1 C1-1 R1-1))
+  (net N16744192
+   (pins
+     U1-1 XT1-3 C2-1 R1-2))
+  (net N16745364
+   (pins
+     R9-2 C14-2))
+  (net N16745591
+   (pins
+     U1-27 Q1-1))
+  (net N16745698
+   (pins
+     U1-8 R11-1))
+  (net N16745716
+   (pins
+     U1-9 R10-1))
+  (net N16750680
+   (pins
+     J1-4 R6-1))
+  (net N16755580
+   (pins
+     U3-4 C16-2))
+  (net OUT+
+   (pins
+     U3-5 TP2-1 J2-2))
+  (net "OUT-"
+   (pins
+     U3-8 TP3-1 J2-3)))
+)

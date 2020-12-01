@@ -1,0 +1,153 @@
+==============================================================
+==============================================================
+4DGL Compiler 2.8.0.3 -- Copyright 2004-2015 4D Labs
+** D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V1\BAT_display.4Dg
+compiled Thu Mar 24 10:41:11 2016
+
+==============================================================
+==============================================================
+
+
+No Ref for file
+[LINKING]
+function 5, main, address 38
+(main entry point)
+stack usage 4 + 4
+function 'main' requires no arguments
+function 'main' has no return value
+
+[LINKING]
+function 1, ledDigitsDisplay, address 312
+stack usage 8 + 4
+function 'ledDigitsDisplay' requires 9 argument
+function 'ledDigitsDisplay' has no return value
+
+[RESERVED WORDS]
+#inherit
+#LISTCODE
+#MODE
+#STACK
+#OPTIMIZE_ON
+#OPTIMIZE_OFF
+byte
+word
+dword
+float
+private
+#IF
+#IFNOT
+#ELSE
+#ENDIF
+#CONST
+#constant
+#USE
+USING
+func
+endfunc
+var
+#STOP
+#DATA
+#ASM
+#END
+#platform
+EXISTS
+#ERROR
+#MESSAGE
+#NOTICE
+sizeof
+argcount
+if
+else
+endif
+while
+wend
+repeat
+until
+forever
+return
+break
+continue
+for
+next
+switch
+case
+default
+endswitch
+print
+goto
+gosub
+endsub
+mcall
+lookup8
+lookup16
+
+[MACRO]
+
+[CONSTANTS]
+__MAXMEM                          000000FF        255  (usage 1)
+__MAXPROG                         00002400       9216  (usage 1)
+GOLDELOX                          00000001          1  (usage 3)
+iChargeH                          00000000          0  (usage 3)
+iChargeL                          00001E00       7680  (usage 3)
+iCPUH                             00000000          0  (usage 3)
+iCPUL                             00000000          0  (usage 3)
+iCustomdigits1H                   0000001B         27  (usage 3)
+iCustomdigits1L                   0000BE00      48640  (usage 3)
+iCustomdigits2H                   0000001B         27  (usage 3)
+iCustomdigits2L                   0000CE00      52736  (usage 3)
+iiCustomdigits1H                  0000001B         27  (usage 3)
+iiCustomdigits1L                  0000C200      49664  (usage 3)
+iiCustomdigits2H                  0000001B         27  (usage 3)
+iiCustomdigits2L                  0000D200      53760  (usage 3)
+iMotorsH                          00000000          0  (usage 3)
+iMotorsL                          00000E00       3584  (usage 3)
+
+[PmmC FUNCTIONS]
+gfx_Cls                           FFFFFFD7         -41  args=0 r=0  (usage 3)
+media_Image                       FFFFFFB3         -77  args=2 r=0  (usage 6)
+media_Init                        FFFFFFB1         -79  args=0 r=1  (usage 3)
+media_SetAdd                      FFFFFFB9         -71  args=2 r=0  (usage 24)
+media_VideoFrame                  FFFFFFBA         -70  args=3 r=0  (usage 18)
+pause                             FFFFFFFA          -6  args=1 r=0  (usage 9)
+putstr                            FFFFFFF7          -9  args=1 r=1  (usage 3)
+
+[USER FUNCTIONS]
+ledDigitsDisplay                  00000138  args=9 r=0  (usage 6)
+
+[GLOBAL VARIABLES]
+
+[PRIVATE VARIABLES]
+
+[DATA]
+0007: 53 74 61 72 74 69 6E 67 0A 00 44 72 69 76 65 20     Starting..Drive 
+0017: 6E 6F 74 20 6D 6F 75 6E 74 65 64 2E 2E 2E 00        not mounted....
+
+[__MAXPROG]
+9216
+[__MAXMEM]
+255
+
+[PROGRAM]
+main
+[CODESIZE]
+493
+[MEMSIZE]
+0
+[ARGCOUNT]
+0
+[RETURNS]
+NO
+[STACKSIZE]
+0 (AUTO)
+[STACK_ESTIMATE]
+32   (nb:- worst case estimate)
+[MODE]
+0
+
+[PROJECT]
+D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V1\BAT_display.4Dg
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\GOLDELOX.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\ledDigitsDisplayGoldelox.inc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
+D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V1\BAT_display.4DWork\BAT_displayConst.inc

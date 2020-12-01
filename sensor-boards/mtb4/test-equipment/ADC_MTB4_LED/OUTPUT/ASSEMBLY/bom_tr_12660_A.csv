@@ -1,0 +1,9 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;709;;1,00;J1;53261-0871;CO;53261-0871;1A;;;;PCB connector, Picoblade, 8 contacts, 1 row, male, p.1.25mm, 90°, w to b, nolock, key, SMD;Molex;53261-0871;RS COMPONENTS S.P.A.;542-7157;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Intensity;Tolerance;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+2;1652;;3,00;DL4,DL5,DL6;LED0603;DL;RED;40mcd;;;;Led diode, red, 2V, 20mA, 40mcd, SMD, 0603;Rohm;SML-511UWT86R;FARNELL ITALIA S.R.L.;1685073;
+3;1655;;3,00;DL1,DL2,DL3;LED0603;DL;BLUE;100mcd;;;;Led diode, blue, 4V, 25mA, 100mcd, SMD, 0603;Avago technologies;OVS-0603;FARNELL ITALIA S.R.L.;1716770;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Ranges;Tolerance;Pieces_quoted;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+4;12661.0;;1,00;PCB;;PCB;;;;;MM;ADC-MTB4_LED, IIT - Printed Circuit Board for testing MTB4 skin connector;IIT;12661;EUROCIRCUITS bvba;ADC_MTB4_LED_12661_0;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Prepared;Description;Manuf;Manuf Code;Supplier;Supplier Code
+5;1578;;6,00;R1-R6;0603;R;470R;0.063W;1%;100ppm;;Resistor Thick film, 470R, 0.063W, 1%, SMD, 0603;Multicomp;MC 0.063W 0603 1% 470R;FARNELL ITALIA S.R.L.;9331239;Phycomp;RC0603FR-07470RL;FARNELL ITALIA S.R.L.;9238441;

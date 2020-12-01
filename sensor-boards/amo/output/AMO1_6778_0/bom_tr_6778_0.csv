@@ -1,0 +1,20 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Capacitance;Voltage;Tolerance;Dielectric;ESR;Rated RMS current;Temp;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;1035;;3,00;C3 C4 C5;0402;C;100nF;16V;10%;X7R;;;;Multilayer Ceramic Capacitor, 100nF, 16V, 10%, X7R, SMD, 0402;Yageo;C0402KRX7R7BB104;FARNELL ITALIA S.R.L.;9402047;Yageo;C0402KRX7R7BB104;RS COMPONENTS S.P.A.;616-9701;Kemet;C0402C104K4RAC-TU;FARNELL ITALIA S.R.L.;1650809;Kemet;C0402C104K4RAC-TU;MOUSER ELECTRONICS;80-C0402C104K4R;
+2;1036;;3,00;C8 C9 C10;0402;C;100pF;50V;5%;C0G;;;;Multilayer Ceramic Capacitor, 100pF, 50V, 5%, C0G, SMD, 0402;Yageo;CC0402JRNPO9BN101;FARNELL ITALIA S.R.L.;3019226;Yageo;CC0402JRNPO9BN101;RS COMPONENTS S.P.A.;435-1497;Yageo;CC0402JRNPO9BN101;MOUSER ELECTRONICS;603-CC402JRNPO9BN101;
+3;1324;;1,00;C2;0402;C;1uF;10V;10%;X5R;;;;Multilayer Ceramic Capacitor, 1uF, 10V, 10%, X5R, SMD, 0402;Phycomp;CC0402KRX5R6BB105;FARNELL ITALIA S.R.L.;1458896;Phycomp;CC0402KRX5R6BB105;MOUSER ELECTRONICS;603-CC402KRX5R6BB105;TDK;C1005X5R1A105KT;RS COMPONENTS S.P.A.;741-4396;
+4;3087;;1,00;C1;0402;C;4.7uF;4V;20%;X5R;;;;Multilayer Ceramic Capacitor, 4.7uF, 4V, 20%, X5R, SMD, 0402;Murata;GRM155R60G475ME;FARNELL ITALIA S.R.L.;1735525;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+5;1388;;1,00;P1;53398-0671;CO;53398-0671;1A;;;;;;PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm, Straight, w to b, nolock, key, SMD;Molex;53398-0671;FARNELL ITALIA S.R.L.;1125368;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;;;;;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+6;6554;;2,00;MEC1 MEC2;;FAST;SMTSO-M2-4ET;;;;;;;PEM Surface Mount Nuts and Spacers/Standoffs - Type SMTSO, M2;Penn Engineering;SMTSO-M2-4ET;TAG CONTROL S.R.L.;SMTSO-M2-4ET;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Tolerance;Current;Voltage;Pieces_quoted;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+7;1118;;3,00;FB2 FB3 FB4;0402;FI;600R @100MHz;+/-25%;300mA;-;;;;Ferrite bead, 300mA, 600R @100MHz, SMD, 0402;Murata;BLM15AG601SN1D;FARNELL ITALIA S.R.L.;1515762;
+8;1119.1;;1,00;FB1;BLA2A;FI;600R @100MHz;+/-25%;100mA;-;;;;Ferrite beads array, 100mA, 600R @100MHz, SMD, 0804 (4x0402);Murata;BLA2ABD601SN4D;FARNELL ITALIA S.R.L.;1515796;Murata;BLA2ABD601SN4D;MOUSER ELECTRONICS;81-BLA2ABD601SN4D;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Memory_dimension;Pieces_quoted;Prepared;;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+9;6501;;1,00;U2;SOT23;ME;24AA02E64T;2k (256x8);;AM;;;;EEPROM memory, 2k, 400kHz, 1.8/5.5V, I2C, SOT23;Microchip;24AA02E64T;FARNELL ITALIA S.R.L.;2345567;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Range;Tolerance;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+10;6777;;1,00;PCB;;PCB;AMO1_0;;;;AM;;;AMO1, IIT - Printed Circuit Board, Absolute Magnetic Off-Axis Board with SPI interface;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+11;1107;;3,00;R1 R2 R3;0402;R;4K7;0.063W;1%;100ppm;;;;Resistor Thick film, 4K7, 0.063W, 1%, SMD, 0402;Vishay;CRCW04024K70FKED;FARNELL ITALIA S.R.L.;1469712RL;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Range;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+12;6500;;1,00;U3;DFN16-5x5;SE;iC-MU;3/5.5V;;;AM;;;Off-Axis nonius encoder with integrated hall sensors;iC-Haus;iC-MU;Optoelettronica Italia Srl;IC-MU DFN16-5X5;

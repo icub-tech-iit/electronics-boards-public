@@ -1,0 +1,62 @@
+Date and Time : 02/21/14 11:15:14
+
+--------------------------------------------------
+Checking Schematic: BMON_1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    Vin
+    I2C_VCC
+    Vout
+    GND
+    3V3
+
+Reporting Net Names
+    N16889978
+    N16867374
+    LED2
+    PGD
+    N16874608
+    MCLR
+    3V3
+    LED3
+    I2C_SDA
+    N16893977
+    I2C_VCC
+    N16872227
+    PGC
+    N16872256
+    VOUT
+    N16872603
+    GND
+    IBATTMON
+    I2C_SCL
+    N16872497
+    CHARGE
+    VBATTMON
+    N16888284
+    N16912749
+    VIN
+    N16888293
+    LED0
+    LED1
+    OSCIN
+
+Checking Misleading Tap connection
+
+Check Bus width mismatch

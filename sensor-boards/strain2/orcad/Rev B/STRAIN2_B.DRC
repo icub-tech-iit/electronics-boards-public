@@ -1,0 +1,199 @@
+Date and Time : 04/27/17 16:30:15
+
+--------------------------------------------------
+Checking Schematic: STRAIN2
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U8,RXD  Output Connected to Bidirectional
+                    STRAIN2, PAGE 5 - CAN  (121.92, 142.24) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PB8  Bidirectional Connected to Output
+                    STRAIN2, PAGE 2 - MCU  (241.30, 104.14) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PH0/OSC_IN  Bidirectional Connected to Output
+                    STRAIN2, PAGE 2 - MCU  (165.10, 132.08) 
+WARNING(ORCAP-1829): Possible pin type conflict Y1,OUTPUT  Output Connected to Bidirectional
+                    STRAIN2, PAGE 2 - MCU  (81.28, 116.84) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    BS3
+    BR2
+    STRAIN1
+    BS4
+    BR3
+    USART2_TX
+    EN_2V8
+    STRAIN2
+    BS5
+    BR4
+    USART1_TX
+    CAN1_STB
+    STRAIN3
+    BR5
+    BS6
+    I2C1_SDA
+    USART2_RX
+    STRAIN4
+    BR6
+    USART1_RX
+    BNO055_BOOT
+    I2C2_SDA
+    W_STRAIN1
+    STRAIN5
+    STRAIN6
+    W_STRAIN2
+    W_STRAIN3
+    W_STRAIN4
+    CAN1_SHDN
+    CAN1_TX
+    JTCK/SWCLK
+    W_STRAIN5
+    W_STRAIN6
+    CAN1_RX
+    BNO055_RESET
+    BNO055_INT
+    PG_3V3
+    BS1
+    I2C1_SCL
+    JTMS/SWDIO
+    BS2
+    BR1
+    I2C2_SCL
+
+Reporting Globals
+    2V8
+    VIN
+    GND
+    AGND
+    3V3
+
+Reporting Net Names
+    BNO055_INT
+    GND
+    BNO055_BOOT
+    I2C2_SCL
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? I2C2_SCL 
+                    STRAIN2, PAGE 2 - MCU  (360.68, 111.76) 
+             Alternate Name:  USART2_RX
+    -------------------------------------------------------------------------------
+
+    N16307768
+    N16307930
+    N16308338
+    I2C1_SDA
+    3V3
+    BNO055_RESET
+    I2C2_SDA
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? I2C2_SDA 
+                    STRAIN2, PAGE 6 - IMU, TEMP SENSOR  (302.26, 63.50) 
+             Alternate Name:  USART2_TX
+    -------------------------------------------------------------------------------
+
+    N16981449
+    I2C1_SCL
+    N16981479
+    CAN1_STB
+    N16853019
+    N16853023
+    CAN1_SHDN
+    CANL
+    USART1_RX
+    VIN
+    CANH
+    N16853021
+    CAN1_RX
+    CAN1_TX
+    N16936575
+    N16936560
+    N16936570
+    N16937019
+    BS3
+    BR4
+    2V8
+    BS5
+    AGND
+    N16936942
+    BR6
+    N16937023
+    BR2
+    N16936580
+    BS4
+    N16937015
+    BR1
+    BR3
+    BS6
+    N16936565
+    BS1
+    BS2
+    BR5
+    N16937007
+    N16936585
+    N16937011
+    W_STRAIN2
+    N16865510
+    W_STRAIN6
+    N16943537
+    W_STRAIN4
+    W_STRAIN1
+    STRAIN5
+    W_STRAIN3
+    N16879002
+    N16944667
+    STRAIN4
+    N16943036
+    N16943182
+    N16943008
+    N16943216
+    N16943040
+    STRAIN6
+    N16945196
+    N16943446
+    STRAIN3
+    N16944695
+    N16944871
+    N16944875
+    N16941720
+    N16941692
+    N16865520
+    N16941922
+    N16903781
+    STRAIN1
+    N16943212
+    N16945105
+    N16944841
+    STRAIN2
+    N16944699
+    N16941724
+    W_STRAIN5
+    N16983722
+    OSC
+    JTDO/TRACESWO
+    EN_OSC
+    EN_2V8
+    PG_3V3
+    BOOT0
+    N16983729
+    NRST
+    N16920308
+    N16896306
+    N17013138
+    JTCK/SWCLK
+    JTMS/SWDIO
+    USART1_TX
+    LED
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch

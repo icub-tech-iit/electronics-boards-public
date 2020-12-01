@@ -1,0 +1,246 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.5"    2013/09/27.10:24:18    1
+"d:\electronics\p2013_10_bmon\mechanics\bmon.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+0.89916
+0     35.75                         13.0                          0     
+0     -35.75                        13.0                          0     
+0     -36.75                        12.0                          0     
+0     -36.75                        1.0                           0     
+0     -35.75                        0.0                           0     
+0     35.75                         0.0                           0     
+0     36.75                         1.0                           0     
+0     36.75                         12.0                          0     
+0     35.75                         13.0                          0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+4.200000 20.250000 9.500000 NPTH BOARD
+4.200000 -20.250000 9.500000 NPTH BOARD
+4.200000 31.700000 3.500000 NPTH BOARD
+4.200000 -31.700000 3.500000 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     35.75                         0.0                           0     
+0     36.75                         1.0                           0     
+0     36.75                         12.0                          0     
+0     35.75                         13.0                          0     
+0     25.75                         13.0                          0     
+0     25.75                         0.0                           0     
+0     35.75                         0.0                           0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     -36.75                        1.0                           0     
+0     -35.75                        0.0                           0     
+0     -25.75                        0.0                           0     
+0     -25.75                        13.0                          0     
+0     -35.75                        13.0                          0     
+0     -36.75                        12.0                          0     
+0     -36.75                        1.0                           0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    1.200000      0.0
+0     27.5                          6.5                           0     
+0     -27.5                         6.5                           0     
+0     -27.5                         0.0                           0     
+0     27.5                          0.0                           0     
+0     27.5                          6.5                           0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     28.45                         3.5                           0     
+0     34.95                         3.5                           180.0     
+0     28.45                         3.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -34.95                        3.5                           0     
+0     -28.45                        3.5                           180.0     
+0     -34.95                        3.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -23.2                         9.5                           0     
+0     -17.3                         9.5                           180.0     
+0     -23.2                         9.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     17.3                          9.5                           0     
+0     23.2                          9.5                           180.0     
+0     17.3                          9.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     22.35                         9.5                           0     
+0     18.15                         9.5                           180.0     
+0     22.35                         9.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     34.48                         3.5                           0     
+0     28.92                         3.5                           180.0     
+0     34.48                         3.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -28.92                        3.5                           0     
+0     -34.48                        3.5                           180.0     
+0     -28.92                        3.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -18.15                        9.5                           0     
+0     -22.35                        9.5                           180.0     
+0     -18.15                        9.5                           180.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     25.75                         12.0                          0     
+0     25.75                         13.0                          0     
+0     -25.75                        13.0                          0     
+0     -25.75                        12.0                          0     
+0     25.75                         12.0                          0     
+.END_PLACE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     17.0                          9.5                           0     
+0     23.5                          9.5                           180.0     
+0     17.0                          9.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     -18.15                        9.5                           0     
+0     -22.35                        9.5                           180.0     
+0     -18.15                        9.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     22.35                         9.5                           0     
+0     18.15                         9.5                           180.0     
+0     22.35                         9.5                           180.0     
+.END_ROUTE_KEEPOUT
+.ROUTE_KEEPOUT
+TOP
+0     -23.5                         9.5                           0     
+0     -17.0                         9.5                           180.0     
+0     -23.5                         9.5                           180.0     
+.END_ROUTE_KEEPOUT
+.PLACEMENT
+S7091-42R                                    S7091-42R                                    TP4                                          
+-15.75                        9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP3                                          
+-24.75                        9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP2                                          
+-29.25                        9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP1                                          
+-33.75                        9.7                           180.0     BOTTOM    PLACED    
+TP-SMOX060B1LP                               TP-SMOX060B1LP                               TP24                                         
+-17.60696                     1.30971                       0.0       TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMOX060B1LP                               TP23                                         
+-20.14696                     1.30971                       0.0       TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMOX060B1LP                               TP22                                         
+-22.68696                     1.30971                       0.0       TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMOX060B1LP                               TP21                                         
+-25.22696                     1.30971                       0.0       TOP       PLACED    
+TP-SMOX060B1LP                               TP-SMOX060B1LP                               TP20                                         
+-27.76696                     1.30971                       0.0       TOP       PLACED    
+TP4055                                       TP4055                                       TP17                                         
+23.5                          3.1                           0.0       TOP       PLACED    
+0402                                         0402                                         R12                                          
+16.3                          10.2                          270.0     TOP       PLACED    
+0402                                         0402                                         R5                                           
+-26.40421                     0.92475                       0.0       BOTTOM    PLACED    
+0402                                         0402                                         R6                                           
+-26.40421                     1.92475                       180.0     BOTTOM    PLACED    
+0805                                         0805                                         C6                                           
+-26.37583                     4.36867                       90.0      BOTTOM    PLACED    
+MSOP8PP                                      MSOP8PP                                      U3                                           
+-21.6                         1.9                           270.0     BOTTOM    PLACED    
+SOD123                                       SOD123                                       D1                                           
+-21.1                         5.3                           0.0       BOTTOM    PLACED    
+0805                                         0805                                         C5                                           
+-17.05387                     4.50072                       270.0     BOTTOM    PLACED    
+0603                                         0603                                         R10                                          
+-14.25759                     1.67056                       90.0      BOTTOM    PLACED    
+0603                                         0603                                         R8                                           
+-14.24889                     4.17424                       90.0      BOTTOM    PLACED    
+TP4055                                       TP4055                                       TP16                                         
+18.0                          3.1                           0.0       TOP       PLACED    
+0402                                         0402                                         R13                                          
+15.3                          10.2                          270.0     TOP       PLACED    
+0402                                         0402                                         R14                                          
+14.3                          10.2                          270.0     TOP       PLACED    
+0402                                         0402                                         R15                                          
+13.3                          10.2                          270.0     TOP       PLACED    
+LED0603                                      LED0603                                      DL4                                          
+11.62                         10.0                          0.0       TOP       PLACED    
+TP4055                                       TP4055                                       TP15                                         
+12.5                          3.1                           0.0       TOP       PLACED    
+LED0603                                      LED0603                                      DL3                                          
+9.08                          10.0                          0.0       TOP       PLACED    
+LED0603                                      LED0603                                      DL2                                          
+6.54                          10.0                          0.0       TOP       PLACED    
+0402                                         0402                                         C3                                           
+5.67911                       5.95634                       180.0     TOP       PLACED    
+0402                                         0402                                         C1                                           
+5.28668                       0.67002                       180.0     TOP       PLACED    
+LED0603                                      LED0603                                      DL1                                          
+4.0                           10.0                          0.0       TOP       PLACED    
+ACS711-EX                                    ACS711-EX                                    U1                                           
+7.527                         3.3666                        180.0     TOP       PLACED    
+SCHURTER_1241-1612                           SCHURTER_1241-1612                           PB1                                          
+-7.5                          6.0                           0.0       TOP       PLACED    
+S7091-42R                                    S7091-42R                                    TP5                                          
+-11.25                        9.7                           180.0     BOTTOM    PLACED    
+0402                                         0402                                         C10                                          
+-12.39826                     1.91468                       180.0     BOTTOM    PLACED    
+0402                                         0402                                         C7                                           
+-12.39685                     3.54901                       180.0     BOTTOM    PLACED    
+0402                                         0402                                         R9                                           
+-12.39826                     1.04442                       0.0       BOTTOM    PLACED    
+0402                                         0402                                         R7                                           
+-12.39685                     4.44901                       0.0       BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP6                                          
+-6.75                         9.7                           180.0     BOTTOM    PLACED    
+TSSOP14                                      TSSOP14                                      U4                                           
+-5.6642                       3.0226                        0.0       BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP7                                          
+-2.25                         9.7                           180.0     BOTTOM    PLACED    
+0603                                         0603                                         R2                                           
+-0.11756                      2.10805                       0.0       BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP14                                         
+33.75                         9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP13                                         
+29.25                         9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP11                                         
+15.75                         9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP10                                         
+11.25                         9.7                           180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP9                                          
+6.75                          9.7                           180.0     BOTTOM    PLACED    
+0603                                         0603                                         R11                                          
+5.37637                       4.7752                        180.0     BOTTOM    PLACED    
+0603                                         0603                                         R16                                          
+5.37637                       6.10085                       180.0     BOTTOM    PLACED    
+0603                                         0603                                         C4                                           
+4.75192                       2.1083                        180.0     BOTTOM    PLACED    
+0603                                         0603                                         R3                                           
+4.75192                       0.7781                        0.0       BOTTOM    PLACED    
+0402                                         0402                                         C8                                           
+3.79361                       4.84307                       270.0     BOTTOM    PLACED    
+0402                                         0402                                         R1                                           
+2.30137                       2.54315                       0.0       BOTTOM    PLACED    
+0402                                         0402                                         R4                                           
+2.29617                       1.74688                       180.0     BOTTOM    PLACED    
+S7091-42R                                    S7091-42R                                    TP8                                          
+2.25                          9.7                           180.0     BOTTOM    PLACED    
+S2                                           S2                                           Y1                                           
+1.86273                       4.83808                       270.0     BOTTOM    PLACED    
+0402                                         0402                                         C2                                           
+-0.09754                      0.90502                       180.0     BOTTOM    PLACED    
+0402                                         0402                                         C9                                           
+-0.4389                       5.68544                       270.0     BOTTOM    PLACED    
+.END_PLACEMENT

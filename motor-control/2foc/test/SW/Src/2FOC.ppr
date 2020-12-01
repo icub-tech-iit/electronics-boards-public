@@ -1,0 +1,75 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+2FOC
+	+C
+		2FOC.c
+		System.c
+		Parser.c
+		ecan.c
+		Encoder.c
+		ADC.c
+		I2T.c
+		Faults.c
+		qep.c
+		velocity.c
+		as5045.c
+		tle5012.c
+		DCLink.c
+		PWM.c
+		traps.c
+	+H
+		UserParms.h
+		UserTypes.h
+		DSP402.h
+		Parser.h
+		ecan.h
+		Encoder.h
+		velocity.h
+		Status.h
+		qep.h
+		as5045.h
+		tle5012.h
+		System.h
+		svgen.h
+		ReadVDCLink.h
+		PWM.h
+		PID.h
+		pi.h
+		park.h
+		MeasCurr.h
+		IControl.h
+		EmuRom.h
+		ADC.h
+		DCLink.h
+		___DELME___straintorque.h
+	-S
+		trig.s
+		SVGen.s
+		ReadVDCLink.s
+		pid.s
+		pi.s
+		MeasCurr.s
+		InvPark.s
+		clrkpark.s
+		CalcRef.s
+	-INC
+		SVGen.inc
+		ReadVDCLink.inc
+		PID.inc
+		PI.inc
+		park.inc
+		MeasCurr.inc
+		IControl.inc
+[Open project files]
+[Selected Project Files]
+Main=

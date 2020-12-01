@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GulpConf filename="" version="V11">
+  <general xy_enabled="0" show_advanced="1" num_enabled="1" rolling="1"/>
+  <trigger en="1" value="1500" position="0" variable="0" slope_falling="0" slope_rising="1"/>
+  <sourcepanel>
+    <sources col_width0="64" col_width1="190" col_width2="58" col_width3="51" col_width4="62" col_width5="71" col_width6="39" col_width7="96" col_width8="121" col_width9="155">
+      <src dst="Graph" name="ACCEL_X_BNO55" color="Red" pkt.pos="6" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="ACCEL_Y_BNO055" color="Green" pkt.pos="8" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="ACCEL_Z_BNO055" color="Blue" pkt.pos="10" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="ACCEL_X_MPU9250" color="Cyan" pkt.pos="6" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="ACCEL_Y_MPU9250" color="Violet" pkt.pos="8" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="ACCEL_Z_MPU9250" color="Orange" pkt.pos="10" pkt.mask="0xffff" pky.type="S16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="TEMP TOP" color="Purple" pkt.pos="6" pkt.mask="0xffff" pky.type="U16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="TEMP BOTTOM" color="Red" pkt.pos="8" pkt.mask="0xffff" pky.type="U16BE" math="x" src="I 0" group="" xy="NONE"/>
+      <src dst="Graph" name="REGISTER" color="Black" pkt.pos="8" pkt.mask="0xffff" pky.type="U16BE" math="x" src="I 0" group="" xy="NONE"/>
+    </sources>
+    <filters>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="0" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x0" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="1" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x0" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="2" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x0" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="3" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x1" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="4" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x1" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="5963808" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="5" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x1" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="1" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="6" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x3" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="1" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="7" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x3" len="1" pos="5" name=""/>
+      </filter>
+      <filter mtag="0" mtag_v="1" mintf="1" mintf_idx="0" mdir="1" mdir_val="d" tag_onpass="1" tag_onpass_v="8" trg_onpass="0" pass_match="1">
+        <sieve pass_onmatch="1" mask="0xFF" val="0x0" len="1" pos="5" name=""/>
+      </filter>
+    </filters>
+  </sourcepanel>
+  <commandpanel cmdtab_w0="43" cmdtab_w1="70" cmdtab_w2="65" parmtab_w0="43" parmtab_w1="63" parmtab_w2="46" parmtab_w3="57" parmtab_w4="60" parmtab_w5="72" parmtab_w6="69" parmtab_w7="37" parmtab_w8="79" periodic_en="false" periodic_val="100"/>
+  <graphpanel xscale="10000000" yminscale="-33000" ymaxscale="33000" xyptsz="1" bufsz="20" xybufsz="0" fps="25"/>
+  <ifaces>
+    <interface name="I 0" config="Esd USB-CAN driver:Device 0, Baudrate 1000, ID len 0, 0x0 -&gt; 0x7ff"/>
+  </ifaces>
+</GulpConf>

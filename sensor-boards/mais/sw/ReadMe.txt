@@ -1,0 +1,1 @@
+See SW for STRAIN board, #define permits to compile MAIS SW

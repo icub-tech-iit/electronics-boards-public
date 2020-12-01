@@ -1,0 +1,87 @@
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    ADC_IN8
+    ETH_MDC
+    CAN2_RXD
+    ADC_IN9
+    CAN1_TXD
+    ~CAN1_LED
+    CAN2_TXD
+    I2C1_SDA
+    ~CAN2_LED
+    ETH_TXEN
+    ETH_MDIO
+    SPI3_SCLK
+    TIM1_CH1
+    ~EXIRQ8
+    SPI2_SCLK
+    TIM1_CH2
+    ~EXIRQ9
+    ETH_CRSDV
+    CAN2_SHDN
+    TIM1_CH3
+    TIM3_CH1
+    CAN1_SHDN
+    VAUXEN
+    TIM4_CH1
+    TIM3_CH2
+    TIM1_CH4
+    ETH_TXD0
+    TIM4_CH2
+    TIM3_CH3
+    ETH_TXD1
+    TIM4_CH3
+    ETH_RXD0
+    ~SPI3_SSEL
+    TIM4_CH4
+    ADC_IN3
+    TIM1_ETR
+    ~ETHRST
+    ETH_RXD1
+    ~SPI2_SSEL
+    ADC_IN4
+    ETH_REFCLK
+    ADC_IN5
+    SPI3_MISO
+    SPI3_MOSI
+    SPI3_SEL0
+    TIM4_ETR
+    ~EXIRQ0
+    ADC_IN6
+    I2C1_SCL
+    SPI3_SEL1
+    SPI2_MISO
+    SPI2_SEL0
+    SPI2_MOSI
+    ~EXIRQ1
+    CAN1_RXD
+    SPI2_SEL1
+
+Reporting Globals
+    VCC
+    AVCC
+    ETH_1.2VA
+    EARTH
+    VIN
+    ETH_1.2V
+    ETH_3.3VA
+    +5V
+    GND
+    AGND
+
+Check Bus width mismatch

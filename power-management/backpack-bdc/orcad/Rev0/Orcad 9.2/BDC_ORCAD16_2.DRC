@@ -1,0 +1,81 @@
+Date and Time : 10/01/13 16:12:42
+
+--------------------------------------------------
+Checking Schematic: BDC
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: BDC
+--------------------------------------------------
+
+Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: BDC_ORCAD16_2 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+
+Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "IP+" found on Package ACS711 , U5 Pin Number 2: BDC, PAGE4 - POWER SUPPLY 2 (332.74, 25.40). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "IP-" found on Package ACS711 , U5 Pin Number 4: BDC, PAGE4 - POWER SUPPLY 2 (332.74, 25.40). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U5 Pin Number 9: BDC, PAGE4 - POWER SUPPLY 2 (332.74, 25.40). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U5 Pin Number 7: BDC, PAGE4 - POWER SUPPLY 2 (332.74, 25.40). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U5 Pin Number 8: BDC, PAGE4 - POWER SUPPLY 2 (332.74, 25.40). Please renumber one of these.
+#6 ERROR(ORCAP-36041): Duplicate Pin Name "IP+" found on Package ACS711 , U7 Pin Number 2: BDC, PAGE4 - POWER SUPPLY 2 (335.28, 172.72). Please renumber one of these.
+#7 ERROR(ORCAP-36041): Duplicate Pin Name "IP-" found on Package ACS711 , U7 Pin Number 4: BDC, PAGE4 - POWER SUPPLY 2 (335.28, 172.72). Please renumber one of these.
+#8 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U7 Pin Number 9: BDC, PAGE4 - POWER SUPPLY 2 (335.28, 172.72). Please renumber one of these.
+#9 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U7 Pin Number 7: BDC, PAGE4 - POWER SUPPLY 2 (335.28, 172.72). Please renumber one of these.
+#10 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package ACS711 , U7 Pin Number 8: BDC, PAGE4 - POWER SUPPLY 2 (335.28, 172.72). Please renumber one of these.
+
+Checking Device with Zero pins  
+
+Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+Check High Speed Properties Syntax
+
+Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  3V3
+                    BDC, PAGE2 - STM32F103C8T6  (210.82, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_1  VDD_1  3V3
+                    BDC, PAGE2 - STM32F103C8T6  (220.98, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_2  VDD_2  3V3
+                    BDC, PAGE2 - STM32F103C8T6  (231.14, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD_3  VDD_3  3V3
+                    BDC, PAGE2 - STM32F103C8T6  (241.30, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U5,VCC  VCC  3V3
+                    BDC, PAGE4 - POWER SUPPLY 2  (342.90, 17.78) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U7,VCC  VCC  3V3
+                    BDC, PAGE4 - POWER SUPPLY 2  (345.44, 165.10) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U10,VCC  VCC  3V3
+                    BDC, PAGE5 - CAN  (143.51, 71.12) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSSA  VSSA  GND
+                    BDC, PAGE2 - STM32F103C8T6  (210.82, 175.26) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_1  VSS_1  GND
+                    BDC, PAGE2 - STM32F103C8T6  (220.98, 175.26) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_2  VSS_2  GND
+                    BDC, PAGE2 - STM32F103C8T6  (231.14, 175.26) 
+WARNING(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS_3  VSS_3  GND
+                    BDC, PAGE2 - STM32F103C8T6  (241.30, 175.26) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

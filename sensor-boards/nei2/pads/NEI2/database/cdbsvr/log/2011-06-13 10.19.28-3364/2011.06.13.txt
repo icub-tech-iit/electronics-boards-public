@@ -1,0 +1,418 @@
+[2011.06.13 10:19:28] [0000m.00s.031ms] [0] WELCOME
+[2011.06.13 10:19:28] [0000m.00s.046ms] [1] iCDB Server ver.1.008, eJF/1VH8W4qkJ6hD+cPf6w, build:392469 created 2010-03-19 09:45:27, sources stamp:eJF/1VH8W4qkJ6hD+cPf6w
+[2011.06.13 10:19:28] [0000m.00s.046ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.06.13 10:19:28] [0000m.00s.062ms] [1] Base flow version [2007.8]
+[2011.06.13 10:19:28] [0000m.00s.062ms] [1] GBS Install Id [12962], Flow Id [PADS9.1], Full Flow Name[PADS9.1], Exact Access Date[Nov 1 2009]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] Machine [iit-robotics01]  User [claudio.lorini]  PID [3364]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 3 (build 2600)]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] Current working dir [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] PATH [C:\MentorGraphics\9.1PADS\SDD_HOME\wv\win32\bin;C:\Program Files\OrCAD\OrCAD_16.0\tools\bin;C:\MentorGraphics\9.1PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.1PADS\SDD_HOME\common\win32\lib;C:\Program Files\Intel\DMIX;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/9.1PADS/MGC_HOME.ixn/bin;C:/MentorGraphics/9.1PADS/MGC_HOME.ixn/lib;C:\MentorGraphics\9.1PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.1PADS\MGC_HOME.ixn\lib;C:\Program Files\proeWildfire 4.0\bin;C:\Program Files\OrCAD\tools\pcb\bin;C:\Program Files\OrCAD\tools\specctra\bin;C:\Program Files\OrCAD\tools\fet\bin;C:\Program Files\OrCAD\tools\PSpice;C:\Program Files\OrCAD\tools\PSpice\Library;C:\Program Files\OrCAD\tools\Capture;C:\Program Files\OrCAD\tools\bin;C:\Program Files\OrCAD\OpenAccess\bin\win32\opt]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] WDIR [C:\Documents and Settings\claudio.lorini\My Documents\PADS Projects\iCDB]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] SDD_HOME [C:\MentorGraphics\9.1PADS\SDD_HOME]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [1] SDD_PLATFORM [win32]
+[2011.06.13 10:19:28] [0000m.00s.078ms] [2] S: Loading config files
+[2011.06.13 10:19:28] [0000m.00s.093ms] [1] Config: WARNING: Could not open config file [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\cdbsvr\Server.cfg]
+[2011.06.13 10:19:28] [0000m.00s.109ms] [3] S: Config loaded
+[2011.06.13 10:19:28] [0000m.00s.140ms] [0] S: Single-user mode (auto)
+[2011.06.13 10:19:28] [0000m.00s.140ms] [0] S: Event polling mode autodetection
+[2011.06.13 10:19:28] [0000m.00s.156ms] [0] S: Started up automatically by iCDB Client: iit-robotics01:claudio.lorini:3544
+[2011.06.13 10:19:28] [0000m.00s.156ms] [0] S: Auto close mode
+[2011.06.13 10:19:28] [0000m.00s.156ms] [0] S: Project [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database]
+[2011.06.13 10:19:28] [0000m.00s.156ms] [0] S: Database ID [c794-cbe8-b4cf-359c-6742-1dda-7421-dd40-409d-fc59-93a3-9fef]
+[2011.06.13 10:19:28] [0000m.00s.156ms] [0] S: START
+[2011.06.13 10:19:28] [0000m.00s.187ms] [0] S: Server startup lock file created
+[2011.06.13 10:19:28] [0000m.00s.203ms] [0] S: Listening for client connections on port [10000]
+[2011.06.13 10:19:28] [0000m.00s.203ms] [0] S: Server network ID [iit-robotics01:10.255.36.25,192.168.56.1,iit-robotics01,iit-robotics01.humanoids.iit.it:10000]
+[2011.06.13 10:19:28] [0000m.00s.203ms] [0] S: Server GUID [7677-67b6-b40a-37aa-018c-5fd4-18c5-fd40-4acd-fc59-93a3-9fef]
+[2011.06.13 10:19:28] [0000m.00s.218ms] [0] S: Project GUID [c794-cbe8-b4cf-359c-6742-1dda-7421-dd40-409d-fc59-93a3-9fef]
+[2011.06.13 10:19:28] [0000m.00s.265ms] [0] S: Wrote data to server address file
+[2011.06.13 10:19:28] [0000m.00s.265ms] [0] S: Server startup lock file removed
+[2011.06.13 10:19:28] [0000m.00s.515ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2011.06.13 10:19:28] [0000m.00s.531ms] [0] S: Local disc access time: 325 us
+[2011.06.13 10:19:28] [0000m.00s.531ms] [0] S: Filer access time: 1560 us
+[2011.06.13 10:19:28] [0000m.00s.609ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2011.06.13 10:19:28] [0000m.00s.687ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2011.06.13 10:19:28] [0000m.00s.703ms] [0] SingleFile: [6f64-d52d-cc84-a2dc] SFI version check [1008] [1008]
+[2011.06.13 10:19:29] [0000m.00s.781ms] [0] iCDB Server PI: Server & plugin session [11]
+[2011.06.13 10:19:29] [0000m.00s.781ms] [0] iCDB Server PI: Opening database [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database]
+[2011.06.13 10:19:29] [0000m.00s.781ms] [0] iCDB Server PI: Database [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database] opened
+[2011.06.13 10:19:29] [0000m.00s.781ms] [0] iCDB Server PI: Checking existence of constraint definitions
+[2011.06.13 10:19:29] [0000m.00s.781ms] [0] iCDB Server PI: Checking constraint definitions version
+[2011.06.13 10:19:29] [0000m.01s.062ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.8.2] up to date
+[2011.06.13 10:19:29] [0000m.01s.078ms] [0] iCDB Server PI: Initializing plugins
+[2011.06.13 10:19:29] [0000m.01s.156ms] [0] iCDB Server PI: Plugins initialized
+[2011.06.13 10:19:29] [0000m.01s.171ms] [0] S: iCDB database loaded
+[2011.06.13 10:19:29] [0000m.01s.218ms] [0] S: Starting threads
+[2011.06.13 10:19:29] [0000m.01s.218ms] [0] BT: Listening for broadcast messages on port [10000]
+[2011.06.13 10:19:29] [0000m.01s.218ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2011.06.13 10:19:29] [0000m.01s.265ms] [0] IT: Session [12] for host [iit-robotics01] user [claudio.lorini] with process ID [3544] created
+[2011.06.13 10:19:29] [0000m.01s.265ms] [1] SC[12]: Registered sub-client [DxD] with ID [1] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:29] [0000m.01s.328ms] [1] CMT: There are [1] clients now
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] CORE: Applying a fix no 10 to atlas [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl]
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] CORE: Applying a fix no 60 to atlas [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl]
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] CORE: Applying a fix no 63 to atlas [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl]
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] CORE: Applying a fix no 64 to atlas [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl]
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] CORE: Atlas fixed successfully [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\s1\cdbcnfgs\1000000010000050.blk\cesatl]
+[2011.06.13 10:19:29] [0000m.01s.375ms] [1] SC[12]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:29] [0000m.01s.390ms] [1] SC[12]: Registered sub-client [xprob] with ID [3] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:31] [0000m.03s.031ms] [1] SC[12]: Registered sub-client [SelectionHolder] with ID [4] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:31] [0000m.03s.609ms] [1] SC[12]: Registered sub-client [HdlProject] with ID [5] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:31] [0000m.03s.671ms] [1] SC[12]: Registered sub-client [Navigator] with ID [6] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:31] [0000m.03s.687ms] [1] SC[12]: Registered sub-client [OutputWindow] with ID [7] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:31] [0000m.03s.687ms] [1] SC[12]: Registered sub-client [PlaceDevice] with ID [8] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:32] [0000m.04s.203ms] [1] SC[12]: Registered sub-client [SAE] with ID [9] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:32] [0000m.04s.234ms] [1] SC[12]: Registered sub-client [DxDbSearch] with ID [10] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:46] [0000m.18s.750ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [11] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:47] [0000m.18s.781ms] [1] SC[12]: Registered sub-client [ICE] with ID [12] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:48] [0000m.20s.562ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:10795] with ID [13] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:48] [0000m.20s.562ms] [1] SC[12]: Registered sub-client [ObjectHolder20954] with ID [14] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:19:48] [0000m.20s.562ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater18934] with ID [15] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:25:20] [0005m.52s.359ms] [0] IT: Session [13] for host [iit-robotics01] user [claudio.lorini] with process ID [2728] created
+[2011.06.13 10:25:20] [0005m.52s.359ms] [1] SC[13]: Registered sub-client [IOD_1_1307953520] with ID [1] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:25:20] [0005m.52s.437ms] [1] CMT: There are [2] clients now
+[2011.06.13 10:25:22] [0005m.53s.968ms] [1] SC[13]: Registered sub-client [IOD_2_1307953522] with ID [2] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:25:22] [0005m.54s.015ms] [1] SC[13]: UnRegistered sub-client [IOD_2_1307953522] with ID [2] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:26:36] [0007m.08s.171ms] [1] SC[13]: Registered sub-client [IOD_3_1307953596] with ID [3] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:26:36] [0007m.08s.280ms] [1] SC[13]: UnRegistered sub-client [IOD_3_1307953596] with ID [3] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:26:42] [0007m.14s.530ms] [1] SC[13]: UnRegistered sub-client [IOD_1_1307953520] with ID [1] for session ID [13] host [iit-robotics01] user [claudio.lorini] process ID [2728]
+[2011.06.13 10:26:42] [0007m.14s.577ms] [1] CMT: Removed client [13]
+[2011.06.13 10:26:42] [0007m.14s.577ms] [1] CMT: There are [1] clients now
+[2011.06.13 10:29:08] [0009m.40s.313ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [11] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:08] [0009m.40s.313ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [16] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:12] [0009m.44s.438ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [16] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:12] [0009m.44s.438ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [17] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:13] [0009m.45s.375ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [17] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:13] [0009m.45s.375ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [18] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 10:29:30] [0010m.01s.985ms] [0] IT: Session [14] for host [iit-robotics01] user [claudio.lorini] with process ID [2012] created
+[2011.06.13 10:29:30] [0010m.01s.985ms] [1] SC[14]: Registered sub-client [IOD_1_1307953770] with ID [1] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:29:30] [0010m.02s.031ms] [1] CMT: There are [2] clients now
+[2011.06.13 10:29:31] [0010m.02s.860ms] [1] SC[14]: Registered sub-client [IOD_2_1307953771] with ID [2] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:29:31] [0010m.02s.906ms] [1] SC[14]: UnRegistered sub-client [IOD_2_1307953771] with ID [2] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:31:59] [0012m.30s.939ms] [1] SC[14]: Registered sub-client [IOD_3_1307953919] with ID [3] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:31:59] [0012m.31s.033ms] [1] SC[14]: UnRegistered sub-client [IOD_3_1307953919] with ID [3] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:32:01] [0012m.33s.189ms] [1] SC[14]: UnRegistered sub-client [IOD_1_1307953770] with ID [1] for session ID [14] host [iit-robotics01] user [claudio.lorini] process ID [2012]
+[2011.06.13 10:32:01] [0012m.33s.298ms] [1] CMT: Removed client [14]
+[2011.06.13 10:32:01] [0012m.33s.298ms] [1] CMT: There are [1] clients now
+[2011.06.13 10:59:46] [0040m.17s.992ms] [0] IT: Session [15] for host [iit-robotics01] user [claudio.lorini] with process ID [3648] created
+[2011.06.13 10:59:46] [0040m.17s.992ms] [1] SC[15]: Registered sub-client [IOD_1_1307955586] with ID [1] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 10:59:46] [0040m.18s.054ms] [1] CMT: There are [2] clients now
+[2011.06.13 10:59:47] [0040m.18s.976ms] [1] SC[15]: Registered sub-client [IOD_2_1307955587] with ID [2] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 10:59:47] [0040m.19s.023ms] [1] SC[15]: UnRegistered sub-client [IOD_2_1307955587] with ID [2] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 11:00:16] [0040m.48s.226ms] [1] SC[15]: Registered sub-client [IOD_3_1307955616] with ID [3] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 11:00:16] [0040m.48s.320ms] [1] SC[15]: UnRegistered sub-client [IOD_3_1307955616] with ID [3] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 11:00:21] [0040m.53s.242ms] [1] SC[15]: UnRegistered sub-client [IOD_1_1307955586] with ID [1] for session ID [15] host [iit-robotics01] user [claudio.lorini] process ID [3648]
+[2011.06.13 11:00:21] [0040m.53s.273ms] [1] CMT: Removed client [15]
+[2011.06.13 11:00:21] [0040m.53s.273ms] [1] CMT: There are [1] clients now
+[2011.06.13 11:14:00] [0054m.31s.784ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater18934] with ID [15] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 11:14:00] [0054m.31s.784ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:10795] with ID [13] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 11:14:00] [0054m.31s.784ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder20954] with ID [14] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 11:14:03] [0054m.35s.377ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:13527] with ID [19] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 11:14:03] [0054m.35s.377ms] [1] SC[12]: Registered sub-client [ObjectHolder2274] with ID [20] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 11:14:03] [0054m.35s.377ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater4362] with ID [21] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:20:10] [0120m.42s.034ms] [0] IT: Session [16] for host [iit-robotics01] user [claudio.lorini] with process ID [3408] created
+[2011.06.13 12:20:10] [0120m.42s.034ms] [1] SC[16]: Registered sub-client [IOD_1_1307960410] with ID [1] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:10] [0120m.42s.081ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:20:11] [0120m.42s.972ms] [1] SC[16]: Registered sub-client [IOD_2_1307960411] with ID [2] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:11] [0120m.43s.003ms] [1] SC[16]: UnRegistered sub-client [IOD_2_1307960411] with ID [2] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:31] [0121m.03s.409ms] [1] SC[16]: Registered sub-client [IOD_3_1307960431] with ID [3] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:31] [0121m.03s.487ms] [1] SC[16]: UnRegistered sub-client [IOD_3_1307960431] with ID [3] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:45] [0121m.17s.191ms] [1] SC[16]: UnRegistered sub-client [IOD_1_1307960410] with ID [1] for session ID [16] host [iit-robotics01] user [claudio.lorini] process ID [3408]
+[2011.06.13 12:20:45] [0121m.17s.300ms] [1] CMT: Removed client [16]
+[2011.06.13 12:20:45] [0121m.17s.300ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:34:35] [0135m.06s.920ms] [0] IT: Session [17] for host [iit-robotics01] user [claudio.lorini] with process ID [2368] created
+[2011.06.13 12:34:35] [0135m.06s.920ms] [1] SC[17]: Registered sub-client [pcbui] with ID [1] for session ID [17] host [iit-robotics01] user [claudio.lorini] process ID [2368]
+[2011.06.13 12:34:35] [0135m.06s.967ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:34:35] [0135m.07s.436ms] [0] IT: Session [18] for host [iit-robotics01] user [claudio.lorini] with process ID [2860] created
+[2011.06.13 12:34:35] [0135m.07s.436ms] [1] SC[18]: Registered sub-client [icdb2wir] with ID [1] for session ID [18] host [iit-robotics01] user [claudio.lorini] process ID [2860]
+[2011.06.13 12:34:35] [0135m.07s.514ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:34:35] [0135m.07s.576ms] [1] SC[18]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [18] host [iit-robotics01] user [claudio.lorini] process ID [2860]
+[2011.06.13 12:34:35] [0135m.07s.623ms] [1] CMT: Removed client [18]
+[2011.06.13 12:34:35] [0135m.07s.623ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:34:39] [0135m.10s.936ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater4362] with ID [21] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.10s.936ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:13527] with ID [19] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.10s.936ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder2274] with ID [20] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.10s.998ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:30966] with ID [22] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.10s.998ms] [1] SC[12]: Registered sub-client [ObjectHolder26131] with ID [23] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.11s.014ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater18176] with ID [24] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:39] [0135m.11s.311ms] [1] SC[17]: UnRegistered sub-client [pcbui] with ID [1] for session ID [17] host [iit-robotics01] user [claudio.lorini] process ID [2368]
+[2011.06.13 12:34:39] [0135m.11s.342ms] [1] CMT: Removed client [17]
+[2011.06.13 12:34:39] [0135m.11s.342ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:34:50] [0135m.22s.467ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [25] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:34:50] [0135m.22s.530ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [25] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:20] [0138m.51s.910ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [26] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:20] [0138m.51s.972ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [26] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:30] [0139m.01s.880ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [27] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:30] [0139m.01s.942ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [27] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:33] [0139m.05s.552ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [28] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:33] [0139m.05s.614ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [28] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:39] [0139m.11s.458ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [29] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:38:39] [0139m.11s.521ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [29] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:01] [0139m.32s.945ms] [0] IT: Session [19] for host [iit-robotics01] user [claudio.lorini] with process ID [2604] created
+[2011.06.13 12:39:01] [0139m.32s.945ms] [1] SC[19]: Registered sub-client [pcbui] with ID [1] for session ID [19] host [iit-robotics01] user [claudio.lorini] process ID [2604]
+[2011.06.13 12:39:01] [0139m.32s.976ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:39:01] [0139m.33s.273ms] [0] IT: Session [20] for host [iit-robotics01] user [claudio.lorini] with process ID [2232] created
+[2011.06.13 12:39:01] [0139m.33s.273ms] [1] SC[20]: Registered sub-client [icdb2wir] with ID [1] for session ID [20] host [iit-robotics01] user [claudio.lorini] process ID [2232]
+[2011.06.13 12:39:01] [0139m.33s.304ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:39:01] [0139m.33s.398ms] [1] SC[20]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [20] host [iit-robotics01] user [claudio.lorini] process ID [2232]
+[2011.06.13 12:39:01] [0139m.33s.413ms] [1] CMT: Removed client [20]
+[2011.06.13 12:39:01] [0139m.33s.413ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:39:04] [0139m.35s.867ms] [0] IT: Session [21] for host [iit-robotics01] user [claudio.lorini] with process ID [3428] created
+[2011.06.13 12:39:04] [0139m.35s.867ms] [1] SC[21]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:04] [0139m.35s.929ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:39:04] [0139m.35s.945ms] [1] SC[21]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:04] [0139m.35s.992ms] [1] SC[21]: Registered sub-client [BlockCacheDxD:30900] with ID [3] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:04] [0139m.35s.992ms] [1] SC[21]: Registered sub-client [ObjectHolder16919] with ID [4] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:04] [0139m.36s.007ms] [1] SC[21]: Registered sub-client [GlobalNetAliasUpdater28535] with ID [5] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:05] [0139m.36s.945ms] [1] SC[21]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:05] [0139m.36s.945ms] [1] SCL: WARNING: Sub-client [1] of client [21] has locked objects while trying to unregister - auto unlocking
+[2011.06.13 12:39:05] [0139m.36s.961ms] [1] SC[21]: WARNING: Trying to get data for non existing sub-client [1]
+[2011.06.13 12:39:05] [0139m.36s.961ms] [1] SC[21]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [21] host [iit-robotics01] user [claudio.lorini] process ID [3428]
+[2011.06.13 12:39:05] [0139m.37s.132ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater18176] with ID [24] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.132ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:30966] with ID [22] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.132ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder26131] with ID [23] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.195ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:6458] with ID [30] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.211ms] [1] SC[12]: Registered sub-client [ObjectHolder26641] with ID [31] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.211ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater29257] with ID [32] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:05] [0139m.37s.414ms] [0] SC[21]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2011.06.13 12:39:05] [0139m.37s.414ms] [0] SC[21]: Setting status to OFFLINE
+[2011.06.13 12:39:05] [0139m.37s.476ms] [1] SC[19]: UnRegistered sub-client [pcbui] with ID [1] for session ID [19] host [iit-robotics01] user [claudio.lorini] process ID [2604]
+[2011.06.13 12:39:05] [0139m.37s.570ms] [1] CMT: Removed client [19]
+[2011.06.13 12:39:05] [0139m.37s.570ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:39:11] [0139m.42s.820ms] [0] CRT[21]: EXIT: Because of client death
+[2011.06.13 12:39:11] [0139m.42s.820ms] [1] CMT: Removed client [21] because of client process crash
+[2011.06.13 12:39:11] [0139m.42s.820ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [Navigator] with ID [6] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [OutputWindow] with ID [7] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [PlaceDevice] with ID [8] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [SAE] with ID [9] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [18] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [ICE] with ID [12] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.121ms] [1] SC[12]: UnRegistered sub-client [HdlProject] with ID [5] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.152ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater29257] with ID [32] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.152ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:6458] with ID [30] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.152ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder26641] with ID [31] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.262ms] [1] SC[12]: Registered sub-client [DxDesigner] with ID [33] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.277ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[iit-robotics01] # ClientUserName[claudio.lorini] # ClientProcessID[3544] # SessionID[12]] # SubClientData[SubClientName[DxDesigner] # SubClientID[33]]] ProjectPath[Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database] BackupPath[Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\AutoBackup\1307961594\database] WithLogFiles[1] Overwrite[0]
+[2011.06.13 12:39:54] [0140m.26s.433ms] [1] SC[12]: UnRegistered sub-client [DxDesigner] with ID [33] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.433ms] [1] SC[12]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.433ms] [1] SC[12]: UnRegistered sub-client [DxD] with ID [1] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:54] [0140m.26s.480ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[iit-robotics01] # ClientUserName[claudio.lorini] # ClientProcessID[3544] # SessionID[12]] # SubClientData[SubClientName[DxDesigner] # SubClientID[33]]] BackupPath[Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\AutoBackup\1307961594] WithLogFiles[1] Overwrite[0]
+[2011.06.13 12:39:54] [0140m.26s.496ms] [1] SC[12]: UnRegistered sub-client [xprob] with ID [3] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:39:55] [0140m.26s.902ms] [1] SC[12]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.810ms] [1] SC[12]: Registered sub-client [DxD] with ID [34] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.810ms] [1] SC[12]: Registered sub-client [TransactionRollbackSubClient] with ID [35] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.825ms] [1] SC[12]: Registered sub-client [xprob] with ID [36] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.856ms] [1] SC[12]: Registered sub-client [SelectionHolder] with ID [37] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.856ms] [1] SC[12]: UnRegistered sub-client [SelectionHolder] with ID [37] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.39s.872ms] [1] SC[12]: Registered sub-client [SelectionHolder] with ID [38] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.40s.356ms] [1] SC[12]: Registered sub-client [HdlProject] with ID [39] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.40s.403ms] [1] SC[12]: Registered sub-client [Navigator] with ID [40] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.40s.419ms] [1] SC[12]: Registered sub-client [OutputWindow] with ID [41] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:08] [0140m.40s.435ms] [1] SC[12]: Registered sub-client [PlaceDevice] with ID [42] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:09] [0140m.40s.872ms] [1] SC[12]: Registered sub-client [SAE] with ID [43] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:10] [0140m.42s.247ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [44] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:10] [0140m.42s.263ms] [1] SC[12]: Registered sub-client [ICE] with ID [45] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:28] [0141m.00s.374ms] [0] IT: Session [22] for host [iit-robotics01] user [claudio.lorini] with process ID [1912] created
+[2011.06.13 12:40:28] [0141m.00s.374ms] [1] SC[22]: Registered sub-client [ViewDrawLink] with ID [1] for session ID [22] host [iit-robotics01] user [claudio.lorini] process ID [1912]
+[2011.06.13 12:40:28] [0141m.00s.389ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:40:28] [0141m.00s.405ms] [1] SC[22]: UnRegistered sub-client [ViewDrawLink] with ID [1] for session ID [22] host [iit-robotics01] user [claudio.lorini] process ID [1912]
+[2011.06.13 12:40:28] [0141m.00s.499ms] [1] CMT: Removed client [22]
+[2011.06.13 12:40:28] [0141m.00s.499ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:40:35] [0141m.06s.952ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:12167] with ID [46] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:35] [0141m.06s.952ms] [1] SC[12]: Registered sub-client [ObjectHolder767] with ID [47] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:40:35] [0141m.06s.952ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater28588] with ID [48] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:22] [0141m.53s.909ms] [0] IT: Session [23] for host [iit-robotics01] user [claudio.lorini] with process ID [2536] created
+[2011.06.13 12:41:22] [0141m.53s.909ms] [1] SC[23]: Registered sub-client [pcbui] with ID [1] for session ID [23] host [iit-robotics01] user [claudio.lorini] process ID [2536]
+[2011.06.13 12:41:22] [0141m.53s.988ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:41:22] [0141m.54s.238ms] [0] IT: Session [24] for host [iit-robotics01] user [claudio.lorini] with process ID [3568] created
+[2011.06.13 12:41:22] [0141m.54s.238ms] [1] SC[24]: Registered sub-client [icdb2wir] with ID [1] for session ID [24] host [iit-robotics01] user [claudio.lorini] process ID [3568]
+[2011.06.13 12:41:22] [0141m.54s.316ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:41:22] [0141m.54s.363ms] [1] SC[24]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [24] host [iit-robotics01] user [claudio.lorini] process ID [3568]
+[2011.06.13 12:41:22] [0141m.54s.425ms] [1] CMT: Removed client [24]
+[2011.06.13 12:41:22] [0141m.54s.425ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:41:24] [0141m.56s.191ms] [0] IT: Session [25] for host [iit-robotics01] user [claudio.lorini] with process ID [1556] created
+[2011.06.13 12:41:24] [0141m.56s.191ms] [1] SC[25]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.269ms] [1] SC[25]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.285ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:41:24] [0141m.56s.316ms] [1] SC[25]: Registered sub-client [BlockCacheDxD:20266] with ID [3] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.316ms] [1] SC[25]: Registered sub-client [ObjectHolder14845] with ID [4] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.332ms] [1] SC[25]: Registered sub-client [GlobalNetAliasUpdater5762] with ID [5] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.394ms] [1] SC[25]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.394ms] [1] SCL: WARNING: Sub-client [1] of client [25] has locked objects while trying to unregister - auto unlocking
+[2011.06.13 12:41:24] [0141m.56s.394ms] [1] SC[25]: WARNING: Trying to get data for non existing sub-client [1]
+[2011.06.13 12:41:24] [0141m.56s.394ms] [1] SC[25]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [25] host [iit-robotics01] user [claudio.lorini] process ID [1556]
+[2011.06.13 12:41:24] [0141m.56s.613ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater28588] with ID [48] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:24] [0141m.56s.613ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:12167] with ID [46] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:24] [0141m.56s.613ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder767] with ID [47] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:24] [0141m.56s.675ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:25926] with ID [49] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:24] [0141m.56s.691ms] [1] SC[12]: Registered sub-client [ObjectHolder19393] with ID [50] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:24] [0141m.56s.691ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater31722] with ID [51] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:25] [0141m.56s.863ms] [0] SC[25]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2011.06.13 12:41:25] [0141m.56s.863ms] [0] SC[25]: Setting status to OFFLINE
+[2011.06.13 12:41:25] [0141m.56s.972ms] [1] SC[23]: UnRegistered sub-client [pcbui] with ID [1] for session ID [23] host [iit-robotics01] user [claudio.lorini] process ID [2536]
+[2011.06.13 12:41:25] [0141m.57s.050ms] [1] CMT: Removed client [23]
+[2011.06.13 12:41:25] [0141m.57s.050ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:41:29] [0142m.01s.629ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [52] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:29] [0142m.01s.676ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [52] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:31] [0142m.02s.848ms] [0] CRT[25]: EXIT: Because of client death
+[2011.06.13 12:41:31] [0142m.02s.848ms] [1] CMT: Removed client [25] because of client process crash
+[2011.06.13 12:41:31] [0142m.02s.848ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:41:36] [0142m.08s.114ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [53] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:41:36] [0142m.08s.176ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [53] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:38] [0145m.09s.936ms] [0] IT: Session [26] for host [iit-robotics01] user [claudio.lorini] with process ID [2240] created
+[2011.06.13 12:44:38] [0145m.09s.936ms] [1] SC[26]: Registered sub-client [pcbui] with ID [1] for session ID [26] host [iit-robotics01] user [claudio.lorini] process ID [2240]
+[2011.06.13 12:44:38] [0145m.09s.999ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:44:38] [0145m.10s.264ms] [0] IT: Session [27] for host [iit-robotics01] user [claudio.lorini] with process ID [3848] created
+[2011.06.13 12:44:38] [0145m.10s.264ms] [1] SC[27]: Registered sub-client [icdb2wir] with ID [1] for session ID [27] host [iit-robotics01] user [claudio.lorini] process ID [3848]
+[2011.06.13 12:44:38] [0145m.10s.327ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:44:38] [0145m.10s.389ms] [1] SC[27]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [27] host [iit-robotics01] user [claudio.lorini] process ID [3848]
+[2011.06.13 12:44:38] [0145m.10s.436ms] [1] CMT: Removed client [27]
+[2011.06.13 12:44:38] [0145m.10s.436ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:44:40] [0145m.12s.280ms] [0] IT: Session [28] for host [iit-robotics01] user [claudio.lorini] with process ID [252] created
+[2011.06.13 12:44:40] [0145m.12s.280ms] [1] SC[28]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.296ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:44:40] [0145m.12s.374ms] [1] SC[28]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.421ms] [1] SC[28]: Registered sub-client [BlockCacheDxD:12223] with ID [3] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.421ms] [1] SC[28]: Registered sub-client [ObjectHolder7779] with ID [4] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.436ms] [1] SC[28]: Registered sub-client [GlobalNetAliasUpdater3619] with ID [5] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.499ms] [1] SC[28]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.499ms] [1] SCL: WARNING: Sub-client [1] of client [28] has locked objects while trying to unregister - auto unlocking
+[2011.06.13 12:44:40] [0145m.12s.499ms] [1] SC[28]: WARNING: Trying to get data for non existing sub-client [1]
+[2011.06.13 12:44:40] [0145m.12s.499ms] [1] SC[28]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [28] host [iit-robotics01] user [claudio.lorini] process ID [252]
+[2011.06.13 12:44:40] [0145m.12s.749ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater31722] with ID [51] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:40] [0145m.12s.749ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:25926] with ID [49] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:40] [0145m.12s.749ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder19393] with ID [50] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:41] [0145m.12s.811ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:2694] with ID [54] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:41] [0145m.13s.436ms] [1] SC[12]: Registered sub-client [ObjectHolder14594] with ID [55] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:41] [0145m.13s.436ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater29539] with ID [56] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:44:41] [0145m.13s.624ms] [0] SC[28]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2011.06.13 12:44:41] [0145m.13s.624ms] [0] SC[28]: Setting status to OFFLINE
+[2011.06.13 12:44:41] [0145m.13s.718ms] [1] SC[26]: UnRegistered sub-client [pcbui] with ID [1] for session ID [26] host [iit-robotics01] user [claudio.lorini] process ID [2240]
+[2011.06.13 12:44:41] [0145m.13s.765ms] [1] CMT: Removed client [26]
+[2011.06.13 12:44:41] [0145m.13s.765ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:44:47] [0145m.18s.796ms] [0] CRT[28]: EXIT: Because of client death
+[2011.06.13 12:44:47] [0145m.18s.796ms] [1] CMT: Removed client [28] because of client process crash
+[2011.06.13 12:44:47] [0145m.18s.796ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:45:49] [0146m.21s.658ms] [0] IT: Session [29] for host [iit-robotics01] user [claudio.lorini] with process ID [2360] created
+[2011.06.13 12:45:49] [0146m.21s.658ms] [1] SC[29]: Registered sub-client [pcbui] with ID [1] for session ID [29] host [iit-robotics01] user [claudio.lorini] process ID [2360]
+[2011.06.13 12:45:49] [0146m.21s.689ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:45:50] [0146m.21s.986ms] [0] IT: Session [30] for host [iit-robotics01] user [claudio.lorini] with process ID [456] created
+[2011.06.13 12:45:50] [0146m.21s.986ms] [1] SC[30]: Registered sub-client [icdb2wir] with ID [1] for session ID [30] host [iit-robotics01] user [claudio.lorini] process ID [456]
+[2011.06.13 12:45:50] [0146m.22s.017ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:45:50] [0146m.22s.095ms] [1] SC[30]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [30] host [iit-robotics01] user [claudio.lorini] process ID [456]
+[2011.06.13 12:45:50] [0146m.22s.127ms] [1] CMT: Removed client [30]
+[2011.06.13 12:45:50] [0146m.22s.127ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:45:52] [0146m.23s.986ms] [0] IT: Session [31] for host [iit-robotics01] user [claudio.lorini] with process ID [440] created
+[2011.06.13 12:45:52] [0146m.23s.986ms] [1] SC[31]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.064ms] [1] SC[31]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.095ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:45:52] [0146m.24s.111ms] [1] SC[31]: Registered sub-client [BlockCacheDxD:1912] with ID [3] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.111ms] [1] SC[31]: Registered sub-client [ObjectHolder1839] with ID [4] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.127ms] [1] SC[31]: Registered sub-client [GlobalNetAliasUpdater28244] with ID [5] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.189ms] [1] SC[31]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.189ms] [1] SCL: WARNING: Sub-client [1] of client [31] has locked objects while trying to unregister - auto unlocking
+[2011.06.13 12:45:52] [0146m.24s.189ms] [1] SC[31]: WARNING: Trying to get data for non existing sub-client [1]
+[2011.06.13 12:45:52] [0146m.24s.189ms] [1] SC[31]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [31] host [iit-robotics01] user [claudio.lorini] process ID [440]
+[2011.06.13 12:45:52] [0146m.24s.455ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater29539] with ID [56] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.455ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:2694] with ID [54] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.455ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder14594] with ID [55] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.517ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:22915] with ID [57] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.517ms] [1] SC[12]: Registered sub-client [ObjectHolder22863] with ID [58] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.533ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater25394] with ID [59] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:45:52] [0146m.24s.705ms] [0] SC[31]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2011.06.13 12:45:52] [0146m.24s.705ms] [0] SC[31]: Setting status to OFFLINE
+[2011.06.13 12:45:53] [0146m.24s.814ms] [1] SC[29]: UnRegistered sub-client [pcbui] with ID [1] for session ID [29] host [iit-robotics01] user [claudio.lorini] process ID [2360]
+[2011.06.13 12:45:53] [0146m.24s.861ms] [1] CMT: Removed client [29]
+[2011.06.13 12:45:53] [0146m.24s.861ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:45:58] [0146m.29s.783ms] [0] CRT[31]: EXIT: Because of client death
+[2011.06.13 12:45:58] [0146m.29s.783ms] [1] CMT: Removed client [31] because of client process crash
+[2011.06.13 12:45:58] [0146m.29s.783ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:47:14] [0147m.46s.474ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [44] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:14] [0147m.46s.474ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [60] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:15] [0147m.47s.099ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [60] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:15] [0147m.47s.099ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [61] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:15] [0147m.47s.270ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [61] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:15] [0147m.47s.270ms] [1] SC[12]: Registered sub-client [DxConstraints] with ID [62] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:28] [0148m.00s.240ms] [0] IT: Session [32] for host [iit-robotics01] user [claudio.lorini] with process ID [3636] created
+[2011.06.13 12:47:28] [0148m.00s.240ms] [1] SC[32]: Registered sub-client [pcbui] with ID [1] for session ID [32] host [iit-robotics01] user [claudio.lorini] process ID [3636]
+[2011.06.13 12:47:28] [0148m.00s.349ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:47:28] [0148m.00s.568ms] [0] IT: Session [33] for host [iit-robotics01] user [claudio.lorini] with process ID [2748] created
+[2011.06.13 12:47:28] [0148m.00s.568ms] [1] SC[33]: Registered sub-client [icdb2wir] with ID [1] for session ID [33] host [iit-robotics01] user [claudio.lorini] process ID [2748]
+[2011.06.13 12:47:28] [0148m.00s.677ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:47:28] [0148m.00s.677ms] [1] SC[33]: UnRegistered sub-client [icdb2wir] with ID [1] for session ID [33] host [iit-robotics01] user [claudio.lorini] process ID [2748]
+[2011.06.13 12:47:29] [0148m.00s.787ms] [1] CMT: Removed client [33]
+[2011.06.13 12:47:29] [0148m.00s.787ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:47:32] [0148m.03s.927ms] [0] IT: Session [34] for host [iit-robotics01] user [claudio.lorini] with process ID [2800] created
+[2011.06.13 12:47:32] [0148m.03s.927ms] [1] SC[34]: Registered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.03s.959ms] [1] CMT: There are [3] clients now
+[2011.06.13 12:47:32] [0148m.04s.005ms] [1] SC[34]: Registered sub-client [LSUDX_PCB] with ID [2] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.052ms] [1] SC[34]: Registered sub-client [BlockCacheDxD:22527] with ID [3] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.052ms] [1] SC[34]: Registered sub-client [ObjectHolder26091] with ID [4] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.068ms] [1] SC[34]: Registered sub-client [GlobalNetAliasUpdater24559] with ID [5] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.130ms] [1] SC[34]: UnRegistered sub-client [PCBfwd/PCBbck] with ID [1] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.130ms] [1] SCL: WARNING: Sub-client [1] of client [34] has locked objects while trying to unregister - auto unlocking
+[2011.06.13 12:47:32] [0148m.04s.130ms] [1] SC[34]: WARNING: Trying to get data for non existing sub-client [1]
+[2011.06.13 12:47:32] [0148m.04s.130ms] [1] SC[34]: UnRegistered sub-client [LSUDX_PCB] with ID [2] for session ID [34] host [iit-robotics01] user [claudio.lorini] process ID [2800]
+[2011.06.13 12:47:32] [0148m.04s.396ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater25394] with ID [59] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.396ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:22915] with ID [57] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.396ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder22863] with ID [58] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.459ms] [1] SC[12]: Registered sub-client [BlockCacheDxD:16412] with ID [63] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.459ms] [1] SC[12]: Registered sub-client [ObjectHolder7040] with ID [64] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.474ms] [1] SC[12]: Registered sub-client [GlobalNetAliasUpdater6893] with ID [65] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:47:32] [0148m.04s.646ms] [0] SC[34]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ReceiveFailed] Description[Could not receive data from peer; ECONNRESET - Connection reset by peer.] Message[Receiving network command with timeout]
+[2011.06.13 12:47:32] [0148m.04s.646ms] [0] SC[34]: Setting status to OFFLINE
+[2011.06.13 12:47:32] [0148m.04s.709ms] [1] SC[32]: UnRegistered sub-client [pcbui] with ID [1] for session ID [32] host [iit-robotics01] user [claudio.lorini] process ID [3636]
+[2011.06.13 12:47:32] [0148m.04s.724ms] [1] CMT: Removed client [32]
+[2011.06.13 12:47:32] [0148m.04s.724ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:47:38] [0148m.09s.865ms] [0] CRT[34]: EXIT: Because of client death
+[2011.06.13 12:47:38] [0148m.09s.865ms] [1] CMT: Removed client [34] because of client process crash
+[2011.06.13 12:47:38] [0148m.09s.865ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:47:50] [0148m.22s.412ms] [0] IT: Session [35] for host [iit-robotics01] user [claudio.lorini] with process ID [1912] created
+[2011.06.13 12:47:50] [0148m.22s.412ms] [1] SC[35]: Registered sub-client [ViewDrawLink] with ID [1] for session ID [35] host [iit-robotics01] user [claudio.lorini] process ID [1912]
+[2011.06.13 12:47:50] [0148m.22s.444ms] [1] CMT: There are [2] clients now
+[2011.06.13 12:47:50] [0148m.22s.459ms] [1] SC[35]: UnRegistered sub-client [ViewDrawLink] with ID [1] for session ID [35] host [iit-robotics01] user [claudio.lorini] process ID [1912]
+[2011.06.13 12:47:50] [0148m.22s.553ms] [1] CMT: Removed client [35]
+[2011.06.13 12:47:50] [0148m.22s.553ms] [1] CMT: There are [1] clients now
+[2011.06.13 12:48:54] [0149m.26s.242ms] [1] SC[12]: Registered sub-client [DXD_COM] with ID [66] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 12:48:54] [0149m.26s.304ms] [1] SC[12]: UnRegistered sub-client [DXD_COM] with ID [66] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.443ms] [1] SC[12]: UnRegistered sub-client [GlobalNetAliasUpdater6893] with ID [65] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.443ms] [1] SC[12]: UnRegistered sub-client [BlockCacheDxD:16412] with ID [63] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.459ms] [1] SC[12]: UnRegistered sub-client [ObjectHolder7040] with ID [64] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.459ms] [1] SC[12]: UnRegistered sub-client [ICE] with ID [45] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.459ms] [1] SC[12]: UnRegistered sub-client [SelectionHolder] with ID [38] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.537ms] [1] SC[12]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [35] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.537ms] [1] SC[12]: UnRegistered sub-client [DxD] with ID [34] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:35] [0166m.07s.600ms] [1] SC[12]: UnRegistered sub-client [xprob] with ID [36] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.709ms] [1] SC[12]: UnRegistered sub-client [Navigator] with ID [40] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.709ms] [1] SC[12]: UnRegistered sub-client [OutputWindow] with ID [41] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.725ms] [1] SC[12]: UnRegistered sub-client [DxDbSearch] with ID [10] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.725ms] [1] SC[12]: UnRegistered sub-client [SAE] with ID [43] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.772ms] [1] SC[12]: UnRegistered sub-client [PlaceDevice] with ID [42] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:46] [0166m.18s.772ms] [1] SC[12]: UnRegistered sub-client [DxConstraints] with ID [62] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:47] [0166m.18s.865ms] [1] SC[12]: UnRegistered sub-client [HdlProject] with ID [39] for session ID [12] host [iit-robotics01] user [claudio.lorini] process ID [3544]
+[2011.06.13 13:05:47] [0166m.18s.928ms] [1] CMT: Removed client [12]
+[2011.06.13 13:05:47] [0166m.18s.928ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2011.06.13 13:05:49] [0166m.20s.787ms] [0] CMT: Starting server auto-close
+[2011.06.13 13:05:49] [0166m.20s.865ms] [0] S: Closing server
+[2011.06.13 13:05:49] [0166m.20s.912ms] [0] iCDB Server PI: Closing plugins
+[2011.06.13 13:05:49] [0166m.20s.912ms] [0] iCDB Server PI: Plugins closed
+[2011.06.13 13:05:49] [0166m.20s.912ms] [0] iCDB Server PI: Unloading database
+[2011.06.13 13:05:49] [0166m.20s.912ms] [0] iCDB Server PI: Saving storage
+[2011.06.13 13:05:49] [0166m.20s.912ms] [0] iCDB Server PI: Closing database
+[2011.06.13 13:05:49] [0166m.20s.912ms] [1] iCDB Server PI: Stats: Database defragmentation: max[1] avg[1] holes[120%] data[46%]
+[2011.06.13 13:05:49] [0166m.20s.912ms] [1] iCDB Server PI: Stats: Database file size [114160] bytes
+[2011.06.13 13:05:49] [0166m.20s.912ms] [1] iCDB Server PI: WARNING: Database needs defragmentation!
+[2011.06.13 13:05:49] [0166m.20s.944ms] [0] iCDB Server PI: Database closed
+[2011.06.13 13:05:49] [0166m.20s.944ms] [0] iCDB Server PI: Defragmenting database
+[2011.06.13 13:05:49] [0166m.20s.959ms] [0] iCDB Server PI: Backuping database [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database] to file [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\cdbback\2011-06-13 13.05.49-3364-d.zip]
+[2011.06.13 13:05:49] [0166m.21s.069ms] [0] iCDB Server PI: Backup database: DONE
+[2011.06.13 13:05:49] [0166m.21s.100ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1008] [1008]
+[2011.06.13 13:05:49] [0166m.21s.100ms] [0] SingleFile: [6f64-d52d-cc84-a2dc] SFI version check [1008] [1008]
+[2011.06.13 13:05:49] [0166m.21s.115ms] [1] iCDB Server PI: Stats: Database file size: before[114200], after[59952], gain[54248]
+[2011.06.13 13:05:49] [0166m.21s.131ms] [0] iCDB Server PI: Database defragmentation completed successfully
+[2011.06.13 13:05:49] [0166m.21s.131ms] [1] BackupTransaction: Removing database backup [Z:\Progetti\P2010_0002_RBCS_RC_NEI2\sch\database\cdbback\2011-06-13 13.05.49-3364-d.zip]
+[2011.06.13 13:05:49] [0166m.21s.147ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1057895482] ticks
+[2011.06.13 13:05:49] [0166m.21s.147ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [379030] microseconds
+[2011.06.13 13:05:49] [0166m.21s.147ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [2274]
+[2011.06.13 13:05:49] [0166m.21s.147ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [5999] commands per second
+[2011.06.13 13:05:49] [0166m.21s.194ms] [0] S: STOP

@@ -1,0 +1,121 @@
+Date and Time : 11/11/15 10:01:20
+
+--------------------------------------------------
+Checking Schematic:  SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U8,RXD  Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE5 CAN AND SPI  (64.77, 69.85) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PB8  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE2 STM32F  (147.32, 95.25) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PH0/OSC_IN  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE2 STM32F  (261.62, 161.29) 
+WARNING(ORCAP-1829): Possible pin type conflict Y1,OUTPUT  Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE2 STM32F  (375.92, 170.18) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PA1  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE2 STM32F  (147.32, 34.29) 
+WARNING(ORCAP-1829): Possible pin type conflict U10,SMTXC/REFCLK  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE6 ETHERNET  (139.70, 81.28) 
+WARNING(ORCAP-1829): Possible pin type conflict U1,PA7  Bidirectional Connected to Output
+                    SCHEMATIC1, PAGE2 STM32F  (147.32, 49.53) 
+WARNING(ORCAP-1829): Possible pin type conflict U10,SMRXDV  Output Connected to Bidirectional
+                    SCHEMATIC1, PAGE6 ETHERNET  (139.70, 45.72) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic:  SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: MC2_REV1 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "V+" found on Package LT1999-10 , U3 Pin Number 4: SCHEMATIC1, PAGE3 MOTOR CONTROL (198.12, 12.70). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package L6206Q.1 , U4 Pin Number 31: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 33: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 37: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 36: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#6 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 32: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#7 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 30: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#8 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 29: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#9 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 28: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#10 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 25: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#11 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 24: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#12 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 14: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#13 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 12: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#14 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 9: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#15 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 8: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#16 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 7: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#17 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 5: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#18 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 4: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#19 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q.1 , U4 Pin Number 1: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#20 ERROR(ORCAP-36041): Duplicate Pin Name "VSA" found on Package L6206Q.1 , U4 Pin Number 34: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#21 ERROR(ORCAP-36041): Duplicate Pin Name "VSB" found on Package L6206Q.1 , U4 Pin Number 27: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#22 ERROR(ORCAP-36041): Duplicate Pin Name "OUT1B" found on Package L6206Q.1 , U4 Pin Number 11: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#23 ERROR(ORCAP-36041): Duplicate Pin Name "OUT1A" found on Package L6206Q.1 , U4 Pin Number 3: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#24 ERROR(ORCAP-36041): Duplicate Pin Name "SENSEA" found on Package L6206Q.1 , U4 Pin Number 45: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#25 ERROR(ORCAP-36041): Duplicate Pin Name "OUT2A" found on Package L6206Q.1 , U4 Pin Number 39: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#26 ERROR(ORCAP-36041): Duplicate Pin Name "OUT2B" found on Package L6206Q.1 , U4 Pin Number 23: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#27 ERROR(ORCAP-36041): Duplicate Pin Name "SENSEB" found on Package L6206Q.1 , U4 Pin Number 16: SCHEMATIC1, PAGE3 MOTOR CONTROL (116.84, 30.48). Please renumber one of these.
+#28 ERROR(ORCAP-36041): Duplicate Pin Name "V+" found on Package LT1999-10 , U5 Pin Number 4: SCHEMATIC1, PAGE3 MOTOR CONTROL (198.12, 58.42). Please renumber one of these.
+#29 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number D5: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#30 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number D6: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#31 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number D7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#32 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number E4: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#33 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number E5: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#34 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number E6: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#35 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number E7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#36 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number F4: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#37 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number F5: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#38 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number F6: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#39 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number F7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#40 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number G4: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#41 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number G5: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#42 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number G6: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#43 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package KSZ8893MBL , U10 Pin Number G7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#44 ERROR(ORCAP-36041): Duplicate Pin Name "VDDC" found on Package KSZ8893MBL , U10 Pin Number D8: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#45 ERROR(ORCAP-36041): Duplicate Pin Name "VDDC" found on Package KSZ8893MBL , U10 Pin Number E8: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#46 ERROR(ORCAP-36041): Duplicate Pin Name "VDDC" found on Package KSZ8893MBL , U10 Pin Number H6: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#47 ERROR(ORCAP-36041): Duplicate Pin Name "VDDC" found on Package KSZ8893MBL , U10 Pin Number H7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#48 ERROR(ORCAP-36041): Duplicate Pin Name "VDDA" found on Package KSZ8893MBL , U10 Pin Number F3: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#49 ERROR(ORCAP-36041): Duplicate Pin Name "VDDA" found on Package KSZ8893MBL , U10 Pin Number G3: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#50 ERROR(ORCAP-36041): Duplicate Pin Name "VDDIO" found on Package KSZ8893MBL , U10 Pin Number C7: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#51 ERROR(ORCAP-36041): Duplicate Pin Name "VDDIO" found on Package KSZ8893MBL , U10 Pin Number F8: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#52 ERROR(ORCAP-36041): Duplicate Pin Name "VDDIO" found on Package KSZ8893MBL , U10 Pin Number G8: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#53 ERROR(ORCAP-36041): Duplicate Pin Name "VDDIO" found on Package KSZ8893MBL , U10 Pin Number H4: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#54 ERROR(ORCAP-36041): Duplicate Pin Name "VDDIO" found on Package KSZ8893MBL , U10 Pin Number H5: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#55 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package KSZ8893MBL , U10 Pin Number H3: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+#56 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package KSZ8893MBL , U10 Pin Number H8: SCHEMATIC1, PAGE6 ETHERNET (147.32, 30.48). Please renumber one of these.
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Y?,VDC  VDC  VCC
+                    SCHEMATIC1, PAGE2 STM32F  (353.06, 170.18) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

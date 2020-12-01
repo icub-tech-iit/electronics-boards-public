@@ -1,0 +1,51 @@
+.HEADER
+LIBRARY_FILE    2.0    "PADS Layout VX.2.3"    2018/08/24.14:19:22    1
+.END_HEADER
+.ELECTRICAL
+COPPER_PAD_29X44_S7091-42R                   TP_S7091-42R                                 MM        0.0                      
+0     -1.5                     -2.25                    0     
+0     1.5                      -2.25                    0     
+0     1.5                      2.25                     0     
+0     -1.5                     2.25                     0     
+0     -1.5                     -2.25                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+MKDS4X1_381                                  MKDS14-381                                   MM        8.5                      
+0     -3.20218                 -3.71408                 0     
+0     13.435                   -3.71408                 0     
+0     13.435                   3.783                    0     
+0     -3.20218                 3.783                    0     
+0     -3.20218                 -3.71408                 0     
+.END_ELECTRICAL
+.ELECTRICAL
+FID-40                                       FID-40                                       MM        0.0                      
+0     -1.0                     -1.0                     0     
+0     1.0                      -1.0                     0     
+0     1.0                      1.0                      0     
+0     -1.0                     1.0                      0     
+0     -1.0                     -1.0                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+53261-0271                                   MPT12-254                                    MM        5.0                      
+0     -3.65                    -5.1                     0     
+0     4.9                      -5.1                     0     
+0     4.9                      0.85                     0     
+0     -3.65                    0.85                     0     
+0     -3.65                    -5.1                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+53261-0471                                   53261-0471                                   MM        4.0                      
+0     -5.525                   -2.2                     0     
+0     5.525                    -2.2                     0     
+0     5.525                    3.75                     0     
+0     -5.525                   3.75                     0     
+0     -5.525                   -2.2                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+PEM_SMTRA_M25_6_5ET                          PEM_SMTRA_M25_6_5ET                          MM        5.0                      
+0     -3.45                    -2.35                    0     
+0     3.45                     -2.35                    0     
+0     3.45                     2.4                      0     
+0     -3.45                    2.4                      0     
+0     -3.45                    -2.35                    0     
+.END_ELECTRICAL

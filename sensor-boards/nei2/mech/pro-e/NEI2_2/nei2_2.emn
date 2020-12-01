@@ -1,0 +1,74 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.3"    2011/10/13.22:19:36    1
+"z:\iit\svn-edl\p2010_02_nei2\mechanics\pro-e\nei2_2\nei2_2.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+0.86
+0     24.55                         8.5                           0     
+0     24.55                         -8.5                          0     
+0     36.47967                      -8.5                          0     
+0     36.47967                      8.5                           27.8      
+0     24.55                         8.5                           0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+1.800000 32.357120 6.877719 NPTH BOARD
+1.800000 32.357120 -6.877719 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACEMENT
+AS5311                                       AS5311                                       U1                                           
+28.75                         0.0                           0.0       TOP       FIXED     
+SOLDERPAD                                    PAD_4X2MM_0_2                                P1                                           
+35.80279                      3.76302                       96.0      TOP       PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P2                                           
+35.95066                      1.88409                       267.0     BOTTOM    PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P3                                           
+36.0                          0.0                           270.0     BOTTOM    PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P4                                           
+35.95066                      -1.88409                      273.0     BOTTOM    PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P5                                           
+35.95066                      1.88409                       93.0      TOP       PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P6                                           
+36.0                          0.0                           90.0      TOP       PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P7                                           
+35.95066                      -1.88409                      87.0      TOP       PLACED    
+FIDUCIAL                                     FIDUCIAL                                     F1                                           
+35.2                          -7.15                         0.0       TOP       PLACED    
+FIDUCIAL                                     FIDUCIAL                                     F2                                           
+25.85                         -7.35                         0.0       TOP       PLACED    
+0402                                         CAP0402                                      C3                                           
+29.4                          1.65                          0.0       BOTTOM    PLACED    
+0402                                         CAP0402                                      C1                                           
+32.3                          4.15                          180.0     TOP       PLACED    
+0402                                         CAP0402                                      C2                                           
+30.1                          4.15                          0.0       TOP       PLACED    
+0603                                         CAP0603                                      C4                                           
+32.1                          3.3                           270.0     BOTTOM    PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P9                                           
+35.80279                      -3.76302                      84.0      TOP       PLACED    
+TP-ATE-LS                                    TP_ATE_LS                                    TP1                                          
+26.55799                      6.67368                       0.0       BOTTOM    PLACED    
+TP-ATE-LS                                    TP_ATE_LS                                    TP2                                          
+26.58981                      4.6885                        0.0       BOTTOM    PLACED    
+0402                                         CAP0402                                      C5                                           
+34.0                          1.1                           0.0       TOP       PLACED    
+0402                                         CAP0402                                      C6                                           
+34.0                          -0.95                         0.0       TOP       PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P10                                          
+35.80279                      -3.76302                      276.0     BOTTOM    PLACED    
+SOLDERPAD                                    PAD_4X2MM_0_2                                P8                                           
+35.80279                      3.76302                       264.0     BOTTOM    PLACED    
+0402                                         RES0402_                                     R1                                           
+33.05                         1.55                          180.0     BOTTOM    PLACED    
+0402                                         RES0402_                                     R2                                           
+33.1                          -0.1                          180.0     BOTTOM    PLACED    
+0402                                         RES0402_                                     R3                                           
+33.1                          -1.25                         180.0     BOTTOM    PLACED    
+0402                                         RES0402_                                     R4                                           
+34.0                          2.1                           0.0       TOP       PLACED    
+0402                                         RES0402_                                     R5                                           
+34.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES0402_                                     R6                                           
+34.0                          -2.05                         0.0       TOP       PLACED    
+TP-ATE-LS                                    TP_ATE_LS                                    TP3                                          
+29.15                         -4.4                          0.0       BOTTOM    PLACED    
+.END_PLACEMENT

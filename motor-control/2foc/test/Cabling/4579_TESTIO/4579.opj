@@ -1,0 +1,33 @@
+(ExpressProject "7PinToSWandLED"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\4579.dsn"
+      (Type "Schematic Design")))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName "O:\R.OLB")
+      (DeviceIndex "0"))
+    (CA
+      (FullPartName "CA.Normal")
+      (LibraryName "O:\CA.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\4579.dsn")
+      (Path "Design Resources" ".\4579.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\4579.dsn" "SCHEMATIC1" "7PinToSWandLed"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 3 365 -3 674"))
+      (Tab 0))))

@@ -1,0 +1,446 @@
+﻿Version     0.0
+Platform    uOLED-128-G2-LR
+PlatRes     128x128
+Depends
+end
+Options
+    Visualizer
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 Yes
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Led
+    Name                         CPU
+    Alias                        CPU
+    Active                       No
+    Caption                      CPU
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      LargeRect
+    Left                         67
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          80
+    Width                        50
+    OnChanged                    ''
+end
+Led
+    Name                         Motors
+    Alias                        Motors
+    Active                       No
+    Caption                      Motors
+    Color                        BLACK
+    Font.Color                   clWhite
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    8
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       16
+    Layout                       Left
+    LedType                      LargeRect
+    Left                         0
+    Palette.High                 LIME
+    Palette.Low                  RED
+    Spacing                      5
+    Top                          80
+    Width                        61
+    OnChanged                    ''
+end
+Meter
+    Name                         Battery_voltage
+    Alias                        Battery_voltage
+    Angle                        40
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Caption                      V
+    Color                        BLACK
+    Font.Color                   SILVER
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    6
+    Font.Style                   []
+    Height                       46
+    LabelOffsetX                 -5
+    LabelOffsetY                 7
+    Labels                       4
+    Left                         0
+    Maxvalue                     32
+    Minvalue                     20
+    NeedleColor                  SILVER
+    NeedleWidth                  1
+    Scale.Color1                 RED
+    Scale.Color2                 BLUE
+    Scale.Color3                 NAVY
+    Scale.Enlarge                5
+    Scale.Heightmax              8
+    Scale.Heightmin              5
+    Scale.Percent1               35
+    Scale.Percent2               50
+    Scale.Ticks                  61
+    Scale.Visible                Yes
+    Spacing                      3
+    Top                          0
+    Width                        61
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Gauge
+    Name                         Gauge1
+    Alias                        Gauge1
+    Bevel.BorderColor            'Office 2003 (Silver)'
+    Bevel.BorderWidth            1
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         BLUE
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            BLUE
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             BLUE
+    Bevel.OuterHighlight         BLUE
+    Bevel.OuterOutline           None
+    Bevel.OuterShadow            BLUE
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             None
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Color                        BLACK
+    Height                       22
+    Left                         0
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette1.High                BLUE
+    Palette1.Low                 0x310000
+    Palette2.High                BLUE
+    Palette2.Low                 0x310000
+    Palette3.High                BLUE
+    Palette3.Low                 0x310000
+    Percent1                     15
+    Percent2                     30
+    Spacing                      0
+    Step                         10
+    Style                        BottomLeft
+    TickHeight                   1
+    Top                          53
+    Width                        80
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         Battery_percent
+    Alias                        Battery_percent
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  No
+    Left                         84
+    Top                          64
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      Charge
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       13
+    Left                         88
+    Top                          50
+    Transparent                  Yes
+    Width                        35
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      %
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       14
+    Left                         112
+    Top                          64
+    Transparent                  Yes
+    Width                        13
+    WordWrap                     Yes
+end
+Strings
+    Name                         Strings1
+    Alias                        Strings1
+    Alignment                    Right
+    BGcolor                      BLUE
+    Height                       12
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      '     '
+    StringsStyle                 Message
+    Top                          96
+    Width                        50
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings2
+    Alias                        Strings2
+    Alignment                    Right
+    BGcolor                      BLUE
+    Height                       12
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      '     '
+    StringsStyle                 Message
+    Top                          112
+    Width                        50
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings3
+    Alias                        Strings3
+    Alignment                    Right
+    BGcolor                      BLUE
+    Height                       12
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         72
+    Strings                      '     '
+    StringsStyle                 Message
+    Top                          96
+    Width                        50
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings4
+    Alias                        Strings4
+    Alignment                    Right
+    BGcolor                      BLUE
+    Height                       12
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         16
+    Strings                      '     '
+    StringsStyle                 Message
+    Top                          128
+    Width                        50
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings5
+    Alias                        Strings5
+    Alignment                    Right
+    BGcolor                      BLUE
+    Height                       12
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         72
+    Strings                      '     '
+    StringsStyle                 Message
+    Top                          112
+    Width                        50
+    OnChanged                    ''
+end
+Meter
+    Name                         Battery_amps
+    Alias                        Battery_amps
+    Angle                        40
+    Backimage                    (None)
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             Lowered
+    Bevel.Innerwidth             2
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                No
+    Caption                      A
+    Color                        BLACK
+    Font.Color                   SILVER
+    Font.Effects                 []
+    Font.Name                    Arial
+    Font.Size                    6
+    Font.Style                   []
+    Height                       46
+    LabelOffsetX                 -5
+    LabelOffsetY                 7
+    Labels                       3
+    Left                         67
+    Maxvalue                     30
+    Minvalue                     0
+    NeedleColor                  SILVER
+    NeedleWidth                  1
+    Scale.Color1                 NAVY
+    Scale.Color2                 BLUE
+    Scale.Color3                 RED
+    Scale.Enlarge                5
+    Scale.Heightmax              8
+    Scale.Heightmin              5
+    Scale.Percent1               30
+    Scale.Percent2               50
+    Scale.Ticks                  61
+    Scale.Visible                Yes
+    Spacing                      3
+    Top                          0
+    Width                        61
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         R1
+    Alias                        R1
+    Height                       48
+    Image                        RobotE_PNG_80x32_16bit_A_conferma.bmp
+    Left                         0
+    Source.Height                32
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 80
+    Top                          40
+    Width                        128
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         R1_right
+    Alias                        R1_right
+    Height                       48
+    Image                        RobotE_PNG_80x32_16bit_A_destra.bmp
+    Left                         0
+    Source.Height                32
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 80
+    Top                          40
+    Width                        128
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         R1_left
+    Alias                        R1_left
+    Height                       48
+    Image                        RobotE_PNG_80x32_16bit_A_sinistra.bmp
+    Left                         0
+    Source.Height                32
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 80
+    Top                          40
+    Width                        128
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end

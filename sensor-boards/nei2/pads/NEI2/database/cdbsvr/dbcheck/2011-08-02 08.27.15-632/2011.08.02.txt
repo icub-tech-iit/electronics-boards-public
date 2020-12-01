@@ -1,0 +1,43 @@
+[2011.08.02 08:27:15] [0000m.00s.875ms] [0] WELCOME
+[2011.08.02 08:27:15] [0000m.00s.875ms] [1] iCDB Diagnostic ver.1.091, 0XsVZbnMvCAokxoWCsr9pA, build:426267 created 2010-10-27 08:24:21, sources stamp:0XsVZbnMvCAokxoWCsr9pA
+[2011.08.02 08:27:15] [0000m.00s.875ms] [1] Copyright 2010 Mentor Graphics Corporation. All Rights Reserved.
+[2011.08.02 08:27:15] [0000m.00s.875ms] [1] Base flow version [7.9.1]
+[2011.08.02 08:27:15] [0000m.00s.875ms] [1] GBS Install Id [17460], Flow Id [PADS 9.3], Full Flow Name [PADS 9.3], Exact Access Date [Dec 1 2010]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] Machine [iit-robotics01]  User [claudio.lorini]  PID [632]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] Operating system [Microsoft Windows XP Professional Service Pack 3 (build 2600)]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] Current working dir [Z:\Progetti\P2010_02_NEI2\sch]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] PATH [C:\MentorGraphics\9.3PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.3PADS\SDD_HOME\common\win32\lib;C:\Program Files\OrCAD\OrCAD_16.0\tools\bin;C:\Program Files\Intel\DMIX;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/bin;C:/MentorGraphics/9.3PADS/MGC_HOME.ixn/lib;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.3PADS\MGC_HOME.ixn\lib;C:\Program Files\proeWildfire 4.0\bin;C:\Program Files\OrCAD\tools\pcb\bin;C:\Program Files\OrCAD\tools\specctra\bin;C:\Program Files\OrCAD\tools\fet\bin;C:\Program Files\OrCAD\tools\PSpice;C:\Program Files\OrCAD\tools\PSpice\Library;C:\Program Files\OrCAD\tools\Capture;C:\Program Files\OrCAD\tools\bin;C:\Program Files\OrCAD\OpenAccess\bin\win32\opt;C:\Program Files\TortoiseSVN\bin]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] SDD_HOME [C:\MentorGraphics\9.3PADS\SDD_HOME] on file system [NTFS]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] SDD_PLATFORM [win32]
+[2011.08.02 08:27:15] [0000m.00s.890ms] [1] Local iCDB working dir [C:\Documents and Settings\claudio.lorini\My Documents\PADS Projects\iCDB] on file system [NTFS]
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: Checking snapshot [1:DxD] integrity
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: DxDCheck: LineDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: DxDCheck: RectDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: DxDCheck: TextDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: Block: NEI2
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2011.08.02 08:27:15] [0000m.00s.968ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2011.08.02 08:27:15] [0000m.00s.968ms] [1] Diagnostic: Warning: {[BlockViewDxD] [1] [1-1-68] [1] } --> Could not get sheet size
+[2011.08.02 08:27:15] [0000m.00s.984ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2011.08.02 08:27:15] [0000m.00s.984ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2011.08.02 08:27:15] [0000m.00s.984ms] [1] Diagnostic: Check failed on Block: NEI2
+[2011.08.02 08:27:15] [0000m.00s.984ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2011.08.02 08:27:15] [0000m.00s.984ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2011.08.02 08:27:15] [0000m.00s.984ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2011.08.02 08:27:15] [0000m.01s.015ms] [1] Diagnostic: Snapshot [1:DxD] integrity check FAILED
+[2011.08.02 08:27:15] [0000m.01s.031ms] [0] Diagnostic: FINISH

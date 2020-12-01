@@ -1,0 +1,80 @@
+.HEADER
+LIBRARY_FILE    3.0    "PADS Layout 9.3"    2011/12/02.13:03:15    1
+.END_HEADER
+.ELECTRICAL
+0402                                         0402                                         MM        0.5                      
+0     -0.8175                  -0.29                    0     
+0     0.8175                   -0.29                    0     
+0     0.8175                   0.31                     0     
+0     -0.8175                  0.31                     0     
+0     -0.8175                  -0.29                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+0603                                         0603                                         MM        0.8                      
+0     -0.5588                  -1.1176                  0     
+0     0.5588                   -1.1176                  0     
+0     0.5588                   1.1176                   0     
+0     -0.5588                  1.1176                   0     
+0     -0.5588                  -1.1176                  0     
+.END_ELECTRICAL
+.ELECTRICAL
+PADCIRC4MM                                   PADHOLE                                      MM        0.1                      
+0     0.0                           0.0                           0     
+0     2.04781                       0.0                           360   
+.END_ELECTRICAL
+.ELECTRICAL
+TP-ATE-LS                                    TP-ATE-LS                                    MM        0.01                     
+0     -0.635                   -0.635                   0     
+0     0.635                    -0.635                   0     
+0     0.635                    0.635                    0     
+0     -0.635                   0.635                    0     
+0     -0.635                   -0.635                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+LGA3X3-16                                    LGA3X3-16                                    MM        0.40005                  
+0     -1.627                   -1.627                   0     
+0     1.627                    -1.627                   0     
+0     1.627                    1.627                    0     
+0     -1.627                   1.627                    0     
+0     -1.627                   -1.627                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+LGA4X4-16                                    LGA4X4-16                                    MM        0.40005                  
+0     -2.127                   -2.127                   0     
+0     2.127                    -2.127                   0     
+0     2.127                    2.127                    0     
+0     -2.127                   2.127                    0     
+0     -2.127                   -2.127                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+LFCSP24                                      LFCSP24                                      MM        0.8                      
+0     -2.35                    -2.35                    0     
+0     2.35                     -2.35                    0     
+0     2.35                     2.35                     0     
+0     -2.35                    2.35                     0     
+0     -2.35                    -2.35                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+MICROPAK8                                    MICROPAK                                     MM        0.5                      
+0     -1.027                   -1.127                   0     
+0     1.027                    -1.127                   0     
+0     1.027                    1.127                    0     
+0     -1.027                   1.127                    0     
+0     -1.027                   -1.127                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+PADT                                         PADT                                         MM        0.0                      
+0     -1.0                     -1.0                     0     
+0     1.0                      -1.0                     0     
+0     1.0                      1.0                      0     
+0     -1.0                     1.0                      0     
+0     -1.0                     -1.0                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+SOLDERLAND_4                                 SOLDERLAND_4                                 MM        0.0                      
+0     -0.889                   -0.381                   0     
+0     0.889                    -0.381                   0     
+0     0.889                    3.429                    0     
+0     -0.889                   3.429                    0     
+0     -0.889                   -0.381                   0     
+.END_ELECTRICAL

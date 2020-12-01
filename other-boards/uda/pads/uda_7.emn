@@ -1,0 +1,94 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout 9.5"    2012/12/13.11:34:55    1
+"d:\edl\p2012_11_uda\pcb\uda_7.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+1.6
+0     0.0                           0.0                           0     
+0     16.1                          0.0                           0     
+0     16.1                          29.0                          0     
+0     0.0                           29.0                          0     
+0     0.0                           0.0                           0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+1.700000 14.018390 26.897211 PTH BOARD
+1.700000 2.000000 1.950000 PTH BOARD
+.END_DRILLED_HOLES
+.PLACEMENT
+OSC_7X5                                      OSC_7X5                                      XT1                                          
+3.2                           15.7                          90.0      TOP       PLACED    
+0603                                         0603                                         C5                                           
+11.60566                      11.40463                      270.0     BOTTOM    PLACED    
+TP-ATE-LC                                    TP-ATE-LC                                    TP2                                          
+7.6811                        22.16851                      0.0       TOP       PLACED    
+53261-0471                                   53261-0471                                   J2                                           
+5.67953                       26.82276                      180.0     TOP       PLACED    
+MSOP8                                        MSOP8                                        U3                                           
+9.9                           22.15                         0.0       BOTTOM    PLACED    
+TP-ATE-LC                                    TP-ATE-LC                                    TP3                                          
+1.70865                       23.14969                      0.0       TOP       PLACED    
+0603                                         0603                                         R9                                           
+14.90899                      23.74453                      270.0     TOP       PLACED    
+0603                                         0603                                         C8                                           
+13.62857                      21.45242                      90.0      TOP       PLACED    
+0603                                         0603                                         C14                                          
+14.92273                      21.47258                      90.0      TOP       PLACED    
+SSOP28                                       SSOP28                                       U1                                           
+10.65                         15.3                          90.0      TOP       PLACED    
+0603                                         0603                                         R4                                           
+5.66811                       8.18326                       90.0      BOTTOM    PLACED    
+USBMICRO                                     USBMICRO                                     J1                                           
+8.05                          4.15                          180.0     TOP       PLACED    
+0603                                         0603                                         R6                                           
+10.55526                      6.97868                       0.0       TOP       PLACED    
+TP-ATE-LC                                    TP-ATE-LC                                    TP4                                          
+15.05                         1.2                           0.0       TOP       PLACED    
+TP-ATE-LC                                    TP-ATE-LC                                    TP1                                          
+1.49668                       5.01805                       0.0       TOP       PLACED    
+0805                                         0805                                         C10                                          
+1.49668                       7.74804                       90.0      TOP       PLACED    
+0603                                         0603                                         C4                                           
+14.2                          8.95                          270.0     TOP       PLACED    
+0603                                         0603                                         R10                                          
+12.61473                      9.28837                       270.0     TOP       PLACED    
+0603                                         0603                                         R11                                          
+11.16043                      9.28837                       270.0     TOP       PLACED    
+0603                                         0603                                         C3                                           
+9.88001                       9.30418                       270.0     TOP       PLACED    
+0603                                         0603                                         R3                                           
+8.33086                       9.31998                       90.0      TOP       PLACED    
+0603                                         0603                                         R2                                           
+6.86075                       9.30418                       90.0      TOP       PLACED    
+0603                                         0603                                         R8                                           
+14.86046                      3.39452                       90.0      TOP       PLACED    
+0603                                         0603                                         C13                                          
+14.86046                      5.94452                       270.0     TOP       PLACED    
+0603                                         0603                                         R7                                           
+9.68714                       7.01548                       0.0       BOTTOM    PLACED    
+0603                                         0603                                         C9                                           
+11.64323                      21.47617                      90.0      TOP       PLACED    
+0805                                         0805                                         C15                                          
+9.23393                       5.03956                       180.0     BOTTOM    PLACED    
+MSOP8                                        MSOP8                                        U2                                           
+8.75                          11.4                          0.0       BOTTOM    PLACED    
+0603                                         0603                                         C11                                          
+9.5668                        17.98581                      90.0      BOTTOM    PLACED    
+0603                                         0603                                         C16                                          
+6.58864                       19.99607                      180.0     BOTTOM    PLACED    
+0603                                         0603                                         C12                                          
+12.39231                      7.01548                       0.0       BOTTOM    PLACED    
+SOT23                                        SOT23                                        Q1                                           
+12.51784                      17.23414                      0.0       BOTTOM    PLACED    
+0603                                         0603                                         R5                                           
+13.13829                      19.98894                      0.0       BOTTOM    PLACED    
+0603                                         0603                                         C1                                           
+2.35                          21.25                         180.0     TOP       PLACED    
+0603                                         0603                                         C2                                           
+3.75                          10.2                          180.0     TOP       PLACED    
+0805                                         0805                                         C6                                           
+10.0                          27.6                          180.0     BOTTOM    PLACED    
+0603                                         0603                                         C7                                           
+9.95                          25.75                         180.0     BOTTOM    PLACED    
+0603                                         0603                                         R1                                           
+5.7                           21.25                         0.0       TOP       PLACED    
+.END_PLACEMENT

@@ -1,0 +1,571 @@
+(PCB AMO1
+ (description
+  (timeStamp "2014 09 19 10 23 21")
+  (program "CAPTURE.EXE" (Version "16.5.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "P2014_04_AMO")
+  (date "Friday, September 19, 2014")
+  (document "AMO1 board")
+  (revision "1")
+  (organization "IIT - Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 -Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "SMTSO-M2-4ET"
+   (place MEC1
+    (property 
+     ("PCB Footprint" "PEM_SMTSO-M2-4ET")
+     (timestamp 010262F9)
+     (IITCODE 6554)
+     ("Source Package" "SMTSO-M2-4ET")
+     (Value "SMTSO-M2-4ET")
+     (Geometry.Height 4.1mm)))
+   (place MEC2
+    (property 
+     ("PCB Footprint" "PEM_SMTSO-M2-4ET")
+     (timestamp 01026304)
+     (IITCODE 6554)
+     ("Source Package" "SMTSO-M2-4ET")
+     (Value "SMTSO-M2-4ET")
+     (Geometry.Height 4.1mm))))
+  (component "53398-0671"
+   (place P1
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53398-0671")
+     (timestamp 0102760C)
+     (code_description "PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm, Straight, w to b, nolock, key, SMD")
+     (IITCODE 1388)
+     ("Source Package" "53398-0671")
+     (Value "53398-0671")
+     (Geometry.Height 4.7mm))))
+  (component 24AA02E64T
+   (place U2
+    (property 
+     ("PCB Footprint" "SOT23-5")
+     (timestamp 010250B7)
+     (IITCODE 6501)
+     ("Source Package" 24AA02E64T)
+     (Value 24AA02E64T)
+     (Geometry.Height 1.45mm))))
+  (component 4xFE.2
+   (place FB1
+    (property 
+     ("4TH PART FIELD" 4x0402)
+     (Current 100mA)
+     (Voltage "-")
+     ("PCB Footprint" BLA2ABD601SN4)
+     (timestamp 010264A3)
+     (code_description "Ferrite beads array, 100mA, 600R @100MHz, SMD, 0804 (4x0402)")
+     (IITCODE 1119)
+     ("Source Package" 4xFE.2)
+     (Tolerance "+/-25%")
+     (Value "600R @100MHz")
+     (Geometry.Height 0.5mm))))
+  (component "iC-MU"
+   (place U3
+    (property 
+     ("PCB Footprint" "DFN16-5x5")
+     (timestamp 01024FC7)
+     (code_description "Off-Axis nonius encoder with integrated hall sensors")
+     (IITCODE 6500)
+     ("Source Package" "iC-MU")
+     (documentation "\\\\Geo\\repository\\groups\\tech_dept\\Datasheet\\Sensors\\iC-Haus\\MU_datasheet_B1en.pdf")
+     (Supply_voltage 3/5.5V)
+     (Value "iC-MU")
+     (Geometry.Height 0.9mm))))
+  (component CAP
+   (place C1
+    (property 
+     (Voltage 4V)
+     ("PCB Footprint" 0402)
+     (timestamp 010250F3)
+     (code_description "Multilayer Ceramic Capacitor, 4.7uF, 4V, 20%, X5R, SMD, 0402")
+     (IITCODE 3087)
+     (Dielectric X5R)
+     ("Source Package" CAP)
+     (Value 4.7uF)
+     (Geometry.Height 0.5mm)))
+   (place C2
+    (property 
+     (Voltage 10V)
+     ("PCB Footprint" 0402)
+     (timestamp 01025F7C)
+     (code_description "Multilayer Ceramic Capacitor, 1uF, 10V, 10%, X5R, SMD, 0402")
+     (IITCODE 1324)
+     (Dielectric X5R)
+     ("Source Package" CAP)
+     (Value 1uF)
+     (Geometry.Height 0.5mm)))
+   (place C3
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" 0402)
+     (timestamp 01024FF4)
+     (code_description "Multilayer Ceramic Capacitor, 100nF, 16V, 10%, X7R, SMD, 0402")
+     (IITCODE 1035)
+     (Dielectric X7R)
+     ("Source Package" CAP)
+     (Value 100nF)
+     (Geometry.Height 0.5mm)))
+   (place C4
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" 0402)
+     (timestamp 010256E6)
+     (code_description "Multilayer Ceramic Capacitor, 100nF, 16V, 10%, X7R, SMD, 0402")
+     (IITCODE 1035)
+     (Dielectric X7R)
+     ("Source Package" CAP)
+     (Value 100nF)
+     (Geometry.Height 0.5mm)))
+   (place C5
+    (property 
+     (Voltage 16V)
+     ("PCB Footprint" 0402)
+     (timestamp 0102502E)
+     (code_description "Multilayer Ceramic Capacitor, 100nF, 16V, 10%, X7R, SMD, 0402")
+     (IITCODE 1035)
+     (Dielectric X7R)
+     ("Source Package" CAP)
+     (Value 100nF)
+     (Geometry.Height 0.5mm)))
+   (place C8
+    (property 
+     (Voltage 50V)
+     ("PCB Footprint" 0402)
+     (timestamp 01024F83)
+     (code_description "Multilayer Ceramic Capacitor, 100pF, 50V, 5%, C0G, SMD, 0402")
+     (IITCODE 1036)
+     (Dielectric C0G)
+     ("Source Package" CAP)
+     (Value 100pF)
+     (Geometry.Height 0.5mm)))
+   (place C9
+    (property 
+     (Voltage 50V)
+     ("PCB Footprint" 0402)
+     (timestamp 010250A5)
+     (code_description "Multilayer Ceramic Capacitor, 100pF, 50V, 5%, C0G, SMD, 0402")
+     (IITCODE 1036)
+     (Dielectric C0G)
+     ("Source Package" CAP)
+     (Value 100pF)
+     (Geometry.Height 0.5mm)))
+   (place C10
+    (property 
+     (Voltage 50V)
+     ("PCB Footprint" 0402)
+     (timestamp 01024FE5)
+     (code_description "Multilayer Ceramic Capacitor, 100pF, 50V, 5%, C0G, SMD, 0402")
+     (IITCODE 1036)
+     (Dielectric C0G)
+     ("Source Package" CAP)
+     (Value 100pF)
+     (Geometry.Height 0.5mm))))
+  (component RES.1
+   (place R1
+    (property 
+     (Stability 100ppm)
+     ("PCB Footprint" 0402)
+     (timestamp 010250C9)
+     (code_description "Resistor Thick film, 4K7, 0.063W, 1%, SMD, 0402")
+     (IITCODE 1107)
+     ("Source Package" RES.1)
+     (Tolerance 1%)
+     (Value 4K7)
+     (Geometry.Height 0.35mm)
+     (Power 0.063W)))
+   (place R2
+    (property 
+     (Stability 100ppm)
+     ("PCB Footprint" 0402)
+     (timestamp 01025102)
+     (code_description "Resistor Thick film, 4K7, 0.063W, 1%, SMD, 0402")
+     (IITCODE 1107)
+     ("Source Package" RES.1)
+     (Tolerance 1%)
+     (Value 4K7)
+     (Power 0.063W)
+     (Geometry.Height 0.35mm)))
+   (place R3
+    (property 
+     (Stability 100ppm)
+     ("PCB Footprint" 0402)
+     (timestamp 010250E4)
+     (code_description "Resistor Thick film, 4K7, 0.063W, 1%, SMD, 0402")
+     (IITCODE 1107)
+     ("Source Package" RES.1)
+     (Tolerance 1%)
+     (Value 4K7)
+     (Geometry.Height 0.35mm)
+     (Power 0.063W))))
+  (component FE
+   (place FB2
+    (property 
+     (Current 300mA)
+     (Voltage "-")
+     ("PCB Footprint" 0402)
+     (timestamp 01025D9E)
+     (code_description "Ferrite bead, 300mA, 600R @100MHz, SMD, 0402")
+     (IITCODE 1118)
+     ("Source Package" FE)
+     (Tolerance "+/-25%")
+     (Value "600R @100MHz")
+     (Geometry.Height 0.5mm)))
+   (place FB3
+    (property 
+     (Voltage "-")
+     (Current 300mA)
+     ("PCB Footprint" 0402)
+     (timestamp 01025DF8)
+     (code_description "Ferrite bead, 300mA, 600R @100MHz, SMD, 0402")
+     (IITCODE 1118)
+     ("Source Package" FE)
+     (Tolerance "+/-25%")
+     (Value "600R @100MHz")
+     (Geometry.Height 0.5mm)))
+   (place FB4
+    (property 
+     (Current 300mA)
+     (Voltage "-")
+     ("PCB Footprint" 0402)
+     (timestamp 01026C47)
+     (code_description "Ferrite bead, 300mA, 600R @100MHz, SMD, 0402")
+     (IITCODE 1118)
+     ("Source Package" FE)
+     (Tolerance "+/-25%")
+     (Value "600R @100MHz")
+     (Geometry.Height 0.5mm)))))
+ (library
+  (image 24AA02E64T
+   (property 
+    (sourcelib "Y:\\MURA\\ORCAD LIBRARY\\ORCADLIB_ANDREA.OLB")
+    ("PCB Footprint" "SOT23-5")
+    (IITCODE 6501)
+    (Geometry.Height 1.45mm))
+   (pin 999 1
+    (property 
+     (pinname SCL)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname VSS)
+     (pintype 7)))
+   (pin 999 3
+    (property 
+     (pinname SDA)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VCC)
+     (pintype 7)
+     ("Pin Length" Line)))
+   (pin 999 5
+    (property 
+     (pinname NC)
+     (pintype 4))))
+  (image RES.1
+   (property 
+    (sourcelib O:\\R.OLB))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image "iC-MU"
+   (property 
+    (sourcelib "Y:\\MURA\\ORCAD LIBRARY\\ORCADLIB_ANDREA.OLB")
+    (Geometry.Height 0.9mm)
+    ("PCB Footprint" "DFN16-5x5")
+    (IITCODE 6500))
+   (pin 999 1
+    (property 
+     (pinname SCL)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 2
+    (property 
+     (pinname SDA)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 3
+    (property 
+     (pinname VPA)
+     (pintype 7)
+     ("Pin Length" Line)))
+   (pin 999 4
+    (property 
+     (pinname VNA)
+     (pintype 7)
+     ("Pin Length" Line)))
+   (pin 999 5
+    (property 
+     (pinname PB0)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 6
+    (property 
+     (pinname PB1)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 7
+    (property 
+     (pinname PB2)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 8
+    (property 
+     (pinname PB3)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 9
+    (property 
+     (pinname PA3)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 10
+    (property 
+     (pinname PA2)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 11
+    (property 
+     (pinname PA1)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 12
+    (property 
+     (pinname PA0)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 13
+    (property 
+     (pinname VND)
+     (pintype 7)
+     ("Pin Length" Line)))
+   (pin 999 14
+    (property 
+     (pinname VPD)
+     (pintype 7)
+     ("Pin Length" Line)))
+   (pin 999 15
+    (property 
+     (pinname MTD)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 16
+    (property 
+     (pinname MTC)
+     (pintype 4)
+     ("Pin Length" Line)))
+   (pin 999 17
+    (property 
+     (pinname TP)
+     (pintype 4)
+     ("Pin Length" Line))))
+  (image CAP
+   (property 
+    (sourcelib O:\\C.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "53398-0671"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4))))
+  (image 4xFE.2
+   (property 
+    (sourcelib O:\\FE.OLB)
+    ("4TH PART FIELD" 4x0402))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4))))
+  (image FE
+   (property 
+    (sourcelib O:\\FE.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "SMTSO-M2-4ET"
+   (property 
+    (sourcelib "Y:\\MURA\\ORCAD LIBRARY\\ORCADLIB_ANDREA.OLB")
+    (IITCODE 6554)
+    ("PCB Footprint" "PEM_SMTSO-M2-4ET")
+    (Geometry.Height 4.1mm))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))))
+ (network
+  (net +5V
+    (property 
+     (nettype S))
+   (pins
+     U3-14
+    (property 
+     ("Pin Length" Line))
+     C3-1 R2-1 R3-1 R1-1 U2-4
+    (property 
+     ("Pin Length" Line))
+     C4-1 FB2-2 C2-1 FB4-2))
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     U3-4
+    (property 
+     ("Pin Length" Line))
+     U3-13
+    (property 
+     ("Pin Length" Line))
+     U3-17
+    (property 
+     ("Pin Length" Line))
+     C1-2 C3-2 C9-2 C5-2 C8-2 C10-2 U2-2 U2-5 C4-2
+     FB3-2 C2-2))
+  (net N16928532
+   (pins
+     U3-1
+    (property 
+     ("Pin Length" Line))
+     R1-2 U2-1))
+  (net N16928534
+   (pins
+     U3-2
+    (property 
+     ("Pin Length" Line))
+     R2-2 U2-3))
+  (net N16928564
+   (pins
+     U3-9
+    (property 
+     ("Pin Length" Line))
+     R3-2 FB1-8))
+  (net N16928569
+   (pins
+     FB2-1 P1-1))
+  (net N16928571
+   (pins
+     FB3-1 P1-6))
+  (net N16928572
+   (pins
+     U3-11
+    (property 
+     ("Pin Length" Line))
+     C8-1 FB1-5))
+  (net N16928574
+   (pins
+     U3-12
+    (property 
+     ("Pin Length" Line))
+     C9-1 FB1-6))
+  (net N16928576
+   (pins
+     U3-10
+    (property 
+     ("Pin Length" Line))
+     C10-1 FB1-7))
+  (net SPI_CK
+   (pins
+     FB1-4 P1-5))
+  (net SPI_CSB
+   (pins
+     FB1-3 P1-4))
+  (net SPI_MISO
+   (pins
+     FB1-1 P1-2))
+  (net SPI_MOSI
+   (pins
+     FB1-2 P1-3))
+  (net VPA
+    (property 
+     (nettype S))
+   (pins
+     U3-3
+    (property 
+     ("Pin Length" Line))
+     C1-1 C5-1 FB4-1)))
+)

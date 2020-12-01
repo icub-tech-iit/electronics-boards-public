@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GulpConf filename="2FOC Ethernet control using  EMS  " version="V10">
+  <XY enabled="0" ptsize="2" bufsize="2000"/>
+  <advanced show="1"/>
+  <rolling enabled="0" samplerate="200"/>
+  <ifaces>
+    <interface name="I 0" config="Ethernet PCAP + ETHERCAT timestamp:Device \Device\NPF_{0153797A-5D49-416E-B4D1-2201D83E8F35} ,                                       ,73"/>
+  </ifaces>
+  <trigger edge="rising" raw="0" val="0" xpos="0" enabled="0"/>
+  <scale x="540807" ymin="-7050" xmax="6150"/>
+  <numeric enabled="1"/>
+  <grid width0="39" width1="100" width2="50" width3="50" width4="61" width5="85" width6="52" width7="63" width8="58" width9="61" width10="44" width11="51" width12="72" width13="60" width14="46"/>
+  <vars>
+    <var color="Red" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="21" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="Gulp0" varxy="X 1" source="I 0" visible="1"/>
+    <var color="Blue" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="23" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="Gulp1" varxy="Y 1" source="I 0" visible="1"/>
+    <var color="Green" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="25" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="Gulp2" varxy="NONE" source="I 0" visible="1"/>
+    <var color="Orange" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff81" varpos="27" varmask="0xffff" vartype="S16LE" varoffs="0" varscale="1" vartrig="" varname="Gulp3" varxy="" source="I 0" visible="1"/>
+  </vars>
+  <sendpanel slideval="1&#xA;">
+    <function fname="T" fnexp="1500*sin(t/50000)*sin(t/1000000)" fnintf="I 0" fnhdr="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 02 ff ff 83 " fnfoot="00 00 " fnstart="0" fnstop="0" fntype="U16LE" fnen=""/>
+    <function fname="F 0" fnexp="1000*sin(t/10000)*sin(t/1000000)" fnintf="I 0" fnhdr="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 02 04 ff ff 83 " fnfoot="00 02 " fnstart="0" fnstop="0" fntype="U16LE" fnen=""/>
+    <command cmdname="DS402SwitchOn" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0e ff ff 83 " cmdsend="0"/>
+    <command cmdname="DS402EnableOperation" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0f ff ff 83 " cmdsend="0"/>
+    <command cmdname="DS402OperationDisable" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 10 ff ff 83 " cmdsend="0"/>
+    <command cmdname="DS402OperationShutdown" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 11 ff ff 83 " cmdsend="0"/>
+    <command cmdname="SetCurrentPIDParams" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 06 07 ff ff 83 00 18 00 02 00 00 " cmdsend="0"/>
+    <command cmdname="SetSpeedPIDParams" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 06 06 ff ff 83 00 40 00 02 00 00 " cmdsend="0"/>
+    <command cmdname="TorqueReference" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 02 ff ff 83 00 02 00 00 " cmdsend="0"/>
+    <command cmdname="SpeedReference" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 02 04 ff ff 83 00 02 " cmdsend="0"/>
+    <command cmdname="TogglingReference" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 03 09 ff ff 83 00 01 01 " cmdsend="0"/>
+    <command cmdname="OpenLoop" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 01 " cmdsend="0"/>
+    <command cmdname="TorqueLoop" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 02 " cmdsend="0"/>
+    <command cmdname="SpeedLoop" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 04 " cmdsend="0"/>
+    <command cmdname="PeriodicDataContents" cmdintf="I 0" cmdpkt="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 12 ff ff 83 00 01 02 25 " cmdsend="0"/>
+  </sendpanel>
+  <ledpanel>
+    <LED color="Green" caption="OL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="0" varsource="I 0"/>
+    <LED color="Green" caption="TL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="1" varsource="I 0"/>
+    <LED color="Green" caption="SL" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="2" varsource="I 0"/>
+    <LED color="Orange" caption="PwmDis" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="21" bitpos="6" varsource="I 0"/>
+    <LED color="Orange" caption="AligEnd" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="23" bitpos="0" varsource="I 0"/>
+    <LED color="Orange" caption="AligOK" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="23" bitpos="1" varsource="I 0"/>
+    <LED color="Orange" caption="SilRev" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="22" bitpos="6" varsource="I 0"/>
+    <LED color="Red" caption="I2T" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="7" varsource="I 0"/>
+    <LED color="Red" caption="OC" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="6" varsource="I 0"/>
+    <LED color="Red" caption="UV" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="5" varsource="I 0"/>
+    <LED color="Red" caption="OV" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="4" varsource="I 0"/>
+    <LED color="Red" caption="ExtF" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="Up Lim" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="28" bitpos="2" varsource="I 0"/>
+    <LED color="Red" caption="Down Lim" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="28" bitpos="3" varsource="I 0"/>
+    <LED color="Red" caption="Enc fault" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="3" varsource="I 0"/>
+    <LED color="Red" caption="HESVal" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="HESSeq" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="1" varsource="I 0"/>
+    <LED color="Red" caption="ADCCal" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="25" bitpos="2" varsource="I 0"/>
+    <LED color="Red" caption="FWSpi" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="4" varsource="I 0"/>
+    <LED color="Red" caption="SpiCSum" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="5" varsource="I 0"/>
+    <LED color="Red" caption="SpiCalc" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="6" varsource="I 0"/>
+    <LED color="Red" caption="PWM" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="26" bitpos="7" varsource="I 0"/>
+    <LED color="Red" caption="CRTR" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="COR" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="1" varsource="I 0"/>
+    <LED color="Red" caption="CTWPas" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="2" varsource="I 0"/>
+    <LED color="Red" caption="CTPas" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="3" varsource="I 0"/>
+    <LED color="Red" caption="CRPas" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="4" varsource="I 0"/>
+    <LED color="Red" caption="CWPas" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="5" varsource="I 0"/>
+    <LED color="Red" caption="CWarn" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="6" varsource="I 0"/>
+    <LED color="Red" caption="CWWarn" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="27" bitpos="7" varsource="I 0"/>
+    <LED color="Red" caption="CDLC" filpos="17" fillen="4" filmask="0xffffffff" filval="0x83ffff82" varpos="28" bitpos="0" varsource="I 0"/>
+    <LED color="Red" caption="+5V" filpos="6" fillen="1" filmask="0xff" filval="0x20" varpos="15" bitpos="0" varsource="I 0"/>
+    <LED color="Cyan" caption="SZ" filpos="6" fillen="1" filmask="0xff" filval="0x20" varpos="37" bitpos="0" varsource="I 0"/>
+    <LED color="Violet" caption="Pos Valid" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="5" varsource="I 0"/>
+    <LED color="Orange" caption="Trj Ena" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="6" varsource="I 0"/>
+    <LED color="Orange" caption="Trj End" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="15" bitpos="7" varsource="I 0"/>
+    <LED color="Orange" caption="Trj Togg" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="16" bitpos="0" varsource="I 0"/>
+    <LED color="Orange" caption="In Pos" filpos="6" fillen="1" filmask="0xff" filval="0x21" varpos="16" bitpos="1" varsource="I 0"/>
+  </ledpanel>
+  <commandpanel cmdtab_w0="122" cmdtab_w1="434" cmdtab_w2="65" parmtab_w0="102" parmtab_w1="66" parmtab_w2="44" parmtab_w3="58" parmtab_w4="61" parmtab_w5="73" parmtab_w6="69" parmtab_w7="69">
+    <parameter name="I2T Th" cmdnum="14" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="32001" enabled="false"/>
+    <parameter name="I2T Time" cmdnum="14" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="SwitchOn" cmdnum="1" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="true"/>
+    <parameter name="EnableOp" cmdnum="2" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="true"/>
+    <parameter name="DisableOp" cmdnum="3" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="Shutdown" cmdnum="4" offset="20" pkttype="U8" valmask="0xff" rangemax="131" rangemin="131" shift="0" defaultval="131" enabled="false"/>
+    <parameter name="Current P" cmdnum="5" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="4000" enabled="true"/>
+    <parameter name="Current I" cmdnum="5" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="4000" enabled="false"/>
+    <parameter name="Current D" cmdnum="5" offset="25" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="Speed P" cmdnum="6" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="1000" enabled="true"/>
+    <parameter name="Speed I" cmdnum="6" offset="23" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="5000" enabled="false"/>
+    <parameter name="Spped D" cmdnum="6" offset="25" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="OpenLoop" cmdnum="7" offset="21" pkttype="U8" valmask="0xff" rangemax="1" rangemin="1" shift="0" defaultval="1" enabled="false"/>
+    <parameter name="TorqueLoop" cmdnum="8" offset="21" pkttype="U8" valmask="0xff" rangemax="2" rangemin="2" shift="0" defaultval="2" enabled="true"/>
+    <parameter name="SpeedLoop" cmdnum="9" offset="21" pkttype="U8" valmask="0xff" rangemax="4" rangemin="4" shift="0" defaultval="4" enabled="false"/>
+    <parameter name="Torque" cmdnum="10" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="32768" rangemin="-32767" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="Speed" cmdnum="11" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="32768" rangemin="-32767" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="Toggle" cmdnum="12" offset="23" pkttype="U8" valmask="0xff" rangemax="1" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="Toggle time" cmdnum="12" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="65535" rangemin="0" shift="0" defaultval="100" enabled="false"/>
+    <parameter name="Gulp 1" cmdnum="13" offset="21" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="5" enabled="true"/>
+    <parameter name="Gulp 2" cmdnum="13" offset="22" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="6" enabled="false"/>
+    <parameter name="Gulp 3" cmdnum="13" offset="23" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="37" enabled="false"/>
+    <parameter name="Gulp 4" cmdnum="13" offset="24" pkttype="U8" valmask="0xff" rangemax="47" rangemin="0" shift="0" defaultval="23" enabled="false"/>
+    <parameter name="Pos Limit Ena" cmdnum="15" offset="21" pkttype="U8" valmask="0x1" rangemax="1" rangemin="0" shift="0" defaultval="0" enabled="false"/>
+    <parameter name="Pos Limit Up" cmdnum="16" offset="25" pkttype="S32LE" valmask="0xffffffff" rangemax="100000000" rangemin="-100000000" shift="0" defaultval="5000" enabled="false"/>
+    <parameter name="Pos Limit Dn" cmdnum="16" offset="21" pkttype="S32LE" valmask="0xffffffff" rangemax="100000000" rangemin="-100000000" shift="0" defaultval="-5000" enabled="false"/>
+    <parameter name="Enc SPP" cmdnum="17" offset="21" pkttype="U16LE" valmask="0xffff" rangemax="32768" rangemin="-32768" shift="0" defaultval="11000" enabled="false"/>
+    <cmdstring name="SwitchOn" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0e ff ff 83 " interf="I 0"/>
+    <cmdstring name="EnableOp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 0f ff ff 83 " interf="I 0"/>
+    <cmdstring name="DisableOp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 10 ff ff 83 " interf="I 0"/>
+    <cmdstring name="Shutdown" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 00 11 ff ff 83 " interf="I 0"/>
+    <cmdstring name="CurrentPID" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 08 07 ff ff 83 00 18 00 02 00 00 00 7f " interf="I 0"/>
+    <cmdstring name="SpeedPID" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 08 06 ff ff 83 00 40 00 02 00 00 00 7f " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="ControlMode" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 01 ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="TorqueReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 02 ff ff 83 00 02 00 00 " interf="I 0"/>
+    <cmdstring name="SpeedReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 02 04 ff ff 83 00 02 " interf="I 0"/>
+    <cmdstring name="TogglingReference" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 03 09 ff ff 83 00 01 01 " interf="I 0"/>
+    <cmdstring name="Gulp" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 12 ff ff 83 00 01 02 25 " interf="I 0"/>
+    <cmdstring name="I2T" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 04 18 ff ff 83 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="Pos Limit ENA" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 01 1d ff ff 83 00 " interf="I 0"/>
+    <cmdstring name="Pos Limit VAL" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 08 1c ff ff 83 00 00 00 00 00 00 00 00 " interf="I 0"/>
+    <cmdstring name="Enc sync pulse pos" cmdstring="ff ff ff ff ff ff 01 00 00 00 00 00 00 00 00 01 02 08 ff ff 83 00 02 " interf="I 0"/>
+  </commandpanel>
+</GulpConf>

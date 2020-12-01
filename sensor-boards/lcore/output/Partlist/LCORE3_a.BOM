@@ -1,0 +1,26 @@
+LCORE  Revised: Tuesday, April 15, 2014
+LCORE - Low Cost Reflective Encoder          Revision: 3
+
+Istituto Italiano di Tecnologia
+Via Morego, 30
+16163 - Genova
+
+
+
+Bill Of Materials          April 15,2014      10:11:31	Page1
+
+Item	Quantity	Reference	Value	IITCODE	Rev
+______________________________________________
+
+1	7	C4,C5,C6,C7,C8,C10,C11	1uF	1324	
+2	1	C13	4.7uF	3087	
+3	1	FL1	600R @100MHz	1118	
+4	1	P1	53261-0571	630	
+5	2	R1,R3	10K	NM	
+6	2	R2,R4	10K	1109	
+7	1	R5	180R	3966	
+8	1	R6	0R	NM	
+9	1	R7	0R	1080	
+10	2	U1,U5	SN74LVC2T45DCUT	1328	
+11	1	U2	LP5900SD33	554	
+12	1	U3	AEDR-8501-102	3965	

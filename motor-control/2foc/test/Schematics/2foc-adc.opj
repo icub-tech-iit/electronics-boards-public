@@ -1,0 +1,43 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\2foc-adc.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\EDL_svn\P2009_05_2FOC\TestEquipment\Schematics\2FOC-ADC.txt")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{IITCODE}\t{Rev}\t{NonMontare}")
+    (BOM_Header "Item\tQuantity\tReference\tValue\tIITCODE\tRev\tNonMontare")
+    (BOM_Include_File
+       "C:\EDL_SVN\P2009_05_2FOC\TESTEQUIPMENT\SCHEMATICS\2FOC-ADC.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\2foc-adc.txt"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2foc-adc.dsn")
+      (Path "Design Resources" ".\2foc-adc.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\2foc-adc.dsn" "SCHEMATIC1" "AdC-2FOC"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 343 0 670"))
+      (Tab 0)))
+  (MPSSessionName "mmaggiali"))
