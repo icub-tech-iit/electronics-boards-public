@@ -16,6 +16,7 @@
 *.1 filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.cab filter=lfs diff=lfs merge=lfs -text
+*.bmt filter=lfs diff=lfs merge=lfs -text
 # upper-case extensions for win
 *.PPTX filter=lfs diff=lfs merge=lfs -text
 *.DOC filter=lfs diff=lfs merge=lfs -text
@@ -31,3 +32,4 @@
 *.MP4 filter=lfs diff=lfs merge=lfs -text
 *.EXE filter=lfs diff=lfs merge=lfs -text
 *.CAB filter=lfs diff=lfs merge=lfs -text
+*.BMT filter=lfs diff=lfs merge=lfs -text
