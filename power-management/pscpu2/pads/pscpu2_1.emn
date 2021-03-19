@@ -1,0 +1,48 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout VX.1.2"    2016/06/06.14:01:07    1
+"c:\repo\p2016_05_pscpu2\pcb\pscpu2_1.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+1.70858
+0     -14.99993                     -38.99993                     0     
+0     -13.99993                     -40.0                         0     
+0     14.0                          -40.0                         0     
+0     15.0                          -39.0                         0     
+0     15.0                          39.0                          0     
+0     14.0                          40.0                          0     
+0     -13.99482                     40.0                          0     
+0     -14.99482                     39.00007                      0     
+0     -14.99993                     -38.99993                     0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+.END_DRILLED_HOLES
+.PLACEMENT
+504050-0491                                  504050-0491                                  J9                                           
+-8.7                          33.7                          90.0      TOP       PLACED    
+43650-0212                                   43650-0212                                   J2                                           
+5.1                           32.8                          90.0      TOP       PLACED    
+LED0603                                      LED0603                                      DL1                                          
+-1.6                          26.7                          90.0      TOP       PLACED    
+43650-0212                                   43650-0212                                   J1                                           
+1.0                           -30.0                         0.0       TOP       PLACED    
+0603                                         0603                                         R1                                           
+2.4                           26.7                          0.0       TOP       PLACED    
+FID-40                                       FID-40                                       FID1                                         
+6.0                           38.0                          0.0       TOP       PLACED    
+FID-40                                       FID-40                                       FID2                                         
+-11.6                         -36.6                         0.0       TOP       PLACED    
+FID-40                                       FID-40                                       FID3                                         
+11.8                          -36.9                         0.0       TOP       PLACED    
+LOGO                                         LOGO                                         FID4                                         
+-7.5                          -29.8                         0.0       TOP       PLACED    
+LABEL                                        LABEL                                        FID5                                         
+-1.7                          32.9                          0.0       TOP       PLACED    
+FISS25P                                      FISS25P                                      U3                                           
+-12.065                       -31.115                       0.0       TOP       PLACED    
+FISS25P                                      FISS25P                                      U4                                           
+12.065                        -31.115                       0.0       TOP       PLACED    
+FISS25PB                                     FISS25PB                                     U2                                           
+0.0                           37.465                        0.0       TOP       PLACED    
+TEN30                                        TEN30                                        U1                                           
+7.46                          -25.0                         180.0     TOP       PLACED    
+.END_PLACEMENT
