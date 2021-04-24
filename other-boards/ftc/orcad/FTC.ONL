@@ -1,0 +1,769 @@
+(PCB FTC
+ (description
+  (timeStamp "2015 08 19 14 15 03")
+  (program "CAPTURE.EXE" (Version "16.6.0.d001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "10138 - FTC, Fingertips connector")
+  (date "Wednesday, August 19, 2015")
+  (document "D:\\ICUBHARDWARE\\ELECTRONICS\\PRIVATE\\P2015_09_FTC_FINGERTIPCONNECTOR\\SCHEMATICS\\FTC.DSN")
+  (revision "0")
+  (organization "Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 - Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "53261-0771"
+   (place J1
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0771")
+     (timestamp 00F8F132)
+     (code_description "PCB connector, Picoblade, 7 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 631)
+     ("Source Package" "53261-0771")
+     (Value "53261-0771")
+     (Geometry.Height 3.4mm))))
+  (component "55560-0207"
+   (place J2
+    (property 
+     (Current 0.5A)
+     ("PCB Footprint" "55560-0207")
+     (timestamp 00F8F2D6)
+     (code_description "PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD")
+     (IITCODE 192)
+     ("Source Package" "55560-0207")
+     (Value "55560-0207")
+     (Geometry.Height 1.15mm)))
+   (place J3
+    (property 
+     (Current 0.5A)
+     ("PCB Footprint" "55560-0207")
+     (timestamp 00F8FBBB)
+     (code_description "PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD")
+     (IITCODE 192)
+     ("Source Package" "55560-0207")
+     (Value "55560-0207")
+     (Geometry.Height 1.15mm)))
+   (place J4
+    (property 
+     (Current 0.5A)
+     ("PCB Footprint" "55560-0207")
+     (timestamp 00F9015B)
+     (code_description "PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD")
+     (IITCODE 192)
+     ("Source Package" "55560-0207")
+     (Value "55560-0207")
+     (Geometry.Height 1.15mm)))
+   (place J5
+    (property 
+     (Current 0.5A)
+     ("PCB Footprint" "55560-0207")
+     (timestamp 00F9042B)
+     (code_description "PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD")
+     (IITCODE 192)
+     ("Source Package" "55560-0207")
+     (Value "55560-0207")
+     (Geometry.Height 1.15mm)))
+   (place J6
+    (property 
+     (Current 0.5A)
+     ("PCB Footprint" "55560-0207")
+     (timestamp 00F90932)
+     (code_description "PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD")
+     (IITCODE 192)
+     ("Source Package" "55560-0207")
+     (Value "55560-0207")
+     (Geometry.Height 1.15mm))))
+  (component SOLDERPAD
+   (place J5_GND
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90445)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J4_3V3
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9016B)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J4_SCK
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9018D)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J2_SDA1
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90EE2)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J2_SDA2
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8F6A7)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J4_GND
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90175)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J3_3V3
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8FBCB)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J3_SDA1
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8FBD5)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J3_SCK
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8FBE9)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J4_SDA1
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9017F)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J3_GND
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8FBDF)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J2_3V3
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8F69B)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J2_SCK
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8F6B3)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J5_SDA1
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9044F)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J6_3V3
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90942)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J2_GND
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F8F6BF)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J6_SCK
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90964)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J6_SDA1
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90956)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J6_SDA2
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F90F2C)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J6_GND
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9094C)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J5_3V3
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9043B)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm)))
+   (place J5_SCK
+    (property 
+     ("PCB Footprint" SOLDERPAD)
+     (timestamp 00F9045D)
+     (code_description "Solderable PCB pad, for wire to board connection")
+     (IITCODE 6126)
+     ("Source Package" SOLDERPAD)
+     (Value PAD)
+     (Geometry.Height 0.01mm))))
+  (component "53261-0471"
+   (place J7
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0471")
+     (timestamp 00F8F0CF)
+     (code_description "PCB connector, Picoblade, 4 contacts, 1 row, male, p.1.25mm, 90°, w to b, lock, key, SMD")
+     (IITCODE 288)
+     ("Source Package" "53261-0471")
+     (Value "53261-0471")
+     (Geometry.Height 3.4mm)))))
+ (library
+  (image SOLDERPAD
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE NM))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16319587)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image "53261-0771"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCK)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA3)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA2)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 8)
+     ("Is No Connect" False))))
+  (image "55560-0207"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316131)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316131)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA1)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16322278)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA2)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16321724)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCK)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316167)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)
+     (Name 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316151)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)
+     (Name 17)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)
+     (Name 18)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316151)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)
+     (Name 19)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)
+     (Name 20)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N16316151)
+     (Order 19)
+     ("Is No Connect" False))))
+  (image "53261-0471"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SCK)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SDA3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 5)
+     ("Is No Connect" False)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     J7-4 J1-1 J2-15 J2-17 J2-19 J3-15 J3-17 J3-19 J4-15
+     J4-17 J4-19 J5-15 J5-17 J5-19 J6-15 J6-17 J6-19))
+  (net N16316131
+   (pins
+     J2-2 J2-4 J2_3V3-1))
+  (net N16316151
+   (pins
+     J2-16 J2-18 J2-20 J2_GND-1))
+  (net N16316167
+   (pins
+     J2-14 J2_SCK-1))
+  (net N16317423
+   (pins
+     J3_3V3-1 J3-2 J3-4))
+  (net N16317427
+   (pins
+     J3_GND-1 J3-16 J3-18 J3-20))
+  (net N16317431
+   (pins
+     J3_SDA1-1 J3-6))
+  (net N16317435
+   (pins
+     J3_SCK-1 J3-14))
+  (net N16318853
+   (pins
+     J4_3V3-1 J4-2 J4-4))
+  (net N16318867
+   (pins
+     J4-16 J4-18 J4-20 J4_GND-1))
+  (net N16318871
+   (pins
+     J4_SDA1-1 J4-6))
+  (net N16318875
+   (pins
+     J4_SCK-1 J4-14))
+  (net N16319573
+   (pins
+     J5-2 J5-4 J5_3V3-1))
+  (net N16319587
+   (pins
+     J5_GND-1 J5-16 J5-18 J5-20))
+  (net N16319591
+   (pins
+     J5_SDA1-1 J5-6))
+  (net N16319595
+   (pins
+     J5-14 J5_SCK-1))
+  (net N16320860
+   (pins
+     J6_3V3-1 J6-2 J6-4))
+  (net N16320874
+   (pins
+     J6_GND-1 J6-16 J6-18 J6-20))
+  (net N16320878
+   (pins
+     J6_SDA1-1 J6-6))
+  (net N16320882
+   (pins
+     J6-14 J6_SCK-1))
+  (net N16321724
+   (pins
+     J2-8 J2_SDA2-1))
+  (net N16322278
+   (pins
+     J2-6 J2_SDA1-1))
+  (net N16322352
+   (pins
+     J6-8 J6_SDA2-1))
+  (net SCK
+   (pins
+     J7-2 J1-2 J2-13 J3-13 J4-13 J5-13 J6-13))
+  (net SDA1
+   (pins
+     J1-6 J2-5 J3-5 J4-5 J5-5 J6-5))
+  (net SDA2
+   (pins
+     J1-5 J2-7 J6-7))
+  (net SDA3
+   (pins
+     J7-3 J1-4))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     J7-1 J1-7 J2-1 J2-3 J3-1 J3-3 J4-1 J4-3 J5-1
+     J5-3 J6-1 J6-3)))
+)

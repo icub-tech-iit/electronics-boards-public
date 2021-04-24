@@ -1,0 +1,237 @@
+(PCB "CANFILTER-001"
+ (description
+  (timeStamp "2009 01 19 13 16 26")
+  (program "CAPTURE.EXE" (Version "16.0.0.p001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "CANFILTER-001")
+  (date "Monday, January 19, 2009")
+  (document "F:\\PROJECTS\\ICUBCABLING_VER.2.0\\CANFILTER\\SCHEMIELETTRICI\\CANFILTER-001.DSN")
+  (revision "0.1")
+  (organization "IIT")
+  (address1 "Via Morego 30")
+  (address2 "16163 Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component PADLS
+   (place P1
+    (property 
+     ("PCB Footprint" PADLS)
+     (timestamp 00001D57)
+     (IITCODE NM)
+     ("Source Package" PADLS)
+     (Value PAD)))
+   (place P2
+    (property 
+     ("PCB Footprint" PADLS)
+     (timestamp 00001D90)
+     (IITCODE NM)
+     ("Source Package" PADLS)
+     (Value PAD)))
+   (place P3
+    (property 
+     ("PCB Footprint" PADLS)
+     (timestamp 00001DC9)
+     (IITCODE NM)
+     ("Source Package" PADLS)
+     (Value PAD)))
+   (place P4
+    (property 
+     ("PCB Footprint" PADLS)
+     (timestamp 00001E02)
+     (IITCODE NM)
+     ("Source Package" PADLS)
+     (Value PAD))))
+  (component "WE-SL1-10uH"
+   (place L2
+    (property 
+     ("PCB Footprint" "WE-SL1")
+     (DESCRIPTION "744212100, WurthElektronik - Common mode SMD line filter WE-SL1,10uH ±50%, 80 VDC, RDC=240m?, 300mA")
+     (timestamp 000009D7)
+     (IITCODE 544)
+     (RANGE "10uH - 204mW")
+     (TOLLERANCE ±50%)
+     ("Source Package" "WE-SL1-10uH")
+     (CATEGORY FE)
+     (Value "WE-SL1-10uH"))))
+  (component RES0603
+   (place R1
+    (property 
+     ("PCB Footprint" 0603)
+     (DESCRIPTION "120R,RC0603,1/10W,1%,SMD, 0603 package")
+     (timestamp 00002EFD)
+     (IITCODE 256)
+     (RANGE 63mW)
+     (TOLLERANCE 1%)
+     ("Source Package" RES0603)
+     (CATEGORY R)
+     (Value 120R0))))
+  (component HOLE1.0
+   (place H1
+    (property 
+     ("PCB Footprint" SPINA1.5)
+     (timestamp 00003886)
+     ("Source Package" HOLE1.0)
+     (Value H1.5)))
+   (place H2
+    (property 
+     ("PCB Footprint" SPINA1.5)
+     (timestamp 000038BC)
+     ("Source Package" HOLE1.0)
+     (Value H1.5))))
+  (component "MOLEX53261-0471"
+   (place P5
+    (property 
+     ("PCB Footprint" "MOLEX53261-4")
+     (DESCRIPTION "53261-0471 Molex - Connettore, 4 contacts / 1 rows, 1,27, Male, 90, b/w, lock, key, SMD 10.15 x 5.2 x 3.4 mm")
+     (timestamp 0000010B)
+     (IITCODE 288)
+     (RANGE "-")
+     (TOLLERANCE "-")
+     ("Source Package" "MOLEX53261-0471")
+     (CATEGORY CO)
+     (Value "53261-0471")))
+   (place P6
+    (property 
+     ("PCB Footprint" "MOLEX53261-4")
+     (DESCRIPTION "53261-0471 Molex - Connettore, 4 contacts / 1 rows, 1,27, Male, 90, b/w, lock, key, SMD 10.15 x 5.2 x 3.4 mm")
+     (timestamp 00000235)
+     (IITCODE 288)
+     (RANGE "-")
+     (TOLLERANCE "-")
+     ("Source Package" "MOLEX53261-0471")
+     (CATEGORY CO)
+     (Value "53261-0471"))))
+  (component EPCOSB82790S0
+   (place L1
+    (property 
+     ("PCB Footprint" EPCOSB82790S0)
+     (DESCRIPTION "B82790S0513N201, EPCOS - Double chokes for data and signal lines, 51uH, 42VAC, 80VDC, 160mW, 500mA, SMD")
+     (timestamp 00000CC0)
+     (IITCODE 543)
+     (RANGE "51uH - 160mW")
+     (TOLLERANCE "-")
+     ("Source Package" EPCOSB82790S0)
+     (CATEGORY FE)
+     (Value B82790S0513N201)))))
+ (library
+  (image HOLE1.0
+   (property 
+    (sourcelib "Y:\\ORCAD LIBRARY\\IIT.OLB"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image RES0603
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (RANGE "<TO COMPLETE>")
+    (TOLLERANCE "<TO COMPLETE>")
+    ("PCB Footprint" 0603)
+    (IITCODE "<TO COMPLETE>")
+    (Description "<TO COMPLETE>")
+    (Category "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image EPCOSB82790S0
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (DESCRIPTION "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image "WE-SL1-10uH"
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE 543))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image PADLS
+   (property 
+    (sourcelib "Y:\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE NM))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4))))
+  (image "MOLEX53261-0471"
+   (property 
+    (sourcelib "\\\\GEO\\REPOSITORY\\GROUPS\\ELECTRONIC_LAB\\ORCAD LIBRARY\\IIT.OLB")
+    (IITCODE 288))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     P6-4 P5-4 P4-1))
+  (net CANH
+   (pins
+     L1-2 P2-1 L2-3))
+  (net CANL
+   (pins
+     L1-1 P3-1 L2-1))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     P5-1 P6-1 P1-1))
+  (net "CAN-H"
+   (pins
+     P6-2 P5-2 L1-3 R1-1 L2-4))
+  (net "CAN-L"
+   (pins
+     P6-3 L1-4 P5-3 L2-5 R1-2)))
+)

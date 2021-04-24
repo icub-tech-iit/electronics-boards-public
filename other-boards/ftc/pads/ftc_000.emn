@@ -1,0 +1,113 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout VX.0"    2015/04/24.10:56:15    1
+"d:\icubhardware\electronics\private\p2015_09_ftc_fingertipconnector\pcb\ftc_000.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+0.7572
+0     6.0                           -0.023                        0     
+0     53.0                          -0.023                        0     
+0     54.0                          0.977                         0     
+0     54.0                          13.9                          0     
+0     53.0                          14.9                          0     
+0     6.0                           14.9                          0     
+0     5.0                           13.9                          0     
+0     5.0                           0.977                         0     
+0     6.0                           -0.023                        0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+0.406400 15.900000 3.600000 PTH    BOARD    VIA    UNOWNED
+0.406400 41.500000 4.900000 PTH    BOARD    VIA    UNOWNED
+0.406400 52.400000 4.300000 PTH    BOARD    VIA    UNOWNED
+0.406400 13.200000 8.100000 PTH    BOARD    VIA    UNOWNED
+0.406400 14.500000 8.200000 PTH    BOARD    VIA    UNOWNED
+0.406400 16.600000 8.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 23.000000 8.400000 PTH    BOARD    VIA    UNOWNED
+0.406400 28.600000 7.200000 PTH    BOARD    VIA    UNOWNED
+0.406400 27.500000 7.000000 PTH    BOARD    VIA    UNOWNED
+0.406400 30.500000 6.600000 PTH    BOARD    VIA    UNOWNED
+0.406400 31.400000 6.800000 PTH    BOARD    VIA    UNOWNED
+0.406400 33.800000 6.800000 PTH    BOARD    VIA    UNOWNED
+0.406400 38.000000 6.700000 PTH    BOARD    VIA    UNOWNED
+0.406400 36.400000 6.800000 PTH    BOARD    VIA    UNOWNED
+0.406400 39.700000 7.000000 PTH    BOARD    VIA    UNOWNED
+0.406400 46.800000 7.100000 PTH    BOARD    VIA    UNOWNED
+0.406400 47.800000 6.400000 PTH    BOARD    VIA    UNOWNED
+0.406400 50.800000 7.000000 PTH    BOARD    VIA    UNOWNED
+0.406400 49.700000 7.000000 PTH    BOARD    VIA    UNOWNED
+0.406400 7.900000 9.700000 PTH    BOARD    VIA    UNOWNED
+0.406400 8.200000 11.100000 PTH    BOARD    VIA    UNOWNED
+0.406400 9.300000 9.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 11.000000 9.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 20.100000 9.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 18.600000 9.700000 PTH    BOARD    VIA    UNOWNED
+0.406400 41.000000 9.600000 PTH    BOARD    VIA    UNOWNED
+0.406400 46.400000 11.200000 PTH    BOARD    VIA    UNOWNED
+0.406400 12.700000 13.400000 PTH    BOARD    VIA    UNOWNED
+0.406400 16.600000 11.400000 PTH    BOARD    VIA    UNOWNED
+0.406400 21.800000 13.600000 PTH    BOARD    VIA    UNOWNED
+0.406400 26.600000 11.800000 PTH    BOARD    VIA    UNOWNED
+0.406400 32.300000 13.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 36.300000 11.500000 PTH    BOARD    VIA    UNOWNED
+0.406400 41.600000 13.600000 PTH    BOARD    VIA    UNOWNED
+0.406400 52.000000 13.700000 PTH    BOARD    VIA    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+SOLDERPAD                                    SOLDERPAD                                    J3_GND                                       
+22.2                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J3_SCK                                       
+20.7                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J4_SCK                                       
+30.38464                      2.27748                       0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J4_GND                                       
+31.79986                      2.27748                       0.0                           0.0       BOTTOM    PLACED    
+53261-0771                                   53261-0771                                   J1                                           
+25.6                          2.0                           0.0                           0.0       TOP       PLACED    
+55560-0207                                   55560-0207                                   J2                                           
+10.1                          10.3                          0.0                           0.0       TOP       PLACED    
+55560-0207                                   55560-0207                                   J3                                           
+19.9                          10.3                          0.0                           0.0       TOP       PLACED    
+55560-0207                                   55560-0207                                   J4                                           
+29.7                          10.4                          0.0                           0.0       TOP       PLACED    
+55560-0207                                   55560-0207                                   J5                                           
+39.4                          10.4                          0.0                           0.0       TOP       PLACED    
+55560-0207                                   55560-0207                                   J6                                           
+49.0                          10.4                          0.0                           0.0       TOP       PLACED    
+53261-0471                                   53261-0471                                   J7                                           
+38.4                          2.0                           0.0                           0.0       TOP       PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J2_3V3                                       
+8.0                           2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J2_GND                                       
+12.5                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J2_SCK                                       
+11.0                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J2_SDA2                                      
+9.5                           2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J3_3V3                                       
+17.7                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J3_SDA1                                      
+19.2                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J4_3V3                                       
+27.5                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J4_SDA1                                      
+28.9                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J5_3V3                                       
+36.5                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J5_GND                                       
+40.7                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J5_SCK                                       
+39.3                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J5_SDA1                                      
+37.9                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J6_3V3                                       
+46.7                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J6_GND                                       
+50.9                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J6_SCK                                       
+49.5                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J6_SDA1                                      
+48.1                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J2_SDA1                                      
+14.0                          2.2                           0.0                           0.0       BOTTOM    PLACED    
+SOLDERPAD                                    SOLDERPAD                                    J6_SDA2                                      
+52.4                          2.3                           0.0                           0.0       BOTTOM    PLACED    
+.END_PLACEMENT

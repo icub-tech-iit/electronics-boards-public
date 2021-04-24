@@ -1,0 +1,25 @@
+10138 - FTC, DESCRIPTION  Revised: Wednesday, April 22, 2015
+          Revision: 0
+
+Istituto Italiano di Tecnologia
+Via Morego, 30
+16163 - Genova
+
+
+
+Bill Of Materials          April 24,2015      13:42:06	Page1
+
+Item	Quantity	Reference	Value	IITCODE Description	Rev	NonMontare
+______________________________________________
+
+1	1	J1	53261-0771	631 PCB connector, Picoblade, 7 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD		
+2	5	J2,J3,J4,J5,J6	55560-0207	192 PCB connector, Slimstack, 20 contacts, 2 rows, female, p.0.5 mm, Straight, b to b, nolock, nokey, SMD		
+3	22	J2_SCK,J2_GND,J3_SCK,	PAD	6126 Solderable PCB pad, for wire to board connection		
+		J3_GND,J4_SCK,J4_GND,
+		J5_SCK,J5_GND,J6_SCK,
+		J6_GND,J2_SDA1,J2_SDA2,
+		J3_SDA1,J4_SDA1,J5_SDA1,
+		J6_SDA1,J6_SDA2,J2_3V3,
+		J3_3V3,J4_3V3,J5_3V3,
+		J6_3V3
+4	1	J7	53261-0471	288 PCB connector, Picoblade, 4 contacts, 1 row, male, p.1.25mm, 90°, w to b, lock, key, SMD		
