@@ -11,7 +11,7 @@ the unique root frame shown below, located at the center of the rotation
 axis of the fingertip's support:
 
 <div align="center">
-  <img width="350" src="./root_frame.png"/>
+  <img width="400" src="./root_frame.png"/>
 </div>
 
 ## Taxels normals and positions
