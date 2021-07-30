@@ -17,7 +17,7 @@ the unique root frame shown below:
 - First column reports on the components of the normal to the taxel.
 - Second columns reports on the X,Y,Z coordinates of the taxel center.
 
-### ⚠
+### ⚠ Notes
 Positions can be regarded as precise up to ≈0.5 mm due to mounting tolerances.
 Also, the Y and the Z components of the normals can be slightly inaccurate,
 as a mismatch during mounting may result in small rotations around the X−axis.
