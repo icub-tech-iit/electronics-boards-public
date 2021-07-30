@@ -1,11 +1,11 @@
-## Taxels Map
+## Taxels map
 The taxels are numbered according to the following map:
 
 <div align="center">
   <img height="300" src="./taxel_MAP.png"/>
 </div>
 
-## Taxels Root frame
+## Taxels root frame
 All the coordinates of the frames attached to the taxels are expressed in
 the unique root frame shown below:
 
