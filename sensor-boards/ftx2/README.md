@@ -15,8 +15,8 @@ axis of the fingertip's support:
 </div>
 
 ## Taxels normals and positions
-- First column reports on the components of the normal to the taxel.
-- Second columns reports on the X,Y,Z coordinates of the taxel center.
+- The first column reports on the components of the normal to the taxel.
+- The second column reports on the X,Y,Z coordinates of the taxel center.
 
 ### ⚠ Notes
 Positions can be regarded as precise up to ≈0.5 mm due to mounting tolerances.
