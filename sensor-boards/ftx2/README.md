@@ -7,7 +7,8 @@ The taxels are numbered according to the following map:
 
 ## Taxels root frame
 All the coordinates of the frames attached to the taxels are expressed in
-the unique root frame shown below:
+the unique root frame shown below, located at the center of the rotation
+axis of the fingertip's support:
 
 <div align="center">
   <img width="350" src="./root_frame.png"/>
