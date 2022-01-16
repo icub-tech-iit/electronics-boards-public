@@ -1,0 +1,325 @@
+[2022.01.14 15:57:23] [0000m.01s.507ms] [0] WELCOME
+[2022.01.14 15:57:23] [0000m.01s.508ms] [1] iCDB Diagnostic ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2022.01.14 15:57:23] [0000m.01s.508ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2022.01.14 15:57:23] [0000m.01s.508ms] [1] Base flow version [VX.2.8]
+[2022.01.14 15:57:23] [0000m.01s.508ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2022.01.14 15:57:23] [0000m.01s.509ms] [1] UPDATE Install Info, Install Id [2409326], UPDATE Name [PADS VX.2.8 - Update 10]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] Machine [IITICUBLAP224]  IP [10.10.20.36,127.0.0.1,192.168.1.3]  User [mmaggiali]  PID [31460]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] Operating system [Microsoft Windows 10 Business Edition, 64-bit (build 22000)]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] Current working dir [C:\electronics-boards\2foc\pads\SE_2FOC_07]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin\server;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Point Grey Research\GTKmm\gtk64\bin;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Users\mmaggiali\OneDrive - Fondazione Istituto Italiano Tecnologia\maggiali\old_material\RobotSkin\Matlab;C:\Users\mmaggiali\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\mmaggiali\AppData\Local\GitHubDesktop\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\mmaggiali\AppData\Local\InfoCert\GoSign Desktop\RAO]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] SDD_PLATFORM [win32]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2022.01.14 15:57:23] [0000m.01s.510ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: Checking snapshot [1:DxD] integrity
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.760ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:23] [0000m.01s.761ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:23] [0000m.01s.762ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.762ms] [1] Diagnostic: Warning: {[Block Comp] [572-4-7] [137] } --> does not have a appropriate name
+[2022.01.14 15:57:23] [0000m.01s.762ms] [1] Diagnostic: Warning: {[Block Comp] [572-7-7] [203] } --> does not have a appropriate name
+[2022.01.14 15:57:23] [0000m.01s.763ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:23] [0000m.01s.763ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:23] [0000m.01s.763ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:23] [0000m.01s.763ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:23] [0000m.01s.763ms] [1] Diagnostic: Check failed on Block: 2FOC
+[2022.01.14 15:57:23] [0000m.01s.763ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.764ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.764ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.764ms] [1] Diagnostic: Snapshot [1:DxD] integrity check FAILED
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: Checking snapshot [3:_savepoint[SCH][288230380446679041][4971974001501929473][12:29:54_12-17-10][13:33:51_12-17-10]] integrity
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.787ms] [2] Diagnostic: Snapshot [3:_savepoint[SCH][288230380446679041][4971974001501929473][12:29:54_12-17-10][13:33:51_12-17-10]] integrity check PASSED in [801us]
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: Checking snapshot [4:_savepoint[SCH][288230380446679041][4971974001501929473][12:09:53_12-20-10][13:42:33_12-20-10]] integrity
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:23] [0000m.01s.802ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.803ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.803ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.803ms] [2] Diagnostic: Snapshot [4:_savepoint[SCH][288230380446679041][4971974001501929473][12:09:53_12-20-10][13:42:33_12-20-10]] integrity check PASSED in [779us]
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: Checking snapshot [5:_savepoint[SCH][288230380446679041][4971973997206962177][15:44:40_12-23-10][8:17:32_12-27-10]] integrity
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:23] [0000m.01s.818ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:23] [0000m.01s.819ms] [2] Diagnostic: Snapshot [5:_savepoint[SCH][288230380446679041][4971973997206962177][15:44:40_12-23-10][8:17:32_12-27-10]] integrity check PASSED in [1ms 237us]
+[2022.01.14 15:57:24] [0000m.01s.843ms] [2] Diagnostic: Checking snapshot [6:_savepoint[SCH][288230380446679041][4971973997206962177][10:51:39_1-4-11][11:52:13_1-4-11]] integrity
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.844ms] [2] Diagnostic: Snapshot [6:_savepoint[SCH][288230380446679041][4971973997206962177][10:51:39_1-4-11][11:52:13_1-4-11]] integrity check PASSED in [906us]
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: Checking snapshot [8:_savepoint[SCH][288230380446679041][4971974001501929473][12:52:51_1-4-11][9:27:34_1-5-11]] integrity
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.871ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.872ms] [2] Diagnostic: Snapshot [8:_savepoint[SCH][288230380446679041][4971974001501929473][12:52:51_1-4-11][9:27:34_1-5-11]] integrity check PASSED in [1ms 22us]
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: Checking snapshot [9:_savepoint[SCH][288230380446679041][4971973992911995446][11:51:14_1-3-11][12:53:28_1-3-11]] integrity
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:24] [0000m.01s.893ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.894ms] [2] Diagnostic: Snapshot [9:_savepoint[SCH][288230380446679041][4971973992911995446][11:51:14_1-3-11][12:53:28_1-3-11]] integrity check PASSED in [925us]
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: Checking snapshot [10:_savepoint[SCH][288230380446679041][4971973992911995446][14:38:41_1-12-11][15:39:17_1-12-11]] integrity
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.911ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.912ms] [2] Diagnostic: Snapshot [10:_savepoint[SCH][288230380446679041][4971973992911995446][14:38:41_1-12-11][15:39:17_1-12-11]] integrity check PASSED in [812us]
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: Checking snapshot [12:_savepoint[SCH][288230380446679041][4971973992911995446][10:48:02_1-20-11][11:48:19_1-20-11]] integrity
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: SnapshotCheck: CDBImplBlock
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: SnapshotCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: SnapshotCheck: DxDCompView (regular)
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: SnapshotCheck: DxDCompView (cached)
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: LineDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: CircleDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: ArcDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: RectDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: DxDCheck: TextDxD
+[2022.01.14 15:57:24] [0000m.01s.932ms] [2] Diagnostic: SnapshotCheck: CDBImplGroup
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (regular)
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (regular)
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: SnapshotCheck: CDBImplPin (cached)
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: SnapshotCheck: AttributesUtility (cached)
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: Block: 2FOC
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplBus
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplPort
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: AttributesUtility
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockCheck: CDBImplBlockViewDxD
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplNetDxD
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: BlockViewDxDCheck: CDBImplRipperDxD
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: ConfigCheck: CDBImplComp
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: ConfigCheck: CDBImplNet
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: ConfigCheck: CDBImplPin
+[2022.01.14 15:57:24] [0000m.01s.933ms] [2] Diagnostic: Snapshot [12:_savepoint[SCH][288230380446679041][4971973992911995446][10:48:02_1-20-11][11:48:19_1-20-11]] integrity check PASSED in [1ms 398us]
+[2022.01.14 15:57:24] [0000m.01s.938ms] [0] Diagnostic: FINISH
+[2022.01.14 15:57:24] [0000m.01s.938ms] [0] .
