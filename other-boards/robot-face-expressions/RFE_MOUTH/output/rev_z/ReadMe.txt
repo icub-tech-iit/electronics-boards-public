@@ -1,0 +1,1 @@
+This rev Z is a temporary versione in order to overcome the shortage of TLC59711PWPR (U1 - 11295) with the version TLC5971PWPR that needs to put C2-4-6-8-10 as NM and short pin 19 with pin 20. This without changing the PCB, but to document the short in a new assembly drawing
