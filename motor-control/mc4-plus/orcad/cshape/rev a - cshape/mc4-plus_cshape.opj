@@ -115,80 +115,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\mc4-plus_cshape.dsn")
+      (Path "Design Resources"
+         "F:\git_repository\electronics-boards\mc4-plus\orcad\cshape\rev a - cshape\mc4-plus_cshape.dsn")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "F:\git_repository\electronics-boards\mc4-plus\orcad\cshape\rev a - cshape\mc4-plus_cshape.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 150 0 902"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1454 50 524")
-        (Scroll "-182 0")
-        (Zoom "60")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE6 ETHERNET"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1604 200 674")
-        (Scroll "0 82")
-        (Zoom "240")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE 1 - Release"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1404 0 474")
-        (Scroll "-207 0")
-        (Zoom "57")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2 STM32F"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1429 25 499")
-        (Scroll "1425 1131")
-        (Zoom "228")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE5 CAN AND SPI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1404 0 474")
-        (Scroll "9469 951")
-        (Zoom "3962")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE4 POWER SUPPLY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1479 75 549")
-        (Scroll "0 516")
-        (Zoom "120")
-        (Occurrence "/"))
-      (Path
-         "D:\ICUBHARDWARE\ELECTRONICS\PRIVATE\P2012_13_MC4-PLUS\SCHEMATIC\REV3-CSHAPE\MC4-PLUS_CSHAPE.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE3 MOTOR CONTROL")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 1164"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false")
-  (MPSSessionName "mmaggiali"))
+  (MPSSessionName "AMura"))
