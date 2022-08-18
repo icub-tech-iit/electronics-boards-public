@@ -34,77 +34,23 @@
       (Path "Design Resources" ".\mc4-plus_cshape_b.dsn")
       (Path "Design Resources" ".\mc4-plus_cshape_b.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\mc4-plus_cshape_b.dsn" "SCHEMATIC1"
+         "PAGE3 MOTOR CONTROL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 -7 193 -2 613"))
+        (Placement "44 0 1 -1 -1 -8 -31 -7 193 -2 613"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1590 208 862")
-        (Scroll "-14 0")
-        (Zoom "79")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 522")
+        (Scroll "-79 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
+         "C:\GIT\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE 1 - Release"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 234 1616 234 888")
-        (Scroll "3554 2752")
-        (Zoom "316")
-        (Occurrence "/"))
-      (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2 STM32F"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 260 1642 260 914")
-        (Scroll "3554 2752")
-        (Zoom "316")
-        (Occurrence "/"))
-      (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE3 MOTOR CONTROL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 286 1668 286 940")
-        (Scroll "940 904")
-        (Zoom "158")
-        (Occurrence "/"))
-      (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE4 POWER SUPPLY"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 312 1694 312 966")
-        (Scroll "940 904")
-        (Zoom "158")
-        (Occurrence "/"))
-      (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE5 CAN AND SPI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1382 0 654")
-        (Scroll "-14 0")
-        (Zoom "79")
-        (Occurrence "/"))
-      (Path
-         "F:\GIT_REPOSITORY\ELECTRONICS-BOARDS\MC4-PLUS\ORCAD\CSHAPE\REV B - CSHAPE\MC4-PLUS_CSHAPE_B.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE6 ETHERNET")))
+      (Page "PAGE3 MOTOR CONTROL")))
   (MPSSessionName "AMura"))
