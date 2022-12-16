@@ -1,0 +1,1 @@
+MB on 16/12/22 created a new dapapackage named Datapackage_AMO1_6778_A_01 with the change of the card packaging
