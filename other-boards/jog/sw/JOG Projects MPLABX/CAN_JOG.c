@@ -5,9 +5,8 @@ Date: 19/09/2014
 program name: CAN_JOG.c
 content: All functions to use the CAN connector on JOG_BOARD
 **********************************************************************************/
-//#include <ecan.h>
-#include <dma.h>
 #include <ecan.h>
+#include <dma.h>
 #include <p33FJ128MC804.h>
 #include "UserParms.h"
 

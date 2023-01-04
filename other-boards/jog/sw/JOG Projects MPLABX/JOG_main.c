@@ -62,6 +62,13 @@
  * 	- reading of the index and the PULSE PER REV
  */
 
+/* Firmware version 2.0
+ * 22-12-2022
+ * Author : Marco Maggiali
+ * adding features:
+ * 	- count per revolution with abs min and max count per revolution
+ */
+
 #ifndef __dsPIC33F__
 #define __dsPIC33F__
 #endif
@@ -83,9 +90,6 @@
 #include <adc.h>
 #include <pwm.h>
 #include <qei.h>
-
-
-
 #include <dma.h>
 
 #include "C_Goldelox\Include\Goldelox_const4D.h"
@@ -97,8 +101,8 @@
 #include "MC_PWM_JOG.h"
 #include "QEI_JOG.h"
 #include "CAN_JOG.h"
-#include "ecan.h"
-//#include "HALL_JOG.h"
+#include "HALL_JOG.h"
+#include "JOG_MAIN.h"
 
 //definition for varible used for testing purposes
 //#define OSC_TEST
@@ -110,58 +114,6 @@
 //	#define ADC_TEST_1_CANAL
 	#define ADC_TEST_6_CANALS
 #endif
-
-
-/* ECAN message buffer*/
-/* CAN Message Buffer Configuration */
-#define  ECAN1_MSG_BUF_LENGTH 	16
-typedef unsigned int ECAN1MSGBUF [ECAN1_MSG_BUF_LENGTH][8];	
-ECAN1MSGBUF  BufferA __attribute__((space(dma),aligned(ECAN1_MSG_BUF_LENGTH*16)));
-ECAN1MSGBUF  BufferB __attribute__((space(dma),aligned(ECAN1_MSG_BUF_LENGTH*16)));
-//unsigned int  __attribute__((space(dma),aligned(8*16)));
-// ECAN1MSGBUF ecan1msgBuf __attribute__((space(dma),aligned(ECAN1_MSG_BUF_LENGTH*16)));
-//unsigned int BufferB[8][8] __attribute__((space(dma),aligned(8*16)));
-
-#define MAIN_MENU 0
-#define MOTOR_MENU 1
-#define SENSOR_MENU 2
-#define SPI_MENU 3
-#define QEI_MENU 4
-#define HALL_MENU 5
-#define ADC_MENU 6
-#define ROIE_L_MENU 7
-#define DC_M_MENU 8
-#define BLESS_MENU 9
-#define CAN_4_BLESS_MENU 10
-#define BLESS_WO_HALL_RPM_MENU 11
-#define DCM_TENS_PROX_MENU 12
-#define DCM_MOVE_IT_MENU 13
-#define QEI_ENC_MAN_MENU 14
-#define BLESS_WO_HALL_TENSION_MENU 15
-#define FIRMWARE_MENU 55
-
-#define SPI 1
-#define QEI 2
-#define HALL_T 3
-#define ADC 4
-#define CAN_4_BLESS 5
-#define CAN_4_BLESS_WO_HALL 6
-#define DCM_TENS_PROX 7
-#define QEI_ENC_MAN 8
-#define BLESS_WO_HALL_RPM 9
-#define BLESS_WO_HALL_TENSION 10
-
-#define MOTOR_AND_ENCODER_TEST 55
-#define OUT -1
-
-//for CAN line
-#define  dataarray 0x1820
-
-extern void txt_MoveCursor();
-extern void putstr();
-extern void gfx_Cls();
-extern void txt_FGcolour();
-
 
 //
 // Configuration bits
@@ -187,62 +139,88 @@ _FPOR(PWMPIN_ON & HPOL_OFF & LPOL_OFF & FPWRT_PWR128);
 // Use PGC3/PGD3 for programming and debugging
 _FICD(ICS_PGD1 & JTAGEN_OFF); //IMPORTANTISSIMO SE JTAGEN_ON ADC NON FUNZICA
 
-//GLOBALE VARIABLES FOR HALL SENSOR
-int HALL[6]={4,2,3,0,5,1};
-int sens = 0;
-int where_is_rotor;
-int where_was_rotor;
-int poleAB;
-int poleBC;
-int poleCA;
-unsigned int encoder_count_cur;
 
-//GLOBALE VARIABLE FOR MENU SELECTION
-int select = 0;
-int change_menu = 0;
-int mode = 0;
-int menu = -1;
-//char* test="";
-int test = -1;
-int fois = 0;
-int change = 1; //because when CN interrupt is launched the level is high on pin RA4
-char DATA2SCREEN[7]={0};
-float ratio = 0.0;
-int x;
-
-int ADC_DEFAULT=512;
-float VOLT =0.0;
-int HALF_RANGE;
-
-/*commands send on CAN Line to move BLESS MOTORS*/
-unsigned char get_firmware[8] =  		{0x5B,0x09,0x09,0x00,0x00,0x00,0x00,0x00};
-unsigned char V3[8] =  					{0x77,0x00,0x00,0xE0,0x00,0x00,0x08,0x00};
-unsigned char V1[8] = 			 		{0x77,0x02,0x00,0xE0,0x00,0x00,0x08,0x00};
-unsigned char open_loop[8] =     		{0x09,0x50,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char PID_value[8] = 			{0x65,0x08,0x00,0x02,0x00,0x00,0x00,0x0A};
-unsigned char TEST_value[8] = 			{0x09,0xB3,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char idle[8] =          		{0x09,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char force_idle[8] =          	{0x09,0x09,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char set_PWM[8] = 		 		{0x00,0x04,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char current_limit[8] = 		{0x48,0x00,0x14,0x00,0x00,0x00,0x00,0x00};
-unsigned char mode_speed[8] =    		{0x09,0x0A,0x10,0x00,0x00,0x00,0x00,0x00};
-unsigned char _6_round_per_min[8] =		{0x17,0x90,0xF7,0xD0,0x07,0x00,0x00,0x00};
-unsigned char _3_round_per_min[8] =  	{0x17,0xC8,0xFB,0xD0,0x07,0x00,0x00,0x00};
-unsigned char _1_round_per_min[8] =  	{0x17,0x98,0xFE,0xD0,0x07,0x00,0x00,0x00};
-unsigned char round_per_min[8] =  		{0x17,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
-unsigned char O_round_per_min[8] =  	{0x17,0x68,0x01,0xD0,0x07,0x00,0x00,0x00};
-unsigned char T_round_per_min[8] =  	{0x17,0x38,0x04,0xD0,0x07,0x00,0x00,0x00};
-unsigned char S_round_per_min[8] =  	{0x17,0x70,0x08,0xD0,0x07,0x00,0x00,0x00};
+/* ECAN message buffer*/
+/* CAN Message Buffer Configuration */
+#define  ECAN1_MSG_BUF_LENGTH 	16
+typedef unsigned int ECAN1MSGBUF [ECAN1_MSG_BUF_LENGTH][8];	
+ECAN1MSGBUF  BufferA __attribute__((space(dma),aligned(ECAN1_MSG_BUF_LENGTH*16)));
+ECAN1MSGBUF  BufferB __attribute__((space(dma),aligned(ECAN1_MSG_BUF_LENGTH*16)));
 
 
-//interrupt use for the change on pin for the HALL sensor
+extern void txt_MoveCursor(WORD line, WORD Column);
+extern void putstr();
+extern void gfx_Cls();
+extern void txt_FGcolour();
+
+
+//interrupt use for the change on pin for the HALL sensor and quadrature encoder
 void __attribute__ ((interrupt,no_auto_psv)) _CNInterrupt(void)
 {
 	fois+=1;
     if(_RC7!=1)  // CHECK THE INDEX OF THE ENCODER 
 	{
-        encoder_count_cur =POS1CNT ;   
-        POS1CNT=0;
+        encoder_counter= (short) POS1CNT;
+        if (encoder_counter> (short) encoder_count_cur[1])
+        {    
+            encoder_count_cur[2]=POS1CNT; //updating the current minimum count per revolution value
+        }
+        else
+        {
+            encoder_count_cur[0]=POS1CNT; //updating the current max count per revolution value    
+        }
+        
+ /*      if (POS1CNT>0x7FFF) // it's negative
+        {    
+            if (encoder_count_cur[1]>0x7FFF) // it's negative
+            {    
+                if (POS1CNT>=encoder_count_cur[1]) //it's a negative value lower than the enc_count_cur[1]
+                {
+                    encoder_count_cur[0]=POS1CNT; //updating the current minimum count per revolution value
+                }
+            }
+            else
+            {
+                encoder_count_cur[2]=encoder_count_cur[1]; // POS1CNT is lower than encoder_count_cur[1] 
+                if (POS1CNT>=encoder_count_cur[0]) //it's a negative value greater than the enc_count_cur[0]
+                {       
+                    encoder_count_cur[0]=POS1CNT;  //updating the current max count per revolution value  
+                }
+            }
+        }
+        else // POS1CNT it's positive
+        {
+            if (encoder_count_cur[1]<0x7FFF) // it's positive
+            {    
+                if (POS1CNT>=encoder_count_cur[1]) //it's a negative value lower than the enc_count_cur[1]
+                {
+                    encoder_count_cur[2]=POS1CNT; //updating the current minimum count per revolution value                 
+                }
+            }
+            else
+            {
+                encoder_count_cur[0]=encoder_count_cur[1]; // POS1CNT is lower than encoder_count_cur[1] 
+                if ((POS1CNT+0x7FFF)<=encoder_count_cur[2]) //it's a negative value greater than the enc_count_cur[0]
+                {       
+                    encoder_count_cur[2]=POS1CNT;  //updating the current max count per revolution value       
+                }
+            }
+        }  
+  */
+        
+       encoder_counter=(short) encoder_count_cur[0]; 
+        if ((encoder_counter<=(short) encoder_count_abs[0]))
+        {
+            encoder_count_abs[0]= encoder_counter; // updating the absolute min     
+        }
+        encoder_counter=(short) encoder_count_cur[2]; 
+        if (encoder_counter> (short) encoder_count_abs[2]) 
+        {
+            encoder_count_abs[2]= encoder_counter; // updating the absolute max   
+        }  
+        
+        encoder_count_cur[1]=POS1CNT; //updating the current count value
+        POS1CNT=0; // a complete turn has been reached, encoder is set to 0
         IFS1bits.CNIF = 0; // Clear CN interrupt
 	}
     
@@ -572,7 +550,11 @@ void __attribute__ ((interrupt,no_auto_psv)) _QEI1Interrupt(void)
        // POS1CNT = 0;
     }
     if (QEI1CONbits.INDX==1)
-    {      
+    {    
+        QEI1CONbits.INDX=0;
+   //     encoder_count_cur[1] =POS1CNT;   
+   //     POS1CNT=0;
+        
     }
     IFS3bits.QEI1IF = 0;    /* Clear QEI interrupt flag */ 
 }
@@ -637,23 +619,6 @@ int main(void)
             PORTBbits.RB7=!PORTBbits.RB7;
             wait_ms(1000);	
 
-
-{
-		//int i=0;
-		//unsigned char buf[10]={0};
-		//char ReceivedChar;
-		//unsigned char byte = 'C';
-		//unsigned char Txdata[] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','O','P','Q','R','U','\0'};
-//		char Txdata[] = {0xFF,0xCC,0x00,0x00,0x00,0x00,0x00,0x23,0x1B,0x10,'\0'};
-		Clear_Read_Buffer();
-		wait_ms(1);
-		gfx_Cls();
-		//while(ACK_4DSYSTEMS()!=1);
-		//sendB(Txdata,10);
-		//while(ACK_4DSYSTEMS()!=1);		
-	}	
-
-            
 // CAN SETUP    /////////////////////////////////////////////////////////////
 
 	//position of BufferA and B in RAM memory
@@ -677,10 +642,9 @@ int main(void)
 	irq0 = DMA0_AUTOMATIC;	//do when ask
 	pad_address0 = 0x0442; //pad_address for ECAN1TX
 	count0 = 3;
-    
-	OpenDMA0(config0, irq0, sta_address0, stb_address0, pad_address0, count0);
 
-    DMA0REQ = 70; // Select ECAN1TX as DMA Request source
+	OpenDMA0(config0, irq0, sta_address0, stb_address0, pad_address0, count0);
+	DMA0REQ = 70; // Select ECAN1TX as DMA Request source
 	//DMA0REQbits.FORCE = 1;
 	_DMA0IE	= 0;	
    	_DMA0IF = 0;
@@ -694,34 +658,6 @@ int main(void)
 	where_was_rotor = _RC6*4+_RB9*2+_RB8-1;
 	wait_s(3); //demanding time for being sure that the screen responds to commands
 	int set_once = 0;
-		
-	//MAIN MENU SELECTION
-	unsigned char* MENU_MAIN[16]={"  ","UPDATE FIRMWARE","TEST MOTORS","TEST SENSORS","            ","             ","             ","use left joystick ","for select & click","               ", " "," "," ", " JOG FIRMWARE 1.8",  "2FOC FIRMWARE 1.6"," "};
-	int MENU_MAIN_LGTH = 16;
-	//MENU LEVEL -1
-	unsigned char* MENU_SENSORS[14]={" ", "SPI","QEI","HALL","ADC CONV.","            EXIT","                  ","                  ","use left joystick ","for select & click","                  ","                  ","                  ","                  "};
-	int MENU_SENSORS_LGTH = 14;
-	unsigned char* MENU_MOTOR[13]={" ","BRUSHLESS MOTOR","DC MOTOR","            EXIT","","","                  ","use left joystick ","for select & click","                  ","                  ","                  ","                  "};
-	int MENU_MOTOR_LGTH = 13;
-//	unsigned char* MENU_UPDATE[2]={"LOAD FIRM.","            EXIT"};
-//	int MENU_UPDATE_LGTH = 2;
-	//MENU LEVEL -2
-//	unsigned char* MENU_SPI[6] = {"AEA ENC.","            EXIT","","","use left joystick ","for select & click",};
-//	int MENU_SPI_LGTH = 6;
-	unsigned char* MENU_QEI[3] = {"ROIE/L","DC MOT. ENC.","            EXIT"};
-	int MENU_QEI_LGTH = 3;
-	unsigned char* MENU_BLESS[13] = {" ", "TEST1 HALL SENS","TEST2 MOVE IT", "TEST3 MOVE wo HALL", "            EXIT","","","use left joystick ","for select & click","                  ","                  ","                  ","                  "};
-	int MENU_BLESS_LGTH = 13;
-	unsigned char* MENU_DCM[12] = {" ", "MOVE IT","READ ENCODER","TENSE PROXIMAL JNT.","            EXIT","","","use left joystick ","for select & click","                  ","                  ","                  "};
-	int MENU_DCM_LGTH = 12;
-	unsigned char* MENU_BLESS_WO_HALL_RPM[13] = {" ", "Please use the", "left joystick", "to select the", "rotation desired", " ", " ", " ", " ", " ", " ", " ", "RIGHT CLICK 2 EXIT"};
-	int MENU_BLESS_WO_HALL_RPM_LGTH = 13;
-//	unsigned char* MENU_ADC[5]={"NOT YET","NOT YET","NOT YET","NOT YET","NOT YET"};
-//	int MENU_ADC_LGTH = 5;
-	unsigned char* MENU_BLESS_WO_HALL_TENSION[13] = {" ", "Please use the", "left joystick", "to select the", "rotation desired", " ", " ", " ", " ", " ", " ", " ", "RIGHT CLICK 2 EXIT"};
-	int MENU_BLESS_WO_HALL_TENSION_LGTH = 13;
-	unsigned char* MENU[16];		//it will be the replacement MENU NAME for any kind of MENU_...
-	int MENU_LGTH;
 
 	int i;
 	int rpm_desired = 0;
@@ -770,7 +706,15 @@ int main(void)
 	int forever =1;
 	int display_menu = 1;
 	menu = MAIN_MENU;
-	
+
+    //---- INIT Quadrature encoder ---------- 
+    encoder_count_cur[0] =0;
+    encoder_count_cur[1] =0;
+    encoder_count_cur[2] =0;
+    encoder_count_abs[0] =0;
+    encoder_count_abs[1] =0;
+    encoder_count_abs[2] =0;
+
 	while(forever)
 	{
 		/*INIT MENU_SELECTION*/
@@ -1078,47 +1022,90 @@ int main(void)
 			basic_screen_tool(1,YELLOW);
 			_RC2=1;
 			txt_MoveCursor(0,0);
-			putstr("Move the motor \n up and down \n by hand");
+			putstr("Rotate the motor \n manually");
 			txt_MoveCursor(12,0);
 			putstr("CLICK TO EXIT");
 			txt_FGcolour(WHITE);
-			txt_MoveCursor(5,0);
+			txt_MoveCursor(4,0);
 			putstr("Encoder:");
-            txt_MoveCursor(6,0);
+            txt_MoveCursor(5,0);
             txt_FGcolour(YELLOW);
-            putstr("PULSE per REV");   
-			unsigned int pos_value;
-			unsigned int encoder_count;
-			
-//            int i =0;
+            putstr("count per revolution");   
+            txt_MoveCursor(7,0);
+            txt_FGcolour(RED);
+            putstr("MIN");   
+            putstr("   ");
+            //txt_MoveCursor(6,0);
+            txt_FGcolour(WHITE);
+            putstr("ACTUAL");   
+            putstr(" ");
+            //txt_MoveCursor(6,0);
+            txt_FGcolour(YELLOW);
+            putstr("MAX");   
+            putstr("  ");
+            
+            txt_MoveCursor(9,0);
+            txt_FGcolour(RED);
+            putstr("ABS MIN");   
+            //txt_MoveCursor(6,0);
+            txt_FGcolour(WHITE);
+            putstr("  ");   
+            putstr("- ");
+            //txt_MoveCursor(6,0);
+            txt_FGcolour(YELLOW);
+            putstr("ABS MAX");   
+			int pos_value;
 			pos_value = 10;
-			encoder_count =10;
 			while (1)
 			{
-				if(pos_value!=ReadQEI1() || encoder_count!=encoder_count_cur)
+				if(pos_value!=ReadQEI1())
 				{
 					pos_value = ReadQEI1();
-                    
 					//Try to put this part of code
 					sprintf(DATA2SCREEN,"%d",pos_value);
 					txt_FGcolour(WHITE);
-					txt_MoveCursor(5,9);
+					txt_MoveCursor(4,9);
                     putstr("      ");
-                    txt_MoveCursor(5,9);
+                    txt_MoveCursor(4,9);
 					putstr(DATA2SCREEN);
 					putstr("   ");
                    
 				}
-                if(encoder_count!=encoder_count_cur)
-                {
-                    encoder_count=encoder_count_cur;
-					sprintf(DATA2SCREEN,"%d",encoder_count);					
-                    txt_FGcolour(GREEN);
-                    txt_MoveCursor(7,9);
-                    putstr("       ");
-                    txt_MoveCursor(7,9);
+					sprintf(DATA2SCREEN,"%d",encoder_count_cur[1]);					
+                    txt_FGcolour(WHITE);
+                    txt_MoveCursor(8,7);
+                    putstr("      ");
+                    txt_MoveCursor(8,7);
                     putstr(DATA2SCREEN);
-                } 
+                    sprintf(DATA2SCREEN,"%d",encoder_count_cur[0]);					
+                    txt_FGcolour(RED);
+                    txt_MoveCursor(8,0);
+                    putstr("      ");
+                    txt_MoveCursor(8,0);
+                    putstr(DATA2SCREEN);
+                    sprintf(DATA2SCREEN,"%d",encoder_count_cur[2]);					
+                    txt_FGcolour(YELLOW);
+                    txt_MoveCursor(8,13);
+                    putstr("      ");
+                    txt_MoveCursor(8,13);
+                    putstr(DATA2SCREEN);
+                    
+                    sprintf(DATA2SCREEN,"%d",encoder_count_abs[0]);					
+                    txt_FGcolour(RED);
+                    txt_MoveCursor(10,0);
+                    putstr("      ");
+                    txt_MoveCursor(10,0);
+                    putstr(DATA2SCREEN);
+                    sprintf(DATA2SCREEN,"%d",encoder_count_abs[2]);					
+                    txt_FGcolour(YELLOW);
+                    txt_MoveCursor(10,13);
+                    putstr("      ");
+                    txt_MoveCursor(10,13);
+                    putstr(DATA2SCREEN);
+                   
+                    
+                    
+//                } 
 				if(test==OUT)
 				{
 					_RC2=0;
@@ -1367,33 +1354,29 @@ int main(void)
 	
 		else if (test==CAN_4_BLESS)
 		{
+            int percent;
+			int disection;
+            int change = 0;
+            volt_desired = 0.0;
+            set_once = 0;
 			basic_screen_tool(1,YELLOW);
 			txt_MoveCursor(1,0);
-			putstr("Move the joystick\nup and down to\nrotate the motor");
+			putstr("Move the joystick\nup and down to\nincrease speed");
 		//	txt_MoveCursor(2,0);
 		//	putstr("TEST");
-			txt_MoveCursor(10,0);
+			txt_MoveCursor(12,0);
 			putstr("Click to exit");
-			AD1CON1bits.SAMP = 1; // start sampling ...
-			wait_us(100);
-			AD1CON1bits.SAMP = 0; // start Converting			
-			while (!AD1CON1bits.DONE);// conversion done?
-			ADC_DEFAULT = ADC1BUF0;
-			if (ADC_DEFAULT>=512)
-			{
-				HALF_RANGE=(1024-ADC_DEFAULT);
-			}
-			else
-			{
-				HALF_RANGE=ADC_DEFAULT;	
-			}
-			if (HALF_RANGE>480) HALF_RANGE=480; //limit to 480 to be sure to have enough span up and down 
-	//		txt_MoveCursor(10,0);
-	//		sprintf(DATA2SCREEN,"%d",HALF_RANGE);
-	//		putstr(DATA2SCREEN);
+            txt_MoveCursor(9,0);
+            txt_FGcolour(GREEN);
+            putstr("voltage:    ");
+            sprintf(DATA2SCREEN,"%.2f",volt_desired);
+            putstr(DATA2SCREEN);
+            set_PWM[1] = 0x00;
+            set_PWM[0] = 0x00;
+            
 			if (set_once == 0)
 			{
-				while (C1TR01CONbits.TXREQ0 == 1);
+				//while (C1TR01CONbits.TXREQ0 == 1);
 				CAN1SendMessage (get_firmware,3,0x1,0,0,BufferA[0],0);
 				C1TR01CONbits.TXREQ0 = 1;
 				while (C1TR01CONbits.TXREQ0 == 1);
@@ -1408,9 +1391,6 @@ int main(void)
 				while (C1TR01CONbits.TXREQ0 == 1);
 				set_once=1;
 			}
-				
-			int percent;
-			int disection;
 	//		unsigned char data[8]; 
 	//		data[0] = 0x12;
 	//		data[1] = 0x34;
@@ -1418,96 +1398,98 @@ int main(void)
 			CAN1SendMessage (force_idle,2,0x1,0,0,BufferA[0],0);
 			C1TR01CONbits.TXREQ0 = 1;
 			while(C1TR01CONbits.TXREQ0 == 1);
-			wait_ms(50);
+			//wait_ms(50);
 	
 			CAN1SendMessage (open_loop,2,0x1,0,0,BufferA[0],0);
 			C1TR01CONbits.TXREQ0 = 1;
 			while(C1TR01CONbits.TXREQ0 == 1);
-			
-			/*Start of getting value from the ADC of the joystick to control the motor PWM*/
-			while(1)
-			{		
+			            
+            while(1)
+			{	
 				AD1CON1bits.SAMP = 1; // start sampling ...
 				wait_us(100);
 				AD1CON1bits.SAMP = 0; // start Converting
 				while (!AD1CON1bits.DONE);// conversion done?
-				ADC_V = ADC1BUF0-ADC_DEFAULT;
-				if (ADC_V>=0) 
+				if((ADC1BUF0>1000))
 				{
-					if (ADC_V>HALF_RANGE) ADC_V=HALF_RANGE;
-					
-			//		VOLT=12.0/470*ADC_V;	
-			//		sprintf(DATA2SCREEN,"%f",VOLT);
-			//		txt_FGcolour(GREEN);
-			//		txt_MoveCursor(7,8);
-			//		putstr(DATA2SCREEN);
-			//		putstr("  ");
-					ratio = (8.0*ADC_V)/HALF_RANGE;
-					percent = ratio*12.5;// * 100.0;
-					txt_MoveCursor(7,0);
-					txt_FGcolour(BLUE);
-					putstr("Percentage: ");
-					sprintf(DATA2SCREEN,"%d",percent);		
-					txt_MoveCursor(7,12);
-					putstr(DATA2SCREEN);
-					putstr("    ");
-					disection=(int)((0x0FFF * ratio)/8);
-					set_PWM[1]=(char)(disection>>8);
-					set_PWM[0]=(char) (disection);
-	
-	//				sprintf(DATA2SCREEN,"%02x%02x",set_PWM[1],set_PWM[0]);				
-	//				txt_MoveCursor(10,0);
-	//				putstr(DATA2SCREEN);
-	//				putstr("                       ");
-					CAN1SendMessage (set_PWM,8,0x10F,0,0,BufferA[0],0);
-					C1TR01CONbits.TXREQ0 = 1;
-					while(C1TR01CONbits.TXREQ0 == 1);
+					if (volt_desired < 10.0)
+                    {
+                        volt_desired += 0.5;
+                        disection=(int)((0xEFFF * volt_desired /48.0));
+                        set_PWM[1]=(char)(disection>>8);
+                        set_PWM[0]=(char) (disection);
+                        txt_MoveCursor(9,0);
+                        txt_FGcolour(GREEN);
+                        putstr("voltage:    ");
+                        sprintf(DATA2SCREEN,"%.2f",volt_desired);		
+                        txt_MoveCursor(9,12);
+                        putstr(DATA2SCREEN);
+                        putstr("    ");
+                        //print for debug
+//                        sprintf(DATA2SCREEN,"%02x%02x",set_PWM[1],set_PWM[0]);				
+//                        txt_MoveCursor(10,0);
+//                        putstr(DATA2SCREEN);
+//                        putstr("                       ");
+                        CAN1SendMessage(set_PWM,8,0x10F,0,0,BufferA[0],0);
+                        C1TR01CONbits.TXREQ0 = 1;
+                        while(C1TR01CONbits.TXREQ0 == 1); 
+                    }
+                                 
+					do
+					{
+						AD1CON1bits.SAMP = 1; // start sampling ...
+						wait_us(1000);
+						AD1CON1bits.SAMP = 0; // start Converting			
+						while (!AD1CON1bits.DONE);// conversion done?
+                        wait_ms(10);
+                        CAN1SendMessage(set_PWM,8,0x10F,0,0,BufferA[0],0);
+                        C1TR01CONbits.TXREQ0 = 1;
+                        while(C1TR01CONbits.TXREQ0 == 1);
+					}while(ADC1BUF0>1000);
 				}
-			    else
+				if(ADC1BUF0<100)
 				{
-					if (ADC_V <= -HALF_RANGE)
-						ADC_V = HALF_RANGE;
-					else
-						ADC_V=-ADC_V;
-	//				VOLT=12.0/470*ADC_V;
-	//				sprintf(DATA2SCREEN,"-%f",VOLT);
-	//				txt_FGcolour(GREEN);
-	//				txt_MoveCursor(7,8);
-	//				putstr(DATA2SCREEN);
-	//				putstr("  ");
-					ratio = (8.0*ADC_V)/HALF_RANGE;
-					percent = ratio*12.5;// * 100.0;
-					txt_FGcolour(BLUE);
-					txt_MoveCursor(7,0);
-					putstr("Percentage:-");
-					sprintf(DATA2SCREEN,"%d",percent);			
-					txt_MoveCursor(7,12);
-					putstr(DATA2SCREEN);
-					putstr("    ");
-	
-					disection = 0xF001 + (int)(0x0FFF - ((0x0FFF * ratio)/8));
-					set_PWM[1] = (char)(disection>>8);
-					set_PWM[1] = set_PWM[1];  //240?
-					set_PWM[0] = (char)(disection);
-						
-	//				sprintf(DATA2SCREEN,"%02x%02x",set_PWM[1],set_PWM[0]);				
-	//				txt_MoveCursor(10,0);
-	//				putstr(DATA2SCREEN);
-	//          	putstr("              ");
-	
-					CAN1SendMessage(set_PWM,8,0x10F,0,0,BufferA[0],0);
-					C1TR01CONbits.TXREQ0 = 1;
-					while(C1TR01CONbits.TXREQ0 == 1);
+					if (volt_desired > -10.0)
+                    {
+						volt_desired -= 0.5;
+                        disection=(int)((0xEFFF /48.0 * volt_desired));
+                        set_PWM[1]=(char)(disection>>8);
+                        set_PWM[0]=(char) (disection);
+                        txt_MoveCursor(9,0);
+                        txt_FGcolour(GREEN);
+                        putstr("voltage:    ");
+                        sprintf(DATA2SCREEN,"%.2f",volt_desired);		
+                        txt_MoveCursor(9,12);
+                        putstr(DATA2SCREEN);
+                        putstr("    ");
+                        //print for debug
+//                        sprintf(DATA2SCREEN,"%02x%02x",set_PWM[1],set_PWM[0]);				
+//                        txt_MoveCursor(10,0);
+//                        putstr(DATA2SCREEN);
+//                        putstr("                       ");
+                        CAN1SendMessage(set_PWM,8,0x10F,0,0,BufferA[0],0);
+                        C1TR01CONbits.TXREQ0 = 1;
+                        while(C1TR01CONbits.TXREQ0 == 1); 
+                    }
+                    
+					do
+					{
+						AD1CON1bits.SAMP = 1; // start sampling ...
+						wait_us(1000);
+						AD1CON1bits.SAMP = 0; // start Converting			
+						while (!AD1CON1bits.DONE);// conversion done?
+                        wait_ms(10);
+                        CAN1SendMessage(set_PWM,8,0x10F,0,0,BufferA[0],0);
+                        C1TR01CONbits.TXREQ0 = 1;
+                        while(C1TR01CONbits.TXREQ0 == 1);
+					}while(ADC1BUF0<100);          
 				}
-				
 				if(test==OUT)
 				{
-	//				set_PWM[0]=0;
-	//				set_PWM[1]=0;
+                    menu = MAIN_MENU;
 					CAN1SendMessage (force_idle,2,0x1,0,0,BufferA[0],0);
 					C1TR01CONbits.TXREQ0 = 1;
 					while(C1TR01CONbits.TXREQ0 == 1);
-	//				set_once=0;
 					break;
 				}
 			} //end of while(1)
@@ -1655,7 +1637,6 @@ int main(void)
 	
 		else if (test == BLESS_WO_HALL_TENSION)
 		{
-			float volt_desired = 0.0;
 			unsigned char rpm_and_tension[8] = {0x17,0x00,0x00,0x00,0x00,0x00,0x00,0x00};		
 
 			if (rpm_desired == 1)
@@ -1705,7 +1686,7 @@ int main(void)
 			
 			// send get_firmware message
 
-			while(C1TR01CONbits.TXREQ0 == 1);
+			//while(C1TR01CONbits.TXREQ0 == 1);
 			CAN1SendMessage (get_firmware,3,0x1,0,0,BufferA[0],0);
 			C1TR01CONbits.TXREQ0 = 1;
 			while(C1TR01CONbits.TXREQ0 == 1);
@@ -1758,7 +1739,7 @@ int main(void)
 				sprintf(DATA2SCREEN,"%.1f  ",volt_desired);		
 				txt_MoveCursor(8,8);
 				putstr(DATA2SCREEN);
-				int volt_des_hex = (int)((0x7FFF/48) * volt_desired);
+				int volt_des_hex = (int)((0xEFFF/48) * volt_desired);
 				rpm_and_tension[3] = (char)volt_des_hex;
 				//sprintf(DATA2SCREEN,"v in hex : 0x%x     ",volt_des_hex);		
 				//txt_MoveCursor(8,0);
@@ -1931,7 +1912,7 @@ int main(void)
 			putstr("CLICK TO EXIT");
 			txt_FGcolour(WHITE);
 			txt_MoveCursor(6,0);
-			putstr("Encoder:");
+			putstr("Encoder Reading:");
 			unsigned int pos_value;
 			pos_value = 10; //because the first if in the while is dependent from pos_value different from 0;
 				
@@ -1941,7 +1922,7 @@ int main(void)
 				{
 					pos_value = ReadQEI1();
 					//Try to put this part of code
-					txt_MoveCursor(6,8);
+					txt_MoveCursor(6,17);
 					sprintf(DATA2SCREEN,"%d",pos_value);
 					putstr("   ");
 				}	

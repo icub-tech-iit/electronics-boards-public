@@ -1,4 +1,3 @@
-
 WORD charheight(unsigned char  TestChar)
 {
   unsigned char  towrite[3] ;
@@ -24,8 +23,8 @@ WORD charwidth(unsigned char  TestChar)
 void gfx_BGcolour(WORD  Color)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_BGcolour >> 8 ;
-  towrite[1]= F_gfx_BGcolour ;
+  towrite[0]= (unsigned char)(F_gfx_BGcolour >> 8) ;
+  towrite[1]= (unsigned char)F_gfx_BGcolour ;
   towrite[2]= Color >> 8 ;
   towrite[3]= Color ;
   sendB(towrite,4) ;
@@ -82,10 +81,10 @@ void gfx_CircleFilled(WORD  X, WORD  Y, WORD  Radius, WORD  Color)
 void gfx_Clipping(WORD  OnOff)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_Clipping >> 8 ;
-  towrite[1]= F_gfx_Clipping ;
-  towrite[2]= OnOff >> 8 ;
-  towrite[3]= OnOff ;
+  towrite[0] = (F_gfx_Clipping >> 8) ;
+  towrite[1] = (unsigned char) F_gfx_Clipping ;
+  towrite[2] = OnOff >> 8 ;
+  towrite[3] = OnOff ;
   sendB(towrite,4) ;
   //return ACK_4DSYSTEMS() ;
 }
@@ -120,8 +119,8 @@ void gfx_Cls()
 void gfx_Contrast(WORD  Contrast)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_Contrast >> 8 ;
-  towrite[1]= F_gfx_Contrast ;
+  towrite[0]= (unsigned char)(F_gfx_Contrast >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_Contrast ;
   towrite[2]= Contrast >> 8 ;
   towrite[3]= Contrast ;
   sendB(towrite,4) ;
@@ -131,8 +130,8 @@ void gfx_Contrast(WORD  Contrast)
 void gfx_FrameDelay(WORD  Msec)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_FrameDelay >> 8 ;
-  towrite[1]= F_gfx_FrameDelay ;
+  towrite[0]= (unsigned char)(F_gfx_FrameDelay >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_FrameDelay ;
   towrite[2]= Msec >> 8 ;
   towrite[3]= Msec ;
   sendB(towrite,4) ;
@@ -156,8 +155,8 @@ void gfx_FrameDelay(WORD  Msec)
 void gfx_Line(WORD  X1, WORD  Y1, WORD  X2, WORD  Y2, WORD  Color)
 {
   unsigned char  towrite[12] ;
-  towrite[0]= F_gfx_Line >> 8 ;
-  towrite[1]= F_gfx_Line ;
+  towrite[0]= (unsigned char)(F_gfx_Line >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_Line ;
   towrite[2]= X1 >> 8 ;
   towrite[3]= X1 ;
   towrite[4]= Y1 >> 8 ;
@@ -175,8 +174,8 @@ void gfx_Line(WORD  X1, WORD  Y1, WORD  X2, WORD  Y2, WORD  Color)
 void gfx_LinePattern(WORD  Pattern)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_LinePattern >> 8 ;
-  towrite[1]= F_gfx_LinePattern ;
+  towrite[0]= (unsigned char)(F_gfx_LinePattern >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_LinePattern ;
   towrite[2]= Pattern >> 8 ;
   towrite[3]= Pattern ;
   sendB(towrite,4) ;
@@ -226,8 +225,8 @@ void gfx_MoveTo(WORD  X, WORD  Y)
 void gfx_OutlineColour(WORD  Color)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_OutlineColour >> 8 ;
-  towrite[1]= F_gfx_OutlineColour ;
+  towrite[0]= (unsigned char)(F_gfx_OutlineColour >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_OutlineColour ;
   towrite[2]= Color >> 8 ;
   towrite[3]= Color ;
   sendB(towrite,4) ;
@@ -269,8 +268,8 @@ void gfx_Polyline(WORD  n, t4DWordArray  Xvalues, t4DWordArray  Yvalues, WORD  C
 void gfx_PutPixel(WORD  X, WORD  Y, WORD  Color)
 {
   unsigned char  towrite[8] ;
-  towrite[0]= F_gfx_PutPixel >> 8 ;
-  towrite[1]= F_gfx_PutPixel ;
+  towrite[0]= (unsigned char)(F_gfx_PutPixel >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_PutPixel ;
   towrite[2]= X >> 8 ;
   towrite[3]= X ;
   towrite[4]= Y >> 8 ;
@@ -284,8 +283,8 @@ void gfx_PutPixel(WORD  X, WORD  Y, WORD  Color)
 void gfx_Rectangle(WORD  X1, WORD  Y1, WORD  X2, WORD  Y2, WORD  Color)
 {
   unsigned char  towrite[12] ;
-  towrite[0]= F_gfx_Rectangle >> 8 ;
-  towrite[1]= F_gfx_Rectangle ;
+  towrite[0]= (unsigned char)(F_gfx_Rectangle >> 8);
+  towrite[1]= (unsigned char) F_gfx_Rectangle ;
   towrite[2]= X1 >> 8 ;
   towrite[3]= X1 ;
   towrite[4]= Y1 >> 8 ;
@@ -322,8 +321,8 @@ void gfx_RectangleFilled(WORD  X1, WORD  Y1, WORD  X2, WORD  Y2, WORD  Color)
 void gfx_ScreenMode(WORD  ScreenMode)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_ScreenMode >> 8 ;
-  towrite[1]= F_gfx_ScreenMode ;
+  towrite[0]= (unsigned char)(F_gfx_ScreenMode >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_ScreenMode ;
   towrite[2]= ScreenMode >> 8 ;
   towrite[3]= ScreenMode ;
   sendB(towrite,4) ;
@@ -356,9 +355,9 @@ void gfx_SetClipRegion()
 void gfx_Transparency(WORD  OnOff)
 {
   unsigned char  towrite[4] ;
-  DWORD  written ;
-  towrite[0]= F_gfx_Transparency >> 8 ;
-  towrite[1]= F_gfx_Transparency ;
+  // DWORD  written ;
+  towrite[0]= (unsigned char)(F_gfx_Transparency >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_Transparency ;
   towrite[2]= OnOff >> 8 ;
   towrite[3]= OnOff ;
   sendB(towrite,4) ;
@@ -368,8 +367,8 @@ void gfx_Transparency(WORD  OnOff)
 void gfx_TransparentColour(WORD  Color)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_gfx_TransparentColour >> 8 ;
-  towrite[1]= F_gfx_TransparentColour ;
+  towrite[0]= (unsigned char)(F_gfx_TransparentColour >> 8) ;
+  towrite[1]= (unsigned char) F_gfx_TransparentColour ;
   towrite[2]= Color >> 8 ;
   towrite[3]= Color ;
   sendB(towrite,4) ;
@@ -537,7 +536,7 @@ void putCH(WORD  WordChar)
   //return ACK_4DSYSTEMS() ;
 }
 
-void putstr(unsigned char *  InString)
+void putstr(const char *  InString)
 {
   int n = strlen(InString), i;
   unsigned char  towrite[n+3] ;
@@ -557,8 +556,8 @@ void putstr(unsigned char *  InString)
 void txt_Attributes(WORD  Attribs)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_Attributes >> 8 ;
-  towrite[1]= F_txt_Attributes ;
+  towrite[0]= (unsigned char)(F_txt_Attributes >> 8) ;
+  towrite[1]= (unsigned char) F_txt_Attributes ;
   towrite[2]= Attribs >> 8 ;
   towrite[3]= Attribs ;
   sendB(towrite,4) ;
@@ -569,8 +568,8 @@ void txt_Attributes(WORD  Attribs)
 void txt_BGcolour(WORD  Color)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_BGcolour >> 8 ;
-  towrite[1]= F_txt_BGcolour ;
+  towrite[0]= (unsigned char)(F_txt_BGcolour >> 8) ;
+  towrite[1]= (unsigned char) F_txt_BGcolour ;
   towrite[2]= Color >> 8 ;
   towrite[3]= Color ;
   sendB(towrite,4) ;
@@ -581,8 +580,8 @@ void txt_BGcolour(WORD  Color)
 void txt_Bold(WORD  Bold)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_Bold >> 8 ;
-  towrite[1]= F_txt_Bold ;
+  towrite[0]= (unsigned char)(F_txt_Bold >> 8) ;
+  towrite[1]= (unsigned char) F_txt_Bold ;
   towrite[2]= Bold >> 8 ;
   towrite[3]= Bold ;
   sendB(towrite,4) ;
@@ -593,8 +592,8 @@ void txt_Bold(WORD  Bold)
 void txt_FGcolour(WORD  Color)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_FGcolour >> 8 ;
-  towrite[1]= F_txt_FGcolour ;
+  towrite[0]= (unsigned char)(F_txt_FGcolour >> 8) ;
+  towrite[1]= (unsigned char) F_txt_FGcolour ;
   towrite[2]= Color >> 8 ;
   towrite[3]= Color ;
   sendB(towrite,4) ;
@@ -605,8 +604,8 @@ void txt_FGcolour(WORD  Color)
 void txt_FontID(WORD  FontNumber)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_FontID >> 8 ;
-  towrite[1]= F_txt_FontID ;
+  towrite[0]= (unsigned char)(F_txt_FontID >> 8) ;
+  towrite[1]= (unsigned char) F_txt_FontID ;
   towrite[2]= FontNumber >> 8 ;
   towrite[3]= FontNumber ;
   sendB(towrite,4) ;
@@ -616,8 +615,8 @@ void txt_FontID(WORD  FontNumber)
 void txt_Height(WORD  Multiplier)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_Height >> 8 ;
-  towrite[1]= F_txt_Height ;
+  towrite[0]= (unsigned char)(F_txt_Height >> 8) ;
+  towrite[1]= (unsigned char) F_txt_Height ;
   towrite[2]= Multiplier >> 8 ;
   towrite[3]= Multiplier ;
   sendB(towrite,4) ;
@@ -628,8 +627,8 @@ void txt_Height(WORD  Multiplier)
 void txt_Inverse(WORD  Inverse)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_Inverse >> 8 ;
-  towrite[1]= F_txt_Inverse ;
+  towrite[0]= (unsigned char)(F_txt_Inverse >> 8) ;
+  towrite[1]= (unsigned char) F_txt_Inverse ;
   towrite[2]= Inverse >> 8 ;
   towrite[3]= Inverse ;
   sendB(towrite,4) ;
@@ -640,8 +639,8 @@ void txt_Inverse(WORD  Inverse)
 void txt_Italic(WORD  Italic)
 {
   unsigned char  towrite[4] ;
-  towrite[0]= F_txt_Italic >> 8 ;
-  towrite[1]= F_txt_Italic ;
+  towrite[0]= (unsigned char)(F_txt_Italic >> 8) ;
+  towrite[1]= (unsigned char) F_txt_Italic ;
   towrite[2]= Italic >> 8 ;
   towrite[3]= Italic ;
   sendB(towrite,4) ;
@@ -667,7 +666,7 @@ void txt_Opacity(WORD  TransparentOpaque)
 {
   unsigned char  towrite[4] ;
   towrite[0]= F_txt_Opacity >> 8 ;
-  towrite[1]= F_txt_Opacity ;
+  towrite[1]= (unsigned char) F_txt_Opacity ;
   towrite[2]= TransparentOpaque >> 8 ;
   towrite[3]= TransparentOpaque ;
   sendB(towrite,4) ;
@@ -692,7 +691,7 @@ void txt_Underline(WORD  Underline)
 {
   unsigned char  towrite[4] ;
   towrite[0]= F_txt_Underline >> 8 ;
-  towrite[1]= F_txt_Underline ;
+  towrite[1]= (unsigned char) F_txt_Underline ;
   towrite[2]= Underline >> 8 ;
   towrite[3]= Underline ;
   sendB(towrite,4) ;
@@ -704,7 +703,7 @@ void txt_Width(WORD  Multiplier)
 {
   unsigned char  towrite[4] ;
   towrite[0]= F_txt_Width >> 8 ;
-  towrite[1]= F_txt_Width ;
+  towrite[1]= (unsigned char) F_txt_Width ;
   towrite[2]= Multiplier >> 8 ;
   towrite[3]= Multiplier ;
   sendB(towrite,4) ;
@@ -716,7 +715,7 @@ void txt_Xgap(WORD  Pixels)
 {
   unsigned char  towrite[4] ;
   towrite[0]= F_txt_Xgap >> 8 ;
-  towrite[1]= F_txt_Xgap ;
+  towrite[1]= (unsigned char) F_txt_Xgap ;
   towrite[2]= Pixels >> 8 ;
   towrite[3]= Pixels ;
   sendB(towrite,4) ;
@@ -727,7 +726,7 @@ void txt_Ygap(WORD  Pixels)
 {
   unsigned char  towrite[4] ;
   towrite[0]= F_txt_Ygap >> 8 ;
-  towrite[1]= F_txt_Ygap ;
+  towrite[1]= (unsigned char) F_txt_Ygap ;
   towrite[2]= Pixels >> 8 ;
   towrite[3]= Pixels ;
   sendB(towrite,4) ;

@@ -23,7 +23,6 @@ void Clear_Read_Buffer(void)
 
 }
 /*This function wait for the ACK of the 4DSYSTEMS screens*/
-
 int ACK_4DSYSTEMS(void)
 {
 	//TestACK

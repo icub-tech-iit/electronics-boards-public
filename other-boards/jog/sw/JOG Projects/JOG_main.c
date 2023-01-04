@@ -627,7 +627,7 @@ int main(void)
 	 int ADC_V=530;
 	/*INIT ADC*/
 	_TRISB3=1; //RB3=AN5
-        AD1CON1 = 0x0000; // SAMP bit = 0 ends sampling ...
+    AD1CON1 = 0x0000; // SAMP bit = 0 ends sampling ...
 	AD1PCFGL = 0xFFDF; // AN5 = analog
 	// and starts converting
 	AD1CHS0 = 0x0005; // Connect AN5 on CH0 input ..
@@ -953,7 +953,7 @@ int main(void)
 			basic_screen_tool(1,YELLOW);
 			_RC2=1;
 			txt_MoveCursor(0,0);
-			putstr("Move the motor \n up and down \n by hand");
+			putstr("Rotate the motor \n manually");
 			txt_MoveCursor(12,0);
 			putstr("CLICK TO EXIT");
 			txt_FGcolour(WHITE);
@@ -1047,7 +1047,7 @@ int main(void)
 					txt_FGcolour(WHITE);
 					txt_MoveCursor(4,9);
 					putstr(DATA2SCREEN);
-					putstr("     ");
+					putstr("   ");
 				}	
 				AD1CON1bits.SAMP = 1; // start sampling ...
 				wait_us(100);

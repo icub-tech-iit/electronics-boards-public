@@ -87,7 +87,7 @@ extern WORD media_WriteByte(WORD  Byte) ;
 extern WORD media_WriteWord(WORD  Word) ;
 extern WORD peekB(WORD  Address) ;
 extern WORD peekW(WORD  Address) ;
-extern void putstr(unsigned char *  InString) ;
+extern void putstr(const char *  InString) ;
 extern WORD sys_GetModel(unsigned char *  ModelStr) ;
 extern WORD sys_GetPmmC(void) ;
 extern WORD sys_GetVersion(void) ;

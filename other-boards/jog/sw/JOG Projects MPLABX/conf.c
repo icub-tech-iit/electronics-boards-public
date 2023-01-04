@@ -225,7 +225,7 @@ void SetupPorts_UART1(void)
 **************************************************/
 	U1STAvalue = 0X0000 & UART_INT_TX_BUF_EMPTY & UART_TX_DISABLE & UART_INT_RX_CHAR &
 	UART_ADR_DETECT_DIS & UART_RX_OVERRUN_CLEAR & UART_SYNC_BREAK_DISABLED & UART_IrDA_POL_INV_ZERO;
-	baudvalue = 259; //259 to get 9600 as baudrate //20.7 for 115200bps   //42.4 for 57600  //64.1 for 38400    //129.2 for 19200
+	baudvalue = 21; //259 to get 9600 as baudrate //20.7 for 115200bps   //42.4 for 57600  //64.1 for 38400    //129.2 for 19200
 	OpenUART1(U1MODEvalue, U1STAvalue, baudvalue);
 	
 //	ConfigIntUART1 (UART_RX_INT_EN & UART_TX_INT_EN);
@@ -233,7 +233,7 @@ void SetupPorts_UART1(void)
 
 	U1STAbits.UTXEN = 1;	// I think I have the thing working now.
 //	wait_us(104);		//wait at least 104usec (1/9600 s)before sending first char
-	wait_ms(10);
+	wait_ms(1);
 }
 
 
@@ -440,10 +440,7 @@ void SetupPorts(void)
 	
 	/*set pins for QEI interface - ROIE/L and MOTOR phases*/
 	_TRISC7=1;
-
-    
-    
-    //	_INDX1R=23;	//C7=RP23
+	_INDX1R=23;	//C7=RP23
 	_TRISC8=1;
 	_QEB1R=24;	//C8=RP24
 	_TRISC9=1;
