@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ACK_4DSYSTEMS	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	26;"	f	line:26	signature:(void)
+ACK_4DSYSTEMS	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.h	12;"	p	line:12	signature:(void)
+ADCBuffer	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	19;"	v	line:19
+ADCValue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	142;"	l	line:142
+ADCValue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	180;"	l	line:180
+ADCValue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	233;"	l	line:233
+AN_select	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	182;"	l	line:182
+BWRP_WRPROTECT_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	48;"	v	line:48
+Clear_Read_Buffer	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	16;"	f	line:16	signature:(void)
+Clear_Read_Buffer	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.h	13;"	p	line:13	signature:(void)
+DESIREDMIPS::40000000	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	16;"	d	line:16
+DFCY::(FOSC/2)	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	19;"	d	line:19
+DPLL::(unsignedint)(2.0*DESIREDMIPS/	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	17;"	d	line:17
+DTCY::(1.0/DFCY)	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	20;"	d	line:20
+FNOSC_FRCPLL	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	55;"	v	line:55
+FOSC::(PLLIN*DPLL)	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	18;"	d	line:18
+FPWRT_PWR128	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	64;"	v	line:64
+FWDTEN_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	59;"	v	line:59
+GSS_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	52;"	v	line:52
+IOL1WAY_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	57;"	v	line:57
+J1_button	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	216;"	l	line:216
+J2_button	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	216;"	l	line:216
+JTAGEN_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	66;"	v	line:66
+MENU	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	232;"	l	line:232
+MENU0	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	381;"	f	line:381	signature:(char* *member,int length)
+MENU0	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	21;"	p	line:21	signature:(void)
+MENU_SELECTION	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	38;"	d	line:38	file:
+ON_OFF_SCREEN	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	165;"	f	line:165	signature:(void)
+ON_OFF_SCREEN	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	17;"	p	line:17	signature:(void)
+PLLIN::10000000	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	15;"	d	line:15
+RX_data	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	18;"	l	line:18
+RX_data	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	29;"	l	line:29
+SFRAC16	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	16;"	t	line:16	file:
+SWRP_WRPROTECT_OFF	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	50;"	v	line:50
+SetupDMA0	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	289;"	f	line:289	signature:(void)
+SetupDMA0	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	15;"	p	line:15	signature:(void)
+SetupPorts	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	319;"	f	line:319	signature:(void)
+SetupPorts	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	16;"	p	line:16	signature:(void)
+SetupPorts_ADC1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	175;"	f	line:175	signature:(void)
+SetupPorts_ADC1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	14;"	p	line:14	signature:(void)
+SetupPorts_CAN	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	56;"	f	line:56	signature:(void)
+SetupPorts_CAN	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	12;"	p	line:12	signature:(void)
+SetupPorts_UART1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	72;"	f	line:72	signature:(void)
+SetupPorts_UART1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	13;"	p	line:13	signature:(void)
+Txdata	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	119;"	l	line:119
+U1MODEvalue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	78;"	l	line:78
+U1STAvalue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	80;"	l	line:80
+UART	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	32;"	d	line:32	file:
+UserParms_H	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UserParms.h	12;"	d	line:12
+WRITE_STHG	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	363;"	f	line:363	signature:(void)
+WRITE_STHG	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	18;"	p	line:18	signature:(void)
+baudvalue	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	76;"	l	line:76
+button_touch1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	216;"	l	line:216
+button_touch2	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	216;"	l	line:216
+check	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	53;"	l	line:53
+check	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	72;"	l	line:72
+i	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	50;"	l	line:50
+i	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	71;"	l	line:71
+i	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	395;"	l	line:395
+i	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	234;"	l	line:234
+init_screen	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.h	16;"	p	line:16	signature:(void)
+init_screen	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	355;"	f	line:355	signature:(void)
+init_syntax	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	371;"	f	line:371	signature:(void)
+init_syntax	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	19;"	p	line:19	signature:(void)
+j	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	50;"	l	line:50
+main	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	96;"	f	line:96	signature:(void)
+n1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	29;"	l	line:29
+n1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	38;"	l	line:38
+n1	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	48;"	l	line:48
+oscConfig	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	68;"	f	line:68	signature:(void)
+putstr	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	41;"	p	line:41	file:
+select	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	181;"	l	line:181
+sendB	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	69;"	f	line:69	signature:(unsigned char* buffer,int length_buffer)
+sendB	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.h	15;"	p	line:15	signature:(unsigned char* buffer,int length_buffer)
+send_byte_serial	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.c	48;"	f	line:48	signature:(char byte)
+send_byte_serial	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\UART_JOG.h	14;"	p	line:14	signature:(unsigned char byte)
+splash_screen_selection	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	393;"	f	line:393	signature:(char** member,int length)
+splash_screen_selection	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	22;"	p	line:22	signature:(char** member,int length)
+txt_MoveCursor	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\serial_test.c	40;"	p	line:40	file:
+wait_ms	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	36;"	f	line:36	signature:(int number)
+wait_ms	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	10;"	p	line:10	signature:(int number)
+wait_s	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	46;"	f	line:46	signature:(int number)
+wait_s	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	11;"	p	line:11	signature:(int number)
+wait_us	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.c	27;"	f	line:27	signature:(int number)
+wait_us	C:\iCub\Production repository\electronics\P2013_02_JOG\SW\JOG Projects\conf.h	9;"	p	line:9	signature:(int number)

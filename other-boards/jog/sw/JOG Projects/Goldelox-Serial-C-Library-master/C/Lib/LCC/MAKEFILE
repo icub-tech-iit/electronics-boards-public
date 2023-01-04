@@ -1,0 +1,30 @@
+# Wedit Makefile for project Goldelox_Serial_4DLibrary
+SRCDIR="c:\4droot\4d-workshop4\installer\common files\goldelox serial\c\lib"
+CFLAGS=-I"c:\lcc\include"  -g2 
+CC=$(LCCROOT)\bin\lcc.exe
+LINKER=$(LCCROOT)\bin\lcclnk.exe
+OBJS=\
+	goldelox_serial_4dlibrary.obj \
+
+LIBS=
+EXE="Goldelox_serial_4dlibrary.lib"
+
+$(EXE):	$(OBJS) Makefile
+	$(LCCROOT)\bin\lcclib.exe /OUT:"C:\4Droot\4D-WORKSHOP4\INSTALLER\COMMON FILES\Goldelox Serial\C\Lib\lcc\Goldelox_serial_4dlibrary.lib" $(OBJS)
+
+# Build Goldelox_serial_4dlibrary.c
+GOLDELOX_SERIAL_4DLIBRARY_C=\
+	$(SRCDIR)\..\include\Goldelox_Types4D.h\
+	$(SRCDIR)\..\include\Goldelox_const4DSerial.h\
+	$(SRCDIR)\..\include\Goldelox_const4D.h\
+	$(SRCDIR)\..\include\Goldelox_Intrinsic4DRoutines.inc\
+	$(SRCDIR)\..\include\Goldelox_Compound4DRoutines.inc\
+
+goldelox_serial_4dlibrary.obj: $(GOLDELOX_SERIAL_4DLIBRARY_C) $(SRCDIR)\"goldelox_serial_4dlibrary.c"
+	$(CC) -c $(CFLAGS) $(SRCDIR)\"goldelox_serial_4dlibrary.c"
+
+link:
+	$(LCCROOT)\bin\lcclib.exe /OUT:"C:\4Droot\4D-WORKSHOP4\INSTALLER\COMMON FILES\Goldelox Serial\C\Lib\lcc\Goldelox_serial_4dlibrary.lib" $(OBJS)
+
+clean:
+	del $(OBJS) Goldelox_serial_4dlibrary.lib

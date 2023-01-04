@@ -1,0 +1,270 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout VX.1.1"    2016/03/10.10:24:36    1
+"d:\icubhardware\electronics\private\p2013_02_jog\pcb\rev_1\jog_v1_mechanics.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+0.89916
+0     -36.06777                     -34.0                         0     
+0     34.53262                      -34.0                         0     
+0     34.53262                      35.0                          180.0     
+0     -36.06777                     35.0                          0     
+0     -36.06777                     -34.0                         179.8     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+3.200000 -20.243800 14.173200 NPTH BOARD
+3.200000 19.278600 14.173200 NPTH BOARD
+3.200000 19.278600 -13.258800 NPTH BOARD
+3.200000 -20.250070 -13.300062 NPTH BOARD
+3.200000 -36.000070 -30.100062 NPTH BOARD
+3.200000 34.999930 -30.100062 NPTH BOARD
+3.200000 34.999930 30.999938 NPTH BOARD
+3.200000 -36.000070 30.999938 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACEMENT
+0402                                         0402                                         R26                                          
+-31.369                       22.225                        270.0     TOP       PLACED    
+NODEK                                        NODEK                                        1                                            
+-46.355                       21.59                         270.0     TOP       PLACED    
+0603                                         0603                                         R4                                           
+-18.415                       25.4                          270.0     TOP       PLACED    
+0603                                         0603                                         C11                                          
+-28.575                       22.225                        90.0      TOP       PLACED    
+0603                                         0603                                         C3                                           
+-24.765                       22.225                        90.0      TOP       PLACED    
+0603                                         0603                                         R48                                          
+12.573                        -27.94                        270.0     TOP       PLACED    
+0603                                         0603                                         C1                                           
+-18.415                       22.225                        90.0      TOP       PLACED    
+0603                                         0603                                         C10                                          
+-2.12                         9.08                          270.0     BOTTOM    PLACED    
+0603                                         0603                                         C12                                          
+26.67                         10.795                        0.0       TOP       PLACED    
+0805                                         0805                                         C13                                          
+2.96                          -0.445                        90.0      BOTTOM    PLACED    
+0603                                         0603                                         C14                                          
+-5.93                         -8.7                          0.0       BOTTOM    PLACED    
+0603                                         0603                                         C15                                          
+24.13                         -1.905                        90.0      BOTTOM    PLACED    
+0603                                         0603                                         C16                                          
+19.05                         -1.905                        270.0     BOTTOM    PLACED    
+0603                                         0603                                         C17                                          
+-5.93                         8.445                         0.0       BOTTOM    PLACED    
+0603                                         0603                                         C18                                          
+-14.82                        0.19                          90.0      BOTTOM    PLACED    
+0603                                         0603                                         C19                                          
+2.921                         3.175                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         C2                                           
+-22.86                        22.225                        90.0      TOP       PLACED    
+0603                                         0603                                         C20                                          
+-5.93                         9.715                         0.0       BOTTOM    PLACED    
+0603                                         0603                                         C21                                          
+-16.09                        0.19                          90.0      BOTTOM    PLACED    
+0603                                         0603                                         C22                                          
+4.191                         3.175                         270.0     BOTTOM    PLACED    
+0805                                         0805                                         C23                                          
+22.86                         5.715                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         C24                                          
+30.48                         -1.27                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         C25                                          
+35.56                         -1.27                         90.0      BOTTOM    PLACED    
+0805                                         0805                                         C26                                          
+35.56                         6.35                          180.0     BOTTOM    PLACED    
+0603                                         0603                                         C27                                          
+-5.93                         -15.05                        180.0     BOTTOM    PLACED    
+0603                                         0603                                         C28                                          
+-5.93                         -10.605                       180.0     BOTTOM    PLACED    
+0603                                         0603                                         C4                                           
+16.51                         21.59                         90.0      TOP       PLACED    
+7343                                         7343                                         C5                                           
+-43.815                       25.4                          0.0       TOP       PLACED    
+0603                                         0603                                         C6                                           
+-43.815                       21.59                         0.0       TOP       PLACED    
+0805                                         0805                                         C7                                           
+-45.72                        17.78                         180.0     TOP       PLACED    
+0603                                         0603                                         C8                                           
+-37.465                       10.16                         0.0       TOP       PLACED    
+0603                                         0603                                         C9                                           
+12.065                        21.59                         90.0      TOP       PLACED    
+SOT23                                        SOT23                                        D1                                           
+-45.72                        13.335                        180.0     TOP       PLACED    
+DO214AA                                      DO214AA                                      D2                                           
+16.51                         -22.225                       270.0     TOP       PLACED    
+SOT23                                        SOT23                                        D3                                           
+19.685                        2.54                          180.0     BOTTOM    PLACED    
+SOD123                                       SOD123                                       D4                                           
+18.415                        -5.08                         0.0       BOTTOM    PLACED    
+SOT23                                        SOT23                                        D5                                           
+30.48                         3.175                         180.0     BOTTOM    PLACED    
+SOD123                                       SOD123                                       D6                                           
+29.845                        -5.08                         0.0       BOTTOM    PLACED    
+LED0603                                      LED0603                                      DL1                                          
+16.5                          -31.5                         0.0       TOP       PLACED    
+LED0603                                      LED0603                                      DL2                                          
+14.5                          -31.5                         0.0       TOP       PLACED    
+LED0603                                      LED0603                                      DL3                                          
+12.5                          -31.5                         0.0       TOP       PLACED    
+LED0603                                      LED0603                                      DL4                                          
+30.5                          32.0                          180.0     TOP       FIXED     
+0805                                         0805                                         FL1                                          
+3.175                         28.575                        180.0     TOP       PLACED    
+WE-SL1                                       WE-SL1                                       FL2                                          
+24.765                        21.59                         180.0     TOP       PLACED    
+0805                                         0805                                         FL3                                          
+24.13                         -5.715                        90.0      BOTTOM    PLACED    
+0805                                         0805                                         FL4                                          
+35.56                         -5.715                        270.0     BOTTOM    PLACED    
+0603                                         0603                                         FL5                                          
+-7.835                        -12.51                        90.0      BOTTOM    PLACED    
+0603                                         0603                                         FL6                                          
+-4.025                        -12.51                        90.0      BOTTOM    PLACED    
+53261-0671                                   53261-0671                                   J1                                           
+-23.5                         32.5                          180.0     BOTTOM    FIXED     
+53261-0871                                   53261-0871                                   J2                                           
+-5.5                          32.5                          180.0     TOP       FIXED     
+53261-0771                                   53261-0771                                   J3                                           
+-5.0                          32.5                          180.0     BOTTOM    FIXED     
+MOLEX53261-10                                53261-1071                                   J4                                           
+-23.5                         29.5                          180.0     TOP       FIXED     
+53261-0671                                   53261-0671                                   J5                                           
+10.0                          32.5                          180.0     TOP       FIXED     
+53261-0471                                   53261-0471                                   J6                                           
+10.0                          32.5                          180.0     BOTTOM    FIXED     
+53261-0671                                   53261-0671                                   J7                                           
+-24.5                         -31.5                         0.0       BOTTOM    FIXED     
+53261-0471                                   53261-0471                                   J8                                           
+23.5                          32.5                          180.0     TOP       FIXED     
+53261-0671                                   53261-0671                                   J9                                           
+24.5                          32.5                          180.0     BOTTOM    FIXED     
+0806                                         0806                                         L1                                           
+13.97                         1.905                         90.0      BOTTOM    PLACED    
+0806                                         0806                                         L2                                           
+16.51                         -1.905                        90.0      BOTTOM    PLACED    
+0806                                         0806                                         L3                                           
+16.51                         1.905                         90.0      BOTTOM    PLACED    
+0806                                         0806                                         L4                                           
+28.575                        -1.27                         90.0      BOTTOM    PLACED    
+SOCKET_PLUG                                  SOCKET_PLUG                                  P_SOCK1                                      
+25.5                          -22.5                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         R1                                           
+-4.445                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R10                                          
+-1.905                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R11                                          
+-10.795                       24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R12                                          
+-26.035                       25.4                          90.0      TOP       PLACED    
+0603                                         0603                                         R13                                          
+-24.765                       25.4                          270.0     TOP       PLACED    
+0603                                         0603                                         R14                                          
+-12.065                       24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R15                                          
+-5.715                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R16                                          
+-6.985                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R17                                          
+15.24                         24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R18                                          
+16.51                         24.765                        270.0     TOP       PLACED    
+0402                                         0402                                         R19                                          
+-43.815                       10.16                         0.0       TOP       PLACED    
+0603                                         0603                                         R2                                           
+-19.685                       25.4                          90.0      TOP       PLACED    
+0603                                         0603                                         R20                                          
+13.335                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R21                                          
+12.065                        24.765                        270.0     TOP       PLACED    
+0603                                         0603                                         R22                                          
+10.16                         24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R23                                          
+5.08                          24.765                        270.0     TOP       PLACED    
+0603                                         0603                                         R24                                          
+8.89                          24.765                        270.0     TOP       PLACED    
+0603                                         0603                                         R25                                          
+6.985                         24.765                        270.0     TOP       PLACED    
+0603                                         0603                                         R28                                          
+-29.21                        24.13                         0.0       TOP       PLACED    
+0603                                         0603                                         R29                                          
+5.08                          21.59                         270.0     TOP       PLACED    
+0603                                         0603                                         R3                                           
+-3.175                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R30                                          
+6.985                         21.59                         270.0     TOP       PLACED    
+0402                                         0402                                         R31                                          
+-32.385                       10.16                         0.0       TOP       PLACED    
+0402                                         0402                                         R32                                          
+-33.528                       24.13                         0.0       TOP       PLACED    
+0603                                         0603                                         R35                                          
+24.765                        26.035                        0.0       TOP       PLACED    
+0603                                         0603                                         R37                                          
+22.86                         1.905                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         R38                                          
+24.765                        1.905                         90.0      BOTTOM    PLACED    
+0603                                         0603                                         R39                                          
+24.765                        5.715                         90.0      BOTTOM    PLACED    
+0603                                         0603                                         R40                                          
+-61.087                       10.795                        90.0      BOTTOM    PLACED    
+0603                                         0603                                         R42                                          
+48.387                        12.954                        180.0     BOTTOM    PLACED    
+0603                                         0603                                         R43                                          
+36.83                         3.175                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         R44                                          
+34.29                         3.175                         270.0     BOTTOM    PLACED    
+0603                                         0603                                         R46                                          
+16.51                         -27.94                        270.0     TOP       PLACED    
+0603                                         0603                                         R47                                          
+14.605                        -27.94                        270.0     TOP       PLACED    
+0603                                         0603                                         R49                                          
+30.48                         28.575                        90.0      TOP       PLACED    
+0603                                         0603                                         R5                                           
+-9.525                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R50                                          
+10.541                        19.05                         0.0       TOP       PLACED    
+0603                                         0603                                         R6                                           
+-8.255                        24.765                        90.0      TOP       PLACED    
+0603                                         0603                                         R7                                           
+-21.59                        25.4                          90.0      TOP       PLACED    
+0603                                         0603                                         R8                                           
+-22.86                        25.4                          270.0     TOP       PLACED    
+0603                                         0603                                         R9                                           
+-0.635                        24.765                        90.0      TOP       PLACED    
+UOLED-128-G1                                 UOLED-128-G1                                 TFT-1                                        
+34.99993                      30.99994                      0.0       TOP       FIXED     
+VFQFPN7X7-48                                 VFQFPN7X7-48                                 U1                                           
+-33.5                         16.5                          90.0      TOP       PLACED    
+SOT23-8                                      SOT23-8                                      U2                                           
+26.67                         13.97                         0.0       TOP       PLACED    
+SOT23-6                                      SOT23-6                                      U4                                           
+21.59                         -1.905                        180.0     BOTTOM    PLACED    
+SOT23-6                                      SOT23-6                                      U5                                           
+33.02                         -1.27                         180.0     BOTTOM    PLACED    
+OSC_2X25                                     OSC_2X25                                     Y1                                           
+-21.17                        -0.445                        180.0     BOTTOM    PLACED    
+NODEK                                        NODEK                                        2                                            
+-41.275                       21.59                         90.0      TOP       PLACED    
+TQFP44                                       TQFP44                                       U3                                           
+-6.35                         0.0                           0.0       BOTTOM    PLACED    
+FID-TOP                                      FID-TOP                                      FD3                                          
+45.72                         21.59                         0.0       TOP       PLACED    
+FID-TOP                                      FID-TOP                                      FD1                                          
+-45.72                        -21.59                        0.0       TOP       PLACED    
+FID-TOP                                      FID-TOP                                      FD2                                          
+45.72                         -21.59                        0.0       TOP       PLACED    
+FID-BOT                                      FID-BOT                                      FD4                                          
+-45.72                        -21.59                        0.0       BOTTOM    PLACED    
+FID-BOT                                      FID-BOT                                      FD5                                          
+45.72                         -21.59                        0.0       BOTTOM    PLACED    
+FID-BOT                                      FID-BOT                                      FD6                                          
+45.72                         21.59                         0.0       BOTTOM    PLACED    
+0603                                         0603                                         R33                                          
+-21.082                       -26.543                       90.0      BOTTOM    PLACED    
+0603                                         0603                                         R27                                          
+-29.972                       22.225                        270.0     TOP       PLACED    
+0603                                         0603                                         R34                                          
+-21.717                       -24.765                       0.0       BOTTOM    PLACED    
+0603                                         0603                                         R36                                          
+23.749                        10.668                        180.0     TOP       PLACED    
+JOYSTICK_FOOTPRINT                           JOYSTICK                                     J10                                          
+-55.626                       0.127                         0.0       TOP       PLACED    
+JOYSTICK_FOOTPRINT                           JOYSTICK                                     J11                                          
+54.356                        0.127                         0.0       TOP       PLACED    
+.END_PLACEMENT

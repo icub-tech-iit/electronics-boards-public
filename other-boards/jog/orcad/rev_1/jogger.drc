@@ -1,0 +1,419 @@
+Date and Time : 07/07/14 16:27:08
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict U3,PGC3/EMUC3/ASCL1/RP6/CN24/RB6  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (78.74, 38.10) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,AN7/RP17/CN9/RC1  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 45.72) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,AN4/RP2/CN6/RB2  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 38.10) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,AN5/RP3/CN7/RB3  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 40.64) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,RP19/CN28/RC3  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (78.74, 63.50) 
+WARNING(ORCAP-1829): Possible pin type conflict U3,AN6/RP16/CN8/RC0  Bidirectional Connected to Output
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 43.18) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Compatibility with SDT
+ERROR(ORCAP-1614): Page name greater than 8 characters. Page 3 MainBoard 
+                    SCHEMATIC1, Page 3 MainBoard  (0.00, 0.00) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16738278 
+                    SCHEMATIC1, Page 3 MainBoard  (0.00, 215.90) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16738280 
+                    SCHEMATIC1, Page 3 MainBoard  (276.86, 215.90) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16738282 
+                    SCHEMATIC1, Page 3 MainBoard  (276.86, 0.00) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16738284 
+                    SCHEMATIC1, Page 3 MainBoard  (0.00, 137.16) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16742451 
+                    SCHEMATIC1, Page 3 MainBoard  (241.30, 205.74) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16742453 
+                    SCHEMATIC1, Page 3 MainBoard  (241.30, 274.32) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16742459 
+                    SCHEMATIC1, Page 3 MainBoard  (241.30, 127.00) 
+ERROR(ORCAP-1607): User properties exist on an object that is not a part instance N15825746 
+                    SCHEMATIC1, Page 3 MainBoard  (314.96, 160.02) 
+ERROR(ORCAP-1607): User properties exist on an object that is not a part instance AVDD 
+                    SCHEMATIC1, Page 3 MainBoard  (180.34, 177.80) 
+ERROR(ORCAP-1607): User properties exist on an object that is not a part instance N16690213 
+                    SCHEMATIC1, Page 3 MainBoard  (314.96, 78.74) 
+ERROR(ORCAP-1607): User properties exist on an object that is not a part instance N16690213 
+                    SCHEMATIC1, Page 3 MainBoard  (314.96, 74.93) 
+ERROR(ORCAP-1614): Page name greater than 8 characters. Page 2 Connections 
+                    SCHEMATIC1, Page 2 Connections  (0.00, 0.00) 
+ERROR(ORCAP-1598): More than 8 user properties exist on this part instance C5 
+                    SCHEMATIC1, Page 2 Connections  (101.60, 132.08) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809211 
+                    SCHEMATIC1, Page 2 Connections  (0.00, 228.60) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809213 
+                    SCHEMATIC1, Page 2 Connections  (251.46, 2.54) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809215 
+                    SCHEMATIC1, Page 2 Connections  (165.10, 91.44) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809216 
+                    SCHEMATIC1, Page 2 Connections  (200.66, 101.60) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809220 
+                    SCHEMATIC1, Page 2 Connections  (165.10, 91.44) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16809428 
+                    SCHEMATIC1, Page 2 Connections  (297.18, 162.56) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16810612 
+                    SCHEMATIC1, Page 2 Connections  (284.48, 180.34) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16811078 
+                    SCHEMATIC1, Page 2 Connections  (83.82, 101.60) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16811482 
+                    SCHEMATIC1, Page 2 Connections  (165.10, 91.44) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16811490 
+                    SCHEMATIC1, Page 2 Connections  (165.10, 91.44) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16811494 
+                    SCHEMATIC1, Page 2 Connections  (165.10, 91.44) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I16814145 
+                    SCHEMATIC1, Page 2 Connections  (284.48, 162.56) 
+ERROR(ORCAP-1614): Page name greater than 8 characters. Page 1 Release 
+                    SCHEMATIC1, Page 1 Release  (0.00, 0.00) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335614 
+                    SCHEMATIC1, Page 1 Release  (78.74, 48.26) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335620 
+                    SCHEMATIC1, Page 1 Release  (55.88, 20.32) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335626 
+                    SCHEMATIC1, Page 1 Release  (25.40, 20.32) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335650 
+                    SCHEMATIC1, Page 1 Release  (12.70, 25.40) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335656 
+                    SCHEMATIC1, Page 1 Release  (12.70, 33.02) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335662 
+                    SCHEMATIC1, Page 1 Release  (12.70, 40.64) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335668 
+                    SCHEMATIC1, Page 1 Release  (12.70, 48.26) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335674 
+                    SCHEMATIC1, Page 1 Release  (12.70, 55.88) 
+ERROR(ORCAP-1630): The comment graphic is not a single dashed line I15335680 
+                    SCHEMATIC1, Page 1 Release  (12.70, 63.50) 
+
+Reporting Off-Grid Objects
+    R43  -  Page 3 MainBoard (311.15, 166.37)
+    R37  -  Page 3 MainBoard (312.42, 82.55)
+    C14  -  Page 3 MainBoard (45.72, 69.85)
+    C24  -  Page 3 MainBoard (355.60, 158.75)
+    C13  -  Page 3 MainBoard (203.20, 29.21)
+    R29  -  Page 2 Connections (12.70, 171.45)
+    R30  -  Page 2 Connections (22.86, 171.45)
+    R26  -  Page 2 Connections (143.51, 168.91)
+    R35  -  Page 2 Connections (105.41, 248.92)
+    R25  -  Page 2 Connections (22.86, 151.13)
+    FL1  -  Page 2 Connections (26.67, 207.01)
+    GND  -  Page 3 MainBoard (74.93, 92.71)
+    GND  -  Page 3 MainBoard (77.47, 86.36)
+    GND  -  Page 3 MainBoard (77.47, 83.82)
+    AVDD  -  Page 3 MainBoard (48.26, 67.31)
+    AVDD  -  Page 3 MainBoard (33.02, 67.31)
+    GND  -  Page 3 MainBoard (308.61, 168.91)
+    GND  -  Page 3 MainBoard (307.34, 168.91)
+    GND  -  Page 3 MainBoard (307.34, 168.91)
+    GND  -  Page 3 MainBoard (309.88, 85.09)
+    GND  -  Page 3 MainBoard (307.34, 85.09)
+    N16690213  -  Page 3 MainBoard (314.96, 74.93)
+    N16690213  -  Page 3 MainBoard (307.34, 74.93)
+    N16690213  -  Page 3 MainBoard (314.96, 74.93)
+    GND  -  Page 3 MainBoard (307.34, 85.09)
+    GND  -  Page 3 MainBoard (349.25, 83.82)
+    GND  -  Page 3 MainBoard (349.25, 93.98)
+    N16690213  -  Page 3 MainBoard (314.96, 74.93)
+    GND  -  Page 3 MainBoard (349.25, 93.98)
+    GND  -  Page 3 MainBoard (349.25, 83.82)
+    GND  -  Page 3 MainBoard (349.25, 127.00)
+    GND  -  Page 3 MainBoard (349.25, 93.98)
+    +5V  -  Page 3 MainBoard (396.24, 113.03)
+    +5V  -  Page 3 MainBoard (322.58, 113.03)
+    VCC  -  Page 3 MainBoard (381.00, 181.61)
+    +5V  -  Page 3 MainBoard (322.58, 113.03)
+    +5V  -  Page 3 MainBoard (396.24, 113.03)
+    GND  -  Page 3 MainBoard (142.24, 260.35)
+    AVSS  -  Page 3 MainBoard (48.26, 74.93)
+    GND  -  Page 3 MainBoard (77.47, 88.90)
+    GND  -  Page 3 MainBoard (77.47, 88.90)
+    GND  -  Page 3 MainBoard (77.47, 92.71)
+    GND  -  Page 3 MainBoard (77.47, 83.82)
+    GND  -  Page 3 MainBoard (77.47, 86.36)
+    GND  -  Page 3 MainBoard (77.47, 88.90)
+    GND  -  Page 3 MainBoard (77.47, 86.36)
+    N16662298  -  Page 3 MainBoard (205.74, 26.67)
+    GND  -  Page 3 MainBoard (205.74, 34.29)
+    +5V  -  Page 3 MainBoard (322.58, 113.03)
+    GND  -  Page 3 MainBoard (349.25, 127.00)
+    N16784739  -  Page 3 MainBoard (322.58, 85.09)
+    N16690213  -  Page 3 MainBoard (307.34, 74.93)
+    VCC  -  Page 3 MainBoard (320.04, 181.61)
+    N16664028  -  Page 3 MainBoard (358.14, 163.83)
+    N16663245  -  Page 3 MainBoard (358.14, 156.21)
+    GND  -  Page 3 MainBoard (307.34, 85.09)
+    N16784739  -  Page 3 MainBoard (322.58, 85.09)
+    N16784739  -  Page 3 MainBoard (320.04, 85.09)
+    N16784739  -  Page 3 MainBoard (322.58, 85.09)
+    N16788363  -  Page 3 MainBoard (320.04, 168.91)
+    GND  -  Page 3 MainBoard (307.34, 168.91)
+    VCC  -  Page 3 MainBoard (381.00, 181.61)
+    VCC  -  Page 3 MainBoard (320.04, 181.61)
+    VCC  -  Page 3 MainBoard (320.04, 181.61)
+    N16788363  -  Page 3 MainBoard (318.77, 168.91)
+    N16788363  -  Page 3 MainBoard (320.04, 168.91)
+    N16788363  -  Page 3 MainBoard (320.04, 168.91)
+    GND  -  Page 2 Connections (356.87, 151.13)
+    VCC  -  Page 2 Connections (143.51, 163.83)
+    GND  -  Page 2 Connections (101.60, 151.13)
+    GND  -  Page 2 Connections (19.05, 215.90)
+    MOT_L  -  Page 2 Connections (166.37, 180.34)
+    MOT_H  -  Page 2 Connections (166.37, 177.80)
+    GND  -  Page 2 Connections (359.41, 147.32)
+    GND  -  Page 2 Connections (359.41, 151.13)
+    GND  -  Page 2 Connections (359.41, 147.32)
+    N16649895  -  Page 2 Connections (171.45, 144.78)
+    N16649895  -  Page 2 Connections (171.45, 147.32)
+    N16649895  -  Page 2 Connections (171.45, 149.86)
+    N16649895  -  Page 2 Connections (171.45, 147.32)
+    N16649895  -  Page 2 Connections (171.45, 149.86)
+    N16649895  -  Page 2 Connections (171.45, 152.40)
+    N16649895  -  Page 2 Connections (171.45, 149.86)
+    N16649895  -  Page 2 Connections (171.45, 152.40)
+    N16649927  -  Page 2 Connections (176.53, 137.16)
+    N16649895  -  Page 2 Connections (171.45, 144.78)
+    N16650945  -  Page 2 Connections (130.81, 177.80)
+    MOT_H  -  Page 2 Connections (168.91, 180.34)
+    MOT_L  -  Page 2 Connections (168.91, 182.88)
+    N16650945  -  Page 2 Connections (146.05, 177.80)
+    N16650945  -  Page 2 Connections (146.05, 176.53)
+    N16649895  -  Page 2 Connections (171.45, 147.32)
+    N16649895  -  Page 2 Connections (171.45, 144.78)
+    AN1  -  Page 2 Connections (25.40, 168.91)
+    AN0  -  Page 2 Connections (15.24, 168.91)
+    N16650945  -  Page 2 Connections (146.05, 177.80)
+    AN1  -  Page 2 Connections (25.40, 158.75)
+    GND  -  Page 2 Connections (104.14, 151.13)
+    GND  -  Page 2 Connections (21.59, 215.90)
+    GND  -  Page 2 Connections (21.59, 209.55)
+    GND  -  Page 2 Connections (24.13, 209.55)
+    GND  -  Page 2 Connections (21.59, 209.55)
+    EARTH  -  Page 2 Connections (35.56, 209.55)
+    EARTH  -  Page 2 Connections (31.75, 209.55)
+    EARTH  -  Page 2 Connections (35.56, 209.55)
+    N15815674  -  Page 2 Connections (102.87, 251.46)
+    N15815408  -  Page 2 Connections (113.03, 251.46)
+    AN1_5V  -  Page 2 Connections (25.40, 148.59)
+    AVSS  -  Page 2 Connections (15.24, 179.07)
+    AVSS  -  Page 2 Connections (25.40, 179.07)
+    N16794624  -  Page 2 Connections (104.14, 123.95)
+    N16650945  -  Page 2 Connections (146.05, 177.80)
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    SPIEN
+    GPIO1
+    SCLK
+    CANRX
+    INDEX1
+    AN0
+    AN1
+    MOT_EN
+    MOT_H
+    PGC
+    PHB1
+    MISO
+    MOSI
+    PGD
+    PHA1
+    DRV2FLT
+    MOT_L
+    MCLR
+    HZ1
+    HY1
+    HX1
+    CANTX
+
+Reporting Globals
+    VCC
+    AVDD
+    AVSS
+    EARTH
+    +5V
+    +12V
+    GND
+
+Reporting Net Names
+    +12V
+    HX1
+    N15818762
+    N15815564
+    N15815400
+    HZ1
+    N166504131
+    N16650203
+    PGC
+    MOT_EN
+    N15815960
+    MISO
+    N16650701
+    N16650175
+    CANTX
+    INDX_1
+    +5V
+    MOSI
+    GND
+    N16794628
+    AN1_5V
+    INDEX1
+    N15818842
+    MOT_L
+    PGD
+    N15809004
+    N15815404
+    N166504130
+    N16650705
+    N16650945
+    N15815674
+    PHA1
+    EARTH
+    SCLK
+    SPIEN_R
+    N16650449
+    MCLR
+    N16649895
+    AN0_5V
+    PHB_1
+    VCC
+    DRV2FLT
+    SCLK_R
+    AN0
+    N16650349
+    HY1
+    N15818718
+    MISO_R
+    PHA_1
+    GPIO1
+    SPIEN
+    AVSS
+    MOSI_R
+    N16757867
+    N16794624
+    N15815408
+    PHB1
+    N16649927
+    MOT_H
+    AN1
+    CANRX
+    N16750134
+    AN1_J2
+    N16664028
+    N16662298
+    N15825746
+    N16690213
+    N16784742
+    N16693476
+    N16788363
+    AN2_J1
+    OSCI
+    N16663245
+    TX
+    AN1_J1
+    N16754714
+    RST_SC
+    N16690289
+    N16725082
+    CAN_EN
+    AVDD
+    N16725548
+    CN1
+    CN2
+    N16725238
+    N16784739
+    N16690141
+    RX
+    AN2_J2
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: JOGGER 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package L6206Q_1 , U1 Pin Number 31: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 33: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 37: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 36: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 32: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#6 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 30: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#7 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 29: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#8 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 28: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#9 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 25: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#10 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 24: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#11 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 14: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#12 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 12: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#13 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 9: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#14 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 8: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#15 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 7: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#16 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 5: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#17 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 4: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#18 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package L6206Q_1 , U1 Pin Number 1: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#19 ERROR(ORCAP-36041): Duplicate Pin Name "VSA" found on Package L6206Q_1 , U1 Pin Number 34: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#20 ERROR(ORCAP-36041): Duplicate Pin Name "VSB" found on Package L6206Q_1 , U1 Pin Number 27: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#21 ERROR(ORCAP-36041): Duplicate Pin Name "OUT1B" found on Package L6206Q_1 , U1 Pin Number 11: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#22 ERROR(ORCAP-36041): Duplicate Pin Name "OUT1A" found on Package L6206Q_1 , U1 Pin Number 3: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#23 ERROR(ORCAP-36041): Duplicate Pin Name "SENSEA" found on Package L6206Q_1 , U1 Pin Number 45: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#24 ERROR(ORCAP-36041): Duplicate Pin Name "OUT2A" found on Package L6206Q_1 , U1 Pin Number 39: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#25 ERROR(ORCAP-36041): Duplicate Pin Name "OUT2B" found on Package L6206Q_1 , U1 Pin Number 23: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+#26 ERROR(ORCAP-36041): Duplicate Pin Name "SENSEB" found on Package L6206Q_1 , U1 Pin Number 16: SCHEMATIC1, Page 2 Connections (180.34, 119.38). Please renumber one of these.
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VSS  VSS  GND
+                    SCHEMATIC1, Page 3 MainBoard  (78.74, 88.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VSS  VSS  GND
+                    SCHEMATIC1, Page 3 MainBoard  (78.74, 83.82) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VSS  VSS  GND
+                    SCHEMATIC1, Page 3 MainBoard  (78.74, 86.36) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDD  VDD  VCC
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 20.32) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VDD  VDD  VCC
+                    SCHEMATIC1, Page 3 MainBoard  (170.18, 22.86) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

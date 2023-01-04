@@ -1,0 +1,311 @@
+(PCB EXTENSION_BOARD
+ (description
+  (timeStamp "2014 05 05 12 43 07")
+  (program "CAPTURE.EXE" (Version "16.6.0.d001"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "P2013_JOG")
+  (date "Monday, May 05, 2014")
+  (document "ADD-ON BOARDS")
+  (revision "0")
+  (organization "IIT - Istituto Italiano di Tecnologia")
+  (address1 "Via Morego, 30")
+  (address2 "16163 -Genova")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "53261-0671"
+   (place J12
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0671")
+     (timestamp 00F134BE)
+     (code_description "PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 1124)
+     ("Source Package" "53261-0671")
+     (Value "53261-0671")
+     (Geometry.Height 3.4mm)))
+   (place J13
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0671")
+     (timestamp 00F134E2)
+     (code_description "PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 1124)
+     ("Source Package" "53261-0671")
+     (Value "53261-0671")
+     (Geometry.Height 3.4mm)))
+   (place J7
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0671")
+     (timestamp 00F12FCD)
+     (code_description "PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 1124)
+     ("Source Package" "53261-0671")
+     (Value "53261-0671")
+     (Geometry.Height 3.4mm)))
+   (place J8
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0671")
+     (timestamp 00F13037)
+     (code_description "PCB connector, Picoblade, 6 contacts, 1 row, male, p.1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 1124)
+     ("Source Package" "53261-0671")
+     (Value "53261-0671")
+     (Geometry.Height 3.4mm))))
+  (component "53261-0771"
+   (place J11
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0771")
+     (timestamp 00F131D2)
+     (code_description "PCB connector, Picoblade, 7 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 631)
+     ("Source Package" "53261-0771")
+     (Value "53261-0771")
+     (Geometry.Height 3.4mm)))
+   (place J14
+    (property 
+     (Current 1A)
+     ("PCB Footprint" "53261-0771")
+     (timestamp 00F13508)
+     (code_description "PCB connector, Picoblade, 7 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD")
+     (IITCODE 631)
+     ("Source Package" "53261-0771")
+     (Value "53261-0771")
+     (Geometry.Height 3.4mm)))))
+ (library
+  (image "53261-0771"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    (IITCODE "<TO COMPLETE>")
+    ("PCB Footprint" "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805621)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805636)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805651)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805666)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805691)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15805722)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 8)
+     ("Is No Connect" False))))
+  (image "53261-0671"
+   (property 
+    (sourcelib O:\\CO.OLB)
+    ("PCB Footprint" "<TO COMPLETE>")
+    (IITCODE "<TO COMPLETE>"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807446)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807458)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807470)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807482)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807502)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N15807522)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" False)))))
+ (network
+  (net N15805621
+   (pins
+     J7-1 J8-1 J11-1))
+  (net N15805636
+   (pins
+     J7-2 J8-2 J11-2))
+  (net N15805651
+   (pins
+     J7-3 J8-3 J11-3))
+  (net N15805666
+   (pins
+     J7-4 J8-4 J11-4))
+  (net N15805691
+   (pins
+     J7-5 J8-5 J11-5))
+  (net N15805722
+   (pins
+     J7-6 J8-6 J11-6))
+  (net N15807446
+   (pins
+     J14-1 J12-1 J13-1))
+  (net N15807458
+   (pins
+     J14-4 J12-2 J13-2))
+  (net N15807470
+   (pins
+     J14-3 J12-3 J13-3))
+  (net N15807482
+   (pins
+     J14-2 J12-4 J13-4))
+  (net N15807502
+   (pins
+     J14-5 J12-5 J13-5))
+  (net N15807522
+   (pins
+     J14-6 J12-6 J13-6)))
+)

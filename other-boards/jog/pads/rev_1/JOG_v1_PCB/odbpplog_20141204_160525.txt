@@ -1,0 +1,1554 @@
+*********** WARNING  04Dec2014.160526.872 get 9864  9.4(1227524) Windows 7
+Highest supported PADS ASCII version is 9.5td, (version 10.0td is not supported yet)
+***********  COMMAND 04Dec2014.160529.340 get 9864 pads_user 9.4(1227524) Windows 7
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/tmp/wfInit-genesis186a2.iiticubws003.9864,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 04Dec2014.160529.358 get 9864 pads_user 9.4(1227524) Windows 7
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 04Dec2014.160529.362 get 9864 pads_user 9.4(1227524) Windows 7
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 04Dec2014.160529.364 get 9864 pads_user 9.4(1227524) Windows 7
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 04Dec2014.160529.367 get 9864 pads_user 9.4(1227524) Windows 7
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 04Dec2014.160529.370 get 9864 pads_user 9.4(1227524) Windows 7
+create_entity,job=,is_fw=no,type=job,name=jog_v1,db=C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525,fw_type=form (-1)
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/e91/all/lyr_types
+saving job - jog_v1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/input
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/output
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/fonts
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/wheels
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/matrix
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/whltemps
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/user
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc/info
+***********  COMMAND 04Dec2014.160530.469 get 9864 pads_user 9.4(1227524) Windows 7
+eda_params_pads,unhatched_mode=discard,default_cam_layers=no,prefer_closed_shapes=yes,comp_outline_layer=20,non_shape_pins=use_drill (-1)
+***********  COMMAND 04Dec2014.160530.469 get 9864 pads_user 9.4(1227524) Windows 7
+eda_translate,path=D:/iCubHardware/electronics/private/P2013_02_JOG/PCB/rev_1/JOG_v1_PCB/JOG_v1_tmp.tmp,job=jog_v1,step=pcb,source=pads_powerpcb,step_autodetection=no,overwrite=merge (-1)
+*********** WARNING  04Dec2014.160530.495 get 9864 pads_user 9.4(1227524) Windows 7
+Highest supported PADS ASCII version is 9.5td, (version 10.0td is not supported yet)
+*********** WARNING  04Dec2014.160530.500 get 9864 pads_user 9.4(1227524) Windows 7
+Highest supported PADS ASCII version is 9.5td, (version 10.0td is not supported yet)
+*********** WARNING  04Dec2014.160530.501 get 9864 pads_user 9.4(1227524) Windows 7
+Highest supported PADS ASCII version is 9.5td, (version 10.0td is not supported yet)
+*********** ERROR INTERNAL 04Dec2014.160530.625 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+*********** ERROR INTERNAL 04Dec2014.160530.629 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+*********** ERROR INTERNAL 04Dec2014.160530.631 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+*********** ERROR INTERNAL 04Dec2014.160530.637 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+*********** ERROR INTERNAL 04Dec2014.160530.638 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+*********** ERROR INTERNAL 04Dec2014.160530.641 get 9864 pads_user 9.4(1227524) Windows 7
+((ng % 2) == 0) at D:\anthill3\var\jobs\projects\13540_102349\s_dev\code\mat\mat_cop.c 10051
+***********  COMMAND 04Dec2014.160531.789 get 9864 pads_user 9.4(1227524) Windows 7
+open_job,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160531.793 get 9864 pads_user 9.4(1227524) Windows 7
+entity_exist,type=step,name=*,parent_job=jog_v1,parent_step=,op=count (-1)
+***********  COMMAND 04Dec2014.160531.796 get 9864 pads_user 9.4(1227524) Windows 7
+entity_exist,type=step,name=*,parent_job=jog_v1,parent_step=,op=first (-1)
+***********  COMMAND 04Dec2014.160531.802 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160531.803 get 9864 pads_user 9.4(1227524) Windows 7
+save_job,job=jog_v1,override=no (-1)
+saving job - jog_v1
+saving matrix - matrix
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/matrix/matrix
+saving idf - idf
+saving step - pcb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/stephdr
+write step profile - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+saving netlist - cadnet
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/cadnet
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/attrlist
+saving eda - eda
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/eda
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/eda/data.Z
+saving layer - sst
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst/features
+saving relation - relation
+compressing features file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst/attrlist
+saving layer - spt
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spt
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spt/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spt/attrlist
+saving layer - smt
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smt
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smt/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smt/attrlist
+saving layer - sigt
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt/features
+saving relation - relation
+compressing features file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt/attrlist
+saving layer - sig2
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig2
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig2/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig2/attrlist
+saving layer - sig3
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig3
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig3/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig3/attrlist
+saving layer - sigb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb/features
+saving relation - relation
+compressing features file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb/attrlist
+saving layer - smb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smb
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smb/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smb/attrlist
+saving layer - spb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spb
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spb/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spb/attrlist
+saving layer - ssb
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb/features
+saving relation - relation
+compressing features file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb/attrlist
+saving layer - foratura-e-tranciatura.doc
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/foratura-e-tranciatura.doc
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/foratura-e-tranciatura.doc/features
+saving relation - relation
+compressing features file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/foratura-e-tranciatura.doc/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/foratura-e-tranciatura.doc/attrlist
+saving layer - drill
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/drill
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/drill/features
+saving relation - relation
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/drill/attrlist
+saving layer - rout
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/rout
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/rout/features
+saving relation - relation
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top/components.Z
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot/components.Z
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot/attrlist
+saving symbol - drill_symbol1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol2
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2
+saving layer - drill_symbol2
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2/attrlist
+saving symbol - drill_symbol3
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3
+saving layer - drill_symbol3
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3/attrlist
+saving symbol - drill_symbol4
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4
+saving layer - drill_symbol4
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4/attrlist
+saving symbol - drill_symbol5
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5
+saving layer - drill_symbol5
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5/attrlist
+saving symbol - drill_symbol6
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6
+saving layer - drill_symbol6
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6/attrlist
+saving symbol - drill_symbol7
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7
+saving layer - drill_symbol7
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7/attrlist
+saving symbol - drill_symbol8
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8
+saving layer - drill_symbol8
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8/attrlist
+saving symbol - drill_symbol9
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9
+saving layer - drill_symbol9
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9/attrlist
+saving symbol - drill_symbol10
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10
+saving layer - drill_symbol10
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10/attrlist
+saving symbol - drill_symbol1+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1+1/attrlist
+saving symbol - drill_symbol2+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2+1
+saving layer - drill_symbol2+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2+1/attrlist
+saving symbol - drill_symbol3+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3+1
+saving layer - drill_symbol3+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3+1/attrlist
+saving symbol - drill_symbol4+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4+1
+saving layer - drill_symbol4+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4+1/attrlist
+saving symbol - drill_symbol5+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5+1
+saving layer - drill_symbol5+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5+1/attrlist
+saving symbol - drill_symbol6+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6+1
+saving layer - drill_symbol6+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6+1/attrlist
+saving symbol - drill_symbol7+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7+1
+saving layer - drill_symbol7+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7+1/attrlist
+saving symbol - drill_symbol8+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8+1
+saving layer - drill_symbol8+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8+1/attrlist
+saving symbol - drill_symbol9+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9+1
+saving layer - drill_symbol9+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9+1/attrlist
+saving symbol - drill_symbol10+1
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10+1
+saving layer - drill_symbol10+1
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10+1/attrlist
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc/info
+***********  COMMAND 04Dec2014.160532.536 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.537 get 9864 pads_user 9.4(1227524) Windows 7
+get_job_path,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160532.539 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.540 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_page_open,set=yes,job1=jog_v1,step1=pcb,type1=cad,job2=jog_v1,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 04Dec2014.160532.675 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 04Dec2014.160532.676 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 04Dec2014.160532.681 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.681 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_recalc,job=jog_v1,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 04Dec2014.160532.688 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.688 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_recalc,job=jog_v1,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 04Dec2014.160532.813 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.813 get 9864 pads_user 9.4(1227524) Windows 7
+netlist_compare,job1=jog_v1,step1=pcb,type1=cad,job2=jog_v1,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+*********** NOTICE  04Dec2014.160532.827 get 9864 pads_user 9.4(1227524) Windows 7
+Number of netlist issues found: 2 shorted 2 broken 0 missing 0 extra
+***********  COMMAND 04Dec2014.160532.829 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.829 get 9864 pads_user 9.4(1227524) Windows 7
+save_job,job=jog_v1,override=no (-1)
+saving job - jog_v1
+saving step - pcb
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/stephdr
+write step profile - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+saving netlist - curcadnet
+create directory - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/curcadnet
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/curcadnet/netlist
+write file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc/info
+***********  COMMAND 04Dec2014.160532.933 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.934 get 9864 pads_user 9.4(1227524) Windows 7
+get_job_path,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160532.937 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160532.937 get 9864 pads_user 9.4(1227524) Windows 7
+export_job,job=jog_v1,mode=tar_gzip,version=v8,submode=full,path=C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525 (-1)
+***********  COMMAND 04Dec2014.160533.360 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160533.360 get 9864 pads_user 9.4(1227524) Windows 7
+close_job,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.365 get 9864 pads_user 9.4(1227524) Windows 7
+close_form,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.365 get 9864 pads_user 9.4(1227524) Windows 7
+close_flow,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.366 get 9864 pads_user 9.4(1227524) Windows 7
+job_path_exists,job_name=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.367 get 9864 pads_user 9.4(1227524) Windows 7
+delete_entity,job=,type=job,name=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.406 get 9864 pads_user 9.4(1227524) Windows 7
+close_form,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.406 get 9864 pads_user 9.4(1227524) Windows 7
+close_flow,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.160533.407 get 9864 pads_user 9.4(1227524) Windows 7
+import_job,db=,path=C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1.tgz,name=jog_v1 (-1)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/stephdr
+read step profile - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/profile
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/drill/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/foratura-e-tranciatura.doc/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/rout/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig2/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig3/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smb/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smt/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spb/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spt/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/cadnet/netlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/netlists/curcadnet/netlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/eda/data.Z
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol1+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol10+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol2+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol3+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol4+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol5+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol6+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol7+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol8+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9+1/features
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/symbols/drill_symbol9+1/attrlist
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/matrix/matrix
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/e91/all/lyr_types
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/misc/attrlist
+***********  COMMAND 04Dec2014.160534.185 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.160534.185 get 9864 pads_user 9.4(1227524) Windows 7
+cam_compare,job=jog_v1,step=pcb,action=open,path=,show_modal=no (-1)
+***********  COMMAND 04Dec2014.160534.523 get 9864 pads_user 9.4(1227524) Windows 7
+units,type=inch (0)
+***********  COMMAND 04Dec2014.160534.524 get 9864 pads_user 9.4(1227524) Windows 7
+set_group,group=0 (-1)
+***********  COMMAND 04Dec2014.160534.524 get 9864 pads_user 9.4(1227524) Windows 7
+display_comp_outline_mode,mode=Body (0)
+***********  COMMAND 04Dec2014.160534.649 get 9864 pads_user 9.4(1227524) Windows 7
+multi_layer_disp,mode=many,show_board=no (0)
+***********  COMMAND 04Dec2014.160534.756 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_home (0)
+***********  COMMAND 04Dec2014.160548.247 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=comp_+_top,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_top/components.Z
+***********  COMMAND 04Dec2014.160548.329 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=comp_+_top (0)
+***********  COMMAND 04Dec2014.160550.343 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=comp_+_top,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.160551.399 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=comp_+_bot,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/comp_+_bot/components.Z
+***********  COMMAND 04Dec2014.160551.471 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=comp_+_bot (0)
+***********  COMMAND 04Dec2014.160552.897 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1579954724,y=-0.2701408465 (0)
+***********  COMMAND 04Dec2014.160552.927 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1579954724,y=-0.2611955709 (0)
+***********  COMMAND 04Dec2014.160552.952 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.157995374,y=-0.2576175197 (0)
+***********  COMMAND 04Dec2014.160552.975 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1516341535,y=-0.2520514764 (0)
+***********  COMMAND 04Dec2014.160553.032 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1304305118,y=-0.2377389764 (0)
+***********  COMMAND 04Dec2014.160553.583 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1919206693,y=-0.2091140748 (0)
+***********  COMMAND 04Dec2014.160553.623 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1919207677,y=-0.2084073819 (0)
+***********  COMMAND 04Dec2014.160553.655 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1919207677,y=-0.2069938976 (0)
+***********  COMMAND 04Dec2014.160553.703 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1919208661,y=-0.2041667323 (0)
+***********  COMMAND 04Dec2014.160554.273 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.764459252,y=-0.1872038386 (0)
+***********  COMMAND 04Dec2014.160554.305 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8549276575,y=-0.1382000984 (0)
+***********  COMMAND 04Dec2014.160554.344 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8549276575,y=-0.1306610236 (0)
+***********  COMMAND 04Dec2014.160554.816 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9871005906,y=0.2295374016 (0)
+***********  COMMAND 04Dec2014.160554.848 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9871005906,y=0.2306543307 (0)
+***********  COMMAND 04Dec2014.160554.888 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.982632874,y=0.2239528543 (0)
+***********  COMMAND 04Dec2014.160556.664 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.1236096457,y=0.0953859252 (0)
+***********  COMMAND 04Dec2014.160558.704 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8582780512,y=0.5014390748 (0)
+***********  COMMAND 04Dec2014.160558.784 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8701915354,y=0.5021009843 (0)
+***********  COMMAND 04Dec2014.160558.856 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8975484252,y=0.5069545276 (0)
+***********  COMMAND 04Dec2014.160559.240 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.9110797244,y=0.514308563 (0)
+***********  COMMAND 04Dec2014.160559.280 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.9110797244,y=0.5145044291 (0)
+***********  COMMAND 04Dec2014.160559.360 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.9110797244,y=0.5146351378 (0)
+***********  COMMAND 04Dec2014.160559.793 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.9103822835,y=0.512630315 (0)
+***********  COMMAND 04Dec2014.160559.872 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.9103822835,y=0.5128045276 (0)
+***********  COMMAND 04Dec2014.160600.352 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.9096851378,y=0.5124560039 (0)
+***********  COMMAND 04Dec2014.160600.752 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.9096851378,y=0.5131534449 (0)
+***********  COMMAND 04Dec2014.160600.792 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.9096851378,y=0.5145480315 (0)
+***********  COMMAND 04Dec2014.160601.776 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8961333661,y=1.471203937 (0)
+***********  COMMAND 04Dec2014.160601.929 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8663829724,y=1.3652187008 (0)
+***********  COMMAND 04Dec2014.160601.975 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.866382874,y=1.3664583661 (0)
+***********  COMMAND 04Dec2014.160602.032 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8663827756,y=1.3672847441 (0)
+***********  COMMAND 04Dec2014.160602.696 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9203738189,y=1.2730755906 (0)
+***********  COMMAND 04Dec2014.160602.815 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9203737205,y=1.273442815 (0)
+***********  COMMAND 04Dec2014.160603.655 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9247811024,y=1.2785847441 (0)
+***********  COMMAND 04Dec2014.160603.695 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9247812008,y=1.2790744094 (0)
+***********  COMMAND 04Dec2014.160603.743 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9247812992,y=1.280053937 (0)
+***********  COMMAND 04Dec2014.160604.712 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9247813976,y=1.2820127953 (0)
+***********  COMMAND 04Dec2014.160605.552 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.1833512795,y=-1.4799825787 (0)
+***********  COMMAND 04Dec2014.160606.000 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9848531496,y=-1.1900708661 (0)
+***********  COMMAND 04Dec2014.160606.049 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9778882874,y=-1.188329626 (0)
+***********  COMMAND 04Dec2014.160606.120 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9778882874,y=-1.1871687992 (0)
+***********  COMMAND 04Dec2014.160606.320 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9778880906,y=-1.194133563 (0)
+***********  COMMAND 04Dec2014.160606.473 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9727288386,y=-1.2070312992 (0)
+***********  COMMAND 04Dec2014.160607.280 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9665377953,y=-1.2431452756 (0)
+***********  COMMAND 04Dec2014.160607.824 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9665377953,y=-1.2429158465 (0)
+***********  COMMAND 04Dec2014.160608.616 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9665377953,y=-1.242457185 (0)
+***********  COMMAND 04Dec2014.160609.505 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9500284449,y=-1.2562149606 (0)
+***********  COMMAND 04Dec2014.160610.136 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9536972441,y=-1.2140245079 (0)
+***********  COMMAND 04Dec2014.160611.128 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2419648622,y=0.0810350394 (0)
+***********  COMMAND 04Dec2014.160611.168 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2419647638,y=0.0834809055 (0)
+***********  COMMAND 04Dec2014.160611.216 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2419646654,y=0.0851115157 (0)
+***********  COMMAND 04Dec2014.160611.280 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2419646654,y=0.0861985236 (0)
+***********  COMMAND 04Dec2014.160612.088 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.2535596457,y=-0.0014883858 (0)
+***********  COMMAND 04Dec2014.160613.152 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.2535597441,y=-0.0000390748 (0)
+***********  COMMAND 04Dec2014.160615.513 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9086759843,y=1.2841047244 (0)
+***********  COMMAND 04Dec2014.160615.585 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9086759843,y=1.2860372047 (0)
+***********  COMMAND 04Dec2014.160615.681 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9086757874,y=1.2873254921 (0)
+***********  COMMAND 04Dec2014.160615.785 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9086757874,y=1.2881843504 (0)
+***********  COMMAND 04Dec2014.160616.626 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9281438976,y=1.2738694882 (0)
+***********  COMMAND 04Dec2014.160618.025 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_area,x1=-0.9922741142,y1=1.159732874,x2=-0.9395956693,y2=1.1757654528 (0)
+***********  COMMAND 04Dec2014.160618.689 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9664961614,y=1.1701349409 (0)
+***********  COMMAND 04Dec2014.160618.713 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9705195866,y=1.1700882874 (0)
+***********  COMMAND 04Dec2014.160618.729 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9787535433,y=1.1711174213 (0)
+***********  COMMAND 04Dec2014.160618.745 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9862389764,y=1.1701818898 (0)
+***********  COMMAND 04Dec2014.160618.769 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.0049525591,y=1.1735501969 (0)
+***********  COMMAND 04Dec2014.160619.104 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.0378883858,y=1.1817841535 (0)
+***********  COMMAND 04Dec2014.160619.128 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.0378883858,y=1.1832812008 (0)
+***********  COMMAND 04Dec2014.160619.152 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.0378884843,y=1.1862753937 (0)
+***********  COMMAND 04Dec2014.160619.176 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.0378885827,y=1.1922637795 (0)
+***********  COMMAND 04Dec2014.160620.049 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.3034934055,y=0.1502972441 (0)
+***********  COMMAND 04Dec2014.160620.137 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5589947835,y=-0.3367520669 (0)
+***********  COMMAND 04Dec2014.160620.160 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5696406496,y=-0.3314290354 (0)
+***********  COMMAND 04Dec2014.160620.200 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5696406496,y=-0.327880315 (0)
+***********  COMMAND 04Dec2014.160620.233 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5791036417,y=-0.3255145669 (0)
+***********  COMMAND 04Dec2014.160620.768 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.7589008858,y=0.0608918307 (0)
+***********  COMMAND 04Dec2014.160620.832 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.7589008858,y=0.0619432087 (0)
+***********  COMMAND 04Dec2014.160620.864 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.7589007874,y=0.0626441929 (0)
+***********  COMMAND 04Dec2014.160622.641 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.786004626,y=0.0275959646 (0)
+***********  COMMAND 04Dec2014.160622.705 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.7916123031,y=0.0304 (0)
+***********  COMMAND 04Dec2014.160622.761 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8065662402,y=0.0322692913 (0)
+***********  COMMAND 04Dec2014.160623.672 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1579598425,y=1.3594276575 (0)
+***********  COMMAND 04Dec2014.160623.729 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1729136811,y=1.336996752 (0)
+***********  COMMAND 04Dec2014.160623.769 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.176236811,y=1.3320122047 (0)
+***********  COMMAND 04Dec2014.160623.849 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1806675197,y=1.3242583661 (0)
+***********  COMMAND 04Dec2014.160624.321 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1983906496,y=1.2910273622 (0)
+***********  COMMAND 04Dec2014.160624.361 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1777136811,y=1.283642815 (0)
+***********  COMMAND 04Dec2014.160624.392 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1422675197,y=1.2806890748 (0)
+***********  COMMAND 04Dec2014.160624.434 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.0713749016,y=1.2747814961 (0)
+***********  COMMAND 04Dec2014.160624.489 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.0231482283,y=1.2865969488 (0)
+***********  COMMAND 04Dec2014.160625.041 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9220854331,y=1.3102278543 (0)
+***********  COMMAND 04Dec2014.160625.073 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9220854331,y=1.3259817913 (0)
+***********  COMMAND 04Dec2014.160625.097 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9220854331,y=1.3364844488 (0)
+***********  COMMAND 04Dec2014.160625.145 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9220854331,y=1.3434863189 (0)
+***********  COMMAND 04Dec2014.160625.257 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9220854331,y=1.4508462598 (0)
+***********  COMMAND 04Dec2014.160625.665 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9718754921,y=1.3792729331 (0)
+***********  COMMAND 04Dec2014.160625.697 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9718753937,y=1.3730492126 (0)
+***********  COMMAND 04Dec2014.160625.721 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9718752953,y=1.3744322835 (0)
+***********  COMMAND 04Dec2014.160625.777 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9718751969,y=1.3716660433 (0)
+***********  COMMAND 04Dec2014.160626.170 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9571225394,y=1.3562987205 (0)
+***********  COMMAND 04Dec2014.160626.194 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9472875,y=1.3476930118 (0)
+***********  COMMAND 04Dec2014.160626.225 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9325349409,y=1.3452343504 (0)
+***********  COMMAND 04Dec2014.160627.354 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.126058563,y=-0.1054398622 (0)
+***********  COMMAND 04Dec2014.160627.433 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1260584646,y=-0.0693778543 (0)
+***********  COMMAND 04Dec2014.160627.489 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1260584646,y=-0.0671923228 (0)
+***********  COMMAND 04Dec2014.160627.537 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1260584646,y=-0.0657352362 (0)
+***********  COMMAND 04Dec2014.160627.593 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1260584646,y=-0.064763878 (0)
+***********  COMMAND 04Dec2014.160628.825 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1377148622,y=-0.0472791339 (0)
+***********  COMMAND 04Dec2014.160628.889 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1377149606,y=-0.0459840551 (0)
+***********  COMMAND 04Dec2014.160629.721 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0072014764,y=-0.0278519685 (0)
+***********  COMMAND 04Dec2014.160629.762 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0141089567,y=-0.0261250984 (0)
+***********  COMMAND 04Dec2014.160629.802 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.032528937,y=-0.0249737205 (0)
+***********  COMMAND 04Dec2014.160629.866 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0693688976,y=-0.0303461614 (0)
+***********  COMMAND 04Dec2014.160629.953 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0714154528,y=-0.0308576772 (0)
+***********  COMMAND 04Dec2014.160630.377 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.0816487205,y=-0.030516437 (0)
+***********  COMMAND 04Dec2014.161039.394 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.2425167323,y=0.2512408465 (0)
+***********  COMMAND 04Dec2014.161039.435 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.2425168307,y=0.2689785433 (0)
+***********  COMMAND 04Dec2014.161039.474 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.2534323819,y=0.2826231299 (0)
+***********  COMMAND 04Dec2014.161039.787 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.3625877953,y=0.233503248 (0)
+***********  COMMAND 04Dec2014.161039.818 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6245606299,y=0.0406622047 (0)
+***********  COMMAND 04Dec2014.161039.842 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8331687008,y=-0.0927499016 (0)
+***********  COMMAND 04Dec2014.161039.882 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.2309793307,y=-0.2948894685 (0)
+***********  COMMAND 04Dec2014.161039.947 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.681615748,y=-0.4339614173 (0)
+***********  COMMAND 04Dec2014.161040.095 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.2436534449,y=-0.4893025591 (0)
+***********  COMMAND 04Dec2014.161040.114 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.32415,y=-0.5022395669 (0)
+***********  COMMAND 04Dec2014.161040.130 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.3758977362,y=-0.5051144685 (0)
+***********  COMMAND 04Dec2014.161040.146 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.3873972441,y=-0.5108642717 (0)
+***********  COMMAND 04Dec2014.161040.162 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.3873973425,y=-0.4993647638 (0)
+***********  COMMAND 04Dec2014.161041.018 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9244569882,y=0.3515978346 (0)
+***********  COMMAND 04Dec2014.161041.122 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.4764326772,y=0.5815876969 (0)
+***********  COMMAND 04Dec2014.161041.666 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-5.6264724409,y=0.203382185 (0)
+***********  COMMAND 04Dec2014.161042.394 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.0603005906,y=-0.798351378 (0)
+***********  COMMAND 04Dec2014.161042.595 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.0875587598,y=-0.7847223425 (0)
+***********  COMMAND 04Dec2014.161042.690 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.1420748031,y=-0.7756362205 (0)
+***********  COMMAND 04Dec2014.161042.810 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.1420749016,y=-0.7695788386 (0)
+***********  COMMAND 04Dec2014.161042.962 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.7786341535,y=-0.6766994094 (0)
+***********  COMMAND 04Dec2014.161043.242 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.7786341535,y=-0.674007185 (0)
+***********  COMMAND 04Dec2014.161043.859 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.9509320866,y=0.6559169291 (0)
+***********  COMMAND 04Dec2014.161043.977 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.8934995079,y=0.5948947835 (0)
+***********  COMMAND 04Dec2014.161044.609 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.6781271654,y=0.4441341535 (0)
+***********  COMMAND 04Dec2014.161045.178 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6730563976,y=-0.1828384843 (0)
+***********  COMMAND 04Dec2014.161045.298 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6730564961,y=-0.1222149606 (0)
+***********  COMMAND 04Dec2014.161045.778 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6560393701,y=-0.0690365157 (0)
+***********  COMMAND 04Dec2014.161046.666 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9623468504,y=-0.0732906496 (0)
+***********  COMMAND 04Dec2014.161046.754 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9623469488,y=-0.0704544291 (0)
+***********  COMMAND 04Dec2014.161047.290 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9018417323,y=-0.0572187992 (0)
+***********  COMMAND 04Dec2014.161048.122 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5841897638,y=0.3171565945 (0)
+***********  COMMAND 04Dec2014.161052.226 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.0497276575,y=0.0625309055 (0)
+***********  COMMAND 04Dec2014.161052.858 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.0057353346,y=0.0406817913 (0)
+***********  COMMAND 04Dec2014.161053.610 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.0043487205,y=0.0440432087 (0)
+***********  COMMAND 04Dec2014.161540.742 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0284542323,y=-1.2848288386 (0)
+***********  COMMAND 04Dec2014.161540.781 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9612262795,y=-1.2325403543 (0)
+***********  COMMAND 04Dec2014.161540.829 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9263674213,y=-1.2036572835 (0)
+***********  COMMAND 04Dec2014.161540.893 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8925044291,y=-1.1817457677 (0)
+***********  COMMAND 04Dec2014.161540.933 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8885205709,y=-1.1813030512 (0)
+***********  COMMAND 04Dec2014.161541.085 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8628465551,y=-1.1627115157 (0)
+***********  COMMAND 04Dec2014.161541.102 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8634369094,y=-1.1621211614 (0)
+***********  COMMAND 04Dec2014.161541.117 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8646173228,y=-1.1609408465 (0)
+***********  COMMAND 04Dec2014.161541.135 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8669781496,y=-1.1585801181 (0)
+***********  COMMAND 04Dec2014.161541.149 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8622564961,y=-1.1444151575 (0)
+***********  COMMAND 04Dec2014.161541.452 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.5884019685,y=-1.0405393701 (0)
+***********  COMMAND 04Dec2014.161541.493 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6072885827,y=-1.0216527559 (0)
+***********  COMMAND 04Dec2014.161541.732 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.4125838583,y=-0.3795106299 (0)
+***********  COMMAND 04Dec2014.161541.759 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.116238878,y=-0.7068770669 (0)
+***********  COMMAND 04Dec2014.161541.774 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.4687875,y=-0.9251214567 (0)
+***********  COMMAND 04Dec2014.161541.789 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5918997047,y=-1.0034655512 (0)
+***********  COMMAND 04Dec2014.161541.806 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6292064961,y=-1.0109268701 (0)
+***********  COMMAND 04Dec2014.161541.846 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6540776575,y=-1.0059526575 (0)
+***********  COMMAND 04Dec2014.161542.149 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.922686122,y=-0.9296811024 (0)
+***********  COMMAND 04Dec2014.161542.212 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9602692913,y=-0.9495779528 (0)
+***********  COMMAND 04Dec2014.161542.253 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.000063189,y=-0.9716855315 (0)
+***********  COMMAND 04Dec2014.161542.277 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0226622047,y=-0.9864238189 (0)
+***********  COMMAND 04Dec2014.161542.300 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0272475394,y=-0.9896989173 (0)
+***********  COMMAND 04Dec2014.161542.364 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0276840551,y=-0.9892620079 (0)
+***********  COMMAND 04Dec2014.161542.636 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.0169121063,y=-0.9843126969 (0)
+***********  COMMAND 04Dec2014.161542.692 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.0163299213,y=-0.9837305118 (0)
+***********  COMMAND 04Dec2014.161542.716 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.0174944882,y=-0.9825660433 (0)
+***********  COMMAND 04Dec2014.161543.077 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6797837598,y=-0.7892556102 (0)
+***********  COMMAND 04Dec2014.161543.668 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.0204809055,y=-0.2535761811 (0)
+***********  COMMAND 04Dec2014.161543.709 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.0049540354,y=-0.2318385827 (0)
+***********  COMMAND 04Dec2014.161544.045 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1254721457,y=-0.2256278543 (0)
+***********  COMMAND 04Dec2014.161544.069 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1130505906,y=-0.1883630906 (0)
+***********  COMMAND 04Dec2014.161544.092 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1047695866,y=-0.1690405512 (0)
+***********  COMMAND 04Dec2014.161544.124 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1066098425,y=-0.1672002953 (0)
+***********  COMMAND 04Dec2014.161544.156 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1078367126,y=-0.1659734252 (0)
+***********  COMMAND 04Dec2014.161544.644 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6599056102,y=-0.0244802165 (0)
+***********  COMMAND 04Dec2014.161544.676 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6604508858,y=-0.0239348425 (0)
+***********  COMMAND 04Dec2014.161544.756 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6608143701,y=-0.0235712598 (0)
+***********  COMMAND 04Dec2014.161544.996 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6610565945,y=-0.0233288386 (0)
+***********  COMMAND 04Dec2014.161545.028 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6615413386,y=-0.0228441929 (0)
+***********  COMMAND 04Dec2014.161545.052 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6625108268,y=-0.0218749016 (0)
+***********  COMMAND 04Dec2014.161545.452 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8001568898,y=-0.0315683071 (0)
+***********  COMMAND 04Dec2014.161545.508 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8014494094,y=-0.0302757874 (0)
+***********  COMMAND 04Dec2014.161545.556 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8023109252,y=-0.0294140748 (0)
+***********  COMMAND 04Dec2014.161545.604 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8028854331,y=-0.0288396654 (0)
+***********  COMMAND 04Dec2014.161545.684 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8032683071,y=-0.0284565945 (0)
+***********  COMMAND 04Dec2014.161548.373 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8111824803,y=-0.0210528543 (0)
+***********  COMMAND 04Dec2014.161548.893 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8116931102,y=-0.0205423228 (0)
+***********  COMMAND 04Dec2014.161549.909 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8127144685,y=-0.0195211614 (0)
+***********  COMMAND 04Dec2014.161550.293 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8133952756,y=-0.0188403543 (0)
+***********  COMMAND 04Dec2014.161550.405 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8138491142,y=-0.0183865157 (0)
+***********  COMMAND 04Dec2014.161550.501 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8141514764,y=-0.0180839567 (0)
+***********  COMMAND 04Dec2014.161550.637 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8143530512,y=-0.017882185 (0)
+***********  COMMAND 04Dec2014.161551.909 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8112598425,y=-0.0247405512 (0)
+***********  COMMAND 04Dec2014.161551.989 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8113494094,y=-0.0246507874 (0)
+***********  COMMAND 04Dec2014.161552.165 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8114089567,y=-0.0247105315 (0)
+***********  COMMAND 04Dec2014.161552.245 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8120065945,y=-0.0246705709 (0)
+***********  COMMAND 04Dec2014.161552.653 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8131487205,y=-0.0259720472 (0)
+***********  COMMAND 04Dec2014.161552.701 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8131662402,y=-0.0259543307 (0)
+***********  COMMAND 04Dec2014.161552.765 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8131779528,y=-0.0259424213 (0)
+***********  COMMAND 04Dec2014.161553.022 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8131227362,y=-0.0259815945 (0)
+***********  COMMAND 04Dec2014.161553.069 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8130125,y=-0.0260603346 (0)
+***********  COMMAND 04Dec2014.161553.117 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8128550197,y=-0.0260288386 (0)
+***********  COMMAND 04Dec2014.161553.589 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8119104331,y=-0.0259658465 (0)
+***********  COMMAND 04Dec2014.161553.645 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8120362205,y=-0.0258398622 (0)
+***********  COMMAND 04Dec2014.161553.669 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.8122880906,y=-0.0255879921 (0)
+***********  COMMAND 04Dec2014.161554.685 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6455558071,y=-0.0986278543 (0)
+***********  COMMAND 04Dec2014.161554.748 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6438765748,y=-0.0976201772 (0)
+***********  COMMAND 04Dec2014.161554.780 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6441003937,y=-0.0973962598 (0)
+***********  COMMAND 04Dec2014.161554.804 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6442496063,y=-0.0972469488 (0)
+***********  COMMAND 04Dec2014.161554.869 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6443490157,y=-0.0971474409 (0)
+***********  COMMAND 04Dec2014.161555.397 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6479972441,y=-0.1054390748 (0)
+***********  COMMAND 04Dec2014.161555.429 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6483067913,y=-0.1055716535 (0)
+***********  COMMAND 04Dec2014.161555.476 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.648336122,y=-0.1055420276 (0)
+***********  COMMAND 04Dec2014.161555.813 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6486700787,y=-0.1057581693 (0)
+***********  COMMAND 04Dec2014.161556.357 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6492597441,y=-0.1058759843 (0)
+***********  COMMAND 04Dec2014.161556.405 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6488667323,y=-0.1054829724 (0)
+***********  COMMAND 04Dec2014.161556.437 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6465080709,y=-0.103438878 (0)
+***********  COMMAND 04Dec2014.161556.454 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6430488189,y=-0.1012375984 (0)
+***********  COMMAND 04Dec2014.161556.485 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6310988189,y=-0.0943191929 (0)
+***********  COMMAND 04Dec2014.161556.813 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.5644310039,y=-0.0150724409 (0)
+***********  COMMAND 04Dec2014.161556.854 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.5417891732,y=0.0025379921 (0)
+***********  COMMAND 04Dec2014.161556.886 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.4663160433,y=0.0478218504 (0)
+***********  COMMAND 04Dec2014.161557.598 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.4557322835,y=-0.9282968504 (0)
+***********  COMMAND 04Dec2014.161557.622 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.4087711614,y=-0.9752577756 (0)
+***********  COMMAND 04Dec2014.161557.646 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.3595738189,y=-0.9976200787 (0)
+***********  COMMAND 04Dec2014.161557.662 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.3387022638,y=-1.0125283465 (0)
+***********  COMMAND 04Dec2014.161558.031 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0266223425,y=-1.2291950787 (0)
+***********  COMMAND 04Dec2014.161558.046 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0173459646,y=-1.2358208661 (0)
+***********  COMMAND 04Dec2014.161558.061 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0129287402,y=-1.2384712598 (0)
+***********  COMMAND 04Dec2014.161558.085 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0123396654,y=-1.237882185 (0)
+***********  COMMAND 04Dec2014.161558.151 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0111616142,y=-1.2374894685 (0)
+***********  COMMAND 04Dec2014.161559.093 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.8742590551,y=-1.1440396654 (0)
+***********  COMMAND 04Dec2014.161559.790 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8266180118,y=-1.0712692913 (0)
+***********  COMMAND 04Dec2014.161559.837 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8220806102,y=-1.0730142717 (0)
+***********  COMMAND 04Dec2014.161559.869 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8218478346,y=-1.0727813976 (0)
+***********  COMMAND 04Dec2014.161559.902 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8216927165,y=-1.0726261811 (0)
+***********  COMMAND 04Dec2014.161559.957 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8215891732,y=-1.0725226378 (0)
+***********  COMMAND 04Dec2014.161815.738 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9154189961,y=-1.0920330709 (0)
+***********  COMMAND 04Dec2014.161815.762 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9105931102,y=-1.092446752 (0)
+***********  COMMAND 04Dec2014.161815.777 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9086628937,y=-1.0927225394 (0)
+***********  COMMAND 04Dec2014.161815.786 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9081113189,y=-1.0921709646 (0)
+***********  COMMAND 04Dec2014.161815.801 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.9070081693,y=-1.091067815 (0)
+***********  COMMAND 04Dec2014.161816.394 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.5518192913,y=-1.0668001969 (0)
+***********  COMMAND 04Dec2014.161816.418 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.5474069882,y=-1.0800370079 (0)
+***********  COMMAND 04Dec2014.161816.425 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.5385823819,y=-1.0712124016 (0)
+***********  COMMAND 04Dec2014.161816.882 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.2268985236,y=-2.8184765748 (0)
+***********  COMMAND 04Dec2014.161816.922 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3915062008,y=-2.9714356299 (0)
+***********  COMMAND 04Dec2014.161816.946 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.1640284449,y=-2.9635915354 (0)
+***********  COMMAND 04Dec2014.161816.970 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.0332939961,y=-2.9165270669 (0)
+***********  COMMAND 04Dec2014.161817.010 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.0538621063,y=-2.8014808071 (0)
+***********  COMMAND 04Dec2014.161817.411 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.2087685039,y=-2.4319383858 (0)
+***********  COMMAND 04Dec2014.161817.443 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.194823622,y=-2.6504099409 (0)
+***********  COMMAND 04Dec2014.161817.467 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1855269685,y=-2.7526731299 (0)
+***********  COMMAND 04Dec2014.161817.483 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.1669336614,y=-2.8084530512 (0)
+***********  COMMAND 04Dec2014.161817.843 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-6.4514780512,y=8.6822224409 (0)
+***********  COMMAND 04Dec2014.161817.907 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-3.4021724409,y=3.7983753937 (0)
+***********  COMMAND 04Dec2014.161817.947 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-3.3525902559,y=1.3688475394 (0)
+***********  COMMAND 04Dec2014.161817.979 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-3.3636084646,y=0.8509889764 (0)
+***********  COMMAND 04Dec2014.161818.002 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-3.3562628937,y=0.8289523622 (0)
+***********  COMMAND 04Dec2014.161818.043 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-3.2926017717,y=0.824055315 (0)
+***********  COMMAND 04Dec2014.161818.515 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.9116454724,y=0.7228504921 (0)
+***********  COMMAND 04Dec2014.161818.603 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-4.4254427165,y=1.029729626 (0)
+***********  COMMAND 04Dec2014.161818.931 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=3.1355370079,y=-1.2294230315 (0)
+***********  COMMAND 04Dec2014.161818.987 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.3607215551,y=-1.0117781496 (0)
+***********  COMMAND 04Dec2014.161819.195 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.0943115157,y=0.1664055118 (0)
+***********  COMMAND 04Dec2014.161819.267 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.6321359252,y=0.4256445866 (0)
+***********  COMMAND 04Dec2014.161819.554 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.8101209646,y=0.820307185 (0)
+***********  COMMAND 04Dec2014.161821.762 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=comp_+_bot,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161822.458 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=ssb,display=yes,number=1 (0)
+uncompressing - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/ssb/features.Z
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/tmp/genesis186ad.iiticubws003.9864
+***********  COMMAND 04Dec2014.161822.572 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=ssb (0)
+***********  COMMAND 04Dec2014.161824.098 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=yes,number=2 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spb/features
+***********  COMMAND 04Dec2014.161825.923 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.1073026575,y=-0.3679795276 (0)
+***********  COMMAND 04Dec2014.161825.986 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.1359636811,y=-0.3966405512 (0)
+***********  COMMAND 04Dec2014.161826.074 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.1367280512,y=-0.3958761811 (0)
+***********  COMMAND 04Dec2014.161827.787 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.7897382874,y=-0.1467161417 (0)
+***********  COMMAND 04Dec2014.161827.843 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.7887192913,y=-0.1456972441 (0)
+***********  COMMAND 04Dec2014.161827.931 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.7540713583,y=-0.0580582677 (0)
+***********  COMMAND 04Dec2014.161828.011 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.7744526575,y=0.0601522638 (0)
+***********  COMMAND 04Dec2014.161828.427 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1141024606,y=-1.1219560039 (0)
+***********  COMMAND 04Dec2014.161828.459 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1086675197,y=-1.1273909449 (0)
+***********  COMMAND 04Dec2014.161828.491 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.0543176181,y=-1.0947810039 (0)
+***********  COMMAND 04Dec2014.161828.571 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.0277466535,y=-1.0923654528 (0)
+***********  COMMAND 04Dec2014.161830.579 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.161831.043 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=ssb,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161831.387 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smb,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smb/features
+***********  COMMAND 04Dec2014.161831.409 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=smb (0)
+***********  COMMAND 04Dec2014.161832.139 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.161833.178 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.161834.050 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.161834.939 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9730308071,y=-1.3033231299 (0)
+***********  COMMAND 04Dec2014.161834.979 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.150171063,y=-1.3387512795 (0)
+***********  COMMAND 04Dec2014.161835.499 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.2290424213,y=0.2780549213 (0)
+***********  COMMAND 04Dec2014.161835.778 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.299157185,y=0.299526378 (0)
+***********  COMMAND 04Dec2014.161835.874 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2962942913,y=0.3023892717 (0)
+***********  COMMAND 04Dec2014.161837.090 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smb,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161837.102 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=spb (0)
+***********  COMMAND 04Dec2014.161837.475 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spb,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.161838.180 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/smt/features
+***********  COMMAND 04Dec2014.161838.201 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=smt (0)
+***********  COMMAND 04Dec2014.161839.251 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161839.603 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/spt/features
+***********  COMMAND 04Dec2014.161839.622 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=spt (0)
+***********  COMMAND 04Dec2014.161840.515 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161840.875 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sst,display=yes,number=1 (0)
+uncompressing - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sst/features.Z
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/tmp/genesis186ae.iiticubws003.9864
+***********  COMMAND 04Dec2014.161841.010 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sst (0)
+***********  COMMAND 04Dec2014.161842.627 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.9892051181,y=0.1477941929 (0)
+***********  COMMAND 04Dec2014.161842.707 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-2.0922684055,y=0.1897829724 (0)
+***********  COMMAND 04Dec2014.161842.780 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-2.1151712598,y=0.2058998031 (0)
+***********  COMMAND 04Dec2014.161842.859 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-2.1247847441,y=0.2143822835 (0)
+***********  COMMAND 04Dec2014.161843.219 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-2.0995253937,y=0.2102353346 (0)
+***********  COMMAND 04Dec2014.161843.284 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-2.0067825787,y=0.1778130906 (0)
+***********  COMMAND 04Dec2014.161843.371 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.9901943898,y=0.1763051181 (0)
+***********  COMMAND 04Dec2014.161843.795 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.5106459646,y=0.541244685 (0)
+***********  COMMAND 04Dec2014.161843.827 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.5689556102,y=0.5271698819 (0)
+***********  COMMAND 04Dec2014.161843.899 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.5890624016,y=0.5151058071 (0)
+***********  COMMAND 04Dec2014.161844.412 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.725788878,y=0.512425 (0)
+***********  COMMAND 04Dec2014.161844.459 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7251931102,y=0.5130206693 (0)
+***********  COMMAND 04Dec2014.161844.539 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7247957677,y=0.513417815 (0)
+***********  COMMAND 04Dec2014.161844.979 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7176465551,y=0.5046799213 (0)
+***********  COMMAND 04Dec2014.161845.987 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7319447835,y=0.5422788386 (0)
+***********  COMMAND 04Dec2014.161846.083 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7414769685,y=0.5539293307 (0)
+***********  COMMAND 04Dec2014.161847.836 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7986698819,y=0.1027415354 (0)
+***********  COMMAND 04Dec2014.161847.892 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7690141732,y=0.1323971457 (0)
+***********  COMMAND 04Dec2014.161847.948 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7605410433,y=0.1615818898 (0)
+***********  COMMAND 04Dec2014.161848.531 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7687001969,y=0.3630512795 (0)
+***********  COMMAND 04Dec2014.161848.621 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.765771063,y=0.363469685 (0)
+***********  COMMAND 04Dec2014.161848.707 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7587973425,y=0.3643063976 (0)
+***********  COMMAND 04Dec2014.161850.348 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_area,x1=-1.7318323819,y1=0.4016852362,x2=-1.7050534449,y2=0.3923870079 (0)
+***********  COMMAND 04Dec2014.161850.852 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7203261811,y=0.3962512795 (0)
+***********  COMMAND 04Dec2014.161850.876 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7199534449,y=0.3962314961 (0)
+***********  COMMAND 04Dec2014.161850.892 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7196787402,y=0.3961923228 (0)
+***********  COMMAND 04Dec2014.161850.908 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7191294291,y=0.3964276575 (0)
+***********  COMMAND 04Dec2014.161850.940 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7148919291,y=0.3968985236 (0)
+***********  COMMAND 04Dec2014.161851.211 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.6932333661,y=0.4053737205 (0)
+***********  COMMAND 04Dec2014.161851.731 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7327836614,y=0.3834012795 (0)
+***********  COMMAND 04Dec2014.161851.795 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7315281496,y=0.3846569882 (0)
+***********  COMMAND 04Dec2014.161853.851 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_area,x1=-3.421524311,y1=-0.200438189,x2=-3.3562346457,y2=-0.0698590551 (0)
+***********  COMMAND 04Dec2014.161857.204 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.4203068898,y=-0.1192134843 (0)
+***********  COMMAND 04Dec2014.161857.235 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.4204543307,y=-0.1199511811 (0)
+***********  COMMAND 04Dec2014.161857.261 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.420159252,y=-0.1208363189 (0)
+***********  COMMAND 04Dec2014.161857.284 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.4136672244,y=-0.1237873031 (0)
+***********  COMMAND 04Dec2014.161857.593 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.2661201772,y=-0.1910687992 (0)
+***********  COMMAND 04Dec2014.161857.619 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.2637593504,y=-0.1887080709 (0)
+***********  COMMAND 04Dec2014.161857.635 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.2590378937,y=-0.1839865157 (0)
+***********  COMMAND 04Dec2014.161857.660 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.2495948819,y=-0.1745435039 (0)
+***********  COMMAND 04Dec2014.161857.821 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-3.1551646654,y=-0.6089222441 (0)
+***********  COMMAND 04Dec2014.161858.124 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0777014764,y=3.3571437008 (0)
+***********  COMMAND 04Dec2014.161858.148 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.9014317913,y=3.1808741142 (0)
+***********  COMMAND 04Dec2014.161858.164 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.6160429134,y=2.7611846457 (0)
+***********  COMMAND 04Dec2014.161858.181 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.425783563,y=2.5485419291 (0)
+***********  COMMAND 04Dec2014.161858.204 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3884778543,y=2.4963139764 (0)
+***********  COMMAND 04Dec2014.161858.228 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3835037402,y=2.5012880906 (0)
+***********  COMMAND 04Dec2014.161858.676 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.2475450787,y=0.9792140748 (0)
+***********  COMMAND 04Dec2014.161858.732 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3293413386,y=0.8134108268 (0)
+***********  COMMAND 04Dec2014.161858.783 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3396579724,y=0.7883560039 (0)
+***********  COMMAND 04Dec2014.161858.833 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.3386751969,y=0.7893384843 (0)
+***********  COMMAND 04Dec2014.161859.932 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.3995925197,y=0.8345351378 (0)
+***********  COMMAND 04Dec2014.161900.028 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.3982823819,y=0.8358450787 (0)
+***********  COMMAND 04Dec2014.161902.428 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.161903.380 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.9362813976,y=0.3092048228 (0)
+***********  COMMAND 04Dec2014.161903.462 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.8786391732,y=0.3109515748 (0)
+***********  COMMAND 04Dec2014.161903.580 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.8774745079,y=0.3121161417 (0)
+***********  COMMAND 04Dec2014.161903.900 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.8766981299,y=0.3128924213 (0)
+***********  COMMAND 04Dec2014.161914.700 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.1609253937,y=0.5711501969 (0)
+***********  COMMAND 04Dec2014.161914.772 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.1598902559,y=0.5701151575 (0)
+***********  COMMAND 04Dec2014.161914.860 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.1578199803,y=0.5680449803 (0)
+***********  COMMAND 04Dec2014.161915.876 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6846606299,y=-1.2413123031 (0)
+***********  COMMAND 04Dec2014.161919.373 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=yes,number=3 (0)
+uncompressing - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigt/features.Z
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/tmp/genesis186af.iiticubws003.9864
+***********  COMMAND 04Dec2014.161921.764 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.161922.268 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sst,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161922.301 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sigt (0)
+***********  COMMAND 04Dec2014.161923.004 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=yes,number=1 (0)
+***********  COMMAND 04Dec2014.161923.348 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=spt,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.161925.165 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-4.1651346457,y=0.1305420276 (0)
+***********  COMMAND 04Dec2014.161925.212 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-4.9435309055,y=0.279596752 (0)
+***********  COMMAND 04Dec2014.161925.636 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7589606299,y=-0.1730875 (0)
+***********  COMMAND 04Dec2014.161925.677 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7515999016,y=-0.2393339567 (0)
+***********  COMMAND 04Dec2014.161925.728 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7565069882,y=-0.2638695866 (0)
+***********  COMMAND 04Dec2014.161925.756 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7532355315,y=-0.2605981299 (0)
+***********  COMMAND 04Dec2014.161925.853 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7423307087,y=-0.210436122 (0)
+***********  COMMAND 04Dec2014.161926.196 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.717613189,y=-0.1886265748 (0)
+***********  COMMAND 04Dec2014.161928.341 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7321529528,y=0.3377102362 (0)
+***********  COMMAND 04Dec2014.161932.949 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sig2,display=yes,number=1 (0)
+read file - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sig2/features
+***********  COMMAND 04Dec2014.161933.565 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=no,number=3 (0)
+***********  COMMAND 04Dec2014.161933.598 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sig2 (0)
+***********  COMMAND 04Dec2014.161939.381 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.7496004921,y=0.7622693898 (0)
+***********  COMMAND 04Dec2014.161939.990 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.2342570866,y=0.4792300197 (0)
+***********  COMMAND 04Dec2014.161940.749 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7589785433,y=-0.0610003937 (0)
+***********  COMMAND 04Dec2014.161942.925 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.0989838583,y=-0.3694572835 (0)
+***********  COMMAND 04Dec2014.161943.534 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.2035260827,y=-0.3039746063 (0)
+***********  COMMAND 04Dec2014.161944.077 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.4539679134,y=-0.1638191929 (0)
+***********  COMMAND 04Dec2014.161946.693 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.5823998031,y=-0.134715748 (0)
+***********  COMMAND 04Dec2014.161947.702 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.2145827756,y=-0.0274931102 (0)
+***********  COMMAND 04Dec2014.161947.790 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.2166250984,y=-0.025450689 (0)
+***********  COMMAND 04Dec2014.161947.959 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=2.2152634843,y=-0.0240890748 (0)
+***********  COMMAND 04Dec2014.161948.590 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=2.2306943898,y=-0.1756758858 (0)
+***********  COMMAND 04Dec2014.161950.061 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.7314562008,y=0.6684904528 (0)
+***********  COMMAND 04Dec2014.161950.199 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.742348622,y=0.6551773622 (0)
+***********  COMMAND 04Dec2014.161950.725 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.8851609252,y=0.5527074803 (0)
+***********  COMMAND 04Dec2014.161950.781 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.8867747047,y=0.5543212598 (0)
+***********  COMMAND 04Dec2014.161951.702 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.724190748,y=-1.5079862205 (0)
+***********  COMMAND 04Dec2014.161951.814 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.765071063,y=-1.3207969488 (0)
+***********  COMMAND 04Dec2014.161951.894 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7693741142,y=-1.2763305118 (0)
+***********  COMMAND 04Dec2014.161952.061 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7798930118,y=-1.2141730315 (0)
+***********  COMMAND 04Dec2014.161952.630 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.729529626,y=-1.1638095472 (0)
+***********  COMMAND 04Dec2014.161952.830 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-0.7461049213,y=-1.2109853346 (0)
+***********  COMMAND 04Dec2014.161954.429 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.161955.741 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.1132594488,y=-0.0048149606 (0)
+***********  COMMAND 04Dec2014.161956.301 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7176713583,y=0.5136937992 (0)
+***********  COMMAND 04Dec2014.161956.358 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7165379921,y=0.5148270669 (0)
+***********  COMMAND 04Dec2014.161956.422 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.7127600394,y=0.5155825787 (0)
+***********  COMMAND 04Dec2014.161956.518 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.6951299213,y=0.509034252 (0)
+***********  COMMAND 04Dec2014.161956.901 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.5483816929,y=0.3884790354 (0)
+***********  COMMAND 04Dec2014.161958.111 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.5597991142,y=0.381091437 (0)
+***********  COMMAND 04Dec2014.161959.335 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.8324752953,y=0.6645135827 (0)
+***********  COMMAND 04Dec2014.161959.455 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-1.8369526575,y=0.6618270669 (0)
+***********  COMMAND 04Dec2014.161959.862 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.9091885827,y=0.674363878 (0)
+***********  COMMAND 04Dec2014.162000.815 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.6763617126,y=0.6564542323 (0)
+***********  COMMAND 04Dec2014.162002.094 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.6757872047,y=0.171696752 (0)
+***********  COMMAND 04Dec2014.162002.254 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.4767898622,y=0.2083123031 (0)
+***********  COMMAND 04Dec2014.162002.422 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.4481343504,y=0.2136188976 (0)
+***********  COMMAND 04Dec2014.162002.590 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.4488419291,y=0.214326378 (0)
+***********  COMMAND 04Dec2014.162003.318 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.4304456693,y=0.2147980315 (0)
+***********  COMMAND 04Dec2014.162003.374 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.3955400591,y=0.2119679134 (0)
+***********  COMMAND 04Dec2014.162003.438 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.3785590551,y=0.2138547244 (0)
+***********  COMMAND 04Dec2014.162003.494 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.3144082677,y=0.2176284449 (0)
+***********  COMMAND 04Dec2014.162003.573 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.2766726378,y=0.2251755906 (0)
+***********  COMMAND 04Dec2014.162003.974 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0766714567,y=-0.1219935039 (0)
+***********  COMMAND 04Dec2014.162004.014 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0867343504,y=-0.1119306102 (0)
+***********  COMMAND 04Dec2014.162004.038 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0934429134,y=-0.1052220472 (0)
+***********  COMMAND 04Dec2014.162004.069 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.0979153543,y=-0.1007496063 (0)
+***********  COMMAND 04Dec2014.162004.158 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9518172244,y=-0.0798783465 (0)
+***********  COMMAND 04Dec2014.162004.653 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.5721610236,y=0.1010050197 (0)
+***********  COMMAND 04Dec2014.162007.110 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.162007.975 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.162012.447 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.162013.806 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.162025.694 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.6423940945,y=0.0148700787 (0)
+***********  COMMAND 04Dec2014.162026.422 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.7404555118,y=0.0069192913 (0)
+***********  COMMAND 04Dec2014.162026.878 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.7422223425,y=0.0086862205 (0)
+***********  COMMAND 04Dec2014.162028.551 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9554247047,y=-0.0372523622 (0)
+***********  COMMAND 04Dec2014.162028.639 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9562099409,y=-0.0364670276 (0)
+***********  COMMAND 04Dec2014.162029.351 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_area,x1=0.9577805118,y1=-0.0066265748,x2=0.9357926181,y2=-0.0286142717 (0)
+***********  COMMAND 04Dec2014.162029.863 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9501653543,y=-0.0145395669 (0)
+***********  COMMAND 04Dec2014.162029.895 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9501902559,y=-0.0145146654 (0)
+***********  COMMAND 04Dec2014.162029.927 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9502398622,y=-0.0144649606 (0)
+***********  COMMAND 04Dec2014.162029.951 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9503391732,y=-0.0143656496 (0)
+***********  COMMAND 04Dec2014.162029.975 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9505379921,y=-0.0141668307 (0)
+***********  COMMAND 04Dec2014.162031.407 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_area,x1=0.9580908465,y1=-0.1936461614,x2=0.9541156496,y2=0.1581569882 (0)
+***********  COMMAND 04Dec2014.162039.584 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sig2,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.162039.594 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sigt (0)
+***********  COMMAND 04Dec2014.162040.352 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9819418307,y=0.0144543307 (0)
+***********  COMMAND 04Dec2014.162040.391 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9823392717,y=0.0148519685 (0)
+***********  COMMAND 04Dec2014.162040.423 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9815443898,y=0.0140569882 (0)
+***********  COMMAND 04Dec2014.162040.455 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9831345472,y=0.0156472441 (0)
+***********  COMMAND 04Dec2014.162040.495 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=0.9863146654,y=0.0124673228 (0)
+***********  COMMAND 04Dec2014.162040.952 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.3870124016,y=-0.3373481299 (0)
+***********  COMMAND 04Dec2014.162040.991 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.4845367126,y=-0.5111957677 (0)
+***********  COMMAND 04Dec2014.162041.048 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.4251740157,y=-0.6101333661 (0)
+***********  COMMAND 04Dec2014.162041.088 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.408213189,y=-0.612017815 (0)
+***********  COMMAND 04Dec2014.162041.785 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.233580315,y=-0.3745672244 (0)
+***********  COMMAND 04Dec2014.162041.855 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.2293923228,y=-0.3921561024 (0)
+***********  COMMAND 04Dec2014.162041.912 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.227717126,y=-0.3960646654 (0)
+***********  COMMAND 04Dec2014.162042.183 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.2243668307,y=-0.3994148622 (0)
+***********  COMMAND 04Dec2014.162042.216 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.2221333661,y=-0.4120713583 (0)
+***********  COMMAND 04Dec2014.162042.256 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.2206443898,y=-0.4284503937 (0)
+***********  COMMAND 04Dec2014.162043.592 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.4976002953,y=0.039098622 (0)
+***********  COMMAND 04Dec2014.162043.727 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.4519373031,y=0.0331426181 (0)
+***********  COMMAND 04Dec2014.162047.263 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=yes,number=1 (0)
+***********  COMMAND 04Dec2014.162048.304 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.162048.936 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=yes,number=1 (0)
+***********  COMMAND 04Dec2014.162049.504 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=smt,display=no,number=1 (0)
+***********  COMMAND 04Dec2014.162050.392 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.1567824803,y=-0.1799510827 (0)
+***********  COMMAND 04Dec2014.162050.536 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=1.1576647638,y=-0.1790687008 (0)
+***********  COMMAND 04Dec2014.162052.583 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.2041365157,y=-0.3078955709 (0)
+***********  COMMAND 04Dec2014.162057.231 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=no,number=2 (0)
+***********  COMMAND 04Dec2014.162057.928 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigb,display=yes,number=1 (0)
+uncompressing - C:/Users/MMAGGI~1/AppData/Local/Temp/ODBpp_20141204_160525/jog_v1/steps/pcb/layers/sigb/features.Z
+read file - C:/MentorGraphics/PADSVX.0/SDD_HOME/dfm/tmp/genesis186b0.iiticubws003.9864
+***********  COMMAND 04Dec2014.162058.073 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sigb (0)
+***********  COMMAND 04Dec2014.162059.664 get 9864 pads_user 9.4(1227524) Windows 7
+display_layer,name=sigt,display=yes,number=2 (0)
+***********  COMMAND 04Dec2014.162101.865 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8711867126,y=0.1403514764 (0)
+***********  COMMAND 04Dec2014.162102.184 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.8594216535,y=0.1709404528 (0)
+***********  COMMAND 04Dec2014.162102.305 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=0.9080502953,y=0.1662345472 (0)
+***********  COMMAND 04Dec2014.162103.097 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.0234345472,y=0.1456675197 (0)
+***********  COMMAND 04Dec2014.162103.784 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.7450221457,y=0.0613080709 (0)
+***********  COMMAND 04Dec2014.162104.360 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=1.7826702756,y=0.0710687008 (0)
+***********  COMMAND 04Dec2014.162108.585 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.7690308071,y=-0.3611866142 (0)
+***********  COMMAND 04Dec2014.162108.640 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_in_at_point,x=-0.6370301181,y=-0.3667640748 (0)
+***********  COMMAND 04Dec2014.162109.648 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7116261811,y=-0.2688480315 (0)
+***********  COMMAND 04Dec2014.162109.736 get 9864 pads_user 9.4(1227524) Windows 7
+zoom_out_at_point,x=-1.7091472441,y=-0.2663691929 (0)
+***********  COMMAND 04Dec2014.162111.477 get 9864 pads_user 9.4(1227524) Windows 7
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 04Dec2014.162111.477 get 9864 pads_user 9.4(1227524) Windows 7
+dpw_do,op=continue (-1)
+***********  COMMAND 04Dec2014.162111.483 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.162111.483 get 9864 pads_user 9.4(1227524) Windows 7
+cam_compare,job=jog_v1,step=pcb,action=close (0)
+***********  COMMAND 04Dec2014.162111.488 get 9864 pads_user 9.4(1227524) Windows 7
+editor_group,job=jog_v1,name=pcb,is_step=yes (-1)
+***********  COMMAND 04Dec2014.162111.489 get 9864 pads_user 9.4(1227524) Windows 7
+close_job,job=jog_v1 (0)
+***********  COMMAND 04Dec2014.162111.490 get 9864 pads_user 9.4(1227524) Windows 7
+work_layer,name=sigt (0)
+***********  COMMAND 04Dec2014.162111.495 get 9864 pads_user 9.4(1227524) Windows 7
+close_form,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.495 get 9864 pads_user 9.4(1227524) Windows 7
+close_flow,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.496 get 9864 pads_user 9.4(1227524) Windows 7
+job_path_exists,job_name=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.498 get 9864 pads_user 9.4(1227524) Windows 7
+delete_entity,job=,type=job,name=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.555 get 9864 pads_user 9.4(1227524) Windows 7
+close_form,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.556 get 9864 pads_user 9.4(1227524) Windows 7
+close_flow,job=jog_v1 (-1)
+***********  COMMAND 04Dec2014.162111.558 get 9864 pads_user 9.4(1227524) Windows 7
+close_toolkit,save_log=yes (-1)

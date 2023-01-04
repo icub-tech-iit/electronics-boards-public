@@ -1,0 +1,72 @@
+P2013_JOG  Revised: Thursday, April 18, 2013
+JOG - REVISIONS HISTORY          Revision: 0
+
+IIT - Istituto Italiano di Tecnologia
+Via Morego, 30
+16163 -Genova
+
+
+
+Bill Of Materials            May 8,2013      11:18:17	Page1
+
+Item	Quantity	Reference	Value	IITCODE	Rev	NonMontare
+______________________________________________
+
+1	6	C1,C2,C3,C4,C9,C10	100pF	482		
+2	1	C5	100uF	768		
+3	2	C6,C12	100nF	3		
+4	1	C7	220nF	1420		
+5	6	C8,C16,C17,C18,C19,C24	10nF	255	sostituito da 445	
+6	1	C11	1nF	156		
+7	3	C13,C23,C26	10uF	1076		
+8	4	C14,C20,C21,C22	0.1uF	254		
+9	4	C15,C25,C27,C28	1uF	1293		
+10	1	DL1	GREEN	1654		
+11	1	DL2	RED	1652		
+12	2	DL3,DL4	ORANGE	1653		
+13	3	D1,D3,D5	BAV99	1292		
+14	1	D2	SMBJ12A-E3/52	4152		
+15	2	D4,D6	MBR0520LT1G	236		
+16	3	FL1,FL3,FL4	600R @100MHz	1405		
+17	1	FL2	330uH@100KHz	545		
+18	2	FL5,FL6	120R @100MHz	1538		
+19	4	J1,J5,J7,J9	53261-0671	1124		
+20	1	J2	53261-0871	709		
+21	1	J3	53261-0771	631		
+22	1	J4	53261-1071	1072		
+23	2	J6,J8	53261-0471	288		
+24	2	J10,J11	Joystick	5610		
+25	4	L1,L2,L3,L4	10uH	2922		
+26	1	P_SOCK1	FCR681465	5604		
+27	15	R1,R2,R5,R7,R9,R11,R12,	4K7	276		
+		R15,R17,R20,R22,R40,R41,
+		R42,R45
+28	5	R3,R6,R10,R14,R16	100R	244		
+29	7	R4,R8,R13,R18,R21,R24,	1K	245		
+		R46
+30	1	R19	100R	1085		
+31	2	R23,R25	22K	1411	added 	RC0603FR-0722KL Yageo	
+32	3	R26,R31,R32	4K7	1107		NM
+33	1	R27	100K	4001		
+34	5	R28,R33,R36,R37,R43	10K	1574 aggiunto un altro codice vishay su Wingst		
+35	2	R29,R30	33K	464		
+36	1	R34	330R	428		
+37	1	R35	120R	256		
+38	2	R38,R39	15K	462		
+39	1	R44	16K5	249  scelta CRCW060316K5FKEAC Vishay		
+40	1	R47	330R	448		
+41	2	R48,R49	120R	445		
+42	1	R50	0R	242		
+43	2	SW1,SW2	KMR231G	634		
+44	1	TFT-1	uOLED-128-G1	1374	aggiunto costruttore harwin 	M20-7830542	
+45	1	U1	L6206Q	5106		
+46	1	U2	MAX3051	241		
+47	1	U3	DSPIC33FJ128MC804IPT	5607		
+48	2	U4,U5	LT1616ES6	237		
+49	1	Y1	S23305-10.000-X	1278	aggiunto nei fornitori 	
+50	2	1,2	NODEK_0	4875		NM
+
+nut in nylon 4589 portata a 04M030050HN codice digikey RPC7082-ND da verificare altezza con Simone Michelini 
+Rondella in polyamide
+spacer in plastica portato da 1009 a D01496 sembra uguale, e'quello che mi propone la Farnell
+
