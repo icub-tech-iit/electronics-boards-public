@@ -1,0 +1,1296 @@
+***********  COMMAND 31Jan2023.172006.837 get 28412 MBorgagni 11.2(16812256) Windows 10
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/tmp/wfInit-genesis186a3.iiticublap168.28412,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 31Jan2023.172006.861 get 28412 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 31Jan2023.172006.870 get 28412 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 31Jan2023.172006.872 get 28412 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 31Jan2023.172006.873 get 28412 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 31Jan2023.172006.875 get 28412 MBorgagni 11.2(16812256) Windows 10
+create_entity,job=,is_fw=no,type=job,name=lcore_5_6775_1,db=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001,fw_type=form (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+saving job - lcore_5_6775_1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/input
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/output
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/fonts
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/wheels
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/matrix
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/whltemps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/user
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/info
+***********  COMMAND 31Jan2023.172007.287 get 28412 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=lcore_5_6775_1,parent_step=,op=count (-1)
+***********  COMMAND 31Jan2023.172007.307 get 28412 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=lcore_5_6775_1,parent_step=,op=first (-1)
+***********  COMMAND 31Jan2023.172007.414 get 28412 MBorgagni 11.2(16812256) Windows 10
+save_job,job=lcore_5_6775_1,override=no (-1)
+saving job - lcore_5_6775_1
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/matrix/matrix
+saving font - standard
+saving attributes - attr
+saving step - pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+saving netlist - cadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/cadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/attrlist
+saving eda - eda
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/eda
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/eda/data
+saving layer - paste-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/paste-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/paste-mask-top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/paste-mask-top/attrlist
+saving layer - silk-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top/attrlist
+saving layer - solder-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/solder-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/solder-mask-top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/solder-mask-top/attrlist
+saving layer - top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/top/attrlist
+saving layer - inner2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner2/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner2/attrlist
+saving layer - inner3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner3/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner3/attrlist
+saving layer - bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/bottom/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/bottom/attrlist
+saving layer - drill.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc/attrlist
+saving layer - buried-vias.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/buried-vias.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/buried-vias.doc/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/buried-vias.doc/attrlist
+saving layer - drill
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/attrlist
+saving layer - drill_1-2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/attrlist
+saving impedance - impedance
+saving layer - rout
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top/attrlist
+saving layer - dielectric1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric1/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric1/attrlist
+saving layer - dielectric2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric2/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric2/attrlist
+saving layer - dielectric3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric3/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric3/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/process_directions
+saving symbol - drill_symbol1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2
+saving layer - drill_symbol2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2/attrlist
+saving symbol - drill_symbol3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3
+saving layer - drill_symbol3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3/attrlist
+saving symbol - drill_symbol1+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1+1/attrlist
+saving symbol - drill_symbol2+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2+1
+saving layer - drill_symbol2+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2+1/attrlist
+saving symbol - drill_symbol3+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3+1
+saving layer - drill_symbol3+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3+1/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/info
+***********  COMMAND 31Jan2023.172008.176 get 28412 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.194 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_page_open,set=yes,job1=lcore_5_6775_1,step1=pcb,type1=cad,job2=lcore_5_6775_1,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 31Jan2023.172008.235 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 31Jan2023.172008.236 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 31Jan2023.172008.250 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=lcore_5_6775_1,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 31Jan2023.172008.265 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=lcore_5_6775_1,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 31Jan2023.172008.301 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=lcore_5_6775_1,step1=pcb,type1=cad,job2=lcore_5_6775_1,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 31Jan2023.172008.357 get 28412 MBorgagni 11.2(16812256) Windows 10
+save_job,job=lcore_5_6775_1,override=no (-1)
+saving job - lcore_5_6775_1
+saving step - pcb
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+saving netlist - curcadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/curcadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/curcadnet/netlist
+*********** ERROR INTERNAL 31Jan2023.172008.385 get 28412 MBorgagni 11.2(16812256) Windows 10
+file/dir causing error #3 : C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/reps/netlist_compare_data
+*********** ERROR INTERNAL 31Jan2023.172008.386 get 28412 MBorgagni 11.2(16812256) Windows 10
+System fopen call error : No such file or directory at D:\anthill3\var\jobs\projects\193797_2397596\s_dev\code\gen\gen_fs.c 3018
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/info
+***********  COMMAND 31Jan2023.172008.423 get 28412 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.435 get 28412 MBorgagni 11.2(16812256) Windows 10
+export_job,job=lcore_5_6775_1,mode=tar_gzip,version=v8,submode=full,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001 (-1)
+***********  COMMAND 31Jan2023.172008.701 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_job,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.704 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_form,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.704 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.711 get 28412 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.738 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_form,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.739 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.172008.745 get 28412 MBorgagni 11.2(16812256) Windows 10
+import_job,db=,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1.tgz,name=lcore_5_6775_1 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol1+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol2+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/symbols/drill_symbol3+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/matrix/matrix
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/stephdr
+read step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/buried-vias.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/dielectric3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/paste-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/solder-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/cadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/netlists/curcadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/eda/data
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/attrlist
+*********** WARNING  31Jan2023.172009.403 get 28412 MBorgagni 11.2(16812256) Windows 10
+Parsing XML document C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/impedance.xml
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/matrix/matrix
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/misc/attrlist
+***********  COMMAND 31Jan2023.172009.441 get 28412 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=lcore_5_6775_1,step=pcb,action=compare,path=C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber,show_modal=yes,guiless_mode=no (-1)
+***********  COMMAND 31Jan2023.172009.827 get 28412 MBorgagni 11.2(16812256) Windows 10
+units,type=inch,force_set=yes (0)
+***********  COMMAND 31Jan2023.172009.828 get 28412 MBorgagni 11.2(16812256) Windows 10
+set_group,group=0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/comp_+_top/components
+*********** WARNING  31Jan2023.172010.254 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172010.254 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172010.334 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172010.335 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_BOT.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_DrillDrawing.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_drl001_laser_LC.drl ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_drl001_TH.drl ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_inner_1.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_inner_2.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_Paste_Mask_TOP..pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_SilkScreen_Top.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_Solder_Mask_BOT..pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_Solder_Mask_Top.pho ...
+Translating - C:/icub-tech/electronics-boards/lcore/output/lcore_5_rev_b/bareboard/gerber/LCORE_5_6776_1_TOP.pho ...
+*********** WARNING  31Jan2023.172010.963 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172010.964 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/paste-mask-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/silk-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/solder-mask-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/inner3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/bottom/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill.doc/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/buried-vias.doc/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/drill_1-2/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20230131_172001/lcore_5_6775_1/steps/pcb/layers/rout/tools
+*********** WARNING  31Jan2023.172011.160 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172011.160 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+Found 0 graphic differences. For "paste-mask-top" (ILC)
+Found 0 graphic differences. For "silk-top" (ILC)
+Found 0 graphic differences. For "solder-mask-top" (ILC)
+Found 0 graphic differences. For "top" (ILC)
+Found 0 graphic differences. For "inner2" (ILC)
+Found 0 graphic differences. For "inner3" (ILC)
+Found 0 graphic differences. For "bottom" (ILC)
+Found 1 graphic differences. For "drill.doc" (ILC)
+Found 4 graphic differences. For "buried-vias.doc" (ILC)
+Found 3 graphic differences. For "drill" (ILC)
+Found 15 graphic differences. For "rout" (ILC)
+*********** WARNING  31Jan2023.172011.539 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172011.539 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172011.539 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill.doc (0)
+*********** WARNING  31Jan2023.172011.542 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172011.542 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172011.545 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172011.545 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** NOTICE  31Jan2023.172011.588 get 28412 MBorgagni 11.2(16812256) Windows 10
+CAM Compare issues found: num_diffs 5 net_stat 0
+*********** WARNING  31Jan2023.172018.705 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.705 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.744 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.744 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.775 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.775 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.818 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.819 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.851 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.852 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.890 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.890 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.928 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.928 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172018.974 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172018.974 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172019.018 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172019.018 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172019.066 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172019.066 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172019.106 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172019.106 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172019.154 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172019.154 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172019.193 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172019.193 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.214 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.214 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.256 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.256 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.299 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.299 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.343 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.343 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.392 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.392 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.438 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.438 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.488 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.488 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.536 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.536 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.588 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.588 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.635 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.636 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.682 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.682 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.808 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.808 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.855 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.855 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.903 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.903 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172021.948 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172021.948 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172022.035 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172022.035 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172022.090 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172022.090 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172022.137 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172022.138 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172032.262 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172032.268 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172032.268 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172032.273 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172032.274 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172034.238 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172034.242 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172034.242 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172034.250 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172034.250 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172035.238 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172035.244 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172035.244 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172035.250 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172035.250 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172036.318 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172036.322 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172036.322 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172036.328 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172036.328 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172037.750 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172037.756 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172037.756 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172037.760 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172037.760 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172038.710 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172038.715 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172038.715 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172038.722 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172038.723 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172039.750 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172039.756 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172039.756 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172039.761 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172039.762 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172041.294 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172041.298 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172041.298 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172041.307 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172041.307 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172042.102 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172042.106 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172042.106 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172042.110 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172042.110 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172043.230 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172043.234 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172043.234 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172043.242 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172043.242 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172044.454 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172044.460 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172044.460 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172044.465 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172044.466 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172045.214 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172045.219 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172045.219 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172045.226 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172045.227 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172049.582 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172049.586 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172049.587 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172049.590 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172049.590 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172050.846 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172050.850 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172050.851 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172050.859 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172050.859 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172052.631 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172052.636 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172052.637 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172052.642 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172052.642 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172053.574 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172053.578 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172053.578 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172053.587 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172053.587 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172054.630 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172054.636 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172054.636 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172054.640 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172054.640 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172056.310 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drl001_laser_lc.drl,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172056.312 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172056.312 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172056.317 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172056.317 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172106.526 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=3 (0)
+*********** WARNING  31Jan2023.172106.530 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172106.530 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172106.537 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172106.538 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172111.294 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=3 (0)
+*********** WARNING  31Jan2023.172111.302 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172111.302 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172111.308 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172111.309 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172112.934 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drl001_laser_lc.drl,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172112.939 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172112.939 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172112.943 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172112.943 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172117.246 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=0.1374507874,y=0.3582183071 (0)
+*********** WARNING  31Jan2023.172117.253 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172117.254 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172117.318 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=0.1374507874,y=0.3587906496 (0)
+*********** WARNING  31Jan2023.172117.332 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172117.333 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172117.366 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=0.1374507874,y=0.3599350394 (0)
+*********** WARNING  31Jan2023.172117.374 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172117.374 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172118.383 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=0.1008270669,y=0.2248851378 (0)
+*********** WARNING  31Jan2023.172118.389 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172118.390 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172118.646 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.039563878,y=0.2477749016 (0)
+*********** WARNING  31Jan2023.172118.654 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172118.654 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172119.365 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=0.0662379921,y=0.2487922244 (0)
+*********** WARNING  31Jan2023.172119.374 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172119.374 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172120.782 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=0.0675943898,y=0.2508269685 (0)
+*********** WARNING  31Jan2023.172120.796 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172120.796 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172132.830 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172132.832 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172132.832 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172132.835 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172132.835 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172134.014 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172134.019 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172134.019 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172134.019 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill.doc (0)
+*********** WARNING  31Jan2023.172134.025 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172134.026 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172134.030 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172134.033 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172134.034 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.151 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172135.158 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.158 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.159 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_drilldrawing.pho (0)
+*********** WARNING  31Jan2023.172135.165 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.165 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.169 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172135.171 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.171 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.943 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172135.948 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.948 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.949 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill.doc (0)
+*********** WARNING  31Jan2023.172135.954 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.954 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172135.959 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172135.963 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172135.963 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172143.494 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172143.502 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172143.502 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172143.508 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172143.508 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172144.934 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172144.939 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172144.940 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172144.950 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172144.950 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172145.968 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172145.969 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172149.455 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=buried-vias.doc,display=yes,number=3 (0)
+*********** WARNING  31Jan2023.172149.457 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172149.457 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172149.467 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172149.467 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172149.478 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172149.479 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172152.835 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172152.835 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172153.856 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172153.856 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172154.523 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172154.523 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172155.863 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172155.872 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172155.872 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172155.881 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172155.881 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172157.015 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172157.020 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172157.020 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172157.025 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172157.025 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172158.271 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=buried-vias.doc,display=no,number=3 (0)
+*********** WARNING  31Jan2023.172158.273 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172158.273 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172158.276 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172158.276 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172200.279 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172200.284 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172200.285 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172200.285 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_drilldrawing.pho (0)
+*********** WARNING  31Jan2023.172200.290 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172200.290 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172203.479 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172203.481 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172203.481 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172203.483 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172203.483 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172204.862 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172204.868 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172204.868 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172204.868 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill.doc (0)
+*********** WARNING  31Jan2023.172204.875 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172204.875 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172204.880 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172204.884 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172204.885 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172227.183 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172227.190 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172227.190 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172227.196 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172227.196 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172227.911 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172227.912 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172227.912 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172227.914 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172227.914 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172229.671 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172229.676 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172229.676 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172229.676 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_drilldrawing.pho (0)
+*********** WARNING  31Jan2023.172229.682 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172229.682 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172231.806 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=0.3660100394,y=0.0622824803 (0)
+*********** WARNING  31Jan2023.172231.813 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172231.813 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172232.070 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.0843262795,y=0.1680844488 (0)
+*********** WARNING  31Jan2023.172232.075 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172232.076 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172232.934 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-1.0898965551,y=0.3073452756 (0)
+*********** WARNING  31Jan2023.172232.938 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172232.938 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172233.102 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-1.4950185039,y=0.3543684055 (0)
+*********** WARNING  31Jan2023.172233.105 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172233.105 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172234.959 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=1.0803989173,y=-0.2894858268 (0)
+*********** WARNING  31Jan2023.172234.969 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172234.970 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172235.726 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=1.090044685,y=-0.2846627953 (0)
+*********** WARNING  31Jan2023.172235.735 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172235.735 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172236.231 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=1.090044685,y=-0.2814475394 (0)
+*********** WARNING  31Jan2023.172236.256 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172236.257 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172238.438 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=1.0814705709,y=-0.2835909449 (0)
+*********** WARNING  31Jan2023.172238.447 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172238.448 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172239.727 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=1.0814706693,y=-0.2793040354 (0)
+*********** WARNING  31Jan2023.172239.736 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172239.737 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172243.454 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=yes,number=2 (0)
+*********** WARNING  31Jan2023.172243.457 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172243.457 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172243.461 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172243.462 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172244.663 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drilldrawing.pho,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172244.667 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172244.667 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172244.669 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill.doc (0)
+*********** WARNING  31Jan2023.172244.671 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172244.671 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172248.606 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=0.2469339567,y=0.0665142717 (0)
+*********** WARNING  31Jan2023.172248.613 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172248.613 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172249.590 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.1455649606,y=0.2132250984 (0)
+*********** WARNING  31Jan2023.172249.610 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172249.611 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172250.206 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.1455649606,y=0.214495374 (0)
+*********** WARNING  31Jan2023.172250.209 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172250.209 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172251.933 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.1099987205,y=0.0950944882 (0)
+*********** WARNING  31Jan2023.172251.940 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172251.940 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172252.038 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.1099987205,y=0.1035625984 (0)
+*********** WARNING  31Jan2023.172252.056 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172252.057 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172252.431 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.0987077756,y=0.1204989173 (0)
+*********** WARNING  31Jan2023.172252.444 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172252.444 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172257.095 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.0987076772,y=0.1212517717 (0)
+*********** WARNING  31Jan2023.172257.115 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172257.116 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172257.343 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.0987077756,y=0.122757185 (0)
+*********** WARNING  31Jan2023.172257.354 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172257.356 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172257.775 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.098707874,y=0.1257680118 (0)
+*********** WARNING  31Jan2023.172257.778 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172257.778 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172258.390 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.0987079724,y=0.1317898622 (0)
+*********** WARNING  31Jan2023.172258.399 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172258.400 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172314.224 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=buried-vias.doc,display=yes,number=1 (0)
+*********** WARNING  31Jan2023.172314.225 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172314.225 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172314.229 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172314.229 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172314.234 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_drl001_laser_lc.drl,display=yes,number=3 (0)
+*********** WARNING  31Jan2023.172314.236 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172314.236 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172314.238 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=drill.doc,display=no,number=2 (0)
+*********** WARNING  31Jan2023.172314.241 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172314.241 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172314.242 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=buried-vias.doc (0)
+***********  COMMAND 31Jan2023.172317.079 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.411841437,y=-0.4663752953 (0)
+*********** WARNING  31Jan2023.172317.084 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172317.084 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172317.255 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.411841437,y=-0.4636990157 (0)
+*********** WARNING  31Jan2023.172317.277 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172317.277 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172317.438 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_in_at_point,x=-0.4047044291,y=-0.4369354331 (0)
+*********** WARNING  31Jan2023.172317.446 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172317.446 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172318.142 get 28412 MBorgagni 11.2(16812256) Windows 10
+zoom_out_at_point,x=-0.188217126,y=-0.3096597441 (0)
+*********** WARNING  31Jan2023.172318.152 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172318.153 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172349.897 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172349.897 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172351.315 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172351.316 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172351.320 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_drl001_laser_lc.drl (0)
+*********** WARNING  31Jan2023.172351.321 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172351.321 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172351.328 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172351.328 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172351.329 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=drill (0)
+*********** WARNING  31Jan2023.172351.331 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172351.332 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172351.334 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172351.334 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172354.533 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172354.533 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172354.538 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_drl001_th.drl (0)
+*********** WARNING  31Jan2023.172354.540 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172354.540 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172354.549 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172354.549 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172354.550 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=rout (0)
+*********** WARNING  31Jan2023.172354.554 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172354.554 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172354.558 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172354.558 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172356.390 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172356.391 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172359.872 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172359.873 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  31Jan2023.172414.858 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172414.858 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172416.687 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=rout,display=no,number=1 (0)
+*********** WARNING  31Jan2023.172416.690 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172416.690 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172416.693 get 28412 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=lcore_5_6776_1_paste_mask_top..pho (0)
+*********** WARNING  31Jan2023.172416.694 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172416.695 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172416.699 get 28412 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=lcore_5_6776_1_paste_mask_top..pho,display=no,number=3 (0)
+*********** WARNING  31Jan2023.172416.701 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  31Jan2023.172416.701 get 28412 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 31Jan2023.172553.083 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=lcore_5_6775_1,step=pcb,type=cad (-1)
+***********  COMMAND 31Jan2023.172553.086 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=lcore_5_6775_1,step=pcb,type=cur_cad (-1)
+***********  COMMAND 31Jan2023.172553.114 get 28412 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=lcore_5_6775_1,step1=pcb,type1=cad,job2=lcore_5_6775_1,step2=pcb,type2=cur_cad,pin_point=no (-1)
+***********  COMMAND 31Jan2023.175058.969 get 28412 MBorgagni 11.2(16812256) Windows 10
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 31Jan2023.175058.969 get 28412 MBorgagni 11.2(16812256) Windows 10
+editor_page_close (0)
+***********  COMMAND 31Jan2023.175059.002 get 28412 MBorgagni 11.2(16812256) Windows 10
+dpw_do,op=continue (-1)
+***********  COMMAND 31Jan2023.175059.018 get 28412 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=lcore_5_6775_1,step=pcb,action=close (-1)
+***********  COMMAND 31Jan2023.175059.052 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_job,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.052 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_form,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.052 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.067 get 28412 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.091 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_form,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.091 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=lcore_5_6775_1 (-1)
+***********  COMMAND 31Jan2023.175059.100 get 28412 MBorgagni 11.2(16812256) Windows 10
+close_toolkit,save_log=yes (-1)
+*********** WARNING  31Jan2023.175059.115 get 28412 MBorgagni 11.2(16812256) Windows 10
+Main window has no title, as window state saved to file C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/.genesis/EngineeringToolkitWindow.settings.

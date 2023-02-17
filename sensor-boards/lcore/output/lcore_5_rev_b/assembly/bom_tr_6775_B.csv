@@ -1,0 +1,22 @@
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Capacitance;Voltage;Tolerance;Dielectric;ESR;Rated RMS current;Temp;Description;Manuf;Manuf Code;Supplier;Supplier Code
+1;3087;;1,00;C13;0402;C;4.7uF;4V;20%;X5R;;;;Multilayer Ceramic Capacitor, 4.7uF, 4V, 20%, X5R, SMD, 0402;Murata;GRM155R60G475ME;FARNELL ITALIA S.R.L.;1735525;
+2;10001;;7,00;C4 C5 C6 C7 C8 C10 C11;0402;C;1uF;16V;10%;X5R;;;;Multilayer Ceramic Capacitor, 1uF, 16V, 10%, X5R, SMD, 0402;TDK;C1005X5R1C105K050BC;FARNELL ITALIA S.R.L.;2112701;Murata;GRM155R61C105KE01D;FARNELL ITALIA S.R.L.;2611905;Kyocera;CM05X5R105K16AH;DIGI-KEY Germany;1253-CM05X5R105K16AHCT-ND;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Current;Impedence;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+3;630;;1,00;P1;53261-0571;CO;53261-0571;1A;;;;;;PCB connector, Picoblade, 5 contacts, 1 row, male, 1.25mm,  90°, w to b, nolock, key, SMD;Molex;53261-0571;FARNELL ITALIA S.R.L.;1125360;Molex;53261-0571;RS COMPONENTS S.P.A.;542-7270;Amphenol;10114830-10105LF;MOUSER ELECTRONICS;10114830-10105LF;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Tolerance;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+4;1328;;2,00;U1 U5;SSOP8, SN74LVC2T45;DR;SN74LVC2T45DCUT;3.6V;;;;;;Transceiver bus dual-bit, 3.6V, 50mA, max. input 3.6V, SMD, SSOP8;Texas Instruments;SN74LVC2T45DCUT;FARNELL ITALIA S.R.L.;9592768;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Tolerance;Current;Voltage;Pieces_quoted;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+5;1118;;1,00;FL1;0402;FI;600R @100MHz;+/-25%;300mA;-;;;;Ferrite bead, 300mA, 600R @100MHz, SMD, 0402;Murata;BLM15AG601SN1D;FARNELL ITALIA S.R.L.;1515762;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Ranges;Tolerance;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+6;6776.1;;1,00;PCB1;;PCB;;;;;MB;;;LCORE_5, IIT - Printed Circuit Board, Low Cost Reflective Optical Incremental Encoder, Vin 5Vcc, 900ppx4x4rpr;IIT;6776.1;;;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Voltage;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+7;1080;;1,00;R7;0402;R;0R;0.063W;1%;200ppm;;;;Resistor Thick film, 0R, 0.063W, 1%, SMD, 0402;Yageo;RC0402JR-070RL;FARNELL ITALIA S.R.L.;9232516;Yageo;RC0402JR-070RL;DIGI-KEY CORPORATION;311-0.0JRDKR-ND;
+8;1109;;2,00;R2 R4;0402;R;10K;0.063W;1%;250ppm;;;;Resistor Thick film, 10K, 0.063W, 1%, SMD, 0402;Yageo;RC0402FR-0710KL;FARNELL ITALIA S.R.L.;9239359RL;Yageo;RC0402FR-0710KL;MOUSER ELECTRONICS;603-RC0402FR-0710KL;
+9;3966;;1,00;R5;0603;R;180R;0.1W;1%;100ppm;;;;Resistor Thick film, 180R, 0.1W, 1%, SMD, 0603;Multicomp;MCHP03W8F1800T5E;FARNELL ITALIA S.R.L.;1576267RL;Yageo;RC0603FR-07180RL;MOUSER ELECTRONICS;603-RC0603FR-07180RL;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Pieces_quoted;Prepared;;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+10;554;;1,00;U2;LLP6;RG;LP5900SD33;2.5/5.5V;;;;;;Voltage regulator, linear, ultra low noise, Vin 2.5/5.5V, Vout 3.3V, 150mA, SMD, LLP6;National Semiconductor;LP5900SD-3.3;RS COMPONENTS S.P.A.;651-5154;National Semiconductor;LP5900SD-3.3;FARNELL ITALIA S.R.L.;2296052;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Value;Supply_voltage;Ranges;Pieces_quoted;Prepared;;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+11;3965;;1,00;U3;AEDR8501;SE;AEDR-8501-102;3V;304LPI;;;;;Reflective optical encoder with index, 3 channels, 304LPI, 5V, 3.95x3.4mm, SMD;Avago;AEDR-8501-102;MOUSER ELECTRONICS;630-AEDR-8501-102;
+P;IITCODE;N.M;QTY;REFDES;PACKAGE;CATEGORY;Resistance;Power;Tolerance;Stability;Voltage;Prepared;;Description;Manuf;Manuf Code;Supplier;Supplier Code
+12;1080;X;1,00;R6;0402;R;0R;0.063W;1%;200ppm;;;;Resistor Thick film, 0R, 0.063W, 1%, SMD, 0402;Yageo;RC0402JR-070RL;FARNELL ITALIA S.R.L.;9232516;Yageo;RC0402JR-070RL;DIGI-KEY CORPORATION;311-0.0JRDKR-ND;
+13;1109;X;2,00;R1 R3;0402;R;10K;0.063W;1%;250ppm;;;;Resistor Thick film, 10K, 0.063W, 1%, SMD, 0402;Yageo;RC0402FR-0710KL;FARNELL ITALIA S.R.L.;9239359RL;Yageo;RC0402FR-0710KL;MOUSER ELECTRONICS;603-RC0402FR-0710KL;
