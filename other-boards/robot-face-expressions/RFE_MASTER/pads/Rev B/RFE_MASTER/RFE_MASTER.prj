@@ -20,10 +20,11 @@ KEY Bus_Contents "./busconts.ini"
 KEY CentralLibrary "P:\iCub_Integrated_Library\iCub_Integrated_Library.lmc"
 KEY FrontEndSnapshot "DxD"
 KEY PinComponents "./SL_speccomp.ini"
-KEY DxD_Version "PADSVX.2.4"
+KEY DxD_Version "PADSVX.2.8"
 KEY SheetsEditMode "1"
 KEY DBCFile "P:\WingstDXDatabook.dbc"
 KEY PartListerCfg "iCubExcelPartLister"
+KEY HandlePipedPartNumbers "FALSE"
 ENDSECTION
 SECTION FlowSettings
 KEY FlowType "PADS"

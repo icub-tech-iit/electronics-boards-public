@@ -1,0 +1,490 @@
+.HEADER
+BOARD_FILE    2.0    "PADS Layout VX.2.4"    2019/01/18.16:40:05    1
+"f:\repo\p2016_15_rfe_robotfaceexpression\rfe_master\output\rev_b\rfe_master_12024_b.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE
+1.50329
+0     13.0                          15.865                        0     
+0     12.7                          16.165                        0     
+0     -12.7                         16.165                        0     
+0     -13.0                         15.865                        0     
+0     -13.0                         15.0                          0     
+0     -14.0                         14.0                          -90.0     
+0     -14.53428                     14.0                          0     
+0     -15.14505                     14.20819                      -37.6     
+0     -17.26123                     15.84053                      0     
+0     -17.65037                     16.64587                      -53.1     
+0     -20.58207                     12.8452                       286.3     
+0     -19.70431                     12.6733                       -53.1     
+0     -17.70746                     11.13301                      0     
+0     -17.31823                     10.3412                       -52.4     
+0     -17.31823                     -10.3412                      0     
+0     -17.70746                     -11.13301                     -52.4     
+0     -19.70431                     -12.6733                      0     
+0     -20.58207                     -12.8452                      -53.1     
+0     -17.65037                     -16.64587                     286.3     
+0     -17.26123                     -15.84053                     -53.1     
+0     -15.14505                     -14.20819                     0     
+0     -14.53428                     -14.0                         -37.6     
+0     -14.0                         -14.0                         0     
+0     -13.0                         -15.0                         -90.0     
+0     -13.0                         -15.865                       0     
+0     -12.7                         -16.165                       0     
+0     12.7                          -16.165                       0     
+0     13.0                          -15.865                       0     
+0     13.0                          -15.0                         0     
+0     14.0                          -14.0                         -90.0     
+0     14.53428                      -14.0                         0     
+0     15.14505                      -14.20819                     -37.6     
+0     17.26123                      -15.84053                     0     
+0     17.65037                      -16.64587                     -53.1     
+0     25.57969                      -17.4467                      170.0     
+0     25.57969                      -15.9533                      -169.2    
+0     20.58207                      -12.8452                      94.7      
+0     19.70431                      -12.6733                      -53.1     
+0     17.70746                      -11.13301                     0     
+0     17.31823                      -10.3412                      -52.4     
+0     17.31823                      10.3412                       0     
+0     17.70746                      11.13301                      -52.4     
+0     19.70431                      12.6733                       0     
+0     20.58207                      12.8452                       -53.1     
+0     17.65037                      16.64587                      286.3     
+0     17.26123                      15.84053                      -53.1     
+0     15.14505                      14.20819                      0     
+0     14.53428                      14.0                          -37.6     
+0     14.0                          14.0                          0     
+0     13.0                          15.0                          -90.0     
+0     13.0                          15.865                        0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+3.000000 -21.650000 -16.700000 NPTH BOARD
+3.000000 -21.650000 16.700000 NPTH BOARD
+3.000000 21.650000 -16.700000 NPTH BOARD
+3.000000 21.650000 16.700000 NPTH BOARD
+.END_DRILLED_HOLES
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     -20.47772                     -15.76418                     0     
+0     -18.4981                      -14.23717                     0     
+0     -18.46756                     -14.27676                     359.3     
+0     -20.44718                     -15.80377                     0     
+0     -20.47772                     -15.76418                     -358.1    
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     20.47772                      -15.76418                     0     
+0     20.44718                      -15.80377                     -358.1    
+0     18.46756                      -14.27676                     0     
+0     25.57969                      -17.4467                      206.5     
+0     25.57969                      -15.9533                      -169.2    
+0     18.4981                       -14.23717                     131.2     
+0     20.47772                      -15.76418                     0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     -20.47772                     15.76418                      0     
+0     -20.44718                     15.80377                      -358.1    
+0     -18.46756                     14.27676                      0     
+0     -18.4981                      14.23717                      359.3     
+0     -20.47772                     15.76418                      0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.0    0.0
+0     20.47772                      15.76418                      0     
+0     18.4981                       14.23717                      0     
+0     18.46756                      14.27676                      359.3     
+0     20.44718                      15.80377                      0     
+0     20.47772                      15.76418                      -358.1    
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -20.44718                     -15.80377                     0     
+0     -20.47772                     -15.76418                     -358.1    
+0     -18.4981                      -14.23717                     0     
+0     -18.46756                     -14.27676                     359.3     
+0     -20.44718                     -15.80377                     0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     20.47772                      -15.76418                     0     
+0     20.44718                      -15.80377                     -358.1    
+0     18.46756                      -14.27676                     0     
+0     25.57969                      -17.4467                      206.5     
+0     25.57969                      -15.9533                      -169.2    
+0     18.4981                       -14.23717                     131.2     
+0     20.47772                      -15.76418                     0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     20.44718                      15.80377                      0     
+0     20.47772                      15.76418                      -358.1    
+0     18.4981                       14.23717                      0     
+0     18.46756                      14.27676                      359.3     
+0     20.44718                      15.80377                      0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.0    0.0
+0     -20.47772                     15.76418                      0     
+0     -20.44718                     15.80377                      -358.1    
+0     -18.46756                     14.27676                      0     
+0     -18.4981                      14.23717                      359.3     
+0     -20.47772                     15.76418                      0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.600000      0.0
+0     -20.12864                     13.00061                      0     
+0     -17.31823                     10.83277                      0     
+0     -17.31823                     12.0                          0     
+0     -15.31823                     14.0                          -90.0     
+0     -14.87515                     14.0                          0     
+0     -17.68556                     16.16784                      0     
+0     -20.12864                     13.00061                      -60.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.600000      0.0
+0     20.12864                      13.00061                      0     
+0     17.68556                      16.16784                      -60.0     
+0     14.87515                      14.0                          0     
+0     15.31823                      14.0                          0     
+0     17.31823                      12.0                          -90.0     
+0     17.31823                      10.83277                      0     
+0     20.12864                      13.00061                      0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.600000      0.0
+0     -20.12864                     -13.00061                     0     
+0     -17.68556                     -16.16784                     -60.0     
+0     -14.87515                     -14.0                         0     
+0     -15.31823                     -14.0                         0     
+0     -17.31823                     -12.0                         -90.0     
+0     -17.31823                     -10.83277                     0     
+0     -20.12864                     -13.00061                     0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    0.600000      0.0
+0     20.12864                      -13.00061                     0     
+0     17.31823                      -10.83277                     0     
+0     17.31823                      -12.0                         0     
+0     15.31823                      -14.0                         -90.0     
+0     14.87515                      -14.0                         0     
+0     17.68556                      -16.16784                     0     
+0     20.12864                      -13.00061                     -60.0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.600000      0.0
+0     -17.31823                     12.0                          0     
+0     -15.31823                     14.0                          -90.0     
+0     -14.87515                     14.0                          0     
+0     -17.68556                     16.16784                      0     
+0     -20.12864                     13.00061                      -60.0     
+0     -17.31823                     10.83277                      0     
+0     -17.31823                     12.0                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.600000      0.0
+0     14.87515                      14.0                          0     
+0     15.31823                      14.0                          0     
+0     17.31823                      12.0                          -90.0     
+0     17.31823                      10.83277                      0     
+0     20.12864                      13.00061                      0     
+0     17.68556                      16.16784                      -60.0     
+0     14.87515                      14.0                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.600000      0.0
+0     17.31823                      -12.0                         0     
+0     15.31823                      -14.0                         -90.0     
+0     14.87515                      -14.0                         0     
+0     17.68556                      -16.16784                     0     
+0     20.12864                      -13.00061                     -60.0     
+0     17.31823                      -10.83277                     0     
+0     17.31823                      -12.0                         0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    0.600000      0.0
+0     -14.87515                     -14.0                         0     
+0     -15.31823                     -14.0                         0     
+0     -17.31823                     -12.0                         -90.0     
+0     -17.31823                     -10.83277                     0     
+0     -20.12864                     -13.00061                     0     
+0     -17.68556                     -16.16784                     -60.0     
+0     -14.87515                     -14.0                         0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    2.500000      0.0
+0     -15.31823                     14.0                          0     
+0     -17.31823                     12.0                          90.0      
+0     -17.31823                     -12.0                         0     
+0     -15.31823                     -14.0                         90.0      
+0     -13.0                         -14.0                         0     
+0     -13.0                         -15.865                       0     
+0     -12.7                         -16.165                       0     
+0     12.7                          -16.165                       0     
+0     13.0                          -15.865                       0     
+0     13.0                          -14.0                         0     
+0     15.31823                      -14.0                         0     
+0     17.31823                      -12.0                         90.0      
+0     17.31823                      12.0                          0     
+0     15.31823                      14.0                          90.0      
+0     13.0                          14.0                          0     
+0     13.0                          15.865                        0     
+0     12.7                          16.165                        0     
+0     -1.75                         16.165                        0     
+0     -1.75                         9.0                           0     
+0     14.81823                      9.0                           0     
+0     14.81823                      -9.0                          0     
+0     -14.81823                     -9.0                          0     
+0     -14.81823                     9.0                           0     
+0     -10.25                        9.0                           0     
+0     -10.25                        16.165                        0     
+0     -12.7                         16.165                        0     
+0     -13.0                         15.865                        0     
+0     -13.0                         14.0                          0     
+0     -15.31823                     14.0                          0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+TOP    3.200000      0.0
+0     -10.25                        16.165                        0     
+0     -10.25                        9.0                           0     
+0     -1.75                         9.0                           0     
+0     -1.75                         16.165                        0     
+0     -10.25                        16.165                        0     
+.END_PLACE_KEEPOUT
+.PLACE_KEEPOUT
+BOTTOM    2.500000      0.0
+0     -13.0                         -15.865                       0     
+0     -12.7                         -16.165                       0     
+0     12.7                          -16.165                       0     
+0     13.0                          -15.865                       0     
+0     13.0                          -14.0                         0     
+0     15.31823                      -14.0                         0     
+0     17.31823                      -12.0                         90.0      
+0     17.31823                      12.0                          0     
+0     15.31823                      14.0                          90.0      
+0     13.0                          14.0                          0     
+0     13.0                          15.865                        0     
+0     12.7                          16.165                        0     
+0     0.025                         16.165                        0     
+0     0.025                         9.0                           0     
+0     14.81823                      9.0                           0     
+0     14.81823                      -9.0                          0     
+0     -14.81823                     -9.0                          0     
+0     -14.81823                     9.0                           0     
+0     -0.025                        9.0                           0     
+0     -0.025                        16.165                        0     
+0     -12.7                         16.165                        0     
+0     -13.0                         15.865                        0     
+0     -13.0                         14.0                          0     
+0     -15.31823                     14.0                          0     
+0     -17.31823                     12.0                          90.0      
+0     -17.31823                     -12.0                         0     
+0     -15.31823                     -14.0                         90.0      
+0     -13.0                         -14.0                         0     
+0     -13.0                         -15.865                       0     
+.END_PLACE_KEEPOUT
+.PLACEMENT
+CAPC1005_IS0402L                             CAP-0402-C0G-12PF-50V-5TOL                   C35                                          
+5.75                          -2.675                        180.0     BOTTOM    PLACED    
+LOGO                                         LOGOICUB                                     LOGO1                                        
+11.35                         -8.7                          0.0       TOP       PLACED    
+FID-40                                       FID-40                                       FID2                                         
+17.0                          13.1                          0.0       TOP       FIXED     
+FID-40                                       FID-40                                       FID4                                         
+-16.0                         -12.5                         0.0       TOP       FIXED     
+FID-40                                       FID-40                                       FID5                                         
+16.0                          12.5                          0.0       BOTTOM    FIXED     
+FID-40                                       FID-40                                       FID6                                         
+-17.0                         13.0                          0.0       BOTTOM    FIXED     
+FID-40                                       FID-40                                       FID7                                         
+-16.0                         -12.5                         0.0       BOTTOM    FIXED     
+FID-40                                       FID-40                                       FID8                                         
+16.0                          -12.5                         0.0       BOTTOM    FIXED     
+FID-40                                       FID-40                                       FID3                                         
+-17.0                         13.0                          0.0       TOP       FIXED     
+LABEL                                        LABEL                                        LABEL1                                       
+-14.75                        -9.6                          0.0       TOP       PLACED    
+FID-40                                       FID-40                                       FID1                                         
+16.0                          -12.5                         0.0       TOP       FIXED     
+QRCODE_7X7                                   QRCODE_7X7                                   LABEL3                                       
+-4.75                         2.2                           0.0       BOTTOM    PLACED    
+SMOXM_150                                    OXLEY-SMOX-TEST-MALE-0606-SMD                TP1                                          
+10.85                         6.3                           0.0       TOP       PLACED    
+SMOXM_150                                    OXLEY-SMOX-TEST-MALE-0606-SMD                TP2                                          
+9.9                           -3.75                         270.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C21                                          
+6.25                          -8.5                          180.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C2                                           
+-0.25                         -0.5                          90.0      TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C14                                          
+-7.75                         1.0                           180.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-10NF-50V-10TOL                  C37                                          
+7.25                          -8.5                          180.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C18                                          
+0.75                          2.25                          0.0       TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C15                                          
+-1.75                         2.25                          270.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C23                                          
+5.25                          -8.5                          0.0       BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C6                                           
+0.75                          1.25                          0.0       TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C4                                           
+-13.5                         11.5                          0.0       BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C9                                           
+-1.25                         -0.5                          90.0      TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C16                                          
+-13.5                         10.5                          0.0       BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C1                                           
+-8.25                         4.75                          270.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C19                                          
+4.25                          -8.5                          180.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C13                                          
+-7.0                          -4.0                          180.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C7                                           
+-4.75                         -3.0                          180.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C22                                          
+3.375                         -5.75                         90.0      BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C8                                           
+-9.25                         4.75                          270.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C3                                           
+-7.0                          -3.0                          180.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C10                                          
+-7.0                          -7.0                          180.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-C0G-27PF-50V-5TOL                   C30                                          
+-5.0                          -6.5                          270.0     BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-C0G-100PF-50V-5TOL                  C32                                          
+-9.0                          -2.75                         0.0       TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C17                                          
+-0.25                         7.0                           90.0      TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-C0G-12PF-50V-5TOL                   C34                                          
+3.75                          -2.675                        0.0       BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X5R-1UF-16V-10TOL                   C5                                           
+0.7                           7.0                           90.0      TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 C20                                          
+2.25                          -5.75                         270.0     TOP       PLACED    
+CAPC1005_IS0402L                             CAP-0402-C0G-27PF-50V-5TOL                   C31                                          
+-3.25                         -4.0                          0.0       BOTTOM    PLACED    
+CAPC1005_IS0402L                             CAP-0402-X7R-6N8-50V-5TOL                    C33                                          
+4.5                           -2.5                          0.0       TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-0R-1TOL                             R15                                          
+-9.25                         -1.5                          0.0       TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-330R-1TOL                           R13                                          
+-14.5                         7.25                          0.0       TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-0R-1TOL                             R4                                           
+9.75                          -5.75                         90.0      TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-10K-1TOL                            R10                                          
+1.75                          -5.75                         90.0      BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-0R-1TOL                             R3                                           
+-7.75                         0.0                           0.0       TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-10R-1TOL                            R1                                           
+-4.0                          7.5                           270.0     BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-10K-1TOL                            R11                                          
+8.25                          -8.5                          180.0     TOP       PLACED    
+RESC1005_IS0402L                             RES-0402-100R-1TOL                           R5                                           
+-5.0                          -4.5                          270.0     BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-10R-1TOL                            R2                                           
+-3.0                          7.5                           270.0     BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-4K12-1TOL                           R12                                          
+7.5                           0.75                          180.0     BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-10K-1TOL                            R9                                           
+7.5                           -1.0                          0.0       BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-10K-1TOL                            R8                                           
+5.0                           3.2                           0.0       BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-324K-1TOL                           R6                                           
+7.0                           3.2                           180.0     BOTTOM    PLACED    
+RESC1005_IS0402L                             RES-0402-10K-1TOL                            R7                                           
+5.0                           2.25                          0.0       BOTTOM    PLACED    
+CAPC2012_IS0805N                             CAP-0805-X5R-10UF-16V-10TOL                  C27                                          
+11.75                         8.5                           180.0     TOP       PLACED    
+CAPC2012_IS0805N                             CAP-0805-X5R-10UF-16V-10TOL                  C29                                          
+2.5                           5.75                          270.0     BOTTOM    PLACED    
+CAPC2012_IS0805N                             CAP-0805-X5R-10UF-16V-10TOL                  C28                                          
+2.5                           2.75                          90.0      BOTTOM    PLACED    
+RESC1608_IS0603N                             RES-0603-120R-1TOL                           R14                                          
+-9.25                         -4.0                          180.0     TOP       PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL1                                          
+-7.5                          -5.5                          90.0      BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL11                                         
+-0.5                          8.75                          180.0     BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL10                                         
+-3.25                         -8.5                          0.0       BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL8                                          
+3.75                          8.25                          180.0     TOP       PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL12                                         
+10.0                          -8.0                          270.0     BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL9                                          
+13.5                          10.0                          180.0     TOP       PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL7                                          
+-10.0                         -8.5                          0.0       BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL2                                          
+-6.5                          -5.5                          90.0      BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL4                                          
+-7.0                          -4.25                         90.0      TOP       PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL6                                          
+9.5                           8.5                           180.0     BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL5                                          
+2.25                          -8.0                          0.0       BOTTOM    PLACED    
+FBEADC_0402L                                 FBEAD-0402-120RX100MHZ-0A5                   FL3                                          
+-9.25                         2.5                           270.0     TOP       PLACED    
+BOURNS-CNSW                                  CM-CHOKE-0805-180R-0A3-50VDC                 FL13                                         
+-3.5                          -0.5                          180.0     TOP       PLACED    
+X2SON                                        TLV70733PDQNR                                U1                                           
+0.75                          4.0                           90.0      TOP       PLACED    
+SOD123                                       SS19L                                        D1                                           
+-11.5                         7.5                           90.0      BOTTOM    PLACED    
+LED0603                                      LED-0603-BLUE-4V-100MCD                      DL1                                          
+-14.25                        8.5                           90.0      TOP       PLACED    
+DIOM680X580                                  MBRS360T3G                                   D2                                           
+5.25                          -12.5                         180.0     TOP       PLACED    
+SOT23-6                                      DVIULC6-4SC6                                 D3                                           
+-7.5                          7.75                          180.0     TOP       PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J2                                           
+-11.07823                     2.25                          90.0      TOP       PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J5                                           
+-8.75                         -9.925                        180.0     TOP       PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J3                                           
+11.07823                      2.25                          90.0      BOTTOM    PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J6                                           
+-8.75                         9.925                         0.0       BOTTOM    PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J4                                           
+-11.07823                     -2.25                         270.0     BOTTOM    PLACED    
+504050-0491                                  PICOLOCK-4X1-MALE90-P150                     J1                                           
+11.07823                      -2.25                         270.0     TOP       PLACED    
+OSCDFN4_250X200                              8Z-16_000MAAJ-T                              Y1                                           
+-2.5                          -6.25                         90.0      BOTTOM    PLACED    
+UFQFPN48-7X7MM                               STM32L452CEU6                                U2                                           
+-4.75                         2.25                          90.0      BOTTOM    PLACED    
+CAPC1608_IS0603N                             CAP-0603-X7R-100NF-100V-10TOL                C24                                          
+6.25                          8.25                          0.0       TOP       PLACED    
+CAPC1608_IS0603N                             CAP-0603-X7R-1UF-16V-10TOL                   C26                                          
+0.75                          4.0                           270.0     BOTTOM    PLACED    
+CAPC1608_IS0603N                             CAP-0603-X7R-1UF-16V-10TOL                   C25                                          
+7.75                          -1.25                         180.0     TOP       PLACED    
+CAPC1608_IS0603N                             CAP-0603-X7R-120NF-50V-10TOL                 C36                                          
+4.5                           -1.25                         0.0       TOP       PLACED    
+LGA6X6-25                                    LTM4622AEV                                   U3                                           
+5.79                          3.46                          0.0       TOP       PLACED    
+PSTRIP5X2_M                                  PINSTRIP-5X2-MALESTR-P127                    J8                                           
+-2.0                          -5.0                          270.0     TOP       PLACED    
+SOT23-8                                      TCAN334DCNT                                  U4                                           
+-4.5                          2.5                           90.0      TOP       PLACED    
+47346-0001                                   MOLEX-UUSB-B-5-FEM90                         J9                                           
+-4.7                          11.555                        0.0       TOP       PLACED    
+TP-0603                                      TERMINAL-TEST-S2761-0603                     TP3                                          
+-12.25                        -6.5                          0.0       TOP       PLACED    
+LGA5X4-28                                    BNO055                                       U5                                           
+6.0                           -5.5                          0.0       TOP       PLACED    
+OSC_ST2012SB                                 ST2012SB32768C0HPWBB                         Y2                                           
+4.75                          -1.25                         180.0     BOTTOM    PLACED    
+504050-0591                                  PICOLOCK-5X1-MALE90-P150                     J10                                          
+9.5                           9.915                         0.0       TOP       PLACED    
+504050-0591                                  PICOLOCK-5X1-MALE90-P150                     J12                                          
+3.5                           9.915                         0.0       BOTTOM    PLACED    
+504050-0591                                  PICOLOCK-5X1-MALE90-P150                     J13                                          
+9.5                           -9.915                        180.0     BOTTOM    PLACED    
+504050-0591                                  PICOLOCK-5X1-MALE90-P150                     J11                                          
+-3.5                          -9.915                        180.0     BOTTOM    PLACED    
+QFN3X3-24                                    MPU9250                                      U6                                           
+6.0                           -5.5                          0.0       BOTTOM    PLACED    
+SERIAL_NUMBER_4X6                            SERIAL_NUMBER_4X6                            U7                                           
+5.8                           3.35                          0.0       TOP       PLACED    
+.END_PLACEMENT

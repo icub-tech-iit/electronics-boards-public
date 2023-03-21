@@ -1,0 +1,2 @@
+This revision B has been chenged putting R4 from NM to mounted, we do not create the C version because all the rev B have been shorted manually
+ connecting together both the pins of R4 (no mounted res)
