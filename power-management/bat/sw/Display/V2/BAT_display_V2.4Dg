@@ -39,7 +39,7 @@ func main()
 
     // CPU_voltage 1.1 generated 24/03/2016 09:28:02
     media_SetAdd(iCPU_voltageH, iCPU_voltageL) ;      // point to the CPU_voltage image
-    media_Image(8, 100) ;                                 // show all digits at 0, only do this once
+    media_Image(8, 100) ;                                 // show all digits at 0, only do this once - display image at specified x,y coordinates
 
     // CPU_current 1.1 generated 24/03/2016 09:28:22
     media_SetAdd(iCPU_currentH, iCPU_currentL) ;      // point to the CPU_current image
@@ -68,7 +68,7 @@ func main()
 
     // Statictext3 1.0 generated 24/03/2016 09:29:42
     media_SetAdd(iStatictext3H, iStatictext3L) ;      // point to the Statictext3 image
-    media_Image(41, 114) ;            // show image
+    media_Image(41, 115) ;            // show image
 
     // Statictext2 1.0 generated 24/03/2016 09:29:44
     media_SetAdd(iStatictext2H, iStatictext2L) ;      // point to the Statictext2 image
@@ -76,7 +76,7 @@ func main()
 
     // Statictext4 1.0 generated 24/03/2016 09:29:46
     media_SetAdd(iStatictext4H, iStatictext4L) ;      // point to the Statictext4 image
-    media_Image(113, 114) ;            // show image
+    media_Image(113, 115) ;            // show image
 
 
     // Battery_percent 1.1 generated 24/03/2016 09:47:17
