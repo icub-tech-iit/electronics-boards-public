@@ -10,10 +10,15 @@ Options
     ResponseSize                 2
     Multidrop                    No
     Destination                  0
+    DestBank                     0
     MainForm                     0
     SndBuf                       0
     ButtonDisable                No
     SignedDigits                 Yes
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
 end
 Form
     Name                         Form1
@@ -172,8 +177,8 @@ Gauge
     Step                         10
     Style                        BottomLeft
     TickHeight                   1
-    Top                          53
-    Width                        80
+    Top                          52
+    Width                        48
     OnChanged                    ''
     OnTouchMoving                ''
     OnTouchPressed               ''
@@ -185,7 +190,7 @@ CustomDigits
     Bitmap                       (None)
     Digits                       3
     LeadingZero                  No
-    Left                         84
+    Left                         50
     Top                          64
     OnChanged                    ''
     OnTouchMoving                ''
@@ -205,7 +210,7 @@ StaticText
     Font.Size                    8
     Font.Style                   []
     Height                       13
-    Left                         88
+    Left                         54
     Top                          50
     Transparent                  Yes
     Width                        35
@@ -223,11 +228,11 @@ StaticText
     Font.Name                    Tahoma
     Font.Size                    9
     Font.Style                   []
-    Height                       14
-    Left                         112
+    Height                       13
+    Left                         78
     Top                          64
     Transparent                  Yes
-    Width                        16
+    Width                        13
     WordWrap                     Yes
 end
 Strings
@@ -406,9 +411,85 @@ Image
     Source.Left                  223
     Source.Top                   0
     Source.Width                 482
-    Top                          16
+    Top                          32
     Width                        128
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
+end
+CustomDigits
+    Name                         StatusDec
+    Alias                        StatusDec
+    Bitmap                       (None)
+    Digits                       4
+    LeadingZero                  Yes
+    Left                         92
+    Top                          64
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         StatusString
+    Alias                        Status
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      Status
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       13
+    Left                         94
+    Top                          50
+    Transparent                  Yes
+    Width                        34
+    WordWrap                     Yes
+end
+Strings
+    Name                         Strings6
+    Alias                        Strings6
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       4
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          124
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings7
+    Alias                        Strings7
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       4
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         72
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          124
+    Width                        58
+    OnChanged                    ''
 end

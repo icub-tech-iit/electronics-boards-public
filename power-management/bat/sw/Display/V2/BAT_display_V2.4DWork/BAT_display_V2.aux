@@ -1,8 +1,8 @@
 ==============================================================
 ==============================================================
-4DGL Compiler 2.8.0.3 -- Copyright 2004-2015 4D Labs
-** D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4dg
-compiled Fri Mar 25 11:53:02 2016
+4DGL Compiler 2.8.1.0 -- Copyright 2004-2016 4D Labs
+** C:\Users\jlosi\Workspace\electronics-boards-public\power-management\bat\sw\Display\V2\BAT_display_V2.4Dg
+compiled Thu Aug 03 10:07:42 2023
 
 ==============================================================
 ==============================================================
@@ -10,17 +10,73 @@ compiled Fri Mar 25 11:53:02 2016
 
 No Ref for file
 [LINKING]
-function 5, main, address 38
-(main entry point)
-stack usage 16 + 4
-function 'main' requires no arguments
-function 'main' has no return value
+function 5, main(main entry point), address 0x26, stack usage 16 + 4 
+voltage                                1  word     [local]  (usage 9)
+Motors_voltage                         7  word     [local]  (usage 15)
+CPU_current                            6  word     [local]  (usage 15)
+Motors_current                         8  word     [local]  (usage 15)
+charge                                 3  word     [local]  (usage 12)
+CPU_voltage                            5  word     [local]  (usage 15)
+button                                 4  word     [local]  (usage 18)
+current                                2  word     [local]  (usage 15)
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
 
 [LINKING]
-function 1, ledDigitsDisplay, address 830
-stack usage 8 + 4
-function 'ledDigitsDisplay' requires 9 argument
-function 'ledDigitsDisplay' has no return value
+function 1, ledDigitsDisplay, address 0x34f, stack usage 14 + 4 
+num                                    4  word[4]  [local]  (usage 6)
+indexL                                 2  word     [arg]  (usage 3)
+newval                                 1  word     [arg]  (usage 3)
+Digits                                 3  word     [arg]  (usage 9)
+left                                   2  word     [arg]  (usage 3)
+top                                    3  word     [arg]  (usage 3)
+MinDigits                              4  word     [arg]  (usage 3)
+LeadingBlanks                          5  word     [arg]  (usage 6)
+WidthDigit                             4  word     [arg]  (usage 3)
+i                                      1  word     [local]  (usage 18)
+k                                      2  word     [local]  (usage 15)
+indexH                                 1  word     [arg]  (usage 3)
+l                                      3  word     [local]  (usage 18)
 
 [RESERVED WORDS]
 #inherit
@@ -140,19 +196,22 @@ media_Init                        FFFFFFB1         -79  args=0 r=1  (usage 3)
 media_SetAdd                      FFFFFFB9         -71  args=2 r=0  (usage 57)
 media_VideoFrame                  FFFFFFBA         -70  args=3 r=0  (usage 24)
 pause                             FFFFFFFA          -6  args=1 r=0  (usage 3)
+putnum                            FFFFFFF9          -7  args=2 r=1  (usage 9)
 putstr                            FFFFFFF7          -9  args=1 r=1  (usage 3)
-serin                             FFFFFFFF          -1  args=0 r=1  (usage 9)
-serout                            FFFFFFFD          -3  args=1 r=0  (usage 9)
+serin                             FFFFFFFF          -1  args=0 r=1  (usage 12)
+serout                            FFFFFFFD          -3  args=1 r=0  (usage 12)
 setbaud                           FFFFFFFC          -4  args=1 r=0  (usage 3)
+to                                FFFFFFFB          -5  args=1 r=1  (usage 9)
 
 [USER FUNCTIONS]
-ledDigitsDisplay                  0000033E  args=9 r=0  (usage 15)
+ledDigitsDisplay                  0000034F  args=9 r=0  (usage 15)
 
 [GLOBAL VARIABLES]
 combuf                                 1  word[10]   (usage 3)
 command                               12  word       (usage 12)
 display                               11  word       (usage 6)
 value                                 13  word       (usage 12)
+value1                                14  word       (usage 6)
 
 [PRIVATE VARIABLES]
 
@@ -168,9 +227,9 @@ value                                 13  word       (usage 12)
 [PROGRAM]
 main
 [CODESIZE]
-1011
+1030
 [MEMSIZE]
-13
+14
 [ARGCOUNT]
 0
 [RETURNS]
@@ -178,14 +237,14 @@ NO
 [STACKSIZE]
 0 (AUTO)
 [STACK_ESTIMATE]
-44   (nb:- worst case estimate)
+50   (nb:- worst case estimate)
 [MODE]
 0
 
 [PROJECT]
-D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4dg
+C:\Users\jlosi\Workspace\electronics-boards-public\power-management\bat\sw\Display\V2\BAT_display_V2.4Dg
 C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\GOLDELOX.fnc
 C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\ledDigitsDisplayGoldelox.inc
 C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
 C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
-D:\iCubHardware\trunk\electronics\private\P2015_06_BAT\SW\Display\V2\BAT_display_V2.4DWork\BAT_display_V2Const.inc
+C:\Users\jlosi\Workspace\electronics-boards-public\power-management\bat\sw\Display\V2\BAT_display_V2.4DWork\BAT_display_V2Const.inc

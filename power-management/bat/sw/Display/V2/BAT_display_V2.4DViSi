@@ -10,10 +10,15 @@ Options
     ResponseSize                 2
     Multidrop                    No
     Destination                  0
+    DestBank                     0
     MainForm                     0
     SndBuf                       0
     ButtonDisable                No
     SignedDigits                 Yes
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
 end
 Form
     Name                         Form1
@@ -237,7 +242,7 @@ Gauge
     Bevel.Outerwidth             1
     Bevel.Visible                No
     Color                        BLACK
-    Height                       14
+    Height                       11
     Left                         43
     Maxvalue                     100
     Minvalue                     0
@@ -303,6 +308,7 @@ end
 StaticText
     Name                         Statictext1
     Alias                        Statictext1
+    Alignment                    Left
     AutoSize                     No
     Caption                      V
     Color                        BLACK
@@ -321,6 +327,7 @@ end
 StaticText
     Name                         Statictext2
     Alias                        Statictext2
+    Alignment                    Left
     AutoSize                     No
     Caption                      V
     Color                        BLACK
@@ -339,6 +346,7 @@ end
 StaticText
     Name                         Statictext3
     Alias                        Statictext3
+    Alignment                    Left
     AutoSize                     No
     Caption                      A
     Color                        BLACK
@@ -357,6 +365,7 @@ end
 StaticText
     Name                         Statictext4
     Alias                        Statictext4
+    Alignment                    Left
     AutoSize                     No
     Caption                      A
     Color                        BLACK
@@ -375,6 +384,7 @@ end
 StaticText
     Name                         Statictext7
     Alias                        Statictext7
+    Alignment                    Left
     AutoSize                     Yes
     Caption                      Charge
     Color                        BLACK
@@ -393,6 +403,7 @@ end
 StaticText
     Name                         Statictext5
     Alias                        Statictext5
+    Alignment                    Left
     AutoSize                     Yes
     Caption                      %
     Color                        BLACK
