@@ -2,7 +2,7 @@
 ==============================================================
 4DGL Compiler 2.8.1.0 -- Copyright 2004-2016 4D Labs
 ** C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Rotated view - iCub3\BAT_display_serial.4dg
-compiled Mon Sep 18 17:22:20 2023
+compiled Fri Sep 29 11:54:07 2023
 
 ==============================================================
 ==============================================================
@@ -10,29 +10,25 @@ compiled Mon Sep 18 17:22:20 2023
 
 No Ref for file
 [LINKING]
-function 14, main(main entry point), address 0x10f, stack usage 0 + 4 
+function 12, main(main entry point), address 0x2c2, stack usage 0 + 4 
 
 [LINKING]
-function 13, graphic_update_data, address 0x379, stack usage 0 + 4 
+function 11, graphic_update_data, address 0x5e8, stack usage 0 + 4 
 
 [LINKING]
-function 12, graphic_setup, address 0x84e, stack usage 0 + 4 
+function 10, graphic_setup, address 0x8ea, stack usage 0 + 4 
 
 [LINKING]
-function 11, clean_motor_data_section, address 0xa7a, stack usage 0 + 4 
+function 9, graphic_message_fault_error, address 0xb16, stack usage 0 + 4 
 
 [LINKING]
-function 10, clean_cpu_data_section, address 0xaaa, stack usage 0 + 4 
-
-
-[LINKING]
-function 8, graphic_message_uart_error, address 0xada, stack usage 0 + 4 
+function 8, graphic_message_uart_error, address 0xf17, stack usage 0 + 4 
 
 [LINKING]
-function 7, graphic_intro, address 0xb15, stack usage 0 + 4 
+function 7, graphic_intro, address 0xf52, stack usage 0 + 4 
 
 [LINKING]
-function 6, graphic_icub, address 0xbdc, stack usage 0 + 4 
+function 6, graphic_icub, address 0x1019, stack usage 0 + 4 
 
 offsl                                  1  word     [arg]  (usage 2)
 msglen                                 2  word     [arg]  (usage 8)
@@ -86,7 +82,7 @@ indexH                                 1  word     [arg]  (usage 2)
 l                                      3  word     [local]  (usage 12)
 
 [LINKING]
-function 1, ledDigitsDisplay, address 0xc06, stack usage 14 + 4 
+function 1, ledDigitsDisplay, address 0x1043, stack usage 14 + 4 
 num                                    4  word[4]  [local]  (usage 6)
 indexL                                 2  word     [arg]  (usage 3)
 newval                                 1  word     [arg]  (usage 3)
@@ -166,9 +162,10 @@ lookup16
 __MAXMEM                          000000FF        255  (usage 1)
 __MAXPROG                         00002400       9216  (usage 1)
 BAUD_9600                         00000138        312  (usage 3)
-BLACK                             00000000          0  (usage 28)
-BLUE                              0000001F         31  (usage 41)
+BLACK                             00000000          0  (usage 18)
+BLUE                              0000001F         31  (usage 30)
 GOLDELOX                          00000001          1  (usage 3)
+GREEN                             00000400       1024  (usage 6)
 iBattery_ampsH                    00000005          5  (usage 6)
 iBattery_ampsL                    00004400      17408  (usage 6)
 iBattery_percentH                 00000005          5  (usage 6)
@@ -197,10 +194,10 @@ iStatusStringH                    00000008          8  (usage 6)
 iStatusStringL                    00005600      22016  (usage 6)
 LANDSCAPE                         00000000          0  (usage 3)
 LANDSCAPE_R                       00000001          1  (usage 6)
-RED                               0000F800      63488  (usage 13)
+RED                               0000F800      63488  (usage 15)
 SCREEN_MODE                       00000007          7  (usage 9)
-SYSTEM                            00000000          0  (usage 40)
-WHITE                             0000FFFF      65535  (usage 40)
+SYSTEM                            00000000          0  (usage 33)
+WHITE                             0000FFFF      65535  (usage 33)
 
 [PmmC FUNCTIONS]
 com_Error                         FFFFFFA5         -91  args=0 r=1  (usage 3)
@@ -208,9 +205,8 @@ com_Full                          FFFFFFA6         -90  args=0 r=1  (usage 3)
 com_Init                          FFFFFFA9         -87  args=3 r=0  (usage 9)
 com_PacketSize                    FFFFFFA2         -94  args=0 r=1  (usage 3)
 com_Reset                         FFFFFFA8         -88  args=0 r=0  (usage 3)
-gfx_Cls                           FFFFFFD7         -41  args=0 r=0  (usage 9)
-gfx_MoveTo                        FFFFFFD6         -42  args=2 r=0  (usage 34)
-gfx_RectangleFilled               FFFFFFCE         -50  args=5 r=0  (usage 6)
+gfx_Cls                           FFFFFFD7         -41  args=0 r=0  (usage 15)
+gfx_MoveTo                        FFFFFFD6         -42  args=2 r=0  (usage 63)
 gfx_Set                           FFFFFFD8         -40  args=2 r=0  (usage 9)
 media_Image                       FFFFFFB3         -77  args=2 r=0  (usage 33)
 media_Init                        FFFFFFB1         -79  args=0 r=1  (usage 3)
@@ -218,7 +214,7 @@ media_ReadByte                    FFFFFFB7         -73  args=0 r=1  (usage 2)
 media_SetAdd                      FFFFFFB9         -71  args=2 r=0  (usage 74)
 media_VideoFrame                  FFFFFFBA         -70  args=3 r=0  (usage 39)
 OVF                               FFFFFFE6         -26  args=0 r=1  (usage 6)
-pause                             FFFFFFFA          -6  args=1 r=0  (usage 9)
+pause                             FFFFFFFA          -6  args=1 r=0  (usage 12)
 putch                             FFFFFFFE          -2  args=1 r=0  (usage 2)
 putnum                            FFFFFFF9          -7  args=2 r=1  (usage 9)
 putstr                            FFFFFFF7          -9  args=1 r=1  (usage 3)
@@ -226,75 +222,105 @@ serin                             FFFFFFFF          -1  args=0 r=1  (usage 3)
 serout                            FFFFFFFD          -3  args=1 r=0  (usage 3)
 setbaud                           FFFFFFFC          -4  args=1 r=0  (usage 3)
 to                                FFFFFFFB          -5  args=1 r=1  (usage 9)
-txt_BGcolour                      FFFFFF7E        -130  args=1 r=0  (usage 76)
-txt_FGcolour                      FFFFFF7F        -129  args=1 r=0  (usage 40)
-txt_FontID                        FFFFFF7D        -131  args=1 r=0  (usage 40)
+txt_BGcolour                      FFFFFF7E        -130  args=1 r=0  (usage 69)
+txt_FGcolour                      FFFFFF7F        -129  args=1 r=0  (usage 33)
+txt_FontID                        FFFFFF7D        -131  args=1 r=0  (usage 33)
 
 [USER FUNCTIONS]
-clean_cpu_data_section            00000AAA  args=0 r=0  (usage 3)
-clean_motor_data_section          00000A7A  args=0 r=0  (usage 3)
-graphic_icub                      00000BDC  args=0 r=0  (usage 3)
-graphic_intro                     00000B15  args=0 r=0  (usage 3)
-graphic_message_uart_error        00000ADA  args=0 r=0  (usage 3)
-graphic_setup                     0000084E  args=0 r=0  (usage 3)
-graphic_update_data               00000379  args=0 r=0  (usage 3)
-ledDigitsDisplay                  00000C06  args=9 r=0  (usage 12)
+graphic_icub                      00001019  args=0 r=0  (usage 3)
+graphic_intro                     00000F52  args=0 r=0  (usage 3)
+graphic_message_fault_error       00000B16  args=0 r=0  (usage 3)
+graphic_message_uart_error        00000F17  args=0 r=0  (usage 3)
+graphic_setup                     000008EA  args=0 r=0  (usage 3)
+graphic_update_data               000005E8  args=0 r=0  (usage 6)
+ledDigitsDisplay                  00001043  args=9 r=0  (usage 12)
 
 [GLOBAL VARIABLES]
-Battery_charge                        94  word       (usage 15)
+Battery_charge                        93  word       (usage 15)
 bufsize                               47  word       (usage 10)
 Build_BAT                              6  word       (usage 6)
 Build_Display                          3  word       (usage 4)
 combuf                                 7  word[40]   (usage 9)
-fault_timeout_cpu                     92  word       (usage 13)
-fault_timeout_motor                   93  word       (usage 7)
+Current_board_in_fault               117  word       (usage 12)
+Current_HSM_in_fault                 119  word       (usage 12)
+Current_motor_in_fault               118  word       (usage 12)
 Firmware_BAT                           4  word       (usage 6)
 Firmware_Display                       1  word       (usage 4)
-HSM_F                                117  word       (usage 18)
-HSM_PG                               106  word       (usage 30)
+HSM_F                                116  word       (usage 12)
+HSM_HW_F                             129  word       (usage 19)
+HSM_PG                               105  word       (usage 33)
+HSM_SW_F                             130  word       (usage 19)
 i                                     91  word       (usage 16)
-I_BATTERY                            100  word       (usage 9)
-I_HSM                                103  word       (usage 24)
-I_V12board                           101  word       (usage 24)
-I_V12motor                           102  word       (usage 24)
-intro                                 89  word       (usage 13)
+I_BATTERY                             99  word       (usage 9)
+I_HSM                                102  word       (usage 24)
+I_V12board                           100  word       (usage 24)
+I_V12motor                           101  word       (usage 24)
+intro                                 89  word       (usage 25)
+isFaultRisen                          92  word       (usage 10)
 qualifier                             48  word       (usage 10)
 Revision_BAT                           5  word       (usage 6)
 Revision_Display                       2  word       (usage 4)
-state_fsm                            125  word       (usage 3)
-state_fsm_boards                     123  word       (usage 3)
-state_fsm_motors                     124  word       (usage 3)
-Status_bat                           126  word       (usage 10)
-status_fault                         114  word       (usage 12)
-status_ps                            113  word       (usage 12)
+state_fsm                            127  word       (usage 3)
+state_fsm_boards                     125  word       (usage 3)
+state_fsm_motors                     126  word       (usage 3)
+Status_bat                           128  word       (usage 16)
+status_fault                         113  word       (usage 12)
+status_ps                            112  word       (usage 12)
 timeout                               90  word       (usage 13)
-V12board_F                           115  word       (usage 6)
-V12board_PG                          108  word       (usage 9)
-V12motor_F                           116  word       (usage 15)
-V12motor_PG                          107  word       (usage 6)
-V_BATTERY                             97  word       (usage 3)
-V_EXTPS                               96  word       (usage 3)
-V_V12board                            98  word       (usage 24)
-V_V12motor                            99  word       (usage 6)
-V_VINPUT                              95  word       (usage 33)
-value                                 49  word[40]   (usage 96)
-VINPUT_OFFSET                        122  word       (usage 7)
+V12board_F                           114  word       (usage 12)
+V12board_PG                          107  word       (usage 9)
+V12motor_F                           115  word       (usage 21)
+V12motor_PG                          106  word       (usage 6)
+V_BATTERY                             96  word       (usage 3)
+V_EXTPS                               95  word       (usage 3)
+V_V12board                            97  word       (usage 24)
+V_V12motor                            98  word       (usage 6)
+V_VINPUT                              94  word       (usage 33)
+value                                 49  word[40]   (usage 114)
+VINPUT_OFFSET                        124  word       (usage 7)
 
 [PRIVATE VARIABLES]
 
 [DATA]
-0007: 44 72 69 76 65 20 6E 6F 74 20 6D 6F 75 6E 74 65     Drive not mounte
-0017: 64 2E 2E 2E 00 20 00 20 56 20 0A 00 20 20 20 20     d.... . V ..    
-0027: 20 20 20 20 20 0A 00 20 20 00 20 41 20 20 0A 00          ..  . A  ..
-0037: 48 56 20 46 41 55 4C 54 20 0A 00 4D 20 46 41 55     HV FAULT ..M FAU
-0047: 4C 54 20 0A 00 48 56 4D 20 46 41 55 4C 54 0A 00     LT ..HVM FAULT..
-0057: 4C 41 53 54 20 56 41 4C 20 0A 00 20 41 20 0A 00     LAST VAL .. A ..
-0067: 43 50 55 20 46 41 55 4C 54 0A 00 20 20 20 20 20     CPU FAULT..     
-0077: 20 20 20 20 00 0A 20 20 20 20 55 41 52 54 20 65         ..    UART e
-0087: 72 72 6F 72 21 20 20 20 20 0A 00 20 20 43 68 65     rror!    ..  Che
-0097: 63 6B 20 63 6F 6E 6E 65 63 74 69 6F 6E 21 20 20     ck connection!  
-00A7: 0A 00 20 42 41 54 20 62 6F 61 72 64 20 00 76 20     .. BAT board .v 
-00B7: 20 20 0A 00 20 44 69 73 70 6C 61 79 20 20 20 00       .. Display   .
+0007: 53 44 44 72 69 76 65 20 6E 6F 74 20 6D 6F 75 6E     SDDrive not moun
+0017: 74 65 64 2E 2E 2E 00 20 00 20 56 20 0A 00 20 20     ted.... . V ..  
+0027: 20 20 20 20 20 20 20 0A 00 20 20 00 20 41 20 20            ..  . A  
+0037: 0A 00 20 41 20 0A 00 20 20 20 20 20 20 20 20 20     .. A ..         
+0047: 00 20 43 50 55 20 4C 49 4E 45 0A 20 46 41 55 4C     . CPU LINE. FAUL
+0057: 54 20 21 20 0A 00 20 45 52 52 4F 52 20 20 20 0A     T ! .. ERROR   .
+0067: 20 43 50 55 20 4C 49 4E 45 0A 20 4F 56 45 52 20      CPU LINE. OVER 
+0077: 20 20 20 0A 20 43 55 52 52 45 4E 54 20 0A 00 20        . CURRENT .. 
+0087: 43 50 55 20 4C 49 4E 45 0A 4E 4F 20 46 41 55 4C     CPU LINE.NO FAUL
+0097: 54 21 0A 00 20 4E 4F 20 45 52 52 4F 52 0A 20 43     T!.. NO ERROR. C
+00A7: 50 55 20 4C 49 4E 45 0A 20 53 54 41 42 4C 45 20     PU LINE. STABLE 
+00B7: 20 0A 20 43 55 52 52 45 4E 54 20 0A 00 20 20 20      . CURRENT ..   
+00C7: 4C 41 53 54 20 20 0A 20 20 56 41 4C 55 45 53 20     LAST  .  VALUES 
+00D7: 0A 00 20 56 20 20 0A 00 20 41 6D 20 20 0A 00 20     .. V  .. Am  .. 
+00E7: 41 69 20 20 0A 00 20 42 4F 41 52 44 53 20 20 0A     Ai  .. BOARDS  .
+00F7: 20 20 4C 49 4E 45 20 20 20 0A 20 46 41 55 4C 54       LINE   . FAULT
+0107: 20 21 20 0A 00 20 45 52 52 4F 52 20 20 20 0A 20      ! .. ERROR   . 
+0117: 42 4F 41 52 44 53 20 20 0A 20 4C 49 4E 45 20 20     BOARDS  . LINE  
+0127: 20 20 0A 20 20 4F 56 45 52 20 20 20 0A 20 43 55       .  OVER   . CU
+0137: 52 52 45 4E 54 20 0A 00 20 20 20 48 53 4D 20 20     RRENT ..   HSM  
+0147: 20 0A 20 20 4C 49 4E 45 20 20 20 0A 20 46 41 55      .  LINE   . FAU
+0157: 4C 54 20 21 20 0A 00 20 45 52 52 4F 52 20 20 20     LT ! .. ERROR   
+0167: 0A 20 20 48 53 4D 20 48 57 20 0A 20 20 4C 49 4E     .  HSM HW .  LIN
+0177: 45 20 20 20 0A 20 20 4F 56 45 52 20 20 0A 20 43     E   .  OVER  . C
+0187: 55 52 52 45 4E 54 20 0A 00 20 45 52 52 4F 52 20     URRENT .. ERROR 
+0197: 20 20 0A 20 20 48 53 4D 20 53 57 20 0A 20 20 4C       .  HSM SW .  L
+01A7: 49 4E 45 20 20 20 0A 20 20 4F 56 45 52 20 20 0A     INE   .  OVER  .
+01B7: 20 43 55 52 52 45 4E 54 20 0A 00 20 45 52 52 4F      CURRENT .. ERRO
+01C7: 52 20 20 20 0A 20 48 53 4D 20 41 4E 44 20 0A 20     R   . HSM AND . 
+01D7: 42 4F 41 52 44 53 20 20 0A 20 20 4C 49 4E 45 53     BOARDS  .  LINES
+01E7: 20 20 0A 00 20 42 4F 41 52 44 53 20 20 0A 20 20       .. BOARDS  .  
+01F7: 4C 49 4E 45 20 20 20 0A 4E 4F 20 46 41 55 4C 54     LINE   .NO FAULT
+0207: 21 0A 00 20 4E 4F 20 45 52 52 4F 52 0A 20 42 4F     !.. NO ERROR. BO
+0217: 41 52 44 53 20 20 0A 20 20 4C 49 4E 45 53 20 20     ARDS  .  LINES  
+0227: 0A 00 0A 20 20 20 20 55 41 52 54 20 65 72 72 6F     ...    UART erro
+0237: 72 21 20 20 20 20 0A 00 20 20 43 68 65 63 6B 20     r!    ..  Check 
+0247: 63 6F 6E 6E 65 63 74 69 6F 6E 21 20 20 0A 00 20     connection!  .. 
+0257: 42 41 54 20 62 6F 61 72 64 20 00 76 20 20 20 0A     BAT board .v   .
+0267: 00 20 44 69 73 70 6C 61 79 20 20 20 00              . Display   .
 
 [__MAXPROG]
 9216
@@ -304,9 +330,9 @@ VINPUT_OFFSET                        122  word       (usage 7)
 [PROGRAM]
 main
 [CODESIZE]
-3261
+4346
 [MEMSIZE]
-126
+130
 [ARGCOUNT]
 0
 [RETURNS]
@@ -314,7 +340,7 @@ NO
 [STACKSIZE]
 0 (AUTO)
 [STACK_ESTIMATE]
-70   (nb:- worst case estimate)
+62   (nb:- worst case estimate)
 [MODE]
 0
 

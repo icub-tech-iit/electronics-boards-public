@@ -1,4 +1,4 @@
-// File generated 9/18/2023 5:22:09 PM
+// File generated 9/29/2023 11:53:54 AM
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -16,6 +16,18 @@
 #constant  Strings6Size     1
 #constant  Strings7Count    0
 #constant  Strings7Size     1
+#constant  Strings8Count    0
+#constant  Strings8Size     1
+#constant  Strings9Count    0
+#constant  Strings9Size     1
+#constant  Strings10Count    0
+#constant  Strings10Size     1
+#constant  Strings11Count    0
+#constant  Strings11Size     1
+#constant  Strings12Count    0
+#constant  Strings12Size     1
+#constant  Strings13Count    0
+#constant  Strings13Size     1
 #constant  Strings1StartH   0x8
 #constant  Strings1StartL   0x5A00
 #constant  Strings2StartH   0x8
@@ -30,6 +42,18 @@
 #constant  Strings6StartL   0x6400
 #constant  Strings7StartH   0x8
 #constant  Strings7StartL   0x6600
+#constant  Strings8StartH   0x8
+#constant  Strings8StartL   0x6800
+#constant  Strings9StartH   0x8
+#constant  Strings9StartL   0x6A00
+#constant  Strings10StartH   0x8
+#constant  Strings10StartL   0x6C00
+#constant  Strings11StartH   0x8
+#constant  Strings11StartL   0x6E00
+#constant  Strings12StartH   0x8
+#constant  Strings12StartL   0x7000
+#constant  Strings13StartH   0x8
+#constant  Strings13StartL   0x7200
 
 // object indexes for Inputs, Image Addresses + Input Array
 #CONST

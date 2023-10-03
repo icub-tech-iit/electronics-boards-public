@@ -16,7 +16,7 @@
 
 var Firmware_Display := 1;
 var Revision_Display := 3;
-var Build_Display    := 0;
+var Build_Display    := 1;
 
 var Firmware_BAT;
 var Revision_BAT;
@@ -29,9 +29,7 @@ var value[40];
 var intro:=0;
 var timeout:=0;
 var i:=0;
-var fault_timeout_cpu:=0;
-var fault_timeout_motor:=0;
-
+var isFaultRisen := 0;
 
 var Battery_charge;
 var V_VINPUT, V_EXTPS, V_BATTERY, V_V12board, V_V12motor;
@@ -39,10 +37,13 @@ var I_BATTERY, I_V12board, I_V12motor, I_HSM;
 var V12board, V12motor, HSM_PG, V12motor_PG, V12board_PG;
 var voltage, current, charge, button, status_ps, status_fault;
 var V12board_F, V12motor_F, HSM_F;
+var Current_board_in_fault, Current_motor_in_fault, Current_HSM_in_fault;
 var CPU_voltage, CPU_current, Motors_voltage, Motors_current;
 var VINPUT_OFFSET:=28;                                 // 28 for range "28V-48V" and 20 for range "20V-32V"
 var state_fsm_boards, state_fsm_motors, state_fsm;     // state of the board (for iCub and R1)
-var Status_bat:=0;
+var Status_bat :=0;
+var HSM_HW_F := 0;
+var HSM_SW_F := 0;
 
 
 func graphic_icub()
@@ -81,53 +82,84 @@ func graphic_message_uart_error()
 
 endfunc
 
-func test_data_indentation()
-    txt_FontID(SYSTEM) ;
-    txt_FGcolour(WHITE) ;
-    txt_BGcolour(BLUE) ;
-    gfx_MoveTo(0 , 96) ;
+func graphic_message_fault_error()
 
-    print("HVM FAULT\n");           // to get the value as a simil float given that it is integer
-    txt_BGcolour(BLACK) ;
-    print("         \n");
-    txt_BGcolour(BLUE) ;
-    print("LAST VAL \n");
-    txt_BGcolour(RED) ;
-    print(" 00.00 U \n");
+    gfx_Cls();
 
     txt_FontID(SYSTEM) ;
     txt_FGcolour(WHITE) ;
     txt_BGcolour(BLUE) ;
-    gfx_MoveTo(72 , 96) ;
 
-    print("HVM FAULT\n");           // to get the value as a simil float given that it is integer
-    txt_BGcolour(BLACK) ;
-    print("         \n");
-    txt_BGcolour(BLUE) ;
-    print("LAST VAL \n");
-    txt_BGcolour(RED) ;
-    print(" 00.00 U \n");
-endfunc
+    // check if CPU is in FAULT
+    if(V12board_F == 1)
+        txt_BGcolour(RED);
+        gfx_MoveTo(2 , 2) ;
+        print(" CPU LINE\n FAULT ! \n");
+        print("         \n");
 
-func clean_cpu_data_section()
+        gfx_MoveTo(2, 34);
+        print(" ERROR   \n CPU LINE\n OVER    \n CURRENT \n");
+        print("         \n");
+    else
+        txt_BGcolour(GREEN);
+        gfx_MoveTo(2 , 2) ;
+        print(" CPU LINE\nNO FAULT!\n");
+        print("         \n");
 
-    fault_timeout_cpu := 0;
-    // Strings1 1.0 generated 01/04/2016 08:48:58
-    txt_FontID(SYSTEM) ;
-    txt_FGcolour(WHITE) ;
-    txt_BGcolour(BLUE) ;
-    gfx_RectangleFilled(0, 96, 64, 128, BLACK);
+        gfx_MoveTo(2, 34);
+        print(" NO ERROR\n CPU LINE\n STABLE  \n CURRENT \n");
+        print("         \n");
+    endif
 
-endfunc
+    gfx_MoveTo(2 , 84) ;
+    print("   LAST  \n  VALUES \n");
+    print("  ",(V_V12board/1000), ".", (V_V12board/100)-10*(V_V12board/1000), " V  \n");
+    print(" ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," Am  \n");
+    print(" ", (Current_board_in_fault/1000+Current_motor_in_fault/1000), ".", (Current_board_in_fault/100)-10*(Current_board_in_fault/1000) + (Current_motor_in_fault/100)-10*(Current_motor_in_fault/1000)," Ai  \n");
 
-func clean_motor_data_section()
+    gfx_MoveTo(70 , 2) ;
 
-    fault_timeout_motor := 0;
-    // Strings1 1.0 generated 9/12/2023 4:58:26 PM
-    txt_FontID(SYSTEM) ;
-    txt_FGcolour(WHITE) ;
-    txt_BGcolour(BLUE) ;
-    gfx_RectangleFilled(64, 96, 128, 128, BLACK);
+    if((V12motor_F == 1) && ((HSM_HW_F == 0) || (HSM_SW_F == 0)))
+        txt_BGcolour(RED);
+        print(" BOARDS  \n  LINE   \n FAULT ! \n");
+
+        gfx_MoveTo(70, 34);
+        print(" ERROR   \n BOARDS  \n LINE    \n  OVER   \n CURRENT \n");
+
+    else if ((V12motor_F == 0) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+        txt_BGcolour(RED);
+        print("   HSM   \n  LINE   \n FAULT ! \n");
+
+        gfx_MoveTo(70, 34);
+        if(HSM_HW_F == 1)
+            print(" ERROR   \n  HSM HW \n  LINE   \n  OVER  \n CURRENT \n");
+        else if(HSM_SW_F == 1)
+            print(" ERROR   \n  HSM SW \n  LINE   \n  OVER  \n CURRENT \n");
+        endif
+
+    else if ((V12motor_F == 1) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+        txt_BGcolour(RED);
+        print(" BOARDS  \n  LINE   \n FAULT ! \n");
+
+        gfx_MoveTo(70, 34);
+        print(" ERROR   \n HSM AND \n BOARDS  \n  LINES  \n");
+        print("         \n");
+
+    else
+        txt_BGcolour(GREEN);
+        print(" BOARDS  \n  LINE   \nNO FAULT!\n");
+
+        gfx_MoveTo(70, 34);
+        print(" NO ERROR\n BOARDS  \n  LINES  \n");
+        print("         \n");
+        print("         \n");
+    endif
+
+    gfx_MoveTo(70 , 84) ;
+    print("   LAST  \n  VALUES \n");
+    print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100)), " V  \n");
+    print(" ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," Am  \n");
+    print(" ", Current_HSM_in_fault/1000, ".", (Current_HSM_in_fault/100)-10*(Current_HSM_in_fault/1000)," Ai  \n");
 endfunc
 
 func graphic_setup()
@@ -269,9 +301,6 @@ func graphic_update_data()
         txt_FGcolour(WHITE) ;
         txt_BGcolour(BLUE) ;
         gfx_MoveTo(72 , 96) ;
-          if(fault_timeout_cpu > 0)
-            clean_motor_data_section();
-          endif
 
         if(HSM_F==0 && V12motor_F==0)
           print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100))," V \n");           // to get the value as a simil float given that it is integer
@@ -281,19 +310,6 @@ func graphic_update_data()
           print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
           txt_BGcolour(BLACK) ;
           print("         \n");
-        else
-          txt_BGcolour(RED);
-          if(HSM_F==1 && V12motor_F==0)
-            print("HV FAULT \n");
-          else if(HSM_F==0 && V12motor_F==1)
-            print("M FAULT \n");
-          else
-            print("HVM FAULT\n");
-          endif
-          print("LAST VAL \n");
-          print(" ", (V_VINPUT/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100)), " V \n");
-          print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
-          fault_timeout_motor++;
         endif
 
         // Strings3 1.0 generated 01/04/2016 14:30:22
@@ -302,10 +318,7 @@ func graphic_update_data()
         txt_BGcolour(BLUE) ;
         gfx_MoveTo(0 , 96) ;
 
-         if(V12board_F==0)
-          if(fault_timeout_cpu > 0)
-            clean_cpu_data_section();
-          endif
+        if(V12board_F==0)
           print(" ", V_V12board/1000, ".", (V_V12board/100)-10*(V_V12board/1000)," V \n");
           txt_BGcolour(BLACK);
           print("         \n");
@@ -313,13 +326,6 @@ func graphic_update_data()
           print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A \n");
           txt_BGcolour(BLACK);
           print("         \n");
-        else
-          txt_BGcolour(RED);
-          print("CPU FAULT\n");
-          print("LAST VAL \n");
-          print(" ",(V_V12board/1000), ".", (V_V12board/100)-10*(V_V12board/1000), " V \n");
-          print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A  \n");
-          fault_timeout_cpu++;
         endif
 endfunc
 
@@ -331,7 +337,7 @@ func main()
     gfx_Set(SCREEN_MODE,LANDSCAPE_R) ;
 
     while(!media_Init())
-        putstr("Drive not mounted...");
+        putstr("SDDrive not mounted...");
         pause(1000);
         gfx_Cls();
     wend
@@ -372,6 +378,10 @@ func main()
             status_fault   := (value[24] + 256*value[25]);
             Status_bat     :=  value[26] + (value[27] << 8);
 
+            Current_board_in_fault     := (value[28] + 256*value[29]);
+            Current_motor_in_fault     := (value[30] + 256*value[31]);
+            Current_HSM_in_fault       := (value[32] + 256*value[33]);
+
 
 
             I_BATTERY  := I_HSM + ((V_V12board/100)*(I_V12board/100))/(V_VINPUT/10) + ((V_V12motor/100)*(I_V12motor/100))/(V_VINPUT/10);
@@ -383,6 +393,22 @@ func main()
             V12motor_F := status_fault/10 - HSM_F*10;
             V12board_F := status_fault - HSM_F*100 - V12motor_F*10;
 
+            // This bit right shifting is necessary to extract the HHSM fault flags from the Status_bat variable
+            // Doing this because they are located at the 10th and 11th bits of the variable
+            HSM_HW_F   := ((Status_bat >> 10) & 0x1);
+            HSM_SW_F   := ((Status_bat >> 11) & 0x1);
+
+            if((HSM_SW_F == 1) || (HSM_HW_F == 1) || (V12motor_F == 1) || (V12board_F == 1))
+                isFaultRisen := 1;
+                intro := 3;
+            else
+                if(isFaultRisen == 1)
+                    gfx_Cls();
+                    isFaultRisen := 0;
+                    intro := 1;
+                endif
+            endif
+
             // mini state machine for the screens
             // would it make sense to make a proper function for the ALARM screen (when fault happens)
             if(intro==0)
@@ -391,6 +417,13 @@ func main()
             else if(intro==1)
                 intro:=2;
                 graphic_setup();
+            else if(intro == 2)
+                graphic_update_data();
+            else if(intro == 3)
+                graphic_message_fault_error();
+
+                // leave error screen for at least 10s
+                pause(10000);
             else
                 graphic_update_data();
             endif

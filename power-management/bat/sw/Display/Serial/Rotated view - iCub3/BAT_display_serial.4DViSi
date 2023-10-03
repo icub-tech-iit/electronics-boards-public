@@ -493,3 +493,152 @@ Strings
     Width                        58
     OnChanged                    ''
 end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings8
+    Alias                        Strings8
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       32
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          0
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings9
+    Alias                        Strings9
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       32
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         70
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          0
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings10
+    Alias                        Strings10
+    Alignment                    Left
+    BGcolor                      BLUE
+    Height                       42
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          36
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings11
+    Alias                        Strings11
+    Alignment                    Left
+    BGcolor                      BLUE
+    Height                       42
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         70
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          36
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings12
+    Alias                        Strings12
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       44
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          84
+    Width                        58
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings13
+    Alias                        Strings13
+    Alignment                    Left
+    BGcolor                      RED
+    Height                       44
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D SYSTEM (7x8)'
+    Font.Opaque                  Yes
+    Font.Size                    -8
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         70
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          84
+    Width                        58
+    OnChanged                    ''
+end

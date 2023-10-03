@@ -1814,7 +1814,7 @@ file C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Rotated v
 
 001801  000014  #inherit "BAT_display_serialConst.inc"
 001802  000014  #inherit "BAT_display_serialConst.inc"
-001803  000001  // File generated 9/18/2023 5:22:09 PM
+001803  000001  // File generated 9/29/2023 11:53:54 AM
 001804  000002  // Warning! This is a generated file, any manual changes will be
 001805  000003  // lost during the next generation.
 001806  000004        
@@ -1846,442 +1846,520 @@ file C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Rotated v
 001832  000017  #constant  Strings7Count    0
 001833  000018  #constant  Strings7Size     1
 001834  000018  #constant  Strings7Size     1
-001835  000019  #constant  Strings1StartH   0x8
-001836  000019  #constant  Strings1StartH   0x8
-001837  000020  #constant  Strings1StartL   0x5A00
-001838  000020  #constant  Strings1StartL   0x5A00
-001839  000021  #constant  Strings2StartH   0x8
-001840  000021  #constant  Strings2StartH   0x8
-001841  000022  #constant  Strings2StartL   0x5C00
-001842  000022  #constant  Strings2StartL   0x5C00
-001843  000023  #constant  Strings3StartH   0x8
-001844  000023  #constant  Strings3StartH   0x8
-001845  000024  #constant  Strings3StartL   0x5E00
-001846  000024  #constant  Strings3StartL   0x5E00
-001847  000025  #constant  Strings4StartH   0x8
-001848  000025  #constant  Strings4StartH   0x8
-001849  000026  #constant  Strings4StartL   0x6000
-001850  000026  #constant  Strings4StartL   0x6000
-001851  000027  #constant  Strings5StartH   0x8
-001852  000027  #constant  Strings5StartH   0x8
-001853  000028  #constant  Strings5StartL   0x6200
-001854  000028  #constant  Strings5StartL   0x6200
-001855  000029  #constant  Strings6StartH   0x8
-001856  000029  #constant  Strings6StartH   0x8
-001857  000030  #constant  Strings6StartL   0x6400
-001858  000030  #constant  Strings6StartL   0x6400
-001859  000031  #constant  Strings7StartH   0x8
-001860  000031  #constant  Strings7StartH   0x8
-001861  000032  #constant  Strings7StartL   0x6600
-001862  000032  #constant  Strings7StartL   0x6600
-001863  000033        
-001864  000034  // object indexes for Inputs, Image Addresses + Input Array
-001865  000035  #CONST
-001866  000063  #END
-001867  000064        
-001868  000065        
-001869  000015        
-001870  000016        
-001871  000017  var Firmware_Display := 1;
-001872  000018  var Revision_Display := 3;
-001873  000019  var Build_Display    := 0;
-001874  000020        
-001875  000021  var Firmware_BAT;
-001876  000022  var Revision_BAT;
-001877  000023  var Build_BAT;
-001878  000024        
-001879  000025  var combuf[40];
-001880  000026  var bufsize:=0;
-001881  000027  var qualifier:=0x01;
-001882  000028  var value[40];
-001883  000029  var intro:=0;
-001884  000030  var timeout:=0;
-001885  000031  var i:=0;
-001886  000032  var fault_timeout_cpu:=0;
-001887  000033  var fault_timeout_motor:=0;
-001888  000034        
-001889  000035        
-001890  000036  var Battery_charge;
-001891  000037  var V_VINPUT, V_EXTPS, V_BATTERY, V_V12board, V_V12motor;
-001892  000038  var I_BATTERY, I_V12board, I_V12motor, I_HSM;
-001893  000039  var V12board, V12motor, HSM_PG, V12motor_PG, V12board_PG;
-001894  000040  var voltage, current, charge, button, status_ps, status_fault;
-001895  000041  var V12board_F, V12motor_F, HSM_F;
-001896  000042  var CPU_voltage, CPU_current, Motors_voltage, Motors_current;
-001897  000043  var VINPUT_OFFSET:=28;                                 // 28 for range "28V-48V" and 20 for range "20V-32V"
-001898  000044  var state_fsm_boards, state_fsm_motors, state_fsm;     // state of the board (for iCub and R1)
-001899  000045  var Status_bat:=0;
-001900  000046        
-001901  000047        
-001902  000048  func graphic_icub()
-001903  000049      // R1 1.0 generated 9/15/2017 2:50:21 PM
-001904  000050      media_SetAdd(iR1H, iR1L) ;      // point to the R1 image
-001905  000051      gfx_Set(SCREEN_MODE,LANDSCAPE) ;        // On uOLED-128-G2 videos+images only work in LANDSCAPE
-001906  000052      media_Image(0, 23) ;            // show image
-001907  000053      gfx_Set(SCREEN_MODE,LANDSCAPE_R) ;      // Restore 'operating' orientation
-001908  000054  endfunc
-001909  000055        
-001910  000056  func graphic_intro()
+001835  000019  #constant  Strings8Count    0
+001836  000019  #constant  Strings8Count    0
+001837  000020  #constant  Strings8Size     1
+001838  000020  #constant  Strings8Size     1
+001839  000021  #constant  Strings9Count    0
+001840  000021  #constant  Strings9Count    0
+001841  000022  #constant  Strings9Size     1
+001842  000022  #constant  Strings9Size     1
+001843  000023  #constant  Strings10Count    0
+001844  000023  #constant  Strings10Count    0
+001845  000024  #constant  Strings10Size     1
+001846  000024  #constant  Strings10Size     1
+001847  000025  #constant  Strings11Count    0
+001848  000025  #constant  Strings11Count    0
+001849  000026  #constant  Strings11Size     1
+001850  000026  #constant  Strings11Size     1
+001851  000027  #constant  Strings12Count    0
+001852  000027  #constant  Strings12Count    0
+001853  000028  #constant  Strings12Size     1
+001854  000028  #constant  Strings12Size     1
+001855  000029  #constant  Strings13Count    0
+001856  000029  #constant  Strings13Count    0
+001857  000030  #constant  Strings13Size     1
+001858  000030  #constant  Strings13Size     1
+001859  000031  #constant  Strings1StartH   0x8
+001860  000031  #constant  Strings1StartH   0x8
+001861  000032  #constant  Strings1StartL   0x5A00
+001862  000032  #constant  Strings1StartL   0x5A00
+001863  000033  #constant  Strings2StartH   0x8
+001864  000033  #constant  Strings2StartH   0x8
+001865  000034  #constant  Strings2StartL   0x5C00
+001866  000034  #constant  Strings2StartL   0x5C00
+001867  000035  #constant  Strings3StartH   0x8
+001868  000035  #constant  Strings3StartH   0x8
+001869  000036  #constant  Strings3StartL   0x5E00
+001870  000036  #constant  Strings3StartL   0x5E00
+001871  000037  #constant  Strings4StartH   0x8
+001872  000037  #constant  Strings4StartH   0x8
+001873  000038  #constant  Strings4StartL   0x6000
+001874  000038  #constant  Strings4StartL   0x6000
+001875  000039  #constant  Strings5StartH   0x8
+001876  000039  #constant  Strings5StartH   0x8
+001877  000040  #constant  Strings5StartL   0x6200
+001878  000040  #constant  Strings5StartL   0x6200
+001879  000041  #constant  Strings6StartH   0x8
+001880  000041  #constant  Strings6StartH   0x8
+001881  000042  #constant  Strings6StartL   0x6400
+001882  000042  #constant  Strings6StartL   0x6400
+001883  000043  #constant  Strings7StartH   0x8
+001884  000043  #constant  Strings7StartH   0x8
+001885  000044  #constant  Strings7StartL   0x6600
+001886  000044  #constant  Strings7StartL   0x6600
+001887  000045  #constant  Strings8StartH   0x8
+001888  000045  #constant  Strings8StartH   0x8
+001889  000046  #constant  Strings8StartL   0x6800
+001890  000046  #constant  Strings8StartL   0x6800
+001891  000047  #constant  Strings9StartH   0x8
+001892  000047  #constant  Strings9StartH   0x8
+001893  000048  #constant  Strings9StartL   0x6A00
+001894  000048  #constant  Strings9StartL   0x6A00
+001895  000049  #constant  Strings10StartH   0x8
+001896  000049  #constant  Strings10StartH   0x8
+001897  000050  #constant  Strings10StartL   0x6C00
+001898  000050  #constant  Strings10StartL   0x6C00
+001899  000051  #constant  Strings11StartH   0x8
+001900  000051  #constant  Strings11StartH   0x8
+001901  000052  #constant  Strings11StartL   0x6E00
+001902  000052  #constant  Strings11StartL   0x6E00
+001903  000053  #constant  Strings12StartH   0x8
+001904  000053  #constant  Strings12StartH   0x8
+001905  000054  #constant  Strings12StartL   0x7000
+001906  000054  #constant  Strings12StartL   0x7000
+001907  000055  #constant  Strings13StartH   0x8
+001908  000055  #constant  Strings13StartH   0x8
+001909  000056  #constant  Strings13StartL   0x7200
+001910  000056  #constant  Strings13StartL   0x7200
 001911  000057        
-001912  000058      graphic_icub();
-001913  000059        
-001914  000060      txt_FontID(SYSTEM) ;
-001915  000061      txt_FGcolour(WHITE) ;
-001916  000062      txt_BGcolour(BLUE) ;
-001917  000063      gfx_MoveTo(0 , 0) ;
-001918  000064        
-001919  000065      print(" BAT board ", Firmware_BAT, ".", Revision_BAT, ".", Build_BAT, "v   \n");
-001920  000066      print(" Display   ", Firmware_Display, ".", Revision_Display, ".", Build_Display, "v   \n");
-001921  000067      pause(3000);
-001922  000068        
-001923  000069      gfx_Cls();
-001924  000070        
-001925  000071  endfunc
-001926  000072        
-001927  000073  func graphic_message_uart_error()
-001928  000074        
-001929  000075      txt_FontID(SYSTEM) ;
-001930  000076      txt_FGcolour(WHITE) ;
-001931  000077      gfx_MoveTo(0 , 96) ;
-001932  000078      txt_BGcolour(RED) ;
-001933  000079      print("\n    UART error!    \n");
-001934  000080      print("  Check connection!  \n");
-001935  000081        
-001936  000082  endfunc
-001937  000083        
-001938  000084  func test_data_indentation()
-001939  000085      txt_FontID(SYSTEM) ;
-001940  000086      txt_FGcolour(WHITE) ;
-001941  000087      txt_BGcolour(BLUE) ;
-001942  000088      gfx_MoveTo(0 , 96) ;
-001943  000089        
-001944  000090      print("HVM FAULT\n");           // to get the value as a simil float given that it is integer
-001945  000091      txt_BGcolour(BLACK) ;
-001946  000092      print("         \n");
-001947  000093      txt_BGcolour(BLUE) ;
-001948  000094      print("LAST VAL \n");
-001949  000095      txt_BGcolour(RED) ;
-001950  000096      print(" 00.00 U \n");
-001951  000097        
-001952  000098      txt_FontID(SYSTEM) ;
-001953  000099      txt_FGcolour(WHITE) ;
-001954  000100      txt_BGcolour(BLUE) ;
-001955  000101      gfx_MoveTo(72 , 96) ;
-001956  000102        
-001957  000103      print("HVM FAULT\n");           // to get the value as a simil float given that it is integer
-001958  000104      txt_BGcolour(BLACK) ;
-001959  000105      print("         \n");
-001960  000106      txt_BGcolour(BLUE) ;
-001961  000107      print("LAST VAL \n");
-001962  000108      txt_BGcolour(RED) ;
-001963  000109      print(" 00.00 U \n");
-001964  000110  endfunc
-001965  000111        
-001966  000112  func clean_cpu_data_section()
-001967  000113        
-001968  000114      fault_timeout_cpu := 0;
-001969  000115      // Strings1 1.0 generated 01/04/2016 08:48:58
-001970  000116      txt_FontID(SYSTEM) ;
-001971  000117      txt_FGcolour(WHITE) ;
-001972  000118      txt_BGcolour(BLUE) ;
-001973  000119      gfx_RectangleFilled(0, 96, 64, 128, BLACK);
-001974  000120        
-001975  000121  endfunc
-001976  000122        
-001977  000123  func clean_motor_data_section()
-001978  000124        
-001979  000125      fault_timeout_motor := 0;
-001980  000126      // Strings1 1.0 generated 9/12/2023 4:58:26 PM
-001981  000127      txt_FontID(SYSTEM) ;
-001982  000128      txt_FGcolour(WHITE) ;
-001983  000129      txt_BGcolour(BLUE) ;
-001984  000130      gfx_RectangleFilled(64, 96, 128, 128, BLACK);
-001985  000131  endfunc
-001986  000132        
-001987  000133  func graphic_setup()
-001988  000134      // Battery_voltage 1.0 generated 31/03/2016 12:18:07
-001989  000135      media_SetAdd(iBattery_voltageH, iBattery_voltageL) ;      // point to the Battery_voltage image
-001990  000136      media_VideoFrame(0, 0, V_VINPUT/100-VINPUT_OFFSET) ;      // where numx is 0 to 20 (for a displayed 20 to 32)
-001991  000137        
-001992  000138      // Battery_amps 1.0 generated 01/04/2016 17:59:14
-001993  000139      media_SetAdd(iBattery_ampsH, iBattery_ampsL) ;      // point to the Battery_amps image
-001994  000140      media_VideoFrame(67, 0, I_BATTERY/1000) ;          // where numx is 0 to 40 (for a displayed 0 to 40)
-001995  000141        
-001996  000142        
-001997  000143      // Statictext7 1.0 generated 01/04/2016 14:41:10
-001998  000144      media_SetAdd(iStatictext7H, iStatictext7L) ;      // point to the Statictext7 image
-001999  000145      media_Image(54, 50) ;            // show image
-002000  000146        
-002001  000147      // Gauge1 1.0 generated 01/04/2016 17:28:24
-002002  000148      media_SetAdd(iGauge1H, iGauge1L) ;         // point to the Gauge1 image
-002003  000149      media_VideoFrame(0, 52, Battery_charge) ;  // where numx is 0 to 100 (for a displayed 0 to 100)
-002004  000150        
-002005  000151      // Battery_percent 1.1 generated 31/03/2016 12:35:25
-002006  000152      media_SetAdd(iBattery_percentH, iBattery_percentL) ;      // point to the Battery_percent image
-002007  000153      media_Image(50, 64) ;                                 // show all digits at 0, only do this once
-002008  000154      ledDigitsDisplay(Battery_charge, iiBattery_percentH, iiBattery_percentL, 50, 64, 3, 1, 9, 1) ;
-002009  000155        
-002010  000156      // Statictext5 1.0 generated 31/03/2016 12:35:28
-002011  000157      media_SetAdd(iStatictext5H, iStatictext5L);      // point to the Statictext5 image
-002012  000158      media_Image(78, 64) ;            // show image
-002013  000159        
-002014  000160      // StatusString 1.0 generated 9/11/2023 1:59:23 PM
-002015  000161      media_SetAdd(iStatusStringH, iStatusStringL) ;      // point to the StatusString image
-002016  000162      media_Image(94, 50) ;            // show image
-002017  000163        
-002018  000164      // StatusDec 1.1 generated 9/11/2023 1:59:46 PM
-002019  000165      media_SetAdd(iStatusDecH, iStatusDecL) ;      // point to the StatusDec image
-002020  000166      media_Image(92, 64) ;                                 // show all digits at 0, only do this once
-002021  000167      ledDigitsDisplay(Status_bat, iiStatusDecH, iiStatusDecL, 92, 64, 4, 1, 9, 1);
-002022  000168        
-002023  000169      // CPU 1.0 generated 31/03/2016 12:38:51
-002024  000170      media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
-002025  000171      media_VideoFrame(0, 80, V12board_PG) ;      // where numx is 0 (Off) or 1 (On)
-002026  000172        
-002027  000173      // Motors 1.0 generated 31/03/2016 12:38:54
-002028  000174      media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
-002029  000175      media_VideoFrame(67, 80, HSM_PG) ;      // where numx is 0 (Off) or 1 (On)
-002030  000176        
-002031  000177        
-002032  000178      // Strings1 1.0 generated 01/04/2016 08:48:58
-002033  000179      txt_FontID(SYSTEM) ;
-002034  000180      txt_FGcolour(WHITE) ;
-002035  000181      txt_BGcolour(BLUE) ;
-002036  000182      gfx_MoveTo(0 , 96) ;
-002037  000183      print("         ");
-002038  000184        
-002039  000185        
-002040  000186      // Strings2 1.0 generated 01/04/2016 14:28:01
-002041  000187      txt_FontID(SYSTEM) ;
-002042  000188      txt_FGcolour(WHITE) ;
-002043  000189      txt_BGcolour(BLUE) ;
-002044  000190      gfx_MoveTo(0 , 112) ;
-002045  000191      print("         ");
-002046  000192        
-002047  000193      // Strings1 1.0 generated 9/12/2023 4:58:26 PM
-002048  000194      txt_FontID(SYSTEM) ;
-002049  000195      txt_FGcolour(WHITE) ;
-002050  000196      txt_BGcolour(BLUE) ;
-002051  000197      gfx_MoveTo(72 , 96) ;
-002052  000198      print("         ");
-002053  000199        
-002054  000200      // Strings5 1.0 generated 01/04/2016 14:31:02
-002055  000201      txt_FontID(SYSTEM) ;
-002056  000202      txt_FGcolour(WHITE) ;
-002057  000203      txt_BGcolour(BLUE) ;
-002058  000204      gfx_MoveTo(72 , 112) ;
-002059  000205      print("         ");
-002060  000206        
-002061  000207      txt_FontID(SYSTEM) ;
-002062  000208      txt_FGcolour(WHITE) ;
-002063  000209      txt_BGcolour(BLACK) ;
-002064  000210      gfx_MoveTo(0 , 124) ;
-002065  000211      print("         ");
-002066  000212        
-002067  000213      // Strings6 1.0 generated 9/12/2023 5:00:00 PM
-002068  000214      txt_FontID(SYSTEM) ;
-002069  000215      txt_FGcolour(WHITE) ;
-002070  000216      txt_BGcolour(BLACK) ;
-002071  000217      gfx_MoveTo(72 , 124) ;
-002072  000218      print("         ");
-002073  000219        
-002074  000220        
-002075  000221  endfunc
-002076  000222        
-002077  000223        
-002078  000224  func graphic_update_data()
-002079  000225          // Battery_voltage 1.0 generated 31/03/2016 12:18:07
-002080  000226          media_SetAdd(iBattery_voltageH, iBattery_voltageL) ;      // point to the Battery_voltage image
-002081  000227          media_VideoFrame(0, 0, V_VINPUT/100-VINPUT_OFFSET) ;      // where numx is 0 to 20 (for a displayed 20 to 32)
-002082  000228        
-002083  000229          // Battery_amps 1.0 generated 01/04/2016 17:59:14
-002084  000230          media_SetAdd(iBattery_ampsH, iBattery_ampsL) ;            // point to the Battery_amps image
-002085  000231          media_VideoFrame(67, 0, I_BATTERY/1000) ;                 // where numx is 0 to 40 (for a displayed 0 to 30)
-002086  000232        
-002087  000233          // Statictext7 1.0 generated 01/04/2016 14:41:10
-002088  000234          media_SetAdd(iStatictext7H, iStatictext7L) ;      // point to the Statictext7 image
-002089  000235          media_Image(54, 50) ;            // show image
-002090  000236        
-002091  000237          // Statictext5 1.0 generated 31/03/2016 12:35:28
-002092  000238          media_SetAdd(iStatictext5H, iStatictext5L) ;      // point to the Statictext5 image
-002093  000239          media_Image(78, 64) ;            // show image
-002094  000240        
-002095  000241          // Gauge1 1.0 generated 31/03/2016 12:35:22
-002096  000242          media_SetAdd(iGauge1H, iGauge1L) ;                        // point to the Gauge1 image
-002097  000243          media_VideoFrame(0, 52, Battery_charge) ;                 // where numx is 0 to 100 (for a displayed 0 to 100)
-002098  000244        
-002099  000245          // Battery_percent 1.1 generated 31/03/2016 12:35:25
-002100  000246          media_SetAdd(iBattery_percentH, iBattery_percentL) ;      // point to the Battery_percent image
-002101  000247          media_Image(50, 64) ;                                     // show all digits at 0, only do this once
-002102  000248          ledDigitsDisplay(Battery_charge, iiBattery_percentH, iiBattery_percentL, 50, 64, 3, 1, 9, 1) ;
-002103  000249        
-002104  000250          // StatusString 1.0 generated 9/11/2023 1:59:23 PM
-002105  000251          media_SetAdd(iStatusStringH, iStatusStringL) ;      // point to the StatusString image
-002106  000252          media_Image(94, 50) ;            // show image
-002107  000253        
-002108  000254          // StatusDec 1.1 generated 9/11/2023 1:59:46 PM
-002109  000255          media_SetAdd(iStatusDecH, iStatusDecL) ;      // point to the StatusDec image
-002110  000256          media_Image(92, 64) ;                                 // show all digits at 0, only do this once
-002111  000257          ledDigitsDisplay(Status_bat, iiStatusDecH, iiStatusDecL, 92, 64, 4, 1, 9, 1);
-002112  000258        
-002113  000259          // CPU 1.0 generated 31/03/2016 12:38:51
-002114  000260          media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
-002115  000261          media_VideoFrame(0, 80, V12board_PG) ;      // where numx is 0 (Off) or 1 (On)
-002116  000262        
-002117  000263          // Motors 1.0 generated 31/03/2016 12:38:54
-002118  000264          media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
-002119  000265          media_VideoFrame(67, 80, HSM_PG) ;      // where numx is 0 (Off) or 1 (On)
-002120  000266        
-002121  000267          // Strings1 1.0 generated 01/04/2016 08:48:58
-002122  000268          txt_FontID(SYSTEM) ;
-002123  000269          txt_FGcolour(WHITE) ;
-002124  000270          txt_BGcolour(BLUE) ;
-002125  000271          gfx_MoveTo(72 , 96) ;
-002126  000272            if(fault_timeout_cpu > 0)
-002127  000273              clean_motor_data_section();
-002128  000274            endif
-002129  000275        
-002130  000276          if(HSM_F==0 && V12motor_F==0)
-002131  000277            print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100))," V \n");           // to get the value as a simil float given that it is integer
-002132  000278            txt_BGcolour(BLACK) ;
-002133  000279            print("         \n");
-002134  000280            txt_BGcolour(BLUE) ;
-002135  000281            print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
-002136  000282            txt_BGcolour(BLACK) ;
-002137  000283            print("         \n");
-002138  000284          else
-002139  000285            txt_BGcolour(RED);
-002140  000286            if(HSM_F==1 && V12motor_F==0)
-002141  000287              print("HV FAULT \n");
-002142  000288            else if(HSM_F==0 && V12motor_F==1)
-002143  000289              print("M FAULT \n");
-002144  000290            else
-002145  000291              print("HVM FAULT\n");
-002146  000292            endif
-002147  000293            print("LAST VAL \n");
-002148  000294            print(" ", (V_VINPUT/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100)), " V \n");
-002149  000295            print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
-002150  000296            fault_timeout_motor++;
-002151  000297          endif
-002152  000298        
-002153  000299          // Strings3 1.0 generated 01/04/2016 14:30:22
-002154  000300          txt_FontID(SYSTEM) ;
-002155  000301          txt_FGcolour(WHITE) ;
-002156  000302          txt_BGcolour(BLUE) ;
-002157  000303          gfx_MoveTo(0 , 96) ;
-002158  000304        
-002159  000305           if(V12board_F==0)
-002160  000306            if(fault_timeout_cpu > 0)
-002161  000307              clean_cpu_data_section();
-002162  000308            endif
-002163  000309            print(" ", V_V12board/1000, ".", (V_V12board/100)-10*(V_V12board/1000)," V \n");
-002164  000310            txt_BGcolour(BLACK);
-002165  000311            print("         \n");
-002166  000312            txt_BGcolour(BLUE);
-002167  000313            print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A \n");
-002168  000314            txt_BGcolour(BLACK);
-002169  000315            print("         \n");
-002170  000316          else
-002171  000317            txt_BGcolour(RED);
-002172  000318            print("CPU FAULT\n");
-002173  000319            print("LAST VAL \n");
-002174  000320            print(" ",(V_V12board/1000), ".", (V_V12board/100)-10*(V_V12board/1000), " V \n");
-002175  000321            print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A  \n");
-002176  000322            fault_timeout_cpu++;
-002177  000323          endif
-002178  000324  endfunc
-002179  000325        
-002180  000326        
-002181  000327  // MAIN -----------------------------------------------------------------------------------------------------------------------------
-002182  000328        
-002183  000329  func main()
-002184  000330        
-002185  000331      gfx_Set(SCREEN_MODE,LANDSCAPE_R) ;
-002186  000332        
-002187  000333      while(!media_Init())
-002188  000334          putstr("Drive not mounted...");
-002189  000335          pause(1000);
-002190  000336          gfx_Cls();
-002191  000337      wend
-002192  000338        
-002193  000339      gfx_Cls();
-002194  000340        
-002195  000341      setbaud(BAUD_9600);                    //  baud rate
-002196  000342      com_Init(combuf,bufsize,qualifier);    // <--- set comms buffer so com_Count can work
-002197  000343        
-002198  000344      repeat
-002199  000345        
-002200  000346          if(com_Full())
-002201  000347              for(i:=0; i<com_PacketSize(); i++)
-002202  000348                  value[i]:=serin();
-002203  000349                  serout(value[i]); // echo back the chars
-002204  000350              next
-002205  000351        
-002206  000352              // NB: var is 16 bit signed, so some variables must be converted because they can exceed the value 32768
-002207  000353        
-002208  000354              Build_BAT    := value[0] & 0x0f;
-002209  000355              Revision_BAT := value[0] >> 4;
-002210  000356              Firmware_BAT := value[1];
-002211  000357        
-002212  000358              state_fsm_motors := value[2] & 0x0f;
-002213  000359              state_fsm_boards := value[2] >> 4;
-002214  000360              state_fsm        := value[3];
-002215  000361        
-002216  000362              Battery_charge := (value[4] + 256*value[5]);
-002217  000363              V_VINPUT       := ((value[6]/2  + 128*value[7]))/5; // converted in tens of mV
-002218  000364              V_EXTPS        := ((value[8]/2  + 128*value[9]))/5; // converted in tens of mV
-002219  000365              V_BATTERY      := ((value[10]/2  + 128*value[11]))/5; // converted in tens of mV
-002220  000366              V_V12board     := (value[12] + 256*value[13]);
-002221  000367              V_V12motor     := (value[14] + 256*value[15]);
-002222  000368              I_V12board     := (value[16] + 256*value[17]);
-002223  000369              I_V12motor     := (value[18] + 256*value[19]);
-002224  000370              I_HSM          := (value[20] + 256*value[21]);
-002225  000371              status_ps      := (value[22] + 256*value[23]);
-002226  000372              status_fault   := (value[24] + 256*value[25]);
-002227  000373              Status_bat     :=  value[26] + (value[27] << 8);
-002228  000374        
-002229  000375        
-002230  000376        
-002231  000377              I_BATTERY  := I_HSM + ((V_V12board/100)*(I_V12board/100))/(V_VINPUT/10) + ((V_V12motor/100)*(I_V12motor/100))/(V_VINPUT/10);
-002232  000378              // devision by multiple of 10 are necessary for getting back the correct uint8_t value 1 or 0 --> check how status param sent to oled is built in the BAT code
-002233  000379              HSM_PG     := status_ps/100;
-002234  000380              V12motor_PG:= status_ps/10 - HSM_PG*10;
-002235  000381              V12board_PG:= status_ps - HSM_PG*100 - V12motor_PG*10;
-002236  000382              HSM_F      := status_fault/100;
-002237  000383              V12motor_F := status_fault/10 - HSM_F*10;
-002238  000384              V12board_F := status_fault - HSM_F*100 - V12motor_F*10;
-002239  000385        
-002240  000386              // mini state machine for the screens
-002241  000387              // would it make sense to make a proper function for the ALARM screen (when fault happens)
-002242  000388              if(intro==0)
-002243  000389                  intro:=1;
-002244  000390                  graphic_intro();
-002245  000391              else if(intro==1)
-002246  000392                  intro:=2;
-002247  000393                  graphic_setup();
-002248  000394              else
-002249  000395                  graphic_update_data();
-002250  000396              endif
-002251  000397        
-002252  000398              com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
-002253  000399              timeout:=0;
-002254  000400        
-002255  000401            endif
-002256  000402        
-002257  000403          pause(1);
-002258  000404          timeout++;
-002259  000405        
-002260  000406          if(com_Error() || timeout>5000) // if there were low level comms errors, or no packets received after timeout
-002261  000407              com_Reset(); // reset to polled mode
-002262  000408              com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
-002263  000409              timeout:=0;
-002264  000410              graphic_message_uart_error();
-002265  000411          endif
-002266  000412        
-002267  000413      forever
-002268  000414  endfunc
-002269  000415        
-Notice: no execution path to func 'test_data_indentation'
+001912  000058  // object indexes for Inputs, Image Addresses + Input Array
+001913  000059  #CONST
+001914  000087  #END
+001915  000088        
+001916  000089        
+001917  000015        
+001918  000016        
+001919  000017  var Firmware_Display := 1;
+001920  000018  var Revision_Display := 3;
+001921  000019  var Build_Display    := 1;
+001922  000020        
+001923  000021  var Firmware_BAT;
+001924  000022  var Revision_BAT;
+001925  000023  var Build_BAT;
+001926  000024        
+001927  000025  var combuf[40];
+001928  000026  var bufsize:=0;
+001929  000027  var qualifier:=0x01;
+001930  000028  var value[40];
+001931  000029  var intro:=0;
+001932  000030  var timeout:=0;
+001933  000031  var i:=0;
+001934  000032  var isFaultRisen := 0;
+001935  000033        
+001936  000034  var Battery_charge;
+001937  000035  var V_VINPUT, V_EXTPS, V_BATTERY, V_V12board, V_V12motor;
+001938  000036  var I_BATTERY, I_V12board, I_V12motor, I_HSM;
+001939  000037  var V12board, V12motor, HSM_PG, V12motor_PG, V12board_PG;
+001940  000038  var voltage, current, charge, button, status_ps, status_fault;
+001941  000039  var V12board_F, V12motor_F, HSM_F;
+001942  000040  var Current_board_in_fault, Current_motor_in_fault, Current_HSM_in_fault;
+001943  000041  var CPU_voltage, CPU_current, Motors_voltage, Motors_current;
+001944  000042  var VINPUT_OFFSET:=28;                                 // 28 for range "28V-48V" and 20 for range "20V-32V"
+001945  000043  var state_fsm_boards, state_fsm_motors, state_fsm;     // state of the board (for iCub and R1)
+001946  000044  var Status_bat :=0;
+001947  000045  var HSM_HW_F := 0;
+001948  000046  var HSM_SW_F := 0;
+001949  000047        
+001950  000048        
+001951  000049  func graphic_icub()
+001952  000050      // R1 1.0 generated 9/15/2017 2:50:21 PM
+001953  000051      media_SetAdd(iR1H, iR1L) ;      // point to the R1 image
+001954  000052      gfx_Set(SCREEN_MODE,LANDSCAPE) ;        // On uOLED-128-G2 videos+images only work in LANDSCAPE
+001955  000053      media_Image(0, 23) ;            // show image
+001956  000054      gfx_Set(SCREEN_MODE,LANDSCAPE_R) ;      // Restore 'operating' orientation
+001957  000055  endfunc
+001958  000056        
+001959  000057  func graphic_intro()
+001960  000058        
+001961  000059      graphic_icub();
+001962  000060        
+001963  000061      txt_FontID(SYSTEM) ;
+001964  000062      txt_FGcolour(WHITE) ;
+001965  000063      txt_BGcolour(BLUE) ;
+001966  000064      gfx_MoveTo(0 , 0) ;
+001967  000065        
+001968  000066      print(" BAT board ", Firmware_BAT, ".", Revision_BAT, ".", Build_BAT, "v   \n");
+001969  000067      print(" Display   ", Firmware_Display, ".", Revision_Display, ".", Build_Display, "v   \n");
+001970  000068      pause(3000);
+001971  000069        
+001972  000070      gfx_Cls();
+001973  000071        
+001974  000072  endfunc
+001975  000073        
+001976  000074  func graphic_message_uart_error()
+001977  000075        
+001978  000076      txt_FontID(SYSTEM) ;
+001979  000077      txt_FGcolour(WHITE) ;
+001980  000078      gfx_MoveTo(0 , 96) ;
+001981  000079      txt_BGcolour(RED) ;
+001982  000080      print("\n    UART error!    \n");
+001983  000081      print("  Check connection!  \n");
+001984  000082        
+001985  000083  endfunc
+001986  000084        
+001987  000085  func graphic_message_fault_error()
+001988  000086        
+001989  000087      gfx_Cls();
+001990  000088        
+001991  000089      txt_FontID(SYSTEM) ;
+001992  000090      txt_FGcolour(WHITE) ;
+001993  000091      txt_BGcolour(BLUE) ;
+001994  000092        
+001995  000093      // check if CPU is in FAULT
+001996  000094      if(V12board_F == 1)
+001997  000095          txt_BGcolour(RED);
+001998  000096          gfx_MoveTo(2 , 2) ;
+001999  000097          print(" CPU LINE\n FAULT ! \n");
+002000  000098          print("         \n");
+002001  000099        
+002002  000100          gfx_MoveTo(2, 34);
+002003  000101          print(" ERROR   \n CPU LINE\n OVER    \n CURRENT \n");
+002004  000102          print("         \n");
+002005  000103      else
+002006  000104          txt_BGcolour(GREEN);
+002007  000105          gfx_MoveTo(2 , 2) ;
+002008  000106          print(" CPU LINE\nNO FAULT!\n");
+002009  000107          print("         \n");
+002010  000108        
+002011  000109          gfx_MoveTo(2, 34);
+002012  000110          print(" NO ERROR\n CPU LINE\n STABLE  \n CURRENT \n");
+002013  000111          print("         \n");
+002014  000112      endif
+002015  000113        
+002016  000114      gfx_MoveTo(2 , 84) ;
+002017  000115      print("   LAST  \n  VALUES \n");
+002018  000116      print("  ",(V_V12board/1000), ".", (V_V12board/100)-10*(V_V12board/1000), " V  \n");
+002019  000117      print(" ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," Am  \n");
+002020  000118      print(" ", (Current_board_in_fault/1000+Current_motor_in_fault/1000), ".", (Current_board_in_fault/100)-10*(Current_board_in_fault/1000) + (Current_motor_in_fault/100)-10*(Current_motor_in_fault/1000)," Ai  \n");
+002021  000119        
+002022  000120      gfx_MoveTo(70 , 2) ;
+002023  000121        
+002024  000122      if((V12motor_F == 1) && ((HSM_HW_F == 0) || (HSM_SW_F == 0)))
+002025  000123          txt_BGcolour(RED);
+002026  000124          print(" BOARDS  \n  LINE   \n FAULT ! \n");
+002027  000125        
+002028  000126          gfx_MoveTo(70, 34);
+002029  000127          print(" ERROR   \n BOARDS  \n LINE    \n  OVER   \n CURRENT \n");
+002030  000128        
+002031  000129      else if ((V12motor_F == 0) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+002032  000130          txt_BGcolour(RED);
+002033  000131          print("   HSM   \n  LINE   \n FAULT ! \n");
+002034  000132        
+002035  000133          gfx_MoveTo(70, 34);
+002036  000134          if(HSM_HW_F == 1)
+002037  000135              print(" ERROR   \n  HSM HW \n  LINE   \n  OVER  \n CURRENT \n");
+002038  000136          else if(HSM_SW_F == 1)
+002039  000137              print(" ERROR   \n  HSM SW \n  LINE   \n  OVER  \n CURRENT \n");
+002040  000138          endif
+002041  000139        
+002042  000140      else if ((V12motor_F == 1) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+002043  000141          txt_BGcolour(RED);
+002044  000142          print(" BOARDS  \n  LINE   \n FAULT ! \n");
+002045  000143        
+002046  000144          gfx_MoveTo(70, 34);
+002047  000145          print(" ERROR   \n HSM AND \n BOARDS  \n  LINES  \n");
+002048  000146          print("         \n");
+002049  000147        
+002050  000148      else
+002051  000149          txt_BGcolour(GREEN);
+002052  000150          print(" BOARDS  \n  LINE   \nNO FAULT!\n");
+002053  000151        
+002054  000152          gfx_MoveTo(70, 34);
+002055  000153          print(" NO ERROR\n BOARDS  \n  LINES  \n");
+002056  000154          print("         \n");
+002057  000155          print("         \n");
+002058  000156      endif
+002059  000157        
+002060  000158      gfx_MoveTo(70 , 84) ;
+002061  000159      print("   LAST  \n  VALUES \n");
+002062  000160      print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100)), " V  \n");
+002063  000161      print(" ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," Am  \n");
+002064  000162      print(" ", Current_HSM_in_fault/1000, ".", (Current_HSM_in_fault/100)-10*(Current_HSM_in_fault/1000)," Ai  \n");
+002065  000163  endfunc
+002066  000164        
+002067  000165  func graphic_setup()
+002068  000166      // Battery_voltage 1.0 generated 31/03/2016 12:18:07
+002069  000167      media_SetAdd(iBattery_voltageH, iBattery_voltageL) ;      // point to the Battery_voltage image
+002070  000168      media_VideoFrame(0, 0, V_VINPUT/100-VINPUT_OFFSET) ;      // where numx is 0 to 20 (for a displayed 20 to 32)
+002071  000169        
+002072  000170      // Battery_amps 1.0 generated 01/04/2016 17:59:14
+002073  000171      media_SetAdd(iBattery_ampsH, iBattery_ampsL) ;      // point to the Battery_amps image
+002074  000172      media_VideoFrame(67, 0, I_BATTERY/1000) ;          // where numx is 0 to 40 (for a displayed 0 to 40)
+002075  000173        
+002076  000174        
+002077  000175      // Statictext7 1.0 generated 01/04/2016 14:41:10
+002078  000176      media_SetAdd(iStatictext7H, iStatictext7L) ;      // point to the Statictext7 image
+002079  000177      media_Image(54, 50) ;            // show image
+002080  000178        
+002081  000179      // Gauge1 1.0 generated 01/04/2016 17:28:24
+002082  000180      media_SetAdd(iGauge1H, iGauge1L) ;         // point to the Gauge1 image
+002083  000181      media_VideoFrame(0, 52, Battery_charge) ;  // where numx is 0 to 100 (for a displayed 0 to 100)
+002084  000182        
+002085  000183      // Battery_percent 1.1 generated 31/03/2016 12:35:25
+002086  000184      media_SetAdd(iBattery_percentH, iBattery_percentL) ;      // point to the Battery_percent image
+002087  000185      media_Image(50, 64) ;                                 // show all digits at 0, only do this once
+002088  000186      ledDigitsDisplay(Battery_charge, iiBattery_percentH, iiBattery_percentL, 50, 64, 3, 1, 9, 1) ;
+002089  000187        
+002090  000188      // Statictext5 1.0 generated 31/03/2016 12:35:28
+002091  000189      media_SetAdd(iStatictext5H, iStatictext5L);      // point to the Statictext5 image
+002092  000190      media_Image(78, 64) ;            // show image
+002093  000191        
+002094  000192      // StatusString 1.0 generated 9/11/2023 1:59:23 PM
+002095  000193      media_SetAdd(iStatusStringH, iStatusStringL) ;      // point to the StatusString image
+002096  000194      media_Image(94, 50) ;            // show image
+002097  000195        
+002098  000196      // StatusDec 1.1 generated 9/11/2023 1:59:46 PM
+002099  000197      media_SetAdd(iStatusDecH, iStatusDecL) ;      // point to the StatusDec image
+002100  000198      media_Image(92, 64) ;                                 // show all digits at 0, only do this once
+002101  000199      ledDigitsDisplay(Status_bat, iiStatusDecH, iiStatusDecL, 92, 64, 4, 1, 9, 1);
+002102  000200        
+002103  000201      // CPU 1.0 generated 31/03/2016 12:38:51
+002104  000202      media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
+002105  000203      media_VideoFrame(0, 80, V12board_PG) ;      // where numx is 0 (Off) or 1 (On)
+002106  000204        
+002107  000205      // Motors 1.0 generated 31/03/2016 12:38:54
+002108  000206      media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
+002109  000207      media_VideoFrame(67, 80, HSM_PG) ;      // where numx is 0 (Off) or 1 (On)
+002110  000208        
+002111  000209        
+002112  000210      // Strings1 1.0 generated 01/04/2016 08:48:58
+002113  000211      txt_FontID(SYSTEM) ;
+002114  000212      txt_FGcolour(WHITE) ;
+002115  000213      txt_BGcolour(BLUE) ;
+002116  000214      gfx_MoveTo(0 , 96) ;
+002117  000215      print("         ");
+002118  000216        
+002119  000217        
+002120  000218      // Strings2 1.0 generated 01/04/2016 14:28:01
+002121  000219      txt_FontID(SYSTEM) ;
+002122  000220      txt_FGcolour(WHITE) ;
+002123  000221      txt_BGcolour(BLUE) ;
+002124  000222      gfx_MoveTo(0 , 112) ;
+002125  000223      print("         ");
+002126  000224        
+002127  000225      // Strings1 1.0 generated 9/12/2023 4:58:26 PM
+002128  000226      txt_FontID(SYSTEM) ;
+002129  000227      txt_FGcolour(WHITE) ;
+002130  000228      txt_BGcolour(BLUE) ;
+002131  000229      gfx_MoveTo(72 , 96) ;
+002132  000230      print("         ");
+002133  000231        
+002134  000232      // Strings5 1.0 generated 01/04/2016 14:31:02
+002135  000233      txt_FontID(SYSTEM) ;
+002136  000234      txt_FGcolour(WHITE) ;
+002137  000235      txt_BGcolour(BLUE) ;
+002138  000236      gfx_MoveTo(72 , 112) ;
+002139  000237      print("         ");
+002140  000238        
+002141  000239      txt_FontID(SYSTEM) ;
+002142  000240      txt_FGcolour(WHITE) ;
+002143  000241      txt_BGcolour(BLACK) ;
+002144  000242      gfx_MoveTo(0 , 124) ;
+002145  000243      print("         ");
+002146  000244        
+002147  000245      // Strings6 1.0 generated 9/12/2023 5:00:00 PM
+002148  000246      txt_FontID(SYSTEM) ;
+002149  000247      txt_FGcolour(WHITE) ;
+002150  000248      txt_BGcolour(BLACK) ;
+002151  000249      gfx_MoveTo(72 , 124) ;
+002152  000250      print("         ");
+002153  000251        
+002154  000252        
+002155  000253  endfunc
+002156  000254        
+002157  000255        
+002158  000256  func graphic_update_data()
+002159  000257          // Battery_voltage 1.0 generated 31/03/2016 12:18:07
+002160  000258          media_SetAdd(iBattery_voltageH, iBattery_voltageL) ;      // point to the Battery_voltage image
+002161  000259          media_VideoFrame(0, 0, V_VINPUT/100-VINPUT_OFFSET) ;      // where numx is 0 to 20 (for a displayed 20 to 32)
+002162  000260        
+002163  000261          // Battery_amps 1.0 generated 01/04/2016 17:59:14
+002164  000262          media_SetAdd(iBattery_ampsH, iBattery_ampsL) ;            // point to the Battery_amps image
+002165  000263          media_VideoFrame(67, 0, I_BATTERY/1000) ;                 // where numx is 0 to 40 (for a displayed 0 to 30)
+002166  000264        
+002167  000265          // Statictext7 1.0 generated 01/04/2016 14:41:10
+002168  000266          media_SetAdd(iStatictext7H, iStatictext7L) ;      // point to the Statictext7 image
+002169  000267          media_Image(54, 50) ;            // show image
+002170  000268        
+002171  000269          // Statictext5 1.0 generated 31/03/2016 12:35:28
+002172  000270          media_SetAdd(iStatictext5H, iStatictext5L) ;      // point to the Statictext5 image
+002173  000271          media_Image(78, 64) ;            // show image
+002174  000272        
+002175  000273          // Gauge1 1.0 generated 31/03/2016 12:35:22
+002176  000274          media_SetAdd(iGauge1H, iGauge1L) ;                        // point to the Gauge1 image
+002177  000275          media_VideoFrame(0, 52, Battery_charge) ;                 // where numx is 0 to 100 (for a displayed 0 to 100)
+002178  000276        
+002179  000277          // Battery_percent 1.1 generated 31/03/2016 12:35:25
+002180  000278          media_SetAdd(iBattery_percentH, iBattery_percentL) ;      // point to the Battery_percent image
+002181  000279          media_Image(50, 64) ;                                     // show all digits at 0, only do this once
+002182  000280          ledDigitsDisplay(Battery_charge, iiBattery_percentH, iiBattery_percentL, 50, 64, 3, 1, 9, 1) ;
+002183  000281        
+002184  000282          // StatusString 1.0 generated 9/11/2023 1:59:23 PM
+002185  000283          media_SetAdd(iStatusStringH, iStatusStringL) ;      // point to the StatusString image
+002186  000284          media_Image(94, 50) ;            // show image
+002187  000285        
+002188  000286          // StatusDec 1.1 generated 9/11/2023 1:59:46 PM
+002189  000287          media_SetAdd(iStatusDecH, iStatusDecL) ;      // point to the StatusDec image
+002190  000288          media_Image(92, 64) ;                                 // show all digits at 0, only do this once
+002191  000289          ledDigitsDisplay(Status_bat, iiStatusDecH, iiStatusDecL, 92, 64, 4, 1, 9, 1);
+002192  000290        
+002193  000291          // CPU 1.0 generated 31/03/2016 12:38:51
+002194  000292          media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
+002195  000293          media_VideoFrame(0, 80, V12board_PG) ;      // where numx is 0 (Off) or 1 (On)
+002196  000294        
+002197  000295          // Motors 1.0 generated 31/03/2016 12:38:54
+002198  000296          media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
+002199  000297          media_VideoFrame(67, 80, HSM_PG) ;      // where numx is 0 (Off) or 1 (On)
+002200  000298        
+002201  000299          // Strings1 1.0 generated 01/04/2016 08:48:58
+002202  000300          txt_FontID(SYSTEM) ;
+002203  000301          txt_FGcolour(WHITE) ;
+002204  000302          txt_BGcolour(BLUE) ;
+002205  000303          gfx_MoveTo(72 , 96) ;
+002206  000304        
+002207  000305          if(HSM_F==0 && V12motor_F==0)
+002208  000306            print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100))," V \n");           // to get the value as a simil float given that it is integer
+002209  000307            txt_BGcolour(BLACK) ;
+002210  000308            print("         \n");
+002211  000309            txt_BGcolour(BLUE) ;
+002212  000310            print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
+002213  000311            txt_BGcolour(BLACK) ;
+002214  000312            print("         \n");
+002215  000313          endif
+002216  000314        
+002217  000315          // Strings3 1.0 generated 01/04/2016 14:30:22
+002218  000316          txt_FontID(SYSTEM) ;
+002219  000317          txt_FGcolour(WHITE) ;
+002220  000318          txt_BGcolour(BLUE) ;
+002221  000319          gfx_MoveTo(0 , 96) ;
+002222  000320        
+002223  000321          if(V12board_F==0)
+002224  000322            print(" ", V_V12board/1000, ".", (V_V12board/100)-10*(V_V12board/1000)," V \n");
+002225  000323            txt_BGcolour(BLACK);
+002226  000324            print("         \n");
+002227  000325            txt_BGcolour(BLUE);
+002228  000326            print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A \n");
+002229  000327            txt_BGcolour(BLACK);
+002230  000328            print("         \n");
+002231  000329          endif
+002232  000330  endfunc
+002233  000331        
+002234  000332        
+002235  000333  // MAIN -----------------------------------------------------------------------------------------------------------------------------
+002236  000334        
+002237  000335  func main()
+002238  000336        
+002239  000337      gfx_Set(SCREEN_MODE,LANDSCAPE_R) ;
+002240  000338        
+002241  000339      while(!media_Init())
+002242  000340          putstr("SDDrive not mounted...");
+002243  000341          pause(1000);
+002244  000342          gfx_Cls();
+002245  000343      wend
+002246  000344        
+002247  000345      gfx_Cls();
+002248  000346        
+002249  000347      setbaud(BAUD_9600);                    //  baud rate
+002250  000348      com_Init(combuf,bufsize,qualifier);    // <--- set comms buffer so com_Count can work
+002251  000349        
+002252  000350      repeat
+002253  000351        
+002254  000352          if(com_Full())
+002255  000353              for(i:=0; i<com_PacketSize(); i++)
+002256  000354                  value[i]:=serin();
+002257  000355                  serout(value[i]); // echo back the chars
+002258  000356              next
+002259  000357        
+002260  000358              // NB: var is 16 bit signed, so some variables must be converted because they can exceed the value 32768
+002261  000359        
+002262  000360              Build_BAT    := value[0] & 0x0f;
+002263  000361              Revision_BAT := value[0] >> 4;
+002264  000362              Firmware_BAT := value[1];
+002265  000363        
+002266  000364              state_fsm_motors := value[2] & 0x0f;
+002267  000365              state_fsm_boards := value[2] >> 4;
+002268  000366              state_fsm        := value[3];
+002269  000367        
+002270  000368              Battery_charge := (value[4] + 256*value[5]);
+002271  000369              V_VINPUT       := ((value[6]/2  + 128*value[7]))/5; // converted in tens of mV
+002272  000370              V_EXTPS        := ((value[8]/2  + 128*value[9]))/5; // converted in tens of mV
+002273  000371              V_BATTERY      := ((value[10]/2  + 128*value[11]))/5; // converted in tens of mV
+002274  000372              V_V12board     := (value[12] + 256*value[13]);
+002275  000373              V_V12motor     := (value[14] + 256*value[15]);
+002276  000374              I_V12board     := (value[16] + 256*value[17]);
+002277  000375              I_V12motor     := (value[18] + 256*value[19]);
+002278  000376              I_HSM          := (value[20] + 256*value[21]);
+002279  000377              status_ps      := (value[22] + 256*value[23]);
+002280  000378              status_fault   := (value[24] + 256*value[25]);
+002281  000379              Status_bat     :=  value[26] + (value[27] << 8);
+002282  000380        
+002283  000381              Current_board_in_fault     := (value[28] + 256*value[29]);
+002284  000382              Current_motor_in_fault     := (value[30] + 256*value[31]);
+002285  000383              Current_HSM_in_fault       := (value[32] + 256*value[33]);
+002286  000384        
+002287  000385        
+002288  000386        
+002289  000387              I_BATTERY  := I_HSM + ((V_V12board/100)*(I_V12board/100))/(V_VINPUT/10) + ((V_V12motor/100)*(I_V12motor/100))/(V_VINPUT/10);
+002290  000388              // devision by multiple of 10 are necessary for getting back the correct uint8_t value 1 or 0 --> check how status param sent to oled is built in the BAT code
+002291  000389              HSM_PG     := status_ps/100;
+002292  000390              V12motor_PG:= status_ps/10 - HSM_PG*10;
+002293  000391              V12board_PG:= status_ps - HSM_PG*100 - V12motor_PG*10;
+002294  000392              HSM_F      := status_fault/100;
+002295  000393              V12motor_F := status_fault/10 - HSM_F*10;
+002296  000394              V12board_F := status_fault - HSM_F*100 - V12motor_F*10;
+002297  000395        
+002298  000396              HSM_HW_F   := ((Status_bat >> 10) & 0x1);
+002299  000397              HSM_SW_F   := ((Status_bat >> 11) & 0x1);
+002300  000398        
+002301  000399              if((HSM_SW_F == 1) || (HSM_HW_F == 1) || (V12motor_F == 1) || (V12board_F == 1))
+002302  000400                  isFaultRisen := 1;
+002303  000401                  intro := 3;
+002304  000402              else
+002305  000403                  if(isFaultRisen == 1)
+002306  000404                      gfx_Cls();
+002307  000405                      isFaultRisen := 0;
+002308  000406                      intro := 1;
+002309  000407                  endif
+002310  000408              endif
+002311  000409        
+002312  000410              // mini state machine for the screens
+002313  000411              // would it make sense to make a proper function for the ALARM screen (when fault happens)
+002314  000412              if(intro==0)
+002315  000413                  intro:=1;
+002316  000414                  graphic_intro();
+002317  000415              else if(intro==1)
+002318  000416                  intro:=2;
+002319  000417                  graphic_setup();
+002320  000418              else if(intro == 2)
+002321  000419                  graphic_update_data();
+002322  000420              else if(intro == 3)
+002323  000421                  graphic_message_fault_error();
+002324  000422        
+002325  000423                  // leave error screen for 10s
+002326  000424                  pause(10000);
+002327  000425              else
+002328  000426                  graphic_update_data();
+002329  000427              endif
+002330  000428        
+002331  000429              com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
+002332  000430              timeout:=0;
+002333  000431        
+002334  000432            endif
+002335  000433        
+002336  000434          pause(1);
+002337  000435          timeout++;
+002338  000436        
+002339  000437          if(com_Error() || timeout>5000) // if there were low level comms errors, or no packets received after timeout
+002340  000438              com_Reset(); // reset to polled mode
+002341  000439              com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
+002342  000440              timeout:=0;
+002343  000441              graphic_message_uart_error();
+002344  000442          endif
+002345  000443        
+002346  000444      forever
+002347  000445  endfunc
+002348  000446        
 Notice: no execution path to func 'PrintDisk'
 Notice: local var 'ch' in func 'PrintDisk' is never used (line 3 file:PrintDiskGoldelox.inc)
 Notice: no execution path to func 'ledDigitsDisplayL'
@@ -2344,7 +2422,7 @@ AQUA                                2047  0x000007ff (const dword)  (not used)
 AQUAMARINE                         32762  0x00007ffa (const dword)  (not used)
 AZURE                              63487  0x0000f7ff (const dword)  (not used)
 BACKGROUND_COLOUR                      1  0x00000001 (const dword)  (not used)
-Battery_charge                       186  0x000000ba (mem) word (global)  (usage 15)
+Battery_charge                       184  0x000000b8 (mem) word (global)  (usage 15)
 BAUD_110                           27271  0x00006a87 (const dword)  (not used)
 BAUD_115200                           25  0x00000019 (const dword)  (not used)
 BAUD_1200                           2499  0x000009c3 (const dword)  (not used)
@@ -2423,9 +2501,9 @@ bits_Clear                           -15  0xfffffff1 (PmmC func) args[2] r=0  (n
 bits_Flip                            -16  0xfffffff0 (PmmC func) args[2] r=0  (not used)
 bits_Set                             -14  0xfffffff2 (PmmC func) args[2] r=0  (not used)
 bits_Test                            -17  0xffffffef (PmmC func) args[2] r=1  (not used)
-BLACK                                  0  0x00000000 (const dword)  (usage 28)
+BLACK                                  0  0x00000000 (const dword)  (usage 18)
 BLANCHEDALMOND                     65369  0x0000ff59 (const dword)  (not used)
-BLUE                                  31  0x0000001f (const dword)  (usage 41)
+BLUE                                  31  0x0000001f (const dword)  (usage 30)
 BLUEVIOLET                         35164  0x0000895c (const dword)  (not used)
 BOLD                                  16  0x00000010 (const dword)  (not used)
 BROWN                              41285  0x0000a145 (const dword)  (not used)
@@ -2433,12 +2511,12 @@ bufsize                               92  0x0000005c (mem) word (global)  (usage
 Build_BAT                             10  0x0000000a (mem) word (global)  (usage 6)
 Build_Display                          4  0x00000004 (mem) word (global)  (usage 4)
 BURLYWOOD                          56784  0x0000ddd0 (const dword)  (not used)
-button                               222  0x000000de (mem) word (global)Notice: global var 'button' is never used
+button                               220  0x000000dc (mem) word (global)Notice: global var 'button' is never used
   (not used)
 C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Rotated view - iCub3\BAT_display_serial.4dg    2806  0x00000af6 (const ??? 0)  (not used)
 CADETBLUE                          23796  0x00005cf4 (const dword)  (not used)
 call                                -120  0xffffff88 (PmmC func) args[0] r=1  (not used)
-charge                               220  0x000000dc (mem) word (global)Notice: global var 'charge' is never used
+charge                               218  0x000000da (mem) word (global)Notice: global var 'charge' is never used
   (not used)
 charheight                          -125  0xffffff83 (PmmC func) args[1] r=1  (not used)
 CHARTREUSE                         32736  0x00007fe0 (const dword)  (not used)
@@ -2449,8 +2527,6 @@ CKMODE_0                               0  0x00000000 (const dword)  (not used)
 CKMODE_1                               1  0x00000001 (const dword)  (not used)
 CKMODE_2                               2  0x00000002 (const dword)  (not used)
 CKMODE_3                               3  0x00000003 (const dword)  (not used)
-clean_cpu_data_section              2730  0x00000aaa (User func) args[0] r=0  (usage 3)
-clean_motor_data_section            2682  0x00000a7a (User func) args[0] r=0  (usage 3)
 CLIP_BOTTOM                          147  0x00000093 (const dword)  (not used)
 CLIP_BOTTOM_POS                      143  0x0000008f (const dword)  (not used)
 CLIP_LEFT                            144  0x00000090 (const dword)  (not used)
@@ -2479,13 +2555,16 @@ CORAL                              64490  0x0000fbea (const dword)  (not used)
 CORNFLOWERBLUE                     25789  0x000064bd (const dword)  (not used)
 CORNSILK                           65499  0x0000ffdb (const dword)  (not used)
 COS                                  -23  0xffffffe9 (PmmC func) args[1] r=1  (not used)
-CPU_current                          236  0x000000ec (mem) word (global)Notice: global var 'CPU_current' is never used
+CPU_current                          240  0x000000f0 (mem) word (global)Notice: global var 'CPU_current' is never used
   (not used)
-CPU_voltage                          234  0x000000ea (mem) word (global)Notice: global var 'CPU_voltage' is never used
+CPU_voltage                          238  0x000000ee (mem) word (global)Notice: global var 'CPU_voltage' is never used
   (not used)
 CRIMSON                            55463  0x0000d8a7 (const dword)  (not used)
-current                              218  0x000000da (mem) word (global)Notice: global var 'current' is never used
+current                              216  0x000000d8 (mem) word (global)Notice: global var 'current' is never used
   (not used)
+Current_board_in_fault               232  0x000000e8 (mem) word (global)  (usage 12)
+Current_HSM_in_fault                 236  0x000000ec (mem) word (global)  (usage 12)
+Current_motor_in_fault               234  0x000000ea (mem) word (global)  (usage 12)
 CYAN                                2047  0x000007ff (const dword)  (not used)
 DARKBLUE                              17  0x00000011 (const dword)  (not used)
 DARKCYAN                            1105  0x00000451 (const dword)  (not used)
@@ -2545,8 +2624,6 @@ ENABLE                                 1  0x00000001 (const dword)  (not used)
 EVE_SP                              -128  0xffffff80 (PmmC func) args[0] r=1  (not used)
 exec                                -121  0xffffff87 (PmmC func) args[2] r=1  (not used)
 FALSE                                  0  0x00000000 (const dword)  (not used)
-fault_timeout_cpu                    182  0x000000b6 (mem) word (global)  (usage 13)
-fault_timeout_motor                  184  0x000000b8 (mem) word (global)  (usage 7)
 FIRE                                   5  0x00000005 (const dword)  (not used)
 FIREBRICK                          45316  0x0000b104 (const dword)  (not used)
 Firmware_BAT                           6  0x00000006 (mem) word (global)  (usage 6)
@@ -2577,7 +2654,7 @@ gfx_Circle                           -51  0xffffffcd (PmmC func) args[4] r=0  (n
 gfx_CircleFilled                     -52  0xffffffcc (PmmC func) args[4] r=0  (not used)
 gfx_Clipping                        -148  0xffffff6c (PmmC func) args[1] r=0  (not used)
 gfx_ClipWindow                       -65  0xffffffbf (PmmC func) args[4] r=0  (not used)
-gfx_Cls                              -41  0xffffffd7 (PmmC func) args[0] r=0  (usage 9)
+gfx_Cls                              -41  0xffffffd7 (PmmC func) args[0] r=0  (usage 15)
 gfx_ColourMode                      -156  0xffffff64 (PmmC func) args[1] r=0  (not used)
 gfx_Contrast                        -154  0xffffff66 (PmmC func) args[1] r=0  (not used)
 gfx_Dot                              -60  0xffffffc4 (PmmC func) args[0] r=0  (not used)
@@ -2594,7 +2671,7 @@ gfx_LinePattern                     -155  0xffffff65 (PmmC func) args[1] r=0  (n
 gfx_LineRel                          -45  0xffffffd3 (PmmC func) args[2] r=0  (not used)
 gfx_LineTo                           -44  0xffffffd4 (PmmC func) args[2] r=0  (not used)
 gfx_MoveRel                          -43  0xffffffd5 (PmmC func) args[2] r=0  (not used)
-gfx_MoveTo                           -42  0xffffffd6 (PmmC func) args[2] r=0  (usage 34)
+gfx_MoveTo                           -42  0xffffffd6 (PmmC func) args[2] r=0  (usage 63)
 GFX_OBJECT_COLOUR                     87  0x00000057 (const dword)  (not used)
 gfx_ObjectColour                    -147  0xffffff6d (PmmC func) args[1] r=0  (not used)
 gfx_Orbit                            -57  0xffffffc7 (PmmC func) args[2] r=0  (not used)
@@ -2606,7 +2683,7 @@ gfx_Polygon                          -59  0xffffffc5 (PmmC func) args[4] r=0  (n
 gfx_Polyline                         -58  0xffffffc6 (PmmC func) args[4] r=0  (not used)
 gfx_PutPixel                         -53  0xffffffcb (PmmC func) args[3] r=0  (not used)
 gfx_Rectangle                        -49  0xffffffcf (PmmC func) args[5] r=0  (not used)
-gfx_RectangleFilled                  -50  0xffffffce (PmmC func) args[5] r=0  (usage 6)
+gfx_RectangleFilled                  -50  0xffffffce (PmmC func) args[5] r=0  (not used)
 GFX_RIGHT                             98  0x00000062 (const dword)  (not used)
 GFX_SCREENMODE                       161  0x000000a1 (const dword)  (not used)
 gfx_ScreenMode                      -152  0xffffff68 (PmmC func) args[1] r=0  (not used)
@@ -2634,13 +2711,14 @@ GHOSTWHITE                         65503  0x0000ffdf (const dword)  (not used)
 GOLD                               65184  0x0000fea0 (const dword)  (not used)
 GOLDELOX                               1  0x00000001 (const dword)  (usage 3)
 GOLDENROD                          56612  0x0000dd24 (const dword)  (not used)
-graphic_icub                        3036  0x00000bdc (User func) args[0] r=0  (usage 3)
-graphic_intro                       2837  0x00000b15 (User func) args[0] r=0  (usage 3)
-graphic_message_uart_error          2778  0x00000ada (User func) args[0] r=0  (usage 3)
-graphic_setup                       2126  0x0000084e (User func) args[0] r=0  (usage 3)
-graphic_update_data                  889  0x00000379 (User func) args[0] r=0  (usage 3)
+graphic_icub                        4121  0x00001019 (User func) args[0] r=0  (usage 3)
+graphic_intro                       3922  0x00000f52 (User func) args[0] r=0  (usage 3)
+graphic_message_fault_error         2838  0x00000b16 (User func) args[0] r=0  (usage 3)
+graphic_message_uart_error          3863  0x00000f17 (User func) args[0] r=0  (usage 3)
+graphic_setup                       2282  0x000008ea (User func) args[0] r=0  (usage 3)
+graphic_update_data                 1512  0x000005e8 (User func) args[0] r=0  (usage 6)
 GRAY                               33808  0x00008410 (const dword)  (not used)
-GREEN                               1024  0x00000400 (const dword)  (not used)
+GREEN                               1024  0x00000400 (const dword)  (usage 6)
 GREENYELLOW                        45029  0x0000afe5 (const dword)  (not used)
 HEX                                 5136  0x00001410 (const dword)  (not used)
 HEX1                                4368  0x00001110 (const dword)  (not used)
@@ -2660,13 +2738,15 @@ HEXZB                               9232  0x00002410 (const dword)  (not used)
 HI                                     1  0x00000001 (const dword)  (not used)
 HONEYDEW                           63486  0x0000f7fe (const dword)  (not used)
 HOTPINK                            64342  0x0000fb56 (const dword)  (not used)
-HSM_F                                232  0x000000e8 (mem) word (global)  (usage 18)
-HSM_PG                               210  0x000000d2 (mem) word (global)  (usage 30)
+HSM_F                                230  0x000000e6 (mem) word (global)  (usage 12)
+HSM_HW_F                             256  0x00000100 (mem) word (global)  (usage 19)
+HSM_PG                               208  0x000000d0 (mem) word (global)  (usage 33)
+HSM_SW_F                             258  0x00000102 (mem) word (global)  (usage 19)
 i                                    180  0x000000b4 (mem) word (global)  (usage 16)
-I_BATTERY                            198  0x000000c6 (mem) word (global)  (usage 9)
-I_HSM                                204  0x000000cc (mem) word (global)  (usage 24)
-I_V12board                           200  0x000000c8 (mem) word (global)  (usage 24)
-I_V12motor                           202  0x000000ca (mem) word (global)  (usage 24)
+I_BATTERY                            196  0x000000c4 (mem) word (global)  (usage 9)
+I_HSM                                202  0x000000ca (mem) word (global)  (usage 24)
+I_V12board                           198  0x000000c6 (mem) word (global)  (usage 24)
+I_V12motor                           200  0x000000c8 (mem) word (global)  (usage 24)
 iBattery_ampsH                         5  0x00000005 (const dword)  (usage 6)
 iBattery_ampsL                     17408  0x00004400 (const dword)  (usage 6)
 iBattery_percentH                      5  0x00000005 (const dword)  (usage 6)
@@ -2703,12 +2783,13 @@ INIT_TABLE_PORTRAIT                  250  0x000000fa (const dword)  (not used)
 INIT_TABLE_PORTRAIT_R                248  0x000000f8 (const dword)  (not used)
 INPUT                                  1  0x00000001 (const dword)  (not used)
 Inputs                                 0  0x00000000 (const dword)  (not used)
-intro                                176  0x000000b0 (mem) word (global)  (usage 13)
+intro                                176  0x000000b0 (mem) word (global)  (usage 25)
 INVERSE                               64  0x00000040 (const dword)  (not used)
 IO1                                    0  0x00000000 (const dword)  (not used)
 IO2                                    1  0x00000001 (const dword)  (not used)
 iR1H                                   7  0x00000007 (const dword)  (usage 3)
 iR1L                               60416  0x0000ec00 (const dword)  (usage 3)
+isFaultRisen                         182  0x000000b6 (mem) word (global)  (usage 10)
 iStatictext5H                          5  0x00000005 (const dword)  (usage 6)
 iStatictext5L                      16896  0x00004200 (const dword)  (usage 6)
 iStatictext7H                          5  0x00000005 (const dword)  (usage 6)
@@ -2727,7 +2808,7 @@ LANDSCAPE_R                            1  0x00000001 (const dword)  (usage 6)
 LAVENDER                           59199  0x0000e73f (const dword)  (not used)
 LAVENDERBLUSH                      65438  0x0000ff9e (const dword)  (not used)
 LAWNGREEN                          32736  0x00007fe0 (const dword)  (not used)
-ledDigitsDisplay                    3078  0x00000c06 (User func) args[9] r=0  (usage 12)
+ledDigitsDisplay                    4163  0x00001043 (User func) args[9] r=0  (usage 12)
 ledDigitsDisplayD                 UNRESOLVED (User func) args[9] r=0  (not used)
 ledDigitsDisplayL                 UNRESOLVED (User func) args[9] r=0  (not used)
 ledDigitsDisplayR                 UNRESOLVED (User func) args[9] r=0  (not used)
@@ -2758,7 +2839,7 @@ LPFINE                             43690  0x0000aaaa (const dword)  (not used)
 LPMEDIUM                           13107  0x00003333 (const dword)  (not used)
 LPSOLID                                0  0x00000000 (const dword)  (not used)
 MAGENTA                            63519  0x0000f81f (const dword)  (not used)
-main                                 271  0x0000010f (User func) args[0] r=0  (not used)
+main                                 706  0x000002c2 (User func) args[0] r=0  (not used)
 MAROON                             32768  0x00008000 (const dword)  (not used)
 MAX                                  -20  0xffffffec (PmmC func) args[2] r=1  (not used)
 MDA                                65296  0x0000ff10 (const dword)  (not used)
@@ -2792,9 +2873,9 @@ MIN                                  -19  0xffffffed (PmmC func) args[2] r=1  (n
 MINTCREAM                          63487  0x0000f7ff (const dword)  (not used)
 MISTYROSE                          65340  0x0000ff3c (const dword)  (not used)
 MOCCASIN                           65334  0x0000ff36 (const dword)  (not used)
-Motors_current                       240  0x000000f0 (mem) word (global)Notice: global var 'Motors_current' is never used
+Motors_current                       244  0x000000f4 (mem) word (global)Notice: global var 'Motors_current' is never used
   (not used)
-Motors_voltage                       238  0x000000ee (mem) word (global)Notice: global var 'Motors_voltage' is never used
+Motors_voltage                       242  0x000000f2 (mem) word (global)Notice: global var 'Motors_voltage' is never used
   (not used)
 NAVAJOWHITE                        65269  0x0000fef5 (const dword)  (not used)
 NAVY                                  16  0x00000010 (const dword)  (not used)
@@ -2822,7 +2903,7 @@ PALEGREEN                          40915  0x00009fd3 (const dword)  (not used)
 PALETURQUOISE                      44925  0x0000af7d (const dword)  (not used)
 PALEVIOLETRED                      56210  0x0000db92 (const dword)  (not used)
 PAPAYAWHIP                         65402  0x0000ff7a (const dword)  (not used)
-pause                                 -6  0xfffffffa (PmmC func) args[1] r=0  (usage 9)
+pause                                 -6  0xfffffffa (PmmC func) args[1] r=0  (usage 12)
 PEACHPUFF                          65239  0x0000fed7 (const dword)  (not used)
 peekB                                -10  0xfffffff6 (PmmC func) args[1] r=1  (not used)
 peekW                                -11  0xfffffff5 (PmmC func) args[1] r=1  (not used)
@@ -2851,7 +2932,7 @@ RAND                                 -24  0xffffffe8 (PmmC func) args[0] r=1  (n
 RANDOM_HI                            107  0x0000006b (const dword)  (not used)
 RANDOM_LO                            106  0x0000006a (const dword)  (not used)
 READ_GRAM_REG                        135  0x00000087 (const dword)  (not used)
-RED                                63488  0x0000f800 (const dword)  (usage 13)
+RED                                63488  0x0000f800 (const dword)  (usage 15)
 RELEASED                               0  0x00000000 (const dword)  (not used)
 Revision_BAT                           8  0x00000008 (mem) word (global)  (usage 6)
 Revision_Display                       2  0x00000002 (mem) word (global)  (usage 4)
@@ -2891,15 +2972,31 @@ SPI_SLOW                               2  0x00000002 (const dword)  (not used)
 spi_Write                           -109  0xffffff93 (PmmC func) args[1] r=0  (not used)
 SPRINGGREEN                         2031  0x000007ef (const dword)  (not used)
 SQRT                                 -27  0xffffffe5 (PmmC func) args[1] r=1  (not used)
-state_fsm                            248  0x000000f8 (mem) word (global)  (usage 3)
-state_fsm_boards                     244  0x000000f4 (mem) word (global)  (usage 3)
-state_fsm_motors                     246  0x000000f6 (mem) word (global)  (usage 3)
-Status_bat                           250  0x000000fa (mem) word (global)  (usage 10)
-status_fault                         226  0x000000e2 (mem) word (global)  (usage 12)
-status_ps                            224  0x000000e0 (mem) word (global)  (usage 12)
+state_fsm                            252  0x000000fc (mem) word (global)  (usage 3)
+state_fsm_boards                     248  0x000000f8 (mem) word (global)  (usage 3)
+state_fsm_motors                     250  0x000000fa (mem) word (global)  (usage 3)
+Status_bat                           254  0x000000fe (mem) word (global)  (usage 16)
+status_fault                         224  0x000000e0 (mem) word (global)  (usage 12)
+status_ps                            222  0x000000de (mem) word (global)  (usage 12)
 STEELBLUE                          17430  0x00004416 (const dword)  (not used)
 STR                                  128  0x00000080 (const dword)  (not used)
 strheight                           -127  0xffffff81 (PmmC func) args[0] r=1  (not used)
+Strings10Count                         0  0x00000000 (const dword)  (not used)
+Strings10Size                          1  0x00000001 (const dword)  (not used)
+Strings10StartH                        8  0x00000008 (const dword)  (not used)
+Strings10StartL                    27648  0x00006c00 (const dword)  (not used)
+Strings11Count                         0  0x00000000 (const dword)  (not used)
+Strings11Size                          1  0x00000001 (const dword)  (not used)
+Strings11StartH                        8  0x00000008 (const dword)  (not used)
+Strings11StartL                    28160  0x00006e00 (const dword)  (not used)
+Strings12Count                         0  0x00000000 (const dword)  (not used)
+Strings12Size                          1  0x00000001 (const dword)  (not used)
+Strings12StartH                        8  0x00000008 (const dword)  (not used)
+Strings12StartL                    28672  0x00007000 (const dword)  (not used)
+Strings13Count                         0  0x00000000 (const dword)  (not used)
+Strings13Size                          1  0x00000001 (const dword)  (not used)
+Strings13StartH                        8  0x00000008 (const dword)  (not used)
+Strings13StartL                    29184  0x00007200 (const dword)  (not used)
 Strings1Count                          1  0x00000001 (const dword)  (not used)
 Strings1Size                           8  0x00000008 (const dword)  (not used)
 Strings1StartH                         8  0x00000008 (const dword)  (not used)
@@ -2928,6 +3025,14 @@ Strings7Count                          0  0x00000000 (const dword)  (not used)
 Strings7Size                           1  0x00000001 (const dword)  (not used)
 Strings7StartH                         8  0x00000008 (const dword)  (not used)
 Strings7StartL                     26112  0x00006600 (const dword)  (not used)
+Strings8Count                          0  0x00000000 (const dword)  (not used)
+Strings8Size                           1  0x00000001 (const dword)  (not used)
+Strings8StartH                         8  0x00000008 (const dword)  (not used)
+Strings8StartL                     26624  0x00006800 (const dword)  (not used)
+Strings9Count                          0  0x00000000 (const dword)  (not used)
+Strings9Size                           1  0x00000001 (const dword)  (not used)
+Strings9StartH                         8  0x00000008 (const dword)  (not used)
+Strings9StartL                     27136  0x00006a00 (const dword)  (not used)
 strlen                              -123  0xffffff85 (PmmC func) args[1] r=1  (not used)
 strwidth                            -126  0xffffff82 (PmmC func) args[1] r=1  (not used)
 SWAP                                 -21  0xffffffeb (PmmC func) args[2] r=0  (not used)
@@ -2936,14 +3041,13 @@ SYS_FLAGS2                           127  0x0000007f (const dword)  (not used)
 SYS_OSTREAM                           95  0x0000005f (const dword)  (not used)
 SYS_X_MAX                            132  0x00000084 (const dword)  (not used)
 SYS_Y_MAX                            133  0x00000085 (const dword)  (not used)
-SYSTEM                                 0  0x00000000 (const dword)  (usage 40)
+SYSTEM                                 0  0x00000000 (const dword)  (usage 33)
 SYSTEM_TIMER_HI                      113  0x00000071 (const dword)  (not used)
 SYSTEM_TIMER_LO                      112  0x00000070 (const dword)  (not used)
 TAN                                54705  0x0000d5b1 (const dword)  (not used)
 TEAL                                1040  0x00000410 (const dword)  (not used)
 TEMP_MEDIA_ADDRHI                    120  0x00000078 (const dword)  (not used)
 TEMP_MEDIA_ADDRLO                    119  0x00000077 (const dword)  (not used)
-test_data_indentation             UNRESOLVED (User func) args[0] r=0  (not used)
 TEXT                               65288  0x0000ff08 (const dword)  (not used)
 TEXT_ATTRIBUTES                       13  0x0000000d (const dword)  (not used)
 TEXT_BOLD                              9  0x00000009 (const dword)  (not used)
@@ -2985,11 +3089,11 @@ tune_Playing                         -85  0xffffffab (PmmC func) args[0] r=1  (n
 tune_Stop                            -83  0xffffffad (PmmC func) args[0] r=0  (not used)
 TURQUOISE                          18202  0x0000471a (const dword)  (not used)
 txt_Attributes                      -142  0xffffff72 (PmmC func) args[1] r=0  (not used)
-txt_BGcolour                        -130  0xffffff7e (PmmC func) args[1] r=0  (usage 76)
+txt_BGcolour                        -130  0xffffff7e (PmmC func) args[1] r=0  (usage 69)
 txt_Bold                            -138  0xffffff76 (PmmC func) args[1] r=0  (not used)
 txt_Delay                           -136  0xffffff78 (PmmC func) args[1] r=0  (not used)
-txt_FGcolour                        -129  0xffffff7f (PmmC func) args[1] r=0  (usage 40)
-txt_FontID                          -131  0xffffff7d (PmmC func) args[1] r=0  (usage 40)
+txt_FGcolour                        -129  0xffffff7f (PmmC func) args[1] r=0  (usage 33)
+txt_FontID                          -131  0xffffff7d (PmmC func) args[1] r=0  (usage 33)
 txt_Height                          -133  0xffffff7b (PmmC func) args[1] r=0  (not used)
 txt_Inverse                         -140  0xffffff74 (PmmC func) args[1] r=0  (not used)
 txt_Italic                          -139  0xffffff75 (PmmC func) args[1] r=0  (not used)
@@ -3023,33 +3127,33 @@ UP                                     1  0x00000001 (const dword)  (not used)
 USR_SP                               128  0x00000080 (const dword)  (not used)
 USRSTACK                             384  0x00000180 (const dword)  (not used)
 USRVARS                              129  0x00000081 (const dword)  (not used)
-V12board                             206  0x000000ce (mem) word (global)Notice: global var 'V12board' is never used
+V12board                             204  0x000000cc (mem) word (global)Notice: global var 'V12board' is never used
   (not used)
-V12board_F                           228  0x000000e4 (mem) word (global)  (usage 6)
-V12board_PG                          214  0x000000d6 (mem) word (global)  (usage 9)
-V12motor                             208  0x000000d0 (mem) word (global)Notice: global var 'V12motor' is never used
+V12board_F                           226  0x000000e2 (mem) word (global)  (usage 12)
+V12board_PG                          212  0x000000d4 (mem) word (global)  (usage 9)
+V12motor                             206  0x000000ce (mem) word (global)Notice: global var 'V12motor' is never used
   (not used)
-V12motor_F                           230  0x000000e6 (mem) word (global)  (usage 15)
-V12motor_PG                          212  0x000000d4 (mem) word (global)  (usage 6)
-V_BATTERY                            192  0x000000c0 (mem) word (global)  (usage 3)
-V_EXTPS                              190  0x000000be (mem) word (global)  (usage 3)
-V_V12board                           194  0x000000c2 (mem) word (global)  (usage 24)
-V_V12motor                           196  0x000000c4 (mem) word (global)  (usage 6)
-V_VINPUT                             188  0x000000bc (mem) word (global)  (usage 33)
-value                                 96  0x00000060 (mem) word[40] (global)  (usage 96)
-VINPUT_OFFSET                        242  0x000000f2 (mem) word (global)  (usage 7)
+V12motor_F                           228  0x000000e4 (mem) word (global)  (usage 21)
+V12motor_PG                          210  0x000000d2 (mem) word (global)  (usage 6)
+V_BATTERY                            190  0x000000be (mem) word (global)  (usage 3)
+V_EXTPS                              188  0x000000bc (mem) word (global)  (usage 3)
+V_V12board                           192  0x000000c0 (mem) word (global)  (usage 24)
+V_V12motor                           194  0x000000c2 (mem) word (global)  (usage 6)
+V_VINPUT                             186  0x000000ba (mem) word (global)  (usage 33)
+value                                 96  0x00000060 (mem) word[40] (global)  (usage 114)
+VINPUT_OFFSET                        246  0x000000f6 (mem) word (global)  (usage 7)
 VIOLET                             60445  0x0000ec1d (const dword)  (not used)
 VM_COLOUR                             84  0x00000054 (const dword)  (not used)
 VM_OVERFLOW                           83  0x00000053 (const dword)  (not used)
 VM_RETVAL                             85  0x00000055 (const dword)  (not used)
-voltage                              216  0x000000d8 (mem) word (global)Notice: global var 'voltage' is never used
+voltage                              214  0x000000d6 (mem) word (global)Notice: global var 'voltage' is never used
   (not used)
 VX1                                  128  0x00000080 (const dword)  (not used)
 VX2                                  130  0x00000082 (const dword)  (not used)
 VY1                                  129  0x00000081 (const dword)  (not used)
 VY2                                  131  0x00000083 (const dword)  (not used)
 WHEAT                              63222  0x0000f6f6 (const dword)  (not used)
-WHITE                              65535  0x0000ffff (const dword)  (usage 40)
+WHITE                              65535  0x0000ffff (const dword)  (usage 33)
 WHITESMOKE                         63422  0x0000f7be (const dword)  (not used)
 WRITE_GRAM_REG                       134  0x00000086 (const dword)  (not used)
 YELLOW                             65504  0x0000ffe0 (const dword)  (not used)
