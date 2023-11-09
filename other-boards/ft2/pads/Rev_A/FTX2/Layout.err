@@ -1,0 +1,177 @@
+=============================================================
+Add Reuse Report -- Mon Feb 25 14:49:08 2019
+
+=============================================================
+Design File: 2Layers.pcb
+Reuse  File: FT2_0.reu
+Reuse  Date: Mon Feb 25 10:09:58 2019
+
+=============Checking reuse/design compatibility=============
+WARNING: Layer plane type mismatch (Layer 1)
+   Plane Type in Design: MixedPlane 
+   Plane Type in Reuse:  NonPlane  (ignored)
+WARNING: Copper Thickness mismatch (Layer 1)
+   Copper Thickness for Layer 1 in Design: 0.03429
+   Copper Thickness for Layer 1 in Reuse:  0.04 (ignored)
+WARNING: Substrate/Prepreg Thickness mismatch (Layers 1-2)
+   Substrate Thickness for Layers 1-2 in Design: 1.6
+   Prepreg Thickness for Layers 1-2 in Reuse:  0.025 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 1-2)
+   Dielectric Constant for Layers 1-2 in Design: 4.300000
+   Dielectric Constant for Layers 1-2 in Reuse:  3.800000 (ignored)
+WARNING: Layer plane type mismatch (Layer 2)
+   Plane Type in Design: MixedPlane 
+   Plane Type in Reuse:  NonPlane  (ignored)
+WARNING: Copper Thickness mismatch (Layer 2)
+   Copper Thickness for Layer 2 in Design: 0.03429
+   Copper Thickness for Layer 2 in Reuse:  0.04 (ignored)
+WARNING: Copper Thickness mismatch (Layer 3)
+   Copper Thickness for Layer 3 in Design: 0
+   Copper Thickness for Layer 3 in Reuse:  0.03429 (ignored)
+WARNING: Substrate/Prepreg Thickness mismatch (Layers 3-4)
+   Substrate Thickness for Layers 3-4 in Design: 0
+   Prepreg Thickness for Layers 3-4 in Reuse:  0.254 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 3-4)
+   Dielectric Constant for Layers 3-4 in Design: 0.000000
+   Dielectric Constant for Layers 3-4 in Reuse:  4.300000 (ignored)
+WARNING: Layer association mismatch (Layer 4)
+   Silcscreen for Layer 4 in Design: not assigned
+   Silcscreen for Layer 4 in Reuse:  29 SS Silkscreen Bottom (ignored)
+WARNING: Layer association mismatch (Layer 4)
+   Paste Mask layer for Layer 4 in Design: not assigned
+   Paste Mask layer for Layer 4 in Reuse:  22 PM Paste Mask Bottom (ignored)
+WARNING: Layer association mismatch (Layer 4)
+   Solder Mask layer for Layer 4 in Design: not assigned
+   Solder Mask layer for Layer 4 in Reuse:  28 SM Solder Mask Bottom (ignored)
+WARNING: Layer association mismatch (Layer 4)
+   Assembly layer for Layer 4 in Design: not assigned
+   Assembly layer for Layer 4 in Reuse:  30 SM Assembly Drawing Bottom (ignored)
+WARNING: Copper Thickness mismatch (Layer 4)
+   Copper Thickness for Layer 4 in Design: 0
+   Copper Thickness for Layer 4 in Reuse:  0.0254 (ignored)
+WARNING: Substrate/Prepreg Thickness mismatch (Layers 4-5)
+   Substrate Thickness for Layers 4-5 in Design: 0
+   Prepreg Thickness for Layers 4-5 in Reuse:  0.2032 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 4-5)
+   Dielectric Constant for Layers 4-5 in Design: 0.000000
+   Dielectric Constant for Layers 4-5 in Reuse:  3.800000 (ignored)
+WARNING: Layer name mismatch (Layer 5)
+   Name in Design: Layer_5
+   Name in Reuse:  quadrotto (ignored)
+WARNING: Dielectric Constant mismatch (Layers 5-6)
+   Dielectric Constant for Layers 5-6 in Design: 0.000000
+   Dielectric Constant for Layers 5-6 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 6-7)
+   Dielectric Constant for Layers 6-7 in Design: 0.000000
+   Dielectric Constant for Layers 6-7 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 7-8)
+   Dielectric Constant for Layers 7-8 in Design: 0.000000
+   Dielectric Constant for Layers 7-8 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 8-9)
+   Dielectric Constant for Layers 8-9 in Design: 0.000000
+   Dielectric Constant for Layers 8-9 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 9-10)
+   Dielectric Constant for Layers 9-10 in Design: 0.000000
+   Dielectric Constant for Layers 9-10 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 10-11)
+   Dielectric Constant for Layers 10-11 in Design: 0.000000
+   Dielectric Constant for Layers 10-11 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 11-12)
+   Dielectric Constant for Layers 11-12 in Design: 0.000000
+   Dielectric Constant for Layers 11-12 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 12-13)
+   Dielectric Constant for Layers 12-13 in Design: 0.000000
+   Dielectric Constant for Layers 12-13 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 13-14)
+   Dielectric Constant for Layers 13-14 in Design: 0.000000
+   Dielectric Constant for Layers 13-14 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 14-15)
+   Dielectric Constant for Layers 14-15 in Design: 0.000000
+   Dielectric Constant for Layers 14-15 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 15-16)
+   Dielectric Constant for Layers 15-16 in Design: 0.000000
+   Dielectric Constant for Layers 15-16 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 16-17)
+   Dielectric Constant for Layers 16-17 in Design: 0.000000
+   Dielectric Constant for Layers 16-17 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 17-18)
+   Dielectric Constant for Layers 17-18 in Design: 0.000000
+   Dielectric Constant for Layers 17-18 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 18-19)
+   Dielectric Constant for Layers 18-19 in Design: 0.000000
+   Dielectric Constant for Layers 18-19 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 19-20)
+   Dielectric Constant for Layers 19-20 in Design: 0.000000
+   Dielectric Constant for Layers 19-20 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 20-21)
+   Dielectric Constant for Layers 20-21 in Design: 0.000000
+   Dielectric Constant for Layers 20-21 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 21-22)
+   Dielectric Constant for Layers 21-22 in Design: 0.000000
+   Dielectric Constant for Layers 21-22 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 22-23)
+   Dielectric Constant for Layers 22-23 in Design: 0.000000
+   Dielectric Constant for Layers 22-23 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 23-24)
+   Dielectric Constant for Layers 23-24 in Design: 0.000000
+   Dielectric Constant for Layers 23-24 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 24-25)
+   Dielectric Constant for Layers 24-25 in Design: 0.000000
+   Dielectric Constant for Layers 24-25 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 25-26)
+   Dielectric Constant for Layers 25-26 in Design: 0.000000
+   Dielectric Constant for Layers 25-26 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 26-27)
+   Dielectric Constant for Layers 26-27 in Design: 0.000000
+   Dielectric Constant for Layers 26-27 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 27-28)
+   Dielectric Constant for Layers 27-28 in Design: 0.000000
+   Dielectric Constant for Layers 27-28 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 28-29)
+   Dielectric Constant for Layers 28-29 in Design: 0.000000
+   Dielectric Constant for Layers 28-29 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 29-30)
+   Dielectric Constant for Layers 29-30 in Design: 0.000000
+   Dielectric Constant for Layers 29-30 in Reuse:  3.300000 (ignored)
+WARNING: Dielectric Constant mismatch (Layers 30-31)
+   Dielectric Constant for Layers 30-31 in Design: 0.000000
+   Dielectric Constant for Layers 30-31 in Reuse:  3.300000 (ignored)
+WARNING: Attribute value mismatch (Decal CAPC1005_IS0402L)
+   Attribute Design.Timestamp
+   Value in design: 2019.02.25.13.48.37
+   Value in reuse:  2019.02.14.13.25.57
+WARNING: Attribute value mismatch (Decal TAXEL_WM_2_5X3_8)
+   Attribute Design.Timestamp
+   Value in design: 2019.02.25.13.48.38
+   Value in reuse:  2019.02.20.09.06.43
+WARNING: Attribute value mismatch (Decal TAXEL_WM_3X4)
+   Attribute Design.Timestamp
+   Value in design: 2019.02.25.13.48.38
+   Value in reuse:  2019.02.20.09.06.43
+WARNING: Attribute value mismatch (Decal TAXEL_WM_2_5X3_3)
+   Attribute Design.Timestamp
+   Value in design: 2019.02.25.13.48.38
+   Value in reuse:  2019.02.20.09.06.43
+WARNING: Attribute value mismatch (Decal TAXEL_WM_1_6X5_4)
+   Attribute Design.Timestamp
+   Value in design: 2019.02.25.13.48.38
+   Value in reuse:  2019.02.20.09.06.43
+WARNING: Part Type CAP-0402-X7R-100NF-16V-10TOL associated decal mismatch.
+   Decal CAPC1005_IS0402L in design mismatch with decal CAPC1005_IS0402L in reuse.
+   Reuse decal CAPC1005_IS0402L will be added with new name CAPC1005_IS0402L(A).
+WARNING: Part Type TAXEL_WM_2_5X3_8 associated decal mismatch.
+   Decal TAXEL_WM_2_5X3_8 in design mismatch with decal TAXEL_WM_2_5X3_8 in reuse.
+   Reuse decal TAXEL_WM_2_5X3_8 will be added with new name TAXEL_WM_2_5X3_8(A).
+WARNING: Part Type TAXEL_WM_3X4 associated decal mismatch.
+   Decal TAXEL_WM_3X4 in design mismatch with decal TAXEL_WM_3X4 in reuse.
+   Reuse decal TAXEL_WM_3X4 will be added with new name TAXEL_WM_3X4(A).
+WARNING: Part Type TAXEL_WM_2_5X3_3 associated decal mismatch.
+   Decal TAXEL_WM_2_5X3_3 in design mismatch with decal TAXEL_WM_2_5X3_3 in reuse.
+   Reuse decal TAXEL_WM_2_5X3_3 will be added with new name TAXEL_WM_2_5X3_3(A).
+WARNING: Part Type TAXEL_WM_1_6X5_4 associated decal mismatch.
+   Decal TAXEL_WM_1_6X5_4 in design mismatch with decal TAXEL_WM_1_6X5_4 in reuse.
+   Reuse decal TAXEL_WM_1_6X5_4 will be added with new name TAXEL_WM_1_6X5_4(A).
+=============================================================
+Total ERRORS:   0
+Total WARNINGS: 53
+=============================================================

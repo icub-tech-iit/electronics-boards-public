@@ -1,0 +1,88 @@
+SECTION DesignInfo
+LIST HdlSearchPaths
+ENDLIST
+KEY BorderSymbols "./SL_borders.ini"
+KEY Bus_Contents "./busconts.ini"
+KEY CentralLibrary "P:\iCub_Integrated_Library\iCub_Integrated_Library.lmc"
+KEY FrontEndSnapshot "DxD"
+KEY PinComponents "./SL_speccomp.ini"
+KEY DxD_Version "PADSVX.2.8"
+KEY SheetsEditMode "1"
+KEY DBCFile "${SDD_HOME}/Libraries/xDX_Designer/StarterLibrary/StarterLibrary.dbc"
+KEY NumberingType "INDEPTH"
+KEY OrderFileName ".\"
+KEY HdlUtilsConfigFile "hdlutils.ini"
+KEY PartListerCfg "iCubExcelPartLister"
+KEY HandlePipedPartNumbers "FALSE"
+KEY CrossProbing "Off"
+ENDSECTION
+SECTION FlowSettings
+KEY FlowType "PADS"
+ENDSECTION
+SECTION ICXProInfo
+KEY ICXProDir "ICXPro"
+KEY HighSpeedPathsVersion "1"
+KEY IBISModelMgrDir "./HighSpeed/ICXPro/Model_Manager"
+KEY LocalModelsDir "./HighSpeed/ICXPro/Local_Models"
+ENDSECTION
+SECTION ProjectBackup
+KEY ConfigFile ".\ProjectBackup\ProjectBackup.cfg"
+ENDSECTION
+SECTION Template_Design
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+ENDSECTION
+SECTION iCDB
+LIST Designs
+VALUE "FT2_0"
+VALUE "FT2_1"
+VALUE "FT2_2"
+VALUE "FT2_3"
+ENDLIST
+KEY DedicatedServerName ""
+KEY iCDBDir ".\database"
+ENDSECTION
+SECTION FT2_0
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "FT2_0"
+KEY PCBDesignPath "FT2R_0.pcb"
+ENDSECTION
+SECTION FT2_1
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "FT2_1"
+KEY PCBDesignPath "FT2R_1.pcb"
+ENDSECTION
+SECTION FT2_2
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "FT2_2"
+KEY PCBDesignPath "FT2R_2.pcb"
+ENDSECTION
+SECTION FT2_3
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "FT2_3"
+KEY PCBDesignPath "FT2R_3.pcb"
+ENDSECTION

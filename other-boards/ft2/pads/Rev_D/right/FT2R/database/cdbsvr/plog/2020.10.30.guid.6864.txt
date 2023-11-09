@@ -1,0 +1,58 @@
+[2020.10.30 12:20:49] [0000m.24s.972ms] [0] WELCOME
+[2020.10.30 12:20:49] [0000m.24s.973ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2020.10.30 12:20:49] [0000m.24s.973ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2020.10.30 12:20:49] [0000m.24s.973ms] [1] Base flow version [VX.2.7]
+[2020.10.30 12:20:49] [0000m.24s.973ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2020.10.30 12:20:49] [0000m.24s.973ms] [1] UPDATE Install Info, Install Id [2192456], UPDATE Name [PADS VX.2.7 - Update 3]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] Machine [IITICUBLAP192]  IP [10.10.25.6,127.0.0.1,192.168.1.2,192.168.56.1]  User [SDussoni]  PID [6864]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] Operating system [Microsoft Windows 8 Business Edition, 64-bit (build 9200)]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] Current working dir [C:\Users\sdussoni\electronics\projects\boards\P2019_02_FTX2_FingertipTactileSensorRethink\pads\Rev_B\FTX2_RevB]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Windows;C:\cygwin64\bin;C:/robotology/vcpkg/installed/x64-windows/bin;C:/robotology/vcpkg/installed/x64-windows/debug/bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\robotology\vcpkg\installed\x64-windows\debug\bin;C:\robotology\vcpkg\installed\x64-windows\bin;C:\Users\sdussoni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:/robotology/robotology-superbuild/build/install/bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] SDD_PLATFORM [win32]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] File change time:        [2020-10-29 15.32.26]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] File modification time:  [2020-10-29 15.32.26]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Last change time:        [2020-10-29 15.32.25]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Last database open information:
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Time:             [2020-10-29 15.26.55]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Location:         [D:\repoelectronics\electronics\projects\boards\P2019_02_FTX2_FingertipTactileSensorRethink\pads\Rev_B\database\icdb.dat]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Machine:          [IITICUBWS055]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] User:             [SDussoni]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] PID:              [10104]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Application:      [iCDB Server]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 17134)]
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Database GUID must be regenerated
+[2020.10.30 12:20:49] [0000m.24s.975ms] [3] Previous database GUID [6b78-5322-09cf-1df0-d5cc-a9f2-6cca-9f50-a4d5-1837-9d9e-8d4e]
+[2020.10.30 12:20:49] [0000m.24s.976ms] [3] Current database GUID  [8538-6c23-df25-6b78-117f-b9f6-17fb-9f50-3665-0bf6-83e1-51c0]
+[2020.10.30 12:20:49] [0000m.24s.976ms] [0] .
+[2020.10.30 12:20:51] [0000m.26s.824ms] [0] WELCOME
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Base flow version [VX.2.7]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] UPDATE Install Info, Install Id [2192456], UPDATE Name [PADS VX.2.7 - Update 3]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Machine [IITICUBLAP192]  IP [10.10.25.6,127.0.0.1,192.168.1.2,192.168.56.1]  User [SDussoni]  PID [6864]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Operating system [Microsoft Windows 8 Business Edition, 64-bit (build 9200)]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Current working dir [C:\Users\sdussoni\electronics\projects\boards\P2019_02_FTX2_FingertipTactileSensorRethink\pads\Rev_B\FTX2_RevB]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Windows;C:\cygwin64\bin;C:/robotology/vcpkg/installed/x64-windows/bin;C:/robotology/vcpkg/installed/x64-windows/debug/bin;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\robotology\vcpkg\installed\x64-windows\debug\bin;C:\robotology\vcpkg\installed\x64-windows\bin;C:\Users\sdussoni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:/robotology/robotology-superbuild/build/install/bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] SDD_PLATFORM [win32]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [3] File change time:        [2020-10-30 12.20.51]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [3] File modification time:  [2020-10-30 12.20.51]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [3] Last change time:        [2020-10-30 12.20.51]
+[2020.10.30 12:20:51] [0000m.26s.825ms] [3] Last database open information:
+[2020.10.30 12:20:51] [0000m.26s.825ms] [3] Time:             [2020-10-29 15.26.55]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Location:         [D:\repoelectronics\electronics\projects\boards\P2019_02_FTX2_FingertipTactileSensorRethink\pads\Rev_B\database\icdb.dat]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Machine:          [IITICUBWS055]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] User:             [SDussoni]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] PID:              [10104]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Application:      [iCDB Server]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 17134)]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Database GUID must be regenerated
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Previous database GUID [8538-6c23-df25-6b78-117f-b9f6-17fb-9f50-3665-0bf6-83e1-51c0]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [3] Current database GUID  [a32f-172f-bbd5-f0e2-317f-b9f8-17fb-9f50-3665-0bf6-83e1-51c0]
+[2020.10.30 12:20:51] [0000m.26s.826ms] [0] .

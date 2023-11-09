@@ -1,0 +1,127 @@
+[2023.02.27 11:58:05] [0000m.00s.023ms] [0] WELCOME
+[2023.02.27 11:58:05] [0000m.00s.023ms] [1] iCDB Server ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2023.02.27 11:58:05] [0000m.00s.023ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2023.02.27 11:58:05] [0000m.00s.023ms] [1] Base flow version [VX.2.8]
+[2023.02.27 11:58:05] [0000m.00s.023ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2023.02.27 11:58:05] [0000m.00s.024ms] [1] UPDATE Install Info, Install Id [2425890], UPDATE Name [PADS VX.2.8 - Update 11]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.10,127.0.0.1]  User [MBorgagni]  PID [35680]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18362)]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] Current working dir [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] SDD_PLATFORM [win32]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.02.27 11:58:05] [0000m.00s.035ms] [2] S: Loading config files
+[2023.02.27 11:58:05] [0000m.00s.072ms] [1] Config file [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database\cdbsvr\Server.cfg] not found
+[2023.02.27 11:58:05] [0000m.00s.077ms] [3] S: Config loaded
+[2023.02.27 11:58:05] [0000m.00s.091ms] [0] S: Project path [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database] on file system [NTFS]
+[2023.02.27 11:58:05] [0000m.00s.091ms] [1] S: WARNING: No project file (.prj) path specified
+[2023.02.27 11:58:05] [0000m.00s.091ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2023.02.27 11:58:05] [0000m.00s.091ms] [0] S: Single-user mode (auto)
+[2023.02.27 11:58:05] [0000m.00s.091ms] [0] S: Event polling mode autodetection
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] S: Started up automatically by iCDB Client: IITICUBLAP168:MBorgagni:34840
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] S: Auto close mode
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] S: Database ID [f870-7462-58c1-e6a1-dbc8-cf33-cc8c-f360-665a-c101-0e3b-0aba]
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] PathTranslator: BEGIN dumping
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] PathTranslator: Local -> global path prefix list
+[2023.02.27 11:58:05] [0000m.00s.092ms] [0] PathTranslator: [P:\] -> [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\]
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] PathTranslator: Global -> local path prefix list
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] PathTranslator: [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\] -> [P:\]
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] PathTranslator: END dumping
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] S: START
+[2023.02.27 11:58:05] [0000m.00s.093ms] [0] S: Server startup lock file created
+[2023.02.27 11:58:05] [0000m.00s.094ms] [0] S: Listening for client connections on port [10001]
+[2023.02.27 11:58:05] [0000m.00s.097ms] [0] S: Server network ID [IITICUBLAP168:10.240.11.10,IITICUBLAP168,IITICUBLAP168.iit.local:10001]
+[2023.02.27 11:58:05] [0000m.00s.097ms] [0] S: Server GUID [3b5c-5b11-808b-7a46-dbc8-cf33-cc8c-f360-6268-c101-0e3b-0aba]
+[2023.02.27 11:58:05] [0000m.00s.097ms] [0] S: Project GUID [f870-7462-58c1-e6a1-dbc8-cf33-cc8c-f360-665a-c101-0e3b-0aba]
+[2023.02.27 11:58:05] [0000m.00s.103ms] [0] S: Wrote data to server address file
+[2023.02.27 11:58:05] [0000m.00s.103ms] [0] S: Server startup lock file removed
+[2023.02.27 11:58:05] [0000m.00s.103ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2023.02.27 11:58:05] [0000m.00s.133ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2023.02.27 11:58:05] [0000m.00s.133ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\iCDB\win32\bin]
+[2023.02.27 11:58:05] [0000m.00s.133ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin]
+[2023.02.27 11:58:05] [0000m.00s.134ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2023.02.27 11:58:05] [0000m.00s.134ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2023.02.27 11:58:05] [0000m.00s.134ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2023.02.27 11:58:05] [0000m.00s.134ms] [0] S: Local disc access time: 67 us
+[2023.02.27 11:58:05] [0000m.00s.134ms] [0] S: File server access time: 42 us
+[2023.02.27 11:58:05] [0000m.00s.136ms] [0] Single file [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database\icdb.dat] size [1170032 (1.1 MB)]
+[2023.02.27 11:58:05] [0000m.00s.136ms] [1] Single file [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database\icdb.dat] opened in read-write mode
+[2023.02.27 11:58:05] [0000m.00s.136ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.136ms] [0] Database GUARD OK: [1170032]
+[2023.02.27 11:58:05] [0000m.00s.137ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.137ms] [0] Database GUARD OK: [1170032]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] Database GUARD OK: [1170032]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] Database GUARD OK: [1170032]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] Database GUARD OK: [1170032]
+[2023.02.27 11:58:05] [0000m.00s.154ms] [0] SingleFile: [5386-25ca-a85b-6e61] SFI version check [1009] [1009]
+[2023.02.27 11:58:05] [0000m.00s.176ms] [0] SingleFile: [5386-25ca-a85b-6e61] Database SFI header has been read in [21ms 567us]
+[2023.02.27 11:58:05] [0000m.00s.181ms] [0] iCDB Server PI: Server & plugin session [1182]
+[2023.02.27 11:58:05] [0000m.00s.181ms] [0] iCDB Server PI: Opening database [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database]
+[2023.02.27 11:58:05] [0000m.00s.181ms] [0] iCDB Server PI: Database [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database] opened
+[2023.02.27 11:58:05] [0000m.00s.236ms] [0] iCDB Database: Checking existence of constraint definitions
+[2023.02.27 11:58:05] [0000m.00s.236ms] [0] iCDB Database: Checking constraint definitions version
+[2023.02.27 11:58:05] [0000m.00s.263ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.75] up to date
+[2023.02.27 11:58:05] [0000m.00s.273ms] [0] iCDB Server PI: Initializing plugins
+[2023.02.27 11:58:05] [0000m.00s.274ms] [0] iCDB Server PI: Plugins initialized
+[2023.02.27 11:58:05] [0000m.00s.274ms] [0] S: iCDB database loaded
+[2023.02.27 11:58:05] [0000m.00s.275ms] [0] S: Starting threads
+[2023.02.27 11:58:05] [0000m.00s.275ms] [0] BT: Listening for broadcast messages on port [10000]
+[2023.02.27 11:58:05] [0000m.00s.276ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2023.02.27 11:58:05] [0000m.00s.277ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2023.02.27 11:58:05] [0000m.00s.278ms] [0] IT: Session [1183] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [34840] created
+[2023.02.27 11:58:05] [0000m.00s.279ms] [1] SC[1183]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1183] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:05] [0000m.00s.281ms] [0] MWT: WindowProc: WM_NCCREATE
+[2023.02.27 11:58:05] [0000m.00s.286ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBLAP168] user [MBorgagni] with process ID [11372] created
+[2023.02.27 11:58:05] [0000m.00s.286ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2023.02.27 11:58:05] [0000m.00s.311ms] [1] SC[1183]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1183] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:05] [0000m.00s.379ms] [1] CMT: There are [1] clients now: 1183
+[2023.02.27 11:58:05] [0000m.00s.380ms] [1] CMT: Removed client [1183]
+[2023.02.27 11:58:05] [0000m.00s.380ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.02.27 11:58:06] [0000m.00s.791ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2023.02.27 11:58:06] [0000m.00s.827ms] [0] IT: Session [1184] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [34840] created
+[2023.02.27 11:58:06] [0000m.00s.828ms] [1] SC[1184]: Registered sub-client [PADSLayout] with ID [1] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:06] [0000m.00s.847ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[34840] # SessionID[1184] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\FTR2.prj], global path [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\FTR2.prj]
+[2023.02.27 11:58:06] [0000m.00s.850ms] [1] SC[1184]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:07] [0000m.01s.648ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\ProjectBackup\backups\2023-02-27 11.58.06 - auto.zip] with GUID [614b-6670-ecac-8c5a-ebc8-cf34-cc8c-f360-29c4-c101-0e3b-0aba]
+[2023.02.27 11:58:07] [0000m.01s.648ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[614b-6670-ecac-8c5a-ebc8-cf34-cc8c-f360-29c4-c101-0e3b-0aba] CreationTime[Monday, February 27, 2023 10:58:06] Type[Autosave] Creator[iCDB Server (2023-02-27 11.58.05-35680)] ApplicationName[iCDB Server (2023-02-27 11.58.05-35680)] UserName[MBorgagni] MachineName[IITICUBLAP168] Description[Autosave] FullFlowName[PADS VX.2.8; PADS VX.2.8 - Update 11] FlowId[PADSVX.2.8] GBSInstallId[2255257; 2425890] GBSBuildId[19808986] IcdbVersion[3900] ReferenceLogFilePath[] BackupFilePath[C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\ProjectBackup\backups\2023-02-27 11.58.06 - auto.zip] BackupFileSize[1986033] Persistent[FALSE]
+[2023.02.27 11:58:08] [0000m.02s.498ms] [1] SC[1184]: Registered sub-client [StartServerClient7b18] with ID [3] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:08] [0000m.02s.499ms] [1] SC[1184]: UnRegistered sub-client [StartServerClient7b18] with ID [3] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:10] [0000m.05s.046ms] [1] SC[1184]: Registered sub-client [StartServerClient7b18] with ID [4] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:58:10] [0000m.05s.046ms] [1] SC[1184]: UnRegistered sub-client [StartServerClient7b18] with ID [4] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 11:59:21] [0001m.16s.171ms] [0] DFAMT: File server access time: 44 us
+[2023.02.27 12:18:06] [0020m.00s.427ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[34840] # SessionID[1184] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.02.27 12:18:06] [0020m.00s.591ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[34840] # SessionID[1184] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.02.27 14:55:07] [0177m.05s.738ms] [1] SC[1184]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 14:55:07] [0177m.05s.748ms] [1] SC[1184]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1184] host [IITICUBLAP168] user [MBorgagni] process ID [34840]
+[2023.02.27 14:55:07] [0177m.05s.778ms] [1] CMT: Removed client [1184]
+[2023.02.27 14:55:07] [0177m.05s.778ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.02.27 14:55:07] [0177m.05s.895ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2023.02.27 14:55:09] [0177m.07s.383ms] [0] CMT: Starting server auto-close
+[2023.02.27 14:55:09] [0177m.07s.483ms] [0] S: Closing server
+[2023.02.27 14:55:09] [0177m.07s.646ms] [0] iCDB Server PI: Closing plugins
+[2023.02.27 14:55:09] [0177m.07s.649ms] [0] iCDB Server PI: Plugins closed
+[2023.02.27 14:55:09] [0177m.07s.649ms] [0] iCDB Server PI: Unloading database
+[2023.02.27 14:55:09] [0177m.07s.650ms] [0] iCDB Server PI: Saving storage
+[2023.02.27 14:55:09] [0177m.07s.650ms] [0] iCDB Server PI: Closing database
+[2023.02.27 14:55:09] [0177m.07s.654ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[0%] data[97%]
+[2023.02.27 14:55:09] [0177m.07s.654ms] [1] iCDB Server PI: Stats: Database file size [1175800 (1.1 MB)]
+[2023.02.27 14:55:09] [0177m.07s.671ms] [0] iCDB Server PI: Database closed
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [1200092] ticks
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [120009] microseconds
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3]
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [24] commands per second
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: Mem[33783808]
+[2023.02.27 14:55:09] [0177m.07s.671ms] [1] iCDB Server PI: Stats: MemPeak[40480768]
+[2023.02.27 14:55:09] [0177m.07s.676ms] [0] Single file [C:\icub-tech\electronics-boards\ftx2\pads\Rev_D\right\FTR2\database\icdb.dat] closed with size [1175800 (1.1 MB)]
+[2023.02.27 14:55:09] [0177m.07s.746ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2023.02.27 14:55:09] [0177m.07s.900ms] [0] MWT: Destroy the shutdown block reason.
+[2023.02.27 14:55:09] [0177m.07s.901ms] [0] MWT: STOP
+[2023.02.27 14:55:09] [0177m.07s.901ms] [0] S: STOP

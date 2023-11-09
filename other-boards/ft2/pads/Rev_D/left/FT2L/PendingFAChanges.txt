@@ -1,0 +1,52 @@
+                              Forward Annotation Pending Changes Report                             
+
+This file contains connectivity differences between PADS Designer project:
+	 "C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2L.prj" 
+and PADS Layout PCB:
+	 "C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2_L2.pcb" 
+
+(If you click Forward Annotation indicator in Project Integration dialog, these changes will be sent
+ from PADS Designer project to PADS Layout PCB.)
+
+
+============================================ Components ============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+***** Modified (1) *****
+   TP1
+       |> New Attributes:
+              |> Name: "DXDB_LIBNAME" | Value: "CO - PCB mounted connectors"
+              |> Name: "Description" | Value: "Test point, SMD,  0805"
+              |> Name: "Value" | Value: "S2751-46R"
+              |> Name: "cat_id" | Value: "CO - PCB mounted connectors"
+              |> Name: "package" | Value: "TP-0805"
+       |> Pin "1" New Attributes:
+              |> Name: "PinLabel" | Value: "1"
+
+
+=============================================== Nets ===============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+
+=========================================== Local Decals ===========================================
+   Ref-Des:                   P1 |   Local Decal Name:          TAXEL_WM_2_5X3_8 |   Library Decal Name:           TAXEL_WM_2_5X3_8
+   Ref-Des:                    2 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    4 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    3 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    1 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                   P2 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                   P3 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                   P8 |   Local Decal Name:          TAXEL_WM_1_6X5_4 |   Library Decal Name:           TAXEL_WM_1_6X5_4
+   Ref-Des:                   P9 |   Local Decal Name:          TAXEL_WM_1_6X5_4 |   Library Decal Name:           TAXEL_WM_1_6X5_4
+   Ref-Des:                   P4 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                  P11 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P5 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                  P10 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P6 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P7 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                  P12 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+
+====================================================================================================
+
+
+Report was generated at: Tuesday, March 28, 2023 15:11:40

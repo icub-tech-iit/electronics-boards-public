@@ -1,0 +1,46 @@
+                             Backward Annotation Pending Changes Report                             
+
+This file contains connectivity differences between PADS Layout PCB:
+	 "C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2_L1.pcb" 
+and PADS Designer project:
+	 "C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2L.prj" 
+
+(If you click Backward Annotation indicator in Project Integration dialog, these changes will be sent
+ from PADS Layout PCB to PADS Designer project.)
+
+
+============================================ Components ============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+***** Modified (1) *****
+   TP1
+       |> Pin "1" Deleted Attributes:
+              |> Name: "PinLabel"
+
+
+=============================================== Nets ===============================================
+***** No item is about to be added *****
+***** No item is about to be removed *****
+
+=========================================== Local Decals ===========================================
+   Ref-Des:                   P1 |   Local Decal Name:          TAXEL_WM_2_5X3_8 |   Library Decal Name:           TAXEL_WM_2_5X3_8
+   Ref-Des:                    2 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    4 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    3 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                    1 |   Local Decal Name:         SOLDERPAD_1_3X0_9 |   Library Decal Name:          SOLDERPAD_1_3X0_9
+   Ref-Des:                   P2 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                   P3 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                   P8 |   Local Decal Name:          TAXEL_WM_1_6X5_4 |   Library Decal Name:           TAXEL_WM_1_6X5_4
+   Ref-Des:                   P9 |   Local Decal Name:          TAXEL_WM_1_6X5_4 |   Library Decal Name:           TAXEL_WM_1_6X5_4
+   Ref-Des:                   P4 |   Local Decal Name:         TAXEL_WM_2_5X3_3B |   Library Decal Name:           TAXEL_WM_2_5X3_3
+   Ref-Des:                  P11 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P5 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                  P10 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P6 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                   P7 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+   Ref-Des:                  P12 |   Local Decal Name:              TAXEL_WM_3X4 |   Library Decal Name:               TAXEL_WM_3X4
+
+====================================================================================================
+
+
+Report was generated at: Friday, March 24, 2023 17:14:34

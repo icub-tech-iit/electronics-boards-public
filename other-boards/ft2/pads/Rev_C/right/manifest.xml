@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest version="1">
+	<fileset name="DxDesigner design" file-root="D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\right" project-root="D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\right">
+		<file name = "2020.10.16.txt" path = "FTR2\database\cdbsvr\dbcheck\2020-10-16 16.22.01-60676" modified = "2022-08-01 13:09:04" checksum = "3270857650"/>
+		<file name = "2021.05.19.txt" path = "FTR2\database\cdbsvr\dbcheck\2021-05-19 14.25.41-23660" modified = "2022-08-01 13:09:04" checksum = "1210531761"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\dbcheck\2022-06-13 16.05.20-5748" modified = "2022-08-01 13:09:04" checksum = "830246640"/>
+		<file name = "2022.08.04.txt" path = "FTR2\database\cdbsvr\dbcheck\2022-08-04 14.10.44-32644" modified = "2022-08-04 12:10:45" checksum = "2495290641"/>
+		<file name = "2020.10.16.upgrade.txt" path = "FTR2\database\cdbsvr\dbupgrade\2020-10-16 16.22.00-60676" modified = "2022-08-01 13:09:04" checksum = "1705242964"/>
+		<file name = "2021.05.19.upgrade.txt" path = "FTR2\database\cdbsvr\dbupgrade\2021-05-19 14.25.41-23660" modified = "2022-08-01 13:09:04" checksum = "1814209443"/>
+		<file name = "2022.06.13.upgrade.txt" path = "FTR2\database\cdbsvr\dbupgrade\2022-06-13 16.05.20-5748" modified = "2022-08-01 13:09:04" checksum = "2091198173"/>
+		<file name = "events.dat" path = "FTR2\database\cdbsvr\events" modified = "2022-11-14 16:31:50" checksum = "4016792245"/>
+		<file name = "events.idx" path = "FTR2\database\cdbsvr\events" modified = "2022-10-24 10:31:00" checksum = "363069820"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 10.25.04-10792" modified = "2022-08-01 13:09:04" checksum = "2384394608"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 11.54.57-6288" modified = "2022-08-01 13:09:04" checksum = "2427829497"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 12.44.29-13288" modified = "2022-08-01 13:09:04" checksum = "2537627752"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 13.37.05-16332" modified = "2022-08-01 13:09:04" checksum = "1509323389"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 13.50.09-9212" modified = "2022-08-01 13:09:04" checksum = "58194192"/>
+		<file name = "2019.03.04.txt" path = "FTR2\database\cdbsvr\log\2019-03-04 15.39.25-17268" modified = "2022-08-01 13:09:04" checksum = "1248328353"/>
+		<file name = "2019.03.05.txt" path = "FTR2\database\cdbsvr\log\2019-03-05 10.42.09-13420" modified = "2022-08-01 13:09:04" checksum = "2455846653"/>
+		<file name = "2019.03.05.txt" path = "FTR2\database\cdbsvr\log\2019-03-05 12.41.37-844" modified = "2022-08-01 13:09:04" checksum = "1081284755"/>
+		<file name = "2019.03.05.txt" path = "FTR2\database\cdbsvr\log\2019-03-05 12.44.12-16592" modified = "2022-08-01 13:09:04" checksum = "631737268"/>
+		<file name = "2020.10.26.txt" path = "FTR2\database\cdbsvr\log\2020-10-26 17.27.33-20508" modified = "2022-08-01 13:09:04" checksum = "990412970"/>
+		<file name = "2020.10.28.txt" path = "FTR2\database\cdbsvr\log\2020-10-28 16.37.48-16664" modified = "2022-08-01 13:09:04" checksum = "2607984029"/>
+		<file name = "2020.10.28.txt" path = "FTR2\database\cdbsvr\log\2020-10-28 18.33.57-15524" modified = "2022-08-01 13:09:04" checksum = "1640727804"/>
+		<file name = "2020.10.29.txt" path = "FTR2\database\cdbsvr\log\2020-10-29 08.45.30-55400" modified = "2022-08-01 13:09:04" checksum = "4012960506"/>
+		<file name = "2020.10.29.txt" path = "FTR2\database\cdbsvr\log\2020-10-29 12.19.02-46772" modified = "2022-08-01 13:09:04" checksum = "1626428914"/>
+		<file name = "2020.10.29.txt" path = "FTR2\database\cdbsvr\log\2020-10-29 15.06.24-57388" modified = "2022-08-01 13:09:04" checksum = "4100562100"/>
+		<file name = "2020.10.29.txt" path = "FTR2\database\cdbsvr\log\2020-10-29 15.12.07-57928" modified = "2022-08-01 13:09:04" checksum = "1991208231"/>
+		<file name = "2020.10.29.txt" path = "FTR2\database\cdbsvr\log\2020-10-29 15.26.53-10104" modified = "2022-08-01 13:09:04" checksum = "579238187"/>
+		<file name = "2020.10.30.txt" path = "FTR2\database\cdbsvr\log\2020-10-30 12.20.51-21468" modified = "2022-08-01 13:09:04" checksum = "2491144078"/>
+		<file name = "2020.10.30.txt" path = "FTR2\database\cdbsvr\log\2020-10-30 13.22.09-19736" modified = "2022-08-01 13:09:04" checksum = "1675414976"/>
+		<file name = "2020.11.10.txt" path = "FTR2\database\cdbsvr\log\2020-11-10 19.09.35-93008" modified = "2022-08-01 13:09:04" checksum = "3361480363"/>
+		<file name = "2020.11.10.txt" path = "FTR2\database\cdbsvr\log\2020-11-10 19.23.44-6704" modified = "2022-08-01 13:09:04" checksum = "2165523621"/>
+		<file name = "2020.12.02.txt" path = "FTR2\database\cdbsvr\log\2020-12-02 11.17.42-13748" modified = "2022-08-01 13:09:04" checksum = "1278530948"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 15.05.54-28032" modified = "2022-08-01 13:09:04" checksum = "1229617391"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 15.08.36-21656" modified = "2022-08-01 13:09:04" checksum = "1809712039"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 15.10.55-16500" modified = "2022-08-01 13:09:04" checksum = "1660263680"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 16.05.19-5748" modified = "2022-08-01 13:09:04" checksum = "2594918151"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 16.09.04-19628" modified = "2022-08-01 13:09:04" checksum = "1792382535"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 16.34.15-22688" modified = "2022-08-01 13:09:04" checksum = "2162343245"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 16.34.56-7452" modified = "2022-08-01 13:09:04" checksum = "2842696458"/>
+		<file name = "2022.06.13.txt" path = "FTR2\database\cdbsvr\log\2022-06-13 16.43.34-31016" modified = "2022-08-01 13:09:04" checksum = "1735202191"/>
+		<file name = "2022.06.14.txt" path = "FTR2\database\cdbsvr\log\2022-06-14 08.15.06-19696" modified = "2022-08-01 13:09:04" checksum = "1039156309"/>
+		<file name = "2022.06.14.txt" path = "FTR2\database\cdbsvr\log\2022-06-14 08.27.33-20976" modified = "2022-08-01 13:09:04" checksum = "2927052764"/>
+		<file name = "2022.06.14.txt" path = "FTR2\database\cdbsvr\log\2022-06-14 10.43.29-30148" modified = "2022-08-01 13:09:04" checksum = "394618229"/>
+		<file name = "2022.06.14.txt" path = "FTR2\database\cdbsvr\log\2022-06-14 10.44.56-29844" modified = "2022-08-01 13:09:04" checksum = "2967718487"/>
+		<file name = "2022.06.15.txt" path = "FTR2\database\cdbsvr\log\2022-06-15 13.00.04-28024" modified = "2022-08-01 13:09:04" checksum = "1661210087"/>
+		<file name = "2022.06.15.txt" path = "FTR2\database\cdbsvr\log\2022-06-15 15.18.49-26556" modified = "2022-08-01 13:09:04" checksum = "4180992787"/>
+		<file name = "2022.06.15.txt" path = "FTR2\database\cdbsvr\log\2022-06-15 15.59.20-31676" modified = "2022-08-01 13:09:04" checksum = "2607160963"/>
+		<file name = "2022.06.16.txt" path = "FTR2\database\cdbsvr\log\2022-06-16 09.18.10-18172" modified = "2022-08-01 13:09:04" checksum = "1335923097"/>
+		<file name = "2022.06.16.txt" path = "FTR2\database\cdbsvr\log\2022-06-16 15.00.37-7112" modified = "2022-08-01 13:09:04" checksum = "2372555031"/>
+		<file name = "2022.06.16.txt" path = "FTR2\database\cdbsvr\log\2022-06-16 15.10.25-17348" modified = "2022-08-01 13:09:04" checksum = "1454969536"/>
+		<file name = "2022.06.17.txt" path = "FTR2\database\cdbsvr\log\2022-06-16 15.10.25-17348" modified = "2022-08-01 13:09:04" checksum = "329051821"/>
+		<file name = "2022.06.20.txt" path = "FTR2\database\cdbsvr\log\2022-06-20 11.32.44-29356" modified = "2022-08-01 13:09:04" checksum = "3502542614"/>
+		<file name = "2022.06.20.txt" path = "FTR2\database\cdbsvr\log\2022-06-20 13.10.18-37784" modified = "2022-08-01 13:09:04" checksum = "3163363288"/>
+		<file name = "2022.06.20.txt" path = "FTR2\database\cdbsvr\log\2022-06-20 13.16.50-22168" modified = "2022-08-01 13:09:04" checksum = "3795631018"/>
+		<file name = "2022.06.27.txt" path = "FTR2\database\cdbsvr\log\2022-06-27 15.26.04-10368" modified = "2022-08-01 13:09:04" checksum = "2922416497"/>
+		<file name = "2022.06.30.txt" path = "FTR2\database\cdbsvr\log\2022-06-27 15.26.04-10368" modified = "2022-08-01 13:09:04" checksum = "4079725037"/>
+		<file name = "2022.07.04.txt" path = "FTR2\database\cdbsvr\log\2022-06-27 15.26.04-10368" modified = "2022-08-01 13:09:04" checksum = "1964390740"/>
+		<file name = "2022.07.05.txt" path = "FTR2\database\cdbsvr\log\2022-07-05 11.45.55-3540" modified = "2022-08-01 13:09:04" checksum = "164749122"/>
+		<file name = "2022.07.29.txt" path = "FTR2\database\cdbsvr\log\2022-07-29 15.46.20-10468" modified = "2022-08-01 13:09:04" checksum = "1547354913"/>
+		<file name = "2022.07.29.txt" path = "FTR2\database\cdbsvr\log\2022-07-29 16.01.13-26604" modified = "2022-08-01 13:09:04" checksum = "2935047534"/>
+		<file name = "2022.08.01.txt" path = "FTR2\database\cdbsvr\log\2022-07-29 16.01.13-26604" modified = "2022-08-01 13:09:04" checksum = "2411381372"/>
+		<file name = "2022.08.01.txt" path = "FTR2\database\cdbsvr\log\2022-08-01 14.05.54-34492" modified = "2022-08-01 13:09:04" checksum = "402049512"/>
+		<file name = "2022.11.14.txt" path = "FTR2\database\cdbsvr\log\2022-11-14 17.31.49-1404" modified = "2022-11-14 16:41:46" checksum = "951793411"/>
+		<file name = "BA_2020-12-02_11.20.02.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1640575664"/>
+		<file name = "BA_2022-08-02_16.56.21.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 14:56:21" checksum = "1556297351"/>
+		<file name = "BA_2022-08-02_17.18.33.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 15:18:33" checksum = "1664464425"/>
+		<file name = "BA_2022-08-02_17.22.44.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 15:22:44" checksum = "4101985310"/>
+		<file name = "BA_2022-08-05_10.50.50.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-05 08:50:50" checksum = "3493053731"/>
+		<file name = "BA_2022-09-20_10.23.01.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 08:23:01" checksum = "1509733779"/>
+		<file name = "BA_2022-09-20_11.11.20.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:11:20" checksum = "3042796167"/>
+		<file name = "BA_2022-09-20_11.11.34.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:11:34" checksum = "3020972729"/>
+		<file name = "BA_2022-09-20_11.12.04.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:12:04" checksum = "2171167397"/>
+		<file name = "FA_2020-10-28_17.35.08.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3135019765"/>
+		<file name = "FA_2020-10-29_09.02.34.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2194315906"/>
+		<file name = "FA_2020-10-29_10.50.15.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2633865950"/>
+		<file name = "FA_2020-10-29_11.03.26.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2637601502"/>
+		<file name = "FA_2020-12-02_11.20.04.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1419024989"/>
+		<file name = "FA_2022-06-13_16.09.28.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2417924746"/>
+		<file name = "FA_2022-06-13_16.12.31.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2636749532"/>
+		<file name = "FA_2022-06-13_16.34.23.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2930481900"/>
+		<file name = "FA_2022-06-13_16.35.05.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3026492144"/>
+		<file name = "FA_2022-06-14_17.29.34.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3162675956"/>
+		<file name = "FA_2022-06-14_17.30.07.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2820578020"/>
+		<file name = "FA_2022-06-14_17.36.38.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3341851391"/>
+		<file name = "FA_2022-06-15_13.01.20.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2454297299"/>
+		<file name = "FA_2022-06-15_13.01.58.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2905578216"/>
+		<file name = "FA_2022-06-15_16.00.22.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1927322228"/>
+		<file name = "FA_2022-06-16_14.59.52.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2593954451"/>
+		<file name = "FA_2022-06-16_15.01.46.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3011222256"/>
+		<file name = "FA_2022-06-17_09.48.29.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3652098829"/>
+		<file name = "FA_2022-06-17_09.48.52.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3483212549"/>
+		<file name = "FA_2022-06-17_16.04.03.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2885327592"/>
+		<file name = "FA_2022-06-17_16.04.23.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2940705514"/>
+		<file name = "FA_2022-06-17_16.18.10.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2315164295"/>
+		<file name = "FA_2022-06-17_16.19.13.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3110247153"/>
+		<file name = "FA_2022-06-17_16.21.42.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2969737965"/>
+		<file name = "FA_2022-06-20_13.19.30.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2053282427"/>
+		<file name = "FA_2022-06-20_13.19.54.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2306775687"/>
+		<file name = "FA_2022-06-27_15.42.43.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2397805194"/>
+		<file name = "FA_2022-06-27_17.16.18.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2535692943"/>
+		<file name = "FA_2022-06-27_17.41.19.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2493094541"/>
+		<file name = "FA_2022-06-27_17.41.37.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2493356685"/>
+		<file name = "FA_2022-06-27_17.42.48.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2620496531"/>
+		<file name = "FA_2022-06-27_17.47.55.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2778831515"/>
+		<file name = "FA_2022-06-27_17.48.13.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2656475799"/>
+		<file name = "FA_2022-06-27_17.50.24.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1252602988"/>
+		<file name = "FA_2022-06-27_17.50.36.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3209992951"/>
+		<file name = "FA_2022-06-30_19.19.24.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3126958836"/>
+		<file name = "FA_2022-06-30_19.32.07.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2965412587"/>
+		<file name = "FA_2022-06-30_19.34.17.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3039795951"/>
+		<file name = "FA_2022-06-30_19.38.21.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3013974766"/>
+		<file name = "FA_2022-06-30_19.38.41.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3069287152"/>
+		<file name = "FA_2022-06-30_19.38.59.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3450444546"/>
+		<file name = "FA_2022-06-30_19.39.12.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3690697563"/>
+		<file name = "FA_2022-06-30_19.39.19.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3323304700"/>
+		<file name = "FA_2022-06-30_19.39.46.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3323697916"/>
+		<file name = "FA_2022-06-30_19.40.24.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2827197157"/>
+		<file name = "FA_2022-06-30_19.41.07.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2912000745"/>
+		<file name = "FA_2022-06-30_19.48.59.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2801244828"/>
+		<file name = "FA_2022-07-05_12.05.57.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3094846195"/>
+		<file name = "FA_2022-07-05_12.06.19.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2933955305"/>
+		<file name = "FA_2022-07-05_12.06.54.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2892143335"/>
+		<file name = "FA_2022-07-05_12.08.16.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3010829039"/>
+		<file name = "FA_2022-07-05_12.08.32.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2807995107"/>
+		<file name = "FA_2022-07-05_12.08.48.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1578382451"/>
+		<file name = "FA_2022-07-05_12.08.57.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3193477879"/>
+		<file name = "FA_2022-07-05_12.09.18.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "3153107702"/>
+		<file name = "FA_2022-07-05_12.10.22.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2584976091"/>
+		<file name = "FA_2022-07-05_12.12.56.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2848758501"/>
+		<file name = "FA_2022-07-29_15.54.35.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2757597852"/>
+		<file name = "FA_2022-08-01_10.01.50.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2372770514"/>
+		<file name = "FA_2022-08-01_11.46.11.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "1924897396"/>
+		<file name = "FA_2022-08-01_12.41.03.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-01 13:09:04" checksum = "2672794337"/>
+		<file name = "FA_2022-08-02_16.56.24.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 14:56:24" checksum = "2335545990"/>
+		<file name = "FA_2022-08-02_17.18.36.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 15:18:36" checksum = "2419563146"/>
+		<file name = "FA_2022-08-02_17.22.46.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-02 15:22:46" checksum = "2992282349"/>
+		<file name = "FA_2022-08-05_10.50.54.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-05 08:50:54" checksum = "2079169146"/>
+		<file name = "FA_2022-08-05_13.54.25.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-05 11:54:25" checksum = "3007486701"/>
+		<file name = "FA_2022-08-05_17.31.35.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-08-05 15:31:35" checksum = "3127745268"/>
+		<file name = "FA_2022-09-20_10.23.05.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 08:23:05" checksum = "1823251054"/>
+		<file name = "FA_2022-09-20_11.11.24.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:11:24" checksum = "2484509397"/>
+		<file name = "FA_2022-09-20_11.11.37.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:11:37" checksum = "2713230049"/>
+		<file name = "FA_2022-09-20_11.12.07.log" path = "FTR2\database\cdbsvr\PIMlog" modified = "2022-09-20 09:12:07" checksum = "2584124122"/>
+		<file name = "2020.10.16.guid.67436.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "2782675961"/>
+		<file name = "2020.10.29.guid.54684.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1372181498"/>
+		<file name = "2020.10.29.guid.56992.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1037752227"/>
+		<file name = "2020.10.30.guid.6864.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1197980470"/>
+		<file name = "2020.12.02.guid.12972.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1406013336"/>
+		<file name = "2020.12.28.guid.25984.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1485668800"/>
+		<file name = "2021.03.02.guid.14716.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1905694966"/>
+		<file name = "2022.06.13.guid.33368.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1587259670"/>
+		<file name = "2022.06.14.guid.31964.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "3419055453"/>
+		<file name = "2022.06.14.guid.32792.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "2556491049"/>
+		<file name = "2022.06.27.guid.19220.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "2378036213"/>
+		<file name = "2022.07.29.guid.28604.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "4133352990"/>
+		<file name = "2022.07.29.guid.33620.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-01 13:09:04" checksum = "1814229419"/>
+		<file name = "2022.08.04.guid.34844.txt" path = "FTR2\database\cdbsvr\plog" modified = "2022-08-04 12:10:38" checksum = "2007423919"/>
+		<file name = "sAddress.adr" path = "FTR2\database\cdbsvr" modified = "2022-11-14 16:31:50" checksum = "246311064"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s1\variants" modified = "2022-09-20 09:12:04" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s1\variants" modified = "2022-09-20 09:12:04" checksum = "2290571600"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s1\variants" modified = "2022-09-20 09:12:04" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s10\variants" modified = "2022-09-20 08:46:56" checksum = "3416989035"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s10\variants" modified = "2022-09-20 08:46:56" checksum = "2829014931"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s10\variants" modified = "2022-09-20 08:46:56" checksum = "3353617115"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s11\variants" modified = "2022-09-20 10:29:37" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s11\variants" modified = "2022-09-20 10:29:37" checksum = "2608880736"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s11\variants" modified = "2022-09-20 10:29:37" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s12\variants" modified = "2022-09-20 09:12:09" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s12\variants" modified = "2022-09-20 09:12:09" checksum = "2290571600"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s12\variants" modified = "2022-09-20 09:12:09" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s13\variants" modified = "2022-09-20 09:12:09" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s13\variants" modified = "2022-09-20 09:12:09" checksum = "2290571600"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s13\variants" modified = "2022-09-20 09:12:09" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s14\variants" modified = "2022-09-20 09:17:21" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s14\variants" modified = "2022-09-20 09:17:21" checksum = "2608880736"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s14\variants" modified = "2022-09-20 09:17:21" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s15\variants" modified = "2022-09-20 14:28:12" checksum = "3056934141"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s15\variants" modified = "2022-09-20 14:28:12" checksum = "1963668207"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s15\variants" modified = "2022-09-20 14:28:12" checksum = "1613832016"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s16\variants" modified = "2022-08-05 15:31:38" checksum = "3416989035"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s16\variants" modified = "2022-08-05 15:31:38" checksum = "3918942534"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s16\variants" modified = "2022-08-05 15:31:38" checksum = "3353617115"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s17\variants" modified = "2022-08-05 15:31:38" checksum = "3416989035"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s17\variants" modified = "2022-08-05 15:31:38" checksum = "3918942534"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s17\variants" modified = "2022-08-05 15:31:38" checksum = "3353617115"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s18\variants" modified = "2022-09-20 12:58:13" checksum = "3056934141"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s18\variants" modified = "2022-09-20 12:58:13" checksum = "1963668207"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s18\variants" modified = "2022-09-20 12:58:13" checksum = "1613832016"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s19\variants" modified = "2022-08-05 15:31:35" checksum = "3056934141"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s19\variants" modified = "2022-08-05 15:31:35" checksum = "1963668207"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s19\variants" modified = "2022-08-05 15:31:35" checksum = "1613832016"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s20\variants" modified = "2022-09-20 09:12:07" checksum = "1761682821"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s20\variants" modified = "2022-09-20 09:12:07" checksum = "2608880736"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s20\variants" modified = "2022-09-20 09:12:07" checksum = "440608248"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s3\variants" modified = "2022-09-20 08:23:34" checksum = "3795199202"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s3\variants" modified = "2022-09-20 08:23:34" checksum = "3879769141"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s3\variants" modified = "2022-09-20 08:23:34" checksum = "3204982739"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s4\variants" modified = "2022-09-20 08:23:07" checksum = "3847102178"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s4\variants" modified = "2022-09-20 08:23:07" checksum = "3507054047"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s4\variants" modified = "2022-09-20 08:23:07" checksum = "3954648100"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s5\variants" modified = "2022-09-20 08:23:07" checksum = "3847102178"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s5\variants" modified = "2022-09-20 08:23:07" checksum = "3507054047"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s5\variants" modified = "2022-09-20 08:23:07" checksum = "3954648100"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s6\variants" modified = "2022-11-14 16:38:19" checksum = "3795199202"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s6\variants" modified = "2022-11-14 16:38:19" checksum = "3879769141"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s6\variants" modified = "2022-11-14 16:38:19" checksum = "3204982739"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s7\variants" modified = "2022-09-20 09:08:02" checksum = "3416989035"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s7\variants" modified = "2022-09-20 09:08:02" checksum = "2829014931"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s7\variants" modified = "2022-09-20 09:08:02" checksum = "3353617115"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s8\variants" modified = "2022-08-05 11:54:27" checksum = "507190765"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s8\variants" modified = "2022-08-05 11:54:27" checksum = "2469691419"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s8\variants" modified = "2022-08-05 11:54:27" checksum = "3850379755"/>
+		<file name = "Borders.vdf" path = "FTR2\database\s9\variants" modified = "2022-08-05 11:54:27" checksum = "507190765"/>
+		<file name = "VariantsDB.vdf" path = "FTR2\database\s9\variants" modified = "2022-08-05 11:54:27" checksum = "2469691419"/>
+		<file name = "VariantsDB_pkgs.vdf" path = "FTR2\database\s9\variants" modified = "2022-08-05 11:54:27" checksum = "3850379755"/>
+		<file name = "icdb.dat" path = "FTR2\database" modified = "2022-11-14 16:41:46" checksum = "1"/>
+		<file name = "CompositeInfo.dat" path = "FTR2\FT2R_2_pcb\3D\Input" modified = "2022-09-20 09:14:26" checksum = "1"/>
+		<file name = "ModelInfo.dat" path = "FTR2\FT2R_2_pcb\3D\Input" modified = "2022-09-20 09:14:26" checksum = "1"/>
+		<file name = "ModelInfo.dat" path = "FTR2\FT2R_2_pcb\3D\Input_S" modified = "2022-09-20 09:14:26" checksum = "1"/>
+		<file name = "3D.edm" path = "FTR2\FT2R_2_pcb\3D" modified = "2022-09-20 09:14:26" checksum = "4077199021"/>
+		<file name = "3D_mapdata.dat" path = "FTR2\FT2R_2_pcb\3D" modified = "2022-09-20 09:14:26" checksum = "1655642857"/>
+		<file name = "odbpplog_20220801_134917.txt" path = "FTR2\FT2R_2_pcb" modified = "2022-08-01 11:59:28" checksum = "4061832410"/>
+		<file name = "Generic.tfn" path = "FTR2\Generic.gdb" modified = "2022-09-20 09:12:06" checksum = "155855366"/>
+		<file name = "generic.tna" path = "FTR2\Generic.gdb" modified = "2022-09-20 09:12:06" checksum = "1573273738"/>
+		<file name = "Generic.tpa" path = "FTR2\Generic.gdb" modified = "2022-09-20 09:12:06" checksum = "2142308277"/>
+		<file name = "Generic.tsh" path = "FTR2\Generic.gdb" modified = "2022-09-20 09:12:06" checksum = "3000764687"/>
+		<file name = "CellDB.cel" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "1931190058"/>
+		<file name = "JobPrefsDB.jpf" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "2470864765"/>
+		<file name = "NetClassDB.ncl" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "4154841426"/>
+		<file name = "NetPropsDB.npr" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "656193997"/>
+		<file name = "PadstackDB.psk" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "2787147546"/>
+		<file name = "PartsDB.pdb" path = "FTR2\Integration\Layout" modified = "2020-02-10 15:10:12" checksum = "3333544545"/>
+		<file name = "AugmentedPins.txt" path = "FTR2\Integration" modified = "2022-09-20 09:12:07" checksum = "485829411"/>
+		<file name = "CDBBackAnno.bam" path = "FTR2\Integration" modified = "2022-09-20 09:12:06" checksum = "1"/>
+		<file name = "kyntpref.caf" path = "FTR2\Integration" modified = "2022-09-20 09:12:07" checksum = "2032298786"/>
+		<file name = "LocalPartsDB.pdb" path = "FTR2\Integration" modified = "2022-09-20 09:12:06" checksum = "2872021319"/>
+		<file name = "PartPkg.log" path = "FTR2\Integration" modified = "2022-06-17 07:11:58" checksum = "297656967"/>
+		<file name = "UnusedGates.txt" path = "FTR2\Integration" modified = "2022-09-20 09:12:07" checksum = "4266858423"/>
+		<file name = "UnusedPins.txt" path = "FTR2\Integration" modified = "2022-09-20 09:12:07" checksum = "2924060819"/>
+		<file name = "3DModels.log" path = "FTR2\LogFiles" modified = "2022-09-20 09:14:26" checksum = "3089926527"/>
+		<file name = "DxArchiver20221114174142.log" path = "FTR2\LogFiles" modified = "2022-11-14 16:41:47" checksum = "2871849765"/>
+		<file name = "DxDesigner.log" path = "FTR2\LogFiles" modified = "2022-11-14 16:31:59" checksum = "2875808431"/>
+		<file name = "GenerateECO_log.txt" path = "FTR2\LogFiles" modified = "2022-09-20 09:12:09" checksum = "1605807346"/>
+		<file name = "ProjectBackupLog.txt" path = "FTR2\LogFiles" modified = "2022-11-14 16:31:51" checksum = "3230087324"/>
+		<file name = "DxArchiver.pdf" path = "FTR2\pdf" modified = "2022-08-01 13:09:06" checksum = "1232976669"/>
+		<file name = "2022-09-20 15.13.08 - auto.zip" path = "FTR2\ProjectBackup\backups" modified = "2022-09-20 13:13:08" checksum = "3555392722"/>
+		<file name = "2022-10-24 12.31.01 - auto.zip" path = "FTR2\ProjectBackup\backups" modified = "2022-10-24 10:31:03" checksum = "3980492039"/>
+		<file name = "2022-11-14 17.31.50 - auto.zip" path = "FTR2\ProjectBackup\backups" modified = "2022-11-14 16:31:51" checksum = "1451957929"/>
+		<file name = "ProjectBackup.cfg" path = "FTR2\ProjectBackup" modified = "2022-08-02 13:14:00" checksum = "1423910814"/>
+		<file name = "ProjectBackup.dat" path = "FTR2\ProjectBackup" modified = "2022-11-14 16:31:51" checksum = "536482145"/>
+		<file name = "busconts.ini" path = "FTR2" modified = "2022-07-05 09:58:40" checksum = "1"/>
+		<file name = "DxArchiver.xml" path = "FTR2" modified = "2022-11-14 16:41:46" checksum = "1844012888"/>
+		<file name = "FT2R_0.pcb" path = "FTR2" modified = "2022-09-20 08:23:34" checksum = "4002653609"/>
+		<file name = "FT2R_1.pcb" path = "FTR2" modified = "2022-09-20 09:08:02" checksum = "1238797223"/>
+		<file name = "FT2R_2.pcb" path = "FTR2" modified = "2022-09-20 10:29:37" checksum = "2786089432"/>
+		<file name = "FT2R_3.pcb" path = "FTR2" modified = "2022-09-20 14:28:12" checksum = "1400738306"/>
+		<file name = "FT2_2.ecx" path = "FTR2" modified = "2022-09-20 09:12:09" checksum = "414567958"/>
+		<file name = "FT2_R0.htm" path = "FTR2" modified = "2022-08-04 12:12:59" checksum = "2222089869"/>
+		<file name = "FTR2.prj" path = "FTR2" modified = "2022-11-14 16:31:51" checksum = "2580988034"/>
+		<file name = "hdlutils.ini" path = "FTR2" modified = "2022-08-04 12:12:58" checksum = "3271987307"/>
+		<file name = "Package.log" path = "FTR2" modified = "2022-09-20 09:12:07" checksum = "1899930704"/>
+		<file name = "PendingBAChanges.txt" path = "FTR2" modified = "2022-08-04 11:51:56" checksum = "4057255116"/>
+		<file name = "Previous Synchronization.log" path = "FTR2" modified = "2022-09-20 09:12:16" checksum = "325516538"/>
+		<file name = "RulesSynch.log" path = "FTR2" modified = "2022-09-20 09:11:39" checksum = "1784933229"/>
+		<file name = "SL_borders.ini" path = "FTR2" modified = "2022-07-05 09:58:40" checksum = "797782854"/>
+		<file name = "SL_speccomp.ini" path = "FTR2" modified = "2022-07-05 09:58:40" checksum = "776602813"/>
+		<file name = "Synchronization.log" path = "FTR2" modified = "2022-09-20 09:48:30" checksum = "3607623785"/>
+		<file name = "VariantsSynch.log" path = "FTR2" modified = "2022-09-20 09:12:04" checksum = "1556140383"/>
+		<file name = "Assembly_Note_FT2-R_16479-16482_C_DOC_10.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-07-29 08:33:54" checksum = "552207524"/>
+		<file name = "bom_tr_16479_C.csv" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-08-04 12:25:26" checksum = "4138596700"/>
+		<file name = "bom_tr_16479_C.pdf" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-08-04 12:25:34" checksum = "2594856456"/>
+		<file name = "FT2-R0.tgz" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-08-01 11:41:00" checksum = "1630682867"/>
+		<file name = "FT2-R0_16475_2_CAM.zip" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-09-20 08:27:31" checksum = "2329678625"/>
+		<file name = "PCB_Specs_FT2-R_16475-16478_2.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-08-01 15:31:54" checksum = "4010335149"/>
+		<file name = "Pick_And_Place_FT2R_16479-16482.xlsx" path = "OUTPUT\FT2_Right_singlePCA\FT2-R0_16479_C\FT2-R0_16479_C" modified = "2022-08-03 08:32:18" checksum = "3063751794"/>
+		<file name = "Assembly_Note_FT2-R_16479-16482_C_DOC_10.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-07-29 08:33:54" checksum = "552207524"/>
+		<file name = "bom_tr_16480_C.csv" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-04 12:42:24" checksum = "3498834885"/>
+		<file name = "bom_tr_16480_C.pdf" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-04 12:42:28" checksum = "1515210379"/>
+		<file name = "FT2-R1_16476_2_CAM.zip" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-09-20 09:05:58" checksum = "1155432304"/>
+		<file name = "FT2R_1.tgz" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-01 10:40:14" checksum = "44998391"/>
+		<file name = "PCB_Specs_FT2-R_16475-16478_2.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-01 15:31:54" checksum = "4010335149"/>
+		<file name = "Pick_And_Place_FT2R_16479-16482.xlsx" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-03 08:32:18" checksum = "3063751794"/>
+		<file name = "Assembly_Note_FT2-R_16479-16482_C_DOC_10.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-07-29 08:33:54" checksum = "552207524"/>
+		<file name = "bom_tr_16480_C.csv" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-04 12:42:24" checksum = "3498834885"/>
+		<file name = "bom_tr_16480_C.pdf" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-04 12:42:28" checksum = "1515210379"/>
+		<file name = "FT2-R1_16476_2_CAM.zip" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-09-20 09:05:56" checksum = "1155432304"/>
+		<file name = "FT2R_1.tgz" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-01 10:40:14" checksum = "44998391"/>
+		<file name = "PCB_Specs_FT2-R_16475-16478_2.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-01 15:31:54" checksum = "4010335149"/>
+		<file name = "Pick_And_Place_FT2R_16479-16482.xlsx" path = "OUTPUT\FT2_Right_singlePCA\FT2-R1_16480_C\FT2-R1_16480_C" modified = "2022-08-03 08:32:18" checksum = "3063751794"/>
+		<file name = "Assembly_Note_FT2-R_16479-16482_C_DOC_10.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-07-29 08:33:54" checksum = "552207524"/>
+		<file name = "bom_tr_16481_C.csv" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-08-04 12:47:32" checksum = "2373449258"/>
+		<file name = "bom_tr_16481_C.pdf" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-08-04 12:47:36" checksum = "1552434722"/>
+		<file name = "FT2-R2_16477_2_CAM.zip" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-09-20 10:06:49" checksum = "1130574951"/>
+		<file name = "FT2R_2.tgz" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-08-01 12:11:22" checksum = "3308709966"/>
+		<file name = "PCB_Specs_FT2-R_16475-16478_2.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-08-01 15:31:54" checksum = "4010335149"/>
+		<file name = "Pick_And_Place_FT2R_16479-16482.xlsx" path = "OUTPUT\FT2_Right_singlePCA\FT2-R2_16481_C\FT2-R2_16481_C" modified = "2022-08-03 08:32:18" checksum = "3063751794"/>
+		<file name = "Assembly_Note_FT2-R_16479-16482_C_DOC_10.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-07-29 08:33:54" checksum = "552207524"/>
+		<file name = "bom_tr_16482_C.csv" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-08-04 12:50:18" checksum = "2515138094"/>
+		<file name = "bom_tr_16482_C.pdf" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-08-04 12:50:22" checksum = "2398243876"/>
+		<file name = "FT2-R3_16478_2_CAM.zip" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-09-20 13:02:06" checksum = "2679534354"/>
+		<file name = "FT2R_3.tgz" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-08-01 11:31:22" checksum = "1063937042"/>
+		<file name = "PCB_Specs_FT2-R_16475-16478_2.doc" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-08-01 15:31:54" checksum = "4010335149"/>
+		<file name = "Pick_And_Place_FT2R_16479-16482.xlsx" path = "OUTPUT\FT2_Right_singlePCA\FT2-R3_16482_C\FT2-R3_16482_C" modified = "2022-08-03 08:32:18" checksum = "3063751794"/>
+		<file name = "FT2-R0_16479_C.zip" path = "OUTPUT\FT2_Right_singlePCA" modified = "2022-09-20 13:15:39" checksum = "1688127726"/>
+		<file name = "FT2-R1_16480_C.zip" path = "OUTPUT\FT2_Right_singlePCA" modified = "2022-09-20 13:15:32" checksum = "2662198917"/>
+		<file name = "FT2-R2_16481_C.zip" path = "OUTPUT\FT2_Right_singlePCA" modified = "2022-09-20 13:15:24" checksum = "1268548609"/>
+		<file name = "FT2-R3_16482_C.zip" path = "OUTPUT\FT2_Right_singlePCA" modified = "2022-09-20 13:15:15" checksum = "532522694"/>
+		<file name = "FT2R.pdf" path = "OUTPUT\FT2_Right_singlePCA" modified = "2022-08-16 14:22:32" checksum = "779447255"/>
+		<file name = "FT2-R0_16479_C.zip" path = "OUTPUT\PANEL" modified = "2022-09-20 13:15:39" checksum = "1688127726"/>
+		<file name = "FT2-R1_16480_C.zip" path = "OUTPUT\PANEL" modified = "2022-09-20 13:15:32" checksum = "2662198917"/>
+		<file name = "FT2-R2_16481_C.zip" path = "OUTPUT\PANEL" modified = "2022-09-20 13:15:24" checksum = "1268548609"/>
+		<file name = "FT2-R3_16482_C.zip" path = "OUTPUT\PANEL" modified = "2022-09-20 13:15:15" checksum = "532522694"/>
+		<file name = "FT2R_panel_16474_2.pdf" path = "OUTPUT\PANEL" modified = "2022-08-01 15:31:52" checksum = "1846647125"/>
+		<file name = "Structure.xlsx" path = "OUTPUT\PANEL" modified = "2022-08-04 09:31:45" checksum = "2868111682"/>
+		<file name = "TOC.md" path = "OUTPUT\PANEL" modified = "2022-06-17 13:57:58" checksum = "3796246076"/>
+		<file name = "bom_tr_16479_C.csv" path = "OUTPUT" modified = "2022-08-04 12:25:25" checksum = "4138596700"/>
+		<file name = "bom_tr_16479_C.pdf" path = "OUTPUT" modified = "2022-08-04 12:25:33" checksum = "2594856456"/>
+		<file name = "bom_tr_16480_C.csv" path = "OUTPUT" modified = "2022-08-04 12:42:22" checksum = "3498834885"/>
+		<file name = "bom_tr_16480_C.pdf" path = "OUTPUT" modified = "2022-08-04 12:42:27" checksum = "1515210379"/>
+		<file name = "bom_tr_16481_C.csv" path = "OUTPUT" modified = "2022-08-04 12:47:30" checksum = "2373449258"/>
+		<file name = "bom_tr_16481_C.pdf" path = "OUTPUT" modified = "2022-08-04 12:47:34" checksum = "1552434722"/>
+		<file name = "bom_tr_16482_C.csv" path = "OUTPUT" modified = "2022-08-04 12:50:17" checksum = "2515138094"/>
+		<file name = "bom_tr_16482_C.pdf" path = "OUTPUT" modified = "2022-08-04 12:50:21" checksum = "2398243876"/>
+		<file name = "FT2R_panel_16474_2.pdf" path = "OUTPUT" modified = "2022-08-01 15:31:52" checksum = "1846647125"/>
+		<file name = "PANEL_RIGHT_DataPack_16474_2.zip" path = "OUTPUT" modified = "2022-09-20 13:55:30" checksum = "3146936092"/>
+		<file name = "Structure.xlsx" path = "OUTPUT" modified = "2022-08-16 14:22:32" checksum = "2868111682"/>
+		<file name = "FTR2.zip" path = "." modified = "2022-08-01 15:31:52" checksum = "1780816696"/>
+		<file name = "FTR220221114174146.zip" path = "." modified = "2022-11-14 16:41:47" checksum = "1893634615"/>
+		<file name = "~$FT2R_0.pcb.inf" path = "." modified = "2022-06-27 10:40:30" checksum = "1671562908"/>
+	</fileset>
+</manifest>

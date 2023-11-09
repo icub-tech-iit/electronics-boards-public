@@ -1,0 +1,1 @@
+In this rev D there are no any kind of panel consideration ... left to the supplier. The PCAs will be provided single and in single package

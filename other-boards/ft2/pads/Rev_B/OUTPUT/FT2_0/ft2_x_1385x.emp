@@ -1,0 +1,80 @@
+.HEADER
+LIBRARY_FILE    3.0    "PADS Layout VX.2.7"    2020/12/ 3.09:09:21    1
+.END_HEADER
+.MECHANICAL
+LOGO                                         LOGOICUB                                     MM        0.0                      
+0     -1.77622                 -1.38405                 0     
+0     1.92049                  -1.38405                 0     
+0     1.92049                  1.72085                  0     
+0     -1.77622                 1.72085                  0     
+0     -1.77622                 -1.38405                 0     
+.END_MECHANICAL
+.ELECTRICAL
+TP-0603                                      TERMINAL-TEST-S2761-0603                     MM        0.0                      
+0     -1.175                   -0.775                   0     
+0     1.175                    -0.775                   0     
+0     1.175                    0.775                    0     
+0     -1.175                   0.775                    0     
+0     -1.175                   -0.775                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+TAXEL_WM_2_5X3_8                             TAXEL_WM_2_5X3_8                             MM        0.0                      
+0     -1.35                    -2.0                     0     
+0     1.35                     -2.0                     0     
+0     1.35                     2.0                      0     
+0     -1.35                    2.0                      0     
+0     -1.35                    -2.0                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+TAXEL_WM_3X4                                 TAXEL_WM_3X4                                 MM        0.0                      
+0     -1.6                     -2.1                     0     
+0     1.6                      -2.1                     0     
+0     1.6                      2.1                      0     
+0     -1.6                     2.1                      0     
+0     -1.6                     -2.1                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+SOLDERPAD_1_3X0_9                            SOLDERPAD                                    MM        0.0                      
+0     -0.65                    -0.997                   0     
+0     0.65                     -0.997                   0     
+0     0.65                     0.993                    0     
+0     -0.65                    0.993                    0     
+0     -0.65                    -0.997                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+TAXEL_WM_2_5X3_3B                            TAXEL_WM_2_5X3_3                             MM        0.0                      
+0     -1.35                    -1.75                    0     
+0     1.35                     -1.75                    0     
+0     1.35                     1.75                     0     
+0     -1.35                    1.75                     0     
+0     -1.35                    -1.75                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+TAXEL_WM_1_6X5_4                             TAXEL_WM_1_6X5_4                             MM        0.0                      
+0     -2.775                   -0.875                   0     
+0     2.775                    -0.875                   0     
+0     2.775                    0.875                    0     
+0     -2.775                   0.875                    0     
+0     -2.775                   -0.875                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+TP-ATE-LC                                    TESTPOINT-ATE                                MM        0.0                      
+0     0.0                           0.0                           0     
+0     -0.6                          0.0                           360   
+.END_ELECTRICAL
+.ELECTRICAL
+CAPC1005_IS0402L                             CAP-0402-X7R-100NF-16V-10TOL                 MM        0.6                      
+0     -1.025                   -0.565                   0     
+0     1.025                    -0.565                   0     
+0     1.025                    0.565                    0     
+0     -1.025                   0.565                    0     
+0     -1.025                   -0.565                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+QFN24                                        AD7147ACPZ-1                                 MM        1.0                      
+0     -2.9593                  -2.775                   0     
+0     2.775                    -2.775                   0     
+0     2.775                    2.775                    0     
+0     -2.9593                  2.775                    0     
+0     -2.9593                  -2.775                   0     
+.END_ELECTRICAL

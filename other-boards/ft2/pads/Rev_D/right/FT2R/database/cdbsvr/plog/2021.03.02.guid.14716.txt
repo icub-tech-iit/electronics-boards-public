@@ -1,0 +1,58 @@
+[2021.03.02 10:54:53] [0000m.13s.098ms] [0] WELCOME
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] Base flow version [VX.2.7]
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] UPDATE Install Info, Install Id [2239210], UPDATE Name [PADS VX.2.7 - Update 5]
+[2021.03.02 10:54:53] [0000m.13s.099ms] [1] Machine [IITICUBWS055]  IP [10.240.11.15,127.0.0.1,192.168.56.1]  User [SDussoni]  PID [14716]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] Operating system [Microsoft Windows 8 Business Edition, 64-bit (build 9200)]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] Current working dir [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Program Files\Microsoft MPI\Bin\;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin\server;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\Program Files (x86)\YARP\bin;C:\Program Files (x86)\YARP\lib;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\SDussoni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\CAMCAD;C:\Users\SDussoni\AppData\Local\GitHubDesktop\bin;C:\Program Files\robotology\ipopt-3.12.7\bin;C:\Program Files\robotology\sdl-1.2.15\lib;C:\Program Files\robotology\glut-3.7.6;C:\Program Files (x86)\robotology\ACE-6.5.0_v14_x86\bin;C:\Program Files (x86)\robotology\opencv-3.4.2-v14-x86\bin;C:\Program Files (x86)\robotology\Qt-5.11.1_v14_x86\bin;C:\Program Files (x86)\robotology\libjpeg-turbo-1.5.3_x86\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\SDussoni\.dotnet\tools;C:\robotology_SB\vcpkg\installed\x64-windows\bin;C:\robotology_SB\vcpkg\installed\x64-windows\debug\bin;C:\robotology_SB\gazebo\install\bin\gazebo-11\plugins;C:\robotology_SB\gazebo\install\bin;C:\robotology\robotology\bin;C:\robotology\robotology\lib\rtf;C:\robotology_SBD\vcpkg\installed\x64-windows\bin;C:\robotology_SBD\vcpkg\installed\x64-windows\debug\bin;C:\robotology_SBD\gazebo\install\bin\gazebo-11\plugins;C:\robotology_SBD\gazebo\install\bin]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] SDD_PLATFORM [win32]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2021.03.02 10:54:53] [0000m.13s.100ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] File change time:        [2020-12-31 13.24.48]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] File modification time:  [2020-12-31 13.24.48]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Last change time:        [2020-12-31 13.24.47]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Last database open information:
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Time:             [2020-12-31 12.19.52]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Location:         [C:\Users\sdussoni\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\icdb.dat]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Machine:          [IITICUBLAP192]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] User:             [SDussoni]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] PID:              [4508]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Application:      [iCDB Server]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 18362)]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Database GUID must be regenerated
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Previous database GUID [084c-b3e3-584b-a967-b3d0-aef0-4d0a-ef50-3286-8e2a-83e1-5170]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [3] Current database GUID  [a933-aa5c-47f1-fd1c-d6b0-e303-7b0e-3060-ae1d-0837-9d9e-8d4e]
+[2021.03.02 10:54:53] [0000m.13s.101ms] [0] .
+[2021.03.02 10:54:55] [0000m.15s.216ms] [0] WELCOME
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] iCDB Database ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Base flow version [VX.2.7]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] UPDATE Install Info, Install Id [2239210], UPDATE Name [PADS VX.2.7 - Update 5]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Machine [IITICUBWS055]  IP [10.240.11.15,127.0.0.1,192.168.56.1]  User [SDussoni]  PID [14716]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Operating system [Microsoft Windows 8 Business Edition, 64-bit (build 9200)]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] Current working dir [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB]
+[2021.03.02 10:54:55] [0000m.15s.216ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\Program Files\Microsoft MPI\Bin\;C:\MentorGraphics\Capital\jre\bin;C:\MentorGraphics\Capital\bin;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin\server;C:\MentorGraphics\Capital\jreWin64\1.8.0_172\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\Program Files (x86)\YARP\bin;C:\Program Files (x86)\YARP\lib;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2020b\runtime\win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\SDussoni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.4\SDD_HOME\CAMCAD;C:\Users\SDussoni\AppData\Local\GitHubDesktop\bin;C:\Program Files\robotology\ipopt-3.12.7\bin;C:\Program Files\robotology\sdl-1.2.15\lib;C:\Program Files\robotology\glut-3.7.6;C:\Program Files (x86)\robotology\ACE-6.5.0_v14_x86\bin;C:\Program Files (x86)\robotology\opencv-3.4.2-v14-x86\bin;C:\Program Files (x86)\robotology\Qt-5.11.1_v14_x86\bin;C:\Program Files (x86)\robotology\libjpeg-turbo-1.5.3_x86\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\Users\SDussoni\.dotnet\tools;C:\robotology_SB\vcpkg\installed\x64-windows\bin;C:\robotology_SB\vcpkg\installed\x64-windows\debug\bin;C:\robotology_SB\gazebo\install\bin\gazebo-11\plugins;C:\robotology_SB\gazebo\install\bin;C:\robotology\robotology\bin;C:\robotology\robotology\lib\rtf;C:\robotology_SBD\vcpkg\installed\x64-windows\bin;C:\robotology_SBD\vcpkg\installed\x64-windows\debug\bin;C:\robotology_SBD\gazebo\install\bin\gazebo-11\plugins;C:\robotology_SBD\gazebo\install\bin]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [1] SDD_PLATFORM [win32]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] File change time:        [2021-03-02 10.54.55]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] File modification time:  [2021-03-02 10.54.55]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Last change time:        [2021-03-02 10.54.55]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Last database open information:
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Time:             [2020-12-31 12.19.52]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Location:         [C:\Users\sdussoni\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\icdb.dat]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Machine:          [IITICUBLAP192]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] User:             [SDussoni]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] PID:              [4508]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Application:      [iCDB Server]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 18362)]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Database GUID must be regenerated
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Previous database GUID [a933-aa5c-47f1-fd1c-d6b0-e303-7b0e-3060-ae1d-0837-9d9e-8d4e]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [3] Current database GUID  [f359-44f1-8cab-3d4c-f6b0-e305-7b0e-3060-ae1d-0837-9d9e-8d4e]
+[2021.03.02 10:54:55] [0000m.15s.217ms] [0] .

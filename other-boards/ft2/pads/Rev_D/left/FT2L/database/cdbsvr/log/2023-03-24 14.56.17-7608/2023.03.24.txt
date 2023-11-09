@@ -1,0 +1,546 @@
+[2023.03.24 14:56:17] [0000m.00s.017ms] [0] WELCOME
+[2023.03.24 14:56:17] [0000m.00s.017ms] [1] iCDB Server ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2023.03.24 14:56:17] [0000m.00s.017ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2023.03.24 14:56:17] [0000m.00s.017ms] [1] Base flow version [VX.2.8]
+[2023.03.24 14:56:17] [0000m.00s.017ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2023.03.24 14:56:17] [0000m.00s.018ms] [1] UPDATE Install Info, Install Id [2425890], UPDATE Name [PADS VX.2.8 - Update 11]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.13,127.0.0.1]  User [MBorgagni]  PID [7608]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18362)]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] Current working dir [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] SDD_PLATFORM [win32]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2023.03.24 14:56:17] [0000m.00s.028ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.24 14:56:17] [0000m.00s.029ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.03.24 14:56:17] [0000m.00s.029ms] [2] S: Loading config files
+[2023.03.24 14:56:17] [0000m.00s.073ms] [1] Config file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\cdbsvr\Server.cfg] not found
+[2023.03.24 14:56:18] [0000m.00s.078ms] [3] S: Config loaded
+[2023.03.24 14:56:18] [0000m.00s.091ms] [0] S: Project path [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] on file system [NTFS]
+[2023.03.24 14:56:18] [0000m.00s.091ms] [0] S: Project file (.prj) path [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2L.prj] on file system [NTFS]
+[2023.03.24 14:56:18] [0000m.00s.091ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2023.03.24 14:56:18] [0000m.00s.091ms] [0] S: Single-user mode (auto)
+[2023.03.24 14:56:18] [0000m.00s.091ms] [0] S: Event polling mode autodetection
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] S: Started up automatically by iCDB Client: IITICUBLAP168:MBorgagni:15544
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] S: Auto close mode
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] S: Database ID [1f79-2475-6b24-9098-ca6e-9142-b6e9-1460-a527-c131-0e3b-0aba]
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: BEGIN dumping
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: Local -> global path prefix list
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: [P:\] -> [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\]
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: Global -> local path prefix list
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\] -> [P:\]
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] PathTranslator: END dumping
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] S: START
+[2023.03.24 14:56:18] [0000m.00s.092ms] [0] S: Server startup lock file created
+[2023.03.24 14:56:18] [0000m.00s.093ms] [0] S: Listening for client connections on port [10001]
+[2023.03.24 14:56:18] [0000m.00s.095ms] [0] S: Server network ID [IITICUBLAP168:10.240.11.13,IITICUBLAP168,IITICUBLAP168.iit.local:10001]
+[2023.03.24 14:56:18] [0000m.00s.095ms] [0] S: Server GUID [7fda-8f80-ef9a-3bac-20ca-d148-0cad-1460-20e4-c131-0e3b-0aba]
+[2023.03.24 14:56:18] [0000m.00s.095ms] [0] S: Project GUID [1f79-2475-6b24-9098-ca6e-9142-b6e9-1460-a527-c131-0e3b-0aba]
+[2023.03.24 14:56:18] [0000m.00s.101ms] [0] S: Wrote data to server address file
+[2023.03.24 14:56:18] [0000m.00s.101ms] [0] S: Server startup lock file removed
+[2023.03.24 14:56:18] [0000m.00s.102ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\FT2L.prj]
+[2023.03.24 14:56:18] [0000m.00s.356ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2023.03.24 14:56:18] [0000m.00s.356ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\iCDB\win32\bin]
+[2023.03.24 14:56:18] [0000m.00s.356ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin]
+[2023.03.24 14:56:18] [0000m.00s.357ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2023.03.24 14:56:18] [0000m.00s.357ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2023.03.24 14:56:18] [0000m.00s.357ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2023.03.24 14:56:18] [0000m.00s.357ms] [0] S: Local disc access time: 63 us
+[2023.03.24 14:56:18] [0000m.00s.357ms] [0] S: File server access time: 39 us
+[2023.03.24 14:56:18] [0000m.00s.366ms] [0] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\icdb.dat] size [639552 (624.6 kB)]
+[2023.03.24 14:56:18] [0000m.00s.366ms] [1] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\icdb.dat] opened in read-write mode
+[2023.03.24 14:56:18] [0000m.00s.366ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.366ms] [0] Database GUARD OK: [639552]
+[2023.03.24 14:56:18] [0000m.00s.366ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.367ms] [0] Database GUARD OK: [639552]
+[2023.03.24 14:56:18] [0000m.00s.384ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.384ms] [0] Database GUARD OK: [639552]
+[2023.03.24 14:56:18] [0000m.00s.384ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.384ms] [0] Database GUARD OK: [639552]
+[2023.03.24 14:56:18] [0000m.00s.390ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.390ms] [0] Database GUARD OK: [639552]
+[2023.03.24 14:56:18] [0000m.00s.390ms] [0] SingleFile: [7f0f-87e8-1059-bea3] SFI version check [1009] [1009]
+[2023.03.24 14:56:18] [0000m.00s.411ms] [0] SingleFile: [7f0f-87e8-1059-bea3] Database SFI header has been read in [21ms 211us]
+[2023.03.24 14:56:18] [0000m.00s.420ms] [0] iCDB Server PI: Server & plugin session [1339]
+[2023.03.24 14:56:18] [0000m.00s.420ms] [0] iCDB Server PI: Opening database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 14:56:18] [0000m.00s.420ms] [0] iCDB Server PI: Database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] opened
+[2023.03.24 14:56:18] [0000m.00s.498ms] [0] iCDB Database: Checking existence of constraint definitions
+[2023.03.24 14:56:18] [0000m.00s.498ms] [0] iCDB Database: Checking constraint definitions version
+[2023.03.24 14:56:18] [0000m.00s.541ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.75] up to date
+[2023.03.24 14:56:18] [0000m.00s.546ms] [0] iCDB Server PI: Initializing plugins
+[2023.03.24 14:56:18] [0000m.00s.550ms] [0] iCDB Server PI: Plugins initialized
+[2023.03.24 14:56:18] [0000m.00s.553ms] [0] S: iCDB database loaded
+[2023.03.24 14:56:18] [0000m.00s.557ms] [0] S: Starting threads
+[2023.03.24 14:56:18] [0000m.00s.558ms] [0] BT: Listening for broadcast messages on port [10000]
+[2023.03.24 14:56:18] [0000m.00s.559ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2023.03.24 14:56:18] [0000m.00s.564ms] [0] IT: Session [1340] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [15544] created
+[2023.03.24 14:56:18] [0000m.00s.564ms] [0] MWT: WindowProc: WM_NCCREATE
+[2023.03.24 14:56:18] [0000m.00s.567ms] [1] SC[1340]: Registered sub-client [DxD] with ID [1] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.573ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBLAP168] user [MBorgagni] with process ID [15416] created
+[2023.03.24 14:56:18] [0000m.00s.573ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2023.03.24 14:56:18] [0000m.00s.662ms] [1] SC[1340]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.669ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 14:56:18] [0000m.00s.690ms] [1] SC[1340]: Registered sub-client [SymbolEditor] with ID [3] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.695ms] [1] SC[1340]: Registered sub-client [SelectionHolder] with ID [4] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.795ms] [1] SC[1340]: Registered sub-client [Core::DesignListener-672625832-0] with ID [5] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.799ms] [1] SC[1340]: Registered sub-client [BlockCacheDxD:672626984] with ID [6] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.802ms] [1] SC[1340]: Registered sub-client [Core::NetFlatData-21771] with ID [7] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.829ms] [1] SC[1340]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.852ms] [1] SC[1340]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:18] [0000m.00s.854ms] [1] SC[1340]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.498ms] [1] SC[1340]: Registered sub-client [DesignSearcher2] with ID [10] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.504ms] [1] SC[1340]: Registered sub-client [HdlProject] with ID [11] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.518ms] [1] SC[1340]: Registered sub-client [Navigator] with ID [12] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.531ms] [1] SC[1340]: Registered sub-client [OutputWindow] with ID [13] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.535ms] [1] SC[1340]: Registered sub-client [PlaceDevice] with ID [14] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.950ms] [1] SC[1340]: Registered sub-client [FFSearch_RBHost] with ID [15] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:20] [0000m.02s.961ms] [1] SC[1340]: Registered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.263ms] [1] SC[1340]: Registered sub-client [FFSSelListener] with ID [17] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.265ms] [1] SC[1340]: Registered sub-client [SAE] with ID [18] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.269ms] [1] SC[1340]: Registered sub-client [CCZAddin] with ID [19] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.271ms] [1] SC[1340]: Registered sub-client [DxThumbnails] with ID [20] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.274ms] [1] SC[1340]: Registered sub-client [MyParts] with ID [21] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.286ms] [1] SC[1340]: Registered sub-client [PinsList] with ID [22] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.399ms] [1] SC[1340]: Registered sub-client [toolboxes] with ID [23] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.413ms] [1] SC[1340]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:413464400] with ID [24] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.455ms] [1] SC[1340]: Registered sub-client [SheetConnectorsCacheDxD:1679666182] with ID [25] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.466ms] [1] SC[1340]: Registered sub-client [NetsNamesCollectorDxD:1679666182] with ID [26] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.490ms] [1] SC[1340]: Registered sub-client [PartReplaceUtils] with ID [27] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.492ms] [1] SC[1340]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [28] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.506ms] [1] SC[1340]: Registered sub-client [xprob] with ID [29] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.539ms] [1] SC[1340]: Registered sub-client [StartServerClient40d4] with ID [30] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.540ms] [1] SC[1340]: UnRegistered sub-client [StartServerClient40d4] with ID [30] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.925ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [31] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.926ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [31] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.929ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [32] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:22] [0000m.04s.929ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [32] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.583ms] [1] SC[1340]: Registered sub-client [SupplyChainDataProviderInterface] with ID [33] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.584ms] [1] SC[1340]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [33] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.610ms] [1] SC[1340]: Registered sub-client [ObjectHolder_788276648] with ID [34] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.612ms] [1] SC[1340]: Registered sub-client [BlockCacheDxD:780007440] with ID [35] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.615ms] [1] SC[1340]: Registered sub-client [GlobalNetAliasUpdater_788277064] with ID [36] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:25] [0000m.07s.619ms] [1] SC[1340]: Registered sub-client [IcdbNetProcessorSubClientDxD:786112488] with ID [37] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:26] [0000m.08s.269ms] [1] SC[1340]: Registered sub-client [DxDbSearch] with ID [38] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 14:56:50] [0000m.32s.341ms] [0] DFAMT: File server access time: 68 us
+[2023.03.24 15:00:02] [0003m.44s.134ms] [0] IT: Session [1341] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:00:02] [0003m.44s.136ms] [1] SC[1341]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1341] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:02] [0003m.44s.165ms] [1] SC[1341]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1341] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:02] [0003m.44s.186ms] [1] CMT: There are [2] clients now: 1340, 1341
+[2023.03.24 15:00:02] [0003m.44s.186ms] [1] CMT: Removed client [1341]
+[2023.03.24 15:00:02] [0003m.44s.186ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 15:00:02] [0003m.44s.714ms] [0] IT: Session [1342] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:00:02] [0003m.44s.715ms] [1] SC[1342]: Registered sub-client [PADSLayout] with ID [1] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:02] [0003m.44s.726ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:00:02] [0003m.44s.738ms] [1] SC[1342]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:03] [0003m.45s.945ms] [1] SC[1342]: Registered sub-client [StartServerClient1910] with ID [3] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:03] [0003m.45s.946ms] [1] SC[1342]: UnRegistered sub-client [StartServerClient1910] with ID [3] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:03] [0003m.45s.957ms] [1] SC[1342]: Registered sub-client [StartServerClient1910] with ID [4] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:00:03] [0003m.45s.957ms] [1] SC[1342]: UnRegistered sub-client [StartServerClient1910] with ID [4] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:06:02] [0009m.43s.977ms] [1] SC[1340]: UnRegistered sub-client [FFSSelListener] with ID [17] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.043ms] [1] SC[1340]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.046ms] [1] SC[1340]: Registered sub-client [LocalSymbolsDataProvider] with ID [39] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.051ms] [1] SC[1340]: Registered sub-client [FFSSelListener] with ID [40] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.714ms] [1] SC[1340]: UnRegistered sub-client [FFSSelListener] with ID [40] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.714ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [41] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.715ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [41] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.718ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [42] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.718ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [42] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.743ms] [1] SC[1340]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [39] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.749ms] [1] SC[1340]: Registered sub-client [LocalSymbolsDataProvider] with ID [43] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:02] [0009m.44s.756ms] [1] SC[1340]: Registered sub-client [FFSSelListener] with ID [44] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:03] [0009m.45s.450ms] [1] SC[1340]: UnRegistered sub-client [FFSSelListener] with ID [44] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:03] [0009m.45s.478ms] [1] SC[1340]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [43] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:03] [0009m.45s.485ms] [1] SC[1340]: Registered sub-client [LocalSymbolsDataProvider] with ID [45] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:03] [0009m.45s.492ms] [1] SC[1340]: Registered sub-client [FFSSelListener] with ID [46] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:04] [0009m.46s.050ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [47] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:04] [0009m.46s.050ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [47] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:04] [0009m.46s.053ms] [1] SC[1340]: Registered sub-client [SharedBlockDataProvider] with ID [48] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:04] [0009m.46s.053ms] [1] SC[1340]: UnRegistered sub-client [SharedBlockDataProvider] with ID [48] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:07] [0009m.48s.984ms] [1] SC[1340]: Registered sub-client [SupplyChainDataProviderInterface] with ID [49] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:06:07] [0009m.48s.985ms] [1] SC[1340]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [49] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 15:07:50] [0011m.32s.272ms] [0] IT: Session [1343] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [17344] created
+[2023.03.24 15:07:50] [0011m.32s.273ms] [1] SC[1343]: Registered sub-client [CDBPackagerGUI] with ID [1] for session ID [1343] host [IITICUBLAP168] user [MBorgagni] process ID [17344]
+[2023.03.24 15:07:50] [0011m.32s.318ms] [1] CMT: There are [3] clients now: 1340, 1342, 1343
+[2023.03.24 15:07:56] [0011m.38s.548ms] [0] IT: Session [1344] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [7048] created
+[2023.03.24 15:07:56] [0011m.38s.549ms] [1] SC[1344]: Registered sub-client [Packager_988171] with ID [1] for session ID [1344] host [IITICUBLAP168] user [MBorgagni] process ID [7048]
+[2023.03.24 15:07:56] [0011m.38s.574ms] [1] CMT: There are [4] clients now: 1340, 1342, 1343, 1344
+[2023.03.24 15:07:56] [0011m.38s.802ms] [1] SC[1344]: UnRegistered sub-client [Packager_988171] with ID [1] for session ID [1344] host [IITICUBLAP168] user [MBorgagni] process ID [7048]
+[2023.03.24 15:07:56] [0011m.38s.875ms] [1] CMT: Removed client [1344]
+[2023.03.24 15:07:56] [0011m.38s.875ms] [1] CMT: There are [3] clients now: 1340, 1342, 1343
+[2023.03.24 15:07:57] [0011m.39s.281ms] [1] SC[1343]: UnRegistered sub-client [CDBPackagerGUI] with ID [1] for session ID [1343] host [IITICUBLAP168] user [MBorgagni] process ID [17344]
+[2023.03.24 15:07:57] [0011m.39s.292ms] [1] CMT: Removed client [1343]
+[2023.03.24 15:07:57] [0011m.39s.292ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:09:12] [0012m.54s.777ms] [0] IT: Session [1345] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [10488] created
+[2023.03.24 15:09:12] [0012m.54s.778ms] [1] SC[1345]: Registered sub-client [MBorgagni (FE CES)] with ID [1] for session ID [1345] host [IITICUBLAP168] user [MBorgagni] process ID [10488]
+[2023.03.24 15:09:12] [0012m.54s.811ms] [1] CMT: There are [3] clients now: 1340, 1342, 1345
+[2023.03.24 15:09:13] [0012m.55s.718ms] [1] SC[1345]: Registered sub-client [StartServerClient390c] with ID [2] for session ID [1345] host [IITICUBLAP168] user [MBorgagni] process ID [10488]
+[2023.03.24 15:09:13] [0012m.55s.718ms] [1] SC[1345]: UnRegistered sub-client [StartServerClient390c] with ID [2] for session ID [1345] host [IITICUBLAP168] user [MBorgagni] process ID [10488]
+[2023.03.24 15:09:47] [0013m.29s.887ms] [1] SC[1345]: UnRegistered sub-client [MBorgagni (FE CES)] with ID [1] for session ID [1345] host [IITICUBLAP168] user [MBorgagni] process ID [10488]
+[2023.03.24 15:09:48] [0013m.29s.968ms] [1] CMT: Removed client [1345]
+[2023.03.24 15:09:48] [0013m.29s.969ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:10:04] [0013m.46s.852ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_50391200] with ID [5] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:04] [0013m.46s.853ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_50391200] with ID [5] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:05] [0013m.47s.300ms] [0] IT: Session [1346] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [8012] created
+[2023.03.24 15:10:05] [0013m.47s.302ms] [1] SC[1346]: Registered sub-client [Packager_1116921] with ID [1] for session ID [1346] host [IITICUBLAP168] user [MBorgagni] process ID [8012]
+[2023.03.24 15:10:05] [0013m.47s.315ms] [1] CMT: There are [3] clients now: 1340, 1342, 1346
+[2023.03.24 15:10:05] [0013m.47s.530ms] [1] SC[1346]: UnRegistered sub-client [Packager_1116921] with ID [1] for session ID [1346] host [IITICUBLAP168] user [MBorgagni] process ID [8012]
+[2023.03.24 15:10:05] [0013m.47s.616ms] [1] CMT: Removed client [1346]
+[2023.03.24 15:10:05] [0013m.47s.616ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:10:06] [0013m.47s.958ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 15:10:06] [0013m.48s.023ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1342] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:10:06] [0013m.48s.174ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1342] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:10:06] [0013m.48s.228ms] [1] SC[1342]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:06] [0013m.48s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.03.24 15:10:06] [0013m.48s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\grpobj] - auto-saving it
+[2023.03.24 15:10:06] [0013m.48s.254ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\uids] - auto-saving it
+[2023.03.24 15:10:06] [0013m.48s.270ms] [1] SC[1342]: Registered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:09] [0013m.51s.521ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 15:10:09] [0013m.51s.529ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 15:10:09] [0013m.51s.789ms] [0] IT: Session [1347] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [14640] created
+[2023.03.24 15:10:09] [0013m.51s.790ms] [1] SC[1347]: Registered sub-client [GenerateECO] with ID [1] for session ID [1347] host [IITICUBLAP168] user [MBorgagni] process ID [14640]
+[2023.03.24 15:10:09] [0013m.51s.827ms] [1] CMT: There are [3] clients now: 1340, 1342, 1347
+[2023.03.24 15:10:09] [0013m.51s.835ms] [1] SC[1347]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1347] host [IITICUBLAP168] user [MBorgagni] process ID [14640]
+[2023.03.24 15:10:10] [0013m.51s.935ms] [1] CMT: Removed client [1347]
+[2023.03.24 15:10:10] [0013m.51s.935ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:10:10] [0013m.52s.439ms] [1] SC[1342]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.446ms] [1] SC[1342]: Registered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.865ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_50391004] with ID [8] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.866ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_50391004] with ID [8] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.892ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_50389732] with ID [9] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.892ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_50389732] with ID [9] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:10] [0013m.52s.895ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_User_518692332] with ID [10] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.52s.911ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_User_518696172] with ID [11] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.52s.942ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_User_518696172] with ID [11] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.52s.942ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_User_518692332] with ID [10] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.52s.990ms] [1] SC[1342]: Registered sub-client [EEVM_EEVM_User_518690028] with ID [12] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.52s.996ms] [1] SC[1342]: UnRegistered sub-client [EEVM_EEVM_User_518690028] with ID [12] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:10:11] [0013m.53s.654ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 15:21:36] [0025m.18s.066ms] [0] IT: Session [1348] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [7648] created
+[2023.03.24 15:21:36] [0025m.18s.067ms] [1] SC[1348]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1348] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.077ms] [1] SC[1348]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1348] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.111ms] [1] CMT: There are [3] clients now: 1340, 1342, 1348
+[2023.03.24 15:21:36] [0025m.18s.111ms] [1] CMT: Removed client [1348]
+[2023.03.24 15:21:36] [0025m.18s.111ms] [1] CMT: There are [2] clients now: 1340, 1342
+[2023.03.24 15:21:36] [0025m.18s.666ms] [0] IT: Session [1349] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [7648] created
+[2023.03.24 15:21:36] [0025m.18s.667ms] [1] SC[1349]: Registered sub-client [PADS_Router] with ID [1] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.686ms] [1] SC[1349]: Registered sub-client [iCESPI.PADS_Router] with ID [2] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.729ms] [1] CMT: There are [3] clients now: 1340, 1342, 1349
+[2023.03.24 15:21:36] [0025m.18s.767ms] [1] SC[1349]: Registered sub-client [StartServerClientb40] with ID [3] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.767ms] [1] SC[1349]: UnRegistered sub-client [StartServerClientb40] with ID [3] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.776ms] [1] SC[1349]: Registered sub-client [StartServerClientb40] with ID [4] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:21:36] [0025m.18s.776ms] [1] SC[1349]: UnRegistered sub-client [StartServerClientb40] with ID [4] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:28:12] [0031m.54s.085ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[7648] # SessionID[1349] # Type[0]] # SubClientData[SubClientName[PADS_Router] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:28:12] [0031m.54s.267ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[7648] # SessionID[1349] # Type[0]] # SubClientData[SubClientName[PADS_Router] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:28:15] [0031m.56s.911ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[7648] # SessionID[1349] # Type[0]] # SubClientData[SubClientName[PADS_Router] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:28:15] [0031m.56s.985ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[7648] # SessionID[1349] # Type[0]] # SubClientData[SubClientName[PADS_Router] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:28:15] [0031m.57s.894ms] [1] SC[1342]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:15] [0031m.57s.897ms] [1] SC[1342]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1342] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:16] [0031m.57s.973ms] [1] CMT: Removed client [1342]
+[2023.03.24 15:28:16] [0031m.57s.973ms] [1] CMT: There are [2] clients now: 1340, 1349
+[2023.03.24 15:28:17] [0031m.59s.628ms] [1] SC[1349]: UnRegistered sub-client [iCESPI.PADS_Router] with ID [2] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:28:17] [0031m.59s.631ms] [1] SC[1349]: UnRegistered sub-client [PADS_Router] with ID [1] for session ID [1349] host [IITICUBLAP168] user [MBorgagni] process ID [7648]
+[2023.03.24 15:28:17] [0031m.59s.671ms] [1] CMT: Removed client [1349]
+[2023.03.24 15:28:17] [0031m.59s.671ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 15:28:17] [0031m.59s.699ms] [0] IT: Session [1350] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:28:17] [0031m.59s.700ms] [1] SC[1350]: Registered sub-client [PADSLayout] with ID [1] for session ID [1350] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:17] [0031m.59s.714ms] [1] SC[1350]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1350] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:17] [0031m.59s.773ms] [1] CMT: There are [2] clients now: 1340, 1350
+[2023.03.24 15:28:17] [0031m.59s.773ms] [1] CMT: Removed client [1350]
+[2023.03.24 15:28:17] [0031m.59s.773ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 15:28:18] [0032m.00s.272ms] [0] IT: Session [1351] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:28:18] [0032m.00s.274ms] [1] SC[1351]: Registered sub-client [PADSLayout] with ID [1] for session ID [1351] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:18] [0032m.00s.293ms] [1] SC[1351]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1351] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:18] [0032m.00s.326ms] [1] CMT: There are [2] clients now: 1340, 1351
+[2023.03.24 15:28:21] [0032m.03s.734ms] [1] SC[1351]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1351] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:21] [0032m.03s.736ms] [1] SC[1351]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1351] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:21] [0032m.03s.799ms] [1] CMT: Removed client [1351]
+[2023.03.24 15:28:21] [0032m.03s.800ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 15:28:21] [0032m.03s.843ms] [0] IT: Session [1352] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:28:21] [0032m.03s.844ms] [1] SC[1352]: Registered sub-client [PADSLayout] with ID [1] for session ID [1352] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:21] [0032m.03s.856ms] [1] SC[1352]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1352] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:22] [0032m.03s.905ms] [1] CMT: There are [2] clients now: 1340, 1352
+[2023.03.24 15:28:22] [0032m.03s.905ms] [1] CMT: Removed client [1352]
+[2023.03.24 15:28:22] [0032m.03s.905ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 15:28:22] [0032m.04s.416ms] [0] IT: Session [1353] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [6060] created
+[2023.03.24 15:28:22] [0032m.04s.417ms] [1] SC[1353]: Registered sub-client [PADSLayout] with ID [1] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:22] [0032m.04s.435ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 15:28:22] [0032m.04s.454ms] [1] CMT: There are [2] clients now: 1340, 1353
+[2023.03.24 15:52:41] [0056m.23s.202ms] [0] IT: Session [1354] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [11624] created
+[2023.03.24 15:52:41] [0056m.23s.204ms] [1] SC[1354]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1354] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:41] [0056m.23s.221ms] [1] SC[1354]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1354] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:41] [0056m.23s.248ms] [1] CMT: There are [3] clients now: 1340, 1353, 1354
+[2023.03.24 15:52:41] [0056m.23s.249ms] [1] CMT: Removed client [1354]
+[2023.03.24 15:52:41] [0056m.23s.249ms] [1] CMT: There are [2] clients now: 1340, 1353
+[2023.03.24 15:52:41] [0056m.23s.794ms] [0] IT: Session [1355] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [11624] created
+[2023.03.24 15:52:41] [0056m.23s.795ms] [1] SC[1355]: Registered sub-client [PADSLayout] with ID [1] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:41] [0056m.23s.815ms] [1] SC[1355]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:41] [0056m.23s.866ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 15:52:44] [0056m.25s.931ms] [1] SC[1355]: Registered sub-client [StartServerClient3354] with ID [3] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:44] [0056m.25s.932ms] [1] SC[1355]: UnRegistered sub-client [StartServerClient3354] with ID [3] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:44] [0056m.25s.942ms] [1] SC[1355]: Registered sub-client [StartServerClient3354] with ID [4] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:52:44] [0056m.25s.942ms] [1] SC[1355]: UnRegistered sub-client [StartServerClient3354] with ID [4] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 15:59:07] [0062m.48s.974ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 15:59:07] [0062m.49s.147ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:11:09] [0074m.50s.906ms] [0] IT: Session [1356] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [18452] created
+[2023.03.24 16:11:09] [0074m.50s.907ms] [1] SC[1356]: Registered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1356] host [IITICUBLAP168] user [MBorgagni] process ID [18452]
+[2023.03.24 16:11:09] [0074m.50s.962ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1356
+[2023.03.24 16:11:10] [0074m.51s.915ms] [1] SC[1356]: Registered sub-client [StartServerClient4cac] with ID [2] for session ID [1356] host [IITICUBLAP168] user [MBorgagni] process ID [18452]
+[2023.03.24 16:11:10] [0074m.51s.916ms] [1] SC[1356]: UnRegistered sub-client [StartServerClient4cac] with ID [2] for session ID [1356] host [IITICUBLAP168] user [MBorgagni] process ID [18452]
+[2023.03.24 16:11:28] [0075m.10s.348ms] [0] IT: Session [1357] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [12688] created
+[2023.03.24 16:11:28] [0075m.10s.349ms] [1] SC[1357]: Registered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1357] host [IITICUBLAP168] user [MBorgagni] process ID [12688]
+[2023.03.24 16:11:28] [0075m.10s.424ms] [1] CMT: There are [5] clients now: 1340, 1353, 1355, 1356, 1357
+[2023.03.24 16:11:45] [0075m.27s.374ms] [1] SC[1357]: UnRegistered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1357] host [IITICUBLAP168] user [MBorgagni] process ID [12688]
+[2023.03.24 16:11:45] [0075m.27s.456ms] [1] CMT: Removed client [1357]
+[2023.03.24 16:11:45] [0075m.27s.456ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1356
+[2023.03.24 16:12:32] [0076m.14s.340ms] [1] SC[1356]: UnRegistered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1356] host [IITICUBLAP168] user [MBorgagni] process ID [18452]
+[2023.03.24 16:12:32] [0076m.14s.434ms] [1] CMT: Removed client [1356]
+[2023.03.24 16:12:32] [0076m.14s.434ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 16:12:40] [0076m.22s.489ms] [0] IT: Session [1358] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [2700] created
+[2023.03.24 16:12:40] [0076m.22s.490ms] [1] SC[1358]: Registered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1358] host [IITICUBLAP168] user [MBorgagni] process ID [2700]
+[2023.03.24 16:12:40] [0076m.22s.514ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1358
+[2023.03.24 16:12:41] [0076m.23s.774ms] [1] SC[1358]: Registered sub-client [StartServerClient4ffc] with ID [2] for session ID [1358] host [IITICUBLAP168] user [MBorgagni] process ID [2700]
+[2023.03.24 16:12:41] [0076m.23s.774ms] [1] SC[1358]: UnRegistered sub-client [StartServerClient4ffc] with ID [2] for session ID [1358] host [IITICUBLAP168] user [MBorgagni] process ID [2700]
+[2023.03.24 16:19:06] [0082m.48s.361ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:19:06] [0082m.48s.528ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:23:15] [0086m.57s.751ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[11624] # SessionID[1355] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:23:15] [0086m.57s.826ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[11624] # SessionID[1355] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:39:06] [0102m.48s.742ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:39:06] [0102m.48s.811ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 16:55:01] [0118m.43s.346ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:55:01] [0118m.43s.364ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [3] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:55:01] [0118m.43s.526ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [3] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:55:01] [0118m.43s.533ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [4] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:55:01] [0118m.43s.579ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [4] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:55:01] [0118m.43s.585ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:59:30] [0123m.12s.626ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [5] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 16:59:30] [0123m.12s.633ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:03:57] [0127m.39s.309ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:03:57] [0127m.39s.483ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:09:40] [0133m.21s.906ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [6] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:09:40] [0133m.21s.916ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:14:04] [0137m.45s.891ms] [1] SC[1358]: UnRegistered sub-client [MBorgagni (BE CES)] with ID [1] for session ID [1358] host [IITICUBLAP168] user [MBorgagni] process ID [2700]
+[2023.03.24 17:14:04] [0137m.46s.007ms] [1] CMT: Removed client [1358]
+[2023.03.24 17:14:04] [0137m.46s.007ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:02] [0138m.44s.179ms] [1] SC[1340]: Registered sub-client [LDD_ECO_IMPORT] with ID [50] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:02] [0138m.44s.355ms] [1] SC[1340]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [50] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:08] [0138m.50s.559ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391200] with ID [8] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:08] [0138m.50s.560ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391200] with ID [8] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:08] [0138m.50s.610ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:08] [0138m.50s.642ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50390988] with ID [9] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:08] [0138m.50s.642ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50390988] with ID [9] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:08] [0138m.50s.810ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [7] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:08] [0138m.50s.817ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.661ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:09] [0138m.51s.727ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:09] [0138m.51s.758ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391016] with ID [11] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.759ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391016] with ID [11] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.799ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_347455556] with ID [12] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.818ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_347455556] with ID [12] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.860ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50389744] with ID [13] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.861ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50389744] with ID [13] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:09] [0138m.51s.866ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_347457092] with ID [14] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.51s.875ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_347455812] with ID [15] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.51s.911ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_347455812] with ID [15] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.51s.913ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_347457092] with ID [14] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.51s.958ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.51s.999ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [16] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:10] [0138m.52s.032ms] [1] SC[1340]: Registered sub-client [VirtualPartActions::backSyncronize] with ID [51] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:10] [0138m.52s.034ms] [1] SC[1340]: UnRegistered sub-client [VirtualPartActions::backSyncronize] with ID [51] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:10] [0138m.52s.064ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcnfgs\a900000010000050.blk\cnfg_obj_state] - auto-saving it
+[2023.03.24 17:15:10] [0138m.52s.066ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:10] [0138m.52s.585ms] [0] IT: Session [1359] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [21136] created
+[2023.03.24 17:15:10] [0138m.52s.586ms] [1] SC[1359]: Registered sub-client [GenerateECO] with ID [1] for session ID [1359] host [IITICUBLAP168] user [MBorgagni] process ID [21136]
+[2023.03.24 17:15:10] [0138m.52s.618ms] [1] SC[1359]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1359] host [IITICUBLAP168] user [MBorgagni] process ID [21136]
+[2023.03.24 17:15:10] [0138m.52s.657ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1359
+[2023.03.24 17:15:10] [0138m.52s.658ms] [1] CMT: Removed client [1359]
+[2023.03.24 17:15:10] [0138m.52s.658ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:11] [0138m.53s.138ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:11] [0138m.53s.151ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:11] [0138m.53s.494ms] [0] IT: Session [1360] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [8916] created
+[2023.03.24 17:15:11] [0138m.53s.495ms] [1] SC[1360]: Registered sub-client [GenerateECO] with ID [1] for session ID [1360] host [IITICUBLAP168] user [MBorgagni] process ID [8916]
+[2023.03.24 17:15:11] [0138m.53s.506ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1360
+[2023.03.24 17:15:11] [0138m.53s.528ms] [1] SC[1360]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1360] host [IITICUBLAP168] user [MBorgagni] process ID [8916]
+[2023.03.24 17:15:11] [0138m.53s.608ms] [1] CMT: Removed client [1360]
+[2023.03.24 17:15:11] [0138m.53s.608ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:12] [0138m.54s.536ms] [0] IT: Session [1361] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [17636] created
+[2023.03.24 17:15:12] [0138m.54s.538ms] [1] SC[1361]: Registered sub-client [Packager_8624171] with ID [1] for session ID [1361] host [IITICUBLAP168] user [MBorgagni] process ID [17636]
+[2023.03.24 17:15:12] [0138m.54s.546ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1361
+[2023.03.24 17:15:12] [0138m.54s.783ms] [1] SC[1361]: UnRegistered sub-client [Packager_8624171] with ID [1] for session ID [1361] host [IITICUBLAP168] user [MBorgagni] process ID [17636]
+[2023.03.24 17:15:12] [0138m.54s.863ms] [1] CMT: Removed client [1361]
+[2023.03.24 17:15:12] [0138m.54s.863ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:13] [0138m.55s.253ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:13] [0138m.55s.315ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:13] [0138m.55s.360ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [16] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:13] [0138m.55s.391ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.03.24 17:15:13] [0138m.55s.391ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\grpobj] - auto-saving it
+[2023.03.24 17:15:13] [0138m.55s.391ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\uids] - auto-saving it
+[2023.03.24 17:15:13] [0138m.55s.410ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [17] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:18] [0139m.00s.397ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [17] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:18] [0139m.00s.404ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [18] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:18] [0139m.00s.435ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:18] [0139m.00s.452ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:18] [0139m.00s.691ms] [0] IT: Session [1362] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [20704] created
+[2023.03.24 17:15:18] [0139m.00s.692ms] [1] SC[1362]: Registered sub-client [GenerateECO] with ID [1] for session ID [1362] host [IITICUBLAP168] user [MBorgagni] process ID [20704]
+[2023.03.24 17:15:18] [0139m.00s.735ms] [1] SC[1362]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1362] host [IITICUBLAP168] user [MBorgagni] process ID [20704]
+[2023.03.24 17:15:18] [0139m.00s.764ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1362
+[2023.03.24 17:15:18] [0139m.00s.766ms] [1] CMT: Removed client [1362]
+[2023.03.24 17:15:18] [0139m.00s.766ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:19] [0139m.01s.341ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [18] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.348ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [19] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.680ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391004] with ID [20] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.681ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391004] with ID [20] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.705ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50389732] with ID [21] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.706ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50389732] with ID [21] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.709ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_477024348] with ID [22] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.725ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_477024604] with ID [23] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.760ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_477024604] with ID [23] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.760ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_477024348] with ID [22] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.808ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_477023068] with ID [24] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:19] [0139m.01s.814ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_477023068] with ID [24] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:31] [0139m.13s.688ms] [1] SC[1340]: Registered sub-client [LDD_ECO_IMPORT] with ID [52] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:31] [0139m.13s.752ms] [1] SC[1340]: UnRegistered sub-client [LDD_ECO_IMPORT] with ID [52] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:39] [0139m.20s.946ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391200] with ID [25] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:39] [0139m.20s.947ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391200] with ID [25] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:39] [0139m.21s.016ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:39] [0139m.21s.052ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50390988] with ID [26] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:39] [0139m.21s.053ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50390988] with ID [26] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:39] [0139m.21s.245ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [19] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:39] [0139m.21s.251ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [27] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.064ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:40] [0139m.22s.124ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:40] [0139m.22s.156ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391016] with ID [28] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.157ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391016] with ID [28] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.195ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_486312532] with ID [29] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.213ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_486312532] with ID [29] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.246ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50389744] with ID [30] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.246ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50389744] with ID [30] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.250ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_486310228] with ID [31] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.259ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_486310740] with ID [32] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.284ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_486310740] with ID [32] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.286ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_486310228] with ID [31] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.328ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [27] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.356ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [33] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:40] [0139m.22s.368ms] [1] SC[1340]: Registered sub-client [VirtualPartActions::backSyncronize] with ID [53] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:40] [0139m.22s.369ms] [1] SC[1340]: UnRegistered sub-client [VirtualPartActions::backSyncronize] with ID [53] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:15:40] [0139m.22s.412ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcnfgs\a900000010000050.blk\cnfg_obj_state] - auto-saving it
+[2023.03.24 17:15:40] [0139m.22s.413ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:40] [0139m.22s.670ms] [0] IT: Session [1363] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [19276] created
+[2023.03.24 17:15:40] [0139m.22s.671ms] [1] SC[1363]: Registered sub-client [GenerateECO] with ID [1] for session ID [1363] host [IITICUBLAP168] user [MBorgagni] process ID [19276]
+[2023.03.24 17:15:40] [0139m.22s.703ms] [1] SC[1363]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1363] host [IITICUBLAP168] user [MBorgagni] process ID [19276]
+[2023.03.24 17:15:40] [0139m.22s.749ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1363
+[2023.03.24 17:15:40] [0139m.22s.750ms] [1] CMT: Removed client [1363]
+[2023.03.24 17:15:40] [0139m.22s.750ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:41] [0139m.23s.227ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:41] [0139m.23s.235ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:41] [0139m.23s.690ms] [0] IT: Session [1364] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [5064] created
+[2023.03.24 17:15:41] [0139m.23s.692ms] [1] SC[1364]: Registered sub-client [Packager_8653312] with ID [1] for session ID [1364] host [IITICUBLAP168] user [MBorgagni] process ID [5064]
+[2023.03.24 17:15:41] [0139m.23s.767ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1364
+[2023.03.24 17:15:42] [0139m.23s.913ms] [1] SC[1364]: UnRegistered sub-client [Packager_8653312] with ID [1] for session ID [1364] host [IITICUBLAP168] user [MBorgagni] process ID [5064]
+[2023.03.24 17:15:42] [0139m.23s.968ms] [1] CMT: Removed client [1364]
+[2023.03.24 17:15:42] [0139m.23s.968ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:42] [0139m.24s.406ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:42] [0139m.24s.469ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[6060] # SessionID[1353] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2023.03.24 17:15:42] [0139m.24s.518ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [33] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:42] [0139m.24s.542ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.03.24 17:15:42] [0139m.24s.542ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\cdbcatlg\grpobj] - auto-saving it
+[2023.03.24 17:15:42] [0139m.24s.542ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\s10\uids] - auto-saving it
+[2023.03.24 17:15:42] [0139m.24s.560ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [34] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:48] [0139m.29s.979ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:48] [0139m.29s.987ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:15:48] [0139m.30s.276ms] [0] IT: Session [1365] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [21956] created
+[2023.03.24 17:15:48] [0139m.30s.277ms] [1] SC[1365]: Registered sub-client [GenerateECO] with ID [1] for session ID [1365] host [IITICUBLAP168] user [MBorgagni] process ID [21956]
+[2023.03.24 17:15:48] [0139m.30s.320ms] [1] SC[1365]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [1365] host [IITICUBLAP168] user [MBorgagni] process ID [21956]
+[2023.03.24 17:15:48] [0139m.30s.375ms] [1] CMT: There are [4] clients now: 1340, 1353, 1355, 1365
+[2023.03.24 17:15:48] [0139m.30s.378ms] [1] CMT: Removed client [1365]
+[2023.03.24 17:15:48] [0139m.30s.378ms] [1] CMT: There are [3] clients now: 1340, 1353, 1355
+[2023.03.24 17:15:49] [0139m.30s.931ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [34] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.30s.937ms] [1] SC[1353]: Registered sub-client [iCESPI.PADSLayout] with ID [35] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.259ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50391004] with ID [36] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.260ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50391004] with ID [36] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.285ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_50389732] with ID [37] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.286ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_50389732] with ID [37] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.289ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_484976412] with ID [38] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.305ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_484975132] with ID [39] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.332ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_484975132] with ID [39] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.333ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_484976412] with ID [38] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.387ms] [1] SC[1353]: Registered sub-client [EEVM_EEVM_User_484975900] with ID [40] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:49] [0139m.31s.393ms] [1] SC[1353]: UnRegistered sub-client [EEVM_EEVM_User_484975900] with ID [40] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:15:50] [0139m.32s.023ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Src[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] Dst[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database]
+[2023.03.24 17:16:17] [0139m.58s.960ms] [1] SC[1355]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 17:16:17] [0139m.58s.974ms] [1] SC[1355]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1355] host [IITICUBLAP168] user [MBorgagni] process ID [11624]
+[2023.03.24 17:16:17] [0139m.59s.066ms] [1] CMT: Removed client [1355]
+[2023.03.24 17:16:17] [0139m.59s.066ms] [1] CMT: There are [2] clients now: 1340, 1353
+[2023.03.24 17:16:28] [0140m.10s.229ms] [1] SC[1353]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [35] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:16:28] [0140m.10s.231ms] [1] SC[1353]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1353] host [IITICUBLAP168] user [MBorgagni] process ID [6060]
+[2023.03.24 17:16:28] [0140m.10s.252ms] [1] CMT: Removed client [1353]
+[2023.03.24 17:16:28] [0140m.10s.253ms] [1] CMT: There are [1] clients now: 1340
+[2023.03.24 17:16:35] [0140m.17s.456ms] [1] SC[1340]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:35] [0140m.17s.723ms] [1] SC[1340]: UnRegistered sub-client [DesignSearcher2] with ID [10] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.870ms] [1] SC[1340]: UnRegistered sub-client [GlobalNetAliasUpdater_788277064] with ID [36] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.871ms] [1] SC[1340]: UnRegistered sub-client [BlockCacheDxD:780007440] with ID [35] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.871ms] [1] SC[1340]: UnRegistered sub-client [ObjectHolder_788276648] with ID [34] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.872ms] [1] SC[1340]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:786112488] with ID [37] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.893ms] [1] SC[1340]: UnRegistered sub-client [Navigator] with ID [12] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.17s.893ms] [1] SC[1340]: UnRegistered sub-client [FFSSelListener] with ID [46] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.156ms] [1] SC[1340]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [45] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.249ms] [1] SC[1340]: UnRegistered sub-client [FFSearch_RBHost] with ID [15] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.266ms] [1] SC[1340]: UnRegistered sub-client [MyParts] with ID [21] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.269ms] [1] SC[1340]: UnRegistered sub-client [toolboxes] with ID [23] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.317ms] [1] SC[1340]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.318ms] [1] SC[1340]: UnRegistered sub-client [PartReplaceUtils] with ID [27] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:36] [0140m.18s.318ms] [1] SC[1340]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [28] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.384ms] [1] SC[1340]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:413464400] with ID [24] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.384ms] [1] SC[1340]: UnRegistered sub-client [SheetConnectorsCacheDxD:1679666182] with ID [25] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.385ms] [1] SC[1340]: UnRegistered sub-client [NetsNamesCollectorDxD:1679666182] with ID [26] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.390ms] [1] SC[1340]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.391ms] [1] SC[1340]: UnRegistered sub-client [DxD] with ID [1] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.587ms] [1] SC[1340]: UnRegistered sub-client [xprob] with ID [29] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.588ms] [1] SC[1340]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.625ms] [1] SC[1340]: UnRegistered sub-client [OutputWindow] with ID [13] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.784ms] [1] SC[1340]: UnRegistered sub-client [DxDbSearch] with ID [38] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.786ms] [1] SC[1340]: UnRegistered sub-client [Core::NetFlatData-21771] with ID [7] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.786ms] [1] SC[1340]: UnRegistered sub-client [BlockCacheDxD:672626984] with ID [6] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.786ms] [1] SC[1340]: UnRegistered sub-client [Core::DesignListener-672625832-0] with ID [5] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.807ms] [1] SC[1340]: UnRegistered sub-client [SAE] with ID [18] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.851ms] [1] SC[1340]: UnRegistered sub-client [CCZAddin] with ID [19] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:37] [0140m.19s.858ms] [1] SC[1340]: UnRegistered sub-client [DxThumbnails] with ID [20] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:42] [0140m.24s.397ms] [1] SC[1340]: UnRegistered sub-client [PinsList] with ID [22] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:42] [0140m.24s.493ms] [1] SC[1340]: UnRegistered sub-client [PlaceDevice] with ID [14] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:42] [0140m.24s.549ms] [1] SC[1340]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [1340] host [IITICUBLAP168] user [MBorgagni] process ID [15544]
+[2023.03.24 17:16:42] [0140m.24s.627ms] [1] CMT: Removed client [1340]
+[2023.03.24 17:16:42] [0140m.24s.627ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.03.24 17:16:42] [0140m.24s.837ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2023.03.24 17:16:44] [0140m.25s.903ms] [0] CMT: Starting server auto-close
+[2023.03.24 17:16:44] [0140m.26s.004ms] [0] S: Closing server
+[2023.03.24 17:16:44] [0140m.26s.154ms] [0] iCDB Server PI: Closing plugins
+[2023.03.24 17:16:44] [0140m.26s.155ms] [0] iCDB Server PI: Plugins closed
+[2023.03.24 17:16:44] [0140m.26s.155ms] [0] iCDB Server PI: Unloading database
+[2023.03.24 17:16:44] [0140m.26s.155ms] [0] iCDB Server PI: Saving storage
+[2023.03.24 17:16:44] [0140m.26s.156ms] [0] iCDB Server PI: Closing database
+[2023.03.24 17:16:44] [0140m.26s.158ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[23%] data[64%]
+[2023.03.24 17:16:44] [0140m.26s.158ms] [1] iCDB Server PI: Stats: Database file size [701304 (684.9 kB)]
+[2023.03.24 17:16:44] [0140m.26s.161ms] [1] iCDB Server PI: WARNING: Database needs defragmentation!
+[2023.03.24 17:16:44] [0140m.26s.180ms] [0] iCDB Server PI: Database closed
+[2023.03.24 17:16:44] [0140m.26s.180ms] [0] iCDB Server PI: Defragmenting database
+[2023.03.24 17:16:44] [0140m.26s.183ms] [0] iCDB Server PI: Creating database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database] backup to file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\cdbback\2023-03-24 17.16.44-7608-d.zip]
+[2023.03.24 17:16:44] [0140m.26s.833ms] [0] iCDB Server PI: Database backup: DONE
+[2023.03.24 17:16:44] [0140m.26s.864ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.24 17:16:44] [0140m.26s.864ms] [0] Database GUARD OK: [701304]
+[2023.03.24 17:16:44] [0140m.26s.864ms] [0] SingleFile: [7f0f-87e8-1059-bea3] SFI version check [1009] [1009]
+[2023.03.24 17:16:45] [0140m.26s.887ms] [0] SingleFile: [7f0f-87e8-1059-bea3] Database SFI header has been read in [23ms 252us]
+[2023.03.24 17:16:45] [0140m.26s.972ms] [1] iCDB Server PI: Stats: Database file sizes: before[701304 (684.9 kB)], after[322400 (314.8 kB)], gain[378904 (370.0 kB)]
+[2023.03.24 17:16:45] [0140m.26s.980ms] [0] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\icdb.dat] closed with size [322400 (314.8 kB)]
+[2023.03.24 17:16:45] [0140m.26s.981ms] [0] iCDB Server PI: Database defragmentation completed successfully
+[2023.03.24 17:16:45] [0140m.26s.981ms] [1] BackupTransaction: Removing database backup [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\cdbback\2023-03-24 17.16.44-7608-d.zip]
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [617158] ticks
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [61715] microseconds
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [1067]
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [17288] commands per second
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: Mem[37191680]
+[2023.03.24 17:16:45] [0140m.26s.986ms] [1] iCDB Server PI: Stats: MemPeak[52752384]
+[2023.03.24 17:16:45] [0140m.26s.988ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2023.03.24 17:16:45] [0140m.27s.154ms] [0] MWT: Destroy the shutdown block reason.
+[2023.03.24 17:16:45] [0140m.27s.155ms] [0] MWT: STOP
+[2023.03.24 17:16:45] [0140m.27s.155ms] [0] S: STOP

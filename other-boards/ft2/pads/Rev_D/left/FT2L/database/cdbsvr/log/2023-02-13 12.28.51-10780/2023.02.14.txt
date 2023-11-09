@@ -1,0 +1,69 @@
+[2023.02.14 09:59:23] [1290m.31s.773ms] [1] SC[1075]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1075] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:23] [1290m.31s.786ms] [1] SC[1075]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1075] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:23] [1290m.31s.844ms] [1] CMT: Removed client [1075]
+[2023.02.14 09:59:23] [1290m.31s.844ms] [1] CMT: There are [1] clients now: 1067
+[2023.02.14 09:59:23] [1290m.32s.362ms] [0] IT: Session [1076] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [13120] created
+[2023.02.14 09:59:23] [1290m.32s.364ms] [1] SC[1076]: Registered sub-client [PADSLayout] with ID [1] for session ID [1076] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:23] [1290m.32s.370ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database]
+[2023.02.14 09:59:23] [1290m.32s.383ms] [1] CMT: There are [2] clients now: 1067, 1076
+[2023.02.14 09:59:23] [1290m.32s.392ms] [1] SC[1076]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1076] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:23] [1290m.32s.491ms] [1] CMT: Removed client [1076]
+[2023.02.14 09:59:23] [1290m.32s.491ms] [1] CMT: There are [1] clients now: 1067
+[2023.02.14 09:59:24] [1290m.32s.973ms] [0] IT: Session [1077] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [13120] created
+[2023.02.14 09:59:24] [1290m.32s.975ms] [1] SC[1077]: Registered sub-client [PADSLayout] with ID [1] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:24] [1290m.32s.992ms] [1] SC[1077]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:24] [1290m.33s.034ms] [1] CMT: There are [2] clients now: 1067, 1077
+[2023.02.14 09:59:25] [1290m.34s.086ms] [1] SC[1077]: Registered sub-client [StartServerClient64e8] with ID [3] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:25] [1290m.34s.086ms] [1] SC[1077]: UnRegistered sub-client [StartServerClient64e8] with ID [3] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:25] [1290m.34s.091ms] [1] SC[1077]: Registered sub-client [StartServerClient64e8] with ID [4] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 09:59:25] [1290m.34s.091ms] [1] SC[1077]: UnRegistered sub-client [StartServerClient64e8] with ID [4] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 10:19:22] [1310m.31s.163ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma\database] WithLogFiles[0] Overwrite[1]
+[2023.02.14 10:19:22] [1310m.31s.336ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma] WithLogFiles[0] Overwrite[1]
+[2023.02.14 10:39:23] [1330m.31s.698ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma\database] WithLogFiles[0] Overwrite[1]
+[2023.02.14 10:39:23] [1330m.31s.856ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma] WithLogFiles[0] Overwrite[1]
+[2023.02.14 10:59:23] [1350m.31s.688ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma\database] WithLogFiles[0] Overwrite[1]
+[2023.02.14 10:59:23] [1350m.31s.856ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma] WithLogFiles[0] Overwrite[1]
+[2023.02.14 11:38:46] [1389m.54s.928ms] [0] IT: Session [1078] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [13632] created
+[2023.02.14 11:38:46] [1389m.54s.933ms] [1] SC[1078]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1078] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:46] [1389m.54s.962ms] [1] SC[1078]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1078] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:46] [1389m.54s.993ms] [1] CMT: There are [3] clients now: 1067, 1077, 1078
+[2023.02.14 11:38:46] [1389m.54s.993ms] [1] CMT: Removed client [1078]
+[2023.02.14 11:38:46] [1389m.54s.993ms] [1] CMT: There are [2] clients now: 1067, 1077
+[2023.02.14 11:38:46] [1389m.55s.565ms] [0] IT: Session [1079] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [13632] created
+[2023.02.14 11:38:46] [1389m.55s.567ms] [1] SC[1079]: Registered sub-client [PADSLayout] with ID [1] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:46] [1389m.55s.583ms] [1] SC[1079]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:47] [1389m.55s.639ms] [1] CMT: There are [3] clients now: 1067, 1077, 1079
+[2023.02.14 11:38:49] [1389m.58s.379ms] [1] SC[1079]: Registered sub-client [StartServerClient40f8] with ID [3] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:49] [1389m.58s.379ms] [1] SC[1079]: UnRegistered sub-client [StartServerClient40f8] with ID [3] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:49] [1389m.58s.383ms] [1] SC[1079]: Registered sub-client [StartServerClient40f8] with ID [4] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:38:49] [1389m.58s.384ms] [1] SC[1079]: UnRegistered sub-client [StartServerClient40f8] with ID [4] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 11:40:46] [1391m.55s.057ms] [0] IT: Session [1080] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [796] created
+[2023.02.14 11:40:46] [1391m.55s.058ms] [1] SC[1080]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1080] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:46] [1391m.55s.087ms] [1] SC[1080]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1080] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:46] [1391m.55s.162ms] [1] CMT: There are [4] clients now: 1067, 1077, 1079, 1080
+[2023.02.14 11:40:46] [1391m.55s.163ms] [1] CMT: Removed client [1080]
+[2023.02.14 11:40:46] [1391m.55s.163ms] [1] CMT: There are [3] clients now: 1067, 1077, 1079
+[2023.02.14 11:40:47] [1391m.55s.669ms] [0] IT: Session [1081] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [796] created
+[2023.02.14 11:40:47] [1391m.55s.671ms] [1] SC[1081]: Registered sub-client [PADSLayout] with ID [1] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:47] [1391m.55s.690ms] [1] SC[1081]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:47] [1391m.55s.699ms] [1] CMT: There are [4] clients now: 1067, 1077, 1079, 1081
+[2023.02.14 11:40:49] [1391m.57s.740ms] [1] SC[1081]: Registered sub-client [StartServerClient540c] with ID [3] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:49] [1391m.57s.741ms] [1] SC[1081]: UnRegistered sub-client [StartServerClient540c] with ID [3] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:49] [1391m.57s.744ms] [1] SC[1081]: Registered sub-client [StartServerClient540c] with ID [4] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:40:49] [1391m.57s.745ms] [1] SC[1081]: UnRegistered sub-client [StartServerClient540c] with ID [4] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:41:24] [1392m.33s.191ms] [1] SC[1081]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:41:24] [1392m.33s.194ms] [1] SC[1081]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1081] host [IITICUBWS055] user [SDussoni] process ID [796]
+[2023.02.14 11:41:24] [1392m.33s.277ms] [1] CMT: Removed client [1081]
+[2023.02.14 11:41:24] [1392m.33s.277ms] [1] CMT: There are [3] clients now: 1067, 1077, 1079
+[2023.02.14 11:58:45] [1409m.54s.105ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13632] # SessionID[1079] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma\database] WithLogFiles[0] Overwrite[1]
+[2023.02.14 11:58:45] [1409m.54s.280ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13632] # SessionID[1079] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma] WithLogFiles[0] Overwrite[1]
+[2023.02.14 11:59:22] [1410m.31s.344ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\left\FTL2\database] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma\database] WithLogFiles[0] Overwrite[1]
+[2023.02.14 11:59:22] [1410m.31s.411ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[13120] # SessionID[1077] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[D:\icub-tech-iit\electronics-boards\mma\pads\mma] WithLogFiles[0] Overwrite[1]
+[2023.02.14 12:21:53] [1433m.01s.990ms] [1] SC[1077]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 12:21:53] [1433m.01s.998ms] [1] SC[1077]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1077] host [IITICUBWS055] user [SDussoni] process ID [13120]
+[2023.02.14 12:21:53] [1433m.02s.086ms] [1] CMT: Removed client [1077]
+[2023.02.14 12:21:53] [1433m.02s.086ms] [1] CMT: There are [2] clients now: 1067, 1079
+[2023.02.14 12:22:00] [1433m.09s.285ms] [1] SC[1079]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 12:22:00] [1433m.09s.288ms] [1] SC[1079]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1079] host [IITICUBWS055] user [SDussoni] process ID [13632]
+[2023.02.14 12:22:00] [1433m.09s.334ms] [1] CMT: Removed client [1079]
+[2023.02.14 12:22:00] [1433m.09s.334ms] [1] CMT: There are [1] clients now: 1067

@@ -1,0 +1,560 @@
+***********  COMMAND 04Mar2019.103752.842 get 10184 MBorgagni 10.2(10600162) Windows 10
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/PADSVX.2.4/SDD_HOME/dfm/tmp/wfInit-genesis186a3.iiticubws056.10184,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/PADSVX.2.4/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 04Mar2019.103752.850 get 10184 MBorgagni 10.2(10600162) Windows 10
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 04Mar2019.103752.854 get 10184 MBorgagni 10.2(10600162) Windows 10
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 04Mar2019.103752.856 get 10184 MBorgagni 10.2(10600162) Windows 10
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 04Mar2019.103752.859 get 10184 MBorgagni 10.2(10600162) Windows 10
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 04Mar2019.103752.862 get 10184 MBorgagni 10.2(10600162) Windows 10
+create_entity,job=,is_fw=no,type=job,name=ft2_1_13853_0,db=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752,fw_type=form (-1)
+read file - C:/MentorGraphics/PADSVX.2.4/SDD_HOME/dfm/edir/all/lyr_types
+saving job - ft2_1_13853_0
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/input
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/output
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/fonts
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/wheels
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/matrix
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/whltemps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/user
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/info
+Generating Mentor flow data. Please wait...
+Mentor flow data was generated successfully.
+***********  COMMAND 04Mar2019.103754.239 get 10184 MBorgagni 10.2(10600162) Windows 10
+entity_exist,type=step,name=*,parent_job=ft2_1_13853_0,parent_step=,op=count (-1)
+***********  COMMAND 04Mar2019.103754.242 get 10184 MBorgagni 10.2(10600162) Windows 10
+entity_exist,type=step,name=*,parent_job=ft2_1_13853_0,parent_step=,op=first (-1)
+***********  COMMAND 04Mar2019.103754.249 get 10184 MBorgagni 10.2(10600162) Windows 10
+save_job,job=ft2_1_13853_0,override=no (-1)
+saving job - ft2_1_13853_0
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+saving idf - idf
+saving step - pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+saving netlist - cadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/cadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/attrlist
+saving eda - eda
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/eda
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/eda/data
+saving layer - soldermasktop
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldermasktop
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldermasktop/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldermasktop/attrlist
+saving layer - top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/top/attrlist
+saving layer - bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/bottom/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/bottom/attrlist
+saving layer - soldemaskbottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldemaskbottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldemaskbottom/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldemaskbottom/attrlist
+saving layer - drilldrawing.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drilldrawing.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drilldrawing.doc/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drilldrawing.doc/attrlist
+saving layer - silkscreentop.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc/attrlist
+saving layer - paste_mask_bot.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/paste_mask_bot.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/paste_mask_bot.doc/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/paste_mask_bot.doc/attrlist
+saving layer - drill
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/attrlist
+saving layer - rout
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot/attrlist
+saving layer - dielectric1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/dielectric1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/dielectric1/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/dielectric1/attrlist
+saving symbol - special
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special
+saving layer - special
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special/attrlist
+saving symbol - special+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+1
+saving layer - special+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+1/attrlist
+saving symbol - special+2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+2
+saving layer - special+2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+2/attrlist
+saving symbol - special+3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+3
+saving layer - special+3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+3/attrlist
+saving symbol - special+4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+4
+saving layer - special+4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+4/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+4/attrlist
+saving symbol - special+5
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+5
+saving layer - special+5
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+5/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+5/attrlist
+saving symbol - special+6
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+6
+saving layer - special+6
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+6/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+6/attrlist
+saving symbol - special+7
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+7
+saving layer - special+7
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+7/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+7/attrlist
+saving symbol - drill_symbol1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol1+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1+1/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/info
+Generating Mentor flow data. Please wait...
+Mentor flow data was generated successfully.
+***********  COMMAND 04Mar2019.103754.479 get 10184 MBorgagni 10.2(10600162) Windows 10
+get_job_path,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.482 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_page_open,set=yes,job1=ft2_1_13853_0,step1=pcb,type1=cad,job2=ft2_1_13853_0,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 04Mar2019.103754.490 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 04Mar2019.103754.490 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 04Mar2019.103754.497 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_recalc,job=ft2_1_13853_0,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 04Mar2019.103754.501 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_recalc,job=ft2_1_13853_0,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 04Mar2019.103754.586 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_compare,job1=ft2_1_13853_0,step1=pcb,type1=cad,job2=ft2_1_13853_0,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 04Mar2019.103754.602 get 10184 MBorgagni 10.2(10600162) Windows 10
+save_job,job=ft2_1_13853_0,override=no (-1)
+saving job - ft2_1_13853_0
+saving step - pcb
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+saving netlist - curcadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/curcadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/curcadnet/netlist
+*********** ERROR INTERNAL 04Mar2019.103754.615 get 10184 MBorgagni 10.2(10600162) Windows 10
+file/dir causing error #3 : C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/reps/netlist_compare_data
+*********** ERROR INTERNAL 04Mar2019.103754.615 get 10184 MBorgagni 10.2(10600162) Windows 10
+System fopen call error : No such file or directory at D:\anthill3\var\jobs\projects\97861_1150922\s_dev\code\gen\gen_fs.c 2955
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/info
+Generating Mentor flow data. Please wait...
+Mentor flow data was generated successfully.
+***********  COMMAND 04Mar2019.103754.642 get 10184 MBorgagni 10.2(10600162) Windows 10
+get_job_path,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.645 get 10184 MBorgagni 10.2(10600162) Windows 10
+export_job,job=ft2_1_13853_0,mode=tar_gzip,version=v8,submode=full,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752 (-1)
+***********  COMMAND 04Mar2019.103754.736 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_job,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.739 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_form,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.739 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_flow,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.740 get 10184 MBorgagni 10.2(10600162) Windows 10
+delete_entity,job=,type=job,name=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.763 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_form,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.763 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_flow,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103754.764 get 10184 MBorgagni 10.2(10600162) Windows 10
+import_job,db=,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0.tgz,name=ft2_1_13853_0 (-1)
+Reading Mentor flow data. Please wait...
+Mentor flow data has been successfuly loaded.
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/stephdr
+read step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/dielectric1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drilldrawing.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/paste_mask_bot.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldemaskbottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldermasktop/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/cadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/netlists/curcadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/eda/data
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/drill_symbol1+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+4/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+5/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+5/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+6/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+6/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+7/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/symbols/special+7/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/matrix/matrix
+read file - C:/MentorGraphics/PADSVX.2.4/SDD_HOME/dfm/edir/all/lyr_types
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/misc/attrlist
+***********  COMMAND 04Mar2019.103755.139 get 10184 MBorgagni 10.2(10600162) Windows 10
+cam_compare,job=ft2_1_13853_0,step=pcb,action=compare,path=D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber,show_modal=yes,guiless_mode=no (-1)
+***********  COMMAND 04Mar2019.103755.271 get 10184 MBorgagni 10.2(10600162) Windows 10
+units,type=inch,force_set=yes (0)
+***********  COMMAND 04Mar2019.103755.271 get 10184 MBorgagni 10.2(10600162) Windows 10
+set_group,group=0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_top/components
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/comp_+_bot/components
+***********  COMMAND 04Mar2019.103755.283 get 10184 MBorgagni 10.2(10600162) Windows 10
+display_comp_outline_mode,mode=Body (0)
+*********** WARNING  04Mar2019.103755.379 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103755.379 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  04Mar2019.103755.436 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103755.436 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_.drl ...
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_BOT.pho ...
+*********** WARNING  04Mar2019.103755.572 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 376.
+Arc has been corrected and placed at:
+XC=4.010300, YC=4.173000, XS=4.035830, YS=4.172830, XE=4.035830, YE=4.173170
+original arc was:
+XC=4.010300, YC=4.173170, XS=4.035830, YS=4.172830, XE=4.035830, YE=4.173170
+
+*********** WARNING  04Mar2019.103755.572 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 587.
+Arc has been corrected and placed at:
+XC=4.377890, YC=4.290210, XS=4.376710, YS=4.290260, XE=4.376710, YE=4.290160
+original arc was:
+XC=4.377890, YC=4.290260, XS=4.376710, YS=4.290260, XE=4.376710, YE=4.290160
+
+*********** WARNING  04Mar2019.103755.572 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 699.
+Arc has been corrected and placed at:
+XC=3.976380, YC=4.023475, XS=3.964370, YS=4.023620, XE=3.964370, YE=4.023330
+original arc was:
+XC=3.976380, YC=4.023622, XS=3.964370, YS=4.023620, XE=3.964370, YE=4.023330
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 722.
+Arc has been corrected and placed at:
+XC=3.989570, YC=4.078265, XS=3.988390, YS=4.078310, XE=3.988390, YE=4.078220
+original arc was:
+XC=3.989570, YC=4.078220, XS=3.988390, YS=4.078310, XE=3.988390, YE=4.078220
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 766.
+Arc has been corrected and placed at:
+XC=4.033860, YC=4.024100, XS=4.021850, YS=4.024180, XE=4.021850, YE=4.024020
+original arc was:
+XC=4.033860, YC=4.024019, XS=4.021850, YS=4.024180, XE=4.021850, YE=4.024020
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 769.
+Arc has been corrected and placed at:
+XC=4.010300, YC=4.173085, XS=4.023820, YS=4.173000, XE=4.023820, YE=4.173170
+original arc was:
+XC=4.010300, YC=4.173171, XS=4.023820, YS=4.173000, XE=4.023820, YE=4.173170
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 793.
+Arc has been corrected and placed at:
+XC=4.038330, YC=4.365755, XS=4.037150, YS=4.365800, XE=4.037150, YE=4.365710
+original arc was:
+XC=4.038330, YC=4.365820, XS=4.037150, YS=4.365800, XE=4.037150, YE=4.365710
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 801.
+Arc has been corrected and placed at:
+XC=4.038360, YC=4.360585, XS=4.037180, YS=4.360620, XE=4.037180, YE=4.360550
+original arc was:
+XC=4.038360, YC=4.360550, XS=4.037180, YS=4.360620, XE=4.037180, YE=4.360550
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 820.
+Arc has been corrected and placed at:
+XC=4.058970, YC=4.006975, XS=4.067520, YS=4.006900, XE=4.067520, YE=4.007050
+original arc was:
+XC=4.058970, YC=4.007048, XS=4.067520, YS=4.006900, XE=4.067520, YE=4.007050
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 837.
+Arc has been corrected and placed at:
+XC=4.055020, YC=4.624740, XS=4.056200, YS=4.624700, XE=4.056200, YE=4.624780
+original arc was:
+XC=4.055020, YC=4.624781, XS=4.056200, YS=4.624700, XE=4.056200, YE=4.624780
+
+*********** WARNING  04Mar2019.103755.573 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 845.
+Arc has been corrected and placed at:
+XC=4.081300, YC=4.622455, XS=4.080120, YS=4.622490, XE=4.080120, YE=4.622420
+original arc was:
+XC=4.081300, YC=4.622420, XS=4.080120, YS=4.622490, XE=4.080120, YE=4.622420
+
+*********** WARNING  04Mar2019.103755.574 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 848.
+Arc has been corrected and placed at:
+XC=4.067720, YC=4.032895, XS=4.079720, YS=4.032730, XE=4.079720, YE=4.033060
+original arc was:
+XC=4.067720, YC=4.033070, XS=4.079720, YS=4.032730, XE=4.079720, YE=4.033060
+
+*********** WARNING  04Mar2019.103755.574 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 892.
+Arc has been corrected and placed at:
+XC=4.127560, YC=4.256735, XS=4.128740, YS=4.256710, XE=4.128740, YE=4.256760
+original arc was:
+XC=4.127560, YC=4.256761, XS=4.128740, YS=4.256710, XE=4.128740, YE=4.256760
+
+*********** WARNING  04Mar2019.103755.574 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 900.
+Arc has been corrected and placed at:
+XC=4.147950, YC=4.107635, XS=4.146770, YS=4.107660, XE=4.146770, YE=4.107610
+original arc was:
+XC=4.147950, YC=4.107609, XS=4.146770, YS=4.107660, XE=4.146770, YE=4.107610
+
+*********** WARNING  04Mar2019.103755.574 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 923.
+Arc has been corrected and placed at:
+XC=4.298660, YC=4.110405, XS=4.299840, YS=4.110370, XE=4.299840, YE=4.110440
+original arc was:
+XC=4.298660, YC=4.110440, XS=4.299840, YS=4.110370, XE=4.299840, YE=4.110440
+
+*********** WARNING  04Mar2019.103755.577 get 10184 MBorgagni 10.2(10600162) Windows 10
+Inconsistent arc definition in line 4784.
+Arc has been corrected and placed at:
+XC=4.058970, YC=4.006870, XS=4.079530, YS=4.006690, XE=4.079530, YE=4.007050
+original arc was:
+XC=4.058970, YC=4.007050, XS=4.079530, YS=4.006690, XE=4.079530, YE=4.007050
+
+*********** WARNING  04Mar2019.103755.577 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_DrillDrawing.pho ...
+*********** WARNING  04Mar2019.103755.616 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_Paste_Mask_Bot ...
+*********** WARNING  04Mar2019.103755.651 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_SilkScreenTop.pho ...
+*********** WARNING  04Mar2019.103755.685 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_SoldeMaskBottom.pho ...
+*********** WARNING  04Mar2019.103755.717 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_SolderMaskTop.pho ...
+*********** WARNING  04Mar2019.103755.748 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+Translating - D:/repo/P2019_02_FTX2_FingertipTactileSensorRethink/PadsProjects/Rev_A/OUTPUT/FT2-1/Bareboard/Gerber/FT2-1_13583_0_TOP.pho ...
+*********** WARNING  04Mar2019.103755.780 get 10184 MBorgagni 10.2(10600162) Windows 10
+Warning! Zero size dcode defined.
+*********** WARNING  04Mar2019.103755.828 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103755.828 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drill/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/bottom/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldemaskbottom/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/rout/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/soldermasktop/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/drilldrawing.doc/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/silkscreentop.doc/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20190304_103752/ft2_1_13853_0/steps/pcb/layers/paste_mask_bot.doc/features
+*********** WARNING  04Mar2019.103755.940 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103755.940 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+Found 0 graphic differences. For "soldermasktop" (ILC)
+Found 0 graphic differences. For "top" (ILC)
+Found 0 graphic differences. For "bottom" (ILC)
+Found 0 graphic differences. For "soldemaskbottom" (ILC)
+Found 0 graphic differences. For "drilldrawing.doc" (ILC)
+Found 0 graphic differences. For "silkscreentop.doc" (ILC)
+Found 1 graphic differences. For "paste_mask_bot.doc" (ILC)
+Found 0 graphic differences. For "drill" (ILC)
+*********** WARNING  04Mar2019.103756.469 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103756.470 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 04Mar2019.103756.470 get 10184 MBorgagni 10.2(10600162) Windows 10
+work_layer,name=paste_mask_bot.doc (0)
+*********** WARNING  04Mar2019.103756.475 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103756.475 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  04Mar2019.103756.483 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103756.483 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+*********** NOTICE  04Mar2019.103756.521 get 10184 MBorgagni 10.2(10600162) Windows 10
+CAM Compare issues found: num_diffs 1 net_stat 0
+*********** WARNING  04Mar2019.103819.078 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  04Mar2019.103819.078 get 10184 MBorgagni 10.2(10600162) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 04Mar2019.103824.436 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_recalc,job=ft2_1_13853_0,step=pcb,type=cad (-1)
+***********  COMMAND 04Mar2019.103824.440 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_recalc,job=ft2_1_13853_0,step=pcb,type=cur_cad (-1)
+***********  COMMAND 04Mar2019.103824.524 get 10184 MBorgagni 10.2(10600162) Windows 10
+netlist_compare,job1=ft2_1_13853_0,step1=pcb,type1=cad,job2=ft2_1_13853_0,step2=pcb,type2=cur_cad,pin_point=no (-1)
+***********  COMMAND 04Mar2019.103827.504 get 10184 MBorgagni 10.2(10600162) Windows 10
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 04Mar2019.103827.506 get 10184 MBorgagni 10.2(10600162) Windows 10
+dpw_do,op=continue (-1)
+***********  COMMAND 04Mar2019.103827.510 get 10184 MBorgagni 10.2(10600162) Windows 10
+cam_compare,job=ft2_1_13853_0,step=pcb,action=close (-1)
+***********  COMMAND 04Mar2019.103827.522 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_job,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.524 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_form,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.524 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_flow,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.526 get 10184 MBorgagni 10.2(10600162) Windows 10
+delete_entity,job=,type=job,name=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.550 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_form,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.550 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_flow,job=ft2_1_13853_0 (-1)
+***********  COMMAND 04Mar2019.103827.552 get 10184 MBorgagni 10.2(10600162) Windows 10
+close_toolkit,save_log=yes (-1)
+*********** WARNING  04Mar2019.103827.553 get 10184 MBorgagni 10.2(10600162) Windows 10
+Main window has no title, as window state saved to file C:/MentorGraphics/PADSVX.2.4/SDD_HOME/dfm/.genesis/EngineeringToolkitWindow.settings.

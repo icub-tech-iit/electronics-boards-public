@@ -1,0 +1,410 @@
+[2023.07.07 17:22:14] [0000m.00s.043ms] [0] WELCOME
+[2023.07.07 17:22:14] [0000m.00s.044ms] [1] iCDB Server ver.2.213, H4DnrBmP/DNfNsbuJLm7Hg, build:22184707 created 2023-02-14 20:00:49, sources stamp:H4DnrBmP/DNfNsbuJLm7Hg
+[2023.07.07 17:22:14] [0000m.00s.044ms] [1] Unpublished work. Copyright 2023 Siemens\r\n\r\nThis material contains trade secrets or otherwise confidential\r\ninformation owned by Siemens Industry Software Inc.\r\nor its affiliates (collectively, 'SISW'), or its licensors.\r\nAccess to and use of this information is strictly limited\r\nas set forth in the Customer's applicable agreements with SISW.
+[2023.07.07 17:22:14] [0000m.00s.045ms] [1] Base flow version [VX.2.13]
+[2023.07.07 17:22:14] [0000m.00s.045ms] [1] Install Id [2572135], Flow Id [PADS VX.2.13], Full Flow Name [PADS VX.2.13], Exact Access Date [2023/02/01]
+[2023.07.07 17:22:14] [0000m.00s.058ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.13,127.0.0.1]  User [MBorgagni]  PID [22896]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18362)]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] Current working dir [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] PATH [C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.13\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.13\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\CAMCAD]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.13\SDD_HOME] on file system [NTFS]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] SDD_PLATFORM [win32]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\standard;]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.07.07 17:22:14] [0000m.00s.059ms] [2] S: Loading config files
+[2023.07.07 17:22:14] [0000m.00s.108ms] [1] Config file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\cdbsvr\Server.cfg] not found
+[2023.07.07 17:22:14] [0000m.00s.113ms] [3] S: Config loaded
+[2023.07.07 17:22:14] [0000m.00s.128ms] [0] S: Project path [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database] on file system [NTFS]
+[2023.07.07 17:22:14] [0000m.00s.128ms] [1] S: WARNING: No project file (.prj) path specified
+[2023.07.07 17:22:14] [0000m.00s.129ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: Single-user mode (auto)
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: Event polling mode autodetection
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: Started up automatically by iCDB Client: IITICUBLAP168:MBorgagni:18092
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: Auto close mode
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: Database ID [1129-2b32-0974-5d2b-6ad2-8a4c-ad28-a460-aaa4-c131-0e3b-0aba]
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: BEGIN dumping
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: Local -> global path prefix list
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: [P:\] -> [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\]
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: Global -> local path prefix list
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\] -> [P:\]
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] PathTranslator: END dumping
+[2023.07.07 17:22:14] [0000m.00s.129ms] [0] S: START
+[2023.07.07 17:22:14] [0000m.00s.130ms] [0] S: Server startup lock file created
+[2023.07.07 17:22:14] [0000m.00s.130ms] [0] S: Listening for client connections on port [10001]
+[2023.07.07 17:22:14] [0000m.00s.134ms] [0] S: Server network ID [IITICUBLAP168:10.240.11.13,IITICUBLAP168,IITICUBLAP168.iit.local:10001]
+[2023.07.07 17:22:14] [0000m.00s.134ms] [0] S: Server GUID [2490-eadf-e0f9-ed3b-6ad2-8a4c-ad28-a460-68b7-c131-0e3b-0aba]
+[2023.07.07 17:22:14] [0000m.00s.134ms] [0] S: Project GUID [1129-2b32-0974-5d2b-6ad2-8a4c-ad28-a460-aaa4-c131-0e3b-0aba]
+[2023.07.07 17:22:14] [0000m.00s.145ms] [0] S: Wrote data to server address file
+[2023.07.07 17:22:14] [0000m.00s.145ms] [0] S: Server startup lock file removed
+[2023.07.07 17:22:14] [0000m.00s.145ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2023.07.07 17:22:15] [0000m.01s.209ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2023.07.07 17:22:15] [0000m.01s.209ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.13\SDD_HOME\iCDB\win32\bin]
+[2023.07.07 17:22:15] [0000m.01s.209ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\bin]
+[2023.07.07 17:22:15] [0000m.01s.209ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2023.07.07 17:22:15] [0000m.01s.209ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2023.07.07 17:22:15] [0000m.01s.209ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2023.07.07 17:22:15] [0000m.01s.210ms] [0] S: Local disc access time: 67 us
+[2023.07.07 17:22:15] [0000m.01s.210ms] [0] S: File server access time: 37 us
+[2023.07.07 17:22:15] [0000m.01s.219ms] [0] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat] size [522984 (510.7 kB)]
+[2023.07.07 17:22:15] [0000m.01s.219ms] [1] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat] opened in read-write mode
+[2023.07.07 17:22:15] [0000m.01s.219ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.219ms] [0] Database GUARD OK: [522984]
+[2023.07.07 17:22:15] [0000m.01s.220ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.220ms] [0] Database GUARD OK: [522984]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] Database GUARD OK: [522984]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] Database GUARD OK: [522984]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] Database GUARD OK: [522984]
+[2023.07.07 17:22:15] [0000m.01s.234ms] [0] SingleFile: [16a0-77bf-a4e7-0c46] SFI version check [1009] [1009]
+[2023.07.07 17:22:15] [0000m.01s.254ms] [0] SingleFile: [16a0-77bf-a4e7-0c46] Database SFI header has been read in [19ms 935us]
+[2023.07.07 17:22:15] [0000m.01s.258ms] [0] iCDB Server PI: Server & plugin session [1490]
+[2023.07.07 17:22:15] [0000m.01s.258ms] [0] iCDB Server PI: Opening database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database]
+[2023.07.07 17:22:15] [0000m.01s.258ms] [0] iCDB Server PI: Database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database] opened
+[2023.07.07 17:22:16] [0000m.01s.398ms] [0] iCDB Database: Checking existence of constraint definitions
+[2023.07.07 17:22:16] [0000m.01s.398ms] [0] iCDB Database: Checking constraint definitions version
+[2023.07.07 17:22:16] [0000m.01s.429ms] [0] iCDB Database: Creating database content backup before upgrade
+[2023.07.07 17:22:16] [0000m.01s.429ms] [1] iCDB Storage Server: Database backup: ProjectPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database]
+[2023.07.07 17:22:16] [0000m.01s.558ms] [0] iCDB Storage Server Backup Thread: Database backup: BackupPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\cdbback\2023-07-07 17.22.16-22896.zip]
+[2023.07.07 17:22:16] [0000m.01s.604ms] [0] iCDB Storage Server Backup Thread: Backup database DONE: Result[ Succeeded[TRUE]] BackupPath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\cdbback\2023-07-07 17.22.16-22896.zip]
+[2023.07.07 17:22:16] [0000m.01s.605ms] [0] iCDB Database: Database content backed up to [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\cdbback\2023-07-07 17.22.16-22896.zip] of size [953 593 bytes (931.2 kB)]  in [175ms 627us]
+[2023.07.07 17:22:16] [0000m.01s.609ms] [0] iCDB Database: Upgrading constraint definitions from version [ce_ee.cns=7.10.75]
+[2023.07.07 17:22:16] [0000m.01s.621ms] [0] iCDB Database: Upgrading snapshot [1:DxD] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.625ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.625ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.628ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.628ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.630ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.630ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.633ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.633ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.633ms] [1] CORE: Upgrade snapshot DxD completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.633ms] [0] iCDB Database: Snapshot [1:DxD] upgraded to version [4300] in [12ms 133us]
+[2023.07.07 17:22:16] [0000m.01s.633ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [1:DxD]
+[2023.07.07 17:22:16] [0000m.01s.746ms] [0] iCDB Database: Constraint definitions for snapshot [1:DxD] upgraded in [112ms 916us]
+[2023.07.07 17:22:16] [0000m.01s.746ms] [0] iCDB Database: Saving upgraded snapshot [1:DxD]
+[2023.07.07 17:22:16] [0000m.01s.747ms] [0] iCDB Database: Upgraded snapshot [1:DxD] saved in [945us]
+[2023.07.07 17:22:16] [0000m.01s.748ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.753ms] [1] Diagnostic: Snapshot [1:DxD] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.756ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.761ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s1\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.761ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s1\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.761ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s1\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.761ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s1\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.761ms] [0] iCDB Database: Upgrading snapshot [2:__ise_DxD] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.762ms] [1] CORE: Upgrade snapshot __ise_DxD completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.762ms] [0] iCDB Database: Snapshot [2:__ise_DxD] upgraded to version [4300] in [1ms 135us]
+[2023.07.07 17:22:16] [0000m.01s.763ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [2:__ise_DxD]
+[2023.07.07 17:22:16] [0000m.01s.763ms] [0] iCDB Database: Constraint definitions for snapshot [2:__ise_DxD] upgraded in [94us]
+[2023.07.07 17:22:16] [0000m.01s.763ms] [0] iCDB Database: Saving upgraded snapshot [2:__ise_DxD]
+[2023.07.07 17:22:16] [0000m.01s.763ms] [0] iCDB Database: Upgraded snapshot [2:__ise_DxD] saved in [289us]
+[2023.07.07 17:22:16] [0000m.01s.764ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s2\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.764ms] [0] iCDB Database: Upgrading snapshot [3:FT2_0] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.768ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.768ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.770ms] [1] CORE: Upgrade snapshot FT2_0 completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.770ms] [0] iCDB Database: Snapshot [3:FT2_0] upgraded to version [4300] in [5ms 823us]
+[2023.07.07 17:22:16] [0000m.01s.770ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [3:FT2_0]
+[2023.07.07 17:22:16] [0000m.01s.775ms] [0] iCDB Database: Constraint definitions for snapshot [3:FT2_0] upgraded in [5ms 29us]
+[2023.07.07 17:22:16] [0000m.01s.775ms] [0] iCDB Database: Saving upgraded snapshot [3:FT2_0]
+[2023.07.07 17:22:16] [0000m.01s.776ms] [0] iCDB Database: Upgraded snapshot [3:FT2_0] saved in [787us]
+[2023.07.07 17:22:16] [0000m.01s.777ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.779ms] [1] Diagnostic: Snapshot [3:FT2_0] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.780ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s3\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.780ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s3\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.780ms] [0] iCDB Database: Upgrading snapshot [4:FT2_0_LDDTemp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.784ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.784ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.787ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.787ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.789ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.789ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.791ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.791ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.791ms] [1] CORE: Upgrade snapshot FT2_0_LDDTemp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.792ms] [0] iCDB Database: Snapshot [4:FT2_0_LDDTemp] upgraded to version [4300] in [11ms 300us]
+[2023.07.07 17:22:16] [0000m.01s.792ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [4:FT2_0_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.807ms] [0] iCDB Database: Constraint definitions for snapshot [4:FT2_0_LDDTemp] upgraded in [14ms 760us]
+[2023.07.07 17:22:16] [0000m.01s.807ms] [0] iCDB Database: Saving upgraded snapshot [4:FT2_0_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.807ms] [0] iCDB Database: Upgraded snapshot [4:FT2_0_LDDTemp] saved in [910us]
+[2023.07.07 17:22:16] [0000m.01s.808ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.813ms] [1] Diagnostic: Snapshot [4:FT2_0_LDDTemp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.815ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s4\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.815ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s4\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.816ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s4\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.816ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s4\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.816ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s4\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.816ms] [0] iCDB Database: Upgrading snapshot [5:FT2_0_RefSync] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.819ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.819ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.820ms] [1] CORE: Upgrade snapshot FT2_0_RefSync completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.820ms] [0] iCDB Database: Snapshot [5:FT2_0_RefSync] upgraded to version [4300] in [3ms 823us]
+[2023.07.07 17:22:16] [0000m.01s.820ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [5:FT2_0_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.824ms] [0] iCDB Database: Constraint definitions for snapshot [5:FT2_0_RefSync] upgraded in [3ms 680us]
+[2023.07.07 17:22:16] [0000m.01s.824ms] [0] iCDB Database: Saving upgraded snapshot [5:FT2_0_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.825ms] [0] iCDB Database: Upgraded snapshot [5:FT2_0_RefSync] saved in [550us]
+[2023.07.07 17:22:16] [0000m.01s.825ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.827ms] [1] Diagnostic: Snapshot [5:FT2_0_RefSync] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.828ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s5\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.828ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s5\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.828ms] [0] iCDB Database: Upgrading snapshot [6:FT2_0_layout_temp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.831ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.831ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.832ms] [1] CORE: Upgrade snapshot FT2_0_layout_temp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.832ms] [0] iCDB Database: Snapshot [6:FT2_0_layout_temp] upgraded to version [4300] in [3ms 842us]
+[2023.07.07 17:22:16] [0000m.01s.832ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [6:FT2_0_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.836ms] [0] iCDB Database: Constraint definitions for snapshot [6:FT2_0_layout_temp] upgraded in [3ms 655us]
+[2023.07.07 17:22:16] [0000m.01s.836ms] [0] iCDB Database: Saving upgraded snapshot [6:FT2_0_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.836ms] [0] iCDB Database: Upgraded snapshot [6:FT2_0_layout_temp] saved in [529us]
+[2023.07.07 17:22:16] [0000m.01s.836ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.838ms] [1] Diagnostic: Snapshot [6:FT2_0_layout_temp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.839ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s6\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.839ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s6\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.839ms] [0] iCDB Database: Upgrading snapshot [7:FT2_1] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.842ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.842ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.843ms] [1] CORE: Upgrade snapshot FT2_1 completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.843ms] [0] iCDB Database: Snapshot [7:FT2_1] upgraded to version [4300] in [3ms 585us]
+[2023.07.07 17:22:16] [0000m.01s.843ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [7:FT2_1]
+[2023.07.07 17:22:16] [0000m.01s.847ms] [0] iCDB Database: Constraint definitions for snapshot [7:FT2_1] upgraded in [3ms 480us]
+[2023.07.07 17:22:16] [0000m.01s.847ms] [0] iCDB Database: Saving upgraded snapshot [7:FT2_1]
+[2023.07.07 17:22:16] [0000m.01s.847ms] [0] iCDB Database: Upgraded snapshot [7:FT2_1] saved in [524us]
+[2023.07.07 17:22:16] [0000m.01s.848ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.849ms] [1] Diagnostic: Snapshot [7:FT2_1] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.850ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s7\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.850ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s7\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.850ms] [0] iCDB Database: Upgrading snapshot [8:FT2_1_LDDTemp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.854ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.854ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.856ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.856ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.859ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.859ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.861ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.861ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.861ms] [1] CORE: Upgrade snapshot FT2_1_LDDTemp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.861ms] [0] iCDB Database: Snapshot [8:FT2_1_LDDTemp] upgraded to version [4300] in [10ms 445us]
+[2023.07.07 17:22:16] [0000m.01s.861ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [8:FT2_1_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.875ms] [0] iCDB Database: Constraint definitions for snapshot [8:FT2_1_LDDTemp] upgraded in [13ms 870us]
+[2023.07.07 17:22:16] [0000m.01s.875ms] [0] iCDB Database: Saving upgraded snapshot [8:FT2_1_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.876ms] [0] iCDB Database: Upgraded snapshot [8:FT2_1_LDDTemp] saved in [812us]
+[2023.07.07 17:22:16] [0000m.01s.876ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.881ms] [1] Diagnostic: Snapshot [8:FT2_1_LDDTemp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.883ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s8\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.883ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s8\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.884ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s8\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.884ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s8\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.884ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s8\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.884ms] [0] iCDB Database: Upgrading snapshot [9:FT2_1_RefSync] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.887ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.887ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.887ms] [1] CORE: Upgrade snapshot FT2_1_RefSync completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.888ms] [0] iCDB Database: Snapshot [9:FT2_1_RefSync] upgraded to version [4300] in [3ms 578us]
+[2023.07.07 17:22:16] [0000m.01s.888ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [9:FT2_1_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.891ms] [0] iCDB Database: Constraint definitions for snapshot [9:FT2_1_RefSync] upgraded in [3ms 493us]
+[2023.07.07 17:22:16] [0000m.01s.891ms] [0] iCDB Database: Saving upgraded snapshot [9:FT2_1_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.892ms] [0] iCDB Database: Upgraded snapshot [9:FT2_1_RefSync] saved in [523us]
+[2023.07.07 17:22:16] [0000m.01s.892ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.894ms] [1] Diagnostic: Snapshot [9:FT2_1_RefSync] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.895ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s9\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.895ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s9\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.895ms] [0] iCDB Database: Upgrading snapshot [10:FT2_1_layout_temp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.898ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.898ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.898ms] [1] CORE: Upgrade snapshot FT2_1_layout_temp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.899ms] [0] iCDB Database: Snapshot [10:FT2_1_layout_temp] upgraded to version [4300] in [3ms 564us]
+[2023.07.07 17:22:16] [0000m.01s.899ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [10:FT2_1_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.902ms] [0] iCDB Database: Constraint definitions for snapshot [10:FT2_1_layout_temp] upgraded in [3ms 613us]
+[2023.07.07 17:22:16] [0000m.01s.902ms] [0] iCDB Database: Saving upgraded snapshot [10:FT2_1_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.903ms] [0] iCDB Database: Upgraded snapshot [10:FT2_1_layout_temp] saved in [507us]
+[2023.07.07 17:22:16] [0000m.01s.903ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.905ms] [1] Diagnostic: Snapshot [10:FT2_1_layout_temp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.906ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s10\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.906ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s10\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.906ms] [0] iCDB Database: Upgrading snapshot [11:FT2_2] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.909ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.909ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.910ms] [1] CORE: Upgrade snapshot FT2_2 completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.910ms] [0] iCDB Database: Snapshot [11:FT2_2] upgraded to version [4300] in [3ms 605us]
+[2023.07.07 17:22:16] [0000m.01s.910ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [11:FT2_2]
+[2023.07.07 17:22:16] [0000m.01s.913ms] [0] iCDB Database: Constraint definitions for snapshot [11:FT2_2] upgraded in [3ms 478us]
+[2023.07.07 17:22:16] [0000m.01s.913ms] [0] iCDB Database: Saving upgraded snapshot [11:FT2_2]
+[2023.07.07 17:22:16] [0000m.01s.914ms] [0] iCDB Database: Upgraded snapshot [11:FT2_2] saved in [496us]
+[2023.07.07 17:22:16] [0000m.01s.914ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.916ms] [1] Diagnostic: Snapshot [11:FT2_2] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.917ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s11\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.917ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s11\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.917ms] [0] iCDB Database: Upgrading snapshot [12:FT2_2_LDDTemp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.921ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.921ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.923ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.923ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.925ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.925ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.927ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.928ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.928ms] [1] CORE: Upgrade snapshot FT2_2_LDDTemp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.928ms] [0] iCDB Database: Snapshot [12:FT2_2_LDDTemp] upgraded to version [4300] in [10ms 466us]
+[2023.07.07 17:22:16] [0000m.01s.928ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [12:FT2_2_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.942ms] [0] iCDB Database: Constraint definitions for snapshot [12:FT2_2_LDDTemp] upgraded in [13ms 820us]
+[2023.07.07 17:22:16] [0000m.01s.942ms] [0] iCDB Database: Saving upgraded snapshot [12:FT2_2_LDDTemp]
+[2023.07.07 17:22:16] [0000m.01s.943ms] [0] iCDB Database: Upgraded snapshot [12:FT2_2_LDDTemp] saved in [802us]
+[2023.07.07 17:22:16] [0000m.01s.943ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.948ms] [1] Diagnostic: Snapshot [12:FT2_2_LDDTemp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.950ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s12\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.950ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s12\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.950ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s12\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.950ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s12\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.950ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s12\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.951ms] [0] iCDB Database: Upgrading snapshot [13:FT2_2_RefSync] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.954ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.954ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.954ms] [1] CORE: Upgrade snapshot FT2_2_RefSync completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.954ms] [0] iCDB Database: Snapshot [13:FT2_2_RefSync] upgraded to version [4300] in [3ms 484us]
+[2023.07.07 17:22:16] [0000m.01s.954ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [13:FT2_2_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.958ms] [0] iCDB Database: Constraint definitions for snapshot [13:FT2_2_RefSync] upgraded in [3ms 415us]
+[2023.07.07 17:22:16] [0000m.01s.958ms] [0] iCDB Database: Saving upgraded snapshot [13:FT2_2_RefSync]
+[2023.07.07 17:22:16] [0000m.01s.958ms] [0] iCDB Database: Upgraded snapshot [13:FT2_2_RefSync] saved in [496us]
+[2023.07.07 17:22:16] [0000m.01s.958ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.960ms] [1] Diagnostic: Snapshot [13:FT2_2_RefSync] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.961ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s13\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.961ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s13\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.961ms] [0] iCDB Database: Upgrading snapshot [14:FT2_2_layout_temp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.965ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.965ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.965ms] [1] CORE: Upgrade snapshot FT2_2_layout_temp completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.965ms] [0] iCDB Database: Snapshot [14:FT2_2_layout_temp] upgraded to version [4300] in [3ms 795us]
+[2023.07.07 17:22:16] [0000m.01s.965ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [14:FT2_2_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.969ms] [0] iCDB Database: Constraint definitions for snapshot [14:FT2_2_layout_temp] upgraded in [3ms 537us]
+[2023.07.07 17:22:16] [0000m.01s.969ms] [0] iCDB Database: Saving upgraded snapshot [14:FT2_2_layout_temp]
+[2023.07.07 17:22:16] [0000m.01s.969ms] [0] iCDB Database: Upgraded snapshot [14:FT2_2_layout_temp] saved in [550us]
+[2023.07.07 17:22:16] [0000m.01s.970ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.971ms] [1] Diagnostic: Snapshot [14:FT2_2_layout_temp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.972ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s14\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.972ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s14\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.973ms] [0] iCDB Database: Upgrading snapshot [15:FT2_3] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.976ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.976ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.976ms] [1] CORE: Upgrade snapshot FT2_3 completed successfully.
+[2023.07.07 17:22:16] [0000m.01s.976ms] [0] iCDB Database: Snapshot [15:FT2_3] upgraded to version [4300] in [3ms 542us]
+[2023.07.07 17:22:16] [0000m.01s.976ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [15:FT2_3]
+[2023.07.07 17:22:16] [0000m.01s.981ms] [0] iCDB Database: Constraint definitions for snapshot [15:FT2_3] upgraded in [5ms 49us]
+[2023.07.07 17:22:16] [0000m.01s.981ms] [0] iCDB Database: Saving upgraded snapshot [15:FT2_3]
+[2023.07.07 17:22:16] [0000m.01s.982ms] [0] iCDB Database: Upgraded snapshot [15:FT2_3] saved in [828us]
+[2023.07.07 17:22:16] [0000m.01s.983ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.01s.986ms] [1] Diagnostic: Snapshot [15:FT2_3] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.01s.988ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s15\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.988ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s15\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.01s.988ms] [0] iCDB Database: Upgrading snapshot [16:FT2_3_LDDTemp] from version [3900]
+[2023.07.07 17:22:16] [0000m.01s.995ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.995ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.01s.999ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.01s.999ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.02s.002ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.02s.002ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.02s.004ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.02s.004ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.02s.004ms] [1] CORE: Upgrade snapshot FT2_3_LDDTemp completed successfully.
+[2023.07.07 17:22:16] [0000m.02s.004ms] [0] iCDB Database: Snapshot [16:FT2_3_LDDTemp] upgraded to version [4300] in [15ms 983us]
+[2023.07.07 17:22:16] [0000m.02s.005ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [16:FT2_3_LDDTemp]
+[2023.07.07 17:22:16] [0000m.02s.018ms] [0] iCDB Database: Constraint definitions for snapshot [16:FT2_3_LDDTemp] upgraded in [13ms 561us]
+[2023.07.07 17:22:16] [0000m.02s.018ms] [0] iCDB Database: Saving upgraded snapshot [16:FT2_3_LDDTemp]
+[2023.07.07 17:22:16] [0000m.02s.019ms] [0] iCDB Database: Upgraded snapshot [16:FT2_3_LDDTemp] saved in [812us]
+[2023.07.07 17:22:16] [0000m.02s.019ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.02s.024ms] [1] Diagnostic: Snapshot [16:FT2_3_LDDTemp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.02s.026ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s16\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.026ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s16\cdbcnfgs\2000000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.026ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s16\cdbcnfgs\a900000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.026ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s16\cdbcnfgs\aa00000010000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.027ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s16\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.027ms] [0] iCDB Database: Upgrading snapshot [17:FT2_3_RefSync] from version [3900]
+[2023.07.07 17:22:16] [0000m.02s.030ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.02s.030ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.02s.030ms] [1] CORE: Upgrade snapshot FT2_3_RefSync completed successfully.
+[2023.07.07 17:22:16] [0000m.02s.030ms] [0] iCDB Database: Snapshot [17:FT2_3_RefSync] upgraded to version [4300] in [3ms 530us]
+[2023.07.07 17:22:16] [0000m.02s.030ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [17:FT2_3_RefSync]
+[2023.07.07 17:22:16] [0000m.02s.035ms] [0] iCDB Database: Constraint definitions for snapshot [17:FT2_3_RefSync] upgraded in [4ms 19us]
+[2023.07.07 17:22:16] [0000m.02s.035ms] [0] iCDB Database: Saving upgraded snapshot [17:FT2_3_RefSync]
+[2023.07.07 17:22:16] [0000m.02s.036ms] [0] iCDB Database: Upgraded snapshot [17:FT2_3_RefSync] saved in [1ms 28us]
+[2023.07.07 17:22:16] [0000m.02s.036ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.02s.038ms] [1] Diagnostic: Snapshot [17:FT2_3_RefSync] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.02s.039ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s17\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.039ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s17\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.039ms] [0] iCDB Database: Upgrading snapshot [18:FT2_3_layout_temp] from version [3900]
+[2023.07.07 17:22:16] [0000m.02s.042ms] [1] CORE: Applying a fix no 155 stage [fsAtlasLoaded] to atlas [varatl]
+[2023.07.07 17:22:16] [0000m.02s.042ms] [1] CORE: Atlas fixed stage [fsAtlasLoaded] successfully [varatl]
+[2023.07.07 17:22:16] [0000m.02s.042ms] [1] CORE: Upgrade snapshot FT2_3_layout_temp completed successfully.
+[2023.07.07 17:22:16] [0000m.02s.043ms] [0] iCDB Database: Snapshot [18:FT2_3_layout_temp] upgraded to version [4300] in [3ms 567us]
+[2023.07.07 17:22:16] [0000m.02s.043ms] [0] iCDB Database: Upgrading constraint definitions for snapshot [18:FT2_3_layout_temp]
+[2023.07.07 17:22:16] [0000m.02s.046ms] [0] iCDB Database: Constraint definitions for snapshot [18:FT2_3_layout_temp] upgraded in [3ms 438us]
+[2023.07.07 17:22:16] [0000m.02s.046ms] [0] iCDB Database: Saving upgraded snapshot [18:FT2_3_layout_temp]
+[2023.07.07 17:22:16] [0000m.02s.047ms] [0] iCDB Database: Upgraded snapshot [18:FT2_3_layout_temp] saved in [492us]
+[2023.07.07 17:22:16] [0000m.02s.047ms] [1] Diagnostic: Warning: group claims owner but it does not exist in ICDB
+[2023.07.07 17:22:16] [0000m.02s.049ms] [1] Diagnostic: Snapshot [18:FT2_3_layout_temp] integrity check FAILED
+[2023.07.07 17:22:16] [0000m.02s.050ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s18\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.050ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\s18\cdbcnfgs\aa00000020000050.blk\varatl.v] - auto-saving it
+[2023.07.07 17:22:16] [0000m.02s.050ms] [0] iCDB Database: Constraint definitions upgraded to version [ce_ee.cns=7.10.77]
+[2023.07.07 17:22:16] [0000m.02s.109ms] [0] iCDB Server PI: Initializing plugins
+[2023.07.07 17:22:16] [0000m.02s.124ms] [0] iCDB Server PI: Plugins initialized
+[2023.07.07 17:22:16] [0000m.02s.124ms] [0] S: iCDB database loaded
+[2023.07.07 17:22:16] [0000m.02s.128ms] [0] S: Starting threads
+[2023.07.07 17:22:16] [0000m.02s.128ms] [0] BT: Listening for broadcast messages on port [10000]
+[2023.07.07 17:22:16] [0000m.02s.130ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2023.07.07 17:22:16] [0000m.02s.131ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2023.07.07 17:22:16] [0000m.02s.134ms] [0] IT: Session [1491] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [18092] created
+[2023.07.07 17:22:16] [0000m.02s.136ms] [1] SC[1491]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1491] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:16] [0000m.02s.139ms] [0] MWT: WindowProc: WM_NCCREATE
+[2023.07.07 17:22:16] [0000m.02s.149ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBLAP168] user [MBorgagni] with process ID [8072] created
+[2023.07.07 17:22:16] [0000m.02s.149ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2023.07.07 17:22:16] [0000m.02s.158ms] [1] SC[1491]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1491] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:16] [0000m.02s.232ms] [1] CMT: There are [1] clients now: 1491
+[2023.07.07 17:22:16] [0000m.02s.232ms] [1] CMT: Removed client [1491]
+[2023.07.07 17:22:16] [0000m.02s.232ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.07.07 17:22:17] [0000m.02s.665ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2023.07.07 17:22:17] [0000m.02s.723ms] [0] IT: Session [1492] for host [IITICUBLAP168] user [MBorgagni] client type[0] clsvrPluginID[0] with process ID [18092] created
+[2023.07.07 17:22:17] [0000m.02s.725ms] [1] SC[1492]: Registered sub-client [PADSLayout] with ID [1] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:17] [0000m.02s.741ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBLAP168] # ClientUserName[MBorgagni] # ClientProcessID[18092] # SessionID[1492] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\FT2R.prj], global path [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\FT2R.prj]
+[2023.07.07 17:22:17] [0000m.02s.798ms] [0] PrjBackupMgr: Migrating iCDB upgrade backups from directory [FT2R\database\cdbback] to Project Backup format.
+[2023.07.07 17:22:17] [0000m.02s.807ms] [0] PrjBackupMgr: WARNING: Ignoring iCDB backup file [2023-07-07 17.22.16-22896-u.zip] - will not be migrated.
+[2023.07.07 17:22:17] [0000m.02s.938ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\ProjectBackup\backups\2023-07-07 17.22.17 - upgrade.zip] with GUID [d922-1d16-9869-c20a-9ad2-8a4f-ad28-a460-a304-c131-0e3b-0aba]
+[2023.07.07 17:22:17] [0000m.02s.945ms] [1] PrjBackupMgr: Migrated iCDB content backup file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\cdbback\2023-07-07 17.22.16-22896-u.zip] removed
+[2023.07.07 17:22:17] [0000m.02s.945ms] [1] SC[1492]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:18] [0000m.03s.708ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\ProjectBackup\backups\2023-07-07 17.22.17 - auto.zip] with GUID [41f5-0d45-ec1f-bbcf-9ad2-8a4f-ad28-a460-2c97-c131-0e3b-0aba]
+[2023.07.07 17:22:18] [0000m.03s.715ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[7ec0-253a-0f27-dde5-f10e-6245-20e6-2460-6808-c131-0e3b-0aba] CreationTime[Friday, March 31, 2023 13:29:03] Type[Autosave] Creator[iCDB Server (2023-03-31 15.29.02-24128)] ApplicationName[iCDB Server (2023-03-31 15.29.02-24128)] UserName[MBorgagni] MachineName[IITICUBLAP168] Description[Autosave] FullFlowName[PADS VX.2.8; PADS VX.2.8 - Update 11] FlowId[PADSVX.2.8] GBSInstallId[2255257; 2425890] GBSBuildId[19808986] IcdbVersion[3900] ReferenceLogFilePath[] BackupFilePath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\ProjectBackup\backups\2023-03-31 15.29.03 - auto.zip] BackupFileSize[1979522] Persistent[FALSE]
+[2023.07.07 17:22:18] [0000m.03s.722ms] [0] PrjBackupMgr: Project Backup file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\ProjectBackup\backups\2023-03-31 15.29.03 - auto.zip] with GUID [7ec0-253a-0f27-dde5-f10e-6245-20e6-2460-6808-c131-0e3b-0aba] removed
+[2023.07.07 17:22:18] [0000m.03s.723ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[41f5-0d45-ec1f-bbcf-9ad2-8a4f-ad28-a460-2c97-c131-0e3b-0aba] CreationTime[Friday, July 07, 2023 15:22:17] Type[Autosave] Creator[iCDB Server (2023-07-07 17.22.14-22896)] ApplicationName[iCDB Server (2023-07-07 17.22.14-22896)] UserName[MBorgagni] MachineName[IITICUBLAP168] Description[Autosave] FullFlowName[PADS VX.2.13] FlowId[PADSVX.2.13] GBSInstallId[2572135] GBSBuildId[22184707] IcdbVersion[4300] ReferenceLogFilePath[] BackupFilePath[C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\ProjectBackup\backups\2023-07-07 17.22.17 - auto.zip] BackupFileSize[1954376] Persistent[FALSE]
+[2023.07.07 17:22:19] [0000m.05s.117ms] [1] SC[1492]: Registered sub-client [StartServerClient205c] with ID [3] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:19] [0000m.05s.118ms] [1] SC[1492]: UnRegistered sub-client [StartServerClient205c] with ID [3] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:22] [0000m.07s.715ms] [1] SC[1492]: Registered sub-client [StartServerClient205c] with ID [4] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:22:22] [0000m.07s.715ms] [1] SC[1492]: UnRegistered sub-client [StartServerClient205c] with ID [4] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:23:57] [0001m.42s.937ms] [0] DFAMT: File server access time: 178 us
+[2023.07.07 17:39:08] [0016m.53s.413ms] [1] SC[1492]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:39:08] [0016m.53s.416ms] [1] SC[1492]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1492] host [IITICUBLAP168] user [MBorgagni] process ID [18092]
+[2023.07.07 17:39:08] [0016m.53s.429ms] [1] CMT: Removed client [1492]
+[2023.07.07 17:39:08] [0016m.53s.429ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.07.07 17:39:08] [0016m.53s.851ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2023.07.07 17:39:10] [0016m.55s.466ms] [0] CMT: Starting server auto-close
+[2023.07.07 17:39:10] [0016m.55s.535ms] [0] S: Closing server
+[2023.07.07 17:39:10] [0016m.55s.620ms] [0] iCDB Server PI: Closing plugins
+[2023.07.07 17:39:10] [0016m.55s.620ms] [0] iCDB Server PI: Plugins closed
+[2023.07.07 17:39:10] [0016m.55s.620ms] [0] iCDB Server PI: Unloading database
+[2023.07.07 17:39:10] [0016m.55s.629ms] [0] iCDB Server PI: Saving storage
+[2023.07.07 17:39:10] [0016m.55s.629ms] [0] iCDB Server PI: Closing database
+[2023.07.07 17:39:10] [0016m.55s.632ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[1%] data[79%]
+[2023.07.07 17:39:10] [0016m.55s.632ms] [1] iCDB Server PI: Stats: Database file size [552168 (539.2 kB)]
+[2023.07.07 17:39:10] [0016m.55s.654ms] [0] iCDB Server PI: Database closed
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [303192] ticks
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [30319] microseconds
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3]
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [98] commands per second
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: Mem[40923136]
+[2023.07.07 17:39:10] [0016m.55s.654ms] [1] iCDB Server PI: Stats: MemPeak[48128000]
+[2023.07.07 17:39:10] [0016m.55s.663ms] [0] Single file [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat] closed with size [552168 (539.2 kB)]
+[2023.07.07 17:39:10] [0016m.55s.720ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2023.07.07 17:39:10] [0016m.56s.099ms] [0] MWT: Destroy the shutdown block reason.
+[2023.07.07 17:39:10] [0016m.56s.102ms] [0] MWT: STOP
+[2023.07.07 17:39:10] [0016m.56s.103ms] [0] S: STOP

@@ -1,0 +1,91 @@
+[2023.03.28 18:10:08] [0000m.48s.748ms] [0] WELCOME
+[2023.03.28 18:10:08] [0000m.48s.751ms] [1] iCDB Database ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2023.03.28 18:10:08] [0000m.48s.751ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2023.03.28 18:10:08] [0000m.48s.751ms] [1] Base flow version [VX.2.8]
+[2023.03.28 18:10:08] [0000m.48s.751ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2023.03.28 18:10:08] [0000m.48s.751ms] [1] UPDATE Install Info, Install Id [2425890], UPDATE Name [PADS VX.2.8 - Update 11]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.13,127.0.0.1]  User [MBorgagni]  PID [17948]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] Current working dir [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] SDD_PLATFORM [win32]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] WARNING: Database [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat] was manually copied
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] File change time:        [2023-03-20 13.22.31]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] File modification time:  [2023-03-21 18.00.08]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Last change time:        [2023-03-20 18.51.42]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Last database open information:
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Time:             [2023-03-20 18.45.32]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Location:         [D:\icub-tech-iit\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Machine:          [IITICUBWS055]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] User:             [SDussoni]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] PID:              [20696]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Application:      [iCDB Server]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19045)]
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] WARNING: Regenerating database GUID
+[2023.03.28 18:10:08] [0000m.48s.752ms] [3] Previous database GUID [8a00-13ed-d9e5-332d-8114-314e-1143-1460-f8aa-3854-ad3e-ec7e]
+[2023.03.28 18:10:08] [0000m.48s.753ms] [3] Current database GUID  [dbf9-3e64-7057-5342-0611-3246-6113-2460-e2e5-c131-0e3b-0aba]
+[2023.03.28 18:10:08] [0000m.48s.753ms] [0] .
+[2023.03.28 18:10:08] [0000m.48s.767ms] [0] WELCOME
+[2023.03.28 18:10:08] [0000m.48s.767ms] [1] iCDB Database ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2023.03.28 18:10:08] [0000m.48s.767ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2023.03.28 18:10:08] [0000m.48s.767ms] [1] Base flow version [VX.2.8]
+[2023.03.28 18:10:08] [0000m.48s.767ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2023.03.28 18:10:08] [0000m.48s.767ms] [1] UPDATE Install Info, Install Id [2425890], UPDATE Name [PADS VX.2.8 - Update 11]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.13,127.0.0.1]  User [MBorgagni]  PID [17948]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] Current working dir [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] SDD_PLATFORM [win32]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] File change time:        [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] File modification time:  [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Last change time:        [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Last database open information:
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Time:             [2023-03-20 18.45.32]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Location:         [D:\icub-tech-iit\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Machine:          [IITICUBWS055]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] User:             [SDussoni]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] PID:              [20696]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Application:      [iCDB Server]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19045)]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Database GUID must be regenerated
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Previous database GUID [dbf9-3e64-7057-5342-0611-3246-6113-2460-e2e5-c131-0e3b-0aba]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [3] Current database GUID  [b231-e76a-b981-fdee-0611-3246-6113-2460-e2e5-c131-0e3b-0aba]
+[2023.03.28 18:10:08] [0000m.48s.768ms] [0] .
+[2023.03.28 18:10:08] [0000m.48s.783ms] [0] WELCOME
+[2023.03.28 18:10:08] [0000m.48s.783ms] [1] iCDB Database ver.2.208, SSny6Dh8ecHJyuaG+jRaxg, build:19808986 created 2021-12-01 16:35:59, sources stamp:SSny6Dh8ecHJyuaG+jRaxg
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] Base flow version [VX.2.8]
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] UPDATE Install Info, Install Id [2425890], UPDATE Name [PADS VX.2.8 - Update 11]
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] Machine [IITICUBLAP168]  IP [10.240.11.13,127.0.0.1]  User [MBorgagni]  PID [17948]
+[2023.03.28 18:10:08] [0000m.48s.784ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] Current working dir [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\right\FT2R]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MATLAB\R2019b\runtime\win64;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\MBorgagni\AppData\Local\Programs\Python\Python37\;C:\Users\MBorgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.5\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\MBorgagni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] SDD_PLATFORM [win32]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] WDIR [C:\PADS Projects;\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [1] Corporate iCDB working dir [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\iCubWDIR\iCDB] on file system [NTFS]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] File change time:        [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] File modification time:  [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Last change time:        [2023-03-28 18.10.08]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Last database open information:
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Time:             [2023-03-20 18.45.32]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Location:         [D:\icub-tech-iit\electronics-boards\ft2\pads\Rev_D\right\FT2R\database\icdb.dat]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Machine:          [IITICUBWS055]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] User:             [SDussoni]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] PID:              [20696]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Application:      [iCDB Server]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19045)]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Database GUID must be regenerated
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Previous database GUID [b231-e76a-b981-fdee-0611-3246-6113-2460-e2e5-c131-0e3b-0aba]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [3] Current database GUID  [fe1c-6a0e-1aea-9327-0611-3246-6113-2460-e2e5-c131-0e3b-0aba]
+[2023.03.28 18:10:08] [0000m.48s.785ms] [0] .

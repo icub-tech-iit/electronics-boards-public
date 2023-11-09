@@ -1,0 +1,292 @@
+[2022.06.13 16:09:04] [0000m.00s.021ms] [0] WELCOME
+[2022.06.13 16:09:04] [0000m.00s.021ms] [1] iCDB Server ver.2.208, 5rMF46BATRyLeSytL5vq7A, build:17854834 created 2021-01-15 09:25:22, sources stamp:5rMF46BATRyLeSytL5vq7A
+[2022.06.13 16:09:04] [0000m.00s.021ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2022.06.13 16:09:04] [0000m.00s.021ms] [1] Base flow version [VX.2.8]
+[2022.06.13 16:09:04] [0000m.00s.021ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2022.06.13 16:09:04] [0000m.00s.021ms] [1] UPDATE Install Info, Install Id [2296475], UPDATE Name [PADS VX.2.8 - Update 2]
+[2022.06.13 16:09:04] [0000m.00s.033ms] [1] Machine [IITICUBWS055]  IP [10.240.11.11,127.0.0.1,172.23.240.1]  User [SDussoni]  PID [19628]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] Operating system [Microsoft Windows 10 Enterprise Edition, 64-bit (build 19042)]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] Current working dir [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_C\FTX2_RevC]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;C:\Program Files (x86)\YARP\bin;C:\Program Files (x86)\YARP\lib;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Users\SDussoni\AppData\Local\Microsoft\WindowsApps;C:\Users\SDussoni\AppData\Local\GitHubDesktop\bin;C:\Program Files\robotology\ipopt-3.12.7\bin;C:\Program Files\robotology\sdl-1.2.15\lib;C:\Program Files\robotology\glut-3.7.6;C:\Program Files (x86)\robotology\ACE-6.5.0_v14_x86\bin;C:\Program Files (x86)\robotology\opencv-3.4.2-v14-x86\bin;C:\Program Files (x86)\robotology\Qt-5.11.1_v14_x86\bin;C:\Program Files (x86)\robotology\libjpeg-turbo-1.5.3_x86\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD;C:\Users\SDussoni\AppData\Local\Microsoft\WindowsApps;C:\robotology\vcpkg\installed\x64-windows\bin;C:\robotology\vcpkg\installed\x64-windows\debug\bin;C:\robotology\gazebo\install\bin\gazebo-11\plugins;C:\robotology\gazebo\install\bin;C:\robotology\robotology\bin;C:\robotology\robotology\lib\robottestingframework;C:\Users\SDussoni\AppData\Local\Programs\Microsoft VS Code\bin]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] SDD_PLATFORM [win32]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2022.06.13 16:09:04] [0000m.00s.034ms] [2] S: Loading config files
+[2022.06.13 16:09:04] [0000m.00s.045ms] [1] Config file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\cdbsvr\Server.cfg] not found
+[2022.06.13 16:09:04] [0000m.00s.046ms] [3] S: Config loaded
+[2022.06.13 16:09:04] [0000m.00s.057ms] [0] S: Project path [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] on file system [NTFS]
+[2022.06.13 16:09:04] [0000m.00s.057ms] [1] S: WARNING: No project file (.prj) path specified
+[2022.06.13 16:09:04] [0000m.00s.057ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2022.06.13 16:09:04] [0000m.00s.057ms] [0] S: Single-user mode (auto)
+[2022.06.13 16:09:04] [0000m.00s.057ms] [0] S: Event polling mode autodetection
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: Started up automatically by iCDB Client: IITICUBWS055:SDussoni:29692
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: Auto close mode
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: Database ID [516d-ff60-b1ed-d817-f144-7a25-2447-a260-174b-08f6-ad6e-ec8e]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: BEGIN dumping
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: Local -> global path prefix list
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [C:\Users] -> [\\IITICUBWS055\Users]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [P:\] -> [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [Z:\] -> [\\10.255.8.30\public\]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: Global -> local path prefix list
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [\\iiticubstor01.iit.local\icub-tech\silo-electronics\pads\] -> [P:\]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [\\10.255.8.30\public\] -> [Z:\]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: [\\IITICUBWS055\Users] -> [C:\Users]
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] PathTranslator: END dumping
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: START
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: Server startup lock file created
+[2022.06.13 16:09:04] [0000m.00s.058ms] [0] S: Listening for client connections on port [10001]
+[2022.06.13 16:09:04] [0000m.00s.059ms] [0] S: Server network ID [IITICUBWS055:10.240.11.11,172.23.240.1,IITICUBWS055,IITICUBWS055.iit.local:10001]
+[2022.06.13 16:09:04] [0000m.00s.059ms] [0] S: Server GUID [54c0-8285-35ee-ffa5-0054-7a26-0547-a260-164f-08f6-ad6e-ec8e]
+[2022.06.13 16:09:04] [0000m.00s.059ms] [0] S: Project GUID [516d-ff60-b1ed-d817-f144-7a25-2447-a260-174b-08f6-ad6e-ec8e]
+[2022.06.13 16:09:04] [0000m.00s.065ms] [0] S: Wrote data to server address file
+[2022.06.13 16:09:04] [0000m.00s.065ms] [0] S: Server startup lock file removed
+[2022.06.13 16:09:04] [0000m.00s.065ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2022.06.13 16:09:04] [0000m.00s.224ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2022.06.13 16:09:04] [0000m.00s.224ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\iCDB\win32\bin]
+[2022.06.13 16:09:04] [0000m.00s.224ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin]
+[2022.06.13 16:09:04] [0000m.00s.225ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2022.06.13 16:09:04] [0000m.00s.225ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2022.06.13 16:09:04] [0000m.00s.225ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2022.06.13 16:09:04] [0000m.00s.226ms] [0] S: Local disc access time: 37 us
+[2022.06.13 16:09:04] [0000m.00s.226ms] [0] S: File server access time: 31 us
+[2022.06.13 16:09:04] [0000m.00s.226ms] [0] Single file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\icdb.dat] size [655784 (640.4 kB)]
+[2022.06.13 16:09:04] [0000m.00s.227ms] [1] Single file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\icdb.dat] opened in read-write mode
+[2022.06.13 16:09:04] [0000m.00s.227ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.227ms] [0] Database GUARD OK: [655784]
+[2022.06.13 16:09:04] [0000m.00s.227ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.227ms] [0] Database GUARD OK: [655784]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] Database GUARD OK: [655784]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] Database GUARD OK: [655784]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] Database GUARD OK: [655784]
+[2022.06.13 16:09:04] [0000m.00s.236ms] [0] SingleFile: [5aec-729c-7393-7806] SFI version check [1009] [1009]
+[2022.06.13 16:09:04] [0000m.00s.253ms] [0] SingleFile: [5aec-729c-7393-7806] Database SFI header has been read in [17ms 126us]
+[2022.06.13 16:09:04] [0000m.00s.257ms] [0] iCDB Server PI: Server & plugin session [652]
+[2022.06.13 16:09:04] [0000m.00s.257ms] [0] iCDB Server PI: Opening database [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:09:04] [0000m.00s.257ms] [0] iCDB Server PI: Database [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] opened
+[2022.06.13 16:09:04] [0000m.00s.300ms] [0] iCDB Database: Checking existence of constraint definitions
+[2022.06.13 16:09:04] [0000m.00s.300ms] [0] iCDB Database: Checking constraint definitions version
+[2022.06.13 16:09:04] [0000m.00s.324ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.75] up to date
+[2022.06.13 16:09:04] [0000m.00s.328ms] [0] iCDB Server PI: Initializing plugins
+[2022.06.13 16:09:04] [0000m.00s.328ms] [0] iCDB Server PI: Plugins initialized
+[2022.06.13 16:09:04] [0000m.00s.328ms] [0] S: iCDB database loaded
+[2022.06.13 16:09:04] [0000m.00s.329ms] [0] S: Starting threads
+[2022.06.13 16:09:04] [0000m.00s.330ms] [0] BT: Listening for broadcast messages on port [10000]
+[2022.06.13 16:09:04] [0000m.00s.330ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2022.06.13 16:09:04] [0000m.00s.330ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2022.06.13 16:09:04] [0000m.00s.332ms] [0] IT: Session [653] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [29692] created
+[2022.06.13 16:09:04] [0000m.00s.332ms] [1] SCL: WARNING: Could not find client [653] stat data
+[2022.06.13 16:09:04] [0000m.00s.333ms] [0] MWT: WindowProc: WM_NCCREATE
+[2022.06.13 16:09:04] [0000m.00s.333ms] [1] SC[653]: Registered sub-client [iCDBConnector] with ID [1] for session ID [653] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:04] [0000m.00s.348ms] [0] IT: iCDB Server Monitor session [1] for host [IITICUBWS055] user [SDussoni] with process ID [17496] created
+[2022.06.13 16:09:04] [0000m.00s.348ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2022.06.13 16:09:04] [0000m.00s.361ms] [1] SC[653]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [653] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:04] [0000m.00s.440ms] [1] CMT: There are [1] clients now: 653
+[2022.06.13 16:09:04] [0000m.00s.440ms] [1] CMT: Removed client [653]
+[2022.06.13 16:09:04] [0000m.00s.440ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2022.06.13 16:09:05] [0000m.00s.857ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2022.06.13 16:09:05] [0000m.00s.880ms] [0] IT: Session [654] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [29692] created
+[2022.06.13 16:09:05] [0000m.00s.882ms] [1] SC[654]: Registered sub-client [PADSLayout] with ID [1] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:05] [0000m.00s.896ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[29692] # SessionID[654] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\FTX2.prj], global path [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\FTX2.prj]
+[2022.06.13 16:09:05] [0000m.00s.973ms] [1] SC[654]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:06] [0000m.01s.955ms] [1] SC[654]: Registered sub-client [StartServerClient8418] with ID [3] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:06] [0000m.01s.955ms] [1] SC[654]: UnRegistered sub-client [StartServerClient8418] with ID [3] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:09] [0000m.04s.510ms] [1] SC[654]: Registered sub-client [StartServerClient8418] with ID [4] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:09] [0000m.04s.511ms] [1] SC[654]: UnRegistered sub-client [StartServerClient8418] with ID [4] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:09] [0000m.05s.077ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:09:26] [0000m.21s.805ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_50325384] with ID [5] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:26] [0000m.21s.806ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_50325384] with ID [5] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:27] [0000m.23s.037ms] [0] IT: Session [655] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [28368] created
+[2022.06.13 16:09:27] [0000m.23s.038ms] [1] SC[655]: Registered sub-client [Packager_1381182046] with ID [1] for session ID [655] host [IITICUBWS055] user [SDussoni] process ID [28368]
+[2022.06.13 16:09:27] [0000m.23s.073ms] [1] CMT: There are [2] clients now: 654, 655
+[2022.06.13 16:09:27] [0000m.23s.245ms] [1] SC[655]: UnRegistered sub-client [Packager_1381182046] with ID [1] for session ID [655] host [IITICUBWS055] user [SDussoni] process ID [28368]
+[2022.06.13 16:09:27] [0000m.23s.289ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:09:27] [0000m.23s.289ms] [1] CMT: Removed client [655]
+[2022.06.13 16:09:27] [0000m.23s.289ms] [1] CMT: There are [1] clients now: 654
+[2022.06.13 16:09:28] [0000m.23s.726ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:09:28] [0000m.23s.956ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[29692] # SessionID[654] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:09:28] [0000m.24s.077ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:09:28] [0000m.24s.078ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[29692] # SessionID[654] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:09:28] [0000m.24s.102ms] [1] SC[654]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [6] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.296ms] [1] SC[654]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [6] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.318ms] [1] SC[654]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [7] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.359ms] [1] SC[654]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [7] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.381ms] [1] SC[654]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [8] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.422ms] [1] SC[654]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [8] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.450ms] [1] SC[654]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:28] [0000m.24s.485ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s6\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:09:28] [0000m.24s.485ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s6\cdbcatlg\grpobj] - auto-saving it
+[2022.06.13 16:09:28] [0000m.24s.485ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s6\uids] - auto-saving it
+[2022.06.13 16:09:29] [0000m.24s.499ms] [1] SC[654]: Registered sub-client [iCESPI.PADSLayout] with ID [9] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:32] [0000m.28s.360ms] [0] IT: Session [656] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [10636] created
+[2022.06.13 16:09:32] [0000m.28s.361ms] [1] SC[656]: Registered sub-client [GenerateECO] with ID [1] for session ID [656] host [IITICUBWS055] user [SDussoni] process ID [10636]
+[2022.06.13 16:09:32] [0000m.28s.397ms] [1] SC[656]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [656] host [IITICUBWS055] user [SDussoni] process ID [10636]
+[2022.06.13 16:09:32] [0000m.28s.450ms] [1] CMT: There are [2] clients now: 654, 656
+[2022.06.13 16:09:32] [0000m.28s.452ms] [1] CMT: Removed client [656]
+[2022.06.13 16:09:32] [0000m.28s.452ms] [1] CMT: There are [1] clients now: 654
+[2022.06.13 16:09:33] [0000m.28s.990ms] [1] SC[654]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [9] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.28s.996ms] [1] SC[654]: Registered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.363ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_50325188] with ID [11] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.363ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_50325188] with ID [11] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.383ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_50323916] with ID [12] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.383ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_50323916] with ID [12] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.387ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_User_430616212] with ID [13] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.402ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_User_430616468] with ID [14] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.426ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_User_430616468] with ID [14] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.429ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_User_430616212] with ID [13] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.463ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_User_430616212] with ID [15] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.468ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_User_430616212] with ID [15] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.486ms] [1] SC[654]: Registered sub-client [EEVM_EEVM_User_430616212] with ID [16] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:33] [0000m.29s.491ms] [1] SC[654]: UnRegistered sub-client [EEVM_EEVM_User_430616212] with ID [16] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:34] [0000m.29s.678ms] [1] SC[654]: Registered sub-client [StartServerClient8418] with ID [17] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:34] [0000m.29s.679ms] [1] SC[654]: UnRegistered sub-client [StartServerClient8418] with ID [17] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:34] [0000m.29s.683ms] [1] SC[654]: Registered sub-client [StartServerClient8418] with ID [18] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:34] [0000m.29s.683ms] [1] SC[654]: UnRegistered sub-client [StartServerClient8418] with ID [18] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:09:34] [0000m.29s.691ms] [0] DFAMT: File server access time: 43 us
+[2022.06.13 16:09:34] [0000m.30s.076ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:12:22] [0003m.18s.468ms] [0] IT: Session [657] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [19696] created
+[2022.06.13 16:12:22] [0003m.18s.469ms] [1] SC[657]: Registered sub-client [iCDBConnector] with ID [1] for session ID [657] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:22] [0003m.18s.488ms] [1] SC[657]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [657] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:23] [0003m.18s.536ms] [1] CMT: There are [2] clients now: 654, 657
+[2022.06.13 16:12:23] [0003m.18s.536ms] [1] CMT: Removed client [657]
+[2022.06.13 16:12:23] [0003m.18s.536ms] [1] CMT: There are [1] clients now: 654
+[2022.06.13 16:12:23] [0003m.19s.004ms] [0] IT: Session [658] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [19696] created
+[2022.06.13 16:12:23] [0003m.19s.006ms] [1] SC[658]: Registered sub-client [PADSLayout] with ID [1] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:23] [0003m.19s.020ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:23] [0003m.19s.079ms] [1] CMT: There are [2] clients now: 654, 658
+[2022.06.13 16:12:25] [0003m.20s.997ms] [1] SC[658]: Registered sub-client [StartServerClient1cf8] with ID [3] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:25] [0003m.20s.998ms] [1] SC[658]: UnRegistered sub-client [StartServerClient1cf8] with ID [3] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:25] [0003m.21s.001ms] [1] SC[658]: Registered sub-client [StartServerClient1cf8] with ID [4] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:25] [0003m.21s.001ms] [1] SC[658]: UnRegistered sub-client [StartServerClient1cf8] with ID [4] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:26] [0003m.21s.568ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:12:29] [0003m.25s.041ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_50325384] with ID [5] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:29] [0003m.25s.042ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_50325384] with ID [5] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:29] [0003m.25s.344ms] [0] IT: Session [659] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [17576] created
+[2022.06.13 16:12:29] [0003m.25s.345ms] [1] SC[659]: Registered sub-client [Packager_1381364343] with ID [1] for session ID [659] host [IITICUBWS055] user [SDussoni] process ID [17576]
+[2022.06.13 16:12:29] [0003m.25s.371ms] [1] CMT: There are [3] clients now: 654, 658, 659
+[2022.06.13 16:12:30] [0003m.25s.523ms] [1] SC[659]: UnRegistered sub-client [Packager_1381364343] with ID [1] for session ID [659] host [IITICUBWS055] user [SDussoni] process ID [17576]
+[2022.06.13 16:12:30] [0003m.25s.594ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:12:30] [0003m.25s.594ms] [1] CMT: Removed client [659]
+[2022.06.13 16:12:30] [0003m.25s.594ms] [1] CMT: There are [2] clients now: 654, 658
+[2022.06.13 16:12:30] [0003m.26s.203ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:12:30] [0003m.26s.391ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[19696] # SessionID[658] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:12:30] [0003m.26s.440ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[19696] # SessionID[658] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:12:30] [0003m.26s.445ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:12:30] [0003m.26s.470ms] [1] SC[658]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [6] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.573ms] [1] SC[658]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [6] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.594ms] [1] SC[658]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [7] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.637ms] [1] SC[658]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [7] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.658ms] [1] SC[658]: Registered sub-client [iCESPI.SyncLayoutRules] with ID [8] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.700ms] [1] SC[658]: UnRegistered sub-client [iCESPI.SyncLayoutRules] with ID [8] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.728ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:31] [0003m.26s.762ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s10\cdbcatlg\catlgatl.v] - auto-saving it
+[2022.06.13 16:12:31] [0003m.26s.763ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s10\cdbcatlg\grpobj] - auto-saving it
+[2022.06.13 16:12:31] [0003m.26s.763ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\s10\uids] - auto-saving it
+[2022.06.13 16:12:31] [0003m.26s.777ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [9] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:34] [0003m.30s.107ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:12:34] [0003m.30s.117ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:12:34] [0003m.30s.306ms] [0] IT: Session [660] for host [IITICUBWS055] user [SDussoni] client type[0] clsvrPluginID[0] with process ID [29912] created
+[2022.06.13 16:12:34] [0003m.30s.306ms] [1] SC[660]: Registered sub-client [GenerateECO] with ID [1] for session ID [660] host [IITICUBWS055] user [SDussoni] process ID [29912]
+[2022.06.13 16:12:34] [0003m.30s.327ms] [1] CMT: There are [3] clients now: 654, 658, 660
+[2022.06.13 16:12:34] [0003m.30s.343ms] [1] SC[660]: UnRegistered sub-client [GenerateECO] with ID [1] for session ID [660] host [IITICUBWS055] user [SDussoni] process ID [29912]
+[2022.06.13 16:12:34] [0003m.30s.439ms] [1] CMT: Removed client [660]
+[2022.06.13 16:12:34] [0003m.30s.439ms] [1] CMT: There are [2] clients now: 654, 658
+[2022.06.13 16:12:35] [0003m.31s.041ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [9] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:35] [0003m.31s.048ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.935ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_50325188] with ID [11] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.935ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_50325188] with ID [11] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.953ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_50323916] with ID [12] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.953ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_50323916] with ID [12] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.956ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_User_439921436] with ID [13] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.970ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_User_439922204] with ID [14] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.994ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_User_439922204] with ID [14] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.31s.997ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_User_439921436] with ID [13] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.031ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_User_439916828] with ID [15] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.036ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_User_439916828] with ID [15] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.054ms] [1] SC[658]: Registered sub-client [EEVM_EEVM_User_439919132] with ID [16] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.058ms] [1] SC[658]: UnRegistered sub-client [EEVM_EEVM_User_439919132] with ID [16] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.281ms] [1] SC[658]: Registered sub-client [StartServerClient1cf8] with ID [17] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.282ms] [1] SC[658]: UnRegistered sub-client [StartServerClient1cf8] with ID [17] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.286ms] [1] SC[658]: Registered sub-client [StartServerClient1cf8] with ID [18] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:36] [0003m.32s.286ms] [1] SC[658]: UnRegistered sub-client [StartServerClient1cf8] with ID [18] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:12:37] [0003m.32s.683ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:15:27] [0006m.22s.847ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:27] [0006m.22s.854ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [19] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:27] [0006m.23s.325ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [19] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:27] [0006m.23s.330ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [20] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:31] [0006m.26s.511ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [20] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:31] [0006m.26s.517ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [21] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:31] [0006m.26s.945ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [21] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:15:31] [0006m.26s.950ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [22] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:24:54] [0015m.49s.886ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [22] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:24:54] [0015m.49s.897ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [23] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:24:54] [0015m.50s.368ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [23] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:24:54] [0015m.50s.374ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [24] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:20] [0016m.15s.710ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [24] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:20] [0016m.15s.716ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [25] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:20] [0016m.16s.200ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [25] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:20] [0016m.16s.206ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [26] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:22] [0016m.17s.679ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [26] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:22] [0016m.17s.686ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [27] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:22] [0016m.18s.158ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [27] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:22] [0016m.18s.164ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [28] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:23] [0016m.19s.095ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [28] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:23] [0016m.19s.101ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [29] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:24] [0016m.19s.527ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [29] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:24] [0016m.19s.533ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [30] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:41] [0016m.36s.586ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [30] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:41] [0016m.36s.592ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [31] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:41] [0016m.37s.064ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [31] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:41] [0016m.37s.070ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [32] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:43] [0016m.38s.726ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [32] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:43] [0016m.38s.732ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [33] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:43] [0016m.39s.171ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [33] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:25:43] [0016m.39s.177ms] [1] SC[658]: Registered sub-client [iCESPI.PADSLayout] with ID [34] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:29:34] [0020m.30s.128ms] [1] iCDB Storage Server: Backup queued: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[29692] # SessionID[654] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] BackupPath[C:\PADS Projects\database] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:29:34] [0020m.30s.254ms] [1] iCDB Storage Server Backup Thread: Backup done: NetSubClientData[ClientData[ClientNetAddress[IITICUBWS055] # ClientUserName[SDussoni] # ClientProcessID[29692] # SessionID[654] # Type[0]] # SubClientData[SubClientName[PADSLayout] # SubClientID[1]]] BackupPath[C:\PADS Projects] WithLogFiles[0] Overwrite[1]
+[2022.06.13 16:32:25] [0023m.20s.496ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:32:25] [0023m.20s.502ms] [0] iCDB Storage Server: WARNING: Pending removed files while trying to copy snapshot files: ProjectPath[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Src[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] Dst[D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database]
+[2022.06.13 16:32:29] [0023m.24s.726ms] [1] SC[658]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [34] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:32:29] [0023m.24s.729ms] [1] SC[658]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [658] host [IITICUBWS055] user [SDussoni] process ID [19696]
+[2022.06.13 16:32:29] [0023m.24s.788ms] [1] CMT: Removed client [658]
+[2022.06.13 16:32:29] [0023m.24s.788ms] [1] CMT: There are [1] clients now: 654
+[2022.06.13 16:32:36] [0023m.32s.380ms] [1] SC[654]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [10] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:32:36] [0023m.32s.382ms] [1] SC[654]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [654] host [IITICUBWS055] user [SDussoni] process ID [29692]
+[2022.06.13 16:32:36] [0023m.32s.393ms] [1] CMT: Removed client [654]
+[2022.06.13 16:32:36] [0023m.32s.393ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2022.06.13 16:32:37] [0023m.32s.687ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2022.06.13 16:32:38] [0023m.33s.582ms] [0] CMT: Starting server auto-close
+[2022.06.13 16:32:38] [0023m.33s.630ms] [0] S: Closing server
+[2022.06.13 16:32:38] [0023m.33s.737ms] [0] iCDB Server PI: Closing plugins
+[2022.06.13 16:32:38] [0023m.33s.737ms] [0] iCDB Server PI: Plugins closed
+[2022.06.13 16:32:38] [0023m.33s.737ms] [0] iCDB Server PI: Unloading database
+[2022.06.13 16:32:38] [0023m.33s.765ms] [0] iCDB Server PI: Saving storage
+[2022.06.13 16:32:38] [0023m.33s.765ms] [0] iCDB Server PI: Closing database
+[2022.06.13 16:32:38] [0023m.33s.772ms] [1] iCDB Server PI: Stats: Database defragmentation: max[3] avg[1] holes[21%] data[84%]
+[2022.06.13 16:32:38] [0023m.33s.772ms] [1] iCDB Server PI: Stats: Database file size [655816 (640.4 kB)]
+[2022.06.13 16:32:38] [0023m.33s.778ms] [1] iCDB Server PI: WARNING: Database needs defragmentation!
+[2022.06.13 16:32:38] [0023m.33s.785ms] [0] iCDB Server PI: Database closed
+[2022.06.13 16:32:38] [0023m.33s.785ms] [0] iCDB Server PI: Defragmenting database
+[2022.06.13 16:32:38] [0023m.33s.785ms] [0] iCDB Server PI: Creating database [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database] backup to file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\cdbback\2022-06-13 16.32.38-19628-d.zip]
+[2022.06.13 16:32:38] [0023m.34s.134ms] [0] iCDB Server PI: Database backup: DONE
+[2022.06.13 16:32:38] [0023m.34s.161ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2022.06.13 16:32:38] [0023m.34s.161ms] [0] Database GUARD OK: [655816]
+[2022.06.13 16:32:38] [0023m.34s.161ms] [0] SingleFile: [5aec-729c-7393-7806] SFI version check [1009] [1009]
+[2022.06.13 16:32:38] [0023m.34s.179ms] [0] SingleFile: [5aec-729c-7393-7806] Database SFI header has been read in [18ms 722us]
+[2022.06.13 16:32:38] [0023m.34s.277ms] [1] iCDB Server PI: Stats: Database file sizes: before[655816 (640.4 kB)], after[300896 (293.8 kB)], gain[354920 (346.6 kB)]
+[2022.06.13 16:32:38] [0023m.34s.287ms] [0] Single file [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\icdb.dat] closed with size [300896 (293.8 kB)]
+[2022.06.13 16:32:38] [0023m.34s.287ms] [0] iCDB Server PI: Database defragmentation completed successfully
+[2022.06.13 16:32:38] [0023m.34s.287ms] [1] BackupTransaction: Removing database backup [D:\icub-tech-iit\electronics-boards\ftx2\pads\Rev_B\FTX2_RevB\database\cdbback\2022-06-13 16.32.38-19628-d.zip]
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [59067] ticks
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [5906] microseconds
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [278]
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [47065] commands per second
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: Mem[53489664]
+[2022.06.13 16:32:38] [0023m.34s.291ms] [1] iCDB Server PI: Stats: MemPeak[65019904]
+[2022.06.13 16:32:38] [0023m.34s.324ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2022.06.13 16:32:38] [0023m.34s.402ms] [0] MWT: Destroy the shutdown block reason.
+[2022.06.13 16:32:38] [0023m.34s.404ms] [0] MWT: STOP
+[2022.06.13 16:32:38] [0023m.34s.404ms] [0] S: STOP
