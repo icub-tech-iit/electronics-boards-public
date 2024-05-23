@@ -1,0 +1,1 @@
+Before Purchase this card refer to this issue https://github.com/icub-tech-iit/electronics-boards/issues/398#issuecomment-2090422721
