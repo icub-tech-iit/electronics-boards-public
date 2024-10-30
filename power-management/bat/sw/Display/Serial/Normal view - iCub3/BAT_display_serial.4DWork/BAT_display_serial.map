@@ -1,0 +1,79 @@
+linked : 13    main 000284
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   15:000284    16:00028a    17:000290    24:000296    25:00029c    27:0002a2    28:0002a8    29:0002ae 
+   30:0002b4    31:0002ba    33:0002c0    42:0002c6    44:0002cc    45:0002d2    46:0002d8 
+
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  393:0002de   395:0002e8   396:0002f3   397:0002fc   398:000305   399:00030e   400:000314   403:000320 
+  404:000326   405:00032f   407:00033b   409:00033b   410:000343   411:00035e   412:00036a   417:00037c 
+  418:000385   419:00038e   421:000394   422:00039d   423:0003a6   425:0003ac   426:0003b9   427:0003cb 
+  428:0003dd   429:0003ef   430:0003fc   431:000409   432:000416   433:000423   434:000430   435:00043d 
+  436:00044a   438:000456   439:000463   440:000470   444:00047d   446:0004a7   447:0004b0   448:0004bf 
+  449:0004d1   450:0004da   451:0004e9   455:0004fb   456:000507   459:000513   460:00051b   461:000524 
+  462:000536   466:00053c   467:000565   468:00056b   469:000571   470:00057a   471:000582   472:000588 
+  473:00058e   474:000597   477:00059d   478:0005b9   479:0005bd   480:0005c5   481:0005cb   482:0005d1 
+  484:0005da   485:0005f7   486:000600   487:000606   492:00060c   493:000614   494:00061a   495:000623 
+  496:00062b   497:000631   498:00063a   499:000642   500:00064b   501:000653   502:00065c   503:000664 
+  505:00066a   508:000673   509:00067f   513:000685   514:00068d   516:000691   517:0006a5   518:0006ab 
+  519:0006b7   520:0006bd 
+
+linked : 12    graphic_update_data 0006C7
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  350:0006c7   353:0006cd   354:0006d5   355:0006de   356:0006e6   358:0006f0   359:000702   360:00074d 
+  361:000755   362:000760   363:000768   364:000772   365:0007b6   366:0007be   370:0007c9   371:0007d1 
+  372:0007da   373:0007e2   375:0007ec   376:0007f4   377:000838   378:000840   379:00084b   380:000853 
+  381:00085d   382:0008b8   383:0008c0 
+
+linked : 11    graphic_setup 0008CC
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  313:0008cc   316:0008d2   317:0008da   318:0008e3   319:0008eb   320:0008f5   324:000900   325:000908 
+  326:000911   327:000919   328:000923   331:00092e   332:000936   333:00093f   334:000947   335:000951 
+  339:00095c   340:000964   341:00096d   342:000975   343:00097f 
+
+linked : 10    graphic_after_intro 00098B
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  267:00098b   268:000995   271:0009a1   272:0009ac   275:0009b8   276:0009c3   279:0009d5   280:0009e0 
+  283:0009ec   284:0009f7   285:000a01   288:000a1a   289:000a25   292:000a2f   293:000a3a   296:000a44 
+  297:000a4f   300:000a5f   301:000a6a   302:000a74   305:000a8d   306:000a98 
+
+linked : 9     graphic_update_demo 000AA3
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+  235:000aa3   236:000aae   240:000aba   241:000ac5   242:000acf   245:000ae8   246:000af3   249:000afd 
+  250:000b08   253:000b14   254:000b1f 
+
+linked : 8     graphic_message_fault_error 000B2A
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   87:000b2a    88:000b32    90:000b3b    91:000b43    92:000b4c    93:000b56    94:000b61    97:000b6c 
+   98:000b74   101:000b7f   102:000b88   103:000b92   104:000b9d   107:000ba8   108:000bb0   110:000bbe 
+  111:000bc6   112:000bcf   113:000bd9   114:000be4   117:000bef   118:000bf7   120:000c02   121:000c0b 
+  122:000c15   123:000c20   126:000c2b   127:000c33   132:000c3e   133:000c47   134:000c51   135:000c5c 
+  136:000ca0   137:000cfb   141:000d56   143:000d73   144:000d7c   145:000d86   148:000d91   149:000d99 
+  152:000da4   153:000dad   154:000db7   157:000dc2   158:000dca   160:000dd8   161:000df5   162:000dfe 
+  163:000e08   166:000e13   167:000e1b   169:000e26   170:000e2f   171:000e39   172:000e41   173:000e4f 
+  174:000e57   178:000e62   179:000e6a   181:000e78   182:000e95   183:000e9e   184:000ea8   187:000eb3 
+  188:000ebb   190:000ec6   191:000ed0   192:000edb   195:000ee6   196:000eee   199:000efc   200:000f19 
+  201:000f22   202:000f2c   205:000f37   206:000f3f   208:000f4a   209:000f53   210:000f5d   211:000f68 
+  212:000f73   215:000f7e   216:000f86   221:000f91   222:000f9a   223:000fa4   224:000faf   225:000ffa 
+  226:00103e 
+
+linked : 7     graphic_message_uart_error 001083
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   76:001083    77:00108b    78:001094    79:00109e    80:0010a7    81:0010b2 
+
+linked : 6     graphic_intro 0010BE
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   59:0010be    61:0010c4    62:0010cc    63:0010d5    64:0010dd    66:0010e7    67:00112e    68:001175 
+   70:00117e 
+
+linked : 5     graphic_xCub 001185
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+   52:001185    53:001190 
+
+skipped: 4     ledDigitsDisplayL ----
+skipped: 3     ledDigitsDisplayR ----
+skipped: 2     ledDigitsDisplayD ----
+linked : 1     ledDigitsDisplay 00119B
+ stmt:Offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset  stmt:offset
+    4:00119d     5:0011aa     6:0011b2     7:0011bc     8:0011c2     9:0011da    10:0011e2    11:0011f2 
+   13:0011f9    15:001206    16:001218    17:001220    19:001229    22:00122f    23:001239 
+

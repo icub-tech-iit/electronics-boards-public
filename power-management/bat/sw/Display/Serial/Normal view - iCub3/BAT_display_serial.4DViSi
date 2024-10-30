@@ -1,5 +1,5 @@
 ﻿Version     0.0
-Platform    uOLED-128-G2-LR
+Platform    uOLED-128-G2-L
 PlatRes     128x128
 Depends
 end
@@ -21,8 +21,8 @@ Options
     ComRX1pinIdx                 0
 end
 Form
-    Name                         Form1
-    Alias                        Form1
+    Name                         newXcubForm
+    Alias                        newxcubform
     Bgtype                       Color
     Color                        BLACK
     Image                        (None)
@@ -140,8 +140,8 @@ Meter
     OnTouchReleased              ''
 end
 Gauge
-    Name                         Gauge1
-    Alias                        Gauge1
+    Name                         batteryChargeTank
+    Alias                        batterychargetank
     Bevel.BorderColor            'Office 2003 (Silver)'
     Bevel.BorderWidth            1
     Bevel.InnerColor             BLACK
@@ -198,8 +198,8 @@ CustomDigits
     OnTouchReleased              ''
 end
 StaticText
-    Name                         Statictext7
-    Alias                        Statictext7
+    Name                         ChargeString
+    Alias                        chargestr
     Alignment                    Left
     AutoSize                     Yes
     Caption                      Charge
@@ -209,30 +209,30 @@ StaticText
     Font.Name                    Tahoma
     Font.Size                    8
     Font.Style                   []
-    Height                       13
+    Height                       12
     Left                         54
-    Top                          50
+    Top                          48
     Transparent                  Yes
     Width                        35
     WordWrap                     Yes
 end
 StaticText
-    Name                         Statictext5
-    Alias                        Statictext5
+    Name                         chargePerc
+    Alias                        chargperc
     Alignment                    Left
-    AutoSize                     Yes
+    AutoSize                     No
     Caption                      %
     Color                        BLACK
-    Font.Color                   WHITE
+    Font.Color                   LIME
     Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    9
+    Font.Name                    'Cascadia Code SemiLight'
+    Font.Size                    10
     Font.Style                   []
-    Height                       13
-    Left                         78
-    Top                          64
+    Height                       14
+    Left                         84
+    Top                          61
     Transparent                  Yes
-    Width                        13
+    Width                        10
     WordWrap                     Yes
 end
 Strings
@@ -316,28 +316,6 @@ Strings
     Font.Size                    8
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         16
-    Strings                      '     '
-    StringsStyle                 Message
-    Top                          128
-    Width                        50
-    OnChanged                    ''
-end
-Strings
-    Name                         Strings5
-    Alias                        Strings5
-    Alignment                    Right
-    BGcolor                      BLUE
-    Height                       12
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D SYSTEM (7x8)'
-    Font.Opaque                  Yes
-    Font.Size                    8
-    Font.Strikethrough           No
-    Font.Underline               No
     Left                         0
     Strings                      '     '
     StringsStyle                 Message
@@ -402,9 +380,9 @@ Meter
     OnTouchReleased              ''
 end
 Image
-    Name                         R1
-    Alias                        R1
-    Height                       88
+    Name                         xCubImage
+    Alias                        xcubimage
+    Height                       95
     Image                        iCub.bmp
     Left                         0
     Source.Height                323
@@ -421,9 +399,9 @@ CustomDigits
     Name                         StatusDec
     Alias                        StatusDec
     Bitmap                       (None)
-    Digits                       4
+    Digits                       3
     LeadingZero                  Yes
-    Left                         92
+    Left                         101
     Top                          64
     OnChanged                    ''
     OnTouchMoving                ''
@@ -442,16 +420,152 @@ StaticText
     Font.Name                    Tahoma
     Font.Size                    8
     Font.Style                   []
-    Height                       13
+    Height                       12
     Left                         94
-    Top                          50
+    Top                          48
     Transparent                  Yes
     Width                        34
     WordWrap                     Yes
 end
 Form
-    Name                         Form2
-    Alias                        Form2
+    Name                         demoDisplay
+    Alias                        demodisplay
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Gauge
+    Name                         batteryChargeGauge
+    Alias                        batchargegauge
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             BLACK
+    Bevel.InnerHighlight         clBtnHighlight
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            clBtnShadow
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           None
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Color                        BLACK
+    Height                       40
+    Left                         4
+    Maxvalue                     100
+    Minvalue                     0
+    Orientation                  Horizontal
+    Palette1.High                clRed
+    Palette1.Low                 0x000051
+    Palette2.High                clYellow
+    Palette2.Low                 0x005151
+    Palette3.High                clLime
+    Palette3.Low                 0x005100
+    Percent1                     20
+    Percent2                     30
+    Spacing                      1
+    Step                         20
+    Style                        BottomLeft
+    TickHeight                   1
+    Top                          36
+    Width                        120
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+CustomDigits
+    Name                         batteryChargeDigit
+    Alias                        batcharged
+    Bitmap                       (None)
+    Digits                       3
+    LeadingZero                  No
+    Left                         0
+    Top                          94
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         batteryChargePercSimb
+    Alias                        batterycharges
+    Alignment                    Left
+    AutoSize                     No
+    Caption                      %
+    Color                        BLACK
+    Font.Color                   LIME
+    Font.Effects                 []
+    Font.Name                    'Cascadia Code SemiLight'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       22
+    Left                         32
+    Top                          90
+    Transparent                  Yes
+    Width                        14
+    WordWrap                     Yes
+end
+Led
+    Name                         BatteryLed
+    Alias                        batteryled
+    Active                       No
+    Caption                      POWER
+    Color                        BLACK
+    Font.Color                   GHOSTWHITE
+    Font.Effects                 []
+    Font.Name                    'Cascadia Code SemiLight'
+    Font.Size                    10
+    Font.Style                   []
+    Glyphs                       (None)
+    Height                       25
+    Layout                       Left
+    LedType                      Rounded
+    Left                         52
+    Palette.High                 clRed
+    Palette.Low                  0x000051
+    Spacing                      5
+    Top                          88
+    Width                        76
+    OnChanged                    ''
+end
+StaticText
+    Name                         BatteryChargeTitle
+    Alias                        batterychargetitle
+    Alignment                    Center
+    AutoSize                     No
+    Caption                      'Robot Working'
+    Color                        BLACK
+    Font.Color                   LIME
+    Font.Effects                 []
+    Font.Name                    'Cascadia Code SemiLight'
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         0
+    Top                          3
+    Transparent                  Yes
+    Width                        128
+    WordWrap                     Yes
+end
+Form
+    Name                         errorScreen
+    Alias                        errorscreen
     Bgtype                       Color
     Color                        BLACK
     Image                        (None)
@@ -467,11 +581,11 @@ Form
     OnTouchReleased              ''
 end
 Strings
-    Name                         Strings8
-    Alias                        Strings8
+    Name                         cpuFault
+    Alias                        cpufault
     Alignment                    Left
     BGcolor                      RED
-    Height                       32
+    Height                       30
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -485,15 +599,15 @@ Strings
     Strings                      ''
     StringsStyle                 Message
     Top                          0
-    Width                        58
+    Width                        62
     OnChanged                    ''
 end
 Strings
-    Name                         Strings9
-    Alias                        Strings9
+    Name                         motorFault
+    Alias                        motorfault
     Alignment                    Left
     BGcolor                      RED
-    Height                       32
+    Height                       30
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -503,19 +617,19 @@ Strings
     Font.Size                    -8
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         70
+    Left                         68
     Strings                      ''
     StringsStyle                 Message
     Top                          0
-    Width                        58
+    Width                        62
     OnChanged                    ''
 end
 Strings
-    Name                         Strings10
-    Alias                        Strings10
+    Name                         erroCpuLine
+    Alias                        errorcpuline
     Alignment                    Left
-    BGcolor                      BLUE
-    Height                       42
+    BGcolor                      RED
+    Height                       48
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -528,16 +642,16 @@ Strings
     Left                         0
     Strings                      ''
     StringsStyle                 Message
-    Top                          36
-    Width                        58
+    Top                          32
+    Width                        62
     OnChanged                    ''
 end
 Strings
-    Name                         Strings11
-    Alias                        Strings11
+    Name                         errorMotorLine
+    Alias                        errormotorline
     Alignment                    Left
-    BGcolor                      BLUE
-    Height                       42
+    BGcolor                      RED
+    Height                       48
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -547,19 +661,19 @@ Strings
     Font.Size                    -8
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         70
+    Left                         68
     Strings                      ''
     StringsStyle                 Message
-    Top                          36
-    Width                        58
+    Top                          32
+    Width                        62
     OnChanged                    ''
 end
 Strings
-    Name                         Strings12
-    Alias                        Strings12
+    Name                         lastCpuVal
+    Alias                        lastcpuval
     Alignment                    Left
     BGcolor                      RED
-    Height                       44
+    Height                       48
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -572,16 +686,16 @@ Strings
     Left                         0
     Strings                      ''
     StringsStyle                 Message
-    Top                          84
-    Width                        58
+    Top                          82
+    Width                        62
     OnChanged                    ''
 end
 Strings
-    Name                         Strings13
-    Alias                        Strings13
+    Name                         lastMotorVal
+    Alias                        lastmotorval
     Alignment                    Left
     BGcolor                      RED
-    Height                       44
+    Height                       48
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -591,10 +705,10 @@ Strings
     Font.Size                    -8
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         70
+    Left                         68
     Strings                      ''
     StringsStyle                 Message
-    Top                          84
-    Width                        58
+    Top                          82
+    Width                        62
     OnChanged                    ''
 end

@@ -1,0 +1,525 @@
+#platform "GOLDELOX"
+
+// Program Skeleton 1.0 generated 23/03/2016 14:21:52
+
+
+#inherit "LedDigitsDisplayGoldelox.inc"
+
+#inherit "4DGL_16bitColours.fnc"
+
+#inherit "VisualConst.inc"
+
+#inherit "BAT_display_serialConst.inc"
+
+
+var Firmware_Display := 1;
+var Revision_Display := 4;
+var Build_Display    := 0;
+
+var Firmware_BAT;
+var Revision_BAT;
+var Build_BAT;
+
+var combuf[40];
+var bufsize:=0;
+var qualifier:=0x01;
+var value[40];
+var intro:=0;
+var timeout:=0;
+var i:=0;
+var isFaultRisen := 0;
+var counterSwitchScreenAtFullOn:=0;
+
+var Battery_state:=0;
+var Battery_charge;
+var V_VINPUT, V_EXTPS, V_BATTERY, V_V12board, V_V12motor;
+var I_BATTERY, I_V12board, I_V12motor, I_HSM;
+var V12board, V12motor, HSM_PG, V12motor_PG, V12board_PG;
+var voltage, current, charge, button, status_ps, status_fault;
+var V12board_F, V12motor_F, HSM_F;
+var Current_board_in_fault, Current_motor_in_fault, Current_HSM_in_fault;
+var CPU_voltage, CPU_current, Motors_voltage, Motors_current;
+var VINPUT_OFFSET:=28;                                 // 28 for range "28V-48V" and 20 for range "20V-32V"
+var state_fsm_boards, state_fsm_motors, state_fsm;     // state of the board (for iCub and R1)
+var Status_bat :=0;
+var HSM_HW_F := 0;
+var HSM_SW_F := 0;
+
+
+func graphic_xCub()
+
+    // xCubImage 1.0 generated 9/17/2024 6:06:42 PM
+    media_SetAdd(ixCubImageH, ixCubImageL) ;      // point to the xCubImage image
+    media_Image(0, 32) ;            // show image
+
+endfunc
+
+func graphic_intro()
+
+    graphic_xCub();
+
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    txt_BGcolour(BLUE) ;
+    gfx_MoveTo(0 , 0) ;
+
+    print(" BAT board ", Firmware_BAT, ".", Revision_BAT, ".", Build_BAT, "v   \n");
+    print(" Display   ", Firmware_Display, ".", Revision_Display, ".", Build_Display, "v   \n");
+    pause(5000);
+
+    gfx_Cls();
+
+endfunc
+
+func graphic_message_uart_error()
+
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    gfx_MoveTo(0 , 96) ;
+    txt_BGcolour(RED) ;
+    print("\n    UART error!    \n");
+    print("  Check connection!  \n");
+
+endfunc
+
+func graphic_message_fault_error()
+
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    // cpuFault 1.0 generated 9/18/2024 10:15:32 AM
+    if(V12board_F == 1)
+        txt_BGcolour(RED) ;
+        gfx_MoveTo(0 , 0) ;
+        print(" CPU LINE\n FAULT ! \n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+        // erroCpuLine 1.0 generated 9/18/2024 10:18:56 AM
+        txt_BGcolour(RED) ;
+        gfx_MoveTo(0 , 32) ;
+        print(" ERROR   \n CPU LINE\n OVER    \n CURRENT \n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+    else if(V12board_F == 0)
+        txt_BGcolour(GREEN);
+        gfx_MoveTo(0 , 0) ;
+        print(" CPU LINE\nNO FAULT!\n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+        txt_BGcolour(GREEN);
+        gfx_MoveTo(0 , 32) ;
+        print(" NO ERROR\n CPU LINE\n STABLE  \n CURRENT \n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+    endif
+
+
+    // lastCpuVal 1.0 generated 9/18/2024 10:30:56 AM
+    txt_BGcolour(RED) ;
+    gfx_MoveTo(0 , 82) ;
+    print("   LAST  \n  VALUES \n");
+    print(" ",(V_V12board/1000), ".", (V_V12board/100)-10*(V_V12board/1000), " V  \n");
+    print(" ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," Am  \n");
+    print(" ", (Current_board_in_fault/1000+Current_motor_in_fault/1000), ".", (Current_board_in_fault/100)-10*(Current_board_in_fault/1000) + (Current_motor_in_fault/100)-10*(Current_motor_in_fault/1000)," Ai  \n");
+
+
+
+    if((V12motor_F == 1) && ((HSM_HW_F == 0) || (HSM_SW_F == 0)))
+        // motorFault 1.0 generated 9/18/2024 10:32:58 AM
+        txt_BGcolour(RED) ;
+        gfx_MoveTo(68 , 0) ;
+        print(" BOARDS  \n  LINE   \n FAULT ! \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+        // errorMotorLine 1.0 generated 9/18/2024 10:34:16 AM
+        txt_BGcolour(RED) ;
+        gfx_MoveTo(68 , 32) ;
+        print(" ERROR   \n BOARDS  \n LINE    \n  OVER   \n CURRENT \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+    else if ((V12motor_F == 0) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+        txt_BGcolour(RED);
+        gfx_MoveTo(68 , 0) ;
+        print("   HSM   \n  LINE   \n FAULT ! \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+        txt_BGcolour(RED);
+        gfx_MoveTo(68 , 32) ;
+        if(HSM_HW_F == 1)
+            print(" ERROR   \n  HSM HW \n  LINE   \n  OVER  \n CURRENT \n");
+        else if(HSM_SW_F == 1)
+            print(" ERROR   \n  HSM SW \n  LINE   \n  OVER  \n CURRENT \n");
+        endif
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+    else if ((V12motor_F == 1) && ((HSM_HW_F == 1) || (HSM_SW_F == 1)))
+        txt_BGcolour(RED);
+        gfx_MoveTo(68 , 0) ;
+        print(" BOARDS  \n  LINE   \n FAULT ! \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+        gfx_MoveTo(68 , 32) ;
+        print(" ERROR   \n HSM AND \n BOARDS  \n  LINES  \n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+
+    else if((V12motor_F == 0) && ((HSM_HW_F == 0) || (HSM_SW_F == 0)))
+        txt_BGcolour(GREEN);
+        gfx_MoveTo(68 , 0) ;
+        print(" BOARDS  \n  LINE   \nNO FAULT!\n");
+
+        // divider black line
+        txt_BGcolour(BLACK);
+        print("         \n");
+
+        txt_BGcolour(GREEN);
+        gfx_MoveTo(68 , 32) ;
+        print(" NO ERROR\n BOARDS  \n  LINES  \n");
+        print("         \n");
+        print("         \n");
+
+        // divider black line
+        txt_BGcolour(BLACK) ;
+        print("         \n");
+
+    endif
+
+    // lastMotorVal 1.0 generated 9/18/2024 10:37:11 AM
+    txt_BGcolour(RED) ;
+    gfx_MoveTo(68 , 82) ;
+    print("   LAST  \n  VALUES \n");
+    print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100)), " V  \n");
+    print(" ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," Am   \n");
+    print(" ", Current_HSM_in_fault/1000, ".", (Current_HSM_in_fault/100)-10*(Current_HSM_in_fault/1000)," Ai  \n");
+endfunc
+
+
+func graphic_update_demo()
+
+    // demoDisplay 1.2 generated 9/25/2024 5:20:22 PM
+
+    // batteryChargeGauge 1.0 generated 9/25/2024 5:20:22 PM
+    media_SetAdd(ibatteryChargeGaugeH, ibatteryChargeGaugeL) ;      // point to the batteryChargeGauge image
+    media_VideoFrame(4, 36, Battery_charge) ;          // where numx is 0 to 100 (for a displayed 0 to 100)
+
+
+    // batteryChargeDigit 1.1 generated 9/27/2024 12:55:52 PM
+    media_SetAdd(ibatteryChargeDigitH, ibatteryChargeDigitL) ;      // point to the batteryChargeDigit image
+    media_Image(0, 94) ;                                 // show all digits at 0, only do this once
+    ledDigitsDisplay(Battery_charge, iibatteryChargeDigitH, iibatteryChargeDigitL, 0, 94, 3, 1, 9, 1) ;
+
+    // batteryChargePercSimb 1.0 generated 9/25/2024 5:20:22 PM
+    media_SetAdd(ibatteryChargePercSimbH, ibatteryChargePercSimbL) ;      // point to the batteryChargePercSimb image
+    media_Image(32, 90) ;            // show image
+
+    // BatteryLed 1.0 generated 9/25/2024 5:20:22 PM
+    media_SetAdd(iBatteryLedH, iBatteryLedL) ;      // point to the BatteryLed image
+    media_VideoFrame(52, 88, Battery_state) ;      // where state is 0 (Off) or 1 (On)
+
+    // BatteryChargeTitle 1.0 generated 9/25/2024 5:20:22 PM
+    media_SetAdd(iBatteryChargeTitleH, iBatteryChargeTitleL) ;      // point to the BatteryChargeTitle image
+    media_Image(0, 3) ;            // show image
+
+
+
+endfunc
+
+
+func graphic_after_intro()
+
+
+    // newXcubForm 1.2 generated 9/18/2024 10:39:46 AM
+
+    // CPU 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iCPUH, iCPUL) ;      // point to the CPU image
+    media_VideoFrame(0, 80, V12board_PG) ;      // where state is 0 (Off) or 1 (On)
+
+    // Motors 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iMotorsH, iMotorsL) ;      // point to the Motors image
+    media_VideoFrame(67, 80, HSM_PG) ;      // where state is 0 (Off) or 1 (On)
+
+    // Battery_voltage 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iBattery_voltageH, iBattery_voltageL) ;      // point to the Battery_voltage image
+    media_VideoFrame(0, 0, V_VINPUT/100-VINPUT_OFFSET) ;          // where numx is 0 to 20 (for a displayed 28 to 48)
+
+    // batteryChargeTank 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(ibatteryChargeTankH, ibatteryChargeTankL) ;      // point to the batteryChargeTank image
+    media_VideoFrame(0, 52, Battery_charge) ;          // where numx is 0 to 100 (for a displayed 0 to 100)
+
+    // Battery_percent 1.1 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iBattery_percentH, iBattery_percentL) ;      // point to the Battery_percent image
+    media_Image(50, 64) ;                                 // show all digits at 0, only do this once
+    ledDigitsDisplay(Battery_charge, iiBattery_percentH, iiBattery_percentL, 50, 64, 3, 1, 9, 1) ;
+
+    // ChargeString 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iChargeStringH, iChargeStringL) ;      // point to the ChargeString image
+    media_Image(54, 50) ;            // show image
+
+    // chargePerc 1.0 generated 9/18/2024 1:38:06 PM
+    media_SetAdd(ichargePercH, ichargePercL) ;      // point to the chargePerc image
+    media_Image(84, 61) ;            // show image
+
+    // Battery_amps 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iBattery_ampsH, iBattery_ampsL) ;      // point to the Battery_amps image
+    media_VideoFrame(67, 0, I_BATTERY/1000) ;          // where numx is 0 to 30 (for a displayed 0 to 30)
+
+    // StatusDec 1.1 generated 9/18/2024 11:15:45 AM
+    media_SetAdd(iStatusDecH, iStatusDecL) ;      // point to the StatusDec image
+    media_Image(101, 64) ;                                 // show all digits at 0, only do this once
+    ledDigitsDisplay(Status_bat, iiStatusDecH, iiStatusDecL, 101, 64, 3, 1, 9, 0) ;
+
+    // StatusString 1.0 generated 9/18/2024 10:39:46 AM
+    media_SetAdd(iStatusStringH, iStatusStringL) ;      // point to the StatusString image
+    media_Image(94, 50) ;            // show image
+
+
+endfunc
+
+func graphic_setup()
+
+    graphic_after_intro();
+
+    // Strings1 1.0 generated 9/18/2024 10:39:46 AM
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    txt_BGcolour(BLUE) ;
+    gfx_MoveTo(72 , 96) ;
+    print("         ");
+
+
+    // Strings2 1.0 generated 9/18/2024 10:39:46 AM
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    txt_BGcolour(BLUE) ;
+    gfx_MoveTo(72 , 112) ;
+    print("         ");
+
+    // Strings3 1.0 generated 9/18/2024 10:39:46 AM
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    txt_BGcolour(BLUE) ;
+    gfx_MoveTo(0 , 96) ;
+    print("         ");
+
+
+    // Strings4 1.0 generated 9/18/2024 10:39:46 AM
+    txt_FontID(SYSTEM) ;
+    txt_FGcolour(WHITE) ;
+    txt_BGcolour(BLUE) ;
+    gfx_MoveTo(0 , 112) ;
+    print("         ");
+
+endfunc
+
+
+func graphic_update_data()
+
+        graphic_after_intro();
+
+        // Strings1 1.0 generated 01/04/2016 08:48:58
+        txt_FontID(SYSTEM) ;
+        txt_FGcolour(WHITE) ;
+        txt_BGcolour(BLUE) ;
+        gfx_MoveTo(72 , 96) ;
+
+        if(HSM_F==0 && V12motor_F==0)
+          print(" ", (V_VINPUT*HSM_PG/100), ".", ((V_VINPUT*HSM_PG/10)-10*(V_VINPUT*HSM_PG/100))," V \n");           // to get the value as a simil float given that it is integer
+          txt_BGcolour(BLACK) ;
+          print("         \n");
+          txt_BGcolour(BLUE) ;
+          gfx_MoveTo(72 , 112) ;
+          print("  ", I_HSM/1000, ".", (I_HSM/100)-10*(I_HSM/1000)," A  \n");
+          txt_BGcolour(BLACK) ;
+          print("         \n");
+        endif
+
+        // Strings3 1.0 generated 01/04/2016 14:30:22
+        txt_FontID(SYSTEM) ;
+        txt_FGcolour(WHITE) ;
+        txt_BGcolour(BLUE) ;
+        gfx_MoveTo(0 , 96) ;
+
+        if(V12board_F==0)
+          print(" ", V_V12board/1000, ".", (V_V12board/100)-10*(V_V12board/1000)," V \n");
+          txt_BGcolour(BLACK);
+          print("         \n");
+          txt_BGcolour(BLUE);
+          gfx_MoveTo(0 , 112) ;
+          print("  ", (I_V12board/1000+I_V12motor/1000), ".", (I_V12board/100)-10*(I_V12board/1000) + (I_V12motor/100)-10*(I_V12motor/1000)," A \n");
+          txt_BGcolour(BLACK);
+          print("         \n");
+        endif
+endfunc
+
+
+// MAIN -----------------------------------------------------------------------------------------------------------------------------
+
+func main()
+
+    //  Uncomment the following if uSD images, fonts or strings used.
+    gfx_Set(SCREEN_MODE,LANDSCAPE);
+
+    print("Starting\n");
+    while(!media_Init())
+        putstr("Drive not mounted...");
+        pause(500);
+        gfx_Cls();
+        pause(500);
+    wend
+
+    gfx_Cls();
+    setbaud(BAUD_9600);                    //  baud rate
+    com_Init(combuf,bufsize,qualifier);    // <--- set comms buffer so com_Count can work
+
+    repeat
+
+        if(com_Full())
+            for(i:=0; i<com_PacketSize(); i++)
+                value[i]:=serin();
+                serout(value[i]); // echo back the chars
+            next
+
+            // NB: var is 16 bit signed, so some variables must be converted because they can exceed the value 32768
+
+            Build_BAT    := value[0] & 0x0f;
+            Revision_BAT := value[0] >> 4;
+            Firmware_BAT := value[1];
+
+            state_fsm_motors := value[2] & 0x0f;
+            state_fsm_boards := value[2] >> 4;
+            state_fsm        := value[3];
+
+            Battery_charge := (value[4] + 256*value[5]);
+            V_VINPUT       := ((value[6]/2  + 128*value[7]))/5; // converted in tens of mV
+            V_EXTPS        := ((value[8]/2  + 128*value[9]))/5; // converted in tens of mV
+            V_BATTERY      := ((value[10]/2  + 128*value[11]))/5; // converted in tens of mV
+            V_V12board     := (value[12] + 256*value[13]);
+            V_V12motor     := (value[14] + 256*value[15]);
+            I_V12board     := (value[16] + 256*value[17]);
+            I_V12motor     := (value[18] + 256*value[19]);
+            I_HSM          := (value[20] + 256*value[21]);
+            status_ps      := (value[22] + 256*value[23]);
+            status_fault   := (value[24] + 256*value[25]);
+            Status_bat     :=  value[26] + (value[27] << 8);
+
+            Current_board_in_fault     := (value[28] + 256*value[29]);
+            Current_motor_in_fault     := (value[30] + 256*value[31]);
+            Current_HSM_in_fault       := (value[32] + 256*value[33]);
+
+
+
+            I_BATTERY  := I_HSM + ((V_V12board/100)*(I_V12board/100))/(V_VINPUT/10) + ((V_V12motor/100)*(I_V12motor/100))/(V_VINPUT/10);
+            // devision by multiple of 10 are necessary for getting back the correct uint8_t value 1 or 0 --> check how status param sent to oled is built in the BAT code
+            HSM_PG     := status_ps/100;
+            V12motor_PG:= status_ps/10 - HSM_PG*10;
+            V12board_PG:= status_ps - HSM_PG*100 - V12motor_PG*10;
+            HSM_F      := status_fault/100;
+            V12motor_F := status_fault/10 - HSM_F*10;
+            V12board_F := status_fault - HSM_F*100 - V12motor_F*10;
+
+            // This bit right shifting is necessary to extract the HHSM fault flags from the Status_bat variable
+            // Doing this because they are located at the 10th and 11th bits of the variable
+            HSM_HW_F   := ((Status_bat >> 10) & 0x1);
+            HSM_SW_F   := ((Status_bat >> 11) & 0x1);
+
+            // set battery_state for enabling battery LED in demo screen
+            if( (V_BATTERY > V_EXTPS) && (V_BATTERY > 0))
+                Battery_state := 1;
+            else if((V_BATTERY < V_EXTPS) && (V_EXTPS > 0))
+                Battery_state := 0;
+            endif
+
+            // faulty screen
+            if((HSM_SW_F == 1) || (HSM_HW_F == 1) || (V12motor_F == 1) || (V12board_F == 1))
+                isFaultRisen := 1;
+                intro := 3;
+                gfx_Cls();
+            else if(isFaultRisen == 1)
+                isFaultRisen := 0;
+                intro := 1;
+                pause(2000);
+                gfx_Cls();
+            endif
+
+            if((V12board_PG == 1) && (V12motor_PG == 1) && (intro == 2))
+                counterSwitchScreenAtFullOn++;
+                if(counterSwitchScreenAtFullOn > 10)
+                    gfx_Cls();
+                    intro:=4;
+                    counterSwitchScreenAtFullOn:=0;
+                endif
+            else if(((V12board_PG == 0) || (V12motor_PG == 0)) && (intro == 4))
+                pause(500);
+                gfx_Cls();
+                intro:=1;
+            endif
+
+            // mini state machine for the screens
+            // would it make sense to make a proper function for the ALARM screen (when fault happens)
+            if(intro==0)
+                intro:=1;
+                graphic_intro();
+            else if(intro==1)
+                intro:=2;
+                graphic_setup();
+            else if(intro == 2)
+                graphic_update_data();
+            else if(intro == 4)
+                graphic_update_demo();
+            else if(intro == 3)
+                graphic_message_fault_error();
+                // leave error screen for at least 10s
+                pause(10000);
+            endif
+
+            com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
+            timeout:=0;
+
+          endif
+
+        pause(1);
+        timeout++;
+
+        if(com_Error() || timeout>5000) // if there were low level comms errors, or no packets received after timeout
+            com_Reset(); // reset to polled mode
+            com_Init(combuf,bufsize,qualifier);           // <--- set comms buffer so com_Count can work
+            timeout:=0;
+            graphic_message_uart_error();
+        endif
+
+    forever
+endfunc
+

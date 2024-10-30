@@ -1,0 +1,363 @@
+==============================================================
+==============================================================
+4DGL Compiler 2.8.1.0 -- Copyright 2004-2016 4D Labs
+** C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Normal view - iCub3\BAT_display_serial.4dg
+compiled Tue Oct 15 10:05:42 2024
+
+==============================================================
+==============================================================
+
+
+No Ref for file
+[LINKING]
+function 13, main(main entry point), address 0x2de, stack usage 0 + 4 
+
+[LINKING]
+function 12, graphic_update_data, address 0x6c7, stack usage 0 + 4 
+
+[LINKING]
+function 11, graphic_setup, address 0x8cc, stack usage 0 + 4 
+
+[LINKING]
+function 10, graphic_after_intro, address 0x98b, stack usage 0 + 4 
+
+[LINKING]
+function 9, graphic_update_demo, address 0xaa3, stack usage 0 + 4 
+
+[LINKING]
+function 8, graphic_message_fault_error, address 0xb2a, stack usage 0 + 4 
+
+[LINKING]
+function 7, graphic_message_uart_error, address 0x1083, stack usage 0 + 4 
+
+[LINKING]
+function 6, graphic_intro, address 0x10be, stack usage 0 + 4 
+
+[LINKING]
+function 5, graphic_xCub, address 0x1185, stack usage 0 + 4 
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
+
+num                                    4  word[4]  [local]  (usage 4)
+indexL                                 2  word     [arg]  (usage 2)
+newval                                 1  word     [arg]  (usage 2)
+Digits                                 3  word     [arg]  (usage 6)
+left                                   2  word     [arg]  (usage 2)
+top                                    3  word     [arg]  (usage 2)
+MinDigits                              4  word     [arg]  (usage 2)
+LeadingBlanks                          5  word     [arg]  (usage 4)
+WidthDigit                             4  word     [arg]  (usage 2)
+i                                      1  word     [local]  (usage 12)
+k                                      2  word     [local]  (usage 10)
+indexH                                 1  word     [arg]  (usage 2)
+l                                      3  word     [local]  (usage 12)
+
+[LINKING]
+function 1, ledDigitsDisplay, address 0x119b, stack usage 14 + 4 
+num                                    4  word[4]  [local]  (usage 6)
+indexL                                 2  word     [arg]  (usage 3)
+newval                                 1  word     [arg]  (usage 3)
+Digits                                 3  word     [arg]  (usage 9)
+left                                   2  word     [arg]  (usage 3)
+top                                    3  word     [arg]  (usage 3)
+MinDigits                              4  word     [arg]  (usage 3)
+LeadingBlanks                          5  word     [arg]  (usage 6)
+WidthDigit                             4  word     [arg]  (usage 3)
+i                                      1  word     [local]  (usage 18)
+k                                      2  word     [local]  (usage 15)
+indexH                                 1  word     [arg]  (usage 3)
+l                                      3  word     [local]  (usage 18)
+
+[RESERVED WORDS]
+#inherit
+#LISTCODE
+#MODE
+#STACK
+#OPTIMIZE_ON
+#OPTIMIZE_OFF
+byte
+word
+dword
+float
+private
+#IF
+#IFNOT
+#ELSE
+#ENDIF
+#CONST
+#constant
+#USE
+USING
+func
+endfunc
+var
+#STOP
+#DATA
+#ASM
+#END
+#platform
+EXISTS
+#ERROR
+#MESSAGE
+#NOTICE
+sizeof
+argcount
+if
+else
+endif
+while
+wend
+repeat
+until
+forever
+return
+break
+continue
+for
+next
+switch
+case
+default
+endswitch
+print
+goto
+gosub
+endsub
+mcall
+lookup8
+lookup16
+
+[MACRO]
+
+[CONSTANTS]
+__MAXMEM                          000000FF        255  (usage 1)
+__MAXPROG                         00002400       9216  (usage 1)
+BAUD_9600                         00000138        312  (usage 3)
+BLACK                             00000000          0  (usage 48)
+BLUE                              0000001F         31  (usage 27)
+GOLDELOX                          00000001          1  (usage 3)
+GREEN                             00000400       1024  (usage 12)
+iBattery_ampsH                    00000005          5  (usage 3)
+iBattery_ampsL                    00004400      17408  (usage 3)
+iBattery_percentH                 00000005          5  (usage 3)
+iBattery_percentL                 00002E00      11776  (usage 3)
+iBattery_voltageH                 00000000          0  (usage 3)
+iBattery_voltageL                 00001E00       7680  (usage 3)
+ibatteryChargeDigitH              00000017         23  (usage 3)
+ibatteryChargeDigitL              00002C00      11264  (usage 3)
+ibatteryChargeGaugeH              00000008          8  (usage 3)
+ibatteryChargeGaugeL              00006000      24576  (usage 3)
+ibatteryChargePercSimbH           00000017         23  (usage 3)
+ibatteryChargePercSimbL           00003C00      15360  (usage 3)
+ibatteryChargeTankH               00000001          1  (usage 3)
+ibatteryChargeTankL               0000EC00      60416  (usage 3)
+iBatteryChargeTitleH              00000017         23  (usage 3)
+iBatteryChargeTitleL              00005E00      24064  (usage 3)
+iBatteryLedH                      00000017         23  (usage 3)
+iBatteryLedL                      00004000      16384  (usage 3)
+ichargePercH                      00000005          5  (usage 3)
+ichargePercL                      00004200      16896  (usage 3)
+iChargeStringH                    00000005          5  (usage 3)
+iChargeStringL                    00003E00      15872  (usage 3)
+iCPUH                             00000000          0  (usage 3)
+iCPUL                             00000000          0  (usage 3)
+iiBattery_percentH                00000005          5  (usage 3)
+iiBattery_percentL                00003200      12800  (usage 3)
+iibatteryChargeDigitH             00000017         23  (usage 3)
+iibatteryChargeDigitL             00003000      12288  (usage 3)
+iiStatusDecH                      00000008          8  (usage 3)
+iiStatusDecL                      00005000      20480  (usage 3)
+iMotorsH                          00000000          0  (usage 3)
+iMotorsL                          00000E00       3584  (usage 3)
+iStatusDecH                       00000008          8  (usage 3)
+iStatusDecL                       00004C00      19456  (usage 3)
+iStatusStringH                    00000008          8  (usage 3)
+iStatusStringL                    00005C00      23552  (usage 3)
+ixCubImageH                       00000007          7  (usage 3)
+ixCubImageL                       0000EC00      60416  (usage 3)
+LANDSCAPE                         00000000          0  (usage 3)
+RED                               0000F800      63488  (usage 30)
+SCREEN_MODE                       00000007          7  (usage 3)
+SYSTEM                            00000000          0  (usage 27)
+WHITE                             0000FFFF      65535  (usage 27)
+
+[PmmC FUNCTIONS]
+com_Error                         FFFFFFA5         -91  args=0 r=1  (usage 3)
+com_Full                          FFFFFFA6         -90  args=0 r=1  (usage 3)
+com_Init                          FFFFFFA9         -87  args=3 r=0  (usage 9)
+com_PacketSize                    FFFFFFA2         -94  args=0 r=1  (usage 3)
+com_Reset                         FFFFFFA8         -88  args=0 r=0  (usage 3)
+gfx_Cls                           FFFFFFD7         -41  args=0 r=0  (usage 21)
+gfx_MoveTo                        FFFFFFD6         -42  args=2 r=0  (usage 72)
+gfx_Set                           FFFFFFD8         -40  args=2 r=0  (usage 3)
+media_Image                       FFFFFFB3         -77  args=2 r=0  (usage 27)
+media_Init                        FFFFFFB1         -79  args=0 r=1  (usage 3)
+media_SetAdd                      FFFFFFB9         -71  args=2 r=0  (usage 57)
+media_VideoFrame                  FFFFFFBA         -70  args=3 r=0  (usage 30)
+pause                             FFFFFFFA          -6  args=1 r=0  (usage 21)
+putnum                            FFFFFFF9          -7  args=2 r=1  (usage 9)
+putstr                            FFFFFFF7          -9  args=1 r=1  (usage 3)
+serin                             FFFFFFFF          -1  args=0 r=1  (usage 3)
+serout                            FFFFFFFD          -3  args=1 r=0  (usage 3)
+setbaud                           FFFFFFFC          -4  args=1 r=0  (usage 3)
+to                                FFFFFFFB          -5  args=1 r=1  (usage 9)
+txt_BGcolour                      FFFFFF7E        -130  args=1 r=0  (usage 117)
+txt_FGcolour                      FFFFFF7F        -129  args=1 r=0  (usage 27)
+txt_FontID                        FFFFFF7D        -131  args=1 r=0  (usage 27)
+
+[USER FUNCTIONS]
+graphic_after_intro               0000098B  args=0 r=0  (usage 6)
+graphic_intro                     000010BE  args=0 r=0  (usage 3)
+graphic_message_fault_error       00000B2A  args=0 r=0  (usage 3)
+graphic_message_uart_error        00001083  args=0 r=0  (usage 3)
+graphic_setup                     000008CC  args=0 r=0  (usage 3)
+graphic_update_data               000006C7  args=0 r=0  (usage 3)
+graphic_update_demo               00000AA3  args=0 r=0  (usage 3)
+graphic_xCub                      00001185  args=0 r=0  (usage 3)
+ledDigitsDisplay                  0000119B  args=9 r=0  (usage 9)
+
+[GLOBAL VARIABLES]
+Battery_charge                        95  word       (usage 15)
+Battery_state                         94  word       (usage 10)
+bufsize                               47  word       (usage 10)
+Build_BAT                              6  word       (usage 6)
+Build_Display                          3  word       (usage 4)
+combuf                                 7  word[40]   (usage 9)
+counterSwitchScreenAtFullOn           93  word       (usage 10)
+Current_board_in_fault               119  word       (usage 12)
+Current_HSM_in_fault                 121  word       (usage 12)
+Current_motor_in_fault               120  word       (usage 12)
+Firmware_BAT                           4  word       (usage 6)
+Firmware_Display                       1  word       (usage 4)
+HSM_F                                118  word       (usage 12)
+HSM_HW_F                             131  word       (usage 22)
+HSM_PG                               107  word       (usage 30)
+HSM_SW_F                             132  word       (usage 22)
+i                                     91  word       (usage 16)
+I_BATTERY                            101  word       (usage 6)
+I_HSM                                104  word       (usage 24)
+I_V12board                           102  word       (usage 24)
+I_V12motor                           103  word       (usage 24)
+intro                                 89  word       (usage 40)
+isFaultRisen                          92  word       (usage 10)
+qualifier                             48  word       (usage 10)
+Revision_BAT                           5  word       (usage 6)
+Revision_Display                       2  word       (usage 4)
+state_fsm                            129  word       (usage 3)
+state_fsm_boards                     127  word       (usage 3)
+state_fsm_motors                     128  word       (usage 3)
+Status_bat                           130  word       (usage 13)
+status_fault                         115  word       (usage 12)
+status_ps                            114  word       (usage 12)
+timeout                               90  word       (usage 13)
+V12board_F                           116  word       (usage 15)
+V12board_PG                          109  word       (usage 12)
+V12motor_F                           117  word       (usage 24)
+V12motor_PG                          108  word       (usage 12)
+V_BATTERY                             98  word       (usage 9)
+V_EXTPS                               97  word       (usage 12)
+V_V12board                            99  word       (usage 24)
+V_V12motor                           100  word       (usage 6)
+V_VINPUT                              96  word       (usage 30)
+value                                 49  word[40]   (usage 114)
+VINPUT_OFFSET                        126  word       (usage 4)
+
+[PRIVATE VARIABLES]
+
+[DATA]
+0007: 53 74 61 72 74 69 6E 67 0A 00 44 72 69 76 65 20     Starting..Drive 
+0017: 6E 6F 74 20 6D 6F 75 6E 74 65 64 2E 2E 2E 00 20     not mounted.... 
+0027: 00 20 56 20 0A 00 20 20 20 20 20 20 20 20 20 0A     . V ..         .
+0037: 00 20 20 00 20 41 20 20 0A 00 20 41 20 0A 00 20     .  . A  .. A .. 
+0047: 20 20 20 20 20 20 20 20 00 20 43 50 55 20 4C 49             . CPU LI
+0057: 4E 45 0A 20 46 41 55 4C 54 20 21 20 0A 00 20 45     NE. FAULT ! .. E
+0067: 52 52 4F 52 20 20 20 0A 20 43 50 55 20 4C 49 4E     RROR   . CPU LIN
+0077: 45 0A 20 4F 56 45 52 20 20 20 20 0A 20 43 55 52     E. OVER    . CUR
+0087: 52 45 4E 54 20 0A 00 20 43 50 55 20 4C 49 4E 45     RENT .. CPU LINE
+0097: 0A 4E 4F 20 46 41 55 4C 54 21 0A 00 20 4E 4F 20     .NO FAULT!.. NO 
+00A7: 45 52 52 4F 52 0A 20 43 50 55 20 4C 49 4E 45 0A     ERROR. CPU LINE.
+00B7: 20 53 54 41 42 4C 45 20 20 0A 20 43 55 52 52 45      STABLE  . CURRE
+00C7: 4E 54 20 0A 00 20 20 20 4C 41 53 54 20 20 0A 20     NT ..   LAST  . 
+00D7: 20 56 41 4C 55 45 53 20 0A 00 20 56 20 20 0A 00      VALUES .. V  ..
+00E7: 20 41 6D 20 20 0A 00 20 41 69 20 20 0A 00 20 42      Am  .. Ai  .. B
+00F7: 4F 41 52 44 53 20 20 0A 20 20 4C 49 4E 45 20 20     OARDS  .  LINE  
+0107: 20 0A 20 46 41 55 4C 54 20 21 20 0A 00 20 45 52      . FAULT ! .. ER
+0117: 52 4F 52 20 20 20 0A 20 42 4F 41 52 44 53 20 20     ROR   . BOARDS  
+0127: 0A 20 4C 49 4E 45 20 20 20 20 0A 20 20 4F 56 45     . LINE    .  OVE
+0137: 52 20 20 20 0A 20 43 55 52 52 45 4E 54 20 0A 00     R   . CURRENT ..
+0147: 20 20 20 48 53 4D 20 20 20 0A 20 20 4C 49 4E 45        HSM   .  LINE
+0157: 20 20 20 0A 20 46 41 55 4C 54 20 21 20 0A 00 20        . FAULT ! .. 
+0167: 45 52 52 4F 52 20 20 20 0A 20 20 48 53 4D 20 48     ERROR   .  HSM H
+0177: 57 20 0A 20 20 4C 49 4E 45 20 20 20 0A 20 20 4F     W .  LINE   .  O
+0187: 56 45 52 20 20 0A 20 43 55 52 52 45 4E 54 20 0A     VER  . CURRENT .
+0197: 00 20 45 52 52 4F 52 20 20 20 0A 20 20 48 53 4D     . ERROR   .  HSM
+01A7: 20 53 57 20 0A 20 20 4C 49 4E 45 20 20 20 0A 20      SW .  LINE   . 
+01B7: 20 4F 56 45 52 20 20 0A 20 43 55 52 52 45 4E 54      OVER  . CURRENT
+01C7: 20 0A 00 20 45 52 52 4F 52 20 20 20 0A 20 48 53      .. ERROR   . HS
+01D7: 4D 20 41 4E 44 20 0A 20 42 4F 41 52 44 53 20 20     M AND . BOARDS  
+01E7: 0A 20 20 4C 49 4E 45 53 20 20 0A 00 20 42 4F 41     .  LINES  .. BOA
+01F7: 52 44 53 20 20 0A 20 20 4C 49 4E 45 20 20 20 0A     RDS  .  LINE   .
+0207: 4E 4F 20 46 41 55 4C 54 21 0A 00 20 4E 4F 20 45     NO FAULT!.. NO E
+0217: 52 52 4F 52 0A 20 42 4F 41 52 44 53 20 20 0A 20     RROR. BOARDS  . 
+0227: 20 4C 49 4E 45 53 20 20 0A 00 20 41 6D 20 20 20      LINES  .. Am   
+0237: 0A 00 0A 20 20 20 20 55 41 52 54 20 65 72 72 6F     ...    UART erro
+0247: 72 21 20 20 20 20 0A 00 20 20 43 68 65 63 6B 20     r!    ..  Check 
+0257: 63 6F 6E 6E 65 63 74 69 6F 6E 21 20 20 0A 00 20     connection!  .. 
+0267: 42 41 54 20 62 6F 61 72 64 20 00 76 20 20 20 0A     BAT board .v   .
+0277: 00 20 44 69 73 70 6C 61 79 20 20 20 00              . Display   .
+
+[__MAXPROG]
+9216
+[__MAXMEM]
+255
+
+[PROGRAM]
+main
+[CODESIZE]
+4690
+[MEMSIZE]
+132
+[ARGCOUNT]
+0
+[RETURNS]
+NO
+[STACKSIZE]
+0 (AUTO)
+[STACK_ESTIMATE]
+66   (nb:- worst case estimate)
+[MODE]
+0
+
+[PROJECT]
+C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Normal view - iCub3\BAT_display_serial.4dg
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\GOLDELOX.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\LedDigitsDisplayGoldelox.inc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
+C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
+C:\Users\jlosi\Workspace\electronics-boards\bat\sw\Display\Serial\Normal view - iCub3\BAT_display_serial.4DWork\BAT_display_serialConst.inc
