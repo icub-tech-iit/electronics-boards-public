@@ -1,0 +1,115 @@
+
+Schematic unused pins from : Packager  17-Sep-2021  17:49
+
+------------------------------------------------------------------------
+            Part/Reference             |          Unused pins
+                                       |  (G) - Gate, (P) - Partial Gate
+------------------------------------------------------------------------
+ Part AD9522-1BCPZ                     |
+  U14                                  | (P)  13 15 18 25 26 29 30 31
+                                       |  50 51
+ Part AMP-98424-2MM-10P                |
+ Part BNO055                           |
+  U17                                  | (P)  1 24 23 22 21 16 7 10 12
+                                       |  13 15
+ Part B3U-1000P-B                      |
+ Part CAP-TANT-7343-47UF-35V-10TOL     |
+ Part CAP-0402-C0G-1NF-50V-5TOL        |
+ Part CAP-0402-C0G-12PF-50V-5TOL       |
+ Part CAP-0402-C0G-33PF-50V-5TOL       |
+ Part CAP-0402-C0G-100PF-50V-5TOL      |
+ Part CAP-0402-X5R-1UF-16V-10TOL       |
+ Part CAP-0402-X7R-1NF-50V-10TOL       |
+ Part CAP-0402-X7R-4N7-50V-5TOL        |
+ Part CAP-0402-X7R-6N8-50V-5TOL        |
+ Part CAP-0402-X7R-10NF-50V-10TOL      |
+ Part CAP-0402-X7R-100NF-16V-10TOL     |
+ Part CAP-0402-X7R-220NF-16V-10TOL     |
+ Part CAP-0402-Y5V-100NF-25V-10TOL     |
+ Part CAP-0603-X7R-1UF-16V-10TOL       |
+ Part CAP-0603-X7R-100NF-100V-10TOL    |
+ Part CAP-0603-X7R-120NF-50V-10TOL     |
+ Part CAP-0805-X5R-10UF-16V-10TOL      |
+ Part CL-SB-12A-01T                    |
+ Part CM-CHOKE-0805-180R-0A3-50VDC     |
+ Part CM-CHOKE-1012-80R-0A1-12VDC      |
+ Part CP2102N-A02-GQFN20R              |
+  U2                                   | (P)  10 11 13 14 15 16
+ Part C1E-25MHZ-12PF-30PPM             |
+ Part DVIULC6-4SC6                     |
+  D5                                   | (P)  4 6
+  D6                                   | (P)  4 6
+ Part FBEAD-0402-120RX100MHZ-0A5       |
+ Part FBEAD-0805-220RX100MHZ-2A        |
+ Part FUSEPTC-1210-4A-2A               |
+ Part HIROSE-DF20F-10DP-1V             |
+ Part HIROSE-DF40HC-20DS-04V           |
+ Part HIROSE-FX10A-168P-SV             |
+  J32                                  | (P)  53 62 65 89 110 128 136
+                                       |  137 140 141 154 155 169 170
+  J33                                  | (P)  13 17 29 33 8 16 20 32
+                                       |  36 167 168 169 170
+ Part H5120NL                          |
+ Part IPEX-CABLINE-30X1-FEMSTR-P40     |
+ Part KEYSTONE3000                     |
+ Part LED-0402-GREEN-1V9-2MCD1         |
+ Part LED-0402-ORANGE-1V9-7MCD3        |
+ Part LED-0402-RED-1V8-2MCD5           |
+ Part LED-0603-GREEN-2V-40MCD          |
+ Part LED-0603-YELLOW-2V5-350mcd       |
+ Part LTM4622AEV                       |
+  U1                                   | (P)  C3
+ Part MAX6741XKTGD3+T                  |
+  U18                                  | (P)  1
+  U18                                  | (G)  4
+ Part MBRS360T3G                       |
+ Part MH2_6                            |
+  H1                                   | (G)  1
+  H2                                   | (G)  1
+  H3                                   | (G)  1
+  H4                                   | (G)  1
+ Part MOLEX-MICROSDPP-8X1-FEM90-P110   |
+ Part MOLEX-UUSB-B-5-FEM90_NO-FLANGES  |
+ Part NX2012SA-32768KHZ-EXS00A         |
+ Part PEM_SMTSO-M3-3ET                 |
+  MEC1                                 | (G)  1
+  MEC2                                 | (G)  1
+  MEC3                                 | (G)  1
+  MEC4                                 | (G)  1
+ Part PICOLOCK-4X1-MALE90-P150         |
+ Part PTN36221AHXZ                     |
+  U7                                   | (P)  10 5
+  U8                                   | (P)  10 5
+  U9                                   | (P)  10 5
+  U10                                  | (P)  10 5
+ Part RES-0201-20K-1TOL                |
+ Part RES-0402-0R-1TOL                 |
+ Part RES-0402-1K-1TOL                 |
+ Part RES-0402-1K5-1TOL                |
+ Part RES-0402-4K12-1TOL               |
+ Part RES-0402-10K-1TOL                |
+ Part RES-0402-22K-1TOL                |
+ Part RES-0402-22R-1TOL                |
+ Part RES-0402-47K-1TOL                |
+ Part RES-0402-75R-1TOL                |
+ Part RES-0402-100K-1TOL               |
+ Part RES-0402-100R-1TOL               |
+ Part RES-0402-324K-1TOL               |
+ Part RES-0402-330R-1TOL               |
+ Part RES-0402-390R-1TOL               |
+ Part RES-0402-750R-1TOL               |
+ Part RES-0603-5K1-1TOL                |
+ Part RES-0603-120R-1TOL               |
+ Part SAMTEC-FTSH-103-01-L-DV          |
+ Part SI7051-A20-IM                    |
+  U12                                  | (P)  3 4
+ Part SN74AVCH4T245RGYR                |
+  U4                                   | (P)  7 10
+  U6                                   | (P)  7 10
+ Part SP3012-04HTG                     |
+ Part TCAN334DCNT                      |
+ Part TERMINAL-TEST-S2761-0603         |
+ Part USB3_C_1054500101                |
+  J35                                  | (P)  A5 B5 A8 B8
+ Part ZXMN2B14FH                       |
+ Part 24LC256                          |

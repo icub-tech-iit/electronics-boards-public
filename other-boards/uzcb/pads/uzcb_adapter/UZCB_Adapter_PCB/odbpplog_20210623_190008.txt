@@ -1,0 +1,1938 @@
+***********  COMMAND 23Jun2021.190012.822 get 12960 MBorgagni 11.2(16812256) Windows 10
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/tmp/wfInit-genesis186a3.iiticublap168.12960,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 23Jun2021.190012.837 get 12960 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 23Jun2021.190012.837 get 12960 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 23Jun2021.190012.837 get 12960 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 23Jun2021.190012.837 get 12960 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 23Jun2021.190012.837 get 12960 MBorgagni 11.2(16812256) Windows 10
+create_entity,job=,is_fw=no,type=job,name=uzcb_adapter_15392_0,db=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011,fw_type=form (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+saving job - uzcb_adapter_15392_0
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/input
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/output
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/fonts
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/wheels
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/matrix
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/whltemps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/user
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.190014.310 get 12960 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=uzcb_adapter_15392_0,parent_step=,op=count (-1)
+***********  COMMAND 23Jun2021.190014.310 get 12960 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=uzcb_adapter_15392_0,parent_step=,op=first (-1)
+***********  COMMAND 23Jun2021.190014.326 get 12960 MBorgagni 11.2(16812256) Windows 10
+save_job,job=uzcb_adapter_15392_0,override=no (-1)
+saving job - uzcb_adapter_15392_0
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+saving step - pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+saving netlist - cadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/attrlist
+saving eda - eda
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/eda
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/eda/data
+saving layer - paste-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/attrlist
+saving layer - silkscreen-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/attrlist
+saving layer - solder-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/attrlist
+saving layer - top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top/attrlist
+saving layer - inner-layer-2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/attrlist
+saving layer - inner-layer-3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/attrlist
+saving layer - inner-layer-4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/attrlist
+saving layer - inner-layer-5
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/attrlist
+saving layer - inner-layer-6
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/attrlist
+saving layer - inner-layer-7
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/attrlist
+saving layer - bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom/attrlist
+saving layer - solder-mask-bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/attrlist
+saving layer - silkscreen-bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/attrlist
+saving layer - paste-mask-bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/attrlist
+saving layer - drill_drawing.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/attrlist
+saving layer - drill
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/attrlist
+saving impedance - impedance
+saving layer - rout
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/attrlist
+saving layer - dielectric1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/attrlist
+saving layer - dielectric2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/attrlist
+saving layer - dielectric3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/attrlist
+saving layer - dielectric4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/attrlist
+saving layer - dielectric5
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/attrlist
+saving layer - dielectric6
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/attrlist
+saving layer - dielectric7
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/process_directions
+saving symbol - drill_symbol1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2
+saving layer - drill_symbol2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2/attrlist
+saving symbol - drill_symbol3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3
+saving layer - drill_symbol3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3/attrlist
+saving symbol - drill_symbol4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4
+saving layer - drill_symbol4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4/attrlist
+saving symbol - drill_symbol1+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1+1/attrlist
+saving symbol - drill_symbol2+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2+1
+saving layer - drill_symbol2+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2+1/attrlist
+saving symbol - drill_symbol3+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3+1
+saving layer - drill_symbol3+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3+1/attrlist
+saving symbol - drill_symbol4+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4+1
+saving layer - drill_symbol4+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4+1/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.190015.344 get 12960 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190015.344 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_page_open,set=yes,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 23Jun2021.190015.360 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 23Jun2021.190015.360 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 23Jun2021.190015.360 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 23Jun2021.190015.375 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 23Jun2021.190015.592 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 23Jun2021.190015.614 get 12960 MBorgagni 11.2(16812256) Windows 10
+save_job,job=uzcb_adapter_15392_0,override=no (-1)
+saving job - uzcb_adapter_15392_0
+saving step - pcb
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+saving netlist - curcadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet/netlist
+*********** ERROR INTERNAL 23Jun2021.190015.614 get 12960 MBorgagni 11.2(16812256) Windows 10
+file/dir causing error #3 : C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/reps/netlist_compare_data
+*********** ERROR INTERNAL 23Jun2021.190015.614 get 12960 MBorgagni 11.2(16812256) Windows 10
+System fopen call error : No such file or directory at D:\anthill3\var\jobs\projects\193797_2397596\s_dev\code\gen\gen_fs.c 3018
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.190015.629 get 12960 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190015.645 get 12960 MBorgagni 11.2(16812256) Windows 10
+export_job,job=uzcb_adapter_15392_0,mode=tar_gzip,version=v8,submode=full,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011 (-1)
+***********  COMMAND 23Jun2021.190016.080 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_job,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.080 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.080 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.080 get 12960 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190016.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+import_job,db=,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0.tgz,name=uzcb_adapter_15392_0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol1+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol2+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol3+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/symbols/drill_symbol4+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/matrix/matrix
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/stephdr
+read step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/eda/data
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/attrlist
+*********** WARNING  23Jun2021.190016.901 get 12960 MBorgagni 11.2(16812256) Windows 10
+Parsing XML document C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/impedance.xml
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/matrix/matrix
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/misc/attrlist
+***********  COMMAND 23Jun2021.190016.932 get 12960 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=uzcb_adapter_15392_0,step=pcb,action=compare,path=C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber,show_modal=yes,guiless_mode=no (-1)
+***********  COMMAND 23Jun2021.190016.979 get 12960 MBorgagni 11.2(16812256) Windows 10
+units,type=inch,force_set=yes (0)
+***********  COMMAND 23Jun2021.190016.979 get 12960 MBorgagni 11.2(16812256) Windows 10
+set_group,group=0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/components
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/components
+*********** WARNING  23Jun2021.190017.418 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190017.418 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190017.680 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190017.680 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_BOT.pho ...
+*********** WARNING  23Jun2021.190018.135 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_DrillDrawing.pho ...
+*********** WARNING  23Jun2021.190018.351 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_drl001_TH.drl ...
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L2.pho ...
+*********** WARNING  23Jun2021.190018.806 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L3.pho ...
+*********** WARNING  23Jun2021.190019.006 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L4.pho ...
+*********** WARNING  23Jun2021.190019.238 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L5.pho ...
+*********** WARNING  23Jun2021.190019.438 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L6.pho ...
+*********** WARNING  23Jun2021.190019.623 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_L7.pho ...
+*********** WARNING  23Jun2021.190019.824 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_Paste_Mask_BOT.pho ...
+*********** WARNING  23Jun2021.190019.987 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_Paste_Mask_TOP.pho ...
+*********** WARNING  23Jun2021.190020.141 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_Silkscreen_Bot.pho ...
+*********** WARNING  23Jun2021.190020.291 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_Silkscreen_top.pho ...
+*********** WARNING  23Jun2021.190020.433 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_SOLDER_MASK_BOT.pho ...
+*********** WARNING  23Jun2021.190020.566 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_SOLDER_MASK_TOP.pho ...
+*********** WARNING  23Jun2021.190020.695 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+Translating - C:/icub-tech/electronics-boards/uzcb/pads/output_adapter/bareboard/gerber/UZCB_ADAPTER_15392_0_TOP.pho ...
+*********** WARNING  23Jun2021.190020.816 get 12960 MBorgagni 11.2(16812256) Windows 10
+Warning! Zero size dcode defined.
+*********** WARNING  23Jun2021.190021.021 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190021.021 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/drill/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_190011/uzcb_adapter_15392_0/steps/pcb/layers/rout/tools
+*********** WARNING  23Jun2021.190021.951 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190021.951 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+Found 0 graphic differences. For "paste-mask-top" (ILC)
+Found 0 graphic differences. For "silkscreen-top" (ILC)
+Found 0 graphic differences. For "solder-mask-top" (ILC)
+Found 0 graphic differences. For "top" (ILC)
+Found 0 graphic differences. For "inner-layer-2" (ILC)
+Found 0 graphic differences. For "inner-layer-3" (ILC)
+Found 0 graphic differences. For "inner-layer-4" (ILC)
+Found 0 graphic differences. For "inner-layer-5" (ILC)
+Found 0 graphic differences. For "inner-layer-6" (ILC)
+Found 0 graphic differences. For "inner-layer-7" (ILC)
+Found 0 graphic differences. For "bottom" (ILC)
+Found 0 graphic differences. For "solder-mask-bottom" (ILC)
+Found 0 graphic differences. For "silkscreen-bot" (ILC)
+Found 0 graphic differences. For "paste-mask-bot" (ILC)
+Found 0 graphic differences. For "drill_drawing.doc" (ILC)
+Found 0 graphic differences. For "drill" (ILC)
+*********** WARNING  23Jun2021.190024.340 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190024.340 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.051 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.051 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.085 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.085 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.116 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.116 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.152 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.152 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.152 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.152 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.167 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.167 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.198 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.198 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.214 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.214 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.236 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.236 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.267 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.267 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.283 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.283 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.283 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.283 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.330 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.330 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.336 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.336 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.383 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.383 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.399 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.399 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.415 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.415 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.452 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.457 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.464 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.464 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.480 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.480 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.495 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.495 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.511 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.527 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.537 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.537 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.568 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.568 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.584 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.584 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.584 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.584 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.599 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.599 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.637 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.637 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.653 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.653 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.684 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.684 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.699 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.699 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.715 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.715 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.731 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.731 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.768 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.768 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190028.800 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190028.800 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190029.069 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190029.069 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190029.085 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190029.085 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190029.116 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190029.116 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190029.126 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190029.126 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190031.927 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190031.927 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190031.946 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190031.946 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.131 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.147 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.147 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.153 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.153 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.184 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.184 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.200 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.200 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.200 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.200 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.216 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.216 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.247 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.247 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.253 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.253 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.285 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.285 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.285 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.285 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.316 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.316 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.316 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.332 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.332 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.332 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.332 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.354 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.354 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.354 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.354 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.369 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.369 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.385 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.385 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.401 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.401 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.401 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.401 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.416 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.416 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.432 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.432 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.432 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.432 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.454 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.454 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.454 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.454 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.485 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.485 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.501 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.501 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.574 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.574 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.592 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.592 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.592 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.592 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.608 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.608 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.624 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.624 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.624 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.624 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.639 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.639 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.654 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.654 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190035.670 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190035.670 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.858 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.858 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.874 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.874 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.874 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.874 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.889 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.889 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.905 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.905 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.920 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.920 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.920 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.920 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.936 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.936 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.958 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.958 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.958 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.958 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.974 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.974 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190037.989 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190037.989 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.005 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.005 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.021 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.021 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.036 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.036 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.058 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.058 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.076 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.076 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.091 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.091 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.107 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.107 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.122 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.122 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.138 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.138 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.159 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.159 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.174 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.174 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.193 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.193 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.209 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.209 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.225 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.225 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.241 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.241 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.258 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.258 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.274 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.274 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.321 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.321 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.359 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.359 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.409 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.409 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.430 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.430 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.446 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.446 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.459 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.459 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.475 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.475 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.490 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.490 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.574 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.574 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190038.577 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190038.577 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.104 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.104 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.120 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.120 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.136 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.136 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.151 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.151 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.173 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.173 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.189 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.189 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.205 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.205 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.220 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.220 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.236 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.236 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.252 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.252 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.274 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.274 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.289 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.289 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.321 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.321 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.336 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.336 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.352 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.393 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.393 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.409 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.409 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.424 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.424 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.440 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.440 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.455 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.455 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.474 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.474 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.490 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.490 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.505 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.505 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.521 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.521 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.621 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.621 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.674 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.674 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190043.690 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190043.690 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.345 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.345 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.394 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.394 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.425 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.425 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.440 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.440 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.472 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.472 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.514 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.514 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.530 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.530 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.577 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.577 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.599 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.599 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.615 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.615 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.659 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.659 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.684 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.684 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.726 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.726 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.741 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.741 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.777 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.777 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.799 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.799 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.815 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.815 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.880 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.880 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.899 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.899 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.925 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.925 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190046.984 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190046.984 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190047.009 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190047.009 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190047.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190047.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190047.115 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190047.115 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190047.159 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190047.159 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190047.470 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190047.470 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=paste-mask-bot,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=paste-mask-bot (0)
+*********** WARNING  23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190118.640 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190118.655 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190118.655 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190120.214 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_paste_mask_bot.pho,display=yes,number=2 (0)
+*********** WARNING  23Jun2021.190120.214 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190120.214 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190120.230 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190120.230 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190121.981 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=silkscreen-bot,display=yes,number=3 (0)
+*********** WARNING  23Jun2021.190121.981 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190121.981 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190121.987 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190121.987 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190122.003 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190122.003 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190123.607 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_silkscreen_bot.pho,display=yes,number=4 (0)
+*********** WARNING  23Jun2021.190123.607 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190123.607 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190123.623 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190123.623 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190125.516 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=solder-mask-bottom,display=yes,number=5 (0)
+*********** WARNING  23Jun2021.190125.516 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190125.516 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190125.531 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190125.531 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190125.547 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190125.547 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190127.567 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_solder_mask_bot.pho,display=yes,number=6 (0)
+*********** WARNING  23Jun2021.190127.583 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190127.583 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190127.583 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190127.583 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190129.312 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=bottom,display=yes,number=7 (0)
+*********** WARNING  23Jun2021.190129.327 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190129.327 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190129.343 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190129.343 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190129.358 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190129.358 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190131.416 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_bot.pho,display=yes,number=8 (0)
+*********** WARNING  23Jun2021.190131.416 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190131.416 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190131.448 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190131.448 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190133.957 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-7,display=yes,number=9 (0)
+*********** WARNING  23Jun2021.190133.973 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190133.973 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190134.019 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190134.019 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190134.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190134.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190135.960 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l7.pho,display=yes,number=10 (0)
+*********** WARNING  23Jun2021.190136.029 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190136.029 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190136.129 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190136.129 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190138.067 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=yes,number=11 (0)
+*********** WARNING  23Jun2021.190138.067 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190138.067 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190138.181 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190138.181 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190138.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190138.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190139.941 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l6.pho,display=yes,number=12 (0)
+*********** WARNING  23Jun2021.190139.957 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190139.957 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190140.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190140.057 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190141.927 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-5,display=yes,number=13 (0)
+*********** WARNING  23Jun2021.190141.927 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190141.927 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190142.051 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190142.051 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190142.172 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190142.172 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190143.676 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l5.pho,display=yes,number=14 (0)
+*********** WARNING  23Jun2021.190143.760 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190143.760 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190143.954 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190143.954 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190147.031 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-4,display=yes,number=15 (0)
+*********** WARNING  23Jun2021.190147.047 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190147.047 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190147.248 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190147.248 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190147.448 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190147.448 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190148.831 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l4.pho,display=yes,number=16 (0)
+*********** WARNING  23Jun2021.190148.906 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190148.906 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190149.188 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190149.188 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190150.803 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-3,display=yes,number=17 (0)
+*********** WARNING  23Jun2021.190150.803 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190150.803 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190151.081 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190151.081 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190151.366 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190151.366 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190152.902 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=yes,number=18 (0)
+*********** WARNING  23Jun2021.190152.908 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190152.908 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190153.187 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190153.187 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190154.708 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190154.714 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190155.871 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190155.871 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190158.351 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=no,number=18 (0)
+*********** WARNING  23Jun2021.190158.636 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190158.636 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190158.890 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190158.890 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190159.906 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=yes,number=18 (0)
+*********** WARNING  23Jun2021.190159.921 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190159.921 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190200.206 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190200.206 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190203.880 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190203.880 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190205.065 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190205.065 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190205.998 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190205.998 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190206.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190206.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190209.426 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-4,display=no,number=15 (0)
+*********** WARNING  23Jun2021.190209.703 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190209.703 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190209.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190209.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190209.973 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l4.pho,display=no,number=16 (0)
+*********** WARNING  23Jun2021.190210.167 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190210.167 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190211.346 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-5,display=no,number=13 (0)
+*********** WARNING  23Jun2021.190211.546 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190211.546 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190211.731 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190211.731 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190211.731 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l5.pho,display=no,number=14 (0)
+*********** WARNING  23Jun2021.190211.847 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190211.847 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190212.495 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=no,number=11 (0)
+*********** WARNING  23Jun2021.190212.602 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190212.602 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190212.702 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190212.702 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190212.718 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l6.pho,display=no,number=12 (0)
+*********** WARNING  23Jun2021.190212.818 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190212.818 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190213.568 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-7,display=no,number=9 (0)
+*********** WARNING  23Jun2021.190213.683 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190213.683 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190213.768 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190213.768 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190213.784 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l7.pho,display=no,number=10 (0)
+*********** WARNING  23Jun2021.190213.821 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190213.821 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190215.041 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=bottom,display=no,number=7 (0)
+*********** WARNING  23Jun2021.190215.072 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.072 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190215.088 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.088 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190215.104 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_bot.pho,display=no,number=8 (0)
+*********** WARNING  23Jun2021.190215.110 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.110 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190215.844 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=solder-mask-bottom,display=no,number=5 (0)
+*********** WARNING  23Jun2021.190215.859 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.859 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190215.875 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.875 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190215.890 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_solder_mask_bot.pho,display=no,number=6 (0)
+*********** WARNING  23Jun2021.190215.890 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190215.890 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190218.221 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=silkscreen-bot,display=no,number=3 (0)
+*********** WARNING  23Jun2021.190218.237 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.237 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190218.252 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.252 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190218.252 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_silkscreen_bot.pho,display=no,number=4 (0)
+*********** WARNING  23Jun2021.190218.268 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.268 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190218.954 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=paste-mask-bot,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190218.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190218.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.970 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190218.985 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_paste_mask_bot.pho,display=no,number=2 (0)
+*********** WARNING  23Jun2021.190218.985 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190218.985 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190223.452 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=no,number=18 (0)
+*********** WARNING  23Jun2021.190223.467 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190223.467 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190223.467 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190223.467 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190224.602 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190224.617 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190224.617 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190224.617 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190224.617 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190226.546 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l3.pho,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190226.546 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190226.546 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190226.561 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190226.561 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190227.650 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-2,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190227.665 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190227.665 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190227.681 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190227.681 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190227.697 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190227.697 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190229.572 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-3,display=no,number=17 (0)
+*********** WARNING  23Jun2021.190229.588 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190229.588 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190229.603 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190229.603 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190231.802 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l2.pho,display=yes,number=2 (0)
+*********** WARNING  23Jun2021.190231.848 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190231.848 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190231.893 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190231.893 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190234.147 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=top,display=yes,number=3 (0)
+*********** WARNING  23Jun2021.190234.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190234.169 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190234.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190234.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190234.231 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=yes,number=4 (0)
+*********** WARNING  23Jun2021.190234.247 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190234.247 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190234.247 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-2,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190234.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190234.300 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190234.316 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=uzcb_adapter_15392_0_l2.pho (0)
+***********  COMMAND 23Jun2021.190234.316 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_l2.pho,display=no,number=2 (0)
+*********** WARNING  23Jun2021.190234.331 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190234.331 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190234.331 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=top (0)
+***********  COMMAND 23Jun2021.190236.704 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=no,number=4 (0)
+*********** WARNING  23Jun2021.190236.719 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190236.719 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190236.735 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190236.735 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190237.790 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190237.790 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190237.790 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190237.821 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190237.821 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190238.575 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190238.575 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190238.575 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190238.590 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190238.590 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190239.276 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190239.291 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190239.291 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190239.307 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190239.307 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190239.940 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_top.pho,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190239.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190239.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190239.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190239.955 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190241.212 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=solder-mask-top,display=yes,number=1 (0)
+*********** WARNING  23Jun2021.190241.212 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190241.212 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190241.228 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190241.228 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190241.243 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_solder_mask_top.pho,display=yes,number=2 (0)
+*********** WARNING  23Jun2021.190241.243 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190241.243 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190241.243 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=top,display=no,number=3 (0)
+*********** WARNING  23Jun2021.190241.259 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190241.259 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190241.259 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=solder-mask-top (0)
+***********  COMMAND 23Jun2021.190244.540 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=silkscreen-top,display=yes,number=3 (0)
+*********** WARNING  23Jun2021.190244.540 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190244.540 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190244.556 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190244.556 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190244.571 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190244.571 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190246.213 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_silkscreen_top.pho,display=yes,number=4 (0)
+*********** WARNING  23Jun2021.190246.228 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190246.228 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190246.244 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190246.244 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190246.948 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=silkscreen-top,display=no,number=3 (0)
+*********** WARNING  23Jun2021.190246.963 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190246.963 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190246.963 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=solder-mask-top (0)
+*********** WARNING  23Jun2021.190246.979 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190246.979 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190246.979 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_silkscreen_top.pho,display=no,number=4 (0)
+*********** WARNING  23Jun2021.190246.994 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190246.994 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190247.664 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=silkscreen-top,display=yes,number=3 (0)
+*********** WARNING  23Jun2021.190247.664 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190247.664 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.190247.679 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190247.679 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190247.679 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_silkscreen_top.pho,display=yes,number=4 (0)
+*********** WARNING  23Jun2021.190247.695 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190247.695 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190247.695 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=solder-mask-top,display=no,number=1 (0)
+*********** WARNING  23Jun2021.190247.711 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190247.711 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190247.711 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=uzcb_adapter_15392_0_solder_mask_top.pho (0)
+***********  COMMAND 23Jun2021.190247.711 get 12960 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=uzcb_adapter_15392_0_solder_mask_top.pho,display=no,number=2 (0)
+*********** WARNING  23Jun2021.190247.717 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.190247.717 get 12960 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.190247.717 get 12960 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=silkscreen-top (0)
+***********  COMMAND 23Jun2021.190259.377 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cad (-1)
+***********  COMMAND 23Jun2021.190259.377 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cur_cad (-1)
+***********  COMMAND 23Jun2021.190259.579 get 12960 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,pin_point=no (-1)
+***********  COMMAND 23Jun2021.190309.288 get 12960 MBorgagni 11.2(16812256) Windows 10
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 23Jun2021.190309.303 get 12960 MBorgagni 11.2(16812256) Windows 10
+editor_page_close (0)
+***********  COMMAND 23Jun2021.190309.303 get 12960 MBorgagni 11.2(16812256) Windows 10
+dpw_do,op=continue (-1)
+***********  COMMAND 23Jun2021.190309.319 get 12960 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=uzcb_adapter_15392_0,step=pcb,action=close (-1)
+***********  COMMAND 23Jun2021.190309.340 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_job,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.349 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.349 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.351 get 12960 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.396 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.396 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.190309.396 get 12960 MBorgagni 11.2(16812256) Windows 10
+close_toolkit,save_log=yes (-1)
+*********** WARNING  23Jun2021.190309.396 get 12960 MBorgagni 11.2(16812256) Windows 10
+Main window has no title, as window state saved to file C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/.genesis/EngineeringToolkitWindow.settings.

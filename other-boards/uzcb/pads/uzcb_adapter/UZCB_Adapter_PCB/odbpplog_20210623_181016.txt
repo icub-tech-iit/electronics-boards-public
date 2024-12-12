@@ -1,0 +1,901 @@
+***********  COMMAND 23Jun2021.181020.466 get 22040 MBorgagni 11.2(16812256) Windows 10
+dpw_run,path=camc4pads,init_file_path=C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/tmp/wfInit-genesis186a3.iiticublap168.22040,mode=silent,start=yes (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/sys//wizards/camc4pads.xmlz
+***********  COMMAND 23Jun2021.181020.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=get_def_units,value=inch,mode=user (-1)
+***********  COMMAND 23Jun2021.181020.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_systems,value=powerpcb,mode=user (-1)
+***********  COMMAND 23Jun2021.181020.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_powerpcb_sync_nt,value=yes,mode=user (-1)
+***********  COMMAND 23Jun2021.181020.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+config_edit,name=eda_sync_units,value=editor,mode=user (-1)
+***********  COMMAND 23Jun2021.181020.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+create_entity,job=,is_fw=no,type=job,name=uzcb_adapter_15392_0,db=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019,fw_type=form (-1)
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+saving job - uzcb_adapter_15392_0
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/input
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/output
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/fonts
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/wheels
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/matrix
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/whltemps
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/user
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.181021.923 get 22040 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=uzcb_adapter_15392_0,parent_step=,op=count (-1)
+***********  COMMAND 23Jun2021.181021.923 get 22040 MBorgagni 11.2(16812256) Windows 10
+entity_exist,type=step,name=*,parent_job=uzcb_adapter_15392_0,parent_step=,op=first (-1)
+***********  COMMAND 23Jun2021.181021.939 get 22040 MBorgagni 11.2(16812256) Windows 10
+save_job,job=uzcb_adapter_15392_0,override=no (-1)
+saving job - uzcb_adapter_15392_0
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/attrlist
+saving matrix - matrix
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/matrix/matrix
+saving font - standard
+saving attributes - attr
+saving step - pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+saving netlist - cadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet/netlist
+saving netlist - refnet
+saving netlist - curnet
+saving netlist - curcadnet
+saving films - films
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/attrlist
+saving eda - eda
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/eda
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/eda/data
+saving layer - paste-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/attrlist
+saving layer - silkscreen-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/attrlist
+saving layer - solder-mask-top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/attrlist
+saving layer - top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top/attrlist
+saving layer - inner-layer-2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/attrlist
+saving layer - inner-layer-3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/attrlist
+saving layer - inner-layer-4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/attrlist
+saving layer - inner-layer-5
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/attrlist
+saving layer - inner-layer-6
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/attrlist
+saving layer - inner-layer-7
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/attrlist
+saving layer - bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom/attrlist
+saving layer - solder-mask-bottom
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/attrlist
+saving layer - silkscreen-bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/attrlist
+saving layer - paste-mask-bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/attrlist
+saving layer - drill_drawing.doc
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/features
+saving relation - relation
+compressing features file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/features
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/attrlist
+saving layer - drill
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/attrlist
+saving impedance - impedance
+saving layer - rout
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/features
+saving relation - relation
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/tools
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/attrlist
+saving layer - comp_+_top
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/attrlist
+saving layer - comp_+_bot
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/components
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/attrlist
+saving layer - dielectric1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/attrlist
+saving layer - dielectric2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/attrlist
+saving layer - dielectric3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/attrlist
+saving layer - dielectric4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/attrlist
+saving layer - dielectric5
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/attrlist
+saving layer - dielectric6
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/attrlist
+saving layer - dielectric7
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/features
+saving relation - relation
+saving film1 - film1
+saving notes - notes
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/process_directions
+saving symbol - drill_symbol1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1
+saving layer - drill_symbol1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1/attrlist
+saving symbol - drill_symbol2
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2
+saving layer - drill_symbol2
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2/attrlist
+saving symbol - drill_symbol3
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3
+saving layer - drill_symbol3
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3/attrlist
+saving symbol - drill_symbol4
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4
+saving layer - drill_symbol4
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4/attrlist
+saving symbol - drill_symbol1+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1+1
+saving layer - drill_symbol1+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1+1/attrlist
+saving symbol - drill_symbol2+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2+1
+saving layer - drill_symbol2+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2+1/attrlist
+saving symbol - drill_symbol3+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3+1
+saving layer - drill_symbol3+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3+1/attrlist
+saving symbol - drill_symbol4+1
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4+1
+saving layer - drill_symbol4+1
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4+1/features
+saving relation - relation
+saving ent_attributes - ent_attributes
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4+1/attrlist
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.181022.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181022.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_page_open,set=yes,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,mode=hidden (-1)
+***********  COMMAND 23Jun2021.181022.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 23Jun2021.181022.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_control,auto_zoom=zoom_pan (-1)
+***********  COMMAND 23Jun2021.181022.973 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cad,display=top (-1)
+***********  COMMAND 23Jun2021.181022.973 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cur_cad,display=bottom (-1)
+***********  COMMAND 23Jun2021.181023.189 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,display=yes,pin_point=no (-1)
+***********  COMMAND 23Jun2021.181023.205 get 22040 MBorgagni 11.2(16812256) Windows 10
+save_job,job=uzcb_adapter_15392_0,override=no (-1)
+saving job - uzcb_adapter_15392_0
+saving step - pcb
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/stephdr
+write step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+saving netlist - curcadnet
+create directory - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet/netlist
+*********** ERROR INTERNAL 23Jun2021.181023.227 get 22040 MBorgagni 11.2(16812256) Windows 10
+file/dir causing error #3 : C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/reps/netlist_compare_data
+*********** ERROR INTERNAL 23Jun2021.181023.227 get 22040 MBorgagni 11.2(16812256) Windows 10
+System fopen call error : No such file or directory at D:\anthill3\var\jobs\projects\193797_2397596\s_dev\code\gen\gen_fs.c 3018
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/info
+***********  COMMAND 23Jun2021.181023.243 get 22040 MBorgagni 11.2(16812256) Windows 10
+get_job_path,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.243 get 22040 MBorgagni 11.2(16812256) Windows 10
+export_job,job=uzcb_adapter_15392_0,mode=tar_gzip,version=v8,submode=full,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019 (-1)
+***********  COMMAND 23Jun2021.181023.691 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_job,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.691 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.691 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.691 get 22040 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.744 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.744 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181023.744 get 22040 MBorgagni 11.2(16812256) Windows 10
+import_job,db=,path=C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0.tgz,name=uzcb_adapter_15392_0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol1+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol2+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol3+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4+1/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/symbols/drill_symbol4+1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/matrix/matrix
+read file - C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/edir/all/lyr_types
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/stephdr
+read step profile - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/profile
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric1/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric5/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric6/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/dielectric7/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill_drawing.doc/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/paste-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-bot/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/silkscreen-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-bottom/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/solder-mask-top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top/attrlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/cadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/netlists/curcadnet/netlist
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/eda/data
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/attrlist
+*********** WARNING  23Jun2021.181024.508 get 22040 MBorgagni 11.2(16812256) Windows 10
+Parsing XML document C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/impedance.xml
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/process_directions
+write file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/matrix/matrix
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/misc/attrlist
+***********  COMMAND 23Jun2021.181024.545 get 22040 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=uzcb_adapter_15392_0,step=pcb,action=open,path=,show_modal=yes (-1)
+***********  COMMAND 23Jun2021.181024.592 get 22040 MBorgagni 11.2(16812256) Windows 10
+units,type=inch,force_set=yes (0)
+***********  COMMAND 23Jun2021.181024.592 get 22040 MBorgagni 11.2(16812256) Windows 10
+set_group,group=0 (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_top/components
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/comp_+_bot/components
+*********** WARNING  23Jun2021.181025.008 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181025.008 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.375 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.375 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.382 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.382 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.397 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.397 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.397 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.413 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.413 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.413 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.428 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.428 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.428 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.444 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.444 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.444 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.460 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.460 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.460 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.460 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.482 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.497 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.497 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.513 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.513 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.513 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.513 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.529 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.529 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.544 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.544 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.560 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.560 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.560 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.560 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.582 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.582 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.582 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.582 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.598 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.598 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.613 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.613 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.629 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.629 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.645 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.645 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.645 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.645 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.660 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.660 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.676 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.676 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.682 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.682 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.698 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.698 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.714 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.714 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.729 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.729 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.729 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.729 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.745 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.745 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.760 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.760 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181040.776 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181040.776 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.485 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.485 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.525 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.525 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.541 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.541 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.557 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.557 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.607 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.607 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.623 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.623 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.639 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.639 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.670 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.670 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.692 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.692 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.708 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.708 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.739 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.739 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.754 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.754 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.786 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.786 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.808 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.808 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.870 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.870 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.886 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.886 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.892 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.892 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.908 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.908 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.955 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.955 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181043.971 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181043.971 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181044.008 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181044.008 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181052.295 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-2,display=yes,number=1 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-2/features
+*********** WARNING  23Jun2021.181052.333 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181052.333 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181052.333 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-2 (0)
+*********** WARNING  23Jun2021.181052.348 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181052.348 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181055.925 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-3,display=yes,number=2 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-3/features
+*********** WARNING  23Jun2021.181055.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181055.957 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181055.972 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181055.972 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181056.974 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-2,display=no,number=1 (0)
+*********** WARNING  23Jun2021.181056.974 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181056.974 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181056.990 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-3 (0)
+*********** WARNING  23Jun2021.181056.990 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181056.990 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181058.937 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-4,display=yes,number=1 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-4/features
+*********** WARNING  23Jun2021.181058.984 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181058.984 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181058.999 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181058.999 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181059.934 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-3,display=no,number=2 (0)
+*********** WARNING  23Jun2021.181059.940 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181059.940 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181059.940 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-4 (0)
+*********** WARNING  23Jun2021.181059.940 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181059.940 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181101.745 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-5,display=yes,number=2 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-5/features
+*********** WARNING  23Jun2021.181101.792 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181101.792 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181101.807 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181101.807 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181103.228 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-4,display=no,number=1 (0)
+*********** WARNING  23Jun2021.181103.228 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181103.228 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181103.228 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-5 (0)
+*********** WARNING  23Jun2021.181103.243 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181103.243 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181104.686 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=yes,number=1 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-6/features
+*********** WARNING  23Jun2021.181104.733 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181104.733 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181104.733 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181104.733 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181105.673 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-5,display=no,number=2 (0)
+*********** WARNING  23Jun2021.181105.689 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181105.689 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181105.689 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-6 (0)
+*********** WARNING  23Jun2021.181105.689 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181105.689 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181107.439 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=no,number=1 (0)
+*********** WARNING  23Jun2021.181107.439 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181107.439 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181107.439 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181107.439 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181108.643 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-7,display=yes,number=1 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/inner-layer-7/features
+*********** WARNING  23Jun2021.181108.681 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181108.681 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181108.681 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-7 (0)
+*********** WARNING  23Jun2021.181108.696 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181108.696 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181110.671 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=yes,number=2 (0)
+*********** WARNING  23Jun2021.181110.686 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181110.686 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181110.686 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181110.686 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181112.422 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-7,display=no,number=1 (0)
+*********** WARNING  23Jun2021.181112.422 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181112.422 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181112.438 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=inner-layer-6 (0)
+*********** WARNING  23Jun2021.181112.438 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181112.438 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181113.443 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=inner-layer-6,display=no,number=2 (0)
+*********** WARNING  23Jun2021.181113.443 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181113.443 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+*********** WARNING  23Jun2021.181113.443 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181113.443 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181114.461 get 22040 MBorgagni 11.2(16812256) Windows 10
+display_layer,name=bottom,display=yes,number=1 (0)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/bottom/features
+*********** WARNING  23Jun2021.181114.514 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181114.514 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181114.514 get 22040 MBorgagni 11.2(16812256) Windows 10
+work_layer,name=bottom (0)
+*********** WARNING  23Jun2021.181114.514 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 202 was not found.
+*********** WARNING  23Jun2021.181114.514 get 22040 MBorgagni 11.2(16812256) Windows 10
+Menu item with id 201 was not found.
+***********  COMMAND 23Jun2021.181123.157 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cad (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/top/features
+***********  COMMAND 23Jun2021.181123.240 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_recalc,job=uzcb_adapter_15392_0,step=pcb,type=cur_cad (-1)
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/rout/tools
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/features
+read file - C:/Users/MBORGA~1/AppData/Local/Temp/ODBpp_20210623_181019/uzcb_adapter_15392_0/steps/pcb/layers/drill/tools
+***********  COMMAND 23Jun2021.181123.457 get 22040 MBorgagni 11.2(16812256) Windows 10
+netlist_compare,job1=uzcb_adapter_15392_0,step1=pcb,type1=cad,job2=uzcb_adapter_15392_0,step2=pcb,type2=cur_cad,pin_point=no (-1)
+***********  COMMAND 23Jun2021.181129.949 get 22040 MBorgagni 11.2(16812256) Windows 10
+multi_layer_disp,mode=default,show_board=no (0)
+***********  COMMAND 23Jun2021.181129.965 get 22040 MBorgagni 11.2(16812256) Windows 10
+editor_page_close (0)
+***********  COMMAND 23Jun2021.181129.965 get 22040 MBorgagni 11.2(16812256) Windows 10
+dpw_do,op=continue (-1)
+***********  COMMAND 23Jun2021.181129.965 get 22040 MBorgagni 11.2(16812256) Windows 10
+cam_compare,job=uzcb_adapter_15392_0,step=pcb,action=close (-1)
+***********  COMMAND 23Jun2021.181129.996 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_job,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181129.996 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181129.996 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181130.002 get 22040 MBorgagni 11.2(16812256) Windows 10
+delete_entity,job=,type=job,name=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181130.049 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_form,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181130.049 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_flow,job=uzcb_adapter_15392_0 (-1)
+***********  COMMAND 23Jun2021.181130.049 get 22040 MBorgagni 11.2(16812256) Windows 10
+close_toolkit,save_log=yes (-1)
+*********** WARNING  23Jun2021.181130.049 get 22040 MBorgagni 11.2(16812256) Windows 10
+Main window has no title, as window state saved to file C:/MentorGraphics/PADSVX.2.8/SDD_HOME/dfm/.genesis/EngineeringToolkitWindow.settings.

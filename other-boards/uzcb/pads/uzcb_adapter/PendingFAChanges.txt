@@ -1,0 +1,288 @@
+                              Forward Annotation Pending Changes Report                             
+
+This file contains connectivity differences between PADS Designer project:
+	 "C:\icub-tech\electronics-boards\uzcb\pads\uzcb_adapter\uzcb_adapter.prj" 
+and PADS Layout PCB:
+	 "C:\icub-tech\electronics-boards\uzcb\pads\uzcb_adapter\UZCB_Adapter.pcb" 
+
+(If you click Forward Annotation indicator in Project Integration dialog, these changes will be sent
+ from PADS Designer project to PADS Layout PCB.)
+
+
+============================================ Components ============================================
+***** Added (4) *****
+   Ref-Des:                 J31A |   Part:  HIROSE-FX10A-168S-SV |   Decal:            <default>
+       |> Attributes:
+              |> Name: "DXDB_LIBNAME" | Value: "CO - PCB mounted connectors"
+              |> Name: "Description" | Value: "PCB connector, FX10, 168 contacts, 2 rows, receptacle p. 0.5 mm, Straight, b to b, SMD"
+              |> Name: "Geometry.Height" | Value: "4mm"
+              |> Name: "Geometry_Height" | Value: ""
+              |> Name: "IITCODE" | Value: "15386"
+              |> Name: "Value" | Value: "FX10A-168S-SV(21)"
+              |> Name: "cat_id" | Value: "CO - PCB mounted connectors"
+              |> Name: "documentation" | Value: "\\storage05.icub.iit.local\repository\mechatronics\Datasheet\Connectors\Hi-Rose\HIROSE - FX10 connector.pdf"
+              |> Name: "package" | Value: "FX10A-168S-SV"
+   Ref-Des:                 J32A |   Part:  HIROSE-FX10A-168S-SV |   Decal:            <default>
+       |> Attributes:
+              |> Name: "DXDB_LIBNAME" | Value: "CO - PCB mounted connectors"
+              |> Name: "Description" | Value: "PCB connector, FX10, 168 contacts, 2 rows, receptacle p. 0.5 mm, Straight, b to b, SMD"
+              |> Name: "Geometry.Height" | Value: "4mm"
+              |> Name: "Geometry_Height" | Value: ""
+              |> Name: "IITCODE" | Value: "15386"
+              |> Name: "Value" | Value: "FX10A-168S-SV(21)"
+              |> Name: "cat_id" | Value: "CO - PCB mounted connectors"
+              |> Name: "documentation" | Value: "\\storage05.icub.iit.local\repository\mechatronics\Datasheet\Connectors\Hi-Rose\HIROSE - FX10 connector.pdf"
+              |> Name: "package" | Value: "FX10A-168S-SV"
+   Ref-Des:                  J31 |   Part:  HIROSE-FX10A-168P-SV |   Decal:            <default>
+       |> Attributes:
+              |> Name: "DXDB_LIBNAME" | Value: "CO - PCB mounted connectors"
+              |> Name: "Description" | Value: "PCB connector, FX10, 168 contacts, 2 rows, receptacle, p. 0.5 mm, Straight, b to b, lock, key, SMD"
+              |> Name: "Geometry.Height" | Value: "4mm"
+              |> Name: "Geometry_Height" | Value: ""
+              |> Name: "IITCODE" | Value: "13883"
+              |> Name: "Value" | Value: "FX10A-168P-SV(93)"
+              |> Name: "cat_id" | Value: "CO - PCB mounted connectors"
+              |> Name: "documentation" | Value: "\\storage05.icub.iit.local\repository\mechatronics\Datasheet\Connectors\Hi-Rose\HIROSE - FX10 connector.pdf"
+              |> Name: "package" | Value: ""
+   Ref-Des:                  J32 |   Part:  HIROSE-FX10A-168P-SV |   Decal:            <default>
+       |> Attributes:
+              |> Name: "DXDB_LIBNAME" | Value: "CO - PCB mounted connectors"
+              |> Name: "Description" | Value: "PCB connector, FX10, 168 contacts, 2 rows, receptacle, p. 0.5 mm, Straight, b to b, lock, key, SMD"
+              |> Name: "Geometry.Height" | Value: "4mm"
+              |> Name: "Geometry_Height" | Value: ""
+              |> Name: "IITCODE" | Value: "13883"
+              |> Name: "Value" | Value: "FX10A-168P-SV(93)"
+              |> Name: "cat_id" | Value: "CO - PCB mounted connectors"
+              |> Name: "documentation" | Value: "\\storage05.icub.iit.local\repository\mechatronics\Datasheet\Connectors\Hi-Rose\HIROSE - FX10 connector.pdf"
+              |> Name: "package" | Value: ""
+
+***** No item is about to be removed *****
+
+=============================================== Nets ===============================================
+***** Added (219) *****
+   Name:    SPB_DIFF2_MIPI2_P |   Pins:                                             J32.120 J32A.120 
+   Name:    SPB_DIFF1_MIPI1_N |   Pins:                                             J32.116 J32A.116 
+   Name:    SPA_DIFF1_MIPI1_P |   Pins:                                             J32.154 J32A.154 
+   Name:    SPA_DIFF2_MIPI2_N |   Pins:                                             J32.162 J32A.162 
+   Name:    SPB_DIFF4_MIPI4_P |   Pins:                                             J32.142 J32A.142 
+   Name:    SPA_DIFF1_MIPI1_N |   Pins:                                             J32.156 J32A.156 
+   Name:    SPA_DIFF4_MIPI4_P |   Pins:                                             J32.164 J32A.164 
+   Name:    SPB_DIFF3_MIPI3_N |   Pins:                                             J32.138 J32A.138 
+   Name:    SPB_DIFF2_MIPI2_N |   Pins:                                             J32.122 J32A.122 
+   Name:    SPB_DIFF3_MIPI3_P |   Pins:                                             J32.136 J32A.136 
+   Name:    SPB_DIFF1_MIPI1_P |   Pins:                                             J32.114 J32A.114 
+   Name:               $1N216 |   Pins:                                               J32.53 J32A.53 
+   Name:  SPB_DIFF0_MIPICLK_P |   Pins:                                             J32.110 J32A.110 
+   Name:  SPA_DIFF0_MIPICLK_N |   Pins:                                             J32.132 J32A.132 
+   Name:    SPA_DIFF3_MIPI3_P |   Pins:                                             J32.100 J32A.100 
+   Name:         VCC_MAIN_MOD |   Pins:  J31.1 J31.11 J31.2 J31.3 J31.4 J31.5 J31.6 J31.7 J31.8 J31.9 J31A.1 J31A.2 J31A.22 J31A.23 J31A.24 J31A.3 J31A.4 J31A.5 J31A.6 J31A.7  ...
+   Name:           DUMMYTX3_P |   Pins:                                               J32.63 J32A.63 
+   Name:    SPA_DIFF4_MIPI4_N |   Pins:                                             J32.166 J32A.166 
+   Name:    SPA_DIFF3_MIPI3_N |   Pins:                                             J32.102 J32A.102 
+   Name:       EDR_HSSAER_3_P |   Pins:                                             J32.129 J32A.129 
+   Name:       EDR_HSSAER_3_N |   Pins:                                             J32.131 J32A.131 
+   Name:  SPB_DIFF0_MIPICLK_N |   Pins:                                             J32.112 J32A.112 
+   Name:  SPA_DIFF0_MIPICLK_P |   Pins:                                             J32.130 J32A.130 
+   Name:    SPA_DIFF2_MIPI2_P |   Pins:                                             J32.160 J32A.160 
+   Name:       EDR_HSSAER_2_P |   Pins:                                             J32.111 J32A.111 
+   Name:             ETH0_A_P |   Pins:                                             J31.165 J31A.165 
+   Name:           DUMMYTX1_P |   Pins:                                               J32.45 J32A.45 
+   Name:             ETH0_D_P |   Pins:                                             J31.147 J31A.147 
+   Name:           DUMMYTX3_N |   Pins:                                               J32.65 J32A.65 
+   Name:           DUMMYTX4_N |   Pins:                                               J32.71 J32A.71 
+   Name:           DUMMYTX4_P |   Pins:                                               J32.69 J32A.69 
+   Name:    SPB_DIFF4_MIPI4_N |   Pins:                                             J32.144 J32A.144 
+   Name:       EDR_HSSAER_1_P |   Pins:                                             J32.107 J32A.107 
+   Name:       EDR_HSSAER_2_N |   Pins:                                             J32.113 J32A.113 
+   Name:       EDR_HSSAER_1_N |   Pins:                                             J32.109 J32A.109 
+   Name:       EDL_HSSAER_1_P |   Pins:                                             J32.151 J32A.151 
+   Name:       EDL_HSSAER_1_N |   Pins:                                             J32.153 J32A.153 
+   Name:        MGT_REFCLK0_N |   Pins:                                                 J32.5 J32A.4 
+   Name:        MGT_REFCLK1_N |   Pins:                                               J32.12 J32A.26 
+   Name:          FRR_DATA0_N |   Pins:                                               J32.59 J32A.59 
+   Name:       EDR_HSSAER_0_N |   Pins:                                             J32.103 J32A.103 
+   Name:        MGT_REFCLK1_P |   Pins:                                               J32.10 J32A.25 
+   Name:       EDR_HSSAER_0_P |   Pins:                                             J32.101 J32A.101 
+   Name:          FRR_DATA0_P |   Pins:                                               J32.57 J32A.57 
+   Name:        MGT_REFCLK0_P |   Pins:                                                 J32.3 J32A.3 
+   Name:         SPC_SPARE0_P |   Pins:                                             J32.117 J32A.117 
+   Name:     MGT_PS_REFCLK1_P |   Pins:                                                 J32.7 J32A.5 
+   Name:           VCC_IO_1V8 |   Pins:  J31.38 J31A.39 J32.140 J32.143 J32.64 J32.67 J32.88 J32.95 J32A.143 J32A.67  ...
+   Name:     MGT_PS_REFCLK1_N |   Pins:                                                 J32.9 J32A.6 
+   Name:         SPC_SPARE1_P |   Pins:                                             J32.145 J32A.145 
+   Name:          VIN_XU5_1V8 |   Pins:                                J32.108 J32.128 J32.52 J32.76 
+   Name:          USB3_A_RX_N |   Pins:                                               J32.28 J32A.34 
+   Name:          USB3_A_TX_P |   Pins:                                               J32.21 J32A.12 
+   Name:          USB3_A_TX_N |   Pins:                                               J32.25 J32A.14 
+   Name:         SPC_SPARE0_N |   Pins:                                             J32.119 J32A.119 
+   Name:         SPC_SPARE1_N |   Pins:                                             J32.147 J32A.147 
+   Name:          USB3_A_RX_P |   Pins:                                               J32.24 J32A.32 
+   Name:        FRR_DATACLK_P |   Pins:                                               J32.78 J32A.78 
+   Name:          FRR_HSCLK_P |   Pins:                                               J32.84 J32A.84 
+   Name:          FRR_HSCLK_N |   Pins:                                               J32.86 J32A.86 
+   Name:          FRL_DATA0_N |   Pins:                                             J32.141 J32A.141 
+   Name:          FRR_DATA3_N |   Pins:                                               J32.89 J32A.89 
+   Name:          FRR_DATA2_P |   Pins:                                               J32.72 J32A.72 
+   Name:          FRR_DATA1_P |   Pins:                                               J32.75 J32A.75 
+   Name:           FRR_SYNC_P |   Pins:                                               J32.81 J32A.81 
+   Name:          FRL_DATA2_N |   Pins:                                               J32.99 J32A.99 
+   Name:       EDL_HSSAER_3_P |   Pins:                                             J32.163 J32A.163 
+   Name:       EDL_HSSAER_2_N |   Pins:                                             J32.159 J32A.159 
+   Name:          FRL_DATA3_P |   Pins:                                               J32.91 J32A.91 
+   Name:          FRR_DATA3_P |   Pins:                                               J32.87 J32A.87 
+   Name:         SKR_HSSAER_P |   Pins:                                             J32.124 J32A.124 
+   Name:       EDL_HSSAER_2_P |   Pins:                                             J32.157 J32A.157 
+   Name:       EDL_HSSAER_3_N |   Pins:                                             J32.165 J32A.165 
+   Name:        FRR_DATACLK_N |   Pins:                                               J32.80 J32A.80 
+   Name:          FRL_DATA1_P |   Pins:                                             J32.133 J32A.133 
+   Name:          FRL_DATA2_P |   Pins:                                               J32.97 J32A.97 
+   Name:           FRR_SYNC_N |   Pins:                                               J32.83 J32A.83 
+   Name:          FRR_DATA2_N |   Pins:                                               J32.74 J32A.74 
+   Name:          FRL_DATA0_P |   Pins:                                             J32.139 J32A.139 
+   Name:          FRL_DATA1_N |   Pins:                                             J32.135 J32A.135 
+   Name:          FRL_DATA3_N |   Pins:                                               J32.93 J32A.93 
+   Name:           FRL_SYNC_P |   Pins:                                               J32.90 J32A.90 
+   Name:           FRL_SYNC_N |   Pins:                                               J32.92 J32A.92 
+   Name:          FRR_DATA1_N |   Pins:                                               J32.77 J32A.77 
+   Name:          FRL_HSCLK_P |   Pins:                                             J32.148 J32A.148 
+   Name:          FRL_HSCLK_N |   Pins:                                             J32.150 J32A.150 
+   Name:         SKL_HSSAER_N |   Pins:                                             J32.106 J32A.106 
+   Name:         SKL_HSSAER_P |   Pins:                                             J32.104 J32A.104 
+   Name:         SKR_HSSAER_N |   Pins:                                             J32.126 J32A.126 
+   Name:          VIN_XU5_3V3 |   Pins:  J31.26 J31.29 J31.50 J31.86 J31A.16 J31A.33 J31A.50 J31A.86 J32.115 J32.127 J32.152 J32.155 J32.55 J32.79 J32A.115 J32A.127 J32A.155 J32A.55 J32A.79  ...
+   Name:        FRL_DATACLK_P |   Pins:                                             J32.123 J32A.123 
+   Name:       EDL_HSSAER_0_N |   Pins:                                               J32.96 J32A.96 
+   Name:       EDL_HSSAER_0_P |   Pins:                                               J32.94 J32A.94 
+   Name:        FRL_DATACLK_N |   Pins:                                             J32.125 J32A.125 
+   Name:          USB3_B_RX_N |   Pins:                                               J32.44 J32A.44 
+   Name:         EDL_MGT_RX_N |   Pins:                                               J32.50 J32A.50 
+   Name:         EDR_MGT_RX_N |   Pins:                                               J32.56 J32A.56 
+   Name:         EDR_MGT_RX_P |   Pins:                                               J32.54 J32A.54 
+   Name:     MGT_PS_REFCLK0_N |   Pins:                                                J32.6 J32A.23 
+   Name:     MGT_PS_REFCLK0_P |   Pins:                                                J32.4 J32A.22 
+   Name:         SPB_MGT_RX_N |   Pins:                                               J32.68 J32A.68 
+   Name:         SPA_MGT_RX_N |   Pins:                                               J32.62 J32A.62 
+   Name:         SPA_MGT_RX_P |   Pins:                                               J32.60 J32A.60 
+   Name:         EDL_MGT_RX_P |   Pins:                                               J32.48 J32A.48 
+   Name:             ETH0_B_P |   Pins:                                             J31.159 J31A.159 
+   Name:          USB3_B_TX_N |   Pins:                                               J32.41 J32A.41 
+   Name:         SPB_MGT_RX_P |   Pins:                                               J32.66 J32A.66 
+   Name:          USB3_B_TX_P |   Pins:                                               J32.37 J32A.20 
+   Name:             ETH0_B_N |   Pins:                                             J31.157 J31A.157 
+   Name:           DUMMYTX2_P |   Pins:                                               J32.51 J32A.51 
+   Name:          USB3_B_RX_P |   Pins:                                               J32.40 J32A.40 
+   Name:             ETH0_C_N |   Pins:                                             J31.151 J31A.151 
+   Name:                  GND |   Pins:  J31.108 J31.109 J31.120 J31.125 J31.13 J31.134 J31.135 J31.138 J31.139 J31.14 J31.142 J31.143 J31.166 J31.167 J31.20 J31.23 J31.32 J31.35 J31.44 J31.47 J31.56 J31.59 J31.68 J31.71 J31.80 J31.83 J31.96 J31.99 J31.F1 J31.F2 J31A.108 J31A.109 J31A.120 J31A.125 J31A.13 J31A.134 J31A.135 J31A.138 J31A.139 J31A.142 J31A.143 J31A.166 J31A.167 J31A.19 J31A.27 J31A.30 J31A.36 J31A.44 J31A.47 J31A.56 J31A.59 J31A.68 J31A.71 J31A.8 J31A.80 J31A.83 J31A.96 J31A.99 J31A.F1 J31A.F2 J32.1 J32.105 J32.11 J32.118 J32.121 J32.134 J32.137 J32.14 J32.146 J32.149 J32.15 J32.158 J32.161 J32.18 J32.19 J32.2 J32.22 J32.23 J32.26 J32.27 J32.30 J32.31 J32.34 J32.35 J32.38 J32.39 J32.42 J32.43 J32.46 J32.49 J32.58 J32.61 J32.70 J32.73 J32.82 J32.85 J32.98 J32.F1 J32.F2 J32A.1 J32A.105 J32A.11 J32A.118 J32A.121 J32A.13 J32A.134 J32A.137 J32A.146 J32A.149 J32A.15 J32A.158 J32A.161 J32A.17 J32A.19 J32A.2 J32A.21 J32A.39 J32A.42 J32A.43 J32A.46 J32A.49 J32A.58 J32A.61 J32A.7 J32A.70 J32A.73 J32A.82 J32A.85 J32A.9 J32A.98 J32A.F1 J32A.F2  ...
+   Name:          ETH0_LED_AN |   Pins:                                             J31.149 J31A.149 
+   Name:             SDIO_CLK |   Pins:                                               J31.91 J31A.91 
+   Name:           DUMMYTX1_N |   Pins:                                               J32.47 J32A.47 
+   Name:             SDIO_CMD |   Pins:                                               J31.93 J31A.93 
+   Name:             ETH0_A_N |   Pins:                                             J31.163 J31A.163 
+   Name:              SDIO_D2 |   Pins:                                             J31.101 J31A.101 
+   Name:              SDIO_D3 |   Pins:                                             J31.103 J31A.103 
+   Name:           BOOT_MODE0 |   Pins:                                             J31.126 J31A.126 
+   Name:           BOOT_MODE1 |   Pins:                                             J31.112 J31A.112 
+   Name:          USB_UART_RX |   Pins:                                             J31.105 J31A.105 
+   Name:          USB_UART_TX |   Pins:                                             J31.107 J31A.107 
+   Name:              CAN0_TX |   Pins:                                             J31.106 J31A.106 
+   Name:              CAN0_RX |   Pins:                                             J31.104 J31A.104 
+   Name:             JTAG_TMS |   Pins:                                             J31.119 J31A.119 
+   Name:             JTAG_TCK |   Pins:                                             J31.123 J31A.123 
+   Name:             JTAG_TDI |   Pins:                                             J31.117 J31A.117 
+   Name:             ETH0_D_N |   Pins:                                             J31.145 J31A.145 
+   Name:             JTAG_TDO |   Pins:                                             J31.121 J31A.121 
+   Name:        QSPI_FLASH_DI |   Pins:                                             J31.114 J31A.114 
+   Name:          ETH0_LED_BN |   Pins:                                             J31.161 J31A.161 
+   Name:             ETH0_C_P |   Pins:                                             J31.153 J31A.153 
+   Name:              SDIO_D0 |   Pins:                                               J31.95 J31A.95 
+   Name:              SDIO_D1 |   Pins:                                               J31.97 J31A.97 
+   Name:          I2C_SKX_SCL |   Pins:                                               J31.85 J31A.85 
+   Name:       QSPI_FLASH_CSN |   Pins:                                             J31.116 J31A.116 
+   Name:          EDL_SPARE_N |   Pins:                                               J31.24 J31A.32 
+   Name:          EDR_SPARE_N |   Pins:                                               J31.36 J31A.38 
+   Name:          SPA_SPARE_P |   Pins:                                               J31.28 J31A.34 
+   Name:             SPI_MISO |   Pins:                                               J31.57 J31A.57 
+   Name:             SPI_MOSI |   Pins:                                               J31.55 J31A.55 
+   Name:        FRL_MONITOR_1 |   Pins:                                               J31.75 J31A.75 
+   Name:        FRR_MONITOR_1 |   Pins:                                               J31.66 J31A.66 
+   Name:      I2C_EDX_SPX_SCL |   Pins:                                                J31.15 J31A.9 
+   Name:          I2C_SKL_SDA |   Pins:                                               J31.87 J31A.87 
+   Name:          SPA_SPARE_N |   Pins:                                               J31.30 J31A.35 
+   Name:      I2C_EDL_SPA_SDA |   Pins:                                               J31.17 J31A.10 
+   Name:          SPB_SPARE_P |   Pins:                                               J31.40 J31A.40 
+   Name:             FRX_RSTN |   Pins:                                               J31.52 J31A.52 
+   Name:              MIC_SCK |   Pins:                                               J31.19 J31A.11 
+   Name:       QSPI_FLASH_CLK |   Pins:                                             J31.118 J31A.118 
+   Name:        FRL_MONITOR_0 |   Pins:                                               J31.73 J31A.73 
+   Name:        FRR_MONITOR_0 |   Pins:                                               J31.64 J31A.64 
+   Name:    FRR_TRIGGER_1_HW1 |   Pins:                                               J31.60 J31A.60 
+   Name:          EDL_SPARE_P |   Pins:                                               J31.22 J31A.31 
+   Name:    FRL_TRIGGER_0_HW2 |   Pins:                                               J31.67 J31A.67 
+   Name:        QSPI_FLASH_DO |   Pins:                                             J31.122 J31A.122 
+   Name:    FRR_TRIGGER_0_HW0 |   Pins:                                               J31.58 J31A.58 
+   Name:    FRL_TRIGGER_1_HW3 |   Pins:                                               J31.69 J31A.69 
+   Name:              SPI_SCK |   Pins:                                               J31.61 J31A.61 
+   Name:           I2C_PS_SDA |   Pins:                                             J31.113 J31A.113 
+   Name:             SDIO_CDN |   Pins:                                               J31.98 J31A.98 
+   Name:             PS_SRSTN |   Pins:                                             J31.124 J31A.124 
+   Name:               PSDONE |   Pins:                                             J31.130 J31A.130 
+   Name:           I2C_PS_SCL |   Pins:                                             J31.111 J31A.111 
+   Name:            USB_A_D_P |   Pins:                                             J31.127 J31A.127 
+   Name:            USB_B_D_P |   Pins:                                             J31.131 J31A.131 
+   Name:              VCC_BAT |   Pins:                                             J31.168 J31A.168 
+   Name:               PWR_EN |   Pins:                                               J31.10 J31A.25 
+   Name:            USB_A_D_N |   Pins:                                             J31.129 J31A.129 
+   Name:           VCC_IO_3V3 |   Pins:                 J31.41 J31.74 J31.77 J31A.41 J31A.74 J31A.77 
+   Name:             ETH1_B_N |   Pins:                                             J31.156 J31A.156 
+   Name:             ETH1_A_P |   Pins:                                             J31.164 J31A.164 
+   Name:              PS_PORN |   Pins:                                             J31.132 J31A.132 
+   Name:             ETH1_A_N |   Pins:                                             J31.162 J31A.162 
+   Name:             ETH1_C_P |   Pins:                                             J31.152 J31A.152 
+   Name:           GPIO_PS_44 |   Pins:                                             J31.100 J31A.100 
+   Name:            GPI_PS_12 |   Pins:                                             J31.115 J31A.115 
+   Name:             ETH1_C_N |   Pins:                                             J31.150 J31A.150 
+   Name:             ETH1_D_P |   Pins:                                             J31.146 J31A.146 
+   Name:             ETH1_D_N |   Pins:                                             J31.144 J31A.144 
+   Name:            USB_B_D_N |   Pins:                                             J31.133 J31A.133 
+   Name:             ETH1_B_P |   Pins:                                             J31.158 J31A.158 
+   Name:          PWM_SERVO_1 |   Pins:                                               J31.81 J31A.81 
+   Name:          I2C_SKR_SDA |   Pins:                                               J31.79 J31A.79 
+   Name:          ETH1_LED_AN |   Pins:                                             J31.148 J31A.148 
+   Name:      I2C_EDR_SPB_SDA |   Pins:                                               J31.18 J31A.29 
+   Name:          FRL_CLK_PLL |   Pins:                                               J31.63 J31A.63 
+   Name:          FRR_CLK_PLL |   Pins:                                               J31.54 J31A.54 
+   Name:          EDR_SPARE_P |   Pins:                                               J31.34 J31A.37 
+   Name:          ETH1_LED_BN |   Pins:                                             J31.160 J31A.160 
+   Name:            CLKGEN_LD |   Pins:                                               J31.46 J31A.46 
+   Name:          SPB_SPARE_N |   Pins:                                               J31.42 J31A.42 
+   Name:             IMU_RSTN |   Pins:                                               J31.78 J31A.78 
+   Name:            IMU_BOOTN |   Pins:                                               J31.76 J31A.76 
+   Name:          I2C_IMU_SCL |   Pins:                                               J31.88 J31A.88 
+   Name:          I2C_IMU_SDA |   Pins:                                               J31.90 J31A.90 
+   Name:              IMU_INT |   Pins:                                               J31.70 J31A.70 
+   Name:             PWR_GOOD |   Pins:                                               J31.12 J31A.26 
+   Name:             IMU_SYNC |   Pins:                                               J31.72 J31A.72 
+   Name:               MIC_EN |   Pins:                                               J31.37 J31A.20 
+   Name:             MIC_SDO2 |   Pins:                                               J31.27 J31A.15 
+   Name:          SPI_SSN_FRR |   Pins:                                               J31.49 J31A.49 
+   Name:             MIC_SDO3 |   Pins:                                               J31.31 J31A.17 
+   Name:             MIC_SDO0 |   Pins:                                               J31.21 J31A.12 
+   Name:              CAN1_RX |   Pins:                                               J31.82 J31A.82 
+   Name:              RFE_CLK |   Pins:                                               J31.39 J31A.21 
+   Name:      FPGA_LED_TP_1V8 |   Pins:                                               J31.16 J31A.28 
+   Name:               RFE_DO |   Pins:                                               J31.48 J31A.48 
+   Name:        CLKGEN_RESETN |   Pins:                                               J31.43 J31A.43 
+   Name:          PWM_SERVO_0 |   Pins:                                               J31.94 J31A.94 
+   Name:           CLKGEN_PDN |   Pins:                                               J31.45 J31A.45 
+   Name:               MIC_WS |   Pins:                                               J31.33 J31A.18 
+   Name:              CAN1_TX |   Pins:                                               J31.84 J31A.84 
+   Name:          SPI_SSN_FRL |   Pins:                                               J31.51 J31A.51 
+   Name:               CLK_SP |   Pins:                                               J31.92 J31A.92 
+   Name:             MIC_SDO1 |   Pins:                                               J31.25 J31A.14 
+
+***** No item is about to be removed *****
+
+====================================================================================================
+
+
+Report was generated at: Tuesday, June 08, 2021 16:12:39

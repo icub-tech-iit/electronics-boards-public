@@ -1,0 +1,127 @@
+[2021.04.05 14:53:46] [0000m.00s.006ms] [0] WELCOME
+[2021.04.05 14:53:46] [0000m.00s.007ms] [1] iCDB Server ver.2.208, dhnYMnhXp8dNyuYVKAHyZg, build:17285978 created 2020-09-30 13:40:11, sources stamp:dhnYMnhXp8dNyuYVKAHyZg
+[2021.04.05 14:53:46] [0000m.00s.007ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2021.04.05 14:53:46] [0000m.00s.007ms] [1] Base flow version [VX.2.8]
+[2021.04.05 14:53:46] [0000m.00s.007ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2021.04.05 14:53:46] [0000m.00s.011ms] [1] Machine [CAD-16]  IP [127.0.0.1,192.168.1.146]  User [pcbcad-16]  PID [2248]
+[2021.04.05 14:53:46] [0000m.00s.011ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2021.04.05 14:53:46] [0000m.00s.011ms] [1] Current working dir [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\back_end]
+[2021.04.05 14:53:46] [0000m.00s.011ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MentorGraphics\PADSVX.2.2\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD]
+[2021.04.05 14:53:46] [0000m.00s.012ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2021.04.05 14:53:46] [0000m.00s.012ms] [1] SDD_PLATFORM [win32]
+[2021.04.05 14:53:46] [0000m.00s.012ms] [1] WDIR [D:\Jobs\PCB Design;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2021.04.05 14:53:46] [0000m.00s.012ms] [1] Local iCDB working dir [D:\Jobs\PCB Design\iCDB] on file system [NTFS]
+[2021.04.05 14:53:46] [0000m.00s.012ms] [2] S: Loading config files
+[2021.04.05 14:53:46] [0000m.00s.015ms] [1] Config file [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database\cdbsvr\Server.cfg] not found
+[2021.04.05 14:53:46] [0000m.00s.017ms] [3] S: Config loaded
+[2021.04.05 14:53:46] [0000m.00s.021ms] [0] S: Project path [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database] on file system [NTFS]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Project global path [\\CAD-16\D\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database] on file system [NTFS]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [1] S: WARNING: No project file (.prj) path specified
+[2021.04.05 14:53:46] [0000m.00s.023ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Single-user mode (auto)
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Event polling mode autodetection
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Started up automatically by iCDB Client: CAD-16:pcbcad-16:4392
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Auto close mode
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: Database ID [9583-e586-2e35-3ff1-183c-a607-83ca-6060-7e9f-eddb-8ca9-86c5]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: BEGIN dumping
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: Local -> global path prefix list
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [C:\Windows\system32\spool\drivers] -> [\\CAD-16\print$]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [Samsung M2070 Series,LocalsplOnly] -> [\\CAD-16\Samsung M2070 Series]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [C:\Users] -> [\\CAD-16\Users]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [D:\] -> [\\CAD-16\D]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [G:\] -> [\\CAD-16\G]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: Global -> local path prefix list
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [\\CAD-16\Samsung M2070 Series] -> [Samsung M2070 Series,LocalsplOnly]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [\\CAD-16\print$] -> [C:\Windows\system32\spool\drivers]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [\\CAD-16\Users] -> [C:\Users]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [\\CAD-16\D] -> [D:\]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: [\\CAD-16\G] -> [G:\]
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] PathTranslator: END dumping
+[2021.04.05 14:53:46] [0000m.00s.023ms] [0] S: START
+[2021.04.05 14:53:46] [0000m.00s.024ms] [0] S: Server startup lock file created
+[2021.04.05 14:53:46] [0000m.00s.024ms] [0] S: Listening for client connections on port [10000]
+[2021.04.05 14:53:46] [0000m.00s.024ms] [0] S: Server network ID [CAD-16:192.168.1.146,CAD-16:10000]
+[2021.04.05 14:53:46] [0000m.00s.024ms] [0] S: Server GUID [8d76-a216-1d02-f076-a580-b600-680b-6060-f59f-eddb-8ca9-86c5]
+[2021.04.05 14:53:46] [0000m.00s.024ms] [0] S: Project GUID [9583-e586-2e35-3ff1-183c-a607-83ca-6060-7e9f-eddb-8ca9-86c5]
+[2021.04.05 14:53:46] [0000m.00s.025ms] [0] S: Wrote data to server address file
+[2021.04.05 14:53:46] [0000m.00s.025ms] [0] S: Server startup lock file removed
+[2021.04.05 14:53:46] [0000m.00s.025ms] [0] ProjectBackupManager: WARNING: Could not create Project Backup - functionality not initialized
+[2021.04.05 14:53:46] [0000m.00s.176ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2021.04.05 14:53:46] [0000m.00s.176ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\iCDB\win32\bin]
+[2021.04.05 14:53:46] [0000m.00s.176ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin]
+[2021.04.05 14:53:46] [0000m.00s.176ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2021.04.05 14:53:46] [0000m.00s.176ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2021.04.05 14:53:46] [0000m.00s.176ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2021.04.05 14:53:46] [0000m.00s.176ms] [0] S: Local disc access time: 58 us
+[2021.04.05 14:53:46] [0000m.00s.176ms] [0] S: File server access time: 26 us
+[2021.04.05 14:53:46] [0000m.00s.180ms] [0] Single file [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database\icdb.dat] size [1166080 (1.1 MB)]
+[2021.04.05 14:53:46] [0000m.00s.180ms] [1] Single file [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database\icdb.dat] opened in read-write mode
+[2021.04.05 14:53:46] [0000m.00s.180ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.180ms] [0] Database GUARD OK: [1166080]
+[2021.04.05 14:53:46] [0000m.00s.180ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.180ms] [0] Database GUARD OK: [1166080]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] Database GUARD OK: [1166080]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] Database GUARD OK: [1166080]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.182ms] [0] Database GUARD OK: [1166080]
+[2021.04.05 14:53:46] [0000m.00s.183ms] [0] SingleFile: [1c5f-7a69-3ea9-2628] SFI version check [1009] [1009]
+[2021.04.05 14:53:46] [0000m.00s.186ms] [0] SingleFile: [1c5f-7a69-3ea9-2628] Database SFI header has been read in [3ms 137us]
+[2021.04.05 14:53:46] [0000m.00s.190ms] [0] iCDB Server PI: Server & plugin session [1353]
+[2021.04.05 14:53:46] [0000m.00s.190ms] [0] iCDB Server PI: Opening database [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database]
+[2021.04.05 14:53:46] [0000m.00s.190ms] [0] iCDB Server PI: Database [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database] opened
+[2021.04.05 14:53:46] [0000m.00s.204ms] [0] iCDB Database: Checking existence of constraint definitions
+[2021.04.05 14:53:46] [0000m.00s.204ms] [0] iCDB Database: Checking constraint definitions version
+[2021.04.05 14:53:46] [0000m.00s.224ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.75] up to date
+[2021.04.05 14:53:46] [0000m.00s.226ms] [0] iCDB Server PI: Initializing plugins
+[2021.04.05 14:53:46] [0000m.00s.226ms] [0] iCDB Server PI: Plugins initialized
+[2021.04.05 14:53:46] [0000m.00s.226ms] [0] S: iCDB database loaded
+[2021.04.05 14:53:46] [0000m.00s.227ms] [0] S: Starting threads
+[2021.04.05 14:53:46] [0000m.00s.227ms] [0] BT: Listening for broadcast messages on port [10000]
+[2021.04.05 14:53:46] [0000m.00s.228ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2021.04.05 14:53:46] [0000m.00s.228ms] [0] ProjectBackupManager: WARNING: Could not startup Project Backup engine - functionality not initialized
+[2021.04.05 14:53:46] [0000m.00s.229ms] [0] IT: Session [1354] for host [CAD-16] user [pcbcad-16] client type[0] clsvrPluginID[0] with process ID [4392] created
+[2021.04.05 14:53:46] [0000m.00s.229ms] [0] MWT: WindowProc: WM_NCCREATE
+[2021.04.05 14:53:46] [0000m.00s.230ms] [1] SC[1354]: Registered sub-client [iCDBConnector] with ID [1] for session ID [1354] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:46] [0000m.00s.265ms] [1] SC[1354]: UnRegistered sub-client [iCDBConnector] with ID [1] for session ID [1354] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:47] [0000m.00s.327ms] [1] CMT: There are [1] clients now: 1354
+[2021.04.05 14:53:47] [0000m.00s.327ms] [1] CMT: Removed client [1354]
+[2021.04.05 14:53:47] [0000m.00s.327ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2021.04.05 14:53:47] [0000m.00s.784ms] [0] IT: Session [1355] for host [CAD-16] user [pcbcad-16] client type[0] clsvrPluginID[0] with process ID [4392] created
+[2021.04.05 14:53:47] [0000m.00s.786ms] [1] SC[1355]: Registered sub-client [PADSLayout] with ID [1] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:47] [0000m.00s.824ms] [1] ProjectBackupManager: Client [ClientData[ClientNetAddress[CAD-16] # ClientUserName[pcbcad-16] # ClientProcessID[4392] # SessionID[1355] # Type[0]] # SubClientData[SubClientName[] # SubClientID[0]]] set project file (.prj): local path [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\UZCB.prj], global path [\\CAD-16\D\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\UZCB.prj]
+[2021.04.05 14:53:47] [0000m.00s.863ms] [1] SC[1355]: Registered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:48] [0000m.01s.887ms] [1] PrjBackupMgr: Successfully created Project Backup [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\ProjectBackup\backups\2021-04-05 14.53.47 - auto.zip] with GUID [7dfb-b3c2-586b-8db1-b580-b601-680b-6060-bb9f-eddb-8ca9-86c5]
+[2021.04.05 14:53:48] [0000m.01s.887ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[17e0-5762-0cd9-66a3-d8e6-8603-9e68-6060-750f-eddb-8ca9-86c5] CreationTime[Saturday, April 03, 2021 13:33:01] Type[Autosave] Creator[iCDB Server (2021-04-03 15.33.00-6252)] ApplicationName[iCDB Server (2021-04-03 15.33.00-6252)] UserName[pcbcad-16] MachineName[CAD-16] Description[Autosave] FullFlowName[PADS VX.2.8] FlowId[PADSVX.2.8] GBSInstallId[2255257] GBSBuildId[17285978] IcdbVersion[3900] ReferenceLogFilePath[] BackupFilePath[D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\ProjectBackup\backups\2021-04-03 15.33.01 - auto.zip] BackupFileSize[7374398] Persistent[FALSE]
+[2021.04.05 14:53:48] [0000m.01s.888ms] [0] PrjBackupMgr: Project Backup file [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\ProjectBackup\backups\2021-04-03 15.33.01 - auto.zip] with GUID [17e0-5762-0cd9-66a3-d8e6-8603-9e68-6060-750f-eddb-8ca9-86c5] removed
+[2021.04.05 14:53:48] [0000m.01s.888ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[7dfb-b3c2-586b-8db1-b580-b601-680b-6060-bb9f-eddb-8ca9-86c5] CreationTime[Monday, April 05, 2021 12:53:47] Type[Autosave] Creator[iCDB Server (2021-04-05 14.53.46-2248)] ApplicationName[iCDB Server (2021-04-05 14.53.46-2248)] UserName[pcbcad-16] MachineName[CAD-16] Description[Autosave] FullFlowName[PADS VX.2.8] FlowId[PADSVX.2.8] GBSInstallId[2255257] GBSBuildId[17285978] IcdbVersion[3900] ReferenceLogFilePath[] BackupFilePath[D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\ProjectBackup\backups\2021-04-05 14.53.47 - auto.zip] BackupFileSize[7497433] Persistent[FALSE]
+[2021.04.05 14:53:50] [0000m.03s.465ms] [1] SC[1355]: Registered sub-client [StartServerClient2284] with ID [3] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:50] [0000m.03s.466ms] [1] SC[1355]: UnRegistered sub-client [StartServerClient2284] with ID [3] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:51] [0000m.05s.005ms] [1] SC[1355]: Registered sub-client [StartServerClient2284] with ID [4] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:53:51] [0000m.05s.006ms] [1] SC[1355]: UnRegistered sub-client [StartServerClient2284] with ID [4] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:54:05] [0000m.19s.228ms] [0] DFAMT: File server access time: 137 us
+[2021.04.05 14:54:17] [0000m.30s.906ms] [1] SC[1355]: UnRegistered sub-client [iCESPI.PADSLayout] with ID [2] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:54:17] [0000m.30s.908ms] [1] SC[1355]: UnRegistered sub-client [PADSLayout] with ID [1] for session ID [1355] host [CAD-16] user [pcbcad-16] process ID [4392]
+[2021.04.05 14:54:17] [0000m.30s.927ms] [1] CMT: Removed client [1355]
+[2021.04.05 14:54:17] [0000m.30s.927ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2021.04.05 14:54:19] [0000m.32s.327ms] [0] CMT: Starting server auto-close
+[2021.04.05 14:54:19] [0000m.32s.401ms] [0] S: Closing server
+[2021.04.05 14:54:19] [0000m.32s.438ms] [0] iCDB Server PI: Closing plugins
+[2021.04.05 14:54:19] [0000m.32s.438ms] [0] iCDB Server PI: Plugins closed
+[2021.04.05 14:54:19] [0000m.32s.438ms] [0] iCDB Server PI: Unloading database
+[2021.04.05 14:54:19] [0000m.32s.707ms] [0] iCDB Server PI: Saving storage
+[2021.04.05 14:54:19] [0000m.32s.707ms] [0] iCDB Server PI: Closing database
+[2021.04.05 14:54:19] [0000m.32s.756ms] [1] iCDB Server PI: Stats: Database defragmentation: max[4] avg[1] holes[12%] data[97%]
+[2021.04.05 14:54:19] [0000m.32s.757ms] [1] iCDB Server PI: Stats: Database file size [1166080 (1.1 MB)]
+[2021.04.05 14:54:19] [0000m.32s.810ms] [0] iCDB Server PI: Database closed
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [45844] ticks
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [13774] microseconds
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [3]
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [217] commands per second
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: Mem[68513792]
+[2021.04.05 14:54:19] [0000m.32s.810ms] [1] iCDB Server PI: Stats: MemPeak[88707072]
+[2021.04.05 14:54:19] [0000m.32s.810ms] [0] Single file [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06_B\UZVB_Datapackege_Layout_06\database\icdb.dat] closed with size [1166080 (1.1 MB)]
+[2021.04.05 14:54:19] [0000m.32s.928ms] [0] MWT: Destroy the shutdown block reason.
+[2021.04.05 14:54:19] [0000m.32s.929ms] [0] MWT: STOP
+[2021.04.05 14:54:19] [0000m.32s.929ms] [0] S: STOP

@@ -1,0 +1,85 @@
+[2021.04.02 08:43:27] [0000m.10s.727ms] [0] WELCOME
+[2021.04.02 08:43:27] [0000m.10s.727ms] [1] iCDB Database ver.2.208, dhnYMnhXp8dNyuYVKAHyZg, build:17285978 created 2020-09-30 13:40:11, sources stamp:dhnYMnhXp8dNyuYVKAHyZg
+[2021.04.02 08:43:27] [0000m.10s.727ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2021.04.02 08:43:27] [0000m.10s.727ms] [1] Base flow version [VX.2.8]
+[2021.04.02 08:43:27] [0000m.10s.727ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] Machine [CAD-16]  IP [127.0.0.1,192.168.1.146]  User [pcbcad-16]  PID [5600]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] Current working dir [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06\UZVB_Datapackege_Layout_06\back_end]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MentorGraphics\PADSVX.2.2\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] SDD_PLATFORM [win32]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] WDIR [D:\Jobs\PCB Design;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [1] Local iCDB working dir [D:\Jobs\PCB Design\iCDB] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.728ms] [3] WARNING: Database [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06\UZVB_Datapackege_Layout_06\database\icdb.dat] was manually copied
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] File change time:        [2021-04-02 08.41.32]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] File modification time:  [2021-04-01 18.37.06]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Last change time:        [2021-04-01 18.37.06]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Last database open information:
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Time:             [2021-04-01 18.37.11]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Location:         [C:\icub-tech\electronics-boards\uzcb\pads\OUTPUT\UZVB_Datapackege_Layout_06\database\icdb.dat]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Machine:          [IITICUBLAP168]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] User:             [MBorgagni]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] PID:              [45048]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Application:      [iCDB Server]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 18362)]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] WARNING: Regenerating database GUID
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Previous database GUID [dd2d-5154-49bb-05ac-2b6f-5608-b6f5-6060-1d38-58e3-e38e-cd8d]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [3] Current database GUID  [7fd6-c43e-c11b-bff4-f0db-6605-1db6-6060-3bed-eddb-8ca9-86c5]
+[2021.04.02 08:43:27] [0000m.10s.729ms] [0] .
+[2021.04.02 08:43:27] [0000m.10s.731ms] [0] WELCOME
+[2021.04.02 08:43:27] [0000m.10s.731ms] [1] iCDB Database ver.2.208, dhnYMnhXp8dNyuYVKAHyZg, build:17285978 created 2020-09-30 13:40:11, sources stamp:dhnYMnhXp8dNyuYVKAHyZg
+[2021.04.02 08:43:27] [0000m.10s.731ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2021.04.02 08:43:27] [0000m.10s.731ms] [1] Base flow version [VX.2.8]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] Machine [CAD-16]  IP [127.0.0.1,192.168.1.146]  User [pcbcad-16]  PID [5600]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] Current working dir [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06\UZVB_Datapackege_Layout_06\back_end]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MentorGraphics\PADSVX.2.2\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] SDD_PLATFORM [win32]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] WDIR [D:\Jobs\PCB Design;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2021.04.02 08:43:27] [0000m.10s.732ms] [1] Local iCDB working dir [D:\Jobs\PCB Design\iCDB] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] File change time:        [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] File modification time:  [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Last change time:        [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Last database open information:
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Time:             [2021-04-01 18.37.11]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Location:         [C:\icub-tech\electronics-boards\uzcb\pads\OUTPUT\UZVB_Datapackege_Layout_06\database\icdb.dat]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Machine:          [IITICUBLAP168]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] User:             [MBorgagni]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] PID:              [45048]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Application:      [iCDB Server]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 18362)]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Database GUID must be regenerated
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Previous database GUID [7fd6-c43e-c11b-bff4-f0db-6605-1db6-6060-3bed-eddb-8ca9-86c5]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [3] Current database GUID  [1333-77ec-8482-1042-f0db-6605-1db6-6060-3bed-eddb-8ca9-86c5]
+[2021.04.02 08:43:27] [0000m.10s.733ms] [0] .
+[2021.04.02 08:43:27] [0000m.10s.735ms] [0] WELCOME
+[2021.04.02 08:43:27] [0000m.10s.735ms] [1] iCDB Database ver.2.208, dhnYMnhXp8dNyuYVKAHyZg, build:17285978 created 2020-09-30 13:40:11, sources stamp:dhnYMnhXp8dNyuYVKAHyZg
+[2021.04.02 08:43:27] [0000m.10s.735ms] [1] Copyright Siemens 2020\r\n\r\nTHIS WORK CONTAINS TRADE SECRET AND CONFIDENTIAL\r\nINFORMATION WHICH ARE THE PROPERTY OF MENTOR\r\nGRAPHICS CORPORATION OR ITS LICENSORS AND IS\r\nSUBJECT TO LICENSE TERMS.
+[2021.04.02 08:43:27] [0000m.10s.735ms] [1] Base flow version [VX.2.8]
+[2021.04.02 08:43:27] [0000m.10s.735ms] [1] Install Id [2255257], Flow Id [PADS VX.2.8], Full Flow Name [PADS VX.2.8], Exact Access Date [2020/10/01]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] Machine [CAD-16]  IP [127.0.0.1,192.168.1.146]  User [pcbcad-16]  PID [5600]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] Current working dir [D:\Jobs\PCB Design\FAE\UZCB\CONSEGNA\PCB\UZVB_Datapackege_Layout_06\UZVB_Datapackege_Layout_06\back_end]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] PATH [C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.8\MGC_HOME.ixn\lib;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MentorGraphics\PADSVX.2.2\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\CAMCAD;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\CAMCAD]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.8\SDD_HOME] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] SDD_PLATFORM [win32]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] WDIR [D:\Jobs\PCB Design;C:\MentorGraphics\PADSVX.2.8\SDD_HOME\standard;]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [1] Local iCDB working dir [D:\Jobs\PCB Design\iCDB] on file system [NTFS]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] File change time:        [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] File modification time:  [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Last change time:        [2021-04-02 08.43.27]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Last database open information:
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Time:             [2021-04-01 18.37.11]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Location:         [C:\icub-tech\electronics-boards\uzcb\pads\OUTPUT\UZVB_Datapackege_Layout_06\database\icdb.dat]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Machine:          [IITICUBLAP168]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] User:             [MBorgagni]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] PID:              [45048]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Application:      [iCDB Server]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Operating system: [Microsoft Windows 10 Business Edition, 64-bit (build 18362)]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Database GUID must be regenerated
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Previous database GUID [1333-77ec-8482-1042-f0db-6605-1db6-6060-3bed-eddb-8ca9-86c5]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [3] Current database GUID  [b8d4-2faa-82bd-143f-f0db-6605-1db6-6060-3bed-eddb-8ca9-86c5]
+[2021.04.02 08:43:27] [0000m.10s.736ms] [0] .

@@ -1,0 +1,188 @@
+Part Lister output for UZCB
+Generated on Wednesday, December 02, 2020
+ |#    |QTY  |Part Number      |Description                                |Value |Ref Designator  |
+----------------------------------------------------------------------------------------------------
+ | 1   | 2   |CAP-0603-X7R-1UF |Multilayer Ceramic Capacitor, 1uF, 16V,    |1uF   |C1,C2           |
+ |     |     |-16V-10TOL       | 10%, X7R, SMD, 0603                       |      |                |
+ | 2   | 1   |CAP-0603-X7R-100 |Multilayer Ceramic Capacitor, 100nF, 100V, |100nF |C3              |
+ |     |     |NF-100V-10TOL    | 10%, X7R, SMD, 0603                       |      |                |
+ | 3   | 51  |CAP-0402-X7R-100 |Multilayer Ceramic Capacitor, 100nF, 16V,  |100nF |C4,C6-C51,C94,  |
+ |     |     |NF-16V-10TOL     | 10%, X7R, SMD, 0402                       |      |C95,C124,C127   |
+ | 4   | 15  |CAP-0805-X5R-10U |Multilayer Ceramic Capacitor, 10uF, 16V,   |10uF  |C5,C52,C96-C98, |
+ |     |     |F-16V-10TOL      | 10%, X5R, SMD, 0805                       |      |C107,C108,C111, |
+ |     |     |                 |                                           |      |C112,C125,C126, |
+ |     |     |                 |                                           |      |C129-C132       |
+ | 5   | 30  |CAP-0402-X5R-1UF |Multilayer Ceramic Capacitor, 1uF, 16V,    |1uF   |C53-C61,        |
+ |     |     |-16V-10TOL       | 10%, X5R, SMD, 0402                       |      |C63-C79,        |
+ |     |     |                 |                                           |      |C121-C123,C128  |
+ | 6   | 1   |CAP-0402-X5R-1UF |                                           |      |C62             |
+ |     |     |-16V-10TOL       |                                           |      |                |
+ | 7   | 2   |CAP-0402-X7R-10N |Multilayer Ceramic Capacitor, 10nF, 50V,   |10nF  |C80,C81         |
+ |     |     |F-50V-10TOL      | 10%, X7R, SMD, 0402                       |      |                |
+ | 8   | 12  |CAP-0402-Y5V-100 |Multilayer Ceramic Capacitor, 100nF, 25V,  |100nF |C82-C93         |
+ |     |     |NF-25V-10TOL     | 10%, Y5V, SMD, 0402                       |      |                |
+ | 9   | 1   |CAP-0603-X7R-120 |Multilayer Ceramic Capacitor, 120nF, 50V,  |120nF |C99             |
+ |     |     |NF-50V-10TOL     | 10%, X7R, SMD, 0603                       |      |                |
+ | 10  | 2   |CAP-0402-C0G-12P |Multilayer Ceramic Capacitor, 12pF, 50V,   |12pF  |C100,C101       |
+ |     |     |F-50V-5TOL       | 5%, C0G, SMD, 0402                        |      |                |
+ | 11  | 1   |CAP-0402-X7R-6N8 |Multilayer Ceramic Capacitor, 6.8nF, 50V,  |6.8nF |C102            |
+ |     |     |-50V-5TOL        | 5%, X7R, SMD, 0402                        |      |                |
+ | 12  | 2   |CAP-0402-C0G-100 |Multilayer Ceramic Capacitor, 100pF, 50V,  |100pF |C103,C104       |
+ |     |     |PF-50V-5TOL      | 5%, C0G, SMD, 0402                        |      |                |
+ | 13  | 8   |CAP-0805-X7R-100 |Multilayer Ceramic Capacitor, 100nF, 50V,  |100nF |C105,C106,C109, |
+ |     |     |NF-50V-10TOL     | 10%, X7R, SMD, 0805                       |      |C110,C113-C116  |
+ | 14  | 1   |CAP-0402-C0G-33P |Multilayer Ceramic Capacitor, 33pF, 50V,   |33pF  |C117            |
+ |     |     |F-50V-5TOL       | 5%, C0G, SMD, 0402                        |      |                |
+ | 15  | 1   |CAP-0402-C0G-82P |Multilayer Ceramic Capacitor, 82pF, 50V,   |82pF  |C118            |
+ |     |     |F-50V-5TOL       | 5%, C0G, SMD, 0402                        |      |                |
+ | 16  | 2   |CAP-0402-X7R-220 |Multilayer Ceramic Capacitor, 220nF, 16V,  |220nF |C119,C120       |
+ |     |     |NF-16V-10TOL     | 10%, X7R, SMD, 0402                       |      |                |
+ | 17  | 3   |CAP-TANT-7343-47 |Tantalum Capacitor, 47uF, 35V, 10%, SMD,   |47uF  |C133-C135       |
+ |     |     |UF-35V-10TOL     | 7343, h.4.1mm                             |      |                |
+ | 18  | 1   |MBRS360T3G       |Diode schottky, Vrrm: 60V, If: 3A,         |MBRS3 |D1              |
+ |     |     |                 | Ifms: 80A, SMD, DO214AB                   |60T3G |                |
+ | 19  | 4   |DVIULC6-4SC6     |Diode ESD protection, Vbr: 6V, Vpp: 1.5kV, |DVIUL |D3-D6           |
+ |     |     |                 | Irm: 0.5uA, SMD, SOT23-6                  |C6-4S |                |
+ |     |     |                 |                                           |C6    |                |
+ | 20  | 2   |SP3012-04HTG     |Diode ESD protection (x USB3), Vbr: 6V,    |SP301 |D8,D9           |
+ |     |     |                 | Vpp: 12kV/air-25kV/cont, Irm: 1.5uA, SMD, |2-04H |                |
+ |     |     |                 | SOT23-6                                   |TG    |                |
+ | 21  | 1   |BAS16LD          |Diode high speed switching, Vrrm: 100V,    |BAS16 |D10             |
+ |     |     |                 | If: 215mA, Ifms: 4A, SMD, SOD882D         |LD    |                |
+ | 22  | 1   |LED-0402-GREEN-1 |Led diode, green, 1.9V, 1mA, 2.1mcd, SMD,  |SML-P |DL3             |
+ |     |     |V9-2MCD1         | 0402                                      |11MTT |                |
+ |     |     |                 |                                           |86R   |                |
+ | 23  | 1   |LED-0402-RED-1V8 |Led diode, red, 1.8V, 1mA, 2.5mcd, SMD,    |SML-P |DL4             |
+ |     |     |-2MCD5           | 0402                                      |11UTT |                |
+ |     |     |                 |                                           |86R   |                |
+ | 24  | 1   |LED-0402-ORANGE- |Led diode, orange, 1.9V, 1mA, 7.3mcd, SMD, |SML-P |DL5             |
+ |     |     |1V9-7MCD3        | 0402                                      |11DTT |                |
+ |     |     |                 |                                           |86R   |                |
+ | 25  | 1   |LED-0603-GREEN-2 |Led diode, green, 2V, 20mA, 40mcd, SMD,    |SML-5 |DL6             |
+ |     |     |V-40MCD          | 0603                                      |12MWT |                |
+ |     |     |                 |                                           |86R   |                |
+ | 26  | 1   |LED-0603-YELLOW- |Led diode, yellow, 2.5V, 30mA, 350mcd,     |OVS-0 |DL7             |
+ |     |     |2V5-350mcd       | SMD, 0603                                 |606   |                |
+ | 27  | 2   |FUSEPTC-1210-4A- |PTC resettable fuse, I trip 4A, I hold 2A, |4A    |F1,F2           |
+ |     |     |2A               | SMD, 1210                                 |      |                |
+ | 28  | 10  |FBEAD-0402-120RX |Ferrite bead, 500mA, 120R@100MHz, SMD,     |120R@ |FL1-FL6,FL9,    |
+ |     |     |100MHZ-0A5       | 0402                                      |100MH |FL10,FL27,FL28  |
+ |     |     |                 |                                           |z     |                |
+ | 29  | 2   |FBEAD-0603-120RX |Ferrite bead, 3A, 120R @100MHz, SMD, 0603  |120R  |FL17,FL18       |
+ |     |     |100MHZ-3A        |                                           |@100M |                |
+ |     |     |                 |                                           |Hz    |                |
+ | 30  | 6   |CM-CHOKE-1012-80 |Common mode choke, 80R, 100mA, 12.5Vdc,    |80R@1 |FL19-FL24       |
+ |     |     |R-0A1-12VDC      | SMD, 1.25x1.0x0.3mm                       |00MHz |                |
+ | 31  | 2   |CM-CHOKE-0805-18 |Common mode choke, 180R, 300mA, 50Vdc,     |180R@ |FL25,FL26       |
+ |     |     |0R-0A3-50VDC     | SMD, 2x1.2mm                              |100MH |                |
+ |     |     |                 |                                           |z     |                |
+ | 32  | 4   |NMH3_2           |                                           |      |H1-H4           |
+ | 33  | 4   |NMH2_6           |                                           |      |H5-H8           |
+ | 34  | 1   |MOLEX-MICROSDPP- |PCB connector, Micro SD Push-push,         |50339 |J1              |
+ |     |     |8X1-FEM90-P110   | 8 contacts, 1 row, female, p.1.1mm, 90°, |8-189 |                |
+ |     |     |                 | w to b, lock, key                         |2     |                |
+ | 35  | 6   |IPEX-CABLINE-30X |PCB connector, I-PEX 30 contacts,          |20525 |J2,J3,J13-J16   |
+ |     |     |1-FEMSTR-P40     | Receptacles, 1 rows, p.0.4mm, Straight,   |-030E |                |
+ |     |     |                 | w to b, lock, nokey, SMD                  |-02C  |                |
+ | 36  | 6   |PICOLOCK-4X1-MAL |PCB connector, Pico-Lock, 4 contacts,      |50405 |J4-J9           |
+ |     |     |E90-P150         | 1 row, male, p.1.5mm, 90°, w to b, lock, |0-049 |                |
+ |     |     |                 | key, SMD                                  |1     |                |
+ | 37  | 2   |PICOLOCK-6X1-MAL |PCB connector, Pico-Lock, 6 contacts,      |50405 |J10,J11         |
+ |     |     |E90-P150         | 1 row, male, p.1.5mm, 90°, w to b, lock, |0-069 |                |
+ |     |     |                 | key, SMD                                  |1     |                |
+ | 38  | 1   |PICOLOCK-10X1-MA |PCB connector, Pico-Lock, 10 contacts,     |50405 |J12             |
+ |     |     |LE90-P150        | 1 row, male, p.1.5mm, 90°, w to b, lock, |0-109 |                |
+ |     |     |                 | key, SMD                                  |1     |                |
+ | 39  | 1   |SAMTEC-FTSH-103- |PCB connector, SAMTEC FTSH-110-01-L-DH,    |FTSH1 |J17             |
+ |     |     |01-L-DV          | 6 contacts, 2 rows, p.1mm, b to flat,     |03-01 |                |
+ |     |     |                 | SMD, straight                             |-L-DV |                |
+ | 40  | 2   |USB3_TYPE_C_1240 |USB socket, Type C, USB3.1, SMD,           |      |J19,J20         |
+ |     |     |1598E4           | Amphenol 24 Pin                           |      |                |
+ | 41  | 1   |MOLEX-UUSB-B-5-F |PCB connector, microUSB type B, 5 contact, |47346 |J26             |
+ |     |     |EM90_NO-FLANGES  | socket, 90°, w to b, without flanges,    |-1001 |                |
+ |     |     |                 | SMD                                       |      |                |
+ | 42  | 2   |HIROSE-FX10A-168 |PCB connector, FX10, 168 contacts, 2 rows, |FX10A |J27,J28         |
+ |     |     |P-SV             | receptacle, p. 0.5 mm, Straight, b to b,  |-168P |                |
+ |     |     |                 | lock, key, SMD                            |-SV(9 |                |
+ |     |     |                 |                                           |3)    |                |
+ | 43  | 1   |AMPHENOL-98424-G |PCB connector, Minitek, 10 contacts,       |98424 |J50             |
+ |     |     |52-10LF          | 2 row, male, p.2mm, Straight, w to b,     |-G52- |                |
+ |     |     |                 | nolock, key, SMD                          |10    |                |
+ | 44  | 37  |RES-0402-10K-1TO |Resistor Thick film, 10K, 0.063W, 1%, SMD, |      |R1-R3,R15-R43,  |
+ |     |     |L                | 0402                                      |      |R158-R162       |
+ | 45  | 2   |RES-0402-4K12-1T |Resistor Thick film, 4K12, 0.063W, 1%,     |      |R44,R45         |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 46  | 1   |RES-0402-324K-1T |Resistor Thick film, 324K, 0.063W, 1%,     |      |R46             |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 47  | 14  |RES-0201-100R-1T |Resistor Thick film, 100R, 0.05W, 1%, SMD, |      |R47,R48,        |
+ |     |     |OL               | 0201                                      |      |R144-R155       |
+ | 48  | 2   |RES-0402-22R-1TO |Resistor Thick film, 22R, 0.063W, 1%, SMD, |      |R49,R50         |
+ |     |     |L                | 0402                                      |      |                |
+ | 49  | 57  |RES-0402-0R-1TOL |Resistor Thick film, 0R, 0.063W, 1%, SMD,  |      |R51-R78,        |
+ |     |     |                 | 0402                                      |      |R82-R110        |
+ | 50  | 4   |RES-0402-75R-1TO |Resistor Thick film, 75R, 0.063W, 1%, SMD, |      |R111-R114       |
+ |     |     |L                | 0402                                      |      |                |
+ | 51  | 2   |RES-0402-330R-1T |Resistor Thick film, 330R, 0.063W, 1%,     |      |R115,R116       |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 52  | 17  |RES-0402-100R-1T |Resistor Thick film, 100R, 0.063W, 1%,     |      |R117-R132,R134  |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 53  | 1   |RES-0603-5K1-1TO |Resistor Thick film, 5K1, 0.063W, 1%, SMD, |      |R133            |
+ |     |     |L                | 0603                                      |      |                |
+ | 54  | 2   |RES-0201-20K-1TO |Resistor Thick film, 20K, 0.05W, 1%, SMD,  |      |R135,R136       |
+ |     |     |L                | 0201                                      |      |                |
+ | 55  | 1   |RES-0402-1K-1TOL |Resistor Thick film, 1K, 0.063W, 1%, SMD,  |      |R137            |
+ |     |     |                 | 0402                                      |      |                |
+ | 56  | 2   |RES-0603-120R-1T |Resistor Thick film, 120R, 0.1W, 1%, SMD,  |      |R138,R139       |
+ |     |     |OL               | 0603                                      |      |                |
+ | 57  | 1   |RES-0402-47K-1TO |Resistor Thick film, 47K, 0.063W, 1%, SMD, |      |R140            |
+ |     |     |L                | 0402                                      |      |                |
+ | 58  | 1   |RES-0805-820R-1T |Resistor Thick film, 820R, 0.1W, 1%, SMD,  |      |R142            |
+ |     |     |OL               | 0805                                      |      |                |
+ | 59  | 1   |RES-0402-390R-1T |Resistor Thick film, 390R, 0.063W, 1%,     |      |R143            |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 60  | 2   |RES-0402-1K5-1TO |Resistor Thick film, 1K5, 0.063W, 1%, SMD, |      |R156,R157       |
+ |     |     |L                | 0402                                      |      |                |
+ | 61  | 1   |RES-0402-220K-1T |Resistor Thick film, 220K, 0.063W, 1%,     |      |R163            |
+ |     |     |OL               | SMD, 0402                                 |      |                |
+ | 62  | 2   |CUS-12TB         |SWITCH SLIDE SPDT 300MA 4V                 |      |S1,S2           |
+ | 63  | 1   |TERMINAL-TEST-S2 |Test point, SMD,  0603                     |S2761 |TP1             |
+ |     |     |761-0603         |                                           |-46R  |                |
+ | 64  | 1   |LTM4622AEV       |Not insulated, DC/DC Converter,            |LTM46 |U1              |
+ |     |     |                 | Vin 3.6/20V, Vout ADJ 0.6/2.5V, SMD,      |22AEV |                |
+ |     |     |                 | LGA6X6-25                                 |      |                |
+ | 65  | 1   |24LC256          |EEPROM memory, 256kbit, 400kHz, 2.5/5.5V,  |24LC2 |U3              |
+ |     |     |                 | SMD, DFN8                                 |56    |                |
+ | 66  | 4   |PTN36221AHXZ     |USB interface, Redriver USB Superspeed,    |PTN36 |U6-U9           |
+ |     |     |                 | USB 3.0, 1.8V, X2QFN12                    |221AH |                |
+ |     |     |                 |                                           |XZ    |                |
+ | 67  | 1   |H5120NL          |Transformer LAN, 1000BASE-T single port,   |H5120 |U10             |
+ |     |     |                 | p.1.27mm, SMD                             |NL    |                |
+ | 68  | 1   |SI7051-A20-IM    |Temperature sensor, local, low voltage,    |SI705 |U11             |
+ |     |     |                 | digital, I2C, 14 bits, -40/+125C°,       |1-A20 |                |
+ |     |     |                 | 1.9/3.6V, SMD, 6-WDFN I2C addresses 0x40  |-IM   |                |
+ | 69  | 1   |AD9522-1BCPZ     |                                           |      |U13             |
+ | 70  | 2   |TCAN334DCNT      |CAN Transceiver with CAN FD (Flexible Data |TCAN3 |U14,U15         |
+ |     |     |                 | Rate), 3.3V, SMD, SOT23-8                 |34DCN |                |
+ |     |     |                 |                                           |T     |                |
+ | 71  | 1   |BNO055           |Nine axis IMU (accelerometer, gyroscope,   |BNO05 |U16             |
+ |     |     |                 | compass), integrated cortex M0, 13.7mA,   |5     |                |
+ |     |     |                 | 2.4/3.6V, SMD, LGA5X4-28                  |      |                |
+ | 72  | 1   |KEYSTONE3000     |                                           |      |U17             |
+ | 73  | 1   |TXS02612RTWR     |SDIO port expander with voltage level tran |TXS02 |U18             |
+ |     |     |                 |slation, 1.1/3.6V, 60MHz, SMD, QFN4X4-24   |612RT |                |
+ |     |     |                 |                                           |WR    |                |
+ | 74  | 1   |CP2102N-A02-GQFN |USB Interface IC USBXpress - USB to UART B |CP210 |U19             |
+ |     |     |20R              |ridge, SMD, QFN3X3-20                      |2N-A0 |                |
+ |     |     |                 |                                           |2-GQF |                |
+ |     |     |                 |                                           |N20R  |                |
+ | 75  | 1   |LSF0108RKSR      |Auto-BidirectionalMulti-VoltageLevel Trans |LSF01 |U20             |
+ |     |     |                 |lator, 8 channels                          |08RKS |                |
+ |     |     |                 |                                           |R     |                |
+ | 76  | 1   |C1E-25MHZ-12PF-3 |Quartz, 25MHz, 30ppm, SMD, 2x1.6mm         |C1E-2 |Y1              |
+ |     |     |0PPM             |                                           |5.000 |                |
+ |     |     |                 |                                           |-12-3 |                |
+ |     |     |                 |                                           |030-X |                |
+ | 77  | 1   |ST2012SB32768C0H |Quartz, 32.768KHz, 20ppm, SMD, 2x1.2mm     |ST201 |Y2              |
+ |     |     |PWBB             |                                           |2SB32 |                |
+ |     |     |                 |                                           |768C0 |                |
+ |     |     |                 |                                           |HPWBB |                |

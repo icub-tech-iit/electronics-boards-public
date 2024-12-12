@@ -1,0 +1,18 @@
+- QSPI (MIO, XU5)
+- ETH0 (MIO, XU5)
+- ETH1 (EMIO, XU5)
+- UART to USB (MIO/EMIO, UZCB)
+- USB3 #0 (GTR2, UZCB)
+- USB3 #1 (GTR3, UZCB)
+- I2C_PS #1 (MIO)
+- I2C_PS #2 (MIO) - opzionale
+- I2C_PL #3
+- I2C_PL #4
+- I2C_PL #N - opzionale
+- CAN #1 (MIO/EMIO, UZCB)
+- CAN #2 (MIO/EMIO, UZCB) - opzionale
+- SPI_PS #1 (MIO/EMIO, 3 CS)
+- SPI_PS #2 (MIO/EMIO, 3 CS)
+- SPI_PL + I2C_PL #1 (IO, 4 CS)
+- SPI_PL + I2C_PL #2 (IO, 4 CS)
+- GTP

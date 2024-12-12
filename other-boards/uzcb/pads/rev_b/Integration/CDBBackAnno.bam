@@ -1,0 +1,1341 @@
+
+/* Sym: 04E18A20  Path 1: UZCB  Page 1: UZCB(Mercury XU5) */
+CHANGE 'UZCB(Mercury XU5)' 	INSTANCE
+  SELECT COMP $1I8531                 /* Reference Desig is J13 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I7440                 /* Reference Desig is R147 */
+    PARAM 'Part Name' = 'RES-0402-100R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I72                 /* Reference Desig is J32 */
+    PARAM 'Part Name' = 'HIROSE-FX10A-168P-SV' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I73                 /* Reference Desig is J33 */
+    PARAM 'Part Name' = 'HIROSE-FX10A-168P-SV' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I8997                 /* Reference Desig is J14 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I7459                 /* Reference Desig is R148 */
+    PARAM 'Part Name' = 'RES-0402-100R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I2867                 /* Reference Desig is C73 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I3160                 /* Reference Desig is C75 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I3159                 /* Reference Desig is C74 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I3162                 /* Reference Desig is C77 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I3161                 /* Reference Desig is C76 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I2810                 /* Reference Desig is C72 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I2791                 /* Reference Desig is C71 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I9032                 /* Reference Desig is J15 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $1I7933                 /* Reference Desig is C78 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E16DF8  Path 1: UZCB  Page 2: UZCB(MicroSD+EEPROM+JTAG) */
+CHANGE 'UZCB(MicroSD+EEPROM+JTAG)' 	INSTANCE
+  SELECT COMP $3I81                 /* Reference Desig is R130 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I74                 /* Reference Desig is R6 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I73                 /* Reference Desig is R5 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I75                 /* Reference Desig is R7 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I71                 /* Reference Desig is R3 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I65                 /* Reference Desig is C112 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3229                 /* Reference Desig is R9 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2475                 /* Reference Desig is R8 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3328                 /* Reference Desig is SW4 */
+    PARAM 'Part Name' = 'CL-SB-12A-01T' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3327                 /* Reference Desig is R10 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I68                 /* Reference Desig is U3 */
+    PARAM 'Part Name' = '24LC256' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I88                 /* Reference Desig is J22 */
+    PARAM 'Part Name' = 'MOLEX-MICROSDPP-8X1-FEM90-P110' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2203                 /* Reference Desig is J16 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I70                 /* Reference Desig is R2 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I72                 /* Reference Desig is R4 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3456                 /* Reference Desig is J21 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2338                 /* Reference Desig is SW1 */
+    PARAM 'Part Name' = 'B3U-3000P-B' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I1698                 /* Reference Desig is D4 */
+    PARAM 'Part Name' = 'DVIULC6-4SC6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2047                 /* Reference Desig is J29 */
+    PARAM 'Part Name' = 'DIGIKEY_SAM1161-03-ND' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3409                 /* Reference Desig is R110 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2852                 /* Reference Desig is R132 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2834                 /* Reference Desig is R131 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2205                 /* Reference Desig is J17 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3454                 /* Reference Desig is J20 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2207                 /* Reference Desig is J18 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2209                 /* Reference Desig is J19 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3285                 /* Reference Desig is SW3 */
+    PARAM 'Part Name' = 'CL-SB-12A-01T' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2411                 /* Reference Desig is SW2 */
+    PARAM 'Part Name' = 'B3U-3000P-B' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2457                 /* Reference Desig is C127 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-10NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2439                 /* Reference Desig is C126 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-10NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I1084                 /* Reference Desig is C79 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2870                 /* Reference Desig is R133 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2888                 /* Reference Desig is R134 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2906                 /* Reference Desig is R135 */
+    PARAM 'Part Name' = 'RES-0402-22R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3181                 /* Reference Desig is R27 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3162                 /* Reference Desig is R26 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3143                 /* Reference Desig is R25 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3124                 /* Reference Desig is R24 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I3085                 /* Reference Desig is R23 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $3I2952                 /* Reference Desig is R22 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E2A478  Path 1: UZCB  Page 3: UZCB(USB3) */
+CHANGE 'UZCB(USB3)' 	INSTANCE
+  SELECT COMP $5I73                 /* Reference Desig is C131 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I67                 /* Reference Desig is R30 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I70                 /* Reference Desig is R33 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I65                 /* Reference Desig is R28 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I69                 /* Reference Desig is R32 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I64                 /* Reference Desig is C113 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1009                 /* Reference Desig is U8 */
+    PARAM 'Part Name' = 'PTN36221AHXZ' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I72                 /* Reference Desig is C130 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I78                 /* Reference Desig is D5 */
+    PARAM 'Part Name' = 'DVIULC6-4SC6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I68                 /* Reference Desig is R31 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I66                 /* Reference Desig is R29 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1012                 /* Reference Desig is C114 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I59                 /* Reference Desig is FL2 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I58                 /* Reference Desig is FL1 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I61                 /* Reference Desig is U7 */
+    PARAM 'Part Name' = 'PTN36221AHXZ' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I52                 /* Reference Desig is C128 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-10NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2315                 /* Reference Desig is C118 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I60                 /* Reference Desig is FL3 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1537                 /* Reference Desig is F1 */
+    PARAM 'Part Name' = 'FUSEPTC-1210-4A-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2299                 /* Reference Desig is C117 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1459                 /* Reference Desig is D7 */
+    PARAM 'Part Name' = 'SP3012-04HTG' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1016                 /* Reference Desig is R36 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1018                 /* Reference Desig is R37 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1021                 /* Reference Desig is C133 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1020                 /* Reference Desig is C132 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1013                 /* Reference Desig is R34 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1015                 /* Reference Desig is R35 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1658                 /* Reference Desig is C137 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1623                 /* Reference Desig is U9 */
+    PARAM 'Part Name' = 'PTN36221AHXZ' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1626                 /* Reference Desig is C115 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1620                 /* Reference Desig is FL4 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1630                 /* Reference Desig is R41 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1627                 /* Reference Desig is R38 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1628                 /* Reference Desig is R39 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1622                 /* Reference Desig is FL6 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1632                 /* Reference Desig is R43 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1663                 /* Reference Desig is D8 */
+    PARAM 'Part Name' = 'SP3012-04HTG' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1657                 /* Reference Desig is C136 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1650                 /* Reference Desig is R44 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1655                 /* Reference Desig is R47 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1653                 /* Reference Desig is R46 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1652                 /* Reference Desig is R45 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1629                 /* Reference Desig is R40 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2382                 /* Reference Desig is C120 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2381                 /* Reference Desig is C119 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I4115                 /* Reference Desig is D2 */
+    PARAM 'Part Name' = 'SCHOTTKY.generic' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1646                 /* Reference Desig is U10 */
+    PARAM 'Part Name' = 'PTN36221AHXZ' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1640                 /* Reference Desig is D6 */
+    PARAM 'Part Name' = 'DVIULC6-4SC6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1635                 /* Reference Desig is C135 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1649                 /* Reference Desig is C116 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1634                 /* Reference Desig is C134 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1621                 /* Reference Desig is FL5 */
+    PARAM 'Part Name' = 'CM-CHOKE-1012-80R-0A1-12VDC' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I1631                 /* Reference Desig is R42 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I3340                 /* Reference Desig is J35 */
+    PARAM 'Part Name' = 'USB3_C_1054500101' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I4379                 /* Reference Desig is R48 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2575                 /* Reference Desig is F2 */
+    PARAM 'Part Name' = 'FUSEPTC-1210-4A-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I2571                 /* Reference Desig is C129 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-10NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I3444                 /* Reference Desig is J36 */
+    PARAM 'Part Name' = 'HIROSE-DF40HC-20DS-04V' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $5I4399                 /* Reference Desig is R49 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E2C960  Path 1: UZCB  Page 4: UZCB(Ethernet) */
+CHANGE 'UZCB(Ethernet)' 	INSTANCE
+  SELECT COMP $6I50                 /* Reference Desig is U11 */
+    PARAM 'Part Name' = 'H5120NL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I54                 /* Reference Desig is R137 */
+    PARAM 'Part Name' = 'RES-0402-75R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I73                 /* Reference Desig is C18 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I63                 /* Reference Desig is R141 */
+    PARAM 'Part Name' = 'RES-0402-330R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I56                 /* Reference Desig is R139 */
+    PARAM 'Part Name' = 'RES-0402-75R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I61                 /* Reference Desig is R140 */
+    PARAM 'Part Name' = 'RES-0402-330R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I53                 /* Reference Desig is R136 */
+    PARAM 'Part Name' = 'RES-0402-75R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I67                 /* Reference Desig is C80 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1299                 /* Reference Desig is C143 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-1NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I55                 /* Reference Desig is R138 */
+    PARAM 'Part Name' = 'RES-0402-75R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I505                 /* Reference Desig is C81 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1409                 /* Reference Desig is DL9 */
+    PARAM 'Part Name' = 'LED-0603-BLUE-4V-100MCD' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1424                 /* Reference Desig is DL11 */
+    PARAM 'Part Name' = 'LED-0603-BLUE-4V-100MCD' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1721                 /* Reference Desig is J34 */
+    PARAM 'Part Name' = 'AMPHENOL-98424-G52-10LF' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I711                 /* Reference Desig is C121 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1814                 /* Reference Desig is DL12 */
+    PARAM 'Part Name' = 'LED-0603-BLUE-4V-100MCD' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1813                 /* Reference Desig is DL10 */
+    PARAM 'Part Name' = 'LED-0603-BLUE-4V-100MCD' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1283                 /* Reference Desig is C142 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-1NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1801                 /* Reference Desig is R142 */
+    PARAM 'Part Name' = 'RES-0402-330R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $6I1802                 /* Reference Desig is R143 */
+    PARAM 'Part Name' = 'RES-0402-330R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 0407AC68  Path 1: UZCB  Page 5: UZCB(Power Supply) */
+CHANGE 'UZCB(Power Supply)' 	INSTANCE
+  SELECT COMP $10I3321                 /* Reference Desig is R73 */
+    PARAM 'Part Name' = 'RES-0402-4K12-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3319                 /* Reference Desig is R12 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3318                 /* Reference Desig is R11 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5501                 /* Reference Desig is C5 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5658                 /* Reference Desig is C8 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5639                 /* Reference Desig is C7 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3329                 /* Reference Desig is U1 */
+    PARAM 'Part Name' = 'LTM4622EV' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3320                 /* Reference Desig is R75 */
+    PARAM 'Part Name' = 'RES-0402-324K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3328                 /* Reference Desig is C90 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5582                 /* Reference Desig is C6 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3326                 /* Reference Desig is C22 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3317                 /* Reference Desig is C19 */
+    PARAM 'Part Name' = 'CAP-0603-X7R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3324                 /* Reference Desig is R13 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3323                 /* Reference Desig is C21 */
+    PARAM 'Part Name' = 'CAP-0603-X7R-100NF-100V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3322                 /* Reference Desig is C20 */
+    PARAM 'Part Name' = 'CAP-0603-X7R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6852                 /* Reference Desig is J4 */
+    PARAM 'Part Name' = 'PICOLOCK-4X1-MALE90-P150' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3288                 /* Reference Desig is D1 */
+    PARAM 'Part Name' = 'SCHOTTKY.generic' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7818                 /* Reference Desig is U13 */
+    PARAM 'Part Name' = 'KEYSTONE3000' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3350                 /* Reference Desig is C3 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3349                 /* Reference Desig is C2 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5677                 /* Reference Desig is C9 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5459                 /* Reference Desig is C4 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6959                 /* Reference Desig is C16 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7130                 /* Reference Desig is C95 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7132                 /* Reference Desig is FL15 */
+    PARAM 'Part Name' = 'FBEAD-0805-220RX100MHZ-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7131                 /* Reference Desig is C17 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7129                 /* Reference Desig is C27 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6664                 /* Reference Desig is FL14 */
+    PARAM 'Part Name' = 'FBEAD-0805-220RX100MHZ-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6958                 /* Reference Desig is C94 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6957                 /* Reference Desig is C26 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I3348                 /* Reference Desig is C1 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5751                 /* Reference Desig is C145 */
+    PARAM 'Part Name' = 'CAP-TANT-7343-47UF-35V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5733                 /* Reference Desig is C144 */
+    PARAM 'Part Name' = 'CAP-TANT-7343-47UF-35V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5814                 /* Reference Desig is C24 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6706                 /* Reference Desig is C93 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6461                 /* Reference Desig is C146 */
+    PARAM 'Part Name' = 'CAP-TANT-7343-47UF-35V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7611                 /* Reference Desig is C32 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7573                 /* Reference Desig is C31 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7574                 /* Reference Desig is C99 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5820                 /* Reference Desig is C10 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7400                 /* Reference Desig is C29 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7378                 /* Reference Desig is C28 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7338                 /* Reference Desig is C98 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7319                 /* Reference Desig is C97 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7612                 /* Reference Desig is C100 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6547                 /* Reference Desig is FL13 */
+    PARAM 'Part Name' = 'FBEAD-0805-220RX100MHZ-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7708                 /* Reference Desig is C147 */
+    PARAM 'Part Name' = 'CAP-TANT-7343-47UF-35V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7300                 /* Reference Desig is C96 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5823                 /* Reference Desig is C12 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5821                 /* Reference Desig is C11 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6705                 /* Reference Desig is C25 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7422                 /* Reference Desig is C30 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6384                 /* Reference Desig is C14 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6365                 /* Reference Desig is C13 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5811                 /* Reference Desig is C23 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5815                 /* Reference Desig is C92 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I5812                 /* Reference Desig is C91 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I6707                 /* Reference Desig is C15 */
+    PARAM 'Part Name' = 'CAP-0805-NPO-15PF-100V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7485                 /* Reference Desig is U18 */
+    PARAM 'Part Name' = 'MAX6741XKTGD3+T' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7779                 /* Reference Desig is FL16 */
+    PARAM 'Part Name' = 'FBEAD-0805-220RX100MHZ-2A' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $10I7504                 /* Reference Desig is R14 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E2F450  Path 1: UZCB  Page 6: UZCB(RFE_Master) */
+CHANGE 'UZCB(RFE_Master)' 	INSTANCE
+  SELECT COMP $8I4513                 /* Reference Desig is R59 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4512                 /* Reference Desig is R58 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4467                 /* Reference Desig is R57 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3514                 /* Reference Desig is J8 */
+    PARAM 'Part Name' = 'PICOLOCK-4X1-MALE90-P150' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3295                 /* Reference Desig is U12 */
+    PARAM 'Part Name' = 'SI7051-A20-IM' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4669                 /* Reference Desig is R61 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3291                 /* Reference Desig is C86 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4668                 /* Reference Desig is R60 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I857                 /* Reference Desig is J5 */
+    PARAM 'Part Name' = 'PICOLOCK-4X1-MALE90-P150' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2345                 /* Reference Desig is C85 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2344                 /* Reference Desig is R56 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2340                 /* Reference Desig is R55 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2331                 /* Reference Desig is C150 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-12PF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4860                 /* Reference Desig is R62 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1861                 /* Reference Desig is R151 */
+    PARAM 'Part Name' = 'RES-0603-120R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1849                 /* Reference Desig is J6 */
+    PARAM 'Part Name' = 'PICOLOCK-4X1-MALE90-P150' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1851                 /* Reference Desig is J7 */
+    PARAM 'Part Name' = 'PICOLOCK-4X1-MALE90-P150' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2327                 /* Reference Desig is C151 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-6N8-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2330                 /* Reference Desig is C149 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-12PF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2343                 /* Reference Desig is C84 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2342                 /* Reference Desig is C83 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2336                 /* Reference Desig is C148 */
+    PARAM 'Part Name' = 'CAP-0603-X7R-120NF-50V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I2319                 /* Reference Desig is U17 */
+    PARAM 'Part Name' = 'BNO055' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1865                 /* Reference Desig is FL17 */
+    PARAM 'Part Name' = 'SRF2012A-181YA' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1859                 /* Reference Desig is C152 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-100PF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1857                 /* Reference Desig is C82 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1864                 /* Reference Desig is FL12 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1863                 /* Reference Desig is FL11 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I1854                 /* Reference Desig is U15 */
+    PARAM 'Part Name' = 'TCAN334DCNT' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3517                 /* Reference Desig is U16 */
+    PARAM 'Part Name' = 'TCAN334DCNT' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3520                 /* Reference Desig is C87 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3523                 /* Reference Desig is R152 */
+    PARAM 'Part Name' = 'RES-0603-120R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3522                 /* Reference Desig is C153 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-100PF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I3525                 /* Reference Desig is FL18 */
+    PARAM 'Part Name' = 'SRF2012A-181YA' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $8I4916                 /* Reference Desig is Y2 */
+    PARAM 'Part Name' = 'NX2012SA-32768KHZ-EXS00A' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E18388  Path 1: UZCB  Page 7: UZCB(Clock Stage) */
+CHANGE 'UZCB(Clock Stage)' 	INSTANCE
+  SELECT COMP $11I5856                 /* Reference Desig is C65 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5894                 /* Reference Desig is U4 */
+    PARAM 'Part Name' = 'SN74AVCH4T245RGYR' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I849                 /* Reference Desig is C42 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3368                 /* Reference Desig is R15 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2716                 /* Reference Desig is R144 */
+    PARAM 'Part Name' = 'RES-0603-5K1-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5353                 /* Reference Desig is J11 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3079                 /* Reference Desig is Y1 */
+    PARAM 'Part Name' = 'C1E-25MHZ-12PF-30PPM' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5217                 /* Reference Desig is C105 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3404                 /* Reference Desig is FL7 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I848                 /* Reference Desig is C41 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I850                 /* Reference Desig is C101 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I799                 /* Reference Desig is C40 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I797                 /* Reference Desig is C38 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I798                 /* Reference Desig is C39 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4807                 /* Reference Desig is C50 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2662                 /* Reference Desig is R74 */
+    PARAM 'Part Name' = 'RES-0402-4K12-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2907                 /* Reference Desig is C47 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5621                 /* Reference Desig is R18 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5620                 /* Reference Desig is R17 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5351                 /* Reference Desig is J9 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5352                 /* Reference Desig is J10 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5233                 /* Reference Desig is C106 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3449                 /* Reference Desig is FL8 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3832                 /* Reference Desig is C48 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3711                 /* Reference Desig is U14 */
+    PARAM 'Part Name' = 'AD9522-1BCPZ' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4968                 /* Reference Desig is C63 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4967                 /* Reference Desig is C62 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4960                 /* Reference Desig is C55 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4966                 /* Reference Desig is C61 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4806                 /* Reference Desig is C49 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1031                 /* Reference Desig is C103 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1012                 /* Reference Desig is C102 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I976                 /* Reference Desig is C43 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4808                 /* Reference Desig is C51 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4959                 /* Reference Desig is C54 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4961                 /* Reference Desig is C56 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I690                 /* Reference Desig is C37 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I674                 /* Reference Desig is C36 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I658                 /* Reference Desig is C35 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I642                 /* Reference Desig is C34 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I626                 /* Reference Desig is C33 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4965                 /* Reference Desig is C60 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4958                 /* Reference Desig is C53 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4969                 /* Reference Desig is C64 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4809                 /* Reference Desig is C52 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3005                 /* Reference Desig is C157 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-220NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2989                 /* Reference Desig is C156 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-4N7-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2973                 /* Reference Desig is C155 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-1NF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I2957                 /* Reference Desig is C154 */
+    PARAM 'Part Name' = 'CAP-0402-C0G-33PF-50V-5TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4344                 /* Reference Desig is R16 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3046                 /* Reference Desig is R156 */
+    PARAM 'Part Name' = 'RES-0402-390R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I3026                 /* Reference Desig is R155 */
+    PARAM 'Part Name' = 'RES-0402-750R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1587                 /* Reference Desig is C104 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1582                 /* Reference Desig is C45 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1581                 /* Reference Desig is C44 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I1583                 /* Reference Desig is C46 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4962                 /* Reference Desig is C57 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4963                 /* Reference Desig is C58 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I4964                 /* Reference Desig is C59 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5712                 /* Reference Desig is R76 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $11I5713                 /* Reference Desig is R77 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E25E70  Path 1: UZCB  Page 8: UZCB(FrameBased PYE Cameras) */
+CHANGE 'UZCB(FrameBased PYE Cameras)' 	INSTANCE
+  SELECT COMP $7I2381                 /* Reference Desig is C139 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2380                 /* Reference Desig is C138 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2389                 /* Reference Desig is C124 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2384                 /* Reference Desig is FL9 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2386                 /* Reference Desig is C123 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2387                 /* Reference Desig is C140 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2394                 /* Reference Desig is J27 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2388                 /* Reference Desig is C141 */
+    PARAM 'Part Name' = 'CAP-0402-Y5V-100NF-25V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2393                 /* Reference Desig is C125 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2395                 /* Reference Desig is J28 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2391                 /* Reference Desig is FL10 */
+    PARAM 'Part Name' = 'FBEAD-0402-120RX100MHZ-0A5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I2382                 /* Reference Desig is C122 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I3880                 /* Reference Desig is R54 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I3879                 /* Reference Desig is R53 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I3878                 /* Reference Desig is R52 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I3877                 /* Reference Desig is R51 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I3876                 /* Reference Desig is R50 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4110                 /* Reference Desig is R165 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4109                 /* Reference Desig is R164 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4105                 /* Reference Desig is R160 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4108                 /* Reference Desig is R163 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4106                 /* Reference Desig is R161 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4107                 /* Reference Desig is R162 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4102                 /* Reference Desig is R159 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $7I4101                 /* Reference Desig is R158 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E178E0  Path 1: UZCB  Page 9: UZCB(MGT_Spare_Ipex) */
+CHANGE 'UZCB(MGT_Spare_Ipex)' 	INSTANCE
+  SELECT COMP $13I3557                 /* Reference Desig is R20 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3707                 /* Reference Desig is R122 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3556                 /* Reference Desig is R19 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3708                 /* Reference Desig is DL1 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3815                 /* Reference Desig is R102 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3645                 /* Reference Desig is R21 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3952                 /* Reference Desig is R123 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3953                 /* Reference Desig is DL2 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3835                 /* Reference Desig is R103 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4043                 /* Reference Desig is R105 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4023                 /* Reference Desig is R104 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2114                 /* Reference Desig is J26 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2110                 /* Reference Desig is C69 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4132                 /* Reference Desig is R125 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4130                 /* Reference Desig is R106 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4133                 /* Reference Desig is DL4 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4134                 /* Reference Desig is R108 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4135                 /* Reference Desig is R109 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4131                 /* Reference Desig is R107 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I1213                 /* Reference Desig is J25 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2621                 /* Reference Desig is R93 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2622                 /* Reference Desig is R94 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2544                 /* Reference Desig is R92 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2108                 /* Reference Desig is C110 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I1200                 /* Reference Desig is C68 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4128                 /* Reference Desig is R124 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2524                 /* Reference Desig is R91 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I2504                 /* Reference Desig is R90 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I4129                 /* Reference Desig is DL3 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I1198                 /* Reference Desig is C109 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3206                 /* Reference Desig is R96 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3211                 /* Reference Desig is R97 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3205                 /* Reference Desig is R95 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3499                 /* Reference Desig is R101 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3404                 /* Reference Desig is R100 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3401                 /* Reference Desig is R99 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $13I3212                 /* Reference Desig is R98 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E26230  Path 1: UZCB  Page 10: UZCB(EventBased Cameras) */
+CHANGE 'UZCB(EventBased Cameras)' 	INSTANCE
+  SELECT COMP $12I1984                 /* Reference Desig is C67 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I1997                 /* Reference Desig is J23 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3715                 /* Reference Desig is J24 */
+    PARAM 'Part Name' = 'IPEX-CABLINE-30X1-FEMSTR-P40' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I1982                 /* Reference Desig is C108 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I60                 /* Reference Desig is C66 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I58                 /* Reference Desig is C107 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3525                 /* Reference Desig is R83 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4308                 /* Reference Desig is R89 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3524                 /* Reference Desig is R82 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4268                 /* Reference Desig is R88 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3441                 /* Reference Desig is R81 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3440                 /* Reference Desig is R80 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3439                 /* Reference Desig is R79 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I3438                 /* Reference Desig is R78 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4134                 /* Reference Desig is R84 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4174                 /* Reference Desig is R86 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4154                 /* Reference Desig is R85 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $12I4194                 /* Reference Desig is R87 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 0407C2E8  Path 1: UZCB  Page 11: UZCB(EventDrivenSkin and Mics) */
+CHANGE 'UZCB(EventDrivenSkin and Mics)' 	INSTANCE
+  SELECT COMP $9I2547                 /* Reference Desig is J1 */
+    PARAM 'Part Name' = 'HIROSE-DF20F-10DP-1V' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2945                 /* Reference Desig is R63 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4917                 /* Reference Desig is C88 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2474                 /* Reference Desig is J31 */
+    PARAM 'Part Name' = 'DIGIKEY_SAM1161-03-ND' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2952                 /* Reference Desig is R65 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2950                 /* Reference Desig is R64 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3252                 /* Reference Desig is R67 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2454                 /* Reference Desig is J30 */
+    PARAM 'Part Name' = 'DIGIKEY_SAM1161-03-ND' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3254                 /* Reference Desig is R69 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3506                 /* Reference Desig is R70 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I5011                 /* Reference Desig is U5 */
+    PARAM 'Part Name' = 'SN74AVCH4T245RGYR' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3507                 /* Reference Desig is R71 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4739                 /* Reference Desig is R119 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4679                 /* Reference Desig is R118 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3754                 /* Reference Desig is R117 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3710                 /* Reference Desig is R115 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I5040                 /* Reference Desig is U6 */
+    PARAM 'Part Name' = 'SN74AVCH4T245RGYR' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3596                 /* Reference Desig is R72 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3251                 /* Reference Desig is R66 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3253                 /* Reference Desig is R68 */
+    PARAM 'Part Name' = 'RES-0402-10K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4759                 /* Reference Desig is R120 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4963                 /* Reference Desig is C89 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I4779                 /* Reference Desig is R121 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3640                 /* Reference Desig is J2 */
+    PARAM 'Part Name' = 'HIROSE-DF20F-10DP-1V' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I3732                 /* Reference Desig is R116 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2753                 /* Reference Desig is R113 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2754                 /* Reference Desig is R114 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2712                 /* Reference Desig is R111 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $9I2713                 /* Reference Desig is R112 */
+    PARAM 'Part Name' = 'RES-0402-0R-1TOL' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 0407BBA8  Path 1: UZCB  Page 12: UZCB(UART) */
+CHANGE 'UZCB(UART)' 	INSTANCE
+  SELECT COMP $17I319                 /* Reference Desig is R1 */
+    PARAM 'Part Name' = 'RES-0402-22K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I57                 /* Reference Desig is U2 */
+    PARAM 'Part Name' = 'CP2102N-A02-GQFN20R' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I56                 /* Reference Desig is D3 */
+    PARAM 'Part Name' = 'DVIULC6-4SC6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I37                 /* Reference Desig is J3 */
+    PARAM 'Part Name' = 'MOLEX-UUSB-B-5-FEM90' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I44                 /* Reference Desig is DL8 */
+    PARAM 'Part Name' = 'LED-0402-RED-1V8-2MCD5' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I52                 /* Reference Desig is C70 */
+    PARAM 'Part Name' = 'CAP-0402-X7R-100NF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I51                 /* Reference Desig is R146 */
+    PARAM 'Part Name' = 'RES-0402-1K5-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I50                 /* Reference Desig is R145 */
+    PARAM 'Part Name' = 'RES-0402-1K5-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I54                 /* Reference Desig is R153 */
+    PARAM 'Part Name' = 'RES-0201-20K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I48                 /* Reference Desig is C111 */
+    PARAM 'Part Name' = 'CAP-0402-X5R-1UF-16V-10TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I43                 /* Reference Desig is R126 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I338                 /* Reference Desig is R157 */
+    PARAM 'Part Name' = 'RES-0402-47K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I55                 /* Reference Desig is R154 */
+    PARAM 'Part Name' = 'RES-0201-20K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $17I45                 /* Reference Desig is DL13 */
+    PARAM 'Part Name' = 'LED-0402-ORANGE-1V9-7MCD3' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E33878  Path 1: UZCB  Page 13: UZCB(LEDs) */
+CHANGE 'UZCB(LEDs)' 	INSTANCE
+  SELECT COMP $18I424                 /* Reference Desig is DL5 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I422                 /* Reference Desig is R127 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I427                 /* Reference Desig is R149 */
+    PARAM 'Part Name' = 'RES-0402-100K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I423                 /* Reference Desig is Q1 */
+    PARAM 'Part Name' = 'ZXMN2B14FH' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1457                 /* Reference Desig is DL6 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1456                 /* Reference Desig is Q2 */
+    PARAM 'Part Name' = 'ZXMN2B14FH' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1460                 /* Reference Desig is R150 */
+    PARAM 'Part Name' = 'RES-0402-100K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1455                 /* Reference Desig is R128 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1622                 /* Reference Desig is DL7 */
+    PARAM 'Part Name' = 'LED-0402-GREEN-1V9-2MCD1' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1620                 /* Reference Desig is R129 */
+    PARAM 'Part Name' = 'RES-0402-1K-1TOL' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $18I1866                 /* Reference Desig is J12 */
+    PARAM 'Part Name' = 'TERMINAL-TEST-S2761-0603' 
+    PARAM 'Part Label' = ' ' 
+
+/* Sym: 04E6EED0  Path 1: UZCB  Page 14: UZCB(Revision) */
+CHANGE 'UZCB(Revision)' 	INSTANCE
+  SELECT COMP $2I316                 /* Reference Desig is H1 */
+    PARAM 'Part Name' = 'MH2_6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I419                 /* Reference Desig is MEC2 */
+    PARAM 'Part Name' = 'PEM_SMTSO-M3-3ET' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I408                 /* Reference Desig is MEC1 */
+    PARAM 'Part Name' = 'PEM_SMTSO-M3-3ET' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I441                 /* Reference Desig is MEC4 */
+    PARAM 'Part Name' = 'PEM_SMTSO-M3-3ET' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I430                 /* Reference Desig is MEC3 */
+    PARAM 'Part Name' = 'PEM_SMTSO-M3-3ET' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I331                 /* Reference Desig is H4 */
+    PARAM 'Part Name' = 'MH2_6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I326                 /* Reference Desig is H3 */
+    PARAM 'Part Name' = 'MH2_6' 
+    PARAM 'Part Label' = ' ' 
+  SELECT COMP $2I321                 /* Reference Desig is H2 */
+    PARAM 'Part Name' = 'MH2_6' 
+    PARAM 'Part Label' = ' ' 
