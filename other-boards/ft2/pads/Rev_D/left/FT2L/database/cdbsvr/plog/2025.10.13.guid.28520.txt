@@ -1,0 +1,30 @@
+[2025.10.13 19:51:19] [0001m.31s.802ms] [0] WELCOME
+[2025.10.13 19:51:19] [0001m.31s.802ms] [1] iCDB Database ver.2.213, H4DnrBmP/DNfNsbuJLm7Hg, build:22184707 created 2023-02-14 20:00:49, sources stamp:H4DnrBmP/DNfNsbuJLm7Hg
+[2025.10.13 19:51:19] [0001m.31s.802ms] [1] Unpublished work. Copyright 2023 Siemens\r\n\r\nThis material contains trade secrets or otherwise confidential\r\ninformation owned by Siemens Industry Software Inc.\r\nor its affiliates (collectively, 'SISW'), or its licensors.\r\nAccess to and use of this information is strictly limited\r\nas set forth in the Customer's applicable agreements with SISW.
+[2025.10.13 19:51:19] [0001m.31s.811ms] [1] Base flow version [VX.2.13]
+[2025.10.13 19:51:19] [0001m.31s.811ms] [1] Install Id [2572135], Flow Id [PADS VX.2.13], Full Flow Name [PADS VX.2.13], Exact Access Date [2023/02/01]
+[2025.10.13 19:51:19] [0001m.31s.811ms] [1] Machine [IITICUBLAP284]  IP [10.10.20.241,127.0.0.1,192.168.1.3]  User [MBorgagni]  PID [28520]
+[2025.10.13 19:51:19] [0001m.31s.811ms] [1] Operating system [Microsoft Windows 8 Enterprise Edition, 64-bit (build 9200)]
+[2025.10.13 19:51:19] [0001m.31s.811ms] [1] Current working dir [C:\iCub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] PATH [C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.13\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.13\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Users\mborgagni\AppData\Local\Microsoft\WindowsApps;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\CAMCAD;C:\Users\mborgagni\AppData\Local\GitHubDesktop\bin;C:\Users\mborgagni\AppData\Local\Programs\Microsoft VS Code\bin;C:\MentorGraphics\PADSVX.2.14\SDD_HOME\CAMCAD;C:\SiemensEDA\PADSVX.2.15\SDD_HOME\CAMCAD;C:\SiemensEDA\PADSVX.2.16\SDD_HOME\CAMCAD]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.13\SDD_HOME] on file system [NTFS]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] SDD_PLATFORM [win32]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] WDIR [C:\PADS Projects;P:\iCubWDIR\WDIR_PADSVX_2_13;C:\MentorGraphics\PADSVX.2.13\SDD_HOME\standard;]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [1] Corporate iCDB working dir [P:\iCubWDIR\WDIR_PADSVX_2_13\iCDB] on file system [NTFS]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] WARNING: Database [C:\iCub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\icdb.dat] was manually copied
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] File change time:        [2025-10-10 15.02.32]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] File modification time:  [2025-10-10 17.02.28]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Last change time:        [2023-07-10 11.06.45]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Last database open information:
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Time:             [2023-07-10 11.02.54]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Location:         [C:\icub-tech\electronics-boards\ft2\pads\Rev_D\left\FT2L\database\icdb.dat]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Machine:          [IITICUBLAP168]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] User:             [MBorgagni]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] PID:              [13676]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Application:      [iCDB Server]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Operating system: [Microsoft Windows 10 Enterprise Edition, 64-bit (build 18362)]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] WARNING: Regenerating database GUID
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Previous database GUID [8412-bc2c-3a74-e54e-20f2-8a48-0f28-a460-6159-c131-0e3b-0aba]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [3] Current database GUID  [a484-8ae2-cee9-80f2-71c3-de8d-1c3d-e860-98f9-5804-908e-cd8d]
+[2025.10.13 19:51:19] [0001m.31s.812ms] [0] .
